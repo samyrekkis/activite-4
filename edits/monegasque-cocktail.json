@@ -1,0 +1,155 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "Reel Instagram de ~15 s pour Le Monégasque, dans le style de la vidéo de référence « Essai » : plans tenus, ambiance cinéma chaude et feutrée, rythme posé. Le cocktail (mojito aux fruits rouges sous le néon Monégasque) est la vedette à la place du brunch, faute de rushs de plats. Puis la déco (salle, luminaires dorés, fauteuil trône, terrasse piscine) et la porte fleurie. Fin : appel à réserver. Musique lounge 100 BPM (1 temps = 0,6 s).",
+  "clips": [
+    {
+      "label": "#1 mojito fruits rouges",
+      "src": "rushes/monegasque/IMG_2399.mp4",
+      "start": 2.94,
+      "end": 5.1,
+      "motion": "zoomIn",
+      "speed": 0.8,
+      "text": [
+        {
+          "content": "Mojito aux fruits rouges",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.4
+        }
+      ]
+    },
+    {
+      "label": "#2 deux cocktails au bar",
+      "src": "rushes/monegasque/IMG_2399.mp4",
+      "start": 0.0,
+      "end": 1.5,
+      "motion": "panLeft",
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#3 table dressée",
+      "src": "rushes/monegasque/IMG_2329.mp4",
+      "start": 0.3,
+      "end": 1.8,
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#4 salle et bar",
+      "src": "rushes/monegasque/IMG_2327.mp4",
+      "start": 2.4,
+      "end": 4.5,
+      "motion": "none",
+      "transitionIn": {
+        "type": "wipe",
+        "direction": "from-left",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#5 luminaires dorés",
+      "src": "rushes/monegasque/IMG_2324.mp4",
+      "start": 0.5,
+      "end": 2.0,
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#6 fauteuil trône",
+      "src": "rushes/monegasque/IMG_2405.mp4",
+      "start": 0.3,
+      "end": 1.8,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-bottom",
+        "duration": 0.3
+      },
+      "text": [
+        {
+          "content": "Un décor magnifique",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.3
+        }
+      ]
+    },
+    {
+      "label": "#7 terrasse piscine",
+      "src": "rushes/monegasque/IMG_2404.mp4",
+      "start": 0.5,
+      "end": 2.0,
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.3
+      },
+      "grade": {
+        "brightness": 0.9,
+        "contrast": 1.05,
+        "saturate": 1.1,
+        "tint": "rgba(255,150,60,0.14)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 porte fleurie",
+      "src": "rushes/monegasque/dji-150228.mp4",
+      "start": 3.9,
+      "end": 6.8,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.3
+      },
+      "text": [
+        {
+          "content": "Le Monégasque",
+          "style": "title",
+          "position": "center",
+          "delay": 0.4
+        }
+      ]
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Brunch & cocktails",
+    "duration": 2.5,
+    "background": "rushes/monegasque/IMG_2399.mp4"
+  },
+  "music": {
+    "src": "music/monegasque-lounge-100bpm.mp3",
+    "volume": 0.8,
+    "fadeOut": 1.5
+  },
+  "overlays": {
+    "grain": 0.06,
+    "vignette": 0.35
+  },
+  "sfx": [
+    {
+      "src": "sfx/glass-clink-synth.mp3",
+      "at": 2.4,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 8.95,
+      "volume": 0.25
+    }
+  ]
+}
