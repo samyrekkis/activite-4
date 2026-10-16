@@ -1,0 +1,221 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Pub Reel Instagram de 15-18 s pour Le Samouraï (Asian Luxury), à partir de vraies vidéos du lieu : fresque du samouraï, lanternes rouges, escalier néon, loge kimono avec miroir, terrasse. Cible 18-35 ans. Objectif : donner envie de vivre l'expérience (décor, shooting kimono) et réserver. Style inspiré de la référence (étalonnage chaud et cinématographique, grain, vignette) mais rythme Samouraï calé sur un beat taiko à 120 BPM (1 temps = 0,5 s).",
+  "clips": [
+    {
+      "label": "#1 fresque samouraï",
+      "src": "rushes/samourai/IMG_2357.mp4",
+      "start": 0.2,
+      "end": 1.9,
+      "motion": "punchIn",
+      "text": [
+        {
+          "content": "LE SAMOURAÏ",
+          "style": "title",
+          "position": "center",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#2 escalier fresque",
+      "src": "rushes/samourai/IMG_2366.mp4",
+      "start": 4.3,
+      "end": 5.5,
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#3 geisha lumineuse",
+      "src": "rushes/samourai/IMG_2332.mp4",
+      "start": 2.3,
+      "end": 3.5,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#4 portant kimonos",
+      "src": "rushes/samourai/IMG_2343.mp4",
+      "start": 0.0,
+      "end": 1.2,
+      "motion": "none",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-left",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#5 cliente en kimono au miroir",
+      "src": "rushes/samourai/dji-145212.mp4",
+      "start": 0.0,
+      "end": 1.5,
+      "motion": "zoomIn",
+      "grade": {
+        "saturate": 1.0
+      },
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Shooting kimono inclus",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#6 loge miroir サムライ",
+      "src": "rushes/samourai/IMG_2344.mp4",
+      "start": 0.9,
+      "end": 2.1,
+      "motion": "punchIn",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#7 kimono escalier rouge",
+      "src": "rushes/samourai/IMG_2364.mp4",
+      "start": 2.3,
+      "end": 3.5,
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#8 descente néons",
+      "src": "rushes/samourai/IMG_2357.mp4",
+      "start": 3.0,
+      "end": 4.5,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "侍",
+          "style": "kanji",
+          "position": "center",
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "label": "#9 salle lanternes",
+      "src": "rushes/samourai/IMG_2350.mp4",
+      "start": 0.5,
+      "end": 1.7,
+      "motion": "panRight",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#10 terrasse",
+      "src": "rushes/samourai/IMG_2340.mp4",
+      "start": 4.0,
+      "end": 5.7,
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-bottom",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Une terrasse unique",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "label": "#11 fresque finale",
+      "src": "rushes/samourai/IMG_2368.mp4",
+      "start": 5.0,
+      "end": 7.0,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-left",
+        "duration": 0.2
+      }
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Asian Luxury",
+    "duration": 2.5,
+    "background": "rushes/samourai/IMG_2357.mp4"
+  },
+  "music": {
+    "src": "music/samourai-taiko-120bpm.mp3",
+    "volume": 0.85,
+    "fadeOut": 1.2
+  },
+  "overlays": {
+    "grain": 0.07,
+    "vignette": 0.42
+  },
+  "sfx": [
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 1.45,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 3.45,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/katana-synth.mp3",
+      "at": 4.5,
+      "volume": 0.45
+    },
+    {
+      "src": "sfx/taiko-hit-synth.mp3",
+      "at": 6.0,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 7.95,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 10.45,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 11.95,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/gong-synth.mp3",
+      "at": 13.5,
+      "volume": 0.5
+    }
+  ]
+}
