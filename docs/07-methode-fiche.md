@@ -80,8 +80,11 @@ Voici ma fiche mémoire. Utilise-la dans toutes tes réponses, sans que j'aie be
 - Assistante vocale 24h/24 en darija / français / arabe : prise, report et annulation de RDV,
   réponses aux questions, urgences, transfert, messages ; notifications Telegram ; tableau de bord.
 - Technique : Vapi + mon serveur (FastAPI), une fiche JSON par cabinet.
-- Packs : Essentiel 25 000 DA/mois (hors horaires, 300 min), Pro 49 000 DA/mois (tous les appels,
-  800 min), Cabinet+ sur devis. Mise en service à partir de 40 000 DA. Essai gratuit 14 jours.
+- Offre principale : Pro à 80 000 DA/mois (tous les appels 24h/24, 900 min incluses, 90 DA la minute en plus,
+  mise en service offerte avec un engagement de 12 mois).
+- Offre d'entrée : Essentiel à 45 000 DA/mois (hors horaires et appels non répondus, 350 min).
+  Cabinet+ (cliniques) à partir de 140 000 DA/mois. Essai gratuit 14 jours.
+- Argument : 27 RDV à 3 000 DA par mois, soit environ 1 par jour ouvré, remboursent le Pro.
 - Niches : 1) dentistes 2) médecins spécialistes 3) imagerie/labos 4) beauté 5) avocats 6) garages 7) immobilier.
 
 # Mes clients actuels

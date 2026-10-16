@@ -36,23 +36,33 @@ compte 200 à 500 min/mois. D'où les deux packs ci-dessous.
 |---|---|---|---|
 | Pour qui | Cabinet avec secrétaire | Cabinet sans secrétaire, ou très sollicité | Clinique, polyclinique, multi-praticiens |
 | Appels pris | Hors horaires + non répondus | Tous les appels | Tous les appels, plusieurs agendas |
-| Minutes incluses | 300 min/mois | 800 min/mois | sur devis |
+| Minutes incluses | 350 min/mois | 900 min/mois | sur devis |
 | Darija / français / arabe | ✅ | ✅ | ✅ |
 | Prise, report et annulation de RDV | ✅ | ✅ | ✅ |
 | Notifications Telegram + tableau de bord | ✅ | ✅ | ✅ |
 | Voix premium (ElevenLabs) | — | ✅ | ✅ |
 | Rapport mensuel + ajustements | ✅ | ✅ + appel mensuel | ✅ + appel mensuel |
-| **Abonnement** | **25 000 DA/mois** | **49 000 DA/mois** | **à partir de 90 000 DA/mois** |
-| Mise en service | 40 000 DA | 60 000 DA | sur devis |
+| **Abonnement** | **45 000 DA/mois** | **80 000 DA/mois** (offre principale) | **à partir de 140 000 DA/mois** |
+| Mise en service | 40 000 DA | 50 000 DA, offerte avec un engagement de 12 mois | sur devis |
 | Minute supplémentaire | 100 DA | 90 DA | — |
+
+**Ta marge sur le Pro** : 900 minutes coûtent environ 35 000 à 65 000 DA selon le modèle d'IA, la voix et le taux
+de change. Il te reste donc environ 15 000 à 45 000 DA par cabinet et par mois. Pour rester dans le haut de la
+fourchette, mesure le coût réel par minute pendant le pilote (tableau de bord Vapi). Si besoin, passe le cabinet sur
+un modèle plus rapide et moins cher, ou sur une voix Azure, après avoir vérifié la qualité en darija.
 
 - **Engagement** de 6 mois, ou **-15 %** pour un paiement annuel d'avance (ce qui sécurise aussi ta trésorerie en devises).
 - **Matériel** (passerelle GSM, SIM) : refacturé au prix coûtant ou inclus dans la mise en service.
 - **Clause de révision** : prix indexé une fois par an (taux de change et coûts des fournisseurs).
-- Argument prix : **une secrétaire coûte bien plus cher par mois** (salaire plus charges), et elle ne répond ni la
-  nuit ni le vendredi. L'IA ne la remplace pas, elle **la soulage**.
-- Argument rentabilité : avec `valeur_moyenne_rdv_da` = 3 000 DA, **10 RDV récupérés par mois suffisent à payer le
-  pack Essentiel**. Le rapport mensuel le prouve chiffres à l'appui.
+- Argument principal, la rentabilité : à 3 000 DA le RDV, **27 RDV pris par l'assistante dans le mois remboursent
+  le Pro**. Pour un cabinet qui reçoit 20 appels par jour, c'est un peu plus d'un RDV par jour ouvré. En plus, une
+  seule prothèse ou un seul implant récupéré rapporte souvent plus que l'abonnement. Le rapport mensuel le prouve
+  chiffres à l'appui (`valeur_moyenne_rdv_da`).
+- Ne vends pas l'IA comme « moins chère qu'une secrétaire » : à ce prix, ce n'est pas l'argument. Vends ce qu'une
+  secrétaire ne fait pas : **répondre la nuit, le vendredi, pendant les soins, et à deux appels en même temps**.
+  L'IA ne la remplace pas, elle **la soulage**.
+- Le prospect hésite à 80 000 DA ? Propose l'**Essentiel à 45 000 DA** (hors horaires seulement). Il passera au Pro
+  quand il verra les chiffres du tableau de bord.
 
 ## Comment vendre (ce qui marche en Algérie)
 
@@ -83,7 +93,7 @@ compte 200 à 500 min/mois. D'où les deux packs ci-dessous.
 |---|---|
 | « Mes patients ne vont pas parler à un robot. » | « Appelez vous-même, maintenant. » Puis : « Elle prend surtout les appels que vous ratez déjà. Mieux vaut l'assistante qu'aucune réponse. » |
 | « Elle ne comprendra pas la darija. » | Démo en darija avec des noms et des numéros. Si un appelant n'est pas compris, elle prend un message ou transfère : aucun patient perdu. |
-| « C'est cher. » | Rapport mensuel : chiffre les RDV récupérés. 10 RDV payent l'abonnement. Pilote gratuit d'abord. |
+| « C'est cher. » | « 27 RDV par mois, soit un par jour ouvré, et c'est remboursé. Le pilote gratuit de 14 jours vous montre le chiffre réel. » Sinon : l'Essentiel à 45 000 DA. |
 | « Et si elle se trompe de rendez-vous ? » | Elle relit tout avant de confirmer et ne propose que des créneaux libres. Vous recevez chaque RDV sur Telegram et pouvez l'annuler en un clic. |
 | « Et la confidentialité ? » | Enregistrement annoncé, aucun diagnostic stocké, contrat de sous-traitance conforme à la loi 18-07, données supprimées sur demande. |
 | « J'ai déjà une secrétaire. » | Pack Essentiel : l'assistante ne prend que les appels hors horaires et quand la secrétaire est occupée. |
