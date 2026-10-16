@@ -24,7 +24,11 @@ if (!process.env.GEMINI_API_KEY) {
 }
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const model = process.env.GEMINI_MODEL || "gemini-2.5-pro";
+// Tried in order: a model out of quota (429) or overloaded (503, after retries) falls through to the next.
+const models = (process.env.GEMINI_MODEL || "gemini-3.1-pro-preview,gemini-3.5-flash,gemini-flash-latest,gemini-2.5-flash")
+  .split(",")
+  .map((m) => m.trim())
+  .filter(Boolean);
 const plan = JSON.parse(readFileSync(planPath, "utf8"));
 const name = basename(planPath, ".json");
 const version = plan.version ?? 1;
@@ -93,15 +97,39 @@ ${previous.length ? `Critiques précédentes (vérifie ce qui a été corrigé) 
 Plan de montage (version ${version}) :
 ${JSON.stringify(plan, null, 2)}`;
 
-console.log(`Envoi à Gemini (${model}) : ${video}${ref ? ` + référence ${ref}` : ""}…`);
+console.log(`Envoi à Gemini : ${video}${ref ? ` + référence ${ref}` : ""}…`);
 const files = [await upload(video)];
 if (ref && existsSync(ref)) files.push(await upload(ref));
 
-const response = await ai.models.generateContent({
-  model,
-  contents: createUserContent([...files.map((f) => createPartFromUri(f.uri, f.mimeType)), prompt]),
-  config: { responseMimeType: "application/json", responseJsonSchema: schema, temperature: 0.4 },
-});
+const generate = async () => {
+  for (const model of models) {
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        const response = await ai.models.generateContent({
+          model,
+          contents: createUserContent([...files.map((f) => createPartFromUri(f.uri, f.mimeType)), prompt]),
+          config: { responseMimeType: "application/json", responseJsonSchema: schema, temperature: 0.4 },
+        });
+        return { model, response };
+      } catch (err) {
+        const status = err.status ?? 0;
+        if (status === 503 && attempt < 3) {
+          console.log(`  ${model} surchargé, nouvel essai dans ${attempt * 10} s…`);
+          await new Promise((r) => setTimeout(r, attempt * 10000));
+          continue;
+        }
+        if (status === 429 || status === 503 || status === 404) {
+          console.log(`  ${model} indisponible (${status}), modèle suivant.`);
+          break;
+        }
+        throw err;
+      }
+    }
+  }
+  throw new Error(`Aucun modèle Gemini disponible (${models.join(", ")}). Réessaie plus tard.`);
+};
+const { model, response } = await generate();
+console.log(`  Critique rédigée par ${model}.`);
 
 const review = { version, video, model, date: new Date().toISOString(), ...JSON.parse(response.text) };
 const out = `reviews/${name}-v${version}.json`;
