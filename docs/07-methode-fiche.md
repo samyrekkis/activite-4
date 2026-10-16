@@ -65,15 +65,16 @@ si une réponse manque, écris [À DEMANDER AU CABINET].
 
 ## Prompt 3 : ta propre fiche mémoire « agence » (instructions du projet Claude)
 
-Crée un projet Claude « Mon agence IA vocale » et colle ceci dans ses **instructions**. Claude connaîtra alors ton
+Crée un projet Claude « 7 Agents » et colle ceci dans ses **instructions**. Claude connaîtra alors ton
 activité dans toutes tes discussions : prospection, réponses aux clients, devis, posts Facebook.
 
 ```
 Voici ma fiche mémoire. Utilise-la dans toutes tes réponses, sans que j'aie besoin de la répéter.
 
 # Qui je suis
-- [Prénom], [ville], Algérie. Je parle darija, français [, arabe].
-- Je lance une agence qui installe des assistantes téléphoniques IA pour les cabinets.
+- [Prénom], Alger. Je parle darija, français [, arabe].
+- Mon agence s'appelle « 7 Agents ». Elle installe des assistantes téléphoniques IA
+  pour les cabinets dentaires d'Alger (niche de départ).
 
 # Mon offre
 - Assistante vocale 24h/24 en darija / français / arabe : prise, report et annulation de RDV,

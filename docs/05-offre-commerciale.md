@@ -72,7 +72,7 @@ compte 200 à 500 min/mois. D'où les deux packs ci-dessous.
 
 ### Message WhatsApp / Facebook (premier contact)
 
-> Salam Docteur, je suis [Prénom], de [Agence]. On a mis en place une assistante téléphonique intelligente qui parle
+> Salam Docteur, je suis [Prénom], de 7 Agents. On a mis en place une assistante téléphonique intelligente qui parle
 > darija et français : elle répond aux patients 24h/24, prend les rendez-vous et vous les envoie sur Telegram.
 > Vous pouvez l'essayer tout de suite en appelant le [numéro de démo]. Si ça vous intéresse, je vous propose 14 jours
 > d'essai gratuit, sans engagement. Je passe vous la montrer cette semaine ?
@@ -87,6 +87,29 @@ compte 200 à 500 min/mois. D'où les deux packs ci-dessous.
 | « Et si elle se trompe de rendez-vous ? » | Elle relit tout avant de confirmer et ne propose que des créneaux libres. Vous recevez chaque RDV sur Telegram et pouvez l'annuler en un clic. |
 | « Et la confidentialité ? » | Enregistrement annoncé, aucun diagnostic stocké, contrat de sous-traitance conforme à la loi 18-07, données supprimées sur demande. |
 | « J'ai déjà une secrétaire. » | Pack Essentiel : l'assistante ne prend que les appels hors horaires et quand la secrétaire est occupée. |
+
+## Plan d'attaque : cabinets dentaires d'Alger (7 Agents)
+
+**Cible** : cabinets privés d'un ou deux praticiens, sans secrétaire le soir. Ce sont eux qui ratent le plus
+d'appels et qui décident vite, sans direction ni comptable.
+
+**Zones à prospecter**, par ordre de priorité (forte densité de cabinets et clientèle qui appelle beaucoup) :
+1. Hydra, Ben Aknoun, El Biar, Dely Ibrahim, Bir Mourad Raïs
+2. Kouba, Hussein Dey, Bab Ezzouar, Dar El Beïda
+3. Chéraga, Ouled Fayet, Draria, Saïd Hamdine
+4. Alger-Centre, Sidi M'Hamed, Bab El Oued
+
+**Listing** : Google Maps (« dentiste » + quartier), pages Facebook et Instagram des cabinets. Note dans un
+tableur le nom, le quartier, le téléphone, si quelqu'un a décroché à 13h et à 18h, et si le cabinet a une
+secrétaire. **Un cabinet qui ne décroche pas à ces heures-là est ton meilleur prospect.** Dis-le-lui : « J'ai
+appelé hier à 18h, personne n'a répondu. »
+
+**Rythme** : 10 cabinets visités par semaine, 3 démos, 1 pilote. Objectif : 3 cabinets payants en 60 jours.
+Ensuite, fais-toi recommander dans les groupes de dentistes (associations, formations, fournisseurs de matériel
+dentaire, qui connaissent tous les cabinets).
+
+**Démo** : la fiche `clients/dentaire-exemple.json` est déjà un cabinet d'Hydra. Avant chaque visite, change le
+quartier et l'adresse pour ceux du prospect : il entendra « son » assistante.
 
 ## Niches, par ordre de priorité
 
