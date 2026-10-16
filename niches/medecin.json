@@ -1,0 +1,96 @@
+{
+  "description_activite": "cabinet médical",
+  "services": [
+    {
+      "id": "consultation",
+      "nom": "Consultation",
+      "duree": 20
+    },
+    {
+      "id": "controle",
+      "nom": "Contrôle / renouvellement d'ordonnance",
+      "duree": 15
+    },
+    {
+      "id": "certificat",
+      "nom": "Certificat médical",
+      "duree": 15
+    },
+    {
+      "id": "echographie",
+      "nom": "Échographie",
+      "duree": 30
+    }
+  ],
+  "horaires": {
+    "samedi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "dimanche": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ]
+  },
+  "urgences": [
+    "Douleur dans la poitrine, difficulté à respirer, perte de connaissance, paralysie ou trouble de la parole soudain, forte fièvre chez un nourrisson, saignement important : dire d'appeler immédiatement le 14 (Protection civile) ou d'aller aux urgences. Ne prends pas de rendez-vous.",
+    "Symptôme inquiétant mais non vital : premier créneau disponible + message urgent au médecin."
+  ],
+  "consignes": [
+    "Aucun conseil médical, aucun diagnostic, aucune posologie. Tu peux seulement orienter vers un rendez-vous ou les urgences.",
+    "Ne communique jamais de résultats d'analyses : propose un rendez-vous ou un message au médecin.",
+    "Demande s'il s'agit d'un nouveau patient."
+  ]
+}

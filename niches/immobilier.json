@@ -1,0 +1,64 @@
+{
+  "description_activite": "agence immobilière",
+  "services": [
+    {
+      "id": "visite",
+      "nom": "Visite d'un bien",
+      "duree": 45
+    },
+    {
+      "id": "estimation",
+      "nom": "Estimation d'un bien à vendre / louer",
+      "duree": 60
+    },
+    {
+      "id": "rdv_agence",
+      "nom": "Rendez-vous à l'agence",
+      "duree": 30
+    }
+  ],
+  "horaires": {
+    "samedi": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "dimanche": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ]
+  },
+  "urgences": [],
+  "consignes": [
+    "Qualifie l'appelant : achat, location ou vente ; type de bien (F2, F3, villa, local) ; commune ; budget. Note tout dans 'notes'.",
+    "Ne confirme jamais qu'un bien est encore disponible : l'agent immobilier rappellera pour confirmer.",
+    "Pour une visite, demande la référence ou l'adresse approximative du bien."
+  ]
+}

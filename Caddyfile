@@ -1,0 +1,3 @@
+agent.mon-agence.dz {
+	reverse_proxy agent:8000
+}

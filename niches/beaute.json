@@ -1,0 +1,79 @@
+{
+  "description_activite": "salon de beauté / institut",
+  "services": [
+    {
+      "id": "coupe",
+      "nom": "Coupe / brushing",
+      "duree": 45
+    },
+    {
+      "id": "coloration",
+      "nom": "Coloration / mèches",
+      "duree": 120
+    },
+    {
+      "id": "soin_visage",
+      "nom": "Soin du visage",
+      "duree": 60
+    },
+    {
+      "id": "epilation",
+      "nom": "Épilation",
+      "duree": 30
+    },
+    {
+      "id": "onglerie",
+      "nom": "Manucure / pose d'ongles",
+      "duree": 60
+    },
+    {
+      "id": "mariee",
+      "nom": "Forfait mariée (essai ou jour J)",
+      "duree": 180
+    }
+  ],
+  "horaires": {
+    "samedi": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "dimanche": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ]
+  },
+  "urgences": [],
+  "consignes": [
+    "Pour le forfait mariée : demande la date du mariage et note-la ; le prix se fait sur devis.",
+    "Si plusieurs prestations, réserve la plus longue et note les autres dans 'notes'.",
+    "Ton chaleureux et commercial : mentionne une seule fois les offres en cours si elles figurent dans les informations pratiques."
+  ]
+}

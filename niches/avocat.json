@@ -1,0 +1,76 @@
+{
+  "description_activite": "cabinet d'avocat",
+  "services": [
+    {
+      "id": "premiere_consultation",
+      "nom": "Première consultation",
+      "duree": 45
+    },
+    {
+      "id": "suivi_dossier",
+      "nom": "Point sur un dossier en cours",
+      "duree": 30
+    }
+  ],
+  "horaires": {
+    "dimanche": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:30",
+        "17:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:30",
+        "17:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:30",
+        "17:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:30",
+        "17:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:00",
+        "12:00"
+      ],
+      [
+        "13:30",
+        "17:00"
+      ]
+    ]
+  },
+  "urgences": [
+    "Garde à vue, audience imminente (sous 48 h), expulsion ou saisie en cours : laisser un message urgent et, si un transfert est possible, transférer l'appel."
+  ],
+  "consignes": [
+    "Ne donne jamais d'avis juridique ni d'estimation de chances de succès.",
+    "Demande le domaine en une phrase (famille, travail, commercial, pénal, foncier/immobilier, administratif) et note-le.",
+    "Les honoraires sont fixés par l'avocat : ne donne pas de montant sauf le tarif de première consultation s'il est indiqué.",
+    "Confidentialité : ne demande pas de détails sensibles au téléphone, juste l'essentiel pour orienter."
+  ]
+}

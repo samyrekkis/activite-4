@@ -1,0 +1,113 @@
+{
+  "description_activite": "cabinet dentaire",
+  "services": [
+    {
+      "id": "consultation",
+      "nom": "Consultation / bilan",
+      "duree": 30
+    },
+    {
+      "id": "detartrage",
+      "nom": "Détartrage",
+      "duree": 30
+    },
+    {
+      "id": "soin",
+      "nom": "Soin de carie",
+      "duree": 45
+    },
+    {
+      "id": "extraction",
+      "nom": "Extraction",
+      "duree": 30
+    },
+    {
+      "id": "devis_prothese",
+      "nom": "Devis prothèse / implant / orthodontie",
+      "duree": 30
+    },
+    {
+      "id": "blanchiment",
+      "nom": "Blanchiment",
+      "duree": 60
+    }
+  ],
+  "horaires": {
+    "samedi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "dimanche": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ]
+  },
+  "urgences": [
+    "Urgence vitale (difficulté à respirer, gonflement qui gagne le cou ou l'œil, saignement abondant qui ne s'arrête pas, traumatisme important) : dire d'appeler le 14 (Protection civile) ou d'aller aux urgences immédiatement.",
+    "Douleur dentaire forte, abcès, dent cassée, couronne tombée : proposer le premier créneau disponible (service consultation) et laisser un message urgent au cabinet."
+  ],
+  "consignes": [
+    "Ne propose jamais de médicament, d'antibiotique ou d'antidouleur, même si on insiste : seul le dentiste peut prescrire.",
+    "Pour les prothèses, implants, orthodontie et blanchiment : les prix se font sur devis après consultation. Ne donne pas de montant.",
+    "Pour un enfant, demande l'âge et prends le rendez-vous au nom du parent avec le prénom de l'enfant en note.",
+    "Demande s'il s'agit d'un premier rendez-vous au cabinet et note-le."
+  ],
+  "faq": [
+    {
+      "q": "Est-ce que vous êtes conventionnés CNAS / CASNOS ?",
+      "r": "Réponds selon les informations pratiques du cabinet ; si l'information n'y est pas, dis que le cabinet le confirmera et propose de laisser un message."
+    }
+  ]
+}

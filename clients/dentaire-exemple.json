@@ -1,0 +1,129 @@
+{
+  "id": "dentaire-exemple",
+  "niche": "dentaire",
+  "nom": "Cabinet Dentaire Dr Benali",
+  "ville": "Alger (Hydra)",
+  "adresse": "12 rue des Frères Exemple, Hydra, Alger — 2e étage, à côté de la pharmacie",
+  "telephone_cabinet": "+21321000000",
+  "numero_transfert": "+213550000000",
+  "numero_agent": "",
+  "vapi_phone_number_id": "",
+  "langue_principale": "darija",
+  "nom_assistant": "Amina",
+  "fuseau": "Africa/Algiers",
+  "capacite": 1,
+  "delai_min_minutes": 60,
+  "horizon_jours": 30,
+  "pas_minutes": 15,
+  "horaires": {
+    "samedi": [
+      [
+        "09:00",
+        "13:00"
+      ]
+    ],
+    "dimanche": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "lundi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mardi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "mercredi": [
+      [
+        "09:00",
+        "12:30"
+      ],
+      [
+        "14:00",
+        "18:00"
+      ]
+    ],
+    "jeudi": [
+      [
+        "09:00",
+        "12:30"
+      ]
+    ]
+  },
+  "fermetures": [
+    "2026-11-01",
+    "2027-01-01",
+    "2027-01-12"
+  ],
+  "services": [
+    {
+      "id": "consultation",
+      "nom": "Consultation / bilan",
+      "duree": 30,
+      "prix": "1 500 DA"
+    },
+    {
+      "id": "detartrage",
+      "nom": "Détartrage",
+      "duree": 30,
+      "prix": "4 000 DA"
+    },
+    {
+      "id": "soin",
+      "nom": "Soin de carie",
+      "duree": 45,
+      "prix": "à partir de 3 000 DA"
+    },
+    {
+      "id": "extraction",
+      "nom": "Extraction",
+      "duree": 30,
+      "prix": "à partir de 2 500 DA"
+    },
+    {
+      "id": "devis_prothese",
+      "nom": "Devis prothèse / implant / orthodontie",
+      "duree": 30,
+      "prix": "consultation 1 500 DA, devis remis sur place"
+    }
+  ],
+  "infos": {
+    "paiement": "espèces et carte CIB / Edahabia",
+    "conventionnement": "non conventionné CNAS ; une facture est remise pour remboursement éventuel",
+    "parking": "parking public à 50 m",
+    "praticien": "Dr Benali, chirurgien-dentiste"
+  },
+  "faq": [
+    {
+      "q": "Est-ce que le docteur reçoit sans rendez-vous ?",
+      "r": "Uniquement les urgences, en fin de matinée ; sinon il vaut mieux prendre rendez-vous."
+    }
+  ],
+  "consignes": [],
+  "valeur_moyenne_rdv_da": 3000,
+  "notifications": {
+    "telegram_chat_ids": [],
+    "webhook_url": ""
+  },
+  "dashboard_key": "remplacer-par-une-cle-longue-et-aleatoire",
+  "enregistrement": true
+}

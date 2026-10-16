@@ -1,0 +1,24 @@
+services:
+  agent:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./clients:/srv/clients
+      - ./data:/srv/data
+    ports:
+      - "127.0.0.1:8000:8000"
+  # HTTPS automatique (Let's Encrypt). Remplace le domaine dans Caddyfile.
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+    depends_on:
+      - agent
+volumes:
+  caddy_data:

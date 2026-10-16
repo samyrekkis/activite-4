@@ -1,0 +1,95 @@
+{
+  "description_activite": "garage automobile",
+  "services": [
+    {
+      "id": "diagnostic",
+      "nom": "Diagnostic",
+      "duree": 60
+    },
+    {
+      "id": "vidange",
+      "nom": "Vidange / entretien",
+      "duree": 60
+    },
+    {
+      "id": "freins",
+      "nom": "Freins",
+      "duree": 90
+    },
+    {
+      "id": "climatisation",
+      "nom": "Climatisation",
+      "duree": 60
+    }
+  ],
+  "horaires": {
+    "samedi": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ],
+    "dimanche": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ],
+    "lundi": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ],
+    "mardi": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ],
+    "mercredi": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ],
+    "jeudi": [
+      [
+        "08:00",
+        "12:30"
+      ],
+      [
+        "13:30",
+        "17:30"
+      ]
+    ]
+  },
+  "capacite": 2,
+  "urgences": [
+    "Véhicule en panne sur la route : prendre un message urgent avec la localisation exacte."
+  ],
+  "consignes": [
+    "Demande la marque, le modèle et l'année du véhicule et note-les.",
+    "Ne donne pas de prix de réparation : uniquement après diagnostic."
+  ]
+}

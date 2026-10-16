@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Assistante vocale IA pour cabinets</title>
+<meta name="description" content="Une assistante téléphonique IA qui parle darija et français, répond 24h/24 et prend vos rendez-vous.">
+<style>
+:root{--bg:#fbfaf7;--fg:#17202a;--mut:#56616d;--acc:#0b7a5a;--acc2:#e9f5f0;--card:#fff;--bd:#e6e2da}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1418;--fg:#eaf0f4;--mut:#9eabb7;--acc:#3ccf9a;--acc2:#15291f;--card:#161d23;--bd:#26313b}}
+:root[data-theme="dark"]{--bg:#0f1418;--fg:#eaf0f4;--mut:#9eabb7;--acc:#3ccf9a;--acc2:#15291f;--card:#161d23;--bd:#26313b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif}
+.w{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:18px 0}header .w{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.logo{font-weight:750;letter-spacing:-.01em}
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:650;padding:12px 20px;border-radius:999px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn{color:#06261b}}
+:root[data-theme="dark"] .btn{color:#06261b}
+.btn.sec{background:transparent;color:var(--fg);border:1.5px solid var(--bd)}
+.hero{padding:48px 0 56px}
+h1{font-size:clamp(32px,6vw,54px);line-height:1.08;letter-spacing:-.025em;margin:0 0 18px;max-width:14em}
+.ar{font-size:clamp(20px,3.4vw,26px);color:var(--acc);margin:0 0 18px;direction:rtl;text-align:left;unicode-bidi:plaintext}
+.lead{font-size:clamp(18px,2.4vw,21px);color:var(--mut);max-width:36em;margin:0 0 28px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+section{padding:52px 0;border-top:1px solid var(--bd)}
+h2{font-size:clamp(24px,4vw,34px);letter-spacing:-.02em;margin:0 0 22px}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:20px}
+.c h3{margin:0 0 6px;font-size:18px}.c p{margin:0;color:var(--mut)}
+.num{font-size:40px;font-weight:750;color:var(--acc);line-height:1}
+.chat{display:grid;gap:10px;max-width:620px}
+.b{padding:12px 16px;border-radius:16px;max-width:88%}
+.b.p{background:var(--card);border:1px solid var(--bd);justify-self:start}
+.b.a{background:var(--acc2);justify-self:end}
+.b small{display:block;color:var(--mut);font-size:13px;margin-bottom:2px}
+.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.price .c{display:flex;flex-direction:column;gap:10px}
+.price .amt{font-size:30px;font-weight:750}.price .amt span{font-size:15px;color:var(--mut);font-weight:500}
+.price ul{margin:0;padding-left:20px;color:var(--mut)}
+.feat{border:2px solid var(--acc)}
+details{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:650}details p{color:var(--mut);margin:10px 0 0}
+footer{padding:36px 0;color:var(--mut);font-size:15px;border-top:1px solid var(--bd)}
+</style>
+</head>
+<body>
+<!-- Remplace [Ton agence], [numéro de démo] et le lien WhatsApp (wa.me/213XXXXXXXXX) avant de publier. -->
+<header><div class="w"><div class="logo">[Ton agence]</div><a class="btn sec" href="https://wa.me/213XXXXXXXXX">WhatsApp</a></div></header>
+
+<main>
+<div class="w hero">
+  <h1>Plus aucun appel raté dans votre cabinet.</h1>
+  <p class="ar">ما تضيّعش حتى patient. السكريتيرة الذكية تجاوب 24/24.</p>
+  <p class="lead">Une assistante téléphonique intelligente qui parle <strong>darija, français et arabe</strong>,
+    répond 24h/24, prend vos rendez-vous dans votre agenda et vous prévient sur Telegram.</p>
+  <div class="cta">
+    <a class="btn" href="tel:[numéro de démo]">📞 Appelez la démo maintenant</a>
+    <a class="btn sec" href="https://wa.me/213XXXXXXXXX?text=Je%20veux%20l%27essai%20gratuit%20de%2014%20jours">Essai gratuit 14 jours</a>
+  </div>
+</div>
+
+<section><div class="w">
+  <h2>Ce qu'elle fait pour vous</h2>
+  <div class="g3">
+    <div class="c"><h3>📅 Prend les rendez-vous</h3><p>Elle propose les vrais créneaux libres, confirme le nom et le numéro, déplace et annule. Jamais de double réservation.</p></div>
+    <div class="c"><h3>🌙 Répond la nuit et le vendredi</h3><p>Les patients appellent après le travail : elle est toujours là, même quand la ligne est occupée.</p></div>
+    <div class="c"><h3>🗣️ Parle comme vos patients</h3><p>Darija avec les mots français de tous les jours, français soutenu ou arabe, selon l'appelant.</p></div>
+    <div class="c"><h3>🚨 Repère les urgences</h3><p>Elle oriente vers le 14 si besoin, donne le premier créneau et vous envoie un message urgent.</p></div>
+    <div class="c"><h3>📲 Vous prévient sur Telegram</h3><p>Chaque nouveau RDV, annulation ou message arrive en temps réel sur votre téléphone.</p></div>
+    <div class="c"><h3>📊 Vous montre les chiffres</h3><p>Tableau de bord : appels, RDV pris, messages à rappeler, enregistrements et résumé de chaque appel.</p></div>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2>Un appel, en vrai</h2>
+  <div class="chat">
+    <div class="b a"><small>Assistante</small>السلام عليكم، Cabinet Dentaire، معاك Amina. واش نقدر نعاونك؟</div>
+    <div class="b p"><small>Patient</small>حبيت ندير rendez-vous، عندي وجع في ضرسة.</div>
+    <div class="b a"><small>Assistante</small>إن شاء الله لاباس. عندي غدوة السبت 9h30 ولا 11h. واش يناسبك؟</div>
+    <div class="b p"><small>Patient</small>9h30 مليحة.</div>
+    <div class="b a"><small>Assistante</small>واش هو الاسم الكامل؟ ونسجل الرقم اللي راك تعيط بيه، 0550 12 34 56؟</div>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2>Pourquoi c'est rentable</h2>
+  <div class="g3">
+    <div class="c"><div class="num">24/7</div><p>y compris le vendredi, les soirs et les jours fériés.</p></div>
+    <div class="c"><div class="num">10</div><p>rendez-vous récupérés par mois suffisent en général à payer l'abonnement.</p></div>
+    <div class="c"><div class="num">0</div><p>appel perdu : si elle ne peut pas répondre, elle transfère ou prend un message.</p></div>
+  </div>
+</div></section>
+
+<section><div class="w">
+  <h2>Formules</h2>
+  <div class="price">
+    <div class="c"><h3>Essentiel</h3><div class="amt">25 000 DA <span>/ mois</span></div>
+      <ul><li>Appels hors horaires et non répondus</li><li>300 minutes incluses</li><li>Telegram et tableau de bord</li><li>Rapport mensuel</li></ul></div>
+    <div class="c feat"><h3>Pro</h3><div class="amt">49 000 DA <span>/ mois</span></div>
+      <ul><li>Tous les appels</li><li>800 minutes incluses</li><li>Voix premium</li><li>Point mensuel et ajustements</li></ul></div>
+    <div class="c"><h3>Cabinet+</h3><div class="amt">Sur devis</div>
+      <ul><li>Cliniques, multi-praticiens</li><li>Plusieurs agendas</li><li>Intégrations sur mesure</li></ul></div>
+  </div>
+  <p style="color:var(--mut);margin-top:14px">Mise en service à partir de 40 000 DA. Essai gratuit de 14 jours, sans engagement.</p>
+</div></section>
+
+<section><div class="w">
+  <h2>Questions fréquentes</h2>
+  <details><summary>Mes patients vont-ils accepter de parler à une IA ?</summary><p>Elle prend d'abord les appels que vous ratez déjà. Pour le patient, c'est toujours mieux qu'une sonnerie dans le vide. Appelez la démo et jugez vous-même.</p></details>
+  <details><summary>Faut-il changer de numéro ?</summary><p>Non. Votre ligne actuelle renvoie les appels vers l'assistante, hors horaires ou quand vous ne décrochez pas. Vous pouvez désactiver le renvoi à tout moment.</p></details>
+  <details><summary>Et la confidentialité des patients ?</summary><p>L'enregistrement est annoncé, aucun diagnostic n'est collecté, et un contrat de sous-traitance conforme à la loi 18-07 est signé avec vous.</p></details>
+  <details><summary>Et si elle ne comprend pas ?</summary><p>Elle fait répéter. Si nécessaire, elle transfère vers vous ou prend un message que vous recevez immédiatement.</p></details>
+</div></section>
+</main>
+
+<footer><div class="w">© [Ton agence] — Assistantes vocales IA pour cabinets, Algérie.</div></footer>
+</body>
+</html>
