@@ -143,7 +143,10 @@ def _definitions_sortantes(t: Tenant) -> dict[str, dict[str, Any]]:
             ["nom", "service"],
         ),
         "confirmer_presence": _fn(
-            "confirmer_presence", "Le patient confirme qu'il viendra au rendez-vous.", {}, []),
+            "confirmer_presence", "Le patient confirme qu'il viendra au rendez-vous.",
+            {"rendez_vous_id": {"type": "integer",
+                                "description": "Identifiant renvoyé par chercher_rendez_vous (inutile pendant un appel de relance)."}},
+            []),
         "accepter_creneau": _fn(
             "accepter_creneau", "La personne accepte le créneau proposé : le rendez-vous est enregistré.", {}, []),
         "refuser_creneau": _fn(
@@ -160,7 +163,15 @@ OUTILS_VAPI = {
     "relance": ["confirmer_presence", "verifier_disponibilites", "deplacer_rendez_vous", "annuler_rendez_vous",
                 "laisser_message"],
     "offre": ["accepter_creneau", "refuser_creneau", "laisser_message"],
+    "whatsapp": ["verifier_disponibilites", "prendre_rendez_vous", "chercher_rendez_vous", "annuler_rendez_vous",
+                 "deplacer_rendez_vous", "confirmer_presence", "laisser_message", "inscrire_liste_attente"],
 }
+
+
+def definitions_outils(t: Tenant, mode: str) -> list[dict[str, Any]]:
+    """Définitions JSON Schema des outils d'un mode (réutilisées par le chatbot WhatsApp)."""
+    definitions = {f["name"]: f for f in _definitions_outils(t)} | _definitions_sortantes(t)
+    return [definitions[nom] for nom in OUTILS_VAPI[mode]]
 
 
 def server_url(base_url: str, t: Tenant, **params: Any) -> str:

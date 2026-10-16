@@ -146,5 +146,11 @@
     "max_contacts": 3
   },
   "fiche_appel": true,
-  "agenda_externe": null
+  "agenda_externe": null,
+  "whatsapp": {
+    "phone_number_id": "",
+    "relance": true,
+    "modele_relance": "rappel_rdv",
+    "langue_modele": "fr"
+  }
 }

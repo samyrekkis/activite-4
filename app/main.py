@@ -20,11 +20,16 @@ from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
 from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 
-from . import dashboard, notify, vapi
+import threading
+from datetime import timezone
+
+from . import dashboard, notify, vapi, whatsapp
+from .chat import AgentTexte
+from .notify import texte_fiche
 from .config import Settings, load_settings
 from .db import Database
-from .relances import Relanceur, lanceur_vapi
-from .scheduling import FORMAT, Planning, normaliser_telephone, telephone_lisible
+from .relances import Relanceur, envoyeur_whatsapp, lanceur_vapi
+from .scheduling import FORMAT, Planning, libelle_creneau, normaliser_telephone, parse_local
 from .tenants import Tenant, TenantRegistry
 from .tools import ContexteAppel, Evenement, evenement_creneau_libere, executer
 
@@ -36,8 +41,19 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or load_settings()
     db = Database(settings.database_path)
     registry = TenantRegistry(settings.clients_dir, settings.niches_dir)
+    wa = whatsapp.ClientWhatsApp(settings.whatsapp_token, settings.whatsapp_api_version) \
+        if settings.whatsapp_token else None
     relanceur = Relanceur(db, settings.public_base_url, settings.vapi_webhook_secret,
-                          lanceur_vapi(settings.vapi_api_key) if settings.vapi_api_key else None)
+                          lanceur_vapi(settings.vapi_api_key) if settings.vapi_api_key else None,
+                          envoyeur_whatsapp(wa) if wa else None)
+    agent_texte = AgentTexte(db, settings.modele_chat, settings.effort_chat)
+    verrous: dict[tuple[str, str], threading.Lock] = {}
+    verrous_lock = threading.Lock()
+
+    def verrou(cle: tuple[str, str]) -> threading.Lock:
+        """Un message à la fois par conversation : deux messages rapprochés sont traités dans l'ordre."""
+        with verrous_lock:
+            return verrous.setdefault(cle, threading.Lock())
 
     def maintenant(t: Tenant) -> datetime:
         return Planning(t, db).maintenant()
@@ -53,14 +69,34 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                 sortie += relanceur.creneau_libere(t, ev.data["debut"], ev.data["service"], maintenant(t))
         return sortie
 
+    def fiches_whatsapp(t: Tenant) -> list[Evenement]:
+        """Fiche prospect envoyée 30 min après le dernier message d'une conversation WhatsApp."""
+        evs = []
+        for conv in agent_texte.conversations_a_ficher(t, datetime.now(timezone.utc).replace(tzinfo=None)):
+            db.execute("UPDATE wa_conversations SET fiche_envoyee=1 WHERE id=?", (conv["id"],))
+            if not t.get("fiche_appel", True):
+                continue
+            try:
+                fiche = agent_texte.fiche(conv)
+            except Exception:  # noqa: BLE001
+                log.exception("[%s] fiche WhatsApp impossible", t.id)
+                continue
+            if fiche:
+                db.execute("UPDATE wa_conversations SET fiche=? WHERE id=?",
+                           (json.dumps(fiche, ensure_ascii=False), conv["id"]))
+                evs.append(Evenement("fiche", texte_fiche(fiche, conv["telephone"], "whatsapp", conv["source"]), fiche))
+        return evs
+
     def tick_relances() -> list[tuple[Tenant, list[Evenement]]]:
         resultats = []
         for t in registry.all():
+            evs: list[Evenement] = []
             try:
-                evs = relanceur.lancer_relances(t, maintenant(t))
+                evs += relanceur.lancer_relances(t, maintenant(t))
+                if (t.raw.get("whatsapp") or {}).get("phone_number_id"):
+                    evs += fiches_whatsapp(t)
             except Exception:  # noqa: BLE001
-                log.exception("[%s] erreur pendant les relances", t.id)
-                continue
+                log.exception("[%s] erreur pendant les tâches planifiées", t.id)
             if evs:
                 resultats.append((t, evs))
         return resultats
@@ -73,7 +109,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
 
     @asynccontextmanager
     async def lifespan(_: FastAPI):
-        tache = asyncio.create_task(boucle_relances()) if relanceur.lanceur else None
+        planifie = relanceur.lanceur or relanceur.whatsapp or any(
+            (t.raw.get("whatsapp") or {}).get("phone_number_id") for t in registry.all())
+        tache = asyncio.create_task(boucle_relances()) if planifie else None
         yield
         if tache:
             tache.cancel()
@@ -178,11 +216,91 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             elif mode == "offre" and ctx.attente_id:
                 evenements = await asyncio.to_thread(relanceur.fin_offre, tenant, ctx.attente_id, maintenant(tenant))
             elif fiche is not None and tenant.get("fiche_appel", True):
-                evenements = [Evenement("fiche", texte_fiche(fiche, ctx.numero_appelant, message), fiche)]
+                evenements = [Evenement("fiche", texte_fiche(fiche, ctx.numero_appelant), fiche)]
             background.add_task(notifier, tenant, evenements)
             return JSONResponse({})
 
         return JSONResponse({})
+
+    # ------------------------------------------------------------------ WhatsApp
+    def traiter_whatsapp(recu: whatsapp.MessageRecu) -> tuple[Tenant | None, list[Evenement]]:
+        t = registry.by_whatsapp(recu.phone_number_id)
+        if t is None:
+            log.warning("Message WhatsApp pour un numéro non configuré : %s", recu.phone_number_id)
+            return None, []
+        if db.query("SELECT 1 FROM wa_vus WHERE message_id=?", (recu.message_id,)):
+            return None, []  # déjà traité (Meta renvoie parfois le même message)
+        db.execute("INSERT OR IGNORE INTO wa_vus (message_id) VALUES (?)", (recu.message_id,))
+        telephone = normaliser_telephone("+" + recu.expediteur)
+        with verrou((t.id, telephone)):
+            if wa:
+                wa.marquer_lu(recu.phone_number_id, recu.message_id)
+            now, now_utc = maintenant(t), datetime.now(timezone.utc).replace(tzinfo=None)
+            reponse, evenements = None, []
+            if recu.bouton.startswith("rdv:"):
+                reponse, evenements = bouton_rappel(t, recu, telephone, now, now_utc)
+            if reponse is None:
+                reponse, evenements = agent_texte.repondre(t, recu, now, now_utc)
+            if reponse and wa:
+                try:
+                    wa.envoyer_texte(recu.phone_number_id, recu.expediteur, reponse)
+                except Exception:  # noqa: BLE001
+                    log.exception("[%s] envoi WhatsApp impossible", t.id)
+            return t, evenements + traiter_liberations(t, evenements)
+
+    def bouton_rappel(t: Tenant, recu: whatsapp.MessageRecu, telephone: str, now: datetime,
+                      now_utc: datetime) -> tuple[str | None, list[Evenement]]:
+        """Boutons du rappel WhatsApp : « Je confirme » / « Changer » / « Annuler »."""
+        _, rdv_id, action = (recu.bouton.split(":") + ["", ""])[:3]
+        rows = db.query("SELECT * FROM rendez_vous WHERE id=? AND tenant=? AND statut='confirme'",
+                        (int(rdv_id) if rdv_id.isdigit() else -1, t.id))
+        if not rows or rows[0]["telephone"] != telephone or action == "changer":
+            if action == "changer" and rows:
+                recu.texte = f"Je voudrais changer mon rendez-vous du {libelle_creneau(parse_local(rows[0]['debut']))}."
+            return None, []  # l'IA prend le relais
+        r = rows[0]
+        ctx = ContexteAppel(tenant=t, db=db, numero_appelant=telephone, mode="relance", rdv_id=r["id"])
+        libelle = libelle_creneau(parse_local(r["debut"]))
+        if action == "confirmer":
+            executer(ctx, "confirmer_presence", {})
+            reponse = f"Merci {r['nom']} ✅ Votre rendez-vous du {libelle} est confirmé. À bientôt !"
+        elif action == "annuler":
+            executer(ctx, "annuler_rendez_vous", {"motif": "annulé depuis le rappel WhatsApp"})
+            reponse = (f"C'est noté, votre rendez-vous du {libelle} est annulé. Merci d'avoir prévenu 🙏 "
+                       "Écrivez-nous quand vous voulez reprendre rendez-vous.")
+        else:
+            return None, []
+        conv = agent_texte.conversation(t, telephone, now_utc)
+        agent_texte.ajouter_echange(conv["id"], recu.texte or action, reponse, now)
+        return reponse, ctx.evenements
+
+    @app.get("/whatsapp/webhook", response_class=PlainTextResponse)
+    def whatsapp_verification(request: Request) -> str:
+        """Vérification du webhook par Meta (une seule fois, à la configuration)."""
+        q = request.query_params
+        if (q.get("hub.mode") == "subscribe" and settings.whatsapp_verify_token
+                and hmac.compare_digest(q.get("hub.verify_token", ""), settings.whatsapp_verify_token)):
+            return q.get("hub.challenge", "")
+        raise HTTPException(403, "jeton de vérification invalide")
+
+    @app.post("/whatsapp/webhook")
+    async def whatsapp_webhook(request: Request, background: BackgroundTasks) -> JSONResponse:
+        corps = await request.body()
+        if not whatsapp.signature_valide(corps, request.headers.get("x-hub-signature-256"),
+                                         settings.whatsapp_app_secret):
+            raise HTTPException(401, "signature invalide")
+        recus = whatsapp.extraire_messages(json.loads(corps or b"{}"))
+
+        async def traiter() -> None:
+            for recu in recus:
+                t, evenements = await asyncio.to_thread(traiter_whatsapp, recu)
+                if t is not None:
+                    await notifier(t, evenements)
+        # Réponse immédiate à Meta ; l'IA travaille en arrière-plan.
+        background.add_task(traiter)
+        return JSONResponse({"ok": True})
+
+    app.state.traiter_whatsapp = traiter_whatsapp
 
     # ------------------------------------------------------------------ tableau de bord
     @app.get("/dashboard/{tenant_id}", response_class=HTMLResponse)
@@ -303,32 +421,3 @@ def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: 
         return None
     fiche["resume"] = analysis.get("summary") or message.get("summary") or ""
     return fiche
-
-
-CATEGORIES = {
-    "nouveau_patient": "Nouveau patient", "patient_existant": "Patient du cabinet", "urgence": "Urgence",
-    "devis_soin_important": "Devis soin important", "information": "Renseignement",
-    "annulation": "Annulation", "autre": "Autre",
-}
-
-
-def texte_fiche(fiche: dict[str, Any], numero: str | None, message: dict[str, Any]) -> str:
-    """Fiche d'appel envoyée sur Telegram après chaque appel entrant."""
-    score = fiche.get("score_interet")
-    if score is None:
-        entete = "📋 Fiche appel"
-    else:
-        niveau = "🔥 chaud" if score >= 80 else "🌤️ tiède" if score >= 50 else "❄️ froid"
-        entete = f"📋 Fiche appel — intérêt {score} % ({niveau})"
-    lignes = [entete, f"{fiche.get('nom_appelant') or 'Nom non donné'} — {telephone_lisible(numero or '') or 'numéro masqué'}"]
-    details = [CATEGORIES.get(fiche.get("categorie", ""), "")]
-    if fiche.get("soin_evoque"):
-        details.append(f"soin : {fiche['soin_evoque']}")
-    if any(details):
-        lignes.append(" · ".join(d for d in details if d))
-    if fiche.get("resume"):
-        lignes.append(fiche["resume"])
-    if fiche.get("prochaine_action"):
-        lignes.append(f"➡️ {fiche['prochaine_action']}")
-    return "\n".join(lignes)
-

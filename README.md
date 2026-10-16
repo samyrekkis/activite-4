@@ -7,6 +7,8 @@ dentaires, médicaux, d'avocats, salons de beauté, garages, agences immobilièr
 - **prend, déplace et annule les rendez-vous** dans un vrai agenda, sans double réservation. Elle propose 3 créneaux sur 3 jours de la semaine et écrit directement dans **Google Agenda ou le CRM du cabinet** ;
 - **appelle les patients 48 h avant** pour confirmer, déplacer ou annuler. Un créneau libéré est **proposé automatiquement à la liste d'attente** ;
 - envoie après chaque appel une **fiche avec un score d'intérêt** (🔥 chaud / 🌤️ tiède / ❄️ froid) ;
+- répond aussi sur **WhatsApp** (chatbot texte, mêmes outils, même agenda), idéal derrière une pub « clic vers WhatsApp ».
+  Les rappels 48 h avant partent d'abord par WhatsApp avec des boutons, et l'appel n'a lieu que si le patient ne répond pas ;
 - répond aux questions pratiques (adresse, horaires, tarifs indicatifs, paiement, CNAS…) ;
 - détecte les urgences, oriente vers le 14 si nécessaire, **transfère l'appel** au cabinet ou **prend un message** ;
 - prévient le cabinet en temps réel sur **Telegram** (nouveau RDV, annulation, message urgent) ;
@@ -44,7 +46,7 @@ Un seul serveur gère **plusieurs clients** : chaque cabinet = un fichier JSON d
 python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements-dev.txt
 cp .env.example .env          # puis remplis les valeurs
-pytest                        # 25 tests : agenda, CRM, relances, liste d'attente, webhook, dashboard
+pytest                        # 31 tests : agenda, CRM, relances, liste d'attente, WhatsApp, webhook, dashboard
 uvicorn app.main:create_app --factory --reload
 # http://localhost:8000/health
 # http://localhost:8000/dashboard/dentaire-exemple?key=<dashboard_key du fichier client>
@@ -77,5 +79,6 @@ Le détail se trouve dans [`docs/04-onboarding-client.md`](docs/04-onboarding-cl
 6. [Recette qualité : scénarios de test avant livraison](docs/06-tests-qualite.md)
 7. [Méthode « fiche mémoire » : prompts Claude pour créer et tenir à jour les fiches](docs/07-methode-fiche.md)
 8. [Agenda / CRM du cabinet, relances de confirmation, liste d'attente, fiche d'appel](docs/08-agenda-relances.md)
+9. [Chatbot WhatsApp, rappels WhatsApp et pubs « clic vers WhatsApp »](docs/09-whatsapp.md)
 
 Page de vente prête à déployer (Netlify) : [`vente/index.html`](vente/index.html).

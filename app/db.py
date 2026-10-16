@@ -44,6 +44,27 @@ CREATE TABLE IF NOT EXISTS liste_attente (
 );
 CREATE INDEX IF NOT EXISTS idx_attente_tenant ON liste_attente(tenant, statut);
 
+CREATE TABLE IF NOT EXISTS wa_conversations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    tenant TEXT NOT NULL,
+    telephone TEXT NOT NULL,
+    nom_profil TEXT NOT NULL DEFAULT '',
+    source TEXT NOT NULL DEFAULT '',     -- 'pub' si la personne arrive par une publicité « clic vers WhatsApp »
+    messages TEXT NOT NULL DEFAULT '[]', -- historique complet pour l'IA (ajout uniquement)
+    nb_messages INTEGER NOT NULL DEFAULT 0,
+    dernier_texte TEXT NOT NULL DEFAULT '',
+    debut TEXT NOT NULL DEFAULT (datetime('now')),
+    dernier_message TEXT NOT NULL DEFAULT (datetime('now')),
+    fiche TEXT,                          -- JSON : score d'intérêt, catégorie, action
+    fiche_envoyee INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_wa_tenant_tel ON wa_conversations(tenant, telephone, dernier_message);
+
+CREATE TABLE IF NOT EXISTS wa_vus (
+    message_id TEXT PRIMARY KEY,         -- Meta peut renvoyer le même message : on ne le traite qu'une fois
+    recu_le TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
 CREATE TABLE IF NOT EXISTS messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     tenant TEXT NOT NULL,

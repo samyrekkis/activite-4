@@ -29,6 +29,18 @@ SANS_REPONSE = ("customer-did-not-answer", "customer-busy", "voicemail", "no-ans
 
 # lanceur(tenant, numero, nom, assistant) -> identifiant de l'appel Vapi
 Lanceur = Callable[[Tenant, str, str, dict[str, Any]], str | None]
+# envoyeur_whatsapp(tenant, numero, rdv) : envoie le modèle « rappel de RDV » avec ses 3 boutons
+EnvoyeurWhatsApp = Callable[[Tenant, str, dict[str, Any]], None]
+
+
+def envoyeur_whatsapp(client: Any) -> EnvoyeurWhatsApp:
+    def envoyer(t: Tenant, numero: str, rdv: dict[str, Any]) -> None:
+        wa = t.raw.get("whatsapp") or {}
+        client.envoyer_modele(
+            wa["phone_number_id"], numero.lstrip("+"), wa.get("modele_relance", "rappel_rdv"),
+            wa.get("langue_modele", "fr"), [rdv["nom"], t.nom, rdv["libelle"]],
+            [f"rdv:{rdv['id']}:confirmer", f"rdv:{rdv['id']}:changer", f"rdv:{rdv['id']}:annuler"])
+    return envoyer
 
 
 def lanceur_vapi(api_key: str) -> Lanceur:
@@ -48,11 +60,13 @@ def lanceur_vapi(api_key: str) -> Lanceur:
 
 
 class Relanceur:
-    def __init__(self, db: Database, base_url: str, secret: str, lanceur: Lanceur | None):
+    def __init__(self, db: Database, base_url: str, secret: str, lanceur: Lanceur | None,
+                 whatsapp: EnvoyeurWhatsApp | None = None):
         self.db = db
         self.base_url = base_url
         self.secret = secret
         self.lanceur = lanceur
+        self.whatsapp = whatsapp
 
     # ------------------------------------------------------------------ relances (confirmation)
 
@@ -71,24 +85,40 @@ class Relanceur:
         trop_tard = maintenant + timedelta(hours=3)  # inutile d'appeler pour un RDV dans moins de 3 h
         rappel = (maintenant - timedelta(hours=cfg["intervalle_heures"])).strftime(FORMAT)
         bloque = (maintenant - timedelta(hours=1)).strftime(FORMAT)
+        attente_wa = (maintenant - timedelta(hours=cfg["attente_whatsapp_heures"])).strftime(FORMAT)
         return self.db.query(
             "SELECT * FROM rendez_vous WHERE tenant=? AND statut='confirme' AND telephone != '' "
             "AND debut > ? AND debut <= ? AND ("
             "  confirmation IS NULL"
             "  OR (confirmation='sans_reponse' AND relance_tentatives < ? AND relance_derniere <= ?)"
             "  OR (confirmation='appel_en_cours' AND relance_derniere <= ?)"  # rapport de fin jamais reçu
+            "  OR (confirmation='whatsapp_envoye' AND relance_derniere <= ?)"  # pas de réponse au WhatsApp
             ") ORDER BY debut",
-            (t.id, trop_tard.strftime(FORMAT), limite.strftime(FORMAT), cfg["tentatives"], rappel, bloque),
+            (t.id, trop_tard.strftime(FORMAT), limite.strftime(FORMAT), cfg["tentatives"], rappel, bloque,
+             attente_wa),
         )
 
     def lancer_relances(self, t: Tenant, maintenant: datetime) -> list[Evenement]:
         evenements = []
+        canal = t.relance["canal"]
         for r in self.relances_dues(t, maintenant):
             if r["confirmation"] == "appel_en_cours" and r["relance_tentatives"] >= t.relance["tentatives"]:
                 evenements += self._injoignable(t, r)
                 continue
             rdv = {"id": r["id"], "nom": r["nom"], "service": r["service"],
                    "libelle": libelle_creneau(parse_local(r["debut"]))}
+            if r["confirmation"] is None and canal.startswith("whatsapp") and self.whatsapp:
+                try:
+                    self.whatsapp(t, r["telephone"], rdv)
+                    self.db.execute("UPDATE rendez_vous SET confirmation='whatsapp_envoye', relance_derniere=? "
+                                    "WHERE id=?", (maintenant.strftime(FORMAT), r["id"]))
+                    log.info("[%s] rappel WhatsApp envoyé pour RDV #%s", t.id, r["id"])
+                    continue
+                except Exception as e:  # noqa: BLE001 — pas de WhatsApp sur ce numéro : on passe à l'appel
+                    log.warning("[%s] rappel WhatsApp RDV #%s impossible : %s", t.id, r["id"], e)
+            if r["confirmation"] == "whatsapp_envoye" and canal == "whatsapp":
+                evenements += self._injoignable(t, r, "n'a pas répondu au WhatsApp")
+                continue
             self.db.execute(
                 "UPDATE rendez_vous SET confirmation='appel_en_cours', relance_tentatives=relance_tentatives+1, "
                 "relance_derniere=? WHERE id=?", (maintenant.strftime(FORMAT), r["id"]))
@@ -103,11 +133,11 @@ class Relanceur:
                 self.db.execute("UPDATE rendez_vous SET confirmation='sans_reponse' WHERE id=?", (r["id"],))
         return evenements
 
-    def _injoignable(self, t: Tenant, r: Any) -> list[Evenement]:
+    def _injoignable(self, t: Tenant, r: Any, raison: str = "injoignable") -> list[Evenement]:
         self.db.execute("UPDATE rendez_vous SET confirmation='injoignable' WHERE id=?", (r["id"],))
         return [Evenement(
             "alerte",
-            f"📵 Patient injoignable pour confirmer\n{r['nom']} — {telephone_lisible(r['telephone'])}\n"
+            f"📵 Patient {raison} pour confirmer\n{r['nom']} — {telephone_lisible(r['telephone'])}\n"
             f"{r['service']}, {libelle_creneau(parse_local(r['debut']))}\nÀ rappeler par le cabinet.",
             {"id": r["id"]})]
 

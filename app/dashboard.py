@@ -86,6 +86,7 @@ def questions_a_ajouter(db: Database, t: Tenant, jours: int = 30) -> list[tuple[
 CONFIRMATIONS = {
     None: ("", ""), "appel_en_cours": ("relance en cours", "neutre"), "sans_reponse": ("pas de réponse", "neutre"),
     "confirme": ("confirmé ✓", "ok"), "injoignable": ("injoignable", "ko"),
+    "whatsapp_envoye": ("rappel WhatsApp envoyé", "neutre"),
 }
 
 
@@ -166,6 +167,17 @@ def page(db: Database, t: Tenant, key: str) -> str:
         "appel en cours" if w["statut"] == "contacte" else "",
     ] for w in attente]
 
+    convs = db.query("SELECT * FROM wa_conversations WHERE tenant=? ORDER BY dernier_message DESC LIMIT 30", (t.id,))
+    lignes_wa = [[
+        escape(_local(t, c["dernier_message"])),
+        escape(c["nom_profil"] or ""),
+        f'<a href="https://wa.me/{escape(c["telephone"].lstrip("+"))}" target="_blank" rel="noopener">'
+        f'{escape(telephone_lisible(c["telephone"]))}</a>',
+        _pastille("pub", "neutre") if c["source"] == "pub" else "",
+        _pastille_score({"mode": "whatsapp", "fiche": c["fiche"]}),
+        escape(c["dernier_texte"][:120]),
+    ] for c in convs]
+
     options_services = "".join(
         f'<option value="{escape(sv.id)}">{escape(sv.nom)} ({sv.duree} min)</option>' for sv in t.services)
     valeur = f'<div class="card"><div class="mut">Valeur estimée</div><div class="big">{s["valeur_estimee_da"]:,} DA</div></div>'.replace(",", " ") if s["valeur_estimee_da"] else ""
@@ -191,6 +203,8 @@ def page(db: Database, t: Tenant, key: str) -> str:
 <button>Ajouter</button></form></details>
 {_table(["Date", "Nom", "Téléphone", "Service", "Confirmation", "Notes", ""], lignes_rdv, "Aucun rendez-vous à venir.")}
 <p><a href="/dashboard/{escape(t.id)}/export.csv?key={k}">Exporter tous les rendez-vous (CSV)</a></p>
+<h2>Conversations WhatsApp</h2>
+{_table(["Dernier message", "Nom", "WhatsApp", "Source", "Intérêt", "Dernier message reçu"], lignes_wa, "Aucune conversation WhatsApp.")}
 <h2>Liste d'attente</h2>
 {_table(["Inscrit le", "Nom", "Téléphone", "Soin", "Préférence", ""], lignes_attente, "Personne en liste d'attente.")}
 <h2>Messages à rappeler</h2>

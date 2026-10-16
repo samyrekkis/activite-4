@@ -58,8 +58,12 @@ class Tenant:
     @property
     def relance(self) -> dict[str, Any]:
         """Réglages des appels de confirmation (voir docs/08-agenda-relances.md)."""
+        wa = self.raw.get("whatsapp") or {}
         defaut = {"actif": False, "heures_avant": 48, "plage": ["09:00", "19:00"],
-                  "jours_exclus": ["vendredi"], "tentatives": 2, "intervalle_heures": 3}
+                  "jours_exclus": ["vendredi"], "tentatives": 2, "intervalle_heures": 3,
+                  # "appel" | "whatsapp" | "whatsapp_puis_appel" (WhatsApp d'abord, appel si pas de réponse)
+                  "canal": "whatsapp_puis_appel" if wa.get("phone_number_id") and wa.get("relance") else "appel",
+                  "attente_whatsapp_heures": 20}
         return {**defaut, **(self.raw.get("relance") or {})}
 
     @property
@@ -185,6 +189,12 @@ class TenantRegistry:
         if not tenant_id:
             return None
         return self._tenants.get(tenant_id)
+
+    def by_whatsapp(self, phone_number_id: str) -> Tenant | None:
+        for t in self._tenants.values():
+            if phone_number_id and (t.raw.get("whatsapp") or {}).get("phone_number_id") == phone_number_id:
+                return t
+        return None
 
     def by_phone(self, phone_number_id: str | None, number: str | None) -> Tenant | None:
         """Retrouve le client à partir du numéro Vapi appelé."""

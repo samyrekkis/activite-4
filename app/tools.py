@@ -369,6 +369,8 @@ OUTILS_PAR_MODE = {
     "relance": {"confirmer_presence", "annuler_rendez_vous", "deplacer_rendez_vous",
                 "verifier_disponibilites", "laisser_message"},
     "offre": {"accepter_creneau", "refuser_creneau", "laisser_message"},
+    "whatsapp": {"verifier_disponibilites", "prendre_rendez_vous", "chercher_rendez_vous", "annuler_rendez_vous",
+                 "deplacer_rendez_vous", "laisser_message", "inscrire_liste_attente", "confirmer_presence"},
 }
 
 

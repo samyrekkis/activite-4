@@ -48,6 +48,7 @@ def main() -> int:
                     "jours_exclus": ["vendredi"], "tentatives": 2, "intervalle_heures": 3},
         "liste_attente": {"actif": True, "appel_auto": False, "delai_min_heures": 4, "max_contacts": 3},
         "agenda_externe": None,
+        "whatsapp": {"phone_number_id": "", "relance": True, "modele_relance": "rappel_rdv", "langue_modele": "fr"},
         "dashboard_key": secrets.token_urlsafe(24),
         "enregistrement": True,
     }

@@ -7,9 +7,11 @@ Une notification qui échoue ne doit jamais faire échouer l'appel : on journali
 from __future__ import annotations
 
 import logging
+from typing import Any
 
 import httpx
 
+from .scheduling import telephone_lisible
 from .tenants import Tenant
 from .tools import Evenement
 
@@ -44,3 +46,35 @@ async def envoyer(tenant: Tenant, evenements: list[Evenement], telegram_token: s
                     r.raise_for_status()
                 except httpx.HTTPError as e:
                     log.warning("Webhook KO pour %s: %s", tenant.id, e)
+
+
+CATEGORIES = {
+    "nouveau_patient": "Nouveau patient", "patient_existant": "Patient du cabinet", "urgence": "Urgence",
+    "devis_soin_important": "Devis soin important", "information": "Renseignement",
+    "annulation": "Annulation", "autre": "Autre",
+}
+
+
+def texte_fiche(fiche: dict[str, Any], numero: str | None, canal: str = "appel", source: str = "") -> str:
+    """Fiche envoyée sur Telegram après chaque appel entrant ou conversation WhatsApp."""
+    score = fiche.get("score_interet")
+    titre = "📋 Fiche appel" if canal == "appel" else "💬 Fiche WhatsApp"
+    if source == "pub":
+        titre += " (venu par la pub)"
+    if score is None:
+        entete = titre
+    else:
+        niveau = "🔥 chaud" if score >= 80 else "🌤️ tiède" if score >= 50 else "❄️ froid"
+        entete = f"{titre} — intérêt {score} % ({niveau})"
+    lignes = [entete, f"{fiche.get('nom_appelant') or 'Nom non donné'} — {telephone_lisible(numero or '') or 'numéro masqué'}"]
+    details = [CATEGORIES.get(fiche.get("categorie", ""), "")]
+    if fiche.get("soin_evoque"):
+        details.append(f"soin : {fiche['soin_evoque']}")
+    if any(details):
+        lignes.append(" · ".join(d for d in details if d))
+    if fiche.get("resume"):
+        lignes.append(fiche["resume"])
+    if fiche.get("prochaine_action"):
+        lignes.append(f"➡️ {fiche['prochaine_action']}")
+    return "\n".join(lignes)
+

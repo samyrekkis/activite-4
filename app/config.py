@@ -14,6 +14,12 @@ class Settings:
     database_path: Path
     clients_dir: Path
     niches_dir: Path
+    whatsapp_token: str = ""
+    whatsapp_app_secret: str = ""
+    whatsapp_verify_token: str = ""
+    whatsapp_api_version: str = "v23.0"
+    modele_chat: str = "claude-opus-5-5"
+    effort_chat: str = "low"
 
 
 def load_settings() -> Settings:
@@ -26,4 +32,10 @@ def load_settings() -> Settings:
         database_path=Path(os.getenv("DATABASE_PATH", "data/agent.db")),
         clients_dir=Path(os.getenv("CLIENTS_DIR", "clients")),
         niches_dir=Path(os.getenv("NICHES_DIR", "niches")),
+        whatsapp_token=os.getenv("WHATSAPP_TOKEN", ""),
+        whatsapp_app_secret=os.getenv("WHATSAPP_APP_SECRET", ""),
+        whatsapp_verify_token=os.getenv("WHATSAPP_VERIFY_TOKEN", ""),
+        whatsapp_api_version=os.getenv("WHATSAPP_API_VERSION", "v23.0"),
+        modele_chat=os.getenv("MODELE_CHAT", "claude-opus-5-5"),
+        effort_chat=os.getenv("EFFORT_CHAT", "low"),
     )
