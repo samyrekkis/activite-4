@@ -1,0 +1,28 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Reel Instagram 15 s : expérience kimono + dégustation au Samouraï. Cible 18-35 ans, rythme rapide calé sur le beat (120 BPM), finir sur l'adresse.",
+  "handle": "@lesamourai",
+  "intro": { "title": "LE SAMOURAÏ", "subtitle": "L'expérience japonaise", "duration": 1.5 },
+  "clips": [
+    { "label": "#1 entrée kimono", "src": "demo/clip-a.mp4", "start": 0, "end": 1.5, "motion": "punchIn",
+      "transitionIn": { "type": "zoomPunch", "duration": 0.3 },
+      "text": [{ "content": "Enfile ton kimono", "style": "caption", "position": "bottom" }] },
+    { "label": "#2 miroir maquillage", "src": "demo/clip-b.mp4", "start": 1, "end": 2.5, "motion": "panLeft",
+      "transitionIn": { "type": "whip", "direction": "from-right", "duration": 0.25 } },
+    { "label": "#3 plat signature ralenti", "src": "demo/clip-c.mp4", "start": 0, "end": 1.5, "speed": 0.5, "motion": "zoomIn",
+      "transitionIn": { "type": "flash", "duration": 0.2 },
+      "text": [{ "content": "侍", "style": "kanji", "position": "center", "duration": 1.2 }] },
+    { "label": "#4 table basse", "src": "demo/clip-d.mp4", "start": 2, "end": 4, "motion": "zoomOut",
+      "transitionIn": { "type": "whip", "direction": "from-left", "duration": 0.25 },
+      "text": [{ "content": "Menu dégustation 39€", "style": "price", "position": "top", "delay": 0.3 }] }
+  ],
+  "outro": { "title": "Réserve ta table", "duration": 2 },
+  "music": { "src": "demo/music.mp3", "volume": 0.8, "fadeOut": 1 },
+  "sfx": [
+    { "src": "demo/whoosh.mp3", "at": 2.85, "volume": 0.7 },
+    { "src": "demo/whoosh.mp3", "at": 7.1, "volume": 0.7 }
+  ]
+}

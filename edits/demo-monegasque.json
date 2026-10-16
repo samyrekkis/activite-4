@@ -1,0 +1,23 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Reel brunch du week-end au Monégasque : générosité des assiettes et décoration. Rythme posé et élégant, transitions douces.",
+  "handle": "@lemonegasque",
+  "intro": { "title": "Le Monégasque", "subtitle": "Brunch du dimanche", "duration": 1.8 },
+  "clips": [
+    { "label": "#1 déco salle", "src": "demo/clip-b.mp4", "start": 0, "end": 2.5, "motion": "panRight",
+      "transitionIn": { "type": "fade", "duration": 0.5 } },
+    { "label": "#2 assiette brunch", "src": "demo/clip-a.mp4", "start": 1, "end": 3, "motion": "zoomIn",
+      "transitionIn": { "type": "slide", "direction": "from-bottom", "duration": 0.45 },
+      "text": [{ "content": "Pancakes maison", "style": "caption", "position": "bottom" }] },
+    { "label": "#3 versée sirop ralenti", "src": "demo/clip-d.mp4", "start": 0, "end": 1.2, "speed": 0.5, "motion": "zoomIn",
+      "transitionIn": { "type": "fade", "duration": 0.4 } },
+    { "label": "#4 formule", "src": "demo/clip-c.mp4", "start": 0, "end": 2, "motion": "zoomOut",
+      "transitionIn": { "type": "wipe", "direction": "from-left", "duration": 0.5 },
+      "text": [{ "content": "Formule brunch 29€", "style": "price", "position": "center", "delay": 0.3 }] }
+  ],
+  "outro": { "title": "Le Monégasque", "subtitle": "Sam. & Dim. 10h-15h", "duration": 2 },
+  "music": { "src": "demo/music.mp3", "volume": 0.7, "fadeOut": 1.5 }
+}

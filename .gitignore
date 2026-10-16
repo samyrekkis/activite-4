@@ -1,0 +1,13 @@
+node_modules/
+.env
+out/*
+analysis/*
+reviews/*
+public/rushes/*
+public/refs/*
+public/music/*
+public/sfx/*
+!**/.gitkeep
+!public/sfx/LICENSES.md
+!public/sfx/library.json
+public/demo/

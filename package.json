@@ -1,0 +1,31 @@
+{
+  "name": "resto-edit-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Workflow de montage vidéo pour restaurants : Claude monte (Remotion), Gemini critique.",
+  "scripts": {
+    "studio": "remotion studio",
+    "analyze:ref": "node scripts/analyze-reference.mjs",
+    "analyze:rushes": "node scripts/analyze-rushes.mjs",
+    "render": "node scripts/render.mjs",
+    "review": "node scripts/gemini-review.mjs",
+    "cycle": "node scripts/cycle.mjs",
+    "sfx": "node scripts/sfx-search.mjs",
+    "typecheck": "tsc --noEmit",
+    "fonts": "node scripts/fetch-fonts.mjs",
+    "demo:media": "node scripts/make-demo-media.mjs"
+  },
+  "dependencies": {
+    "@google/genai": "2.24.0",
+    "@remotion/cli": "4.0.529",
+    "@remotion/transitions": "4.0.529",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.2"
+  }
+}
