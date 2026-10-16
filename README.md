@@ -12,6 +12,7 @@ Talbi est un *reverse marketplace* de services, sur le modèle d'Upwork, adapté
 
 | Document | Contenu |
 |---|---|
+| [00 — Analyse de projets de référence](docs/00-analyse-projets-reference.md) | Étude de deux clones d'Upwork open source : idées retenues et failles à éviter |
 | [01 — Cahier des charges](docs/01-cahier-des-charges.md) | Vision, acteurs, parcours, fonctionnalités, modèle économique, architecture, feuille de route |
 
 ## État du projet
