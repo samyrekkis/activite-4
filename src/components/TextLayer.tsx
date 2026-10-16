@@ -10,7 +10,7 @@ const positionStyle = (position: TextOverlay["position"]): React.CSSProperties =
     case "center":
       return { justifyContent: "center" };
     default:
-      return { justifyContent: "flex-end", paddingBottom: "18%" };
+      return { justifyContent: "flex-end", paddingBottom: "30%" };
   }
 };
 
@@ -40,34 +40,39 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
   };
 
   if (style === "title" || style === "kanji") {
-    // Letter-by-letter reveal.
-    const letters = [...overlay.content];
+    // Letter-by-letter reveal. Words never break mid-word, and long titles
+    // shrink so the longest word fits the frame width.
+    const words = overlay.content.split(" ");
+    const longest = Math.max(...words.map((w) => [...w].length));
+    const size = style === "kanji" ? 220 : Math.min(120, 1500 / Math.max(longest, 1));
+    let index = 0;
     return (
       <div
         style={{
           ...base,
           fontFamily: theme.fonts.title,
           fontWeight: 700,
-          fontSize: (style === "kanji" ? 220 : 110) * unit,
+          fontSize: size * unit,
           letterSpacing: style === "kanji" ? 0 : 2 * unit,
+          // Titles sit on busy footage: a tight dark halo keeps them readable on any colour.
+          textShadow: `0 0 ${18 * unit}px rgba(0,0,0,0.85), 0 ${4 * unit}px ${10 * unit}px rgba(0,0,0,0.9)`,
         }}
       >
-        {letters.map((ch, i) => {
-          const s = spring({ frame: frame - i * 1.5, fps, config: { damping: 12, stiffness: 180 } });
-          return (
-            <span
-              key={i}
-              style={{
-                display: "inline-block",
-                whiteSpace: "pre",
-                opacity: s,
-                transform: `translateY(${(1 - s) * 40 * unit}px)`,
-              }}
-            >
-              {ch}
-            </span>
-          );
-        })}
+        {words.map((word, w) => (
+          <span key={w} style={{ display: "inline-block", whiteSpace: "nowrap", margin: `0 ${0.15 * size * unit}px` }}>
+            {[...word].map((ch) => {
+              const s = spring({ frame: frame - index++ * 1.5, fps, config: { damping: 12, stiffness: 180 } });
+              return (
+                <span
+                  key={index}
+                  style={{ display: "inline-block", opacity: s, transform: `translateY(${(1 - s) * 40 * unit}px)` }}
+                >
+                  {ch}
+                </span>
+              );
+            })}
+          </span>
+        ))}
       </div>
     );
   }
@@ -101,7 +106,8 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
         ...base,
         fontFamily: theme.fonts.body,
         fontWeight: 600,
-        fontSize: 58 * unit,
+        fontSize: 64 * unit,
+        textShadow: `0 0 ${14 * unit}px rgba(0,0,0,0.9), 0 ${3 * unit}px ${8 * unit}px rgba(0,0,0,0.9)`,
         transform: `translateY(${(1 - enter) * 30 * unit}px)`,
       }}
     >

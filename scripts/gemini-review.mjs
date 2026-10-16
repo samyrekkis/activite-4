@@ -5,6 +5,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { basename } from "node:path";
 import { GoogleGenAI, createPartFromUri, createUserContent } from "@google/genai";
 import { loadEnv } from "./lib/media.mjs";
+import { describeTimeline } from "./lib/timeline.mjs";
 
 loadEnv();
 const args = process.argv.slice(2);
@@ -25,7 +26,7 @@ if (!process.env.GEMINI_API_KEY) {
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // Tried in order: a model out of quota (429) or overloaded (503, after retries) falls through to the next.
-const models = (process.env.GEMINI_MODEL || "gemini-3.1-pro-preview,gemini-3.5-flash,gemini-flash-latest,gemini-2.5-flash")
+const models = (process.env.GEMINI_MODEL || "gemini-3.1-pro-preview,gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-flash-latest")
   .split(",")
   .map((m) => m.trim())
   .filter(Boolean);
@@ -93,6 +94,9 @@ ${ref ? "La SECONDE vidéo jointe est la RÉFÉRENCE de style à imiter (rythme,
 Évalue : accroche des 2 premières secondes, rythme et calage sur le beat, transitions, étalonnage et appétence des plats (food appeal), lisibilité et timing des textes, son (musique, effets sonores, niveaux), cohérence de marque, fin et appel à l'action, défauts techniques (saut d'image, flou, noir, image figée, texte coupé).
 Les timestamps doivent être exacts. Chaque correction doit être concrète et applicable au plan JSON (start/end, speed, motion, transitionIn, text, sfx, grade, ordre des clips).
 ${previous.length ? `Critiques précédentes (vérifie ce qui a été corrigé) : ${JSON.stringify(previous.map((p) => ({ version: p.version, score: p.score, issues: p.issues })))}` : ""}
+
+Chronologie réelle du rendu (début de chaque plan à l'écran, chevauchements de transition déduits). Les "duration" du plan INCLUENT la transition vers le plan suivant : juge le rythme sur ces instants de début, pas sur les durées brutes.
+${describeTimeline(plan)}
 
 Plan de montage (version ${version}) :
 ${JSON.stringify(plan, null, 2)}`;

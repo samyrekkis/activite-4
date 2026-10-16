@@ -8,6 +8,7 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
    - Lister le dossier avec le connecteur Drive (`search_files`, `parentId = '<id du dossier>'`) pour obtenir les identifiants des fichiers.
    - `npm run import -- rushes/<resto> <id>:<nom> …` (la vidéo exemple va dans `refs`). Les MOV d'iPhone sont convertis en MP4 H.264 30 i/s.
    - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
+   - Sans partage public : le connecteur Drive (`download_file_content`) télécharge les fichiers de **moins de 10 Mo** (photos). Le résultat est sauvé dans un fichier JSON : `python3 -I scripts/decode-drive.py <fichier> public/.raw`, puis `python3 scripts/convert-photos.py public/.raw public/photos/<dossier>` (HEIC vers JPG redressé).
 1. **Référence** (si fournie) : `npm run analyze:ref -- public/refs/<exemple>.mp4`
    - Lire `analysis/ref-<nom>/report.json` (durée moyenne des plans, BPM, % de coupes sur le beat) et **ouvrir chaque planche** `shots-*.jpg`.
    - En tirer une fiche de style : durée totale, durée des plans, type de transitions, style et position des textes, étalonnage, structure (accroche, déroulé, appel à l'action).
@@ -17,6 +18,7 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
 3. **Plan v1** : écrire `edits/<resto>-<sujet>.json` avec `"version": 1` (voir `src/types.ts`).
    - Musique : `public/music/`. Si la musique a un BPM connu, caler les durées de plans sur des multiples du beat (`60 / BPM`).
    - Effets sonores : `public/sfx/library.json` (sinon `npm run sfx -- "<recherche>"` ou `--pack <resto>`). Un whoosh sur chaque transition whip/slide, un impact sur les punchIn, sans en mettre partout.
+   - `node scripts/timeline-info.mjs edits/<plan>.json` donne le début réel de chaque plan (transitions déduites) : s'en servir pour caler coupes, textes et SFX sur le beat. Une coupe sans transition ne chevauche pas : le plan précédent doit alors durer un multiple exact du beat.
 4. **Contrôle interne** avant Gemini : `npm run render -- edits/<plan>.json --preview`, puis une planche du rendu (voir « Vérifier un rendu ») et la regarder. Corriger les défauts évidents tout de suite.
 5. **Boucle qualité, 3 cycles** : `npm run cycle -- edits/<plan>.json [--ref public/refs/<exemple>.mp4]`
    - Lire `reviews/<plan>-vN.json`. Corriger d'abord les problèmes `bloquant`, puis `important`. Pour les `mineur`, n'appliquer que ce qui améliore vraiment.

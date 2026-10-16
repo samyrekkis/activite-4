@@ -1,0 +1,195 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Reel Instagram de 15-18 s pour Le Samouraï (Asian Luxury), réalisé uniquement à partir de photos du lieu : fresque du samouraï, lanternes rouges, escalier néon, loge kimono avec miroir, terrasse. Cible 18-35 ans. Objectif : donner envie de venir vivre l'expérience (décor, shooting kimono, cuisine asiatique) et réserver. Rythme calé sur un beat taiko à 100 BPM (1 temps = 0,6 s).",
+  "clips": [
+    {
+      "label": "#1 fresque samouraï",
+      "src": "photos/inbox/IMG_2360.jpg",
+      "duration": 1.4,
+      "motion": "punchIn",
+      "text": [
+        {
+          "content": "LE SAMOURAÏ",
+          "style": "title",
+          "position": "center",
+          "delay": 0.15
+        }
+      ],
+      "grade": {
+        "brightness": 0.82
+      }
+    },
+    {
+      "label": "#2 lanternes escalier",
+      "src": "photos/inbox/IMG_2359.jpg",
+      "duration": 1.2,
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#3 cage néon",
+      "src": "photos/inbox/IMG_2361.jpg",
+      "duration": 1.4,
+      "motion": "panDown",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#4 couloir néon",
+      "src": "photos/inbox/IMG_2363.jpg",
+      "duration": 1.4,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-left",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Une expérience unique",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "label": "#5 loge kimono miroir",
+      "src": "photos/inbox/IMG_2345.jpg",
+      "duration": 2.0,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Shooting kimono inclus",
+          "style": "tag",
+          "position": "top",
+          "delay": 0.25
+        }
+      ]
+    },
+    {
+      "label": "#6 éventail logo",
+      "src": "photos/inbox/IMG_2341.jpg",
+      "duration": 1.2,
+      "motion": "punchIn",
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#7 salle lanternes",
+      "src": "photos/inbox/IMG_2346.jpg",
+      "duration": 1.4,
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#8 table dressée",
+      "src": "photos/inbox/IMG_2347.jpg",
+      "duration": 1.4,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-left",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Un cadre d'exception",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "label": "#9 terrasse",
+      "src": "photos/inbox/IMG_2354.jpg",
+      "duration": 2.0,
+      "motion": "panRight",
+      "motionIntensity": 2,
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-bottom",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Terrasse avec vue",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.3
+        }
+      ]
+    },
+    {
+      "label": "#10 entrée calligraphie",
+      "src": "photos/inbox/IMG_2339.jpg",
+      "duration": 1.7,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.2
+      }
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Asian Luxury",
+    "duration": 2.4,
+    "background": "photos/inbox/IMG_2363.jpg"
+  },
+  "music": {
+    "src": "music/samourai-taiko-100bpm.mp3",
+    "volume": 0.85,
+    "fadeOut": 1.2
+  },
+  "sfx": [
+    {
+      "src": "sfx/gong-synth.mp3",
+      "at": 0,
+      "volume": 0.6
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 3.5,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 8.9,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 11.9,
+      "volume": 0.55
+    },
+    {
+      "src": "sfx/gong-synth.mp3",
+      "at": 6.6,
+      "volume": 0.35,
+      "duration": 1.5
+    },
+    {
+      "src": "sfx/gong-synth.mp3",
+      "at": 13.2,
+      "volume": 0.4
+    }
+  ]
+}

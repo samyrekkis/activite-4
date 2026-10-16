@@ -1,6 +1,6 @@
 // Usage: npm run render -- edits/plan.json [--preview]
 // Writes out/<plan>-v<version>.mp4. --preview renders at half resolution (faster review cycles).
-import { existsSync, readFileSync, globSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, globSync, writeFileSync } from "node:fs";
 import { basename } from "node:path";
 import { spawn } from "node:child_process";
 import { loadEnv } from "./lib/media.mjs";
@@ -22,7 +22,12 @@ const browser =
   process.env.REMOTION_BROWSER ??
   globSync("/opt/pw-browsers/chromium_headless_shell-*/*/headless_shell").find(existsSync);
 
-const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--props=${planPath}`];
+// The composition takes { plan } (see src/Root.tsx).
+mkdirSync("out", { recursive: true });
+const propsPath = `out/.props-${name}.json`;
+writeFileSync(propsPath, JSON.stringify({ plan }));
+
+const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--props=${propsPath}`];
 if (preview) cliArgs.push("--scale=0.5");
 if (browser) cliArgs.push(`--browser-executable=${browser}`);
 
