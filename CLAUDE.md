@@ -4,6 +4,10 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
 
 ## Le workflow complet
 
+0. **Import depuis Google Drive** : l'utilisateur range ses vidéos dans un dossier Drive par restaurant, partagé « Tous les utilisateurs disposant du lien ».
+   - Lister le dossier avec le connecteur Drive (`search_files`, `parentId = '<id du dossier>'`) pour obtenir les identifiants des fichiers.
+   - `npm run import -- rushes/<resto> <id>:<nom> …` (la vidéo exemple va dans `refs`). Les MOV d'iPhone sont convertis en MP4 H.264 30 i/s.
+   - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
 1. **Référence** (si fournie) : `npm run analyze:ref -- public/refs/<exemple>.mp4`
    - Lire `analysis/ref-<nom>/report.json` (durée moyenne des plans, BPM, % de coupes sur le beat) et **ouvrir chaque planche** `shots-*.jpg`.
    - En tirer une fiche de style : durée totale, durée des plans, type de transitions, style et position des textes, étalonnage, structure (accroche, déroulé, appel à l'action).

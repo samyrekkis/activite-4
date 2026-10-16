@@ -11,3 +11,4 @@ public/sfx/*
 !public/sfx/LICENSES.md
 !public/sfx/library.json
 public/demo/
+public/.raw/
