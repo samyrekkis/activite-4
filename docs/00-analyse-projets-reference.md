@@ -1,6 +1,7 @@
 # Analyse de projets open source de référence
 
 > **Date** : octobre 2026
+> **Projets étudiés** : `vcashwin/upwork-clone`, `TrickyVikram/freelancehub-laravel`, `anaghakarade/freelance-marketplace`
 > **Objectif** : étudier des clones d'Upwork existants pour **s'en inspirer** et **identifier les erreurs à ne pas reproduire** dans Talbi. Aucun code n'est repris.
 
 ---
@@ -71,7 +72,47 @@ Un **projet d'apprentissage** (Hacktoberfest) qui annonce les fonctionnalités d
 
 ---
 
-## 3. Leçons appliquées à Talbi
+## 3. `anaghakarade/freelance-marketplace` (WorkStream)
+
+| | |
+|---|---|
+| Lien | https://github.com/anaghakarade/freelance-marketplace |
+| Technologies | React 18 + Vite (interface), Go + Gin (serveur), PostgreSQL |
+| Dernière mise à jour | octobre 2026 |
+| Licence | MIT annoncée dans la présentation, mais **aucun fichier de licence** dans le dépôt |
+
+### Ce que c'est
+
+Le **plus abouti des trois**. Il couvre tout le cycle d'Upwork : projets, propositions, contrats, jalons, livraisons, paiement sous séquestre (simulé), portefeuille, grand livre, messagerie, avis, modération, recherche et recommandation. Il compte une vingtaine de fichiers de tests automatiques.
+
+### Ce qu'on retient (bonnes idées)
+
+- **Montants stockés en nombres entiers de centimes** dans les tables de paiement : pas d'erreurs d'arrondi.
+- **Cycle de vie précis d'un jalon** : en attente → en cours → livré → approuvé, ou → corrections demandées → en cours…
+- **Historique des livraisons** : chaque rendu du prestataire est conservé avec la réponse du client.
+- **Verrouillage pendant les opérations d'argent** : la base bloque le paiement pendant qu'on le libère, pour éviter un double versement.
+- **Protections de base** : limitation du nombre de requêtes, en-têtes de sécurité, taille maximale des envois, journal d'audit des actions admin.
+- **Niveaux de confiance** des prestataires selon leur historique.
+
+### Failles relevées
+
+| # | Faille | Gravité | Conséquence concrète | Ce que fait Talbi |
+|---|---|---|---|---|
+| 1 | **Le client peut se faire rembourser seul, à tout moment**, même après que le prestataire a livré le travail. | 🔴 Critique | Le client récupère le travail **et** son argent. Aucun prestataire sérieux ne restera. | Après la livraison, le remboursement n'est possible que par accord des deux parties ou par décision d'un modérateur (litige). |
+| 2 | **Le montant d'un jalon reste modifiable après son paiement**, et **par les deux parties**, y compris le prestataire. | 🔴 Critique | Le montant affiché ne correspond plus à l'argent bloqué ; un prestataire peut gonfler un jalon avant que le client paie. | Un jalon payé est figé. Toute modification de montant est une proposition que l'autre partie doit accepter. |
+| 3 | **Le portefeuille peut ne pas être crédité alors que le paiement est marqué « versé »** : la mise à jour du solde peut échouer sans que l'opération soit annulée. | 🟠 Élevée | De l'argent « disparaît » entre le séquestre et le portefeuille | Le solde n'est pas stocké séparément : il est **calculé à partir du grand livre**, donc il ne peut pas diverger. |
+| 4 | **Grand livre à une seule entrée**, sans sens (débit/crédit), modifiable, et soldes stockés à part. | 🟠 Élevée | Impossible de prouver que les comptes sont justes | **Comptabilité en partie double** : chaque opération s'équilibre à zéro ; lignes **non modifiables** (bloquées par la base de données). |
+| 5 | **Le prestataire peut commencer un jalon qui n'a pas été payé.** | 🟠 Élevée | Le prestataire travaille sans garantie de paiement | En paiement en ligne, un jalon ne démarre qu'une fois l'argent bloqué. |
+| 6 | **Montants en nombres à virgule** (`float`) dans les contrats et les jalons, alors que les paiements utilisent des entiers. | 🟡 Moyenne | Écarts d'arrondi entre ce qui est affiché et ce qui est payé | Entiers en centimes **partout**. |
+| 7 | **Identifiants de paiement générés avec un compteur en mémoire** du serveur. | 🟡 Moyenne | Doublons dès qu'on lance deux serveurs en parallèle | Identifiants uniques universels (UUID) générés par la base. |
+| 8 | **Supprimer un utilisateur supprime ses contrats** en cascade. | 🟡 Moyenne | Perte de l'historique comptable et des preuves en cas de litige | Les comptes sont anonymisés, jamais supprimés physiquement quand ils ont un historique financier. |
+| 9 | Monnaie fixée en roupie indienne (INR) / dollar ; prestataires de paiement indiens (Razorpay). | — | Inadapté à l'Algérie | Dinar et passerelles algériennes. |
+
+**Verdict** : une **bonne référence d'architecture** (découpage du code, cycle des jalons, verrouillage), mais **les règles d'argent sont fausses** sur des points essentiels. On s'inspire de sa structure, pas de sa logique de paiement.
+
+---
+
+## 4. Leçons appliquées à Talbi
 
 1. **Autorisation systématique côté serveur** : chaque action vérifie qui fait quoi, et un test automatique prouve que l'accès est refusé aux autres.
 2. **Aucun raccourci de test en production** : la configuration en ligne est séparée et vérifiée avant chaque mise en ligne.
@@ -79,3 +120,6 @@ Un **projet d'apprentissage** (Hacktoberfest) qui annonce les fonctionnalités d
 4. **Les fichiers envoyés sont considérés comme dangereux** jusqu'à preuve du contraire.
 5. **L'argent d'abord** : paiements, séquestre et grand livre font partie du cœur de la V1, pas d'un « plus tard ».
 6. **Tester les cas d'attaque**, pas seulement les cas normaux.
+7. **Comptabilité en partie double** : le solde se calcule à partir du grand livre, il n'est jamais stocké à part.
+8. **Ce qui est payé est figé** : aucun montant ne change sans l'accord des deux parties.
+9. **Personne ne décide seul de l'argent de l'autre** : après livraison, seul un accord mutuel ou un modérateur peut rembourser.

@@ -1,0 +1,1213 @@
+// Talbi — schéma de la base de données
+// Documentation : docs/02-modele-de-donnees.md
+//
+// Conventions :
+// - Montants en centimes de dinar (BigInt) : 1 500,00 DA = 150000.
+// - Pourcentages en points de base (Int) : 10 % = 1000.
+// - Noms de modèles et de champs en anglais (convention du code), tables en snake_case.
+// - Les contraintes que Prisma ne sait pas exprimer (CHECK, triggers du grand livre,
+//   recherche plein texte) sont ajoutées en SQL dans les migrations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────
+// Énumérations
+// ─────────────────────────────────────────────────────────────
+
+enum Locale {
+  FR
+  AR
+}
+
+enum UserRole {
+  USER
+  MODERATOR
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  BANNED
+  DELETED // anonymisé (loi 18-07), l'historique financier est conservé
+}
+
+enum UserMode {
+  CLIENT
+  PROVIDER
+}
+
+enum ClientType {
+  INDIVIDUAL
+  BUSINESS
+}
+
+enum ServiceMode {
+  REMOTE
+  ONSITE
+}
+
+enum ProviderServiceMode {
+  REMOTE
+  ONSITE
+  BOTH
+}
+
+enum ProviderLevel {
+  NEW
+  CONFIRMED
+  TOP
+}
+
+enum VerificationType {
+  IDENTITY
+  BUSINESS
+}
+
+enum VerificationStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum CategoryFieldType {
+  TEXT
+  NUMBER
+  SELECT
+  MULTISELECT
+  BOOLEAN
+  DATE
+}
+
+enum BudgetType {
+  FIXED
+  RANGE
+  QUOTE // sur devis
+}
+
+enum JobVisibility {
+  PUBLIC
+  INVITE_ONLY
+}
+
+enum JobStatus {
+  DRAFT
+  PUBLISHED
+  ASSIGNED
+  IN_PROGRESS
+  DELIVERED
+  COMPLETED
+  CANCELLED
+  EXPIRED
+  DISPUTED
+}
+
+enum InvitationStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+}
+
+enum ProposalStatus {
+  SUBMITTED
+  VIEWED
+  SHORTLISTED
+  ACCEPTED
+  DECLINED
+  WITHDRAWN
+}
+
+enum ContractPaymentMode {
+  ONLINE_ESCROW // paiement en ligne sous séquestre
+  CASH // paiement en espèces, hors séquestre (services sur place)
+}
+
+enum ContractStatus {
+  ACTIVE
+  COMPLETED
+  CANCELLED
+  DISPUTED
+}
+
+enum MilestoneStatus {
+  AWAITING_FUNDING // en attente du paiement du client (mode en ligne)
+  FUNDED // argent bloqué, le prestataire peut commencer
+  IN_PROGRESS
+  SUBMITTED
+  REVISION_REQUESTED
+  APPROVED
+  RELEASED // argent versé au prestataire
+  REFUNDED
+  CANCELLED
+}
+
+enum SubmissionStatus {
+  SUBMITTED
+  ACCEPTED
+  REVISION_REQUESTED
+}
+
+enum PaymentPurpose {
+  MILESTONE_FUNDING
+  TOKEN_PURCHASE
+}
+
+enum PaymentMethod {
+  EDAHABIA
+  CIB
+  BARIDIMOB
+  CCP_TRANSFER
+}
+
+enum PaymentProvider {
+  CHARGILY
+  MANUAL // virement vérifié par l'équipe à partir d'un reçu
+}
+
+enum PaymentStatus {
+  PENDING
+  AWAITING_REVIEW // reçu envoyé, en attente de vérification
+  SUCCEEDED
+  FAILED
+  CANCELLED
+  REFUNDED
+}
+
+enum PayoutMethod {
+  CCP
+  BARIDIMOB
+  BANK_TRANSFER
+}
+
+enum PayoutStatus {
+  REQUESTED
+  APPROVED
+  PAID
+  REJECTED
+}
+
+enum LedgerAccountType {
+  EXTERNAL // l'extérieur de Talbi (passerelles, banques)
+  ESCROW // argent des clients bloqué sous séquestre
+  PLATFORM_REVENUE // revenus de Talbi (commissions, jetons)
+  PROVIDER_WALLET // solde disponible d'un prestataire
+}
+
+enum LedgerTransactionType {
+  MILESTONE_FUNDED
+  MILESTONE_RELEASED
+  MILESTONE_REFUNDED
+  DISPUTE_SETTLEMENT
+  TOKEN_PURCHASE
+  PAYOUT
+  ADJUSTMENT
+}
+
+enum TokenReason {
+  PURCHASE
+  MONTHLY_GRANT
+  WELCOME_GRANT
+  PROPOSAL_SPENT
+  PROPOSAL_REFUND
+  PROMO
+  ADMIN_ADJUSTMENT
+}
+
+enum ReviewDirection {
+  CLIENT_TO_PROVIDER
+  PROVIDER_TO_CLIENT
+}
+
+enum DisputeReason {
+  NOT_DELIVERED
+  QUALITY_ISSUE
+  LATE_DELIVERY
+  PAYMENT_ISSUE
+  COMMUNICATION
+  FRAUD
+  OTHER
+}
+
+enum DisputeStatus {
+  OPEN
+  UNDER_REVIEW
+  RESOLVED
+  CANCELLED
+}
+
+enum DisputeResolution {
+  REFUND_CLIENT
+  RELEASE_PROVIDER
+  SPLIT
+}
+
+enum ReportTarget {
+  USER
+  JOB
+  PROPOSAL
+  MESSAGE
+  REVIEW
+}
+
+enum ReportStatus {
+  OPEN
+  ACTION_TAKEN
+  DISMISSED
+}
+
+enum FilePurpose {
+  AVATAR
+  PORTFOLIO
+  JOB_ATTACHMENT
+  PROPOSAL_ATTACHMENT
+  MESSAGE_ATTACHMENT
+  DELIVERABLE
+  IDENTITY_DOCUMENT
+  PAYMENT_PROOF
+  DISPUTE_EVIDENCE
+}
+
+enum FileVisibility {
+  PUBLIC
+  PRIVATE // accessible uniquement via un lien temporaire signé
+}
+
+enum FileScanStatus {
+  PENDING
+  CLEAN
+  INFECTED
+}
+
+enum NotificationChannel {
+  IN_APP
+  EMAIL
+  SMS
+  PUSH
+}
+
+// ─────────────────────────────────────────────────────────────
+// 1. Identité et authentification
+// (User, Session, Account, Verification suivent le format de Better Auth)
+// ─────────────────────────────────────────────────────────────
+
+model User {
+  id                  String     @id @default(uuid()) @db.Uuid
+  name                String
+  email               String?    @unique
+  emailVerified       Boolean    @default(false)
+  phoneNumber         String?    @unique
+  phoneNumberVerified Boolean    @default(false)
+  image               String?
+  twoFactorEnabled    Boolean    @default(false)
+  role                UserRole   @default(USER)
+  status              UserStatus @default(ACTIVE)
+  locale              Locale     @default(FR)
+  activeMode          UserMode   @default(CLIENT)
+  clientType          ClientType @default(INDIVIDUAL)
+  companyName         String?
+  wilayaId            Int?
+  communeId           Int?
+  lastSeenAt          DateTime?
+  createdAt           DateTime   @default(now())
+  updatedAt           DateTime   @updatedAt
+  deletedAt           DateTime?
+
+  wilaya  Wilaya?  @relation(fields: [wilayaId], references: [id])
+  commune Commune? @relation(fields: [communeId], references: [id])
+
+  sessions                Session[]
+  accounts                Account[]
+  providerProfile         ProviderProfile?
+  verifications           IdentityVerification[]    @relation("VerificationUser")
+  reviewedVerifications   IdentityVerification[]    @relation("VerificationReviewer")
+  jobs                    Job[]
+  jobInvitations          JobInvitation[]
+  proposals               Proposal[]
+  clientContracts         Contract[]                @relation("ContractClient")
+  providerContracts       Contract[]                @relation("ContractProvider")
+  submissions             MilestoneSubmission[]
+  payments                Payment[]                 @relation("PaymentPayer")
+  reviewedPayments        Payment[]                 @relation("PaymentReviewer")
+  payouts                 Payout[]                  @relation("PayoutUser")
+  processedPayouts        Payout[]                  @relation("PayoutProcessor")
+  ledgerAccounts          LedgerAccount[]
+  ledgerTransactions      LedgerTransaction[]
+  tokenTransactions       TokenTransaction[]
+  conversations           ConversationParticipant[]
+  messages                Message[]
+  reviewsWritten          Review[]                  @relation("ReviewAuthor")
+  reviewsReceived         Review[]                  @relation("ReviewTarget")
+  disputesOpened          Dispute[]                 @relation("DisputeOpener")
+  disputesAssigned        Dispute[]                 @relation("DisputeAssignee")
+  disputeMessages         DisputeMessage[]
+  reportsMade             Report[]                  @relation("ReportReporter")
+  reportsHandled          Report[]                  @relation("ReportHandler")
+  notifications           Notification[]
+  notificationPreferences NotificationPreference[]
+  files                   FileAsset[]
+  auditLogs               AuditLog[]
+  settingsUpdated         PlatformSetting[]
+
+  @@index([wilayaId])
+  @@index([status])
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(uuid()) @db.Uuid
+  userId    String   @db.Uuid
+  token     String   @unique
+  expiresAt DateTime
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+// Comptes de connexion : mot de passe, Google…
+model Account {
+  id                    String    @id @default(uuid()) @db.Uuid
+  userId                String    @db.Uuid
+  providerId            String // "credential", "google"
+  accountId             String // identifiant chez le fournisseur
+  password              String? // haché
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+  @@map("accounts")
+}
+
+// Codes à usage unique : vérification d'e-mail, code SMS, réinitialisation
+model Verification {
+  id         String   @id @default(uuid()) @db.Uuid
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verifications")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 2. Géographie et catalogue
+// ─────────────────────────────────────────────────────────────
+
+model Wilaya {
+  id     Int    @id // code officiel (1 = Adrar, 16 = Alger…)
+  nameFr String
+  nameAr String
+
+  communes  Commune[]
+  users     User[]
+  jobs      Job[]
+  coverages ProviderCoverage[]
+
+  @@map("wilayas")
+}
+
+model Commune {
+  id         Int     @id
+  wilayaId   Int
+  nameFr     String
+  nameAr     String
+  postalCode String?
+
+  wilaya Wilaya @relation(fields: [wilayaId], references: [id])
+  users  User[]
+  jobs   Job[]
+
+  @@index([wilayaId])
+  @@map("communes")
+}
+
+model Category {
+  id            String              @id @default(uuid()) @db.Uuid
+  parentId      String?             @db.Uuid
+  slug          String              @unique
+  nameFr        String
+  nameAr        String
+  descriptionFr String?
+  descriptionAr String?
+  icon          String?
+  serviceMode   ProviderServiceMode @default(BOTH) // modes autorisés dans cette catégorie
+  sortOrder     Int                 @default(0)
+  isActive      Boolean             @default(true)
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+
+  parent    Category?          @relation("CategoryTree", fields: [parentId], references: [id])
+  children  Category[]         @relation("CategoryTree")
+  fields    CategoryField[]
+  skills    Skill[]
+  jobs      Job[]
+  providers ProviderCategory[]
+
+  @@index([parentId])
+  @@map("categories")
+}
+
+// Champs spécifiques à une catégorie (ex. : surface en m² pour la peinture)
+model CategoryField {
+  id         String            @id @default(uuid()) @db.Uuid
+  categoryId String            @db.Uuid
+  key        String
+  labelFr    String
+  labelAr    String
+  type       CategoryFieldType
+  options    Json? // [{ value, labelFr, labelAr }] pour SELECT / MULTISELECT
+  isRequired Boolean           @default(false)
+  sortOrder  Int               @default(0)
+
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@unique([categoryId, key])
+  @@map("category_fields")
+}
+
+model Skill {
+  id         String  @id @default(uuid()) @db.Uuid
+  categoryId String? @db.Uuid
+  slug       String  @unique
+  nameFr     String
+  nameAr     String
+
+  category  Category?       @relation(fields: [categoryId], references: [id])
+  providers ProviderSkill[]
+
+  @@map("skills")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 3. Profil prestataire
+// ─────────────────────────────────────────────────────────────
+
+model ProviderProfile {
+  id                 String              @id @default(uuid()) @db.Uuid
+  userId             String              @unique @db.Uuid
+  headline           String
+  bio                String
+  serviceMode        ProviderServiceMode @default(BOTH)
+  hourlyRateMin      BigInt? // indicatif, en centimes
+  yearsExperience    Int?
+  languages          String[]            @default([])
+  isAvailable        Boolean             @default(true)
+  isIdentityVerified Boolean             @default(false)
+  isBusinessVerified Boolean             @default(false)
+  level              ProviderLevel       @default(NEW)
+  // Statistiques recalculées par une tâche de fond (lecture rapide)
+  ratingAvg          Decimal             @default(0) @db.Decimal(3, 2)
+  ratingCount        Int                 @default(0)
+  completedContracts Int                 @default(0)
+  responseRate       Int                 @default(0) // en %
+  avgResponseMinutes Int?
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+
+  user       User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skills     ProviderSkill[]
+  categories ProviderCategory[]
+  coverages  ProviderCoverage[]
+  portfolio  PortfolioItem[]
+
+  @@index([level])
+  @@index([ratingAvg])
+  @@map("provider_profiles")
+}
+
+model ProviderSkill {
+  providerId String @db.Uuid
+  skillId    String @db.Uuid
+
+  provider ProviderProfile @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  skill    Skill           @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@id([providerId, skillId])
+  @@index([skillId])
+  @@map("provider_skills")
+}
+
+model ProviderCategory {
+  providerId String @db.Uuid
+  categoryId String @db.Uuid
+
+  provider ProviderProfile @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  category Category        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([providerId, categoryId])
+  @@index([categoryId])
+  @@map("provider_categories")
+}
+
+// Wilayas où le prestataire se déplace (services sur place)
+model ProviderCoverage {
+  providerId String @db.Uuid
+  wilayaId   Int
+
+  provider ProviderProfile @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  wilaya   Wilaya          @relation(fields: [wilayaId], references: [id])
+
+  @@id([providerId, wilayaId])
+  @@index([wilayaId])
+  @@map("provider_coverages")
+}
+
+model PortfolioItem {
+  id          String   @id @default(uuid()) @db.Uuid
+  providerId  String   @db.Uuid
+  title       String
+  description String?
+  url         String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  provider ProviderProfile @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  files    FileAsset[]
+
+  @@index([providerId])
+  @@map("portfolio_items")
+}
+
+model IdentityVerification {
+  id              String             @id @default(uuid()) @db.Uuid
+  userId          String             @db.Uuid
+  type            VerificationType
+  status          VerificationStatus @default(PENDING)
+  rejectionReason String?
+  reviewedById    String?            @db.Uuid
+  reviewedAt      DateTime?
+  createdAt       DateTime           @default(now())
+
+  user       User        @relation("VerificationUser", fields: [userId], references: [id])
+  reviewedBy User?       @relation("VerificationReviewer", fields: [reviewedById], references: [id])
+  documents  FileAsset[]
+
+  @@index([status, createdAt])
+  @@index([userId])
+  @@map("identity_verifications")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 4. Missions et propositions
+// ─────────────────────────────────────────────────────────────
+
+model Job {
+  id             String        @id @default(uuid()) @db.Uuid
+  clientId       String        @db.Uuid
+  categoryId     String        @db.Uuid
+  title          String
+  description    String
+  serviceMode    ServiceMode
+  wilayaId       Int? // obligatoire si ONSITE (contrainte SQL)
+  communeId      Int?
+  privateAddress String? // révélée uniquement au prestataire retenu
+  budgetType     BudgetType
+  budgetMin      BigInt? // centimes
+  budgetMax      BigInt? // centimes
+  desiredDate    DateTime?
+  isUrgent       Boolean       @default(false)
+  visibility     JobVisibility @default(PUBLIC)
+  status         JobStatus     @default(DRAFT)
+  customFields   Json          @default("{}") // valeurs des CategoryField
+  tokenCost      Int           @default(1) // jetons pour proposer, fixé à la publication
+  proposalCount  Int           @default(0)
+  publishedAt    DateTime?
+  expiresAt      DateTime?
+  closedAt       DateTime?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  client        User            @relation(fields: [clientId], references: [id])
+  category      Category        @relation(fields: [categoryId], references: [id])
+  wilaya        Wilaya?         @relation(fields: [wilayaId], references: [id])
+  commune       Commune?        @relation(fields: [communeId], references: [id])
+  attachments   FileAsset[]
+  invitations   JobInvitation[]
+  proposals     Proposal[]
+  contract      Contract?
+  conversations Conversation[]
+
+  @@index([status, publishedAt])
+  @@index([categoryId, status])
+  @@index([wilayaId, status])
+  @@index([clientId])
+  @@map("jobs")
+}
+
+model JobInvitation {
+  id         String           @id @default(uuid()) @db.Uuid
+  jobId      String           @db.Uuid
+  providerId String           @db.Uuid // User.id du prestataire
+  message    String?
+  status     InvitationStatus @default(PENDING)
+  createdAt  DateTime         @default(now())
+
+  job      Job  @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  provider User @relation(fields: [providerId], references: [id])
+
+  @@unique([jobId, providerId])
+  @@index([providerId])
+  @@map("job_invitations")
+}
+
+model Proposal {
+  id           String         @id @default(uuid()) @db.Uuid
+  jobId        String         @db.Uuid
+  providerId   String         @db.Uuid // User.id du prestataire
+  amount       BigInt // centimes
+  durationDays Int
+  coverLetter  String
+  status       ProposalStatus @default(SUBMITTED)
+  tokensSpent  Int
+  isBoosted    Boolean        @default(false)
+  viewedAt     DateTime?
+  decidedAt    DateTime?
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+
+  job               Job                 @relation(fields: [jobId], references: [id])
+  provider          User                @relation(fields: [providerId], references: [id])
+  plannedMilestones ProposalMilestone[]
+  attachments       FileAsset[]
+  contract          Contract?
+  tokenTransactions TokenTransaction[]
+
+  @@unique([jobId, providerId]) // une seule proposition par prestataire et par mission
+  @@index([providerId, status])
+  @@index([jobId, status])
+  @@map("proposals")
+}
+
+model ProposalMilestone {
+  id         String @id @default(uuid()) @db.Uuid
+  proposalId String @db.Uuid
+  position   Int
+  title      String
+  amount     BigInt // centimes
+
+  proposal Proposal @relation(fields: [proposalId], references: [id], onDelete: Cascade)
+
+  @@unique([proposalId, position])
+  @@map("proposal_milestones")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 5. Contrats et jalons
+// ─────────────────────────────────────────────────────────────
+
+model Contract {
+  id                String              @id @default(uuid()) @db.Uuid
+  jobId             String              @unique @db.Uuid
+  proposalId        String              @unique @db.Uuid
+  clientId          String              @db.Uuid
+  providerId        String              @db.Uuid
+  title             String
+  totalAmount       BigInt // centimes, figé à la signature
+  commissionRateBps Int // taux de commission figé à la signature (1000 = 10 %)
+  paymentMode       ContractPaymentMode
+  status            ContractStatus      @default(ACTIVE)
+  startedAt         DateTime            @default(now())
+  completedAt       DateTime?
+  cancelledAt       DateTime?
+  updatedAt         DateTime            @updatedAt
+
+  job          Job           @relation(fields: [jobId], references: [id])
+  proposal     Proposal      @relation(fields: [proposalId], references: [id])
+  client       User          @relation("ContractClient", fields: [clientId], references: [id])
+  provider     User          @relation("ContractProvider", fields: [providerId], references: [id])
+  milestones   Milestone[]
+  reviews      Review[]
+  disputes     Dispute[]
+  conversation Conversation?
+
+  @@index([clientId, status])
+  @@index([providerId, status])
+  @@map("contracts")
+}
+
+model Milestone {
+  id            String          @id @default(uuid()) @db.Uuid
+  contractId    String          @db.Uuid
+  position      Int
+  title         String
+  description   String?
+  amount        BigInt // centimes, figé dès que le jalon est payé (trigger SQL)
+  dueDate       DateTime?
+  status        MilestoneStatus @default(AWAITING_FUNDING)
+  fundedAt      DateTime?
+  submittedAt   DateTime?
+  autoReleaseAt DateTime? // submittedAt + 7 jours sans réponse du client
+  approvedAt    DateTime?
+  releasedAt    DateTime?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+
+  contract           Contract              @relation(fields: [contractId], references: [id])
+  submissions        MilestoneSubmission[]
+  payments           Payment[]
+  ledgerTransactions LedgerTransaction[]
+  disputes           Dispute[]
+
+  @@unique([contractId, position])
+  @@index([status, autoReleaseAt])
+  @@map("milestones")
+}
+
+// Chaque livraison du prestataire est conservée (historique des rendus)
+model MilestoneSubmission {
+  id             String           @id @default(uuid()) @db.Uuid
+  milestoneId    String           @db.Uuid
+  submittedById  String           @db.Uuid
+  message        String
+  status         SubmissionStatus @default(SUBMITTED)
+  clientFeedback String?
+  reviewedAt     DateTime?
+  createdAt      DateTime         @default(now())
+
+  milestone   Milestone   @relation(fields: [milestoneId], references: [id])
+  submittedBy User        @relation(fields: [submittedById], references: [id])
+  files       FileAsset[]
+
+  @@index([milestoneId])
+  @@map("milestone_submissions")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 6. Argent : paiements, retraits, grand livre
+// ─────────────────────────────────────────────────────────────
+
+// Argent qui entre dans Talbi (paiement d'un jalon, achat de jetons)
+model Payment {
+  id                String          @id @default(uuid()) @db.Uuid
+  payerId           String          @db.Uuid
+  purpose           PaymentPurpose
+  milestoneId       String?         @db.Uuid
+  tokenPackId       String?         @db.Uuid
+  amount            BigInt // centimes
+  method            PaymentMethod
+  provider          PaymentProvider
+  providerReference String? // identifiant chez la passerelle
+  idempotencyKey    String          @unique // empêche un double paiement
+  status            PaymentStatus   @default(PENDING)
+  failureReason     String?
+  reviewedById      String?         @db.Uuid // virements manuels
+  reviewedAt        DateTime?
+  paidAt            DateTime?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+
+  payer              User                @relation("PaymentPayer", fields: [payerId], references: [id])
+  milestone          Milestone?          @relation(fields: [milestoneId], references: [id])
+  tokenPack          TokenPack?          @relation(fields: [tokenPackId], references: [id])
+  reviewedBy         User?               @relation("PaymentReviewer", fields: [reviewedById], references: [id])
+  proofFiles         FileAsset[]
+  ledgerTransactions LedgerTransaction[]
+  tokenTransactions  TokenTransaction[]
+
+  @@unique([provider, providerReference])
+  @@index([payerId, createdAt])
+  @@index([status, createdAt])
+  @@index([milestoneId])
+  @@map("payments")
+}
+
+// Notifications reçues des passerelles de paiement (chaque événement traité une seule fois)
+model PaymentWebhookEvent {
+  id          String          @id @default(uuid()) @db.Uuid
+  provider    PaymentProvider
+  eventId     String
+  payload     Json
+  processedAt DateTime?
+  error       String?
+  receivedAt  DateTime        @default(now())
+
+  @@unique([provider, eventId])
+  @@map("payment_webhook_events")
+}
+
+// Argent qui sort de Talbi vers un prestataire
+model Payout {
+  id                   String       @id @default(uuid()) @db.Uuid
+  userId               String       @db.Uuid
+  amount               BigInt // centimes
+  method               PayoutMethod
+  destinationEncrypted String // RIP / numéro CCP, chiffré
+  status               PayoutStatus @default(REQUESTED)
+  externalReference    String?
+  rejectionReason      String?
+  processedById        String?      @db.Uuid
+  processedAt          DateTime?
+  createdAt            DateTime     @default(now())
+
+  user               User                @relation("PayoutUser", fields: [userId], references: [id])
+  processedBy        User?               @relation("PayoutProcessor", fields: [processedById], references: [id])
+  ledgerTransactions LedgerTransaction[]
+
+  @@index([status, createdAt])
+  @@index([userId])
+  @@map("payouts")
+}
+
+// Grand livre en partie double.
+// Règles garanties par la base de données (triggers SQL) :
+//   1. les lignes d'une même opération s'additionnent à zéro ;
+//   2. aucune ligne n'est jamais modifiée ni supprimée ;
+//   3. un portefeuille prestataire ne passe jamais en négatif.
+// Le solde d'un compte = somme de ses lignes (aucun solde stocké à part).
+model LedgerAccount {
+  id        String            @id @default(uuid()) @db.Uuid
+  type      LedgerAccountType
+  ownerId   String?           @db.Uuid // renseigné pour PROVIDER_WALLET
+  createdAt DateTime          @default(now())
+
+  owner   User?         @relation(fields: [ownerId], references: [id])
+  entries LedgerEntry[]
+
+  @@unique([type, ownerId])
+  @@map("ledger_accounts")
+}
+
+model LedgerTransaction {
+  id             String                @id @default(uuid()) @db.Uuid
+  type           LedgerTransactionType
+  idempotencyKey String                @unique
+  description    String
+  milestoneId    String?               @db.Uuid
+  paymentId      String?               @db.Uuid
+  payoutId       String?               @db.Uuid
+  disputeId      String?               @db.Uuid
+  createdById    String?               @db.Uuid // null = action automatique
+  createdAt      DateTime              @default(now())
+
+  milestone Milestone?    @relation(fields: [milestoneId], references: [id])
+  payment   Payment?      @relation(fields: [paymentId], references: [id])
+  payout    Payout?       @relation(fields: [payoutId], references: [id])
+  dispute   Dispute?      @relation(fields: [disputeId], references: [id])
+  createdBy User?         @relation(fields: [createdById], references: [id])
+  entries   LedgerEntry[]
+
+  @@index([milestoneId])
+  @@map("ledger_transactions")
+}
+
+model LedgerEntry {
+  id            String   @id @default(uuid()) @db.Uuid
+  transactionId String   @db.Uuid
+  accountId     String   @db.Uuid
+  amount        BigInt // centimes ; positif = entrée sur le compte, négatif = sortie
+  createdAt     DateTime @default(now())
+
+  transaction LedgerTransaction @relation(fields: [transactionId], references: [id])
+  account     LedgerAccount     @relation(fields: [accountId], references: [id])
+
+  @@index([accountId, createdAt])
+  @@index([transactionId])
+  @@map("ledger_entries")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 7. Jetons
+// ─────────────────────────────────────────────────────────────
+
+model TokenPack {
+  id        String   @id @default(uuid()) @db.Uuid
+  nameFr    String
+  nameAr    String
+  tokens    Int
+  price     BigInt // centimes
+  isActive  Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+
+  payments Payment[]
+
+  @@map("token_packs")
+}
+
+// Mouvements de jetons, jamais modifiés ; solde = somme des mouvements
+model TokenTransaction {
+  id             String      @id @default(uuid()) @db.Uuid
+  userId         String      @db.Uuid
+  delta          Int // positif = gain, négatif = dépense
+  reason         TokenReason
+  proposalId     String?     @db.Uuid
+  paymentId      String?     @db.Uuid
+  idempotencyKey String      @unique
+  note           String?
+  createdAt      DateTime    @default(now())
+
+  user     User      @relation(fields: [userId], references: [id])
+  proposal Proposal? @relation(fields: [proposalId], references: [id])
+  payment  Payment?  @relation(fields: [paymentId], references: [id])
+
+  @@index([userId, createdAt])
+  @@map("token_transactions")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 8. Messagerie
+// ─────────────────────────────────────────────────────────────
+
+model Conversation {
+  id            String    @id @default(uuid()) @db.Uuid
+  jobId         String?   @db.Uuid
+  contractId    String?   @unique @db.Uuid
+  lastMessageAt DateTime?
+  createdAt     DateTime  @default(now())
+
+  job          Job?                      @relation(fields: [jobId], references: [id])
+  contract     Contract?                 @relation(fields: [contractId], references: [id])
+  participants ConversationParticipant[]
+  messages     Message[]
+
+  @@index([jobId])
+  @@index([lastMessageAt])
+  @@map("conversations")
+}
+
+model ConversationParticipant {
+  conversationId String    @db.Uuid
+  userId         String    @db.Uuid
+  lastReadAt     DateTime?
+  isMuted        Boolean   @default(false)
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  user         User         @relation(fields: [userId], references: [id])
+
+  @@id([conversationId, userId])
+  @@index([userId])
+  @@map("conversation_participants")
+}
+
+model Message {
+  id                  String   @id @default(uuid()) @db.Uuid
+  conversationId      String   @db.Uuid
+  senderId            String   @db.Uuid
+  body                String // texte affiché (coordonnées masquées avant contrat)
+  originalBody        String? // texte d'origine si masqué, visible uniquement par la modération
+  containsContactInfo Boolean  @default(false)
+  createdAt           DateTime @default(now())
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  sender       User         @relation(fields: [senderId], references: [id])
+  attachments  FileAsset[]
+
+  @@index([conversationId, createdAt])
+  @@map("messages")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 9. Avis, litiges, signalements
+// ─────────────────────────────────────────────────────────────
+
+model Review {
+  id                  String          @id @default(uuid()) @db.Uuid
+  contractId          String          @db.Uuid
+  authorId            String          @db.Uuid
+  targetId            String          @db.Uuid
+  direction           ReviewDirection
+  rating              Int // 1 à 5 (contrainte SQL)
+  qualityRating       Int?
+  punctualityRating   Int?
+  communicationRating Int?
+  valueRating         Int?
+  comment             String?
+  response            String? // réponse publique de la personne notée
+  respondedAt         DateTime?
+  publishedAt         DateTime? // avis « à l'aveugle » : publié quand les deux ont noté, ou après 14 jours
+  createdAt           DateTime        @default(now())
+
+  contract Contract @relation(fields: [contractId], references: [id])
+  author   User     @relation("ReviewAuthor", fields: [authorId], references: [id])
+  target   User     @relation("ReviewTarget", fields: [targetId], references: [id])
+
+  @@unique([contractId, authorId])
+  @@index([targetId, publishedAt])
+  @@map("reviews")
+}
+
+model Dispute {
+  id             String             @id @default(uuid()) @db.Uuid
+  contractId     String             @db.Uuid
+  milestoneId    String?            @db.Uuid
+  openedById     String             @db.Uuid
+  assignedToId   String?            @db.Uuid
+  reason         DisputeReason
+  description    String
+  status         DisputeStatus      @default(OPEN)
+  resolution     DisputeResolution?
+  refundAmount   BigInt? // centimes rendus au client si SPLIT
+  resolutionNote String?
+  resolvedAt     DateTime?
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  contract           Contract            @relation(fields: [contractId], references: [id])
+  milestone          Milestone?          @relation(fields: [milestoneId], references: [id])
+  openedBy           User                @relation("DisputeOpener", fields: [openedById], references: [id])
+  assignedTo         User?               @relation("DisputeAssignee", fields: [assignedToId], references: [id])
+  messages           DisputeMessage[]
+  ledgerTransactions LedgerTransaction[]
+
+  @@index([status, createdAt])
+  @@index([contractId])
+  @@map("disputes")
+}
+
+model DisputeMessage {
+  id         String   @id @default(uuid()) @db.Uuid
+  disputeId  String   @db.Uuid
+  authorId   String   @db.Uuid
+  body       String
+  isInternal Boolean  @default(false) // note visible uniquement par la modération
+  createdAt  DateTime @default(now())
+
+  dispute  Dispute     @relation(fields: [disputeId], references: [id], onDelete: Cascade)
+  author   User        @relation(fields: [authorId], references: [id])
+  evidence FileAsset[]
+
+  @@index([disputeId, createdAt])
+  @@map("dispute_messages")
+}
+
+model Report {
+  id          String       @id @default(uuid()) @db.Uuid
+  reporterId  String       @db.Uuid
+  targetType  ReportTarget
+  targetId    String       @db.Uuid
+  reason      String
+  details     String?
+  status      ReportStatus @default(OPEN)
+  handledById String?      @db.Uuid
+  handledAt   DateTime?
+  createdAt   DateTime     @default(now())
+
+  reporter  User  @relation("ReportReporter", fields: [reporterId], references: [id])
+  handledBy User? @relation("ReportHandler", fields: [handledById], references: [id])
+
+  @@index([status, createdAt])
+  @@index([targetType, targetId])
+  @@map("reports")
+}
+
+// ─────────────────────────────────────────────────────────────
+// 10. Fichiers, notifications, administration
+// ─────────────────────────────────────────────────────────────
+
+model FileAsset {
+  id         String         @id @default(uuid()) @db.Uuid
+  ownerId    String         @db.Uuid
+  purpose    FilePurpose
+  visibility FileVisibility @default(PRIVATE)
+  storageKey String         @unique
+  fileName   String
+  mimeType   String
+  sizeBytes  Int
+  checksum   String // SHA-256
+  scanStatus FileScanStatus @default(PENDING)
+  createdAt  DateTime       @default(now())
+
+  // Un fichier est rattaché à au plus un de ces éléments
+  jobId                  String? @db.Uuid
+  proposalId             String? @db.Uuid
+  messageId              String? @db.Uuid
+  submissionId           String? @db.Uuid
+  portfolioItemId        String? @db.Uuid
+  identityVerificationId String? @db.Uuid
+  paymentId              String? @db.Uuid
+  disputeMessageId       String? @db.Uuid
+
+  owner                User                  @relation(fields: [ownerId], references: [id])
+  job                  Job?                  @relation(fields: [jobId], references: [id])
+  proposal             Proposal?             @relation(fields: [proposalId], references: [id])
+  message              Message?              @relation(fields: [messageId], references: [id])
+  submission           MilestoneSubmission?  @relation(fields: [submissionId], references: [id])
+  portfolioItem        PortfolioItem?        @relation(fields: [portfolioItemId], references: [id])
+  identityVerification IdentityVerification? @relation(fields: [identityVerificationId], references: [id])
+  payment              Payment?              @relation(fields: [paymentId], references: [id])
+  disputeMessage       DisputeMessage?       @relation(fields: [disputeMessageId], references: [id])
+
+  @@index([ownerId])
+  @@index([jobId])
+  @@index([messageId])
+  @@map("file_assets")
+}
+
+model Notification {
+  id        String    @id @default(uuid()) @db.Uuid
+  userId    String    @db.Uuid
+  type      String // ex. "proposal.received", "milestone.funded"
+  data      Json // contenu utilisé pour afficher le texte dans la bonne langue
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, readAt, createdAt])
+  @@map("notifications")
+}
+
+model NotificationPreference {
+  userId  String              @db.Uuid
+  type    String
+  channel NotificationChannel
+  enabled Boolean             @default(true)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, type, channel])
+  @@map("notification_preferences")
+}
+
+// Journal des actions sensibles (équipe et opérations d'argent), jamais modifié
+model AuditLog {
+  id         String   @id @default(uuid()) @db.Uuid
+  actorId    String?  @db.Uuid // null = système
+  action     String // ex. "user.suspend", "payout.approve"
+  targetType String
+  targetId   String
+  metadata   Json     @default("{}")
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  actor User? @relation(fields: [actorId], references: [id])
+
+  @@index([targetType, targetId])
+  @@index([actorId, createdAt])
+  @@map("audit_logs")
+}
+
+// Réglages modifiables depuis l'administration (commission, coût des jetons, délais…)
+model PlatformSetting {
+  key         String   @id
+  value       Json
+  updatedById String?  @db.Uuid
+  updatedAt   DateTime @updatedAt
+
+  updatedBy User? @relation(fields: [updatedById], references: [id])
+
+  @@map("platform_settings")
+}
