@@ -51,6 +51,7 @@ CREATE TABLE IF NOT EXISTS appels (
     resume TEXT,
     transcript TEXT,
     enregistrement_url TEXT,
+    questions_sans_reponse TEXT,  -- JSON : questions auxquelles la fiche ne répondait pas
     cree_le TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_appels_tenant ON appels(tenant, cree_le);
@@ -68,6 +69,9 @@ class Database:
         self._lock = threading.RLock()
         self.conn.execute("PRAGMA journal_mode=WAL")
         self.conn.executescript(SCHEMA)
+        colonnes = {r["name"] for r in self.conn.execute("PRAGMA table_info(appels)")}
+        if "questions_sans_reponse" not in colonnes:  # bases créées avant cette colonne
+            self.conn.execute("ALTER TABLE appels ADD COLUMN questions_sans_reponse TEXT")
 
     @contextmanager
     def transaction(self) -> Iterator[sqlite3.Connection]:

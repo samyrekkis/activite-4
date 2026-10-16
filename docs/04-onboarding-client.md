@@ -4,6 +4,9 @@ Durée cible : **2 à 3 jours** entre la signature et la mise en service.
 
 ## Jour 1 : collecte (rendez-vous de 45 min avec le cabinet)
 
+Astuce : utilise le prompt 1 de [`07-methode-fiche.md`](07-methode-fiche.md) pour que Claude te guide question par question et produise directement le JSON.
+
+
 - [ ] Nom exact du cabinet, nom du praticien, adresse **avec repères** (« à côté de la pharmacie… »).
 - [ ] Ligne actuelle du cabinet et numéro de **transfert** (secrétaire ou mobile du praticien).
 - [ ] Horaires réels, jour par jour. Pauses, jours fermés, congés prévus, horaires Ramadan.
@@ -43,5 +46,6 @@ python -m scripts.vapi_provision clients/<id>.json --afficher   # relire le prom
 - [ ] Donner au cabinet le lien du tableau de bord : `https://<serveur>/dashboard/<id>?key=<dashboard_key>`. Montrer
       comment l'ajouter à l'écran d'accueil du téléphone.
 - [ ] Les 7 premiers jours, réécouter chaque jour 5 appels dans Vapi et ajuster la FAQ et les consignes.
+- [ ] Chaque semaine : traiter la section « À ajouter à la fiche du cabinet » du tableau de bord (prompt 2 de `07-methode-fiche.md`).
 - [ ] Fin du 1er mois : envoyer le **rapport mensuel** (appels, RDV pris par l'IA, valeur estimée) depuis
       `/api/<id>/stats?key=…`. C'est ce qui justifie le renouvellement.

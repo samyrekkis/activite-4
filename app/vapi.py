@@ -179,7 +179,26 @@ def build_assistant(t: Tenant, base_url: str, secret: str = "") -> dict[str, Any
                     )},
                     {"role": "user", "content": "Transcription :\n\n{{transcript}}"},
                 ]
-            }
+            },
+            # Boucle d'amélioration : on relève les questions que la fiche du cabinet ne couvrait pas,
+            # pour les proposer dans le tableau de bord (« À ajouter à la fiche »).
+            "structuredDataPlan": {
+                "enabled": True,
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "questions_sans_reponse": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "description": (
+                                "Questions précises de l'appelant auxquelles l'assistante n'a pas pu répondre "
+                                "faute d'information (ex. « Acceptez-vous la carte Chifa ? »). Reformulées en "
+                                "français, courtes. Liste vide si tout a été répondu."
+                            ),
+                        }
+                    },
+                },
+            },
         },
         "metadata": {"tenant": t.id},
     }

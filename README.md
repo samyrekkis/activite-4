@@ -8,7 +8,8 @@ dentaires, médicaux, d'avocats, salons de beauté, garages, agences immobilièr
 - répond aux questions pratiques (adresse, horaires, tarifs indicatifs, paiement, CNAS…) ;
 - détecte les urgences, oriente vers le 14 si nécessaire, **transfère l'appel** au cabinet ou **prend un message** ;
 - prévient le cabinet en temps réel sur **Telegram** (nouveau RDV, annulation, message urgent) ;
-- donne au cabinet un **tableau de bord** : RDV à venir, messages à rappeler, appels avec résumé et enregistrement, statistiques du mois.
+- donne au cabinet un **tableau de bord** : RDV à venir, messages à rappeler, appels avec résumé et enregistrement, statistiques du mois ;
+- relève les **questions auxquelles elle n'a pas su répondre**, pour compléter la fiche du cabinet (méthode « fiche mémoire »).
 
 Un seul serveur gère **plusieurs clients** : chaque cabinet = un fichier JSON dans `clients/`.
 
@@ -72,5 +73,6 @@ Le détail se trouve dans [`docs/04-onboarding-client.md`](docs/04-onboarding-cl
 4. [Onboarding d'un nouveau cabinet (checklist)](docs/04-onboarding-client.md)
 5. [Offre commerciale : packs, prix en DA, script de prospection, objections](docs/05-offre-commerciale.md)
 6. [Recette qualité : scénarios de test avant livraison](docs/06-tests-qualite.md)
+7. [Méthode « fiche mémoire » : prompts Claude pour créer et tenir à jour les fiches](docs/07-methode-fiche.md)
 
 Page de vente prête à déployer (Netlify) : [`vente/index.html`](vente/index.html).

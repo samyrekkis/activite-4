@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timezone
+import json
 from html import escape
 from typing import Any
 
@@ -64,6 +65,20 @@ a{color:var(--acc)}form{display:inline}summary{cursor:pointer;font-weight:600}
 .ajout{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.ajout input,.ajout select{font:inherit;padding:5px 8px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--txt);max-width:100%}
 details{margin-bottom:10px}
 """
+
+
+def questions_a_ajouter(db: Database, t: Tenant, jours: int = 30) -> list[tuple[str, int]]:
+    """Questions sans réponse des derniers jours, regroupées, les plus fréquentes d'abord."""
+    rows = db.query(
+        "SELECT questions_sans_reponse FROM appels WHERE tenant=? AND questions_sans_reponse IS NOT NULL "
+        "AND cree_le >= datetime('now', ?)", (t.id, f"-{jours} days"))
+    compte: dict[str, tuple[str, int]] = {}
+    for r in rows:
+        for q in json.loads(r["questions_sans_reponse"]):
+            cle = q.strip().lower().rstrip(" ?.")
+            texte, n = compte.get(cle, (q.strip(), 0))
+            compte[cle] = (texte, n + 1)
+    return sorted(compte.values(), key=lambda x: -x[1])
 
 
 def _table(entetes: list[str], lignes: list[list[str]], vide: str) -> str:
@@ -138,6 +153,10 @@ def page(db: Database, t: Tenant, key: str) -> str:
 <p><a href="/dashboard/{escape(t.id)}/export.csv?key={k}">Exporter tous les rendez-vous (CSV)</a></p>
 <h2>Messages à rappeler</h2>
 {_table(["Reçu le", "Nom", "Téléphone", "Motif", ""], lignes_msg, "Aucun message en attente.")}
+<h2>À ajouter à la fiche du cabinet</h2>
+<p class="mut">Questions posées ces 30 derniers jours auxquelles l'assistante n'avait pas la réponse.
+Envoyez la réponse à votre prestataire : elle sera ajoutée à la FAQ.</p>
+{_table(["Question", "Nb d'appels"], [[escape(q), str(n)] for q, n in questions_a_ajouter(db, t)], "Rien à ajouter : la fiche couvre les questions posées.")}
 <h2>Derniers appels</h2>
 {_table(["Date", "Numéro", "Durée", "Résumé", "Enregistrement"], lignes_appels, "Aucun appel pour l'instant.")}
 </main></body></html>"""

@@ -174,12 +174,13 @@ def test_webhook_tool_calls_et_fin_appel(client):
 
     fin = {"message": {"type": "end-of-call-report", "call": {"id": "c1", "customer": {"number": "+213550123456"}},
                        "durationSeconds": 95, "cost": 0.21, "endedReason": "customer-ended-call",
-                       "analysis": {"summary": "RDV pris pour Test."}, "artifact": {"transcript": "...", "recordingUrl": "https://r"}}}
+                       "analysis": {"summary": "RDV pris pour Test.", "structuredData": {"questions_sans_reponse": ["Acceptez-vous la carte Chifa ?"]}}, "artifact": {"transcript": "...", "recordingUrl": "https://r"}}}
     assert client.post("/vapi/webhook?tenant=dentaire-exemple", headers=H, json=fin).status_code == 200
 
     assert client.get("/dashboard/dentaire-exemple?key=mauvaise").status_code == 403
     page = client.get("/dashboard/dentaire-exemple?key=admin")
     assert page.status_code == 200 and "RDV pris pour Test." in page.text and "Test" in page.text
+    assert "Acceptez-vous la carte Chifa ?" in page.text
     stats = client.get("/api/dentaire-exemple/stats?key=admin").json()
     assert stats["rdv_pris_par_agent"] == 1 and stats["appels"] == 1 and stats["valeur_estimee_da"] == 3000
     csv_txt = client.get("/dashboard/dentaire-exemple/export.csv?key=admin").text

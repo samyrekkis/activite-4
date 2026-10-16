@@ -191,12 +191,15 @@ def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: 
     call = message.get("call") or {}
     artifact = message.get("artifact") or {}
     analysis = message.get("analysis") or {}
+    questions = [q for q in ((analysis.get("structuredData") or {}).get("questions_sans_reponse") or [])
+                 if isinstance(q, str) and q.strip()]
     duree = message.get("durationSeconds")
     if duree is None and message.get("durationMs") is not None:
         duree = message["durationMs"] / 1000
     db.execute(
         "INSERT OR REPLACE INTO appels (call_id, tenant, numero, debut, fin, duree_s, cout, raison_fin, "
-        "resume, transcript, enregistrement_url) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "resume, transcript, enregistrement_url, questions_sans_reponse) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             call.get("id"), t.id, numero,
             message.get("startedAt"), message.get("endedAt"),
@@ -204,6 +207,7 @@ def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: 
             analysis.get("summary") or message.get("summary"),
             artifact.get("transcript") or message.get("transcript"),
             artifact.get("recordingUrl") or message.get("recordingUrl"),
+            json.dumps(questions, ensure_ascii=False) if questions else None,
         ),
     )
 
