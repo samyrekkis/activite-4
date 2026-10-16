@@ -7,6 +7,7 @@ d'urgence, consignes spécifiques. Tout champ défini côté client l'emporte.
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -39,6 +40,32 @@ class Tenant:
     horaires: dict[str, list[tuple[str, str]]]
     fuseau: ZoneInfo
     fermetures: set[str] = field(default_factory=set)
+    _agenda: Any = field(default=None, repr=False)
+    _agenda_charge: bool = field(default=False, repr=False)
+
+    def agenda_externe(self) -> Any:
+        """Connecteur vers l'agenda / le CRM du cabinet (créé une fois), ou None."""
+        if not self._agenda_charge:
+            from .agenda import construire
+            try:
+                self._agenda = construire(self.raw.get("agenda_externe"), self.fuseau)
+            except Exception as e:  # noqa: BLE001 — mauvaise config : on continue sans agenda externe
+                logging.getLogger("tenants").error("[%s] agenda externe non configurable : %s", self.id, e)
+                self._agenda = None
+            self._agenda_charge = True
+        return self._agenda
+
+    @property
+    def relance(self) -> dict[str, Any]:
+        """Réglages des appels de confirmation (voir docs/08-agenda-relances.md)."""
+        defaut = {"actif": False, "heures_avant": 48, "plage": ["09:00", "19:00"],
+                  "jours_exclus": ["vendredi"], "tentatives": 2, "intervalle_heures": 3}
+        return {**defaut, **(self.raw.get("relance") or {})}
+
+    @property
+    def liste_attente(self) -> dict[str, Any]:
+        defaut = {"actif": True, "appel_auto": False, "delai_min_heures": 4, "max_contacts": 3}
+        return {**defaut, **(self.raw.get("liste_attente") or {})}
 
     def get(self, key: str, default: Any = None) -> Any:
         """Valeur client, sinon valeur de la niche, sinon défaut."""

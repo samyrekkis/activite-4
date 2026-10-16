@@ -33,6 +33,18 @@ pytest -q     # agenda, outils, sécurité du webhook, tableau de bord
 | 17 | Appel à 23h | Elle répond normalement et propose les créneaux du lendemain. |
 | 18 | Appelant tamazight (si la clientèle est concernée) | Elle propose poliment la darija ou le français, ou prend un message. |
 
+### Agenda, relances et liste d'attente (voir `08-agenda-relances.md`)
+
+| # | Scénario | Résultat attendu |
+|---|---|---|
+| 19 | « Je veux un RDV la semaine prochaine », sans préférence | 3 créneaux sur 3 jours différents. |
+| 20 | Le dentiste ajoute « Absent » dans son Google Agenda, puis tu demandes ce créneau | Créneau non proposé. Le RDV pris apparaît dans son Google Agenda. |
+| 21 | RDV pris pour après-demain : attendre l'heure de relance | Amina appelle, tu confirmes → « confirmé ✓ » dans le tableau de bord, 👍 sur Telegram. |
+| 22 | Pendant la relance : « Je ne peux plus venir » | RDV annulé et retiré de l'agenda du cabinet, 🔔 place libérée envoyée. |
+| 23 | Ne pas décrocher lors des 2 relances | 📵 « injoignable » au cabinet. |
+| 24 | Un 2e téléphone inscrit en liste d'attente, puis annulation du 1er RDV | Amina appelle le 2e téléphone et propose le créneau. S'il accepte, le RDV est créé. |
+| 25 | Appel « je me renseigne pour un implant » sans RDV | Fiche Telegram 🌤️ tiède avec l'action « rappeler pour devis ». |
+
 ## Critères pour livrer
 
 - [ ] 18/18 scénarios réussis, ou écarts compris et corrigés (FAQ, consignes).

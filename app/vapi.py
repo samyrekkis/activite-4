@@ -11,7 +11,14 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from .prompts import first_message, system_prompt
+from .prompts import (
+    first_message,
+    premier_message_offre,
+    premier_message_relance,
+    prompt_offre,
+    prompt_relance,
+    system_prompt,
+)
 from .tenants import Tenant
 
 # Valeurs par défaut, surchargeables par client (champs "modele", "voix", "transcripteur").
@@ -120,27 +127,102 @@ def _definitions_outils(t: Tenant) -> list[dict[str, Any]]:
     ]
 
 
-def server_url(base_url: str, t: Tenant) -> str:
-    return f"{base_url}/vapi/webhook?tenant={t.id}"
+def _definitions_sortantes(t: Tenant) -> dict[str, dict[str, Any]]:
+    tel_prop = {"type": "string", "description": "Laisser vide : le numéro appelé est utilisé."}
+    return {
+        "inscrire_liste_attente": _fn(
+            "inscrire_liste_attente",
+            "Inscrit la personne sur la liste d'attente quand aucun créneau ne lui convient. "
+            "Elle sera rappelée automatiquement si une place se libère.",
+            {
+                "nom": {"type": "string"},
+                "telephone": tel_prop,
+                "service": {"type": "string", "enum": [s.id for s in t.services]},
+                "preference": {"type": "string", "description": "Jours / moments souhaités, ex. « le matin, avant jeudi »."},
+            },
+            ["nom", "service"],
+        ),
+        "confirmer_presence": _fn(
+            "confirmer_presence", "Le patient confirme qu'il viendra au rendez-vous.", {}, []),
+        "accepter_creneau": _fn(
+            "accepter_creneau", "La personne accepte le créneau proposé : le rendez-vous est enregistré.", {}, []),
+        "refuser_creneau": _fn(
+            "refuser_creneau", "La personne refuse le créneau proposé.",
+            {"rester_sur_liste": {"type": "boolean", "description": "true si elle veut rester sur la liste d'attente."}},
+            []),
+    }
 
 
-def build_assistant(t: Tenant, base_url: str, secret: str = "") -> dict[str, Any]:
+# Outils exposés au LLM selon le type d'appel (mêmes noms que tools.OUTILS_PAR_MODE).
+OUTILS_VAPI = {
+    "entrant": ["verifier_disponibilites", "prendre_rendez_vous", "chercher_rendez_vous", "annuler_rendez_vous",
+                "deplacer_rendez_vous", "laisser_message", "inscrire_liste_attente"],
+    "relance": ["confirmer_presence", "verifier_disponibilites", "deplacer_rendez_vous", "annuler_rendez_vous",
+                "laisser_message"],
+    "offre": ["accepter_creneau", "refuser_creneau", "laisser_message"],
+}
+
+
+def server_url(base_url: str, t: Tenant, **params: Any) -> str:
+    query = "&".join(f"{k}={v}" for k, v in {"tenant": t.id, **params}.items() if v is not None)
+    return f"{base_url}/vapi/webhook?{query}"
+
+
+SCHEMA_FICHE = {
+    "type": "object",
+    "properties": {
+        "nom_appelant": {"type": "string", "description": "Nom donné par l'appelant, sinon vide."},
+        "score_interet": {
+            "type": "integer",
+            "description": (
+                "Probabilité (0 à 100) que l'appelant devienne ou reste un patient qui vient au cabinet. "
+                "80-100 : chaud (RDV pris, demande de devis pour un soin important, urgence). "
+                "50-79 : tiède (intéressé mais n'a pas pris RDV, veut réfléchir, compare les prix). "
+                "0-49 : froid (simple renseignement, mauvais numéro, démarchage)."
+            ),
+        },
+        "categorie": {
+            "type": "string",
+            "enum": ["nouveau_patient", "patient_existant", "urgence", "devis_soin_important",
+                     "information", "annulation", "autre"],
+        },
+        "soin_evoque": {"type": "string", "description": "Soin ou besoin évoqué (ex. implant, détartrage), sinon vide."},
+        "prochaine_action": {
+            "type": "string",
+            "description": "Ce que le cabinet doit faire, en une phrase (ex. « Rappeler pour devis implant avant jeudi »). Vide si rien.",
+        },
+        "questions_sans_reponse": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": (
+                "Questions précises de l'appelant auxquelles l'assistante n'a pas pu répondre "
+                "faute d'information (ex. « Acceptez-vous la carte Chifa ? »). Reformulées en "
+                "français, courtes. Liste vide si tout a été répondu."
+            ),
+        },
+    },
+}
+
+
+def _assistant(t: Tenant, base_url: str, secret: str, *, mode: str, prompt: str, premier_message: str,
+               query: dict[str, Any] | None = None) -> dict[str, Any]:
     langue = t.langue_principale if t.langue_principale in VOIX_DEFAUT else "darija"
-    server: dict[str, Any] = {"url": server_url(base_url, t)}
+    server: dict[str, Any] = {"url": server_url(base_url, t, **(query or {}))}
     if secret:
         server["headers"] = {"x-vapi-secret": secret}
 
+    definitions = {f["name"]: f for f in _definitions_outils(t)} | _definitions_sortantes(t)
     tools: list[dict[str, Any]] = [
         {
             "type": "function",
-            "function": f,
+            "function": definitions[nom],
             "messages": [{"type": "request-start", "content": ATTENTE[langue]}],
             "server": server,
         }
-        for f in _definitions_outils(t)
+        for nom in OUTILS_VAPI[mode]
     ]
     transfert = t.get("numero_transfert")
-    if transfert:
+    if transfert and mode == "entrant":
         tools.append({
             "type": "transferCall",
             "destinations": [{
@@ -153,21 +235,20 @@ def build_assistant(t: Tenant, base_url: str, secret: str = "") -> dict[str, Any
     tools.append({"type": "endCall"})
 
     modele = {**MODELE_DEFAUT, **(t.get("modele") or {})}
-    modele["messages"] = [{"role": "system", "content": system_prompt(t)}]
+    modele["messages"] = [{"role": "system", "content": prompt}]
     modele["tools"] = tools
 
-    return {
+    assistant: dict[str, Any] = {
         "name": f"{t.nom_assistant} — {t.nom}"[:40],
-        "firstMessage": first_message(t),
+        "firstMessage": premier_message,
         "model": modele,
         "voice": t.get("voix") or VOIX_DEFAUT[langue],
         "transcriber": t.get("transcripteur") or TRANSCRIPTEUR_DEFAUT[langue],
         "server": server,
         "serverMessages": ["end-of-call-report", "tool-calls"],
-        "endCallMessage": "Merci pour votre appel, bonne journée." if langue == "francais"
-        else "يعطيك الصحة، نهارك مبروك.",
+        "endCallMessage": "Merci, bonne journée." if langue == "francais" else "يعطيك الصحة، نهارك مبروك.",
         "silenceTimeoutSeconds": 30,
-        "maxDurationSeconds": int(t.get("duree_max_appel_s", 600)),
+        "maxDurationSeconds": int(t.get("duree_max_appel_s", 600)) if mode == "entrant" else 240,
         "backgroundSound": "off",
         "recordingEnabled": bool(t.get("enregistrement", True)),
         "analysisPlan": {
@@ -175,33 +256,42 @@ def build_assistant(t: Tenant, base_url: str, secret: str = "") -> dict[str, Any
                 "messages": [
                     {"role": "system", "content": (
                         "Résume cet appel en français en 2 phrases maximum pour le cabinet : "
-                        "qui a appelé, pourquoi, et ce qui a été fait (RDV pris/annulé, message, transfert)."
+                        "qui, pourquoi, et ce qui a été fait (RDV pris/confirmé/annulé, message, transfert)."
                     )},
                     {"role": "user", "content": "Transcription :\n\n{{transcript}}"},
                 ]
             },
-            # Boucle d'amélioration : on relève les questions que la fiche du cabinet ne couvrait pas,
-            # pour les proposer dans le tableau de bord (« À ajouter à la fiche »).
-            "structuredDataPlan": {
-                "enabled": True,
-                "schema": {
-                    "type": "object",
-                    "properties": {
-                        "questions_sans_reponse": {
-                            "type": "array",
-                            "items": {"type": "string"},
-                            "description": (
-                                "Questions précises de l'appelant auxquelles l'assistante n'a pas pu répondre "
-                                "faute d'information (ex. « Acceptez-vous la carte Chifa ? »). Reformulées en "
-                                "français, courtes. Liste vide si tout a été répondu."
-                            ),
-                        }
-                    },
-                },
-            },
+            # Fiche d'appel envoyée sur Telegram (score d'intérêt) + questions sans réponse
+            # proposées dans le tableau de bord (« À ajouter à la fiche »).
+            "structuredDataPlan": {"enabled": True, "schema": SCHEMA_FICHE},
         },
-        "metadata": {"tenant": t.id},
+        "metadata": {"tenant": t.id, "mode": mode},
     }
+    if mode != "entrant":
+        # Appel sortant : sur un répondeur, on raccroche sans laisser de long message.
+        assistant["voicemailDetection"] = {"provider": "vapi"}
+        assistant["voicemailMessage"] = (
+            "Bonjour, ici le " + t.nom + ". Nous vous rappellerons. Bonne journée."
+        )
+    return assistant
+
+
+def build_assistant(t: Tenant, base_url: str, secret: str = "") -> dict[str, Any]:
+    """Assistant des appels entrants."""
+    return _assistant(t, base_url, secret, mode="entrant", prompt=system_prompt(t), premier_message=first_message(t))
+
+
+def build_assistant_relance(t: Tenant, base_url: str, secret: str, rdv: dict[str, Any]) -> dict[str, Any]:
+    """Appel sortant de confirmation d'un RDV."""
+    return _assistant(t, base_url, secret, mode="relance", prompt=prompt_relance(t, rdv),
+                      premier_message=premier_message_relance(t, rdv), query={"mode": "relance", "rdv": rdv["id"]})
+
+
+def build_assistant_offre(t: Tenant, base_url: str, secret: str, attente: dict[str, Any]) -> dict[str, Any]:
+    """Appel sortant proposant un créneau libéré à une personne de la liste d'attente."""
+    return _assistant(t, base_url, secret, mode="offre", prompt=prompt_offre(t, attente),
+                      premier_message=premier_message_offre(t, attente),
+                      query={"mode": "offre", "attente": attente["id"]})
 
 
 def parse_arguments(raw: Any) -> dict[str, Any]:

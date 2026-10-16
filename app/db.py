@@ -21,10 +21,28 @@ CREATE TABLE IF NOT EXISTS rendez_vous (
     source TEXT NOT NULL DEFAULT 'agent',      -- agent | cabinet
     call_id TEXT,
     cree_le TEXT NOT NULL DEFAULT (datetime('now')),
-    modifie_le TEXT
+    modifie_le TEXT,
+    external_id TEXT,              -- identifiant dans l'agenda / le CRM du cabinet
+    confirmation TEXT,             -- NULL | appel_en_cours | confirme | injoignable | annule_relance
+    relance_tentatives INTEGER NOT NULL DEFAULT 0,
+    relance_derniere TEXT          -- heure locale du dernier appel de confirmation
 );
 CREATE INDEX IF NOT EXISTS idx_rdv_tenant_debut ON rendez_vous(tenant, debut);
 CREATE INDEX IF NOT EXISTS idx_rdv_tenant_tel ON rendez_vous(tenant, telephone);
+
+CREATE TABLE IF NOT EXISTS liste_attente (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    tenant TEXT NOT NULL,
+    nom TEXT NOT NULL,
+    telephone TEXT NOT NULL,
+    service TEXT NOT NULL,
+    preference TEXT NOT NULL DEFAULT '',
+    statut TEXT NOT NULL DEFAULT 'en_attente',  -- en_attente | contacte | servi | expire
+    offre_debut TEXT,          -- créneau proposé lors du dernier appel
+    contacte_le TEXT,
+    cree_le TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_attente_tenant ON liste_attente(tenant, statut);
 
 CREATE TABLE IF NOT EXISTS messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -52,6 +70,8 @@ CREATE TABLE IF NOT EXISTS appels (
     transcript TEXT,
     enregistrement_url TEXT,
     questions_sans_reponse TEXT,  -- JSON : questions auxquelles la fiche ne répondait pas
+    fiche TEXT,                   -- JSON : fiche d'appel (score d'intérêt, catégorie, action)
+    mode TEXT,                    -- entrant | relance | offre
     cree_le TEXT NOT NULL DEFAULT (datetime('now'))
 );
 CREATE INDEX IF NOT EXISTS idx_appels_tenant ON appels(tenant, cree_le);
@@ -69,9 +89,17 @@ class Database:
         self._lock = threading.RLock()
         self.conn.execute("PRAGMA journal_mode=WAL")
         self.conn.executescript(SCHEMA)
-        colonnes = {r["name"] for r in self.conn.execute("PRAGMA table_info(appels)")}
-        if "questions_sans_reponse" not in colonnes:  # bases créées avant cette colonne
-            self.conn.execute("ALTER TABLE appels ADD COLUMN questions_sans_reponse TEXT")
+        # Bases créées avec une version précédente : ajout des colonnes manquantes.
+        self._ajouter_colonnes("appels", {"questions_sans_reponse": "TEXT", "fiche": "TEXT", "mode": "TEXT"})
+        self._ajouter_colonnes("rendez_vous", {
+            "external_id": "TEXT", "confirmation": "TEXT",
+            "relance_tentatives": "INTEGER NOT NULL DEFAULT 0", "relance_derniere": "TEXT"})
+
+    def _ajouter_colonnes(self, table: str, colonnes: dict[str, str]) -> None:
+        existantes = {r["name"] for r in self.conn.execute(f"PRAGMA table_info({table})")}
+        for nom, type_ in colonnes.items():
+            if nom not in existantes:
+                self.conn.execute(f"ALTER TABLE {table} ADD COLUMN {nom} {type_}")
 
     @contextmanager
     def transaction(self) -> Iterator[sqlite3.Connection]:

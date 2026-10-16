@@ -1,8 +1,10 @@
 """Calcul des créneaux libres à partir des horaires du cabinet et des RDV existants."""
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from datetime import date, datetime, time, timedelta
+from typing import Any
 
 from .db import Database
 from .tenants import JOURS, Service, Tenant
@@ -19,6 +21,8 @@ MOMENTS = {
 }
 
 FORMAT = "%Y-%m-%dT%H:%M"
+
+log = logging.getLogger("planning")
 
 
 def libelle_date(d: date) -> str:
@@ -62,21 +66,47 @@ class Creneau:
 
 
 class Planning:
-    def __init__(self, tenant: Tenant, db: Database):
+    def __init__(self, tenant: Tenant, db: Database, externe: Any = None):
         self.tenant = tenant
         self.db = db
+        self.externe = externe  # connecteur app.agenda (Google Agenda, CRM) ou None
+        self._externes: list[tuple[datetime, datetime, str | None]] | None = None
 
     def maintenant(self) -> datetime:
         """Heure locale du cabinet, sans fuseau (tout est stocké en heure locale)."""
         return datetime.now(self.tenant.fuseau).replace(tzinfo=None, second=0, microsecond=0)
 
-    def _rdv_du_jour(self, jour: date) -> list[tuple[datetime, datetime]]:
+    def _occupations_externes(self) -> list[tuple[datetime, datetime, str | None]]:
+        """Créneaux occupés dans l'agenda du cabinet, chargés une seule fois par appel d'outil.
+
+        Les événements créés par l'assistante elle-même (déjà dans notre base) sont ignorés
+        pour ne pas les compter deux fois. Si l'agenda ne répond pas, on continue avec notre base.
+        """
+        if self.externe is None:
+            return []
+        if self._externes is None:
+            debut = self.maintenant().date()
+            try:
+                occ = self.externe.occupations(debut, debut + timedelta(days=self.tenant.horizon_jours + 1))
+            except Exception as e:  # noqa: BLE001 — un agenda en panne ne doit pas bloquer l'appel
+                log.warning("[%s] agenda externe indisponible : %s", self.tenant.id, e)
+                occ = []
+            connus = {r["external_id"] for r in self.db.query(
+                "SELECT external_id FROM rendez_vous WHERE tenant=? AND external_id IS NOT NULL", (self.tenant.id,))}
+            self._externes = [(o.debut, o.fin, o.id) for o in occ if not (o.id and o.id in connus)]
+        return self._externes
+
+    def _occupes(self, jour: date, ignorer_rdv_id: int | None = None) -> list[tuple[datetime, datetime]]:
+        lendemain = jour + timedelta(days=1)
         rows = self.db.query(
-            "SELECT debut, fin FROM rendez_vous WHERE tenant=? AND statut='confirme' "
+            "SELECT id, debut, fin FROM rendez_vous WHERE tenant=? AND statut='confirme' "
             "AND debut >= ? AND debut < ?",
-            (self.tenant.id, jour.isoformat(), (jour + timedelta(days=1)).isoformat()),
+            (self.tenant.id, jour.isoformat(), lendemain.isoformat()),
         )
-        return [(parse_local(r["debut"]), parse_local(r["fin"])) for r in rows]
+        occupes = [(parse_local(r["debut"]), parse_local(r["fin"])) for r in rows if r["id"] != ignorer_rdv_id]
+        debut_jour, fin_jour = datetime.combine(jour, time(0)), datetime.combine(lendemain, time(0))
+        occupes += [(d, f) for d, f, _ in self._occupations_externes() if d < fin_jour and debut_jour < f]
+        return occupes
 
     def _plages(self, jour: date) -> list[tuple[datetime, datetime]]:
         if jour.isoformat() in self.tenant.fermetures:
@@ -103,15 +133,7 @@ class Planning:
         limite = maintenant + timedelta(minutes=self.tenant.delai_min_minutes)
         duree = timedelta(minutes=service.duree)
         pas = timedelta(minutes=self.tenant.pas_minutes)
-        if ignorer_rdv_id is None:
-            occupes = self._rdv_du_jour(jour)
-        else:
-            rows = self.db.query(
-                "SELECT debut, fin FROM rendez_vous WHERE tenant=? AND statut='confirme' "
-                "AND debut >= ? AND debut < ? AND id != ?",
-                (self.tenant.id, jour.isoformat(), (jour + timedelta(days=1)).isoformat(), ignorer_rdv_id),
-            )
-            occupes = [(parse_local(r["debut"]), parse_local(r["fin"])) for r in rows]
+        occupes = self._occupes(jour, ignorer_rdv_id)
 
         creneaux: list[Creneau] = []
         for p_debut, p_fin in self._plages(jour):

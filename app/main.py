@@ -4,6 +4,7 @@ Lancement : uvicorn app.main:create_app --factory --host 0.0.0.0 --port 8000
 """
 from __future__ import annotations
 
+import asyncio
 import csv
 import hmac
 import io
@@ -13,15 +14,19 @@ from datetime import datetime, timedelta
 from typing import Any
 from urllib.parse import parse_qs
 
+from contextlib import asynccontextmanager
+
 from fastapi import BackgroundTasks, FastAPI, HTTPException, Request
+from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse, RedirectResponse
 
 from . import dashboard, notify, vapi
 from .config import Settings, load_settings
 from .db import Database
-from .scheduling import FORMAT, normaliser_telephone
+from .relances import Relanceur, lanceur_vapi
+from .scheduling import FORMAT, Planning, normaliser_telephone, telephone_lisible
 from .tenants import Tenant, TenantRegistry
-from .tools import ContexteAppel, executer
+from .tools import ContexteAppel, Evenement, evenement_creneau_libere, executer
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("agent")
@@ -31,10 +36,53 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or load_settings()
     db = Database(settings.database_path)
     registry = TenantRegistry(settings.clients_dir, settings.niches_dir)
-    app = FastAPI(title="Agent vocal IA — cabinets", docs_url=None, redoc_url=None)
+    relanceur = Relanceur(db, settings.public_base_url, settings.vapi_webhook_secret,
+                          lanceur_vapi(settings.vapi_api_key) if settings.vapi_api_key else None)
+
+    def maintenant(t: Tenant) -> datetime:
+        return Planning(t, db).maintenant()
+
+    async def notifier(t: Tenant, evenements: list[Evenement]) -> None:
+        await notify.envoyer(t, [e for e in evenements if e.texte], settings.telegram_bot_token)
+
+    def traiter_liberations(t: Tenant, evenements: list[Evenement]) -> list[Evenement]:
+        """Créneaux libérés pendant l'appel -> liste d'attente (notification, appel automatique)."""
+        sortie: list[Evenement] = []
+        for ev in evenements:
+            if ev.type == "creneau_libere" and not ev.texte:
+                sortie += relanceur.creneau_libere(t, ev.data["debut"], ev.data["service"], maintenant(t))
+        return sortie
+
+    def tick_relances() -> list[tuple[Tenant, list[Evenement]]]:
+        resultats = []
+        for t in registry.all():
+            try:
+                evs = relanceur.lancer_relances(t, maintenant(t))
+            except Exception:  # noqa: BLE001
+                log.exception("[%s] erreur pendant les relances", t.id)
+                continue
+            if evs:
+                resultats.append((t, evs))
+        return resultats
+
+    async def boucle_relances() -> None:
+        while True:
+            for t, evs in await asyncio.to_thread(tick_relances):
+                await notifier(t, evs)
+            await asyncio.sleep(300)
+
+    @asynccontextmanager
+    async def lifespan(_: FastAPI):
+        tache = asyncio.create_task(boucle_relances()) if relanceur.lanceur else None
+        yield
+        if tache:
+            tache.cancel()
+
+    app = FastAPI(title="Agent vocal IA — cabinets", docs_url=None, redoc_url=None, lifespan=lifespan)
     app.state.db = db
     app.state.registry = registry
     app.state.settings = settings
+    app.state.relanceur = relanceur
 
     # ------------------------------------------------------------------ utilitaires
     def verifier_secret(request: Request) -> None:
@@ -91,29 +139,47 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             return JSONResponse({})
 
         call = message.get("call") or {}
+        q = request.query_params
+        mode = q.get("mode") if q.get("mode") in ("relance", "offre") else "entrant"
         ctx = ContexteAppel(
             tenant=tenant, db=db, call_id=call.get("id"),
-            numero_appelant=vapi.numero_appelant(message),
+            numero_appelant=vapi.numero_appelant(message), mode=mode,
+            rdv_id=int(q["rdv"]) if q.get("rdv", "").isdigit() else None,
+            attente_id=int(q["attente"]) if q.get("attente", "").isdigit() else None,
         )
+
+        async def apres_outils() -> None:
+            liberations = await asyncio.to_thread(traiter_liberations, tenant, ctx.evenements)
+            await notifier(tenant, ctx.evenements + liberations)
 
         if type_ == "tool-calls":
             results = []
             for tool_call_id, nom, args in vapi.extraire_appels_outils(message):
-                resultat = executer(ctx, nom, args)
-                log.info("[%s] outil %s %s -> %s", tenant.id, nom, args, resultat)
+                resultat = await run_in_threadpool(executer, ctx, nom, args)
+                log.info("[%s/%s] outil %s %s -> %s", tenant.id, mode, nom, args, resultat)
                 results.append({"toolCallId": tool_call_id, "name": nom,
                                 "result": json.dumps(resultat, ensure_ascii=False)})
-            background.add_task(notify.envoyer, tenant, ctx.evenements, settings.telegram_bot_token)
+            background.add_task(apres_outils)
             return JSONResponse({"results": results})
 
         if type_ == "function-call":  # ancien format Vapi
             fc = message.get("functionCall") or {}
-            resultat = executer(ctx, fc.get("name", ""), vapi.parse_arguments(fc.get("parameters")))
-            background.add_task(notify.envoyer, tenant, ctx.evenements, settings.telegram_bot_token)
+            resultat = await run_in_threadpool(
+                executer, ctx, fc.get("name", ""), vapi.parse_arguments(fc.get("parameters")))
+            background.add_task(apres_outils)
             return JSONResponse({"result": json.dumps(resultat, ensure_ascii=False)})
 
         if type_ == "end-of-call-report":
-            enregistrer_appel(db, tenant, message, ctx.numero_appelant)
+            fiche = enregistrer_appel(db, tenant, message, ctx.numero_appelant, mode)
+            evenements: list[Evenement] = []
+            if mode == "relance" and ctx.rdv_id:
+                evenements = await asyncio.to_thread(
+                    relanceur.fin_relance, tenant, ctx.rdv_id, message.get("endedReason"))
+            elif mode == "offre" and ctx.attente_id:
+                evenements = await asyncio.to_thread(relanceur.fin_offre, tenant, ctx.attente_id, maintenant(tenant))
+            elif fiche is not None and tenant.get("fiche_appel", True):
+                evenements = [Evenement("fiche", texte_fiche(fiche, ctx.numero_appelant, message), fiche)]
+            background.add_task(notifier, tenant, evenements)
             return JSONResponse({})
 
         return JSONResponse({})
@@ -145,10 +211,22 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         return RedirectResponse(f"/dashboard/{t.id}?key={key}", status_code=303)
 
     @app.post("/dashboard/{tenant_id}/rdv/{rdv_id}/annuler")
-    def annuler(tenant_id: str, rdv_id: int, key: str | None = None) -> RedirectResponse:
+    async def annuler(tenant_id: str, rdv_id: int, background: BackgroundTasks,
+                      key: str | None = None) -> RedirectResponse:
         t = auth_dashboard(tenant_id, key)
-        db.execute("UPDATE rendez_vous SET statut='annule', modifie_le=datetime('now') "
-                   "WHERE id=? AND tenant=?", (rdv_id, t.id))
+        rows = db.query("SELECT * FROM rendez_vous WHERE id=? AND tenant=? AND statut='confirme'", (rdv_id, t.id))
+        if rows:
+            r = rows[0]
+            db.execute("UPDATE rendez_vous SET statut='annule', modifie_le=datetime('now') WHERE id=?", (rdv_id,))
+            ctx = ContexteAppel(tenant=t, db=db)
+            if r["external_id"]:
+                await run_in_threadpool(ctx.synchroniser, "annuler", r["external_id"])
+            ctx.evenements.append(evenement_creneau_libere(dict(r)))
+
+            async def suite() -> None:
+                liberations = await asyncio.to_thread(traiter_liberations, t, ctx.evenements)
+                await notifier(t, ctx.evenements + liberations)
+            background.add_task(suite)
         return RedirectResponse(f"/dashboard/{t.id}?key={key}", status_code=303)
 
     @app.post("/dashboard/{tenant_id}/message/{msg_id}/traite")
@@ -187,19 +265,28 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     return app
 
 
-def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: str | None) -> None:
+def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: str | None,
+                      mode: str = "entrant") -> dict[str, Any] | None:
+    """Archive l'appel ; renvoie la fiche d'appel (score d'intérêt…) si Vapi l'a produite."""
     call = message.get("call") or {}
     artifact = message.get("artifact") or {}
     analysis = message.get("analysis") or {}
-    questions = [q for q in ((analysis.get("structuredData") or {}).get("questions_sans_reponse") or [])
-                 if isinstance(q, str) and q.strip()]
+    data = analysis.get("structuredData") or {}
+    questions = [q for q in (data.get("questions_sans_reponse") or []) if isinstance(q, str) and q.strip()]
+    fiche = {k: data[k] for k in ("nom_appelant", "score_interet", "categorie", "soin_evoque", "prochaine_action")
+             if data.get(k) not in (None, "")}
+    if "score_interet" in fiche:
+        try:
+            fiche["score_interet"] = max(0, min(100, int(fiche["score_interet"])))
+        except (TypeError, ValueError):
+            del fiche["score_interet"]
     duree = message.get("durationSeconds")
     if duree is None and message.get("durationMs") is not None:
         duree = message["durationMs"] / 1000
     db.execute(
         "INSERT OR REPLACE INTO appels (call_id, tenant, numero, debut, fin, duree_s, cout, raison_fin, "
-        "resume, transcript, enregistrement_url, questions_sans_reponse) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "resume, transcript, enregistrement_url, questions_sans_reponse, fiche, mode) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             call.get("id"), t.id, numero,
             message.get("startedAt"), message.get("endedAt"),
@@ -208,6 +295,40 @@ def enregistrer_appel(db: Database, t: Tenant, message: dict[str, Any], numero: 
             artifact.get("transcript") or message.get("transcript"),
             artifact.get("recordingUrl") or message.get("recordingUrl"),
             json.dumps(questions, ensure_ascii=False) if questions else None,
+            json.dumps(fiche, ensure_ascii=False) if fiche else None,
+            mode,
         ),
     )
+    if not fiche:
+        return None
+    fiche["resume"] = analysis.get("summary") or message.get("summary") or ""
+    return fiche
+
+
+CATEGORIES = {
+    "nouveau_patient": "Nouveau patient", "patient_existant": "Patient du cabinet", "urgence": "Urgence",
+    "devis_soin_important": "Devis soin important", "information": "Renseignement",
+    "annulation": "Annulation", "autre": "Autre",
+}
+
+
+def texte_fiche(fiche: dict[str, Any], numero: str | None, message: dict[str, Any]) -> str:
+    """Fiche d'appel envoyée sur Telegram après chaque appel entrant."""
+    score = fiche.get("score_interet")
+    if score is None:
+        entete = "📋 Fiche appel"
+    else:
+        niveau = "🔥 chaud" if score >= 80 else "🌤️ tiède" if score >= 50 else "❄️ froid"
+        entete = f"📋 Fiche appel — intérêt {score} % ({niveau})"
+    lignes = [entete, f"{fiche.get('nom_appelant') or 'Nom non donné'} — {telephone_lisible(numero or '') or 'numéro masqué'}"]
+    details = [CATEGORIES.get(fiche.get("categorie", ""), "")]
+    if fiche.get("soin_evoque"):
+        details.append(f"soin : {fiche['soin_evoque']}")
+    if any(details):
+        lignes.append(" · ".join(d for d in details if d))
+    if fiche.get("resume"):
+        lignes.append(fiche["resume"])
+    if fiche.get("prochaine_action"):
+        lignes.append(f"➡️ {fiche['prochaine_action']}")
+    return "\n".join(lignes)
 

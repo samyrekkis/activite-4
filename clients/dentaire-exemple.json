@@ -125,5 +125,26 @@
     "webhook_url": ""
   },
   "dashboard_key": "remplacer-par-une-cle-longue-et-aleatoire",
-  "enregistrement": true
+  "enregistrement": true,
+  "relance": {
+    "actif": true,
+    "heures_avant": 48,
+    "plage": [
+      "09:00",
+      "19:00"
+    ],
+    "jours_exclus": [
+      "vendredi"
+    ],
+    "tentatives": 2,
+    "intervalle_heures": 3
+  },
+  "liste_attente": {
+    "actif": true,
+    "appel_auto": true,
+    "delai_min_heures": 4,
+    "max_contacts": 3
+  },
+  "fiche_appel": true,
+  "agenda_externe": null
 }

@@ -60,7 +60,9 @@ main{max-width:1100px;margin:0 auto;padding:20px 16px}h1{font-size:22px;margin:0
 .tbl{overflow-x:auto;background:var(--card);border:1px solid var(--bd);border-radius:10px}
 table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--bd);vertical-align:top}
 th{font-size:13px;color:var(--mut);font-weight:600}tr:last-child td{border-bottom:0}
-.urg{color:var(--warn);font-weight:600}button{font:inherit;border:1px solid var(--bd);background:transparent;color:var(--txt);border-radius:6px;padding:3px 9px;cursor:pointer}
+.urg{color:var(--warn);font-weight:600}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap;border:1px solid var(--bd)}
+.pill.ok{color:var(--acc);border-color:var(--acc)}.pill.ko{color:var(--warn);border-color:var(--warn)}.pill.froid{color:var(--mut)}button{font:inherit;border:1px solid var(--bd);background:transparent;color:var(--txt);border-radius:6px;padding:3px 9px;cursor:pointer}
 a{color:var(--acc)}form{display:inline}summary{cursor:pointer;font-weight:600}
 .ajout{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.ajout input,.ajout select{font:inherit;padding:5px 8px;border:1px solid var(--bd);border-radius:6px;background:var(--bg);color:var(--txt);max-width:100%}
 details{margin-bottom:10px}
@@ -79,6 +81,31 @@ def questions_a_ajouter(db: Database, t: Tenant, jours: int = 30) -> list[tuple[
             texte, n = compte.get(cle, (q.strip(), 0))
             compte[cle] = (texte, n + 1)
     return sorted(compte.values(), key=lambda x: -x[1])
+
+
+CONFIRMATIONS = {
+    None: ("", ""), "appel_en_cours": ("relance en cours", "neutre"), "sans_reponse": ("pas de réponse", "neutre"),
+    "confirme": ("confirmé ✓", "ok"), "injoignable": ("injoignable", "ko"),
+}
+
+
+def _pastille(texte: str, ton: str) -> str:
+    return f'<span class="pill {ton}">{escape(texte)}</span>' if texte else ""
+
+
+def _pastille_confirmation(r: Any) -> str:
+    return _pastille(*CONFIRMATIONS.get(r["confirmation"], (r["confirmation"] or "", "neutre")))
+
+
+def _pastille_score(a: Any) -> str:
+    if a["mode"] in ("relance", "offre"):
+        return _pastille("relance" if a["mode"] == "relance" else "liste d'attente", "neutre")
+    if not a["fiche"]:
+        return ""
+    score = json.loads(a["fiche"]).get("score_interet")
+    if score is None:
+        return ""
+    return _pastille(f"{score} %", "ok" if score >= 80 else "neutre" if score >= 50 else "froid")
 
 
 def _table(entetes: list[str], lignes: list[list[str]], vide: str) -> str:
@@ -102,6 +129,7 @@ def page(db: Database, t: Tenant, key: str) -> str:
         escape(r["nom"]),
         f'<a href="tel:{escape(r["telephone"])}">{escape(telephone_lisible(r["telephone"]))}</a>',
         escape(r["service"]),
+        _pastille_confirmation(r),
         escape(r["notes"]),
         f'<form method="post" action="/dashboard/{escape(t.id)}/rdv/{r["id"]}/annuler?key={k}" '
         f'onsubmit="return confirm(\'Annuler ce rendez-vous ?\')"><button>Annuler</button></form>',
@@ -121,10 +149,22 @@ def page(db: Database, t: Tenant, key: str) -> str:
     lignes_appels = [[
         escape(_local(t, a["cree_le"])),
         escape(telephone_lisible(a["numero"] or "")),
+        _pastille_score(a),
         f'{round((a["duree_s"] or 0) / 60, 1)} min',
         escape(a["resume"] or ""),
         f'<a href="{escape(a["enregistrement_url"])}" target="_blank" rel="noopener">écouter</a>' if a["enregistrement_url"] else "",
     ] for a in appels]
+
+    attente = db.query(
+        "SELECT * FROM liste_attente WHERE tenant=? AND statut IN ('en_attente', 'contacte') ORDER BY cree_le", (t.id,))
+    lignes_attente = [[
+        escape(_local(t, w["cree_le"])),
+        escape(w["nom"]),
+        f'<a href="tel:{escape(w["telephone"])}">{escape(telephone_lisible(w["telephone"]))}</a>',
+        escape(w["service"]),
+        escape(w["preference"]),
+        "appel en cours" if w["statut"] == "contacte" else "",
+    ] for w in attente]
 
     options_services = "".join(
         f'<option value="{escape(sv.id)}">{escape(sv.nom)} ({sv.duree} min)</option>' for sv in t.services)
@@ -149,8 +189,10 @@ def page(db: Database, t: Tenant, key: str) -> str:
 <input type="date" name="date" required><input type="time" name="heure" step="300" required>
 <input type="number" name="duree" min="5" step="5" placeholder="Durée (min, optionnel)">
 <button>Ajouter</button></form></details>
-{_table(["Date", "Nom", "Téléphone", "Service", "Notes", ""], lignes_rdv, "Aucun rendez-vous à venir.")}
+{_table(["Date", "Nom", "Téléphone", "Service", "Confirmation", "Notes", ""], lignes_rdv, "Aucun rendez-vous à venir.")}
 <p><a href="/dashboard/{escape(t.id)}/export.csv?key={k}">Exporter tous les rendez-vous (CSV)</a></p>
+<h2>Liste d'attente</h2>
+{_table(["Inscrit le", "Nom", "Téléphone", "Soin", "Préférence", ""], lignes_attente, "Personne en liste d'attente.")}
 <h2>Messages à rappeler</h2>
 {_table(["Reçu le", "Nom", "Téléphone", "Motif", ""], lignes_msg, "Aucun message en attente.")}
 <h2>À ajouter à la fiche du cabinet</h2>
@@ -158,5 +200,5 @@ def page(db: Database, t: Tenant, key: str) -> str:
 Envoyez la réponse à votre prestataire : elle sera ajoutée à la FAQ.</p>
 {_table(["Question", "Nb d'appels"], [[escape(q), str(n)] for q, n in questions_a_ajouter(db, t)], "Rien à ajouter : la fiche couvre les questions posées.")}
 <h2>Derniers appels</h2>
-{_table(["Date", "Numéro", "Durée", "Résumé", "Enregistrement"], lignes_appels, "Aucun appel pour l'instant.")}
+{_table(["Date", "Numéro", "Intérêt", "Durée", "Résumé", "Enregistrement"], lignes_appels, "Aucun appel pour l'instant.")}
 </main></body></html>"""

@@ -43,6 +43,11 @@ def main() -> int:
         "consignes": [],
         "valeur_moyenne_rdv_da": 0,
         "notifications": {"telegram_chat_ids": [], "webhook_url": ""},
+        "fiche_appel": True,
+        "relance": {"actif": False, "heures_avant": 48, "plage": ["09:00", "19:00"],
+                    "jours_exclus": ["vendredi"], "tentatives": 2, "intervalle_heures": 3},
+        "liste_attente": {"actif": True, "appel_auto": False, "delai_min_heures": 4, "max_contacts": 3},
+        "agenda_externe": None,
         "dashboard_key": secrets.token_urlsafe(24),
         "enregistrement": True,
     }
