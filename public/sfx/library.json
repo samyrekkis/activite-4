@@ -1,0 +1,10 @@
+[
+  {
+    "src": "sfx/ding.mp3",
+    "query": "ding",
+    "name": "Ding (fourni par l’utilisateur)",
+    "duration": 0.94,
+    "license": "Fourni par l’utilisateur",
+    "source": "upload"
+  }
+]
