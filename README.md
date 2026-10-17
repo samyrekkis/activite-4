@@ -19,6 +19,8 @@ Workflow de montage vidéo pour **Le Monégasque** et **Le Samouraï**.
                                              out/<plan>-v3.mp4
 ```
 
+**Sur ton PC avec DaVinci Resolve : suis [`SETUP-PC.md`](SETUP-PC.md).** Les styles de montage sont dans [`presets/`](presets/README.md).
+
 ## Installation (une fois)
 
 ```bash
@@ -46,6 +48,8 @@ Ensuite, dis simplement à Claude : *« Monte les rushs du Samouraï comme la vi
 
 | Commande | Rôle |
 | --- | --- |
+| `npm run import:local -- "C:\dossier" rushes/samourai` | Importe les vidéos/photos d'un dossier du PC (voir `SETUP-PC.md`) |
+| `npm run export:resolve -- edits/plan.json` | Timeline DaVinci Resolve (FCPXML) + un MP4 par plan |
 | `npm run analyze:ref -- public/refs/x.mp4` | ADN de la vidéo exemple : coupes, durée des plans, BPM, planches |
 | `npm run analyze:rushes` | Planches horodatées de chaque rush |
 | `npm run render -- edits/plan.json [--preview]` | Rendu (`--preview` = demi-résolution, plus rapide) |

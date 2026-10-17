@@ -7,7 +7,7 @@ import { createWriteStream, existsSync, mkdirSync, rmSync, statSync } from "node
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { basename, extname } from "node:path";
-import { probe, run } from "./lib/media.mjs";
+import { normalizeVideo } from "./lib/media.mjs";
 
 const [dest, ...items] = process.argv.slice(2);
 if (!dest || !items.length) {
@@ -37,16 +37,7 @@ for (const item of items) {
   await pipeline(Readable.fromWeb(res.body), createWriteStream(raw));
   console.log(`${name} : ${(statSync(raw).size / 1e6).toFixed(1)} Mo téléchargés, conversion…`);
 
-  const info = await probe(raw);
-  const portrait = (info.height ?? 0) >= (info.width ?? 0);
-  await run("ffmpeg", [
-    "-y", "-i", raw,
-    "-vf", `${portrait ? "scale=1080:-2" : "scale=-2:1080"}:flags=lanczos,fps=30,format=yuv420p`,
-    "-c:v", "libx264", "-preset", "medium", "-crf", "18",
-    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
-    out,
-  ]);
+  const final = await normalizeVideo(raw, out);
   rmSync(raw);
-  const final = await probe(out);
   console.log(`  -> ${out} (${final.width}x${final.height}, ${final.duration.toFixed(1)} s)`);
 }

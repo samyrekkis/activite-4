@@ -38,6 +38,20 @@ export const probe = async (file) => {
   };
 };
 
+/** Re-encode any phone/camera video for Remotion: H.264, 30 fps, 1080 px on the short side, sound kept. */
+export const normalizeVideo = async (src, out) => {
+  const info = await probe(src);
+  const portrait = (info.height ?? 0) >= (info.width ?? 0);
+  await run("ffmpeg", [
+    "-y", "-i", src,
+    "-vf", `${portrait ? "scale=1080:-2" : "scale=-2:1080"}:flags=lanczos,fps=30,format=yuv420p`,
+    "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+    out,
+  ]);
+  return probe(out);
+};
+
 /** Timestamps (s) where the picture changes a lot: cuts in an edit, or action in a rush. */
 export const detectScenes = async (file, threshold = 0.3) => {
   const { stderr } = await run("ffmpeg", [

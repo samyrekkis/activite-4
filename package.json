@@ -15,7 +15,9 @@
     "sfx": "node scripts/sfx-search.mjs",
     "typecheck": "tsc --noEmit",
     "fonts": "node scripts/fetch-fonts.mjs",
-    "demo:media": "node scripts/make-demo-media.mjs"
+    "demo:media": "node scripts/make-demo-media.mjs",
+    "import:local": "node scripts/import-local.mjs",
+    "export:resolve": "node scripts/export-resolve.mjs"
   },
   "dependencies": {
     "@google/genai": "2.24.0",

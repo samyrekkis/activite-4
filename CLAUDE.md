@@ -4,7 +4,14 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
 
 ## Le workflow complet
 
-0. **Import depuis Google Drive** : l'utilisateur range ses vidéos dans un dossier Drive par restaurant, partagé « Tous les utilisateurs disposant du lien ».
+Le studio tourne sur le PC de l'utilisateur (voir `SETUP-PC.md`) ; Drive n'est qu'une solution de secours.
+
+0. **Import depuis le PC (par défaut)** : `npm run import:local -- "<dossier ou fichiers>" rushes/<resto>` (la vidéo exemple va dans `refs`). Vidéos normalisées en MP4 H.264 30 i/s ; photos (JPG, PNG, HEIC) vers `public/photos/<resto>`.
+   - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
+
+0 bis. **Preset** : lire `presets/README.md` puis le preset demandé (« food », « story »…) ou le plus proche, **avant** d'écrire le plan. Le suivre ; le citer dans le compte rendu.
+
+0 ter. **Import depuis Google Drive** (si les vidéos sont sur Drive) : l'utilisateur range ses vidéos dans un dossier Drive par restaurant, partagé « Tous les utilisateurs disposant du lien ».
    - Lister le dossier avec le connecteur Drive (`search_files`, `parentId = '<id du dossier>'`) pour obtenir les identifiants des fichiers.
    - `npm run import -- rushes/<resto> <id>:<nom> …` (la vidéo exemple va dans `refs`). Les MOV d'iPhone sont convertis en MP4 H.264 30 i/s.
    - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
@@ -26,7 +33,9 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
    - Arrêter après 3 cycles, ou plus tôt si le verdict est `pret_a_publier` avec une note ≥ 8.
    - Ne pas suivre aveuglément Gemini : s'il contredit le brief ou la référence, garder le brief et le noter dans le compte rendu.
 6. **Rendu final** en pleine résolution : `npm run render -- edits/<plan>.json`. Fichier final : `out/<plan>-vN.mp4`.
-7. **Compte rendu** à l'utilisateur, en français : notes v1 → v3, ce qui a changé à chaque cycle, chemin du fichier final.
+7. **Export DaVinci Resolve** (toujours après le rendu final, il en reprend l'outro) : `npm run export:resolve -- edits/<plan>.json` → `out/resolve/<plan>/<plan>.fcpxml` + un MP4 par plan, déjà coupé et à la bonne vitesse, sans étalonnage. Transitions, textes et mouvements sont posés en marqueurs.
+8. **Compte rendu** à l'utilisateur, en français : notes v1 → v3, ce qui a changé à chaque cycle, chemin du fichier final et de la timeline Resolve.
+9. **Leçons** : si l'utilisateur a corrigé quelque chose, l'ajouter en une ligne dans la section « Leçons » du preset utilisé.
 
 ## Vérifier un rendu (sans Gemini)
 

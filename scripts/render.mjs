@@ -31,7 +31,8 @@ const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--p
 if (preview) cliArgs.push("--scale=0.5");
 if (browser) cliArgs.push(`--browser-executable=${browser}`);
 
-const child = spawn("npx", cliArgs, { stdio: "inherit" });
+// On Windows npx is npx.cmd, which only starts through a shell.
+const child = spawn("npx", cliArgs, { stdio: "inherit", shell: process.platform === "win32" });
 child.on("close", (code) => {
   if (code === 0) console.log(`\nRendu : ${output}`);
   process.exit(code ?? 1);
