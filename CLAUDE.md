@@ -53,6 +53,9 @@ Puis ouvrir `analysis/check.jpg` avec Read. Vérifier : textes lisibles et non c
 - Food appeal : saturation et chaleur sur les plats, jamais de peau orange. Baisser `grade.saturate` sur les plans avec des visages si besoin.
 - Garder les textes dans la zone sûre des Reels : rien dans les 12 % du haut ni les 20 % du bas (positions `top`/`bottom` déjà calibrées). Pas plus de 6 mots à l'écran.
 - Ne pas répéter le même mouvement de caméra sur deux clips consécutifs.
+- Montage rapide « Reels » : un plan par temps, enchaînés par `blurCut` (flou de bougé de 4 images, `duration: 0.1333` à 30 i/s) en alternant `from-top` et `from-left`/`from-right`. Pour qu'une coupe tombe sur le temps, un plan suivi d'une transition dure `n × beat + durée de la transition`.
+- Pour étudier les transitions d'une référence, extraire les images une par une autour de chaque coupe (`ffmpeg -ss <t> -frames:v 1 -vf "scale=300:-2,tile=6x1"`) : l'analyse automatique ne voit pas les coupes d'une vidéo filmée dans un bandeau (enregistrement d'écran).
+- Stickers, GIF, logos : `stickers` dans le plan (`src`, `at`, `duration`, `x`, `y`, `width`, `rotate`, `animation`). Jamais de personnage sous droits (Naruto…) dans une pub.
 - Finir sur un appel à l'action : réserver, l'adresse, le @ du compte.
 - Durée cible : 12 à 25 s pour un Reel, sauf si la référence dit autrement.
 

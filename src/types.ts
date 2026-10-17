@@ -17,7 +17,9 @@ export type TransitionType =
   | "pushCut"
   | "flash"
   | "zoomPunch"
-  | "whip";
+  | "whip"
+  /** 2-4 frame directional motion-blur smear (fast Reels "blur transition"). Use duration 0.1-0.13. */
+  | "blurCut";
 
 export type Direction = "from-left" | "from-right" | "from-top" | "from-bottom";
 
@@ -100,6 +102,27 @@ export type Sfx = {
   duration?: number;
 };
 
+/** Image, animated GIF or video placed over the edit (sticker, logo, reaction). */
+export type Sticker = {
+  /** Path relative to public/: .png/.webp/.jpg, .gif (animated) or .mp4/.webm (webm may be transparent). */
+  src: string;
+  /** Seconds on the final timeline. */
+  at: number;
+  /** Seconds on screen. Default 1.5. */
+  duration?: number;
+  /** Centre position as a fraction of the frame (0 = left/top, 1 = right/bottom). Default 0.5 / 0.5. */
+  x?: number;
+  y?: number;
+  /** Width as a fraction of the frame width. Default 0.4. */
+  width?: number;
+  /** Degrees. */
+  rotate?: number;
+  /** Entrance: "pop" (springy scale), "slide" (from below), "fade", or "none". Default "pop". */
+  animation?: "pop" | "slide" | "fade" | "none";
+  /** For video stickers: seconds into the source. */
+  start?: number;
+};
+
 export type Card = {
   title: string;
   subtitle?: string;
@@ -129,6 +152,8 @@ export type EditPlan = {
     fadeOut?: number;
   };
   sfx?: Sfx[];
+  /** Stickers, GIFs and video overlays above the clips. */
+  stickers?: Sticker[];
   /** Global look on top of the restaurant theme. */
   overlays?: {
     grain?: number;

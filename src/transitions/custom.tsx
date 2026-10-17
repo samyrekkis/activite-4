@@ -70,3 +70,37 @@ export const whip = (direction: WhipProps["direction"] = "from-right"): Transiti
   component: Whip,
   props: { direction },
 });
+
+// Blur cut: a 2-4 frame directional motion-blur smear. Unlike whip, the image barely
+// moves; the outgoing shot smears out along one axis and the incoming one resolves from it.
+const BlurCut: React.FC<TransitionPresentationComponentProps<WhipProps>> = ({
+  children,
+  presentationDirection,
+  presentationProgress: p,
+  passedProps,
+}) => {
+  const id = `blurcut-${React.useId().replace(/:/g, "")}`;
+  const entering = presentationDirection === "entering";
+  const horizontal = passedProps.direction === "from-left" || passedProps.direction === "from-right";
+  const sign = passedProps.direction === "from-left" || passedProps.direction === "from-top" ? -1 : 1;
+  const amount = entering ? 1 - p : p;
+  const blur = 70 * amount;
+  const offset = (entering ? sign : -sign) * amount * 10;
+  const transform = `scale(${1 + 0.12 * amount}) ${horizontal ? `translateX(${offset}%)` : `translateY(${offset}%)`}`;
+  const opacity = entering ? interpolate(p, [0.35, 0.6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) : 1;
+  return (
+    <AbsoluteFill style={{ opacity }}>
+      <svg width={0} height={0} style={{ position: "absolute" }}>
+        <filter id={id} x="0" y="0" width="100%" height="100%">
+          <feGaussianBlur stdDeviation={horizontal ? `${blur} 0` : `0 ${blur}`} edgeMode="duplicate" />
+        </filter>
+      </svg>
+      <AbsoluteFill style={{ transform, filter: blur > 0.5 ? `url(#${id})` : undefined }}>{children}</AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+
+export const blurCut = (direction: WhipProps["direction"] = "from-right"): TransitionPresentation<WhipProps> => ({
+  component: BlurCut,
+  props: { direction },
+});

@@ -1,0 +1,210 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Story/Reel de ~10 s pour Le Samouraï calqué sur la référence refs/essai-2.mp4 (I Love Burger) : un plan de la salle par temps (0,5 s, taiko 120 BPM) enchaînés par des flous de bougé directionnels très courts (blurCut, 4 images) en alternant vertical et horizontal, puis la façade avec l'enseigne sur 2 temps, la descente de l'escalier en vue subjective, la cliente en kimono et l'appel à réserver.",
+  "clips": [
+    {
+      "label": "#1 fresque samouraï",
+      "src": "rushes/samourai/IMG_2357.mp4",
+      "start": 0.2,
+      "end": 0.833,
+      "motion": "punchIn"
+    },
+    {
+      "label": "#2 geisha lumineuse",
+      "src": "rushes/samourai/IMG_2332.mp4",
+      "start": 2.3,
+      "end": 2.933,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-top",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#3 fresque lumières",
+      "src": "rushes/samourai/IMG_2367.mp4",
+      "start": 3.0,
+      "end": 3.95,
+      "motion": "none",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-right",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#4 portant kimonos",
+      "src": "rushes/samourai/IMG_2343.mp4",
+      "start": 0.0,
+      "end": 0.95,
+      "motion": "zoomOut",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-top",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#5 loge miroir",
+      "src": "rushes/samourai/IMG_2344.mp4",
+      "start": 0.9,
+      "end": 1.533,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-left",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#6 kimono escalier rouge",
+      "src": "rushes/samourai/IMG_2364.mp4",
+      "start": 2.4,
+      "end": 3.033,
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-top",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#7 salle lanternes",
+      "src": "rushes/samourai/IMG_2350.mp4",
+      "start": 0.5,
+      "end": 1.45,
+      "motion": "zoomIn",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-right",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#8 terrasse",
+      "src": "rushes/samourai/IMG_2340.mp4",
+      "start": 4.5,
+      "end": 5.45,
+      "motion": "zoomOut",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-top",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#9 façade enseigne",
+      "src": "rushes/monegasque/dji-150228.mp4",
+      "start": 0.0,
+      "end": 1.0,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-left",
+        "duration": 0.1333
+      }
+    },
+    {
+      "label": "#10 descente vue subjective",
+      "src": "rushes/samourai/IMG_2357.mp4",
+      "start": 3.0,
+      "end": 4.96,
+      "motion": "none",
+      "speed": 1.2,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#11 cliente en kimono",
+      "src": "rushes/samourai/dji-145212.mp4",
+      "start": 0.0,
+      "end": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "blurCut",
+        "direction": "from-right",
+        "duration": 0.1333
+      },
+      "text": [
+        {
+          "content": "Shooting kimono inclus",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.05
+        }
+      ]
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Asian Luxury",
+    "duration": 2.0,
+    "background": "rushes/samourai/IMG_2368.mp4"
+  },
+  "music": {
+    "src": "music/samourai-taiko-120bpm.mp3",
+    "volume": 0.85,
+    "fadeOut": 1.0
+  },
+  "overlays": {
+    "grain": 0.05,
+    "vignette": 0.3
+  },
+  "sfx": [
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 0.45,
+      "volume": 0.3,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 1.45,
+      "volume": 0.3,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 2.45,
+      "volume": 0.3,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 3.45,
+      "volume": 0.3,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 3.95,
+      "volume": 0.4,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/taiko-hit-synth.mp3",
+      "at": 4.0,
+      "volume": 0.5
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 6.45,
+      "volume": 0.3,
+      "duration": 0.4
+    },
+    {
+      "src": "sfx/gong-synth.mp3",
+      "at": 7.5,
+      "volume": 0.45
+    }
+  ]
+}

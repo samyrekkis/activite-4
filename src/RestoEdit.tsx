@@ -4,6 +4,7 @@ import { TransitionSeries } from "@remotion/transitions";
 import { CardView } from "./components/CardView";
 import { ClipView } from "./components/ClipView";
 import { Grain, Letterbox, Vignette } from "./components/LookOverlays";
+import { StickerLayer } from "./components/StickerLayer";
 import { THEMES } from "./themes";
 import { buildSegments, totalFrames, transitionFrames, toFrames } from "./timeline";
 import { presentationFor, timingFor } from "./transitions";
@@ -48,6 +49,8 @@ export const RestoEdit: React.FC<EditPlan> = (plan) => {
           );
         })}
       </TransitionSeries>
+
+      {plan.stickers?.length ? <StickerLayer stickers={plan.stickers} /> : null}
 
       <Vignette amount={plan.overlays?.vignette ?? theme.vignette} />
       <Grain amount={plan.overlays?.grain ?? theme.grain} />

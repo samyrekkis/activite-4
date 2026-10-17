@@ -9,7 +9,7 @@ import { wipe } from "@remotion/transitions/wipe";
 import { Easing } from "remotion";
 import type { Theme } from "../themes";
 import type { Transition } from "../types";
-import { flash, whip, zoomPunch } from "./custom";
+import { blurCut, flash, whip, zoomPunch } from "./custom";
 
 export const presentationFor = (
   t: Transition,
@@ -36,6 +36,8 @@ export const presentationFor = (
       return zoomPunch();
     case "whip":
       return whip(direction);
+    case "blurCut":
+      return blurCut(direction);
     case "fade":
     default:
       return fade();
