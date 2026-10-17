@@ -7,6 +7,7 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
 Le studio tourne sur le PC de l'utilisateur (voir `SETUP-PC.md`) ; Drive n'est qu'une solution de secours.
 
 0. **Import depuis le PC (par défaut)** : `npm run import:local -- "<dossier ou fichiers>" rushes/<resto>` (la vidéo exemple va dans `refs`). Vidéos normalisées en MP4 H.264 30 i/s ; photos (JPG, PNG, HEIC) vers `public/photos/<resto>`.
+   - **Bibliothèque de l'utilisateur** : `C:\Users\hp\Videos\Studio Resto\`, avec `Exemples\` (vidéos à suivre + un `.txt` du même nom qui décrit l'idée, à lire), `Samourai\Photos`, `Samourai\Videos`, `Monegasque\Photos`, `Monegasque\Videos`. L'utilisateur dit pour quel resto est l'edit : importer `Photos` et `Videos` de ce resto (`rushes/samourai` ou `rushes/monegasque`), et l'exemple cité vers `refs`. Les vidéos déjà importées sont ignorées.
    - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
 
 0 bis. **Preset** : lire `presets/README.md` puis le preset demandé (« food », « story »…) ou le plus proche, **avant** d'écrire le plan. Le suivre ; le citer dans le compte rendu.
