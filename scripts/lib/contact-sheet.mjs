@@ -22,7 +22,8 @@ export const contactSheet = async (file, times, outJpg, { cols = 4, thumbWidth =
   }
   const rows = Math.ceil(times.length / cols);
   await run("ffmpeg", [
-    "-y", "-pattern_type", "glob", "-i", `${tmp}/*.jpg`,
+    // Numbered sequence rather than a glob: Windows builds of ffmpeg have no glob support.
+    "-y", "-i", `${tmp}/%04d.jpg`,
     "-vf", `tile=${cols}x${rows}:padding=6:color=white`, "-frames:v", "1", "-q:v", "3", outJpg,
   ]);
   rmSync(tmp, { recursive: true, force: true });
