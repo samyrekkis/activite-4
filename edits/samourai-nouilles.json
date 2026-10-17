@@ -1,0 +1,96 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Test (non publié) : pub Reel de ~10 s pour Le Samouraï à partir d'un seul plan cinéma (femme qui mange des nouilles aux baguettes devant un miroir rond, lumière chaude), recadré pour ne plus ressembler à une capture d'écran Instagram. Rythme Samouraï calé sur un taiko à 120 BPM (1 temps = 0,5 s) : jump cuts avec punchIn, ralenti sur le regard caméra, flash, puis le geste brusque qui couvre l'objectif enchaîne sur la carte de fin avec le logo. Montage audacieux, transitions franches.",
+  "clips": [
+    {
+      "label": "#1 nouilles aspirées",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 0.6,
+      "end": 1.4,
+      "speed": 0.8,
+      "motion": "punchIn",
+      "motionIntensity": 2
+    },
+    {
+      "label": "#2 nouilles serré",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 1.4,
+      "end": 2.4,
+      "motion": "zoomIn",
+      "motionIntensity": 2,
+      "transitionIn": { "type": "cut" },
+      "text": [{ "content": "味", "style": "kanji", "position": "top", "delay": 0.05 }]
+    },
+    {
+      "label": "#3 elle relève la tête",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 2.3,
+      "end": 3.5,
+      "speed": 0.923,
+      "motion": "panUp",
+      "transitionIn": { "type": "cut" }
+    },
+    {
+      "label": "#4 regard caméra ralenti",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 3.5,
+      "end": 5.15,
+      "speed": 0.75,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "zoomPunch", "duration": 0.3 },
+      "text": [{ "content": "LE SAMOURAÏ", "style": "title", "position": "top", "delay": 0.1 }]
+    },
+    {
+      "label": "#5 regard fixe",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 5.15,
+      "end": 6.65,
+      "motion": "shake",
+      "transitionIn": { "type": "flash", "duration": 0.2 }
+    },
+    {
+      "label": "#6 geste vers l'objectif",
+      "src": "rushes/samourai/nouilles-miroir.mp4",
+      "grade": { "brightness": 1.05, "contrast": 1.1, "saturate": 1.02 },
+      "start": 6.65,
+      "end": 7.9,
+      "speed": 0.85,
+      "motion": "punchIn",
+      "transitionIn": { "type": "cut" }
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Shooting kimono inclus",
+    "duration": 2.5,
+    "background": "rushes/samourai/nouilles-miroir.mp4",
+    "logo": "brand/samourai-logo.png"
+  },
+  "music": {
+    "src": "music/taiko-625518.mp3",
+    "volume": 0.85,
+    "fadeOut": 1.0
+  },
+  "stickers": [
+    { "src": "brand/samourai-sceau.png", "at": 1.0, "duration": 6.2, "x": 0.87, "y": 0.75, "width": 0.13, "animation": "fade" }
+  ],
+  "overlays": {
+    "grain": 0.07,
+    "vignette": 0.42
+  },
+  "sfx": [
+    { "src": "sfx/impact-hit-cinematic-755054.mp3", "at": 0.0, "volume": 0.5 },
+    { "src": "sfx/katana-sword-unsheathe-320521.mp3", "at": 2.85, "volume": 0.45, "duration": 1.2 },
+    { "src": "sfx/impact-hit-cinematic-755054.mp3", "at": 4.9, "volume": 0.4 },
+    { "src": "sfx/swoosh-fast-614169.mp3", "at": 6.9, "volume": 0.55 },
+    { "src": "sfx/gong-749465.mp3", "at": 7.5, "volume": 0.5, "duration": 2.7 }
+  ]
+}

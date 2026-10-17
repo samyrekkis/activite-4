@@ -130,6 +130,8 @@ export type Card = {
   duration?: number;
   /** Optional background image or video from public/. */
   background?: string;
+  /** Logo image from public/ (e.g. "brand/logo.png"), shown instead of the theme ornament. */
+  logo?: string;
 };
 
 export type EditPlan = {
