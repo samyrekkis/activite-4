@@ -2,96 +2,104 @@
   "restaurant": "samourai",
   "format": "vertical",
   "fps": 30,
-  "version": 3,
-  "brief": "Pub Reel Instagram de 15-18 s pour Le Samouraï (Asian Luxury), à partir de vraies vidéos du lieu : fresque du samouraï, lanternes rouges, escalier néon, loge kimono avec miroir, terrasse. Cible 18-35 ans. Objectif : donner envie de vivre l'expérience (décor, shooting kimono) et réserver. Style inspiré de la référence (étalonnage chaud et cinématographique, grain, vignette) mais rythme Samouraï calé sur un beat taiko à 120 BPM (1 temps = 0,5 s).",
+  "version": 4,
+  "brief": "Pub Reel Instagram de 15 s pour Le Samouraï (Asian Luxury), à partir de vraies vidéos du lieu : fresque du samouraï, lanternes rouges, escalier néon, loge kimono avec miroir, terrasse. Cible 18-35 ans. Objectif : donner envie de vivre l'expérience (décor, shooting kimono) et réserver. Style inspiré de la référence (étalonnage chaud et cinématographique, grain, vignette) mais rythme Samouraï calé sur un beat taiko à 120 BPM (1 temps = 0,5 s). Montage nerveux : plans de 0,5 à 1,5 s, coupes sèches sur chaque temps, mouvements de caméra accélérés, whips fluides.",
   "clips": [
     {
       "label": "#1 fresque samouraï",
       "src": "rushes/samourai/IMG_2357.mp4",
       "start": 0.2,
-      "end": 1.9,
+      "end": 1.7,
       "motion": "punchIn",
       "text": [
         {
           "content": "LE SAMOURAÏ",
           "style": "title",
           "position": "center",
-          "delay": 0.15
+          "delay": 0.05
         }
       ]
     },
     {
       "label": "#2 escalier fresque",
       "src": "rushes/samourai/IMG_2366.mp4",
-      "start": 4.3,
-      "end": 5.5,
-      "motion": "zoomOut",
+      "start": 4.2,
+      "end": 4.95,
+      "motion": "zoomIn",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#3 fresque lanternes",
+      "src": "rushes/samourai/IMG_2367.mp4",
+      "start": 2.3,
+      "end": 3.5,
+      "motion": "none",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#4 geisha lumineuse",
+      "src": "rushes/samourai/IMG_2332.mp4",
+      "start": 2.2,
+      "end": 3.4,
+      "motion": "zoomIn",
+      "speed": 1.2,
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
-        "duration": 0.2
+        "duration": 0.3
       }
     },
     {
-      "label": "#3 geisha lumineuse",
-      "src": "rushes/samourai/IMG_2332.mp4",
-      "start": 2.3,
-      "end": 3.5,
-      "motion": "zoomIn",
-      "transitionIn": {
-        "type": "flash",
-        "duration": 0.2
-      }
-    },
-    {
-      "label": "#4 portant kimonos",
+      "label": "#5 portant kimonos",
       "src": "rushes/samourai/IMG_2343.mp4",
       "start": 0.0,
-      "end": 1.2,
-      "motion": "none",
+      "end": 0.75,
+      "motion": "panLeft",
+      "speed": 1.5,
       "transitionIn": {
-        "type": "whip",
-        "direction": "from-left",
-        "duration": 0.2
+        "type": "cut"
       }
     },
     {
-      "label": "#5 cliente en kimono au miroir",
-      "src": "rushes/samourai/dji-145212.mp4",
-      "start": 0.0,
-      "end": 1.5,
-      "motion": "zoomIn",
-      "grade": {
-        "saturate": 1.0
-      },
-      "transitionIn": {
-        "type": "zoomPunch",
-        "duration": 0.2
-      },
-      "text": [
-        {
-          "content": "Shooting kimono inclus",
-          "style": "caption",
-          "position": "bottom",
-          "delay": 0.15
-        }
-      ]
-    },
-    {
-      "label": "#6 loge miroir サムライ",
+      "label": "#6 loge miroir",
       "src": "rushes/samourai/IMG_2344.mp4",
       "start": 0.9,
-      "end": 2.1,
+      "end": 1.7,
       "motion": "punchIn",
       "transitionIn": {
         "type": "cut"
       }
     },
     {
-      "label": "#7 kimono escalier rouge",
+      "label": "#7 cliente en kimono",
+      "src": "rushes/samourai/dji-145212.mp4",
+      "start": 0.0,
+      "end": 1.7,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.3
+      },
+      "text": [
+        {
+          "content": "Shooting kimono inclus",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.1
+        }
+      ]
+    },
+    {
+      "label": "#8 kimono escalier rouge",
       "src": "rushes/samourai/IMG_2364.mp4",
       "start": 2.3,
-      "end": 3.5,
+      "end": 3.1,
       "motion": "panUp",
       "transitionIn": {
         "type": "flash",
@@ -99,72 +107,119 @@
       }
     },
     {
-      "label": "#8 descente néons",
+      "label": "#9 descente néons",
       "src": "rushes/samourai/IMG_2357.mp4",
       "start": 3.0,
       "end": 4.5,
       "motion": "zoomIn",
+      "speed": 1.5,
       "transitionIn": {
         "type": "whip",
-        "direction": "from-right",
-        "duration": 0.2
+        "direction": "from-left",
+        "duration": 0.3
       },
       "text": [
         {
           "content": "侍",
           "style": "kanji",
           "position": "center",
-          "delay": 0.2
+          "delay": 0.1
         }
       ]
     },
     {
-      "label": "#9 salle lanternes",
-      "src": "rushes/samourai/IMG_2350.mp4",
-      "start": 0.5,
-      "end": 1.7,
-      "motion": "panRight",
+      "label": "#10 lanternes rampe",
+      "src": "rushes/samourai/IMG_2332.mp4",
+      "start": 6.9,
+      "end": 7.4,
+      "motion": "punchIn",
       "transitionIn": {
         "type": "cut"
       }
     },
     {
-      "label": "#10 terrasse",
+      "label": "#11 salle lanternes",
+      "src": "rushes/samourai/IMG_2350.mp4",
+      "start": 0.5,
+      "end": 1.25,
+      "motion": "panRight",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#12 salle rouge",
+      "src": "rushes/samourai/IMG_2349.mp4",
+      "start": 0.0,
+      "end": 0.8,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#13 terrasse lanternes",
+      "src": "rushes/samourai/IMG_2338.mp4",
+      "start": 2.5,
+      "end": 4.45,
+      "motion": "zoomOut",
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#14 terrasse",
       "src": "rushes/samourai/IMG_2340.mp4",
       "start": 4.0,
-      "end": 5.7,
-      "motion": "zoomOut",
+      "end": 5.5,
+      "motion": "panLeft",
+      "speed": 1.5,
       "transitionIn": {
         "type": "slide",
         "direction": "from-bottom",
-        "duration": 0.2
+        "duration": 0.3
       },
       "text": [
         {
           "content": "Une terrasse unique",
           "style": "caption",
           "position": "bottom",
-          "delay": 0.2
+          "delay": 0.1
         }
       ]
     },
     {
-      "label": "#11 fresque finale",
+      "label": "#15 terrasse ombrelles",
+      "src": "rushes/samourai/IMG_2351.mp4",
+      "start": 0.3,
+      "end": 1.1,
+      "motion": "punchIn",
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#16 fresque finale",
       "src": "rushes/samourai/IMG_2368.mp4",
       "start": 5.0,
-      "end": 7.0,
+      "end": 7.4,
       "motion": "zoomIn",
+      "speed": 1.2,
       "transitionIn": {
         "type": "whip",
         "direction": "from-left",
-        "duration": 0.2
+        "duration": 0.3
       }
     }
   ],
   "outro": {
     "title": "Réserve ta table",
     "subtitle": "Asian Luxury",
-    "duration": 2.5,
+    "duration": 2.0,
     "background": "rushes/samourai/IMG_2357.mp4"
   },
   "music": {
@@ -179,12 +234,7 @@
   "sfx": [
     {
       "src": "sfx/whoosh-synth.mp3",
-      "at": 1.45,
-      "volume": 0.5
-    },
-    {
-      "src": "sfx/whoosh-synth.mp3",
-      "at": 3.45,
+      "at": 2.45,
       "volume": 0.5
     },
     {
@@ -195,26 +245,31 @@
     {
       "src": "sfx/taiko-hit-synth.mp3",
       "at": 6.0,
-      "volume": 0.6
+      "volume": 0.55
     },
     {
       "src": "sfx/whoosh-synth.mp3",
-      "at": 7.95,
+      "at": 6.45,
       "volume": 0.5
     },
     {
       "src": "sfx/whoosh-synth.mp3",
-      "at": 10.45,
-      "volume": 0.4
+      "at": 8.95,
+      "volume": 0.5
     },
     {
       "src": "sfx/whoosh-synth.mp3",
-      "at": 11.95,
+      "at": 9.95,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/whoosh-synth.mp3",
+      "at": 11.45,
       "volume": 0.5
     },
     {
       "src": "sfx/gong-synth.mp3",
-      "at": 13.5,
+      "at": 13.0,
       "volume": 0.5
     }
   ]

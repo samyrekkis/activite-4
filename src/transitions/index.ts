@@ -6,6 +6,7 @@ import { iris } from "@remotion/transitions/iris";
 import { pushCut } from "@remotion/transitions/push-cut";
 import { slide } from "@remotion/transitions/slide";
 import { wipe } from "@remotion/transitions/wipe";
+import { Easing } from "remotion";
 import type { Theme } from "../themes";
 import type { Transition } from "../types";
 import { flash, whip, zoomPunch } from "./custom";
@@ -41,7 +42,13 @@ export const presentationFor = (
   }
 };
 
+// Eased (not linear) so motion transitions accelerate and land smoothly.
+const EASED = new Set<Transition["type"]>(["whip", "slide", "wipe", "zoomPunch", "iris", "clockWipe"]);
+
 export const timingFor = (t: Transition, frames: number) =>
   t.type === "flip" || t.type === "pushCut"
     ? springTiming({ durationInFrames: frames, config: { damping: 200 } })
-    : linearTiming({ durationInFrames: frames });
+    : linearTiming({
+        durationInFrames: frames,
+        easing: EASED.has(t.type) ? Easing.inOut(Easing.cubic) : undefined,
+      });
