@@ -1,5 +1,7 @@
 # Resto Edit Studio : règles pour Claude
 
+> **Nouvelle session ?** Lis d'abord `SESSION.md` : le contexte client, ses fichiers, ce qui est déjà fait et les prochaines étapes.
+
 Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan de montage JSON** (`edits/*.json`), Gemini regarde chaque rendu et le critique. Claude ne voit pas les vidéos directement : il les « voit » grâce aux planches d'images horodatées (`analysis/**.jpg`, à ouvrir avec Read) et aux rapports chiffrés.
 
 ## Le workflow complet
