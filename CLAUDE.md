@@ -1,12 +1,13 @@
 # Resto Edit Studio : règles pour Claude
 
-> **Nouvelle session ?** Lis d'abord `SESSION.md` : le contexte client, ses fichiers, ce qui est déjà fait et les prochaines étapes.
+> **Avant chaque montage, lire `PREFERENCES.md`** : ce que l'utilisateur a appris à Claude. Ces préférences passent avant tout le reste de ce fichier.
 
 Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan de montage JSON** (`edits/*.json`), Gemini regarde chaque rendu et le critique. Claude ne voit pas les vidéos directement : il les « voit » grâce aux planches d'images horodatées (`analysis/**.jpg`, à ouvrir avec Read) et aux rapports chiffrés.
 
 ## Le workflow complet
 
-0. **Import depuis Google Drive** : l'utilisateur range ses vidéos dans un dossier Drive par restaurant, partagé « Tous les utilisateurs disposant du lien ».
+0. **Import depuis le PC (session locale, recommandé)** : `npm run import:local -- "<dossier de l'utilisateur>" --to rushes/<resto>`. Aucune limite de taille. Les vidéos sont converties en MP4 H.264 30 i/s, les photos (HEIC, JPG, PNG) en JPG redressés dans `rushes/<resto>/photos/`. Si l'utilisateur ne précise pas le dossier, regarder Téléchargements, Images et Vidéos, puis lui demander confirmation. La vidéo exemple va dans `--to refs`.
+   **Import depuis Google Drive** (session cloud) : l'utilisateur range ses vidéos dans un dossier Drive par restaurant, partagé « Tous les utilisateurs disposant du lien ».
    - Lister le dossier avec le connecteur Drive (`search_files`, `parentId = '<id du dossier>'`) pour obtenir les identifiants des fichiers.
    - `npm run import -- rushes/<resto> <id>:<nom> …` (la vidéo exemple va dans `refs`). Les MOV d'iPhone sont convertis en MP4 H.264 30 i/s.
    - En cas de doute sur le resto : décor asiatique = Samouraï, tout le reste = Monégasque.
@@ -28,7 +29,12 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
    - Arrêter après 3 cycles, ou plus tôt si le verdict est `pret_a_publier` avec une note ≥ 8.
    - Ne pas suivre aveuglément Gemini : s'il contredit le brief ou la référence, garder le brief et le noter dans le compte rendu.
 6. **Rendu final** en pleine résolution : `npm run render -- edits/<plan>.json`. Fichier final : `out/<plan>-vN.mp4`.
-7. **Compte rendu** à l'utilisateur, en français : notes v1 → v3, ce qui a changé à chaque cycle, chemin du fichier final.
+7. **Livraison** : donner le fichier final à l'utilisateur. En local, copier `out/<plan>-vN.mp4` dans un dossier facile à trouver (par défaut `Vidéos/Resto Edit Studio/`) et donner le chemin. En cloud, l'envoyer avec SendUserFile. Compte rendu en français : notes v1 → v3, ce qui a changé à chaque cycle, ce qui reste à améliorer.
+8. **Apprendre de ses remarques** : quand l'utilisateur commente une vidéo (« trop rapide », « plus de plats », « j'aime cette transition »…) :
+   - corriger le plan, puis livrer une nouvelle version ;
+   - **ajouter la leçon dans `PREFERENCES.md`**, sous le bon resto ou sous « Général », formulée comme une règle réutilisable, avec la date et la vidéo d'origine. Si elle contredit une règle existante, remplacer l'ancienne ;
+   - si une préférence revient souvent, ajuster aussi les valeurs par défaut (`src/themes.ts`, règles de `CLAUDE.md`) ;
+   - committer `PREFERENCES.md` avec le plan corrigé.
 
 ## Vérifier un rendu (sans Gemini)
 

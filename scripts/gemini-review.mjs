@@ -31,6 +31,8 @@ const models = (process.env.GEMINI_MODEL || "gemini-3.1-pro-preview,gemini-3.8-f
   .map((m) => m.trim())
   .filter(Boolean);
 const plan = JSON.parse(readFileSync(planPath, "utf8"));
+// What the user taught us on previous edits: Gemini must judge against it too.
+const preferences = existsSync("PREFERENCES.md") ? readFileSync("PREFERENCES.md", "utf8") : "";
 const name = basename(planPath, ".json");
 const version = plan.version ?? 1;
 
@@ -95,6 +97,7 @@ ${ref ? "La SECONDE vidéo jointe est la RÉFÉRENCE de style à imiter (rythme,
 Les timestamps doivent être exacts. Chaque correction doit être concrète et applicable au plan JSON (start/end, speed, motion, transitionIn, text, sfx, grade, ordre des clips).
 ${previous.length ? `Critiques précédentes (vérifie ce qui a été corrigé) : ${JSON.stringify(previous.map((p) => ({ version: p.version, score: p.score, issues: p.issues })))}` : ""}
 
+${preferences ? `Préférences du client, apprises de ses remarques (elles priment sur tes goûts ; signale toute violation comme "bloquant") :\n${preferences}\n` : ""}
 Chronologie réelle du rendu (début de chaque plan à l'écran, chevauchements de transition déduits). Les "duration" du plan INCLUENT la transition vers le plan suivant : juge le rythme sur ces instants de début, pas sur les durées brutes.
 ${describeTimeline(plan)}
 

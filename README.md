@@ -40,12 +40,14 @@ cp .env.example .env      # puis colle tes clés dedans
 | `public/music/` | La musique (sinon Claude en propose une libre de droits) |
 | `public/brand/` | Logos, photos du lieu |
 
-Ensuite, dis simplement à Claude : *« Monte les rushs du Samouraï comme la vidéo exemple. »*
+Ensuite, dis simplement à Claude : *« Monte les vidéos du Samouraï qui sont dans mon dossier Téléchargements. »*
+Commente chaque vidéo livrée : Claude corrige, et enregistre tes remarques dans `PREFERENCES.md` pour les montages suivants.
 
 ## Commandes
 
 | Commande | Rôle |
 | --- | --- |
+| `npm run import:local -- "<dossier>" --to rushes/samourai` | Import des vidéos et photos depuis le PC, sans limite de taille |
 | `npm run analyze:ref -- public/refs/x.mp4` | ADN de la vidéo exemple : coupes, durée des plans, BPM, planches |
 | `npm run analyze:rushes` | Planches horodatées de chaque rush |
 | `npm run render -- edits/plan.json [--preview]` | Rendu (`--preview` = demi-résolution, plus rapide) |

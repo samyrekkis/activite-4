@@ -10,6 +10,7 @@
     "analyze:rushes": "node scripts/analyze-rushes.mjs",
     "render": "node scripts/render.mjs",
     "import": "node scripts/import-drive.mjs",
+    "import:local": "node scripts/import-local.mjs",
     "review": "node scripts/gemini-review.mjs",
     "cycle": "node scripts/cycle.mjs",
     "sfx": "node scripts/sfx-search.mjs",
