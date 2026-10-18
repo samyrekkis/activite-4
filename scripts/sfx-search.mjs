@@ -50,7 +50,10 @@ for (const q of queries) {
     fields: "id,name,duration,license,username,previews,url,avg_rating,tags",
     token,
   }).toString();
-  const res = await fetch(url);
+  const res = await fetch(url).catch((err) => {
+    console.error(`Impossible de joindre freesound.org (${err.cause?.message ?? err.message}). Le réseau de cette machine bloque-t-il le site ?`);
+    process.exit(1);
+  });
   if (!res.ok) {
     console.error(`Freesound "${q}" : HTTP ${res.status}`);
     continue;
