@@ -14,6 +14,7 @@
     "review": "node scripts/gemini-review.mjs",
     "cycle": "node scripts/cycle.mjs",
     "sfx": "node scripts/sfx-search.mjs",
+    "audio:add": "node scripts/add-audio.mjs",
     "typecheck": "tsc --noEmit",
     "fonts": "node scripts/fetch-fonts.mjs",
     "demo:media": "node scripts/make-demo-media.mjs"

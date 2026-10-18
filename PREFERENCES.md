@@ -8,6 +8,7 @@ Format : une règle par ligne, formulée pour être réutilisable. Entre parenth
 
 - Une vidéo finale doit toujours être livrée : ne jamais s'arrêter à un plan ou à une explication. (2026-10-18, première session)
 - Répondre en français simple et concret, sans jargon technique. (2026-10-18, première session)
+- Sons et musiques : uniquement de vrais enregistrements, qui ne sonnent pas « IA » ni synthétique. Les sons fabriqués du premier Reel (gong, whoosh, rythme taiko de `samourai-photos`) sont à remplacer par de vrais sons. (2026-10-18, retour sur le Reel samourai-photos)
 
 ## Le Samouraï
 

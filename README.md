@@ -53,7 +53,8 @@ Commente chaque vidéo livrée : Claude corrige, et enregistre tes remarques dan
 | `npm run render -- edits/plan.json [--preview]` | Rendu (`--preview` = demi-résolution, plus rapide) |
 | `npm run review -- out/plan-v1.mp4 edits/plan.json [--ref …]` | Critique Gemini seule |
 | `npm run cycle -- edits/plan.json [--ref …]` | Rendu + critique Gemini (un cycle) |
-| `npm run sfx -- "whoosh"` / `npm run sfx -- --pack samourai` | Effets sonores CC0 depuis Freesound |
+| `npm run sfx -- "whoosh"` / `npm run sfx -- --pack samourai` | Vrais effets sonores CC0 depuis Freesound (sons synthétiques écartés) |
+| `npm run audio:add -- <fichiers> [--music] --source … --license …` | Ajouter des sons ou musiques téléchargés à la main |
 | `npm run studio` | Remotion Studio : prévisualiser et ajuster en direct |
 | `npm run demo:media` | Médias de test synthétiques (`public/demo/`) |
 
@@ -66,17 +67,37 @@ Commente chaque vidéo livrée : Claude corrige, et enregistre tes remarques dan
 - **Textes animés** : `title` (lettre par lettre), `kanji`, `caption`, `price` (badge), `tag`
 - **Habillage** : grain de film animé, vignettage, bandes cinéma, cartes intro/outro
 
-## Sites d'effets sonores gratuits
+## Sons et musiques : uniquement de vrais enregistrements
 
-| Site | Licence | Usage commercial (pub de resto) |
+Règle du projet : **aucun son synthétique ni généré par IA**. Seulement de vrais enregistrements (bruitages, ambiances, instruments réels), gratuits et utilisables pour la pub d'un resto.
+
+**Effets sonores (whoosh, gong, grésillement, verres, café…)**
+
+| Site | Pourquoi | Licence pour un usage pro |
 | --- | --- | --- |
-| [Freesound](https://freesound.org) | CC0 filtré par défaut | Oui (CC0) |
-| [Pixabay Sound Effects](https://pixabay.com/sound-effects/) | Licence Pixabay | Oui, sans attribution |
-| [Mixkit](https://mixkit.co/free-sound-effects/) | Licence Mixkit | Oui |
-| [Uppbeat](https://uppbeat.io) | Gratuit avec crédit | Oui, avec crédit |
+| [Freesound](https://freesound.org) | Des milliers de vrais enregistrements, branché automatiquement (`npm run sfx`) | CC0 filtré par défaut : libre, sans crédit |
+| [Sonniss GDC Bundle](https://sonniss.com/gameaudiogdc) | Des dizaines de Go de bruitages studio pro, gratuits | Libre de droits, usage commercial OK |
+| [Pixabay Sound Effects](https://pixabay.com/sound-effects/) | Très bon catalogue de whoosh et de bruitages réels | Licence Pixabay : commercial OK, sans crédit |
+| [Mixkit](https://mixkit.co/free-sound-effects/) | Bruitages courts et propres | Licence Mixkit : commercial OK |
+| [ZapSplat](https://www.zapsplat.com) | Énorme catalogue de foley | Gratuit avec crédit |
 
-Les sons téléchargés à la main vont dans `public/sfx/`. Note leur source dans `public/sfx/LICENSES.md`.
-Pour les Reels, la musique tendance d'Instagram ou TikTok peut aussi être ajoutée directement dans l'app au moment de publier.
+À éviter : BBC Sound Effects (usage commercial interdit) et les sons marqués « synth », « 8-bit » ou « sci-fi ».
+
+**Musique**
+
+| Site | Licence |
+| --- | --- |
+| [Pixabay Music](https://pixabay.com/music/) | Commercial OK, sans crédit |
+| [YouTube Audio Library](https://studio.youtube.com) (onglet Bibliothèque audio) | Libre de droits (vérifier « crédit requis ») |
+| [Uppbeat](https://uppbeat.io) | Gratuit avec crédit |
+| Son tendance Instagram / TikTok | Ajouté dans l'app au moment de publier : c'est ce qui marche le mieux pour la portée |
+
+**Ajouter un son téléchargé à la main :**
+```bash
+npm run audio:add -- "C:/Users/moi/Downloads/whoosh.mp3" --source "Pixabay" --license "Pixabay Content License"
+npm run audio:add -- "C:/Users/moi/Downloads/musique.mp3" --music --source "Pixabay Music" --license "Pixabay Content License"
+```
+Chaque son est nettoyé (silence de début coupé, volume harmonisé), puis enregistré avec sa licence dans `public/sfx|music/LICENSES.md`. Pour une musique, le tempo (BPM) est détecté pour caler les coupes sur le beat.
 
 ## Structure
 

@@ -57,7 +57,7 @@ export const analyzeAudio = async (file) => {
   });
   const buf = Buffer.concat(chunks);
   const samples = new Float32Array(buf.buffer, buf.byteOffset, Math.floor(buf.length / 4));
-  const hop = 256;
+  const hop = 64;
   const energy = [];
   for (let i = 0; i + hop <= samples.length; i += hop) {
     let e = 0;
@@ -66,30 +66,48 @@ export const analyzeAudio = async (file) => {
   }
   if (!energy.length) return { onsets: [], bpm: null, loudness: 0 };
   const flux = energy.map((e, i) => Math.max(0, e - (energy[i - 1] ?? 0)));
+  // Smoothed copy (~23 ms) for onset picking: the fine hop is for tempo precision only.
+  const smooth = flux.map((_, i) => {
+    let sum = 0;
+    for (let k = Math.max(0, i - 2); k <= Math.min(flux.length - 1, i + 1); k++) sum += flux[k];
+    return sum / 4;
+  });
   const hopSec = hop / rate;
   const win = Math.round(0.5 / hopSec);
   const onsets = [];
   let last = -Infinity;
-  for (let i = 1; i < flux.length - 1; i++) {
+  for (let i = 1; i < smooth.length - 1; i++) {
     const lo = Math.max(0, i - win);
-    const hi = Math.min(flux.length, i + win);
+    const hi = Math.min(smooth.length, i + win);
     let mean = 0;
-    for (let k = lo; k < hi; k++) mean += flux[k];
+    for (let k = lo; k < hi; k++) mean += smooth[k];
     mean /= hi - lo;
     const t = i * hopSec;
-    if (flux[i] > mean * 1.8 && flux[i] >= flux[i - 1] && flux[i] >= flux[i + 1] && t - last > 0.12) {
+    if (smooth[i] > mean * 1.8 && smooth[i] >= smooth[i - 1] && smooth[i] >= smooth[i + 1] && t - last > 0.12) {
       onsets.push(Math.round(t * 1000) / 1000);
       last = t;
     }
   }
-  // Tempo via autocorrelation of the onset strength, 70-180 BPM.
-  let best = { bpm: null, score: 0 };
-  for (let bpm = 70; bpm <= 180; bpm++) {
-    const lag = Math.round(60 / bpm / hopSec);
-    let score = 0;
-    for (let i = lag; i < flux.length; i++) score += flux[i] * flux[i - lag];
-    if (score > best.score) best = { bpm, score };
+  // Tempo: autocorrelation of the onset strength over lags for 70-180 BPM,
+  // refined with parabolic interpolation (a single hop is too coarse a step).
+  const score = (lag) => {
+    let sum = 0;
+    for (let i = lag; i < flux.length; i++) sum += flux[i] * flux[i - lag];
+    return sum;
+  };
+  const minLag = Math.floor(60 / 180 / hopSec);
+  const maxLag = Math.ceil(60 / 70 / hopSec);
+  let bestLag = minLag;
+  let bestScore = -Infinity;
+  const scores = new Map();
+  for (let lag = minLag; lag <= maxLag; lag++) {
+    const sc = score(lag);
+    scores.set(lag, sc);
+    if (sc > bestScore) [bestLag, bestScore] = [lag, sc];
   }
+  const [a, b, c] = [scores.get(bestLag - 1) ?? bestScore, bestScore, scores.get(bestLag + 1) ?? bestScore];
+  const offset = a - 2 * b + c !== 0 ? (0.5 * (a - c)) / (a - 2 * b + c) : 0;
+  const best = { bpm: Math.round((60 / ((bestLag + offset) * hopSec)) * 10) / 10 };
   const loudness = energy.reduce((a, b) => a + b, 0) / energy.length;
   return { onsets, bpm: best.bpm, loudness: Math.round(loudness * 1000) / 1000 };
 };

@@ -1,16 +1,20 @@
-// Free sound effects from Freesound (CC0 only by default: no attribution, commercial use OK).
+// Free REAL sound effects from Freesound (CC0 only by default: no attribution,
+// commercial use OK). Synthesized / generated sounds are filtered out by tags,
+// and every file is trimmed and loudness-normalized before use.
 //   npm run sfx -- "whoosh"              search + download the 3 best
 //   npm run sfx -- "gong" --count 5
 //   npm run sfx -- --pack samourai       download the whole restaurant pack
 // Files land in public/sfx/, credits in public/sfx/LICENSES.md, index in public/sfx/library.json.
-import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { loadEnv } from "./lib/media.mjs";
+import { looksSynthetic, masterAudio, register, slug } from "./lib/audio.mjs";
 
 loadEnv();
 const PACKS = {
-  common: ["whoosh transition", "swoosh fast", "pop", "camera shutter", "riser short", "impact hit cinematic"],
-  samourai: ["gong", "katana sword unsheathe", "taiko drum hit", "sizzle wok", "chopsticks", "sake pour", "shamisen pluck", "bamboo wind chime"],
-  monegasque: ["coffee pour", "cutlery clink plate", "champagne cork pop", "glass clink cheers", "sizzle pan butter", "orange juice pour", "restaurant ambience"],
+  // Queries aim at field / foley recordings, not designed or synthesized sounds.
+  common: ["whoosh swing stick", "cloth swish fast", "camera shutter dslr", "finger snap", "paper flip", "hand clap"],
+  samourai: ["gong hit", "katana unsheathe", "taiko drum", "wok sizzle", "chopsticks wood", "sake pour", "shamisen", "wind chime bamboo", "fabric kimono rustle"],
+  monegasque: ["coffee pour cup", "cutlery plate restaurant", "champagne cork pop", "glasses clink cheers", "pan sizzle butter", "juice pour glass", "restaurant ambience brunch"],
 };
 
 const args = process.argv.slice(2);
@@ -33,18 +37,17 @@ if (!queries.length) {
 
 mkdirSync("public/sfx", { recursive: true });
 const libPath = "public/sfx/library.json";
-const library = existsSync(libPath) ? JSON.parse(readFileSync(libPath, "utf8")) : [];
-const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40);
+const known = new Set((existsSync(libPath) ? JSON.parse(readFileSync(libPath, "utf8")) : []).map((e) => e.source));
 
 for (const q of queries) {
-  const filter = `duration:[0.1 TO 8]${anyLicense ? "" : ' license:"Creative Commons 0"'}`;
+  const filter = `duration:[0.1 TO 8] avg_rating:[3.5 TO *]${anyLicense ? "" : ' license:"Creative Commons 0"'}`;
   const url = new URL("https://freesound.org/apiv2/search/text/");
   url.search = new URLSearchParams({
     query: q,
     filter,
-    sort: "rating_desc",
-    page_size: String(count),
-    fields: "id,name,duration,license,username,previews,url,avg_rating",
+    sort: "downloads_desc",
+    page_size: String(count * 4),
+    fields: "id,name,duration,license,username,previews,url,avg_rating,tags",
     token,
   }).toString();
   const res = await fetch(url);
@@ -53,16 +56,20 @@ for (const q of queries) {
     continue;
   }
   const { results } = await res.json();
-  for (const s of results) {
+  const synthetic = results.filter((s) => looksSynthetic(s.tags, s.name)).length;
+  const real = results.filter((s) => !looksSynthetic(s.tags, s.name)).slice(0, count);
+  for (const s of real) {
     const file = `sfx/${slug(q)}-${s.id}.mp3`;
-    if (!existsSync(`public/${file}`)) {
-      const audio = await fetch(s.previews["preview-hq-mp3"]);
-      writeFileSync(`public/${file}`, Buffer.from(await audio.arrayBuffer()));
-      appendFileSync("public/sfx/LICENSES.md", `- ${file} : "${s.name}" par ${s.username}, ${s.license} (${s.url})\n`);
-      library.push({ src: file, query: q, name: s.name, duration: s.duration, license: s.license, source: s.url });
+    if (!known.has(s.url)) {
+      const raw = `public/sfx/.tmp-${s.id}.mp3`;
+      writeFileSync(raw, Buffer.from(await (await fetch(s.previews["preview-hq-mp3"])).arrayBuffer()));
+      const { duration } = await masterAudio(raw, `public/${file}`);
+      rmSync(raw);
+      register("sfx", { src: file, query: q, name: s.name, author: s.username, duration, license: s.license, source: s.url });
+      known.add(s.url);
     }
-    console.log(`${file}  ${s.duration.toFixed(2)} s  "${s.name}"`);
+    console.log(`${file}  "${s.name}" (note ${s.avg_rating.toFixed(1)})`);
   }
+  if (synthetic) console.log(`  ${synthetic} son(s) synthétique(s) écarté(s) pour "${q}"`);
 }
-writeFileSync(libPath, JSON.stringify(library, null, 2));
-console.log(`\nBibliothèque : ${libPath} (${library.length} sons)`);
+console.log(`\nBibliothèque : ${libPath}`);

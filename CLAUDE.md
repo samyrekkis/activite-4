@@ -19,8 +19,9 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
    - Ouvrir les planches `analysis/rushes/*.jpg` et choisir les meilleurs moments (in/out précis grâce aux timestamps).
    - Écarter les plans flous, tremblés, surexposés, ou avec des personnes non désirées.
 3. **Plan v1** : écrire `edits/<resto>-<sujet>.json` avec `"version": 1` (voir `src/types.ts`).
-   - Musique : `public/music/`. Si la musique a un BPM connu, caler les durées de plans sur des multiples du beat (`60 / BPM`).
-   - Effets sonores : `public/sfx/library.json` (sinon `npm run sfx -- "<recherche>"` ou `--pack <resto>`). Un whoosh sur chaque transition whip/slide, un impact sur les punchIn, sans en mettre partout.
+   - **Sons : uniquement de vrais enregistrements, jamais de son synthétisé ou généré par IA** (ne plus fabriquer de sons avec ffmpeg). Sites et licences : section « Sons et musiques » du README.
+   - Musique : `public/music/library.json` (BPM détecté). Caler les durées de plans sur des multiples du beat (`60 / BPM`). Si aucune musique : demander à l'utilisateur, ou lui proposer des titres Pixabay Music / YouTube Audio Library à télécharger, puis `npm run audio:add -- <fichier> --music --source … --license …`.
+   - Effets sonores : `public/sfx/library.json` (sinon `npm run sfx -- "<recherche>"` ou `--pack <resto>` avec une clé Freesound, ou des sons téléchargés à la main via `npm run audio:add`). Un whoosh sur chaque transition whip/slide, un impact sur les punchIn, sans en mettre partout. Les sons réels de la scène (grésillement du wok, versée du café, verres) valent mieux que des effets « de montage ».
    - `node scripts/timeline-info.mjs edits/<plan>.json` donne le début réel de chaque plan (transitions déduites) : s'en servir pour caler coupes, textes et SFX sur le beat. Une coupe sans transition ne chevauche pas : le plan précédent doit alors durer un multiple exact du beat.
 4. **Contrôle interne** avant Gemini : `npm run render -- edits/<plan>.json --preview`, puis une planche du rendu (voir « Vérifier un rendu ») et la regarder. Corriger les défauts évidents tout de suite.
 5. **Boucle qualité, 3 cycles** : `npm run cycle -- edits/<plan>.json [--ref public/refs/<exemple>.mp4]`
