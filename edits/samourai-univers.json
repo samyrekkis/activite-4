@@ -1,0 +1,363 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "handle": "@samourai_restaurant",
+  "brief": "Bande-annonce cinéma de ~19 s pour Le Samouraï : voix off grave, taiko, la soirée commence devant la façade et plonge dans la déco (néons, lanternes, kimonos, table basse, nouilles). Ton mystérieux, rythme posé puis qui accélère.",
+  "clips": [
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#1 façade",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 0.3,
+      "end": 2.8,
+      "motion": "zoomIn",
+      "text": [
+        {
+          "content": "Pousse la porte…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.4,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#2 entrée",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 2.75,
+      "end": 5.05,
+      "transitionIn": {
+        "type": "whip",
+        "duration": 0.3,
+        "direction": "from-right"
+      },
+      "motion": "panUp",
+      "text": [
+        {
+          "content": "…et change de monde.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.15,
+          "duration": 2.05
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#3 escalier néons",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 5.15,
+      "end": 6.623,
+      "speed": 1.3,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      },
+      "text": [
+        {
+          "content": "侍",
+          "style": "kanji",
+          "position": "top"
+        },
+        {
+          "content": "Des néons.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.083,
+          "duration": 1.05
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#4 lanternes cage",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 3.5,
+      "end": 5.087,
+      "speed": 1.4,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-left"
+      },
+      "motion": "zoomOut",
+      "text": [
+        {
+          "content": "Des néons.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.033
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#5 kimonos",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 6.8,
+      "end": 8.16,
+      "speed": 1.2,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-right"
+      },
+      "motion": "punchIn",
+      "text": [
+        {
+          "content": "Des lanternes.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.053,
+          "duration": 1.08
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#6 colonne rouge",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 8.22,
+      "end": 9.807,
+      "speed": 1.4,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      },
+      "text": [
+        {
+          "content": "Des lanternes.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.083
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#7 fresque samouraï",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 6.7,
+      "end": 8.08,
+      "speed": 0.6,
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.3
+      },
+      "motion": "zoomIn",
+      "text": [
+        {
+          "content": "LE SAMOURAÏ",
+          "style": "title",
+          "position": "top",
+          "delay": 0.2
+        },
+        {
+          "content": "Des lanternes.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 0.25
+        },
+        {
+          "content": "Des kimonos.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.27,
+          "duration": 1.08
+        },
+        {
+          "content": "Ici, chaque dîner…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 1.4,
+          "duration": 0.9
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#8 table basse",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 12.2,
+      "end": 13.507,
+      "speed": 0.8,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-left"
+      },
+      "motion": "panRight",
+      "text": [
+        {
+          "content": "Ici, chaque dîner…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.533
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#9 nouilles",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 10,
+      "end": 10.98,
+      "speed": 0.6,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      },
+      "motion": "zoomIn",
+      "text": [
+        {
+          "content": "…devient une scène de film.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.123,
+          "duration": 1.51
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#10 salle rouge",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 13.6,
+      "end": 15.3,
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      },
+      "motion": "zoomOut",
+      "text": [
+        {
+          "content": "…devient une scène de film.",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.15
+        }
+      ]
+    }
+  ],
+  "outro": {
+    "title": "Réserve ta table",
+    "subtitle": "Shooting kimono inclus",
+    "duration": 4.3,
+    "background": "rushes/clean/soiree-sushi.mp4",
+    "logo": "brand/samourai-logo-officiel.png"
+  },
+  "music": {
+    "src": "music/taiko-625518.mp3",
+    "volume": 0.42,
+    "fadeOut": 1.2
+  },
+  "sfx": [
+    {
+      "src": "voice/v1a.mp3",
+      "at": 0.4,
+      "volume": 1
+    },
+    {
+      "src": "sfx/whoosh-transition-475893.mp3",
+      "at": 2.1,
+      "volume": 0.35
+    },
+    {
+      "src": "voice/v1b.mp3",
+      "at": 2.35,
+      "volume": 1
+    },
+    {
+      "src": "voice/v1c-f.mp3",
+      "at": 4.45,
+      "volume": 1
+    },
+    {
+      "src": "sfx/katana-sword-unsheathe-320521.mp3",
+      "at": 7.9,
+      "volume": 0.35,
+      "duration": 1.2
+    },
+    {
+      "src": "sfx/impact-hit-cinematic-755054.mp3",
+      "at": 8.2,
+      "volume": 0.35
+    },
+    {
+      "src": "voice/v1d.mp3",
+      "at": 9.6,
+      "volume": 1
+    },
+    {
+      "src": "sfx/impact-hit-cinematic-749465.mp3",
+      "at": 13.3,
+      "volume": 0.25
+    },
+    {
+      "src": "voice/v1e-f.mp3",
+      "at": 14.65,
+      "volume": 1
+    },
+    {
+      "src": "sfx/gong-749465.mp3",
+      "at": 14.5,
+      "volume": 0.3,
+      "duration": 3.5
+    }
+  ],
+  "overlays": {
+    "grain": 0.05,
+    "vignette": 0.38
+  }
+}

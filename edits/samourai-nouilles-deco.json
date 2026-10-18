@@ -1,0 +1,321 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "handle": "@samourai_restaurant",
+  "brief": "Reel trend de ~13 s : voix off « Je suis venue pour les nouilles… » sur des ralentis de plats, puis chute en texte « …je suis restée pour la déco » et rafale de plans déco calés sur le beat (140 BPM). Gourmand puis spectaculaire.",
+  "clips": [
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#1 nouilles",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 10,
+      "end": 10.96,
+      "speed": 0.6,
+      "motion": "zoomIn",
+      "text": [
+        {
+          "content": "Je suis venue pour les nouilles…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.25,
+          "duration": 1.35
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#2 sauce soja",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 12.2,
+      "end": 12.917,
+      "speed": 0.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      },
+      "motion": "zoomIn",
+      "text": [
+        {
+          "content": "Je suis venue pour les nouilles…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.433
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#3 bœuf et makis",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 11.05,
+      "end": 12.125,
+      "speed": 0.75,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-left"
+      },
+      "motion": "zoomOut",
+      "text": [
+        {
+          "content": "Je suis venue pour les nouilles…",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0,
+          "duration": 1.083
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#4 fresque samouraï",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 6.7,
+      "end": 8.009,
+      "speed": 0.65,
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.3
+      },
+      "motion": "punchIn",
+      "text": [
+        {
+          "content": "…restée pour la déco",
+          "style": "title",
+          "position": "top",
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#5 escalier néons",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 5.15,
+      "end": 6.537,
+      "speed": 1.4,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      }
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#6 lanternes cage",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 3.5,
+      "end": 4.986,
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-left"
+      },
+      "motion": "punchIn"
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#7 mannequin kimono",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 0,
+      "end": 1.189,
+      "speed": 1.2,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      }
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#8 fresque violette",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 1.6,
+      "end": 3.086,
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-right"
+      }
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#9 kimonos",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 6.8,
+      "end": 8.088,
+      "speed": 1.3,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      },
+      "motion": "punchIn"
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#10 colonne rouge",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 8.25,
+      "end": 9.736,
+      "speed": 1.5,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-left"
+      }
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#11 néons cage",
+      "src": "rushes/clean/deco-neons.mp4",
+      "start": 11.37,
+      "end": 12.162,
+      "speed": 0.8,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-top"
+      }
+    },
+    {
+      "grade": {
+        "brightness": 1.03,
+        "contrast": 1.06,
+        "saturate": 1.02
+      },
+      "label": "#12 salle rouge",
+      "src": "rushes/clean/soiree-sushi.mp4",
+      "start": 13.6,
+      "end": 14.987,
+      "speed": 1.4,
+      "transitionIn": {
+        "type": "blurCut",
+        "duration": 0.1333,
+        "direction": "from-right"
+      },
+      "motion": "punchIn"
+    }
+  ],
+  "outro": {
+    "title": "Viens goûter",
+    "subtitle": "et reste pour la déco",
+    "duration": 2.6,
+    "background": "rushes/clean/deco-neons.mp4",
+    "logo": "brand/samourai-logo-officiel.png"
+  },
+  "music": {
+    "src": "music/drum-loop-140-530173.mp3",
+    "volume": 0.75,
+    "fadeOut": 0.8
+  },
+  "sfx": [
+    {
+      "src": "sfx/sizzle-wok-693964.mp3",
+      "at": 0,
+      "volume": 0.3,
+      "duration": 3.5
+    },
+    {
+      "src": "voice/v5a.mp3",
+      "at": 0.25,
+      "volume": 1
+    },
+    {
+      "src": "sfx/chopsticks-198385.mp3",
+      "at": 1.5,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/katana-sword-unsheathe-708027.mp3",
+      "at": 3.6,
+      "volume": 0.4,
+      "duration": 1.2
+    },
+    {
+      "src": "sfx/impact-hit-cinematic-755054.mp3",
+      "at": 3.9,
+      "volume": 0.4
+    },
+    {
+      "src": "sfx/whoosh-494789.mp3",
+      "at": 5.7,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/whoosh-494789.mp3",
+      "at": 7.45,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/whoosh-494789.mp3",
+      "at": 9.2,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/whoosh-494789.mp3",
+      "at": 10.95,
+      "volume": 0.3
+    },
+    {
+      "src": "sfx/gong-755054.mp3",
+      "at": 12.33,
+      "volume": 0.4,
+      "duration": 2.6
+    }
+  ],
+  "overlays": {
+    "grain": 0.05,
+    "vignette": 0.38
+  }
+}

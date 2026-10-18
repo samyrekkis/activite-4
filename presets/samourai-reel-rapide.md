@@ -27,3 +27,5 @@ Fresque du samouraï (IMG_2357 0,2 s), escalier fresque (IMG_2366 4,2 s), geisha
 ## Leçons
 
 - v1 trop sage pour l'utilisateur : rythme et fluidité avant tout (plans ≤ 1,5 s, vitesse accélérée, transitions avec accélération).
+- Voix off : toujours la sous-titrer (`caption` en bas, calée sur les pauses de la voix). Voix générées par `scripts/voiceover.mjs` (Gemini TTS, ~10 voix par jour en gratuit).
+- Rushs Instagram de l'utilisateur : retirer le @ de téléchargement (il change de place : haut droite puis milieu gauche) et l'écran de fin Instagram (~4 s) avant de monter ; versions propres dans `public/rushes/clean/`.
