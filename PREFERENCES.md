@@ -17,3 +17,9 @@ Format : une règle par ligne, formulée pour être réutilisable. Entre parenth
 ## Le Monégasque
 
 - Tout ce qui n'a pas de décor asiatique = Monégasque. (2026-10-16, tri des fichiers)
+
+## Avanti Travel (agence de visas EAU)
+
+- Musique : « Habibi Come to Dubai » ou un son tendance. Les titres connus sont protégés : livrer la vidéo sans musique et l'ajouter dans Instagram au moment de publier. (2026-10-19, avanti-visa-dubai v1)
+- Les photos de visas des clients se floutent toujours (noms, n° de passeport, dates de naissance) avant de les monter. (2026-10-19, avanti-visa-dubai v2)
+- Montrer de vrais lieux de Dubaï (Marina, fontaine, désert, plages) plutôt que des photos de Sharjah. (2026-10-19, avanti-visa-dubai v2)
