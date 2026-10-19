@@ -22,4 +22,6 @@ Format : une règle par ligne, formulée pour être réutilisable. Entre parenth
 
 - Musique : « Habibi Come to Dubai » ou un son tendance. Les titres connus sont protégés : livrer la vidéo sans musique et l'ajouter dans Instagram au moment de publier. (2026-10-19, avanti-visa-dubai v1)
 - Les photos de visas des clients se floutent toujours (noms, n° de passeport, dates de naissance) avant de les monter. (2026-10-19, avanti-visa-dubai v2)
-- Montrer de vrais lieux de Dubaï (Marina, fontaine, désert, plages) plutôt que des photos de Sharjah. (2026-10-19, avanti-visa-dubai v2)
+- Mettre Dubaï en avant (le plus connu), mais les autres émirats comme Sharjah sont acceptés : c'est un visa pour les EAU. (2026-10-19, avanti-visa-dubai v3)
+- Montrer les visas obtenus comme preuve : en-tête officiel, type de visa et dates lisibles, mais photo, code-barres, n° UID, nom, naissance, passeport et téléphone floutés. (2026-10-19, avanti-visa-dubai v3)
+- Contact : WhatsApp +971 50 422 8130, site avanti-travel.vercel.app. (2026-10-19, avanti-visa-dubai v3)
