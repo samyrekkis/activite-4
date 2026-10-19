@@ -60,7 +60,7 @@ claude
 
 ## 4. Travailler
 
-Range tes vidéos où tu veux sur le PC, par exemple `C:\Users\<toi>\Videos\Samourai`, puis dis à Claude :
+Range tes médias dans la bibliothèque `C:\Users\<toi>\Videos\Studio Resto\` : `Exemples\` (vidéos à suivre, avec un `.txt` du même nom pour décrire l'idée), puis `Samourai\` et `Monegasque\`, chacun avec `Photos\` et `Videos\`. Dis ensuite à Claude pour quel restaurant est l'edit et quel exemple suivre. Ou range-les ailleurs et dis à Claude :
 
 > Importe les vidéos de `C:\Users\<toi>\Videos\Samourai` dans le Samouraï et fais un reel avec le preset food.
 

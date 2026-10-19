@@ -39,7 +39,17 @@ export const CardView: React.FC<{ card: Card; theme: Theme; variant: "intro" | "
         </AbsoluteFill>
       ) : null}
       <div style={{ textAlign: "center", padding: `0 ${70 * unit}px` }}>
-        {theme.ornament ? (
+        {card.logo ? (
+          <Img
+            src={staticFile(card.logo)}
+            style={{
+              width: 560 * unit,
+              opacity: title,
+              transform: `scale(${interpolate(title, [0, 1], [1.4, 1])})`,
+              marginBottom: 30 * unit,
+            }}
+          />
+        ) : theme.ornament ? (
           <div
             style={{
               fontFamily: theme.fonts.title,

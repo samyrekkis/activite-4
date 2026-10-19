@@ -1,5 +1,6 @@
 node_modules/
 .env
+.claude/settings.local.json
 out/*
 analysis/*
 reviews/*
@@ -13,3 +14,4 @@ public/sfx/*
 public/demo/
 public/.raw/
 public/photos/
+public/voice/
