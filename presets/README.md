@@ -8,6 +8,7 @@ Un preset est la recette d'un style de vidéo : rythme, transitions, mouvements,
 | [`samourai-reel-rapide.md`](samourai-reel-rapide.md) | Pub Samouraï nerveuse : déco, kimono, ambiance | 15 s |
 | [`story-blurcut.md`](story-blurcut.md) | Story/Reel « un plan par temps » avec flous de bougé, façon I Love Burger | 8 à 12 s |
 | [`monegasque-elegant.md`](monegasque-elegant.md) | Le Monégasque : déco, cocktail, brunch, ambiance chaleureuse | 15 s |
+| [`tournage-5-videos.md`](tournage-5-videos.md) | Plan de tournage des 5 formats (POV, passe-plat, menu, avant/après, coulisses) | 12 à 30 s |
 
 ## Comment s'en servir
 
