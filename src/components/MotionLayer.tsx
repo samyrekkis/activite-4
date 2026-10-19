@@ -47,6 +47,15 @@ export const MotionLayer: React.FC<{
       transform = `scale(${hit})`;
       break;
     }
+    case "drone": {
+      // Slow aerial feel on a still: steady push-in while rising, with a slight bank.
+      const t = interpolate(frame, [0, Math.max(1, durationInFrames - 1)], [0, 1], { extrapolateRight: "clamp" });
+      const scale = 1 + amount * 0.6 + amount * 1.6 * t;
+      const rise = interpolate(t, [0, 1], [pan * 0.6, -pan * 0.6]);
+      const bank = interpolate(t, [0, 1], [-1.2, 1.2]) * intensity;
+      transform = `scale(${scale}) translateY(${rise}%) rotate(${bank}deg)`;
+      break;
+    }
     case "shake": {
       const decay = interpolate(frame, [0, 10], [1, 0.15], { extrapolateRight: "clamp" });
       const x = (random(`${seed}-x-${frame}`) - 0.5) * 30 * intensity * decay;

@@ -2,15 +2,14 @@
   "restaurant": "avanti",
   "format": "vertical",
   "fps": 30,
-  "version": 4,
+  "version": 5,
   "brief": "Reel Instagram de ~38 s pour Avanti Travel (agence de visas pour les Émirats). Script en 6 scènes : accroche « Dreaming of Dubai? », la ville, les expériences, le problème (le visa), la solution (Avanti), appel à l'action WhatsApp. Plans de 1 à 2 s calés sur une grille de 0,5 s (120 BPM) pour qu'un son tendance ajouté dans Instagram tombe juste. Numéro WhatsApp à l'écran au moins 4 s. Photos personnelles de Dubaï, vidéos de la fontaine et de la plage Barasti, photo des visas obtenus (floutés). Musique « Habibi Come to Dubai » ou un son tendance, ajouté dans Instagram : la vidéo est livrée sans musique.",
   "clips": [
     {
-      "label": "#1 accroche fontaine et abra",
-      "src": "rushes/avanti/photos/fontaine-abra.jpg",
+      "label": "#1 accroche Marina vue drone",
+      "src": "rushes/avanti/photos/marina-yacht.jpg",
       "duration": 2,
-      "motion": "zoomIn",
-      "motionIntensity": 2,
+      "motion": "drone",
       "text": [
         {
           "content": "Dreaming of Dubai? ✈️",
@@ -21,10 +20,11 @@
       ]
     },
     {
-      "label": "#2 Marina depuis le yacht",
-      "src": "rushes/avanti/photos/marina-yacht.jpg",
-      "duration": 1,
-      "motion": "panLeft",
+      "label": "#2 fontaine et abra",
+      "src": "rushes/avanti/photos/fontaine-abra.jpg",
+      "duration": 1.5,
+      "motion": "drone",
+      "motionIntensity": 1,
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
@@ -36,7 +36,7 @@
       "src": "rushes/avanti/photos/burj-arcenciel.jpg",
       "fit": "blur",
       "duration": 1.5,
-      "motion": "zoomIn",
+      "motion": "drone",
       "transitionIn": {
         "type": "cut"
       },
@@ -66,7 +66,7 @@
       "label": "#5 Dubai Marina de nuit",
       "src": "rushes/avanti/photos/marina-nuit.jpg",
       "duration": 1.5,
-      "motion": "zoomIn",
+      "motion": "drone",
       "transitionIn": {
         "type": "cut"
       },
@@ -80,27 +80,19 @@
       ]
     },
     {
-      "label": "#6 trafic de nuit",
-      "src": "rushes/avanti/photos/trafic-nuit.jpg",
+      "label": "#6 mosquée de Jumeirah",
+      "src": "rushes/avanti/photos/mosquee-jumeirah.jpg",
       "duration": 1,
-      "motion": "zoomIn",
+      "motion": "panUp",
       "transitionIn": {
         "type": "cut"
-      },
-      "text": [
-        {
-          "content": "A city that never stops",
-          "style": "caption",
-          "position": "bottom",
-          "delay": 0.05
-        }
-      ]
+      }
     },
     {
       "label": "#7 dunes du désert",
       "src": "rushes/avanti/photos/dunes.jpg",
       "duration": 1.5,
-      "motion": "zoomIn",
+      "motion": "drone",
       "transitionIn": {
         "type": "whip",
         "direction": "from-left",
@@ -114,15 +106,6 @@
           "delay": 0.1
         }
       ]
-    },
-    {
-      "label": "#8 flamants roses",
-      "src": "rushes/avanti/photos/flamants.jpg",
-      "duration": 1,
-      "motion": "panRight",
-      "transitionIn": {
-        "type": "cut"
-      }
     },
     {
       "label": "#9 Creek ponton",
@@ -161,7 +144,7 @@
     {
       "label": "#11 plage coucher de soleil",
       "src": "rushes/avanti/photos/plage-coucher.jpg",
-      "duration": 1,
+      "duration": 1.5,
       "motion": "zoomOut",
       "transitionIn": {
         "type": "cut"
@@ -194,14 +177,11 @@
       ]
     },
     {
-      "label": "#13 le problème : tableau des départs",
-      "src": "rushes/avanti/photos/aeroport-departs.jpg",
+      "label": "#12 le problème : avion Emirates",
+      "src": "rushes/avanti/photos/avion-emirates.jpg",
       "duration": 2,
       "motion": "zoomIn",
       "motionIntensity": 2,
-      "grade": {
-        "saturate": 0.9
-      },
       "transitionIn": {
         "type": "fade",
         "duration": 0.3
@@ -216,7 +196,7 @@
       ]
     },
     {
-      "label": "#14 passerelle d'embarquement",
+      "label": "#13 passerelle d'embarquement",
       "src": "rushes/avanti/photos/passerelle.jpg",
       "duration": 1.5,
       "motion": "zoomIn",
@@ -236,7 +216,7 @@
       ]
     },
     {
-      "label": "#15 logo Avanti",
+      "label": "#14 logo Avanti",
       "src": "rushes/avanti/photos/outro-logo.jpg",
       "duration": 2,
       "motion": "punchIn",
@@ -254,7 +234,7 @@
       ]
     },
     {
-      "label": "#16 visa 1 (données floutées)",
+      "label": "#15 visa 1 (données floutées)",
       "src": "rushes/avanti/photos/visa-1.jpg",
       "duration": 1.5,
       "motion": "zoomIn",
@@ -279,7 +259,7 @@
       ]
     },
     {
-      "label": "#17 visa 2 (données floutées)",
+      "label": "#16 visa 2 (données floutées)",
       "src": "rushes/avanti/photos/visa-2.jpg",
       "duration": 1.5,
       "motion": "zoomIn",
@@ -304,7 +284,7 @@
       ]
     },
     {
-      "label": "#18 visas et site (floutés)",
+      "label": "#17 visas et site (floutés)",
       "src": "rushes/avanti/photos/visas-site.jpg",
       "duration": 1.5,
       "motion": "panDown",
@@ -323,10 +303,10 @@
       ]
     },
     {
-      "label": "#19 Fast",
-      "src": "rushes/avanti/photos/avion-emirates.jpg",
+      "label": "#18 Fast",
+      "src": "rushes/avanti/photos/aeroport-dxb.jpg",
       "duration": 2,
-      "motion": "panRight",
+      "motion": "zoomIn",
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
@@ -348,10 +328,10 @@
       ]
     },
     {
-      "label": "#20 Easy",
-      "src": "rushes/avanti/photos/aeroport-dxb.jpg",
+      "label": "#19 Easy",
+      "src": "rushes/avanti/photos/plage-coucher.jpg",
       "duration": 1,
-      "motion": "zoomIn",
+      "motion": "panLeft",
       "transitionIn": {
         "type": "whip",
         "direction": "from-left",
@@ -367,11 +347,11 @@
       ]
     },
     {
-      "label": "#21 Trusted",
-      "src": "rushes/avanti/photos/marina-yacht.jpg",
+      "label": "#20 Trusted",
+      "src": "rushes/avanti/photos/fontaine-abra.jpg",
       "fit": "cover",
       "duration": 2.5,
-      "motion": "panLeft",
+      "motion": "drone",
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
@@ -394,12 +374,49 @@
       ]
     },
     {
-      "label": "#22 appel à l'action WhatsApp",
-      "src": "rushes/avanti/photos/outro-logo.jpg",
-      "duration": 8,
+      "label": "#21 infos visa touristique",
+      "src": "rushes/avanti/photos/fond-infos.jpg",
+      "duration": 4.5,
       "motion": "zoomIn",
+      "grade": {
+        "brightness": 1,
+        "contrast": 1,
+        "saturate": 1,
+        "tint": "rgba(0,0,0,0)"
+      },
       "transitionIn": {
         "type": "fade",
+        "duration": 0.3
+      },
+      "text": [
+        {
+          "content": "UAE Tourist Visa Assistance",
+          "style": "title",
+          "position": "top",
+          "delay": 0.1
+        },
+        {
+          "content": "📄 Required documents:\nPassport copy\n+ personal photo",
+          "style": "caption",
+          "position": "center",
+          "delay": 0.5
+        },
+        {
+          "content": "Contact Avanti Travel for details",
+          "style": "tag",
+          "position": "bottom",
+          "delay": 1.0
+        }
+      ]
+    },
+    {
+      "label": "#22 appel à l'action WhatsApp",
+      "src": "rushes/avanti/photos/outro-logo.jpg",
+      "duration": 6,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-bottom",
         "duration": 0.3
       },
       "grade": {

@@ -26,3 +26,5 @@ Format : une règle par ligne, formulée pour être réutilisable. Entre parenth
 - Montrer les visas obtenus comme preuve : en-tête officiel, type de visa et dates lisibles, mais photo, code-barres, n° UID, nom, naissance, passeport et téléphone floutés. (2026-10-19, avanti-visa-dubai v3)
 - Contact : WhatsApp +971 50 422 8130, site avanti-travel.vercel.app. (2026-10-19, avanti-visa-dubai v3)
 - Délai de traitement des visas : 30 à 48 heures (à afficher avec « Fast »). (2026-10-19, avanti-visa-dubai v4)
+- Fin de vidéo : carte « UAE Tourist Visa Assistance » avec les documents requis (copie du passeport + photo d'identité) et « Contact Avanti Travel for details », avant la carte WhatsApp. (2026-10-19, avanti-visa-dubai v5)
+- Scène « le problème » : avion Emirates (EAU) plutôt qu'un aéroport étranger. Vues de Dubaï luxueuses en mouvement « drone » (`motion: "drone"`). (2026-10-19, avanti-visa-dubai v5)

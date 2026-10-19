@@ -37,7 +37,8 @@ export type Motion =
   | "panUp"
   | "panDown"
   | "punchIn"
-  | "shake";
+  | "shake"
+  | "drone";
 
 export type TextStyle = "title" | "caption" | "price" | "tag" | "kanji";
 
