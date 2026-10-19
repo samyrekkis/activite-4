@@ -1,0 +1,203 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « coup de poing », puis Rafale gourmande : une accroche, puis les plats en coupes sèches sur le beat. Look « teal & orange », finition « cartes de fin », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "coupDePoing",
+    "recette": "rafale",
+    "look": "teal & orange",
+    "finition": "cartes de fin",
+    "bpm": 120,
+    "seed": 874263967
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK mains qui se servent au brunch",
+      "src": "library/monegasque/clips/MON-055.mp4",
+      "start": 0.61,
+      "end": 1.41,
+      "motion": "punchIn",
+      "motionIntensity": 1.4,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#2 HOOK main qui soulève le couvercle du tajine",
+      "src": "library/monegasque/clips/MON-007.mp4",
+      "start": 0.67,
+      "end": 1.67,
+      "motion": "punchIn",
+      "motionIntensity": 1,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "zoomPunch",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#3 pancakes aux pommes et chocolat",
+      "src": "library/monegasque/clips/MON-052.mp4",
+      "start": 0.25,
+      "end": 1.75,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#4 salade burrata sur assiette festonnée",
+      "src": "library/monegasque/clips/MON-127.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Monégasque · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#5 mains qui trinquent au-dessus des milkshakes et burgers",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.91,
+      "end": 1.61,
+      "speed": 0.7,
+      "motion": "zoomIn",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#6 salade, frites de patate douce et sauce",
+      "src": "library/monegasque/clips/MON-149.mp4",
+      "start": 0.15,
+      "end": 1.15,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#7 bol granola, fraises et banane",
+      "src": "library/monegasque/clips/MON-172.mp4",
+      "start": 0.34,
+      "end": 1.59,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#8 couteau qui tranche la viande grillée",
+      "src": "library/monegasque/clips/MON-163.mp4",
+      "start": 0.5,
+      "end": 1.2,
+      "speed": 0.7,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "glitch",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#9 paella aux crevettes et citrons",
+      "src": "library/monegasque/clips/MON-132.mp4",
+      "start": 0.06,
+      "end": 1.06,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#10 serveur qui apporte l'assiette, bar en fond",
+      "src": "library/monegasque/clips/MON-143.mp4",
+      "start": 0.21,
+      "end": 0.91,
+      "speed": 0.7,
+      "motion": "panRight",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#11 plateau de makis sauce blanche",
+      "src": "library/monegasque/clips/MON-105.mp4",
+      "start": 0.45,
+      "end": 1.45,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#12 sauce chocolat versée sur les pancakes banane",
+      "src": "library/monegasque/clips/MON-029.mp4",
+      "start": 0.03,
+      "end": 1.21,
+      "speed": 0.98,
+      "motion": "panDown",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#13 terrasse couverte et lustres en osier",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0.03,
+      "end": 1.99,
+      "speed": 0.98,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table"
+        }
+      ]
+    }
+  ]
+}

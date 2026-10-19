@@ -57,6 +57,19 @@ Commente chaque vidéo livrée : Claude corrige, et enregistre tes remarques dan
 | `npm run audio:add -- <fichiers> [--music] --source … --license …` | Ajouter des sons ou musiques téléchargés à la main |
 | `npm run studio` | Remotion Studio : prévisualiser et ajuster en direct |
 | `npm run demo:media` | Médias de test synthétiques (`public/demo/`) |
+| `npm run edits:generate -- --resto monegasque --count 14` | Template : fabrique des montages variés (hook + recette + look ciné + cartes sociales) depuis la bibliothèque de clips |
+| `npm run edits:render -- --resto monegasque` | Rend tous les montages générés dans `Studio Resto/Montages/<Resto>` |
+| `npm run photos:enhance -- "<dossier>"` | Retouche des photos par Gemini Image (facturation Google requise) |
+
+## Bibliothèque de clips (template)
+
+Les vidéos Instagram sont découpées en clips bruts (un par plan), sans transitions, sans texte, sans logo, sans son :
+
+1. `python scripts/library/extract_clips.py <vidéo> <dossier> [0.6]` : coupes, carte de fin retirée, filigrane effacé trait par trait, titres retirés par recadrage (le chiffre = hauteur minimale gardée).
+2. Les clips sont nommés (catégorie, sujet, vue, jour/nuit, qualité 0-3), puis `python scripts/library/build_library.py <resto> <dossier> <noms.json> "<Studio Resto>"` les range dans `Clips bruts/` et `Photos extraites/` avec des noms lisibles, et écrit `public/library/<resto>/catalogue.json` (couleur et mouvement mesurés).
+3. `python scripts/library/retouch_photos.py "<Photos extraites>" "<Photos retouchées>"` : retouche locale gratuite, formats post 4:5 et story 9:16.
+
+Le générateur combine 6 hooks, 15 recettes, 18 transitions (horizontales, verticales, rotation, stores, glitch…), 7 courbes d'étalonnage ciné (`src/grading.tsx`) et des cartes sociales (`src/components/SocialLayer.tsx`). Un clip n'est jamais réutilisé dans un même montage, et les moins utilisés passent en premier.
 
 ## Effets visuels disponibles
 

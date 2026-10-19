@@ -13,3 +13,6 @@ public/sfx/*
 public/demo/
 public/.raw/
 public/photos/
+
+# Bibliothèque de clips nettoyés (médias, jamais dans git)
+public/library/*/clips/

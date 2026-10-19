@@ -1,0 +1,259 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « avant-goût en 3 flashs », puis Crescendo : des plans de plus en plus courts, puis un plan large qui respire. Look « moody », finition « bandes cinéma », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "avantGout",
+    "recette": "crescendo",
+    "look": "moody",
+    "finition": "bandes cinéma",
+    "bpm": 120,
+    "seed": 606927082
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK sauce chocolat versée sur la crêpe",
+      "src": "library/monegasque/clips/MON-142.mp4",
+      "start": 0.22,
+      "end": 0.47,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 HOOK main qui photographie la burrata",
+      "src": "library/monegasque/clips/MON-111.mp4",
+      "start": 0.24,
+      "end": 0.49,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#3 HOOK mains qui coupent la tartine avocat",
+      "src": "library/monegasque/clips/MON-119.mp4",
+      "start": 0.24,
+      "end": 0.69,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 HOOK main qui sert les tartines",
+      "src": "library/monegasque/clips/MON-093.mp4",
+      "start": 0.03,
+      "end": 0.98,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#5 table avec houmous et bouteille d'eau",
+      "src": "library/monegasque/clips/MON-164.mp4",
+      "start": 0.08,
+      "end": 2.08,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 paella aux fruits de mer et citron",
+      "src": "library/monegasque/clips/MON-009.mp4",
+      "start": 0.05,
+      "end": 2.05,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#7 brunch au bord de la piscine avec jus et smoothies",
+      "src": "library/monegasque/clips/MON-144.mp4",
+      "start": 0.06,
+      "end": 1.06,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.14,
+      "end": 1.14,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#9 bouquet de roses offert à table",
+      "src": "library/monegasque/clips/MON-133.mp4",
+      "start": 0.12,
+      "end": 1.12,
+      "motion": "panRight",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 grande table du soir avec plats variés",
+      "src": "library/monegasque/clips/MON-108.mp4",
+      "start": 0.03,
+      "end": 0.51,
+      "speed": 0.96,
+      "motion": "panUp",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#11 tartine avocat et œuf poché en gros plan",
+      "src": "library/monegasque/clips/MON-115.mp4",
+      "start": 0.03,
+      "end": 0.53,
+      "motion": "panDown",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#12 table ronde du brunch sur la terrasse arborée",
+      "src": "library/monegasque/clips/MON-141.mp4",
+      "start": 0.34,
+      "end": 0.84,
+      "motion": "zoomIn",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#13 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0.19,
+      "end": 0.69,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 main qui tient un mojito bleu",
+      "src": "library/monegasque/clips/MON-152.mp4",
+      "start": 0.22,
+      "end": 0.72,
+      "motion": "zoomIn",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#15 couteau qui coupe le burger",
+      "src": "library/monegasque/clips/MON-113.mp4",
+      "start": 0.02,
+      "end": 0.47,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#16 table pleine avec jus et cocktails",
+      "src": "library/monegasque/clips/MON-057.mp4",
+      "start": 0.05,
+      "end": 0.55,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#17 piscine et fresques pop art",
+      "src": "library/monegasque/clips/MON-090.mp4",
+      "start": 0.14,
+      "end": 0.94,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#18 table du brunch en surplomb de la piscine",
+      "src": "library/monegasque/clips/MON-145.mp4",
+      "start": 0.35,
+      "end": 2.35,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "spin",
+        "direction": "from-top",
+        "duration": 0.3
+      }
+    }
+  ]
+}

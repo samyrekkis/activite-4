@@ -1,0 +1,6025 @@
+{
+ "restaurant": "monegasque",
+ "clips": [
+  {
+   "id": "MON-001",
+   "src": "library/monegasque/clips/MON-001.mp4",
+   "file": "Ambiance - femme en haïk blanc au bord de la piscine.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_01",
+   "name": "femme en haïk blanc au bord de la piscine",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.97,
+   "orientation": "vertical",
+   "brightness": 0.463,
+   "lab": [
+    118.0,
+    132.5,
+    121.1
+   ],
+   "lab_first": [
+    123.4,
+    131.6,
+    124.1
+   ],
+   "lab_last": [
+    120.1,
+    133.2,
+    119.0
+   ],
+   "motion": [
+    -0.131,
+    -0.016
+   ],
+   "motion_strength": 0.132
+  },
+  {
+   "id": "MON-002",
+   "src": "library/monegasque/clips/MON-002.mp4",
+   "file": "Ambiance - femme en haïk qui se dévoile près de la piscine.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_02",
+   "name": "femme en haïk qui se dévoile près de la piscine",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 3.0,
+   "orientation": "vertical",
+   "brightness": 0.472,
+   "lab": [
+    120.4,
+    132.3,
+    119.4
+   ],
+   "lab_first": [
+    120.4,
+    133.1,
+    119.2
+   ],
+   "lab_last": [
+    119.7,
+    131.4,
+    119.9
+   ],
+   "motion": [
+    0.015,
+    -0.004
+   ],
+   "motion_strength": 0.016
+  },
+  {
+   "id": "MON-003",
+   "src": "library/monegasque/clips/MON-003.mp4",
+   "file": "Ambiance - femme en haïk sous les lustres en osier.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_03",
+   "name": "femme en haïk sous les lustres en osier",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.507,
+   "lab": [
+    129.3,
+    132.9,
+    133.9
+   ],
+   "lab_first": [
+    128.0,
+    132.4,
+    134.2
+   ],
+   "lab_last": [
+    130.9,
+    133.1,
+    133.7
+   ],
+   "motion": [
+    0.008,
+    -0.027
+   ],
+   "motion_strength": 0.029
+  },
+  {
+   "id": "MON-004",
+   "src": "library/monegasque/clips/MON-004.mp4",
+   "file": "Ambiance - couple en tenue traditionnelle blanche.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_04",
+   "name": "couple en tenue traditionnelle blanche",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.93,
+   "orientation": "vertical",
+   "brightness": 0.554,
+   "lab": [
+    141.3,
+    133.1,
+    131.6
+   ],
+   "lab_first": [
+    137.4,
+    133.3,
+    132.0
+   ],
+   "lab_last": [
+    146.9,
+    132.7,
+    131.3
+   ],
+   "motion": [
+    -0.006,
+    0.013
+   ],
+   "motion_strength": 0.014
+  },
+  {
+   "id": "MON-005",
+   "src": "library/monegasque/clips/MON-005.mp4",
+   "file": "Ambiance - femme en haïk assise sur le trône doré.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_05",
+   "name": "femme en haïk assise sur le trône doré",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.97,
+   "orientation": "vertical",
+   "brightness": 0.407,
+   "lab": [
+    103.7,
+    146.3,
+    137.9
+   ],
+   "lab_first": [
+    100.0,
+    146.6,
+    138.9
+   ],
+   "lab_last": [
+    105.4,
+    146.2,
+    136.6
+   ],
+   "motion": [
+    0.008,
+    0.0
+   ],
+   "motion_strength": 0.009
+  },
+  {
+   "id": "MON-006",
+   "src": "library/monegasque/clips/MON-006.mp4",
+   "file": "Ambiance - femme en haïk sur le trône doré, plan serré.mp4",
+   "source": "BFUD3924.MP4",
+   "extract": "BFUD3924_06",
+   "name": "femme en haïk sur le trône doré, plan serré",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.97,
+   "orientation": "vertical",
+   "brightness": 0.402,
+   "lab": [
+    102.6,
+    146.4,
+    137.4
+   ],
+   "lab_first": [
+    105.0,
+    146.0,
+    136.8
+   ],
+   "lab_last": [
+    100.0,
+    145.9,
+    137.1
+   ],
+   "motion": [
+    0.003,
+    0.016
+   ],
+   "motion_strength": 0.016
+  },
+  {
+   "id": "MON-007",
+   "src": "library/monegasque/clips/MON-007.mp4",
+   "file": "Geste - main qui soulève le couvercle du tajine.mp4",
+   "source": "BLNX5898.MP4",
+   "extract": "BLNX5898_01",
+   "name": "main qui soulève le couvercle du tajine",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.37,
+   "lab": [
+    94.2,
+    141.4,
+    146.1
+   ],
+   "lab_first": [
+    96.2,
+    141.4,
+    145.2
+   ],
+   "lab_last": [
+    94.0,
+    140.7,
+    146.9
+   ],
+   "motion": [
+    -0.002,
+    -0.024
+   ],
+   "motion_strength": 0.024
+  },
+  {
+   "id": "MON-008",
+   "src": "library/monegasque/clips/MON-008.mp4",
+   "file": "Plat - tajine aux œufs et sauce tomate.mp4",
+   "source": "BLNX5898.MP4",
+   "extract": "BLNX5898_02",
+   "name": "tajine aux œufs et sauce tomate",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.412,
+   "lab": [
+    105.0,
+    142.2,
+    152.0
+   ],
+   "lab_first": [
+    109.3,
+    144.4,
+    156.6
+   ],
+   "lab_last": [
+    100.7,
+    141.1,
+    149.8
+   ],
+   "motion": [
+    0.058,
+    0.126
+   ],
+   "motion_strength": 0.138
+  },
+  {
+   "id": "MON-009",
+   "src": "library/monegasque/clips/MON-009.mp4",
+   "file": "Plat - paella aux fruits de mer et citron.mp4",
+   "source": "BLNX5898.MP4",
+   "extract": "BLNX5898_03",
+   "name": "paella aux fruits de mer et citron",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.1,
+   "orientation": "vertical",
+   "brightness": 0.383,
+   "lab": [
+    97.5,
+    135.0,
+    149.3
+   ],
+   "lab_first": [
+    92.7,
+    135.1,
+    149.1
+   ],
+   "lab_last": [
+    105.7,
+    135.1,
+    150.2
+   ],
+   "motion": [
+    0.231,
+    -0.061
+   ],
+   "motion_strength": 0.239
+  },
+  {
+   "id": "MON-010",
+   "src": "library/monegasque/clips/MON-010.mp4",
+   "file": "Table - table du brunch avec café et milkshake, vue de dessus.mp4",
+   "source": "BLNX5898.MP4",
+   "extract": "BLNX5898_04",
+   "name": "table du brunch avec café et milkshake, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.333,
+   "lab": [
+    84.8,
+    137.5,
+    136.9
+   ],
+   "lab_first": [
+    76.5,
+    137.8,
+    137.0
+   ],
+   "lab_last": [
+    91.7,
+    137.7,
+    137.3
+   ],
+   "motion": [
+    -0.067,
+    0.07
+   ],
+   "motion_strength": 0.097
+  },
+  {
+   "id": "MON-011",
+   "src": "library/monegasque/clips/MON-011.mp4",
+   "file": "Table - table complète avec crêpe et milkshake rose.mp4",
+   "source": "BLNX5898.MP4",
+   "extract": "BLNX5898_05",
+   "name": "table complète avec crêpe et milkshake rose",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.373,
+   "lab": [
+    95.2,
+    139.9,
+    136.9
+   ],
+   "lab_first": [
+    93.2,
+    139.8,
+    136.4
+   ],
+   "lab_last": [
+    95.3,
+    140.0,
+    137.2
+   ],
+   "motion": [
+    -0.01,
+    0.008
+   ],
+   "motion_strength": 0.013
+  },
+  {
+   "id": "MON-012",
+   "src": "library/monegasque/clips/MON-012.mp4",
+   "file": "Extérieur - piscine et mur de fresques.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_01",
+   "name": "piscine et mur de fresques",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 1,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.535,
+   "lab": [
+    136.5,
+    125.3,
+    123.8
+   ],
+   "lab_first": [
+    135.9,
+    125.4,
+    124.0
+   ],
+   "lab_last": [
+    136.9,
+    125.2,
+    123.5
+   ],
+   "motion": [
+    -0.007,
+    0.031
+   ],
+   "motion_strength": 0.032
+  },
+  {
+   "id": "MON-013",
+   "src": "library/monegasque/clips/MON-013.mp4",
+   "file": "Salle - salle intérieure avec colonne lumineuse.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_02",
+   "name": "salle intérieure avec colonne lumineuse",
+   "category": "salle",
+   "view": "large",
+   "light": "jour",
+   "quality": 1,
+   "duration": 0.37,
+   "orientation": "vertical",
+   "brightness": 0.28,
+   "lab": [
+    71.4,
+    136.6,
+    133.7
+   ],
+   "lab_first": [
+    70.8,
+    136.5,
+    133.8
+   ],
+   "lab_last": [
+    71.2,
+    136.7,
+    133.6
+   ],
+   "motion": [
+    -0.004,
+    0.0
+   ],
+   "motion_strength": 0.004
+  },
+  {
+   "id": "MON-014",
+   "src": "library/monegasque/clips/MON-014.mp4",
+   "file": "Salle - salon rose avec fauteuils violets.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_03",
+   "name": "salon rose avec fauteuils violets",
+   "category": "salle",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.387,
+   "lab": [
+    98.7,
+    134.7,
+    130.0
+   ],
+   "lab_first": [
+    97.5,
+    134.5,
+    130.2
+   ],
+   "lab_last": [
+    100.2,
+    134.7,
+    130.0
+   ],
+   "motion": [
+    0.014,
+    0.015
+   ],
+   "motion_strength": 0.021
+  },
+  {
+   "id": "MON-015",
+   "src": "library/monegasque/clips/MON-015.mp4",
+   "file": "Salle - salle avec banquettes vertes.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_04",
+   "name": "salle avec banquettes vertes",
+   "category": "salle",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.35,
+   "lab": [
+    89.1,
+    130.8,
+    132.4
+   ],
+   "lab_first": [
+    87.5,
+    130.6,
+    132.5
+   ],
+   "lab_last": [
+    89.7,
+    130.9,
+    132.2
+   ],
+   "motion": [
+    0.002,
+    -0.036
+   ],
+   "motion_strength": 0.036
+  },
+  {
+   "id": "MON-016",
+   "src": "library/monegasque/clips/MON-016.mp4",
+   "file": "Extérieur - terrasse couverte avec lustre en osier et cage.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_05",
+   "name": "terrasse couverte avec lustre en osier et cage",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.487,
+   "lab": [
+    124.3,
+    131.0,
+    137.0
+   ],
+   "lab_first": [
+    123.8,
+    130.7,
+    137.2
+   ],
+   "lab_last": [
+    124.4,
+    131.3,
+    136.9
+   ],
+   "motion": [
+    0.021,
+    -0.023
+   ],
+   "motion_strength": 0.031
+  },
+  {
+   "id": "MON-017",
+   "src": "library/monegasque/clips/MON-017.mp4",
+   "file": "Déco - entrée néon Le Monégasque et trône doré.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_06",
+   "name": "entrée néon Le Monégasque et trône doré",
+   "category": "deco",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.355,
+   "lab": [
+    90.6,
+    138.7,
+    141.5
+   ],
+   "lab_first": [
+    90.8,
+    138.6,
+    141.4
+   ],
+   "lab_last": [
+    89.4,
+    139.0,
+    141.4
+   ],
+   "motion": [
+    -0.0,
+    0.02
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "MON-018",
+   "src": "library/monegasque/clips/MON-018.mp4",
+   "file": "Table - table du brunch au bord de la piscine, vue de dessus.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_07",
+   "name": "table du brunch au bord de la piscine, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.429,
+   "lab": [
+    109.3,
+    133.4,
+    135.4
+   ],
+   "lab_first": [
+    109.6,
+    133.5,
+    135.2
+   ],
+   "lab_last": [
+    109.2,
+    133.4,
+    135.5
+   ],
+   "motion": [
+    -0.054,
+    -0.008
+   ],
+   "motion_strength": 0.054
+  },
+  {
+   "id": "MON-019",
+   "src": "library/monegasque/clips/MON-019.mp4",
+   "file": "Geste - fourchette et couteau dans la burrata.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_08",
+   "name": "fourchette et couteau dans la burrata",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.47,
+   "lab": [
+    120.0,
+    135.4,
+    138.0
+   ],
+   "lab_first": [
+    119.5,
+    135.0,
+    138.3
+   ],
+   "lab_last": [
+    120.0,
+    135.5,
+    137.8
+   ],
+   "motion": [
+    0.015,
+    0.005
+   ],
+   "motion_strength": 0.015
+  },
+  {
+   "id": "MON-020",
+   "src": "library/monegasque/clips/MON-020.mp4",
+   "file": "Table - table du brunch devant la piscine et les fresques.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_09",
+   "name": "table du brunch devant la piscine et les fresques",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.477,
+   "lab": [
+    121.6,
+    131.7,
+    130.2
+   ],
+   "lab_first": [
+    121.3,
+    131.6,
+    130.1
+   ],
+   "lab_last": [
+    121.9,
+    131.8,
+    130.2
+   ],
+   "motion": [
+    0.014,
+    -0.003
+   ],
+   "motion_strength": 0.014
+  },
+  {
+   "id": "MON-021",
+   "src": "library/monegasque/clips/MON-021.mp4",
+   "file": "Table - assiettes du brunch, piscine en fond.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_10",
+   "name": "assiettes du brunch, piscine en fond",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.435,
+   "lab": [
+    111.0,
+    133.3,
+    135.9
+   ],
+   "lab_first": [
+    111.3,
+    133.4,
+    135.8
+   ],
+   "lab_last": [
+    110.7,
+    133.5,
+    135.9
+   ],
+   "motion": [
+    0.01,
+    -0.014
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-022",
+   "src": "library/monegasque/clips/MON-022.mp4",
+   "file": "Plat - burrata et salade de tomates.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_11",
+   "name": "burrata et salade de tomates",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.447,
+   "lab": [
+    114.0,
+    137.7,
+    145.3
+   ],
+   "lab_first": [
+    113.6,
+    137.5,
+    145.4
+   ],
+   "lab_last": [
+    114.2,
+    137.6,
+    145.4
+   ],
+   "motion": [
+    0.004,
+    -0.005
+   ],
+   "motion_strength": 0.007
+  },
+  {
+   "id": "MON-023",
+   "src": "library/monegasque/clips/MON-023.mp4",
+   "file": "Dessert - fondant au chocolat coulant.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_12",
+   "name": "fondant au chocolat coulant",
+   "category": "dessert",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.385,
+   "lab": [
+    98.2,
+    138.4,
+    137.4
+   ],
+   "lab_first": [
+    96.5,
+    138.4,
+    137.1
+   ],
+   "lab_last": [
+    98.2,
+    138.4,
+    137.5
+   ],
+   "motion": [
+    0.03,
+    -0.004
+   ],
+   "motion_strength": 0.03
+  },
+  {
+   "id": "MON-024",
+   "src": "library/monegasque/clips/MON-024.mp4",
+   "file": "Geste - main qui présente l'assiette avocat saumon devant la piscine.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_13",
+   "name": "main qui présente l'assiette avocat saumon devant la piscine",
+   "category": "geste",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.445,
+   "lab": [
+    113.4,
+    132.4,
+    132.7
+   ],
+   "lab_first": [
+    113.4,
+    132.4,
+    132.7
+   ],
+   "lab_last": [
+    113.9,
+    132.4,
+    132.6
+   ],
+   "motion": [
+    0.019,
+    0.01
+   ],
+   "motion_strength": 0.021
+  },
+  {
+   "id": "MON-025",
+   "src": "library/monegasque/clips/MON-025.mp4",
+   "file": "Extérieur - terrasse couverte avec clients à table.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_14",
+   "name": "terrasse couverte avec clients à table",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.421,
+   "lab": [
+    107.3,
+    129.8,
+    134.7
+   ],
+   "lab_first": [
+    105.3,
+    130.3,
+    134.7
+   ],
+   "lab_last": [
+    109.0,
+    129.1,
+    134.0
+   ],
+   "motion": [
+    0.279,
+    0.023
+   ],
+   "motion_strength": 0.28
+  },
+  {
+   "id": "MON-026",
+   "src": "library/monegasque/clips/MON-026.mp4",
+   "file": "Salle - salle intérieure aux lumières chaudes.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_15",
+   "name": "salle intérieure aux lumières chaudes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.294,
+   "lab": [
+    74.9,
+    135.6,
+    138.4
+   ],
+   "lab_first": [
+    76.1,
+    135.2,
+    138.6
+   ],
+   "lab_last": [
+    73.6,
+    136.0,
+    138.4
+   ],
+   "motion": [
+    0.17,
+    0.013
+   ],
+   "motion_strength": 0.171
+  },
+  {
+   "id": "MON-027",
+   "src": "library/monegasque/clips/MON-027.mp4",
+   "file": "Déco - cage à oiseaux avec perruches.mp4",
+   "source": "BSMQ2410.MP4",
+   "extract": "BSMQ2410_16",
+   "name": "cage à oiseaux avec perruches",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.391,
+   "lab": [
+    99.8,
+    131.7,
+    137.1
+   ],
+   "lab_first": [
+    99.5,
+    131.7,
+    137.1
+   ],
+   "lab_last": [
+    99.8,
+    131.8,
+    137.1
+   ],
+   "motion": [
+    -0.015,
+    -0.009
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-028",
+   "src": "library/monegasque/clips/MON-028.mp4",
+   "file": "Extérieur - piscine et fresques, plan large.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_01",
+   "name": "piscine et fresques, plan large",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.539,
+   "lab": [
+    137.6,
+    121.0,
+    124.6
+   ],
+   "lab_first": [
+    136.6,
+    120.9,
+    124.5
+   ],
+   "lab_last": [
+    137.7,
+    120.8,
+    125.0
+   ],
+   "motion": [
+    0.265,
+    0.014
+   ],
+   "motion_strength": 0.265
+  },
+  {
+   "id": "MON-029",
+   "src": "library/monegasque/clips/MON-029.mp4",
+   "file": "Geste - sauce chocolat versée sur les pancakes banane.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_02",
+   "name": "sauce chocolat versée sur les pancakes banane",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.448,
+   "lab": [
+    114.2,
+    140.9,
+    135.4
+   ],
+   "lab_first": [
+    111.6,
+    141.1,
+    135.0
+   ],
+   "lab_last": [
+    116.2,
+    140.7,
+    136.1
+   ],
+   "motion": [
+    0.006,
+    0.0
+   ],
+   "motion_strength": 0.006
+  },
+  {
+   "id": "MON-030",
+   "src": "library/monegasque/clips/MON-030.mp4",
+   "file": "Extérieur - piscine vue d'en haut et mur d'assiettes bleu.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_03",
+   "name": "piscine vue d'en haut et mur d'assiettes bleu",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.438,
+   "lab": [
+    111.7,
+    129.2,
+    129.4
+   ],
+   "lab_first": [
+    111.0,
+    128.7,
+    130.5
+   ],
+   "lab_last": [
+    109.7,
+    129.3,
+    128.6
+   ],
+   "motion": [
+    0.099,
+    0.022
+   ],
+   "motion_strength": 0.102
+  },
+  {
+   "id": "MON-031",
+   "src": "library/monegasque/clips/MON-031.mp4",
+   "file": "Table - table du brunch au bord de la piscine, jus et crêpe.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_04",
+   "name": "table du brunch au bord de la piscine, jus et crêpe",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.47,
+   "orientation": "vertical",
+   "brightness": 0.488,
+   "lab": [
+    124.5,
+    128.3,
+    131.1
+   ],
+   "lab_first": [
+    123.7,
+    128.8,
+    130.5
+   ],
+   "lab_last": [
+    123.8,
+    128.3,
+    131.3
+   ],
+   "motion": [
+    -0.08,
+    -0.076
+   ],
+   "motion_strength": 0.11
+  },
+  {
+   "id": "MON-032",
+   "src": "library/monegasque/clips/MON-032.mp4",
+   "file": "Extérieur - terrasse couverte avec écran et clients.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_05",
+   "name": "terrasse couverte avec écran et clients",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.383,
+   "lab": [
+    97.6,
+    132.2,
+    128.0
+   ],
+   "lab_first": [
+    97.9,
+    131.8,
+    128.1
+   ],
+   "lab_last": [
+    96.5,
+    132.3,
+    128.0
+   ],
+   "motion": [
+    0.065,
+    -0.003
+   ],
+   "motion_strength": 0.065
+  },
+  {
+   "id": "MON-033",
+   "src": "library/monegasque/clips/MON-033.mp4",
+   "file": "Dessert - pancake au chocolat et bananes.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_06",
+   "name": "pancake au chocolat et bananes",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.509,
+   "lab": [
+    129.7,
+    134.8,
+    137.2
+   ],
+   "lab_first": [
+    123.6,
+    136.7,
+    134.4
+   ],
+   "lab_last": [
+    130.6,
+    133.9,
+    137.9
+   ],
+   "motion": [
+    0.04,
+    0.022
+   ],
+   "motion_strength": 0.046
+  },
+  {
+   "id": "MON-034",
+   "src": "library/monegasque/clips/MON-034.mp4",
+   "file": "Salle - salle intérieure avec suspensions en verre.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_07",
+   "name": "salle intérieure avec suspensions en verre",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.8,
+   "orientation": "vertical",
+   "brightness": 0.304,
+   "lab": [
+    77.4,
+    133.8,
+    133.9
+   ],
+   "lab_first": [
+    77.8,
+    133.5,
+    133.5
+   ],
+   "lab_last": [
+    77.0,
+    134.0,
+    133.5
+   ],
+   "motion": [
+    0.075,
+    -0.006
+   ],
+   "motion_strength": 0.075
+  },
+  {
+   "id": "MON-035",
+   "src": "library/monegasque/clips/MON-035.mp4",
+   "file": "Dessert - crêpe et pancakes sur set de table coloré.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_08",
+   "name": "crêpe et pancakes sur set de table coloré",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.474,
+   "lab": [
+    120.9,
+    138.4,
+    130.7
+   ],
+   "lab_first": [
+    120.5,
+    138.2,
+    131.0
+   ],
+   "lab_last": [
+    120.3,
+    138.6,
+    130.6
+   ],
+   "motion": [
+    -0.019,
+    -0.016
+   ],
+   "motion_strength": 0.025
+  },
+  {
+   "id": "MON-036",
+   "src": "library/monegasque/clips/MON-036.mp4",
+   "file": "Table - table avec soupe, crêpe et omelette, vue de dessus.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_09",
+   "name": "table avec soupe, crêpe et omelette, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.494,
+   "lab": [
+    125.9,
+    134.3,
+    136.1
+   ],
+   "lab_first": [
+    124.8,
+    133.9,
+    136.8
+   ],
+   "lab_last": [
+    126.4,
+    134.6,
+    135.3
+   ],
+   "motion": [
+    -0.028,
+    0.013
+   ],
+   "motion_strength": 0.031
+  },
+  {
+   "id": "MON-037",
+   "src": "library/monegasque/clips/MON-037.mp4",
+   "file": "Dessert - assortiment de desserts sur table noire.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_10",
+   "name": "assortiment de desserts sur table noire",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.276,
+   "lab": [
+    70.4,
+    131.3,
+    118.3
+   ],
+   "lab_first": [
+    70.5,
+    131.2,
+    120.5
+   ],
+   "lab_last": [
+    71.5,
+    131.2,
+    116.1
+   ],
+   "motion": [
+    -0.241,
+    0.012
+   ],
+   "motion_strength": 0.241
+  },
+  {
+   "id": "MON-038",
+   "src": "library/monegasque/clips/MON-038.mp4",
+   "file": "Salle - salle animée avec clients et néons.mp4",
+   "source": "BUQU4605.MP4",
+   "extract": "BUQU4605_11",
+   "name": "salle animée avec clients et néons",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.266,
+   "lab": [
+    67.9,
+    137.6,
+    135.9
+   ],
+   "lab_first": [
+    69.7,
+    138.0,
+    135.6
+   ],
+   "lab_last": [
+    66.8,
+    137.4,
+    136.6
+   ],
+   "motion": [
+    0.136,
+    -0.01
+   ],
+   "motion_strength": 0.136
+  },
+  {
+   "id": "MON-039",
+   "src": "library/monegasque/clips/MON-039.mp4",
+   "file": "Ambiance - jeune femme qui accueille à l'entrée.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_01",
+   "name": "jeune femme qui accueille à l'entrée",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 3.1,
+   "orientation": "vertical",
+   "brightness": 0.38,
+   "lab": [
+    97.0,
+    135.0,
+    122.6
+   ],
+   "lab_first": [
+    100.2,
+    133.8,
+    125.5
+   ],
+   "lab_last": [
+    85.5,
+    136.3,
+    118.9
+   ],
+   "motion": [
+    -0.086,
+    0.014
+   ],
+   "motion_strength": 0.087
+  },
+  {
+   "id": "MON-040",
+   "src": "library/monegasque/clips/MON-040.mp4",
+   "file": "Ambiance - jeune femme qui parle à l'entrée.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_02",
+   "name": "jeune femme qui parle à l'entrée",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 3.13,
+   "orientation": "vertical",
+   "brightness": 0.326,
+   "lab": [
+    83.2,
+    136.6,
+    118.9
+   ],
+   "lab_first": [
+    85.7,
+    136.7,
+    118.3
+   ],
+   "lab_last": [
+    94.5,
+    140.6,
+    129.5
+   ],
+   "motion": [
+    -0.041,
+    0.006
+   ],
+   "motion_strength": 0.041
+  },
+  {
+   "id": "MON-041",
+   "src": "library/monegasque/clips/MON-041.mp4",
+   "file": "Ambiance - jeune femme qui enfile le haïk devant la colonne lumineuse.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_03",
+   "name": "jeune femme qui enfile le haïk devant la colonne lumineuse",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.63,
+   "orientation": "vertical",
+   "brightness": 0.461,
+   "lab": [
+    117.5,
+    140.2,
+    141.9
+   ],
+   "lab_first": [
+    126.0,
+    139.4,
+    142.4
+   ],
+   "lab_last": [
+    117.2,
+    140.4,
+    142.8
+   ],
+   "motion": [
+    -0.033,
+    -0.022
+   ],
+   "motion_strength": 0.04
+  },
+  {
+   "id": "MON-042",
+   "src": "library/monegasque/clips/MON-042.mp4",
+   "file": "Ambiance - femme en haïk sur le trône doré sous les néons.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_04",
+   "name": "femme en haïk sur le trône doré sous les néons",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.2,
+   "orientation": "vertical",
+   "brightness": 0.381,
+   "lab": [
+    97.2,
+    145.4,
+    141.0
+   ],
+   "lab_first": [
+    95.0,
+    145.5,
+    141.2
+   ],
+   "lab_last": [
+    97.7,
+    145.2,
+    141.3
+   ],
+   "motion": [
+    -0.008,
+    -0.009
+   ],
+   "motion_strength": 0.012
+  },
+  {
+   "id": "MON-043",
+   "src": "library/monegasque/clips/MON-043.mp4",
+   "file": "Ambiance - femme en haïk sur la terrasse couverte.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_05",
+   "name": "femme en haïk sur la terrasse couverte",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 3.07,
+   "orientation": "vertical",
+   "brightness": 0.435,
+   "lab": [
+    111.0,
+    135.9,
+    125.7
+   ],
+   "lab_first": [
+    119.9,
+    134.6,
+    125.8
+   ],
+   "lab_last": [
+    108.8,
+    136.1,
+    125.7
+   ],
+   "motion": [
+    -0.014,
+    0.002
+   ],
+   "motion_strength": 0.014
+  },
+  {
+   "id": "MON-044",
+   "src": "library/monegasque/clips/MON-044.mp4",
+   "file": "Ambiance - femme en haïk sur la terrasse, de plus près.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_06",
+   "name": "femme en haïk sur la terrasse, de plus près",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 3.07,
+   "orientation": "vertical",
+   "brightness": 0.473,
+   "lab": [
+    120.6,
+    133.5,
+    131.2
+   ],
+   "lab_first": [
+    108.7,
+    136.2,
+    125.4
+   ],
+   "lab_last": [
+    125.7,
+    131.5,
+    134.9
+   ],
+   "motion": [
+    -0.004,
+    0.016
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-045",
+   "src": "library/monegasque/clips/MON-045.mp4",
+   "file": "Ambiance - femme en haïk qui tourne au bord de la piscine.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_07",
+   "name": "femme en haïk qui tourne au bord de la piscine",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.469,
+   "lab": [
+    119.7,
+    131.1,
+    123.9
+   ],
+   "lab_first": [
+    124.5,
+    130.9,
+    124.7
+   ],
+   "lab_last": [
+    113.6,
+    131.9,
+    121.6
+   ],
+   "motion": [
+    -0.079,
+    -0.011
+   ],
+   "motion_strength": 0.079
+  },
+  {
+   "id": "MON-046",
+   "src": "library/monegasque/clips/MON-046.mp4",
+   "file": "Ambiance - femme en haïk au bord de la piscine, de face.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_08",
+   "name": "femme en haïk au bord de la piscine, de face",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.475,
+   "lab": [
+    121.1,
+    130.3,
+    120.7
+   ],
+   "lab_first": [
+    123.0,
+    130.1,
+    120.6
+   ],
+   "lab_last": [
+    119.9,
+    130.5,
+    121.3
+   ],
+   "motion": [
+    0.046,
+    -0.002
+   ],
+   "motion_strength": 0.046
+  },
+  {
+   "id": "MON-047",
+   "src": "library/monegasque/clips/MON-047.mp4",
+   "file": "Ambiance - femme en haïk et voile brodé sous le néon.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_09",
+   "name": "femme en haïk et voile brodé sous le néon",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.87,
+   "orientation": "vertical",
+   "brightness": 0.41,
+   "lab": [
+    104.4,
+    145.5,
+    137.9
+   ],
+   "lab_first": [
+    105.9,
+    145.0,
+    137.5
+   ],
+   "lab_last": [
+    103.4,
+    145.7,
+    138.6
+   ],
+   "motion": [
+    0.003,
+    0.013
+   ],
+   "motion_strength": 0.014
+  },
+  {
+   "id": "MON-048",
+   "src": "library/monegasque/clips/MON-048.mp4",
+   "file": "Ambiance - femme en haïk qui ajuste son voile, néon rouge.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_10",
+   "name": "femme en haïk qui ajuste son voile, néon rouge",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.6,
+   "orientation": "vertical",
+   "brightness": 0.408,
+   "lab": [
+    104.1,
+    145.7,
+    138.9
+   ],
+   "lab_first": [
+    103.7,
+    145.6,
+    138.7
+   ],
+   "lab_last": [
+    104.4,
+    146.0,
+    139.3
+   ],
+   "motion": [
+    0.007,
+    -0.004
+   ],
+   "motion_strength": 0.008
+  },
+  {
+   "id": "MON-049",
+   "src": "library/monegasque/clips/MON-049.mp4",
+   "file": "Ambiance - femme en haïk devant le néon Monégasque.mp4",
+   "source": "EQNV2712.MP4",
+   "extract": "EQNV2712_11",
+   "name": "femme en haïk devant le néon Monégasque",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.321,
+   "lab": [
+    81.8,
+    149.0,
+    142.3
+   ],
+   "lab_first": [
+    81.1,
+    148.9,
+    142.2
+   ],
+   "lab_last": [
+    82.6,
+    149.0,
+    142.3
+   ],
+   "motion": [
+    0.006,
+    -0.0
+   ],
+   "motion_strength": 0.006
+  },
+  {
+   "id": "MON-050",
+   "src": "library/monegasque/clips/MON-050.mp4",
+   "file": "Ambiance - gros plan du voile brodé.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_01",
+   "name": "gros plan du voile brodé",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.465,
+   "lab": [
+    118.6,
+    145.3,
+    143.4
+   ],
+   "lab_first": [
+    116.1,
+    146.0,
+    143.7
+   ],
+   "lab_last": [
+    121.4,
+    144.6,
+    143.4
+   ],
+   "motion": [
+    -0.035,
+    -0.04
+   ],
+   "motion_strength": 0.053
+  },
+  {
+   "id": "MON-051",
+   "src": "library/monegasque/clips/MON-051.mp4",
+   "file": "Table - petit-déjeuner avec jus, toasts et beurre.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_02",
+   "name": "petit-déjeuner avec jus, toasts et beurre",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.83,
+   "orientation": "vertical",
+   "brightness": 0.384,
+   "lab": [
+    97.9,
+    135.9,
+    138.3
+   ],
+   "lab_first": [
+    95.5,
+    135.0,
+    137.3
+   ],
+   "lab_last": [
+    100.8,
+    136.8,
+    139.5
+   ],
+   "motion": [
+    0.132,
+    0.013
+   ],
+   "motion_strength": 0.133
+  },
+  {
+   "id": "MON-052",
+   "src": "library/monegasque/clips/MON-052.mp4",
+   "file": "Dessert - pancakes aux pommes et chocolat.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_03",
+   "name": "pancakes aux pommes et chocolat",
+   "category": "dessert",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.0,
+   "orientation": "vertical",
+   "brightness": 0.41,
+   "lab": [
+    104.4,
+    142.3,
+    149.2
+   ],
+   "lab_first": [
+    104.7,
+    143.6,
+    152.4
+   ],
+   "lab_last": [
+    106.1,
+    143.0,
+    148.8
+   ],
+   "motion": [
+    0.006,
+    0.06
+   ],
+   "motion_strength": 0.061
+  },
+  {
+   "id": "MON-053",
+   "src": "library/monegasque/clips/MON-053.mp4",
+   "file": "Table - table du brunch avec glace, vue de dessus.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_04",
+   "name": "table du brunch avec glace, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.4,
+   "orientation": "vertical",
+   "brightness": 0.389,
+   "lab": [
+    99.2,
+    139.5,
+    134.4
+   ],
+   "lab_first": [
+    104.1,
+    140.6,
+    136.7
+   ],
+   "lab_last": [
+    91.3,
+    138.0,
+    131.8
+   ],
+   "motion": [
+    -0.238,
+    0.048
+   ],
+   "motion_strength": 0.242
+  },
+  {
+   "id": "MON-054",
+   "src": "library/monegasque/clips/MON-054.mp4",
+   "file": "Table - brunch complet avec sushis et salade.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_05",
+   "name": "brunch complet avec sushis et salade",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.37,
+   "orientation": "vertical",
+   "brightness": 0.329,
+   "lab": [
+    83.8,
+    136.3,
+    139.2
+   ],
+   "lab_first": [
+    81.0,
+    136.6,
+    139.1
+   ],
+   "lab_last": [
+    87.2,
+    135.6,
+    139.6
+   ],
+   "motion": [
+    -0.004,
+    0.026
+   ],
+   "motion_strength": 0.026
+  },
+  {
+   "id": "MON-055",
+   "src": "library/monegasque/clips/MON-055.mp4",
+   "file": "Geste - mains qui se servent au brunch.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_06",
+   "name": "mains qui se servent au brunch",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.378,
+   "lab": [
+    96.3,
+    139.5,
+    134.1
+   ],
+   "lab_first": [
+    100.5,
+    139.7,
+    135.2
+   ],
+   "lab_last": [
+    88.8,
+    138.8,
+    133.0
+   ],
+   "motion": [
+    -0.264,
+    0.092
+   ],
+   "motion_strength": 0.279
+  },
+  {
+   "id": "MON-056",
+   "src": "library/monegasque/clips/MON-056.mp4",
+   "file": "Table - table du brunch avec milkshake rose et verres bleus.mp4",
+   "source": "GDFS4202.MP4",
+   "extract": "GDFS4202_07",
+   "name": "table du brunch avec milkshake rose et verres bleus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.387,
+   "lab": [
+    98.7,
+    136.7,
+    128.5
+   ],
+   "lab_first": [
+    96.7,
+    137.0,
+    128.9
+   ],
+   "lab_last": [
+    99.9,
+    136.8,
+    128.7
+   ],
+   "motion": [
+    0.003,
+    0.01
+   ],
+   "motion_strength": 0.011
+  },
+  {
+   "id": "MON-057",
+   "src": "library/monegasque/clips/MON-057.mp4",
+   "file": "Table - table pleine avec jus et cocktails.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_01",
+   "name": "table pleine avec jus et cocktails",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.372,
+   "lab": [
+    94.8,
+    136.2,
+    137.7
+   ],
+   "lab_first": [
+    93.5,
+    136.1,
+    138.2
+   ],
+   "lab_last": [
+    93.1,
+    134.9,
+    136.3
+   ],
+   "motion": [
+    0.161,
+    0.054
+   ],
+   "motion_strength": 0.17
+  },
+  {
+   "id": "MON-058",
+   "src": "library/monegasque/clips/MON-058.mp4",
+   "file": "Plat - assiette avocat saumon et jus, déco colorée.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_02",
+   "name": "assiette avocat saumon et jus, déco colorée",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.5,
+   "orientation": "vertical",
+   "brightness": 0.499,
+   "lab": [
+    127.3,
+    138.2,
+    146.7
+   ],
+   "lab_first": [
+    127.4,
+    137.6,
+    146.4
+   ],
+   "lab_last": [
+    126.0,
+    138.5,
+    147.2
+   ],
+   "motion": [
+    -0.017,
+    0.093
+   ],
+   "motion_strength": 0.095
+  },
+  {
+   "id": "MON-059",
+   "src": "library/monegasque/clips/MON-059.mp4",
+   "file": "Table - salade et cocktails sur nappe colorée.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_03",
+   "name": "salade et cocktails sur nappe colorée",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.37,
+   "orientation": "vertical",
+   "brightness": 0.507,
+   "lab": [
+    129.3,
+    139.4,
+    149.0
+   ],
+   "lab_first": [
+    128.0,
+    139.0,
+    149.2
+   ],
+   "lab_last": [
+    130.3,
+    139.6,
+    148.9
+   ],
+   "motion": [
+    0.074,
+    0.01
+   ],
+   "motion_strength": 0.075
+  },
+  {
+   "id": "MON-060",
+   "src": "library/monegasque/clips/MON-060.mp4",
+   "file": "Ambiance - cliente sur la terrasse fleurie.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_04",
+   "name": "cliente sur la terrasse fleurie",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.391,
+   "lab": [
+    99.6,
+    133.6,
+    136.8
+   ],
+   "lab_first": [
+    99.3,
+    133.3,
+    137.1
+   ],
+   "lab_last": [
+    99.5,
+    133.3,
+    136.7
+   ],
+   "motion": [
+    -0.007,
+    0.021
+   ],
+   "motion_strength": 0.022
+  },
+  {
+   "id": "MON-061",
+   "src": "library/monegasque/clips/MON-061.mp4",
+   "file": "Table - grande table du brunch, vue de dessus.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_05",
+   "name": "grande table du brunch, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.411,
+   "lab": [
+    104.9,
+    144.6,
+    140.9
+   ],
+   "lab_first": [
+    103.7,
+    144.5,
+    140.9
+   ],
+   "lab_last": [
+    106.0,
+    144.7,
+    140.9
+   ],
+   "motion": [
+    -0.021,
+    0.01
+   ],
+   "motion_strength": 0.023
+  },
+  {
+   "id": "MON-062",
+   "src": "library/monegasque/clips/MON-062.mp4",
+   "file": "Table - grande table du brunch avec crêpes et milkshakes.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_06",
+   "name": "grande table du brunch avec crêpes et milkshakes",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.57,
+   "orientation": "vertical",
+   "brightness": 0.402,
+   "lab": [
+    102.6,
+    142.2,
+    138.2
+   ],
+   "lab_first": [
+    101.8,
+    142.2,
+    138.4
+   ],
+   "lab_last": [
+    103.3,
+    142.4,
+    138.1
+   ],
+   "motion": [
+    0.007,
+    0.017
+   ],
+   "motion_strength": 0.018
+  },
+  {
+   "id": "MON-063",
+   "src": "library/monegasque/clips/MON-063.mp4",
+   "file": "Extérieur - piscine et mur d'assiettes, plan large.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_07",
+   "name": "piscine et mur d'assiettes, plan large",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.5,
+   "orientation": "vertical",
+   "brightness": 0.416,
+   "lab": [
+    106.2,
+    132.7,
+    138.4
+   ],
+   "lab_first": [
+    105.1,
+    132.5,
+    138.8
+   ],
+   "lab_last": [
+    107.1,
+    132.7,
+    138.1
+   ],
+   "motion": [
+    0.024,
+    0.018
+   ],
+   "motion_strength": 0.03
+  },
+  {
+   "id": "MON-064",
+   "src": "library/monegasque/clips/MON-064.mp4",
+   "file": "Extérieur - terrasse avec lustres en osier et fresques.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_08",
+   "name": "terrasse avec lustres en osier et fresques",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.5,
+   "orientation": "vertical",
+   "brightness": 0.42,
+   "lab": [
+    107.0,
+    141.1,
+    146.0
+   ],
+   "lab_first": [
+    106.8,
+    140.8,
+    146.5
+   ],
+   "lab_last": [
+    107.4,
+    141.4,
+    145.4
+   ],
+   "motion": [
+    -0.074,
+    0.002
+   ],
+   "motion_strength": 0.074
+  },
+  {
+   "id": "MON-065",
+   "src": "library/monegasque/clips/MON-065.mp4",
+   "file": "Déco - cage à oiseaux avec perruches colorées.mp4",
+   "source": "HACJ2337.MP4",
+   "extract": "HACJ2337_09",
+   "name": "cage à oiseaux avec perruches colorées",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.48,
+   "lab": [
+    122.5,
+    135.1,
+    145.9
+   ],
+   "lab_first": [
+    120.1,
+    135.2,
+    146.7
+   ],
+   "lab_last": [
+    124.7,
+    134.7,
+    145.0
+   ],
+   "motion": [
+    -0.009,
+    0.001
+   ],
+   "motion_strength": 0.009
+  },
+  {
+   "id": "MON-066",
+   "src": "library/monegasque/clips/MON-066.mp4",
+   "file": "Geste - mains qui trinquent au-dessus des milkshakes et burgers.mp4",
+   "source": "HJZF8395.MP4",
+   "extract": "HJZF8395_01",
+   "name": "mains qui trinquent au-dessus des milkshakes et burgers",
+   "category": "geste",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.53,
+   "orientation": "vertical",
+   "brightness": 0.395,
+   "lab": [
+    100.8,
+    141.6,
+    144.4
+   ],
+   "lab_first": [
+    97.4,
+    140.1,
+    142.9
+   ],
+   "lab_last": [
+    92.8,
+    140.3,
+    143.9
+   ],
+   "motion": [
+    0.002,
+    -0.04
+   ],
+   "motion_strength": 0.04
+  },
+  {
+   "id": "MON-067",
+   "src": "library/monegasque/clips/MON-067.mp4",
+   "file": "Extérieur - porte d'entrée en bois entourée de fleurs.mp4",
+   "source": "JCUK8100.MP4",
+   "extract": "JCUK8100_01",
+   "name": "porte d'entrée en bois entourée de fleurs",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 3.47,
+   "orientation": "vertical",
+   "brightness": 0.515,
+   "lab": [
+    131.4,
+    139.3,
+    137.3
+   ],
+   "lab_first": [
+    125.4,
+    132.8,
+    133.3
+   ],
+   "lab_last": [
+    127.2,
+    145.9,
+    143.4
+   ],
+   "motion": [
+    -0.128,
+    0.005
+   ],
+   "motion_strength": 0.128
+  },
+  {
+   "id": "MON-068",
+   "src": "library/monegasque/clips/MON-068.mp4",
+   "file": "Dessert - crêpe chocolat amandes, fond noir et blanc.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_01",
+   "name": "crêpe chocolat amandes, fond noir et blanc",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.1,
+   "orientation": "vertical",
+   "brightness": 0.492,
+   "lab": [
+    125.5,
+    130.0,
+    128.9
+   ],
+   "lab_first": [
+    123.7,
+    129.0,
+    127.0
+   ],
+   "lab_last": [
+    126.2,
+    131.8,
+    132.1
+   ],
+   "motion": [
+    0.002,
+    0.008
+   ],
+   "motion_strength": 0.008
+  },
+  {
+   "id": "MON-069",
+   "src": "library/monegasque/clips/MON-069.mp4",
+   "file": "Plat - tartine avocat saumon, fond noir et blanc.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_02",
+   "name": "tartine avocat saumon, fond noir et blanc",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.475,
+   "lab": [
+    121.2,
+    129.7,
+    130.7
+   ],
+   "lab_first": [
+    120.3,
+    128.6,
+    127.4
+   ],
+   "lab_last": [
+    121.3,
+    131.4,
+    136.3
+   ],
+   "motion": [
+    -0.002,
+    0.02
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "MON-070",
+   "src": "library/monegasque/clips/MON-070.mp4",
+   "file": "Boisson - milkshake rose, fond noir et blanc.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_03",
+   "name": "milkshake rose, fond noir et blanc",
+   "category": "boisson",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.486,
+   "lab": [
+    124.0,
+    130.3,
+    128.1
+   ],
+   "lab_first": [
+    125.1,
+    128.0,
+    128.0
+   ],
+   "lab_last": [
+    124.0,
+    133.7,
+    128.4
+   ],
+   "motion": [
+    0.003,
+    0.04
+   ],
+   "motion_strength": 0.04
+  },
+  {
+   "id": "MON-071",
+   "src": "library/monegasque/clips/MON-071.mp4",
+   "file": "Dessert - crêpe au chocolat en gros plan, fond noir et blanc.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_04",
+   "name": "crêpe au chocolat en gros plan, fond noir et blanc",
+   "category": "dessert",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.448,
+   "lab": [
+    114.3,
+    129.5,
+    128.9
+   ],
+   "lab_first": [
+    115.2,
+    128.0,
+    128.0
+   ],
+   "lab_last": [
+    115.3,
+    132.2,
+    130.5
+   ],
+   "motion": [
+    0.002,
+    0.009
+   ],
+   "motion_strength": 0.009
+  },
+  {
+   "id": "MON-072",
+   "src": "library/monegasque/clips/MON-072.mp4",
+   "file": "Plat - tajine de boulettes sauce tomate, fond noir et blanc.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_05",
+   "name": "tajine de boulettes sauce tomate, fond noir et blanc",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.344,
+   "lab": [
+    87.6,
+    133.0,
+    132.4
+   ],
+   "lab_first": [
+    87.8,
+    128.0,
+    128.0
+   ],
+   "lab_last": [
+    88.0,
+    138.0,
+    136.9
+   ],
+   "motion": [
+    -0.019,
+    -0.006
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "MON-073",
+   "src": "library/monegasque/clips/MON-073.mp4",
+   "file": "Table - crêpe chocolat et assiettes sur la table.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_06",
+   "name": "crêpe chocolat et assiettes sur la table",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.17,
+   "orientation": "vertical",
+   "brightness": 0.483,
+   "lab": [
+    123.3,
+    136.0,
+    134.3
+   ],
+   "lab_first": [
+    123.3,
+    135.6,
+    134.9
+   ],
+   "lab_last": [
+    123.0,
+    135.9,
+    134.2
+   ],
+   "motion": [
+    0.001,
+    -0.018
+   ],
+   "motion_strength": 0.018
+  },
+  {
+   "id": "MON-074",
+   "src": "library/monegasque/clips/MON-074.mp4",
+   "file": "Table - table du brunch avec milkshake, vue de dessus.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_07",
+   "name": "table du brunch avec milkshake, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.455,
+   "lab": [
+    116.1,
+    137.7,
+    135.8
+   ],
+   "lab_first": [
+    117.5,
+    137.6,
+    135.8
+   ],
+   "lab_last": [
+    115.6,
+    137.5,
+    135.9
+   ],
+   "motion": [
+    -0.032,
+    -0.0
+   ],
+   "motion_strength": 0.032
+  },
+  {
+   "id": "MON-075",
+   "src": "library/monegasque/clips/MON-075.mp4",
+   "file": "Table - table ronde du brunch sur la terrasse.mp4",
+   "source": "OMFU9399.MP4",
+   "extract": "OMFU9399_08",
+   "name": "table ronde du brunch sur la terrasse",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.432,
+   "lab": [
+    110.3,
+    133.6,
+    136.7
+   ],
+   "lab_first": [
+    109.8,
+    133.7,
+    136.6
+   ],
+   "lab_last": [
+    109.9,
+    133.4,
+    136.7
+   ],
+   "motion": [
+    0.005,
+    0.007
+   ],
+   "motion_strength": 0.009
+  },
+  {
+   "id": "MON-076",
+   "src": "library/monegasque/clips/MON-076.mp4",
+   "file": "Ambiance - bébé à lunettes sur le trône doré.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_01",
+   "name": "bébé à lunettes sur le trône doré",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.5,
+   "orientation": "vertical",
+   "brightness": 0.219,
+   "lab": [
+    55.9,
+    137.8,
+    131.9
+   ],
+   "lab_first": [
+    55.1,
+    137.8,
+    132.9
+   ],
+   "lab_last": [
+    61.8,
+    137.9,
+    133.5
+   ],
+   "motion": [
+    0.019,
+    0.018
+   ],
+   "motion_strength": 0.026
+  },
+  {
+   "id": "MON-077",
+   "src": "library/monegasque/clips/MON-077.mp4",
+   "file": "Plat - salade et sauce blanche en gros plan.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_02",
+   "name": "salade et sauce blanche en gros plan",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.458,
+   "lab": [
+    116.7,
+    130.0,
+    138.3
+   ],
+   "lab_first": [
+    119.0,
+    130.1,
+    141.8
+   ],
+   "lab_last": [
+    95.7,
+    131.5,
+    134.6
+   ],
+   "motion": [
+    0.304,
+    0.187
+   ],
+   "motion_strength": 0.357
+  },
+  {
+   "id": "MON-078",
+   "src": "library/monegasque/clips/MON-078.mp4",
+   "file": "Table - table avec frites, carpaccio et cocktails.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_03",
+   "name": "table avec frites, carpaccio et cocktails",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.07,
+   "orientation": "vertical",
+   "brightness": 0.333,
+   "lab": [
+    84.9,
+    135.2,
+    134.0
+   ],
+   "lab_first": [
+    81.8,
+    135.0,
+    134.3
+   ],
+   "lab_last": [
+    86.3,
+    135.1,
+    133.5
+   ],
+   "motion": [
+    0.04,
+    0.023
+   ],
+   "motion_strength": 0.046
+  },
+  {
+   "id": "MON-079",
+   "src": "library/monegasque/clips/MON-079.mp4",
+   "file": "Déco - mur d'assiettes bleu et enseigne rayée.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_04",
+   "name": "mur d'assiettes bleu et enseigne rayée",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.2,
+   "orientation": "vertical",
+   "brightness": 0.397,
+   "lab": [
+    101.2,
+    132.8,
+    117.9
+   ],
+   "lab_first": [
+    101.3,
+    132.3,
+    116.6
+   ],
+   "lab_last": [
+    96.8,
+    132.4,
+    119.5
+   ],
+   "motion": [
+    -0.021,
+    -0.021
+   ],
+   "motion_strength": 0.03
+  },
+  {
+   "id": "MON-080",
+   "src": "library/monegasque/clips/MON-080.mp4",
+   "file": "Plat - carpaccio et salade sur assiette bleue.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_05",
+   "name": "carpaccio et salade sur assiette bleue",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.67,
+   "orientation": "vertical",
+   "brightness": 0.377,
+   "lab": [
+    96.1,
+    134.0,
+    130.3
+   ],
+   "lab_first": [
+    93.3,
+    131.4,
+    129.8
+   ],
+   "lab_last": [
+    95.3,
+    136.6,
+    131.5
+   ],
+   "motion": [
+    0.018,
+    -0.158
+   ],
+   "motion_strength": 0.159
+  },
+  {
+   "id": "MON-081",
+   "src": "library/monegasque/clips/MON-081.mp4",
+   "file": "Extérieur - rue et entrée du restaurant avec tapis rouge.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_06",
+   "name": "rue et entrée du restaurant avec tapis rouge",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.97,
+   "orientation": "vertical",
+   "brightness": 0.409,
+   "lab": [
+    104.3,
+    132.2,
+    131.3
+   ],
+   "lab_first": [
+    104.2,
+    131.7,
+    131.5
+   ],
+   "lab_last": [
+    103.1,
+    132.9,
+    131.1
+   ],
+   "motion": [
+    -0.043,
+    0.031
+   ],
+   "motion_strength": 0.053
+  },
+  {
+   "id": "MON-082",
+   "src": "library/monegasque/clips/MON-082.mp4",
+   "file": "Dessert - gâteau aux fraises sur la table du brunch.mp4",
+   "source": "PHBA0773.MP4",
+   "extract": "PHBA0773_07",
+   "name": "gâteau aux fraises sur la table du brunch",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.83,
+   "orientation": "vertical",
+   "brightness": 0.4,
+   "lab": [
+    101.9,
+    142.4,
+    141.3
+   ],
+   "lab_first": [
+    101.1,
+    141.8,
+    140.7
+   ],
+   "lab_last": [
+    102.3,
+    143.1,
+    142.2
+   ],
+   "motion": [
+    -0.018,
+    -0.009
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "MON-083",
+   "src": "library/monegasque/clips/MON-083.mp4",
+   "file": "Table - table avec bricks, salade et burger.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_01",
+   "name": "table avec bricks, salade et burger",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.2,
+   "orientation": "vertical",
+   "brightness": 0.406,
+   "lab": [
+    103.5,
+    138.6,
+    138.7
+   ],
+   "lab_first": [
+    102.5,
+    138.4,
+    139.1
+   ],
+   "lab_last": [
+    102.9,
+    138.3,
+    138.7
+   ],
+   "motion": [
+    -0.025,
+    0.015
+   ],
+   "motion_strength": 0.029
+  },
+  {
+   "id": "MON-084",
+   "src": "library/monegasque/clips/MON-084.mp4",
+   "file": "Table - table avec bricks et salade, autre angle.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_02",
+   "name": "table avec bricks et salade, autre angle",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.2,
+   "orientation": "vertical",
+   "brightness": 0.398,
+   "lab": [
+    101.4,
+    138.6,
+    139.6
+   ],
+   "lab_first": [
+    103.1,
+    138.2,
+    138.8
+   ],
+   "lab_last": [
+    99.2,
+    139.0,
+    141.0
+   ],
+   "motion": [
+    -0.055,
+    0.009
+   ],
+   "motion_strength": 0.056
+  },
+  {
+   "id": "MON-085",
+   "src": "library/monegasque/clips/MON-085.mp4",
+   "file": "Plat - burger et frites.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_03",
+   "name": "burger et frites",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.43,
+   "orientation": "vertical",
+   "brightness": 0.393,
+   "lab": [
+    100.2,
+    140.3,
+    140.3
+   ],
+   "lab_first": [
+    98.7,
+    140.7,
+    139.9
+   ],
+   "lab_last": [
+    101.6,
+    139.8,
+    139.8
+   ],
+   "motion": [
+    -0.024,
+    0.063
+   ],
+   "motion_strength": 0.068
+  },
+  {
+   "id": "MON-086",
+   "src": "library/monegasque/clips/MON-086.mp4",
+   "file": "Plat - salade et bricks dans la corbeille.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_04",
+   "name": "salade et bricks dans la corbeille",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.43,
+   "orientation": "vertical",
+   "brightness": 0.431,
+   "lab": [
+    109.8,
+    138.8,
+    140.7
+   ],
+   "lab_first": [
+    105.8,
+    138.7,
+    141.6
+   ],
+   "lab_last": [
+    114.2,
+    138.7,
+    138.2
+   ],
+   "motion": [
+    0.02,
+    -0.027
+   ],
+   "motion_strength": 0.033
+  },
+  {
+   "id": "MON-087",
+   "src": "library/monegasque/clips/MON-087.mp4",
+   "file": "Table - table complète avec milkshake rose.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_05",
+   "name": "table complète avec milkshake rose",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.43,
+   "orientation": "vertical",
+   "brightness": 0.383,
+   "lab": [
+    97.6,
+    137.0,
+    127.8
+   ],
+   "lab_first": [
+    97.9,
+    136.3,
+    127.5
+   ],
+   "lab_last": [
+    96.9,
+    137.8,
+    128.1
+   ],
+   "motion": [
+    -0.005,
+    0.006
+   ],
+   "motion_strength": 0.008
+  },
+  {
+   "id": "MON-088",
+   "src": "library/monegasque/clips/MON-088.mp4",
+   "file": "Geste - mains qui se servent, crêpe et glace.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_06",
+   "name": "mains qui se servent, crêpe et glace",
+   "category": "geste",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.47,
+   "orientation": "vertical",
+   "brightness": 0.402,
+   "lab": [
+    102.6,
+    137.9,
+    133.1
+   ],
+   "lab_first": [
+    105.7,
+    138.1,
+    134.1
+   ],
+   "lab_last": [
+    93.5,
+    137.1,
+    131.8
+   ],
+   "motion": [
+    -0.216,
+    0.053
+   ],
+   "motion_strength": 0.222
+  },
+  {
+   "id": "MON-089",
+   "src": "library/monegasque/clips/MON-089.mp4",
+   "file": "Table - milkshake rose et crêpe au chocolat.mp4",
+   "source": "PJQG3515.MP4",
+   "extract": "PJQG3515_07",
+   "name": "milkshake rose et crêpe au chocolat",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.6,
+   "orientation": "vertical",
+   "brightness": 0.446,
+   "lab": [
+    113.7,
+    140.7,
+    143.1
+   ],
+   "lab_first": [
+    118.4,
+    139.8,
+    143.8
+   ],
+   "lab_last": [
+    106.5,
+    141.0,
+    142.3
+   ],
+   "motion": [
+    -0.082,
+    0.072
+   ],
+   "motion_strength": 0.109
+  },
+  {
+   "id": "MON-090",
+   "src": "library/monegasque/clips/MON-090.mp4",
+   "file": "Extérieur - piscine et fresques pop art.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_01",
+   "name": "piscine et fresques pop art",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.07,
+   "orientation": "vertical",
+   "brightness": 0.55,
+   "lab": [
+    140.2,
+    117.2,
+    136.8
+   ],
+   "lab_first": [
+    141.8,
+    116.5,
+    137.3
+   ],
+   "lab_last": [
+    140.2,
+    117.5,
+    136.3
+   ],
+   "motion": [
+    -0.046,
+    0.004
+   ],
+   "motion_strength": 0.046
+  },
+  {
+   "id": "MON-091",
+   "src": "library/monegasque/clips/MON-091.mp4",
+   "file": "Salle - salle près de la piscine avec clients.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_02",
+   "name": "salle près de la piscine avec clients",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.413,
+   "lab": [
+    105.3,
+    130.8,
+    133.9
+   ],
+   "lab_first": [
+    101.7,
+    131.0,
+    133.9
+   ],
+   "lab_last": [
+    109.1,
+    130.6,
+    133.9
+   ],
+   "motion": [
+    0.12,
+    0.002
+   ],
+   "motion_strength": 0.12
+  },
+  {
+   "id": "MON-092",
+   "src": "library/monegasque/clips/MON-092.mp4",
+   "file": "Déco - cadre Instagram géant au mur.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_03",
+   "name": "cadre Instagram géant au mur",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.29,
+   "lab": [
+    74.0,
+    141.4,
+    138.5
+   ],
+   "lab_first": [
+    73.8,
+    141.4,
+    138.6
+   ],
+   "lab_last": [
+    74.0,
+    141.2,
+    138.6
+   ],
+   "motion": [
+    -0.011,
+    0.005
+   ],
+   "motion_strength": 0.012
+  },
+  {
+   "id": "MON-093",
+   "src": "library/monegasque/clips/MON-093.mp4",
+   "file": "Geste - main qui sert les tartines.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_04",
+   "name": "main qui sert les tartines",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.321,
+   "lab": [
+    81.9,
+    140.8,
+    142.6
+   ],
+   "lab_first": [
+    83.4,
+    141.1,
+    143.3
+   ],
+   "lab_last": [
+    79.4,
+    140.4,
+    141.9
+   ],
+   "motion": [
+    -0.016,
+    -0.085
+   ],
+   "motion_strength": 0.087
+  },
+  {
+   "id": "MON-094",
+   "src": "library/monegasque/clips/MON-094.mp4",
+   "file": "Salle - salle intérieure le soir, fauteuils verts.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_05",
+   "name": "salle intérieure le soir, fauteuils verts",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.264,
+   "lab": [
+    67.2,
+    133.8,
+    135.3
+   ],
+   "lab_first": [
+    67.6,
+    133.4,
+    135.2
+   ],
+   "lab_last": [
+    66.9,
+    134.1,
+    135.4
+   ],
+   "motion": [
+    0.076,
+    -0.011
+   ],
+   "motion_strength": 0.077
+  },
+  {
+   "id": "MON-095",
+   "src": "library/monegasque/clips/MON-095.mp4",
+   "file": "Salle - table dressée sous le miroir rond.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_06",
+   "name": "table dressée sous le miroir rond",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.349,
+   "lab": [
+    89.0,
+    135.4,
+    136.7
+   ],
+   "lab_first": [
+    88.7,
+    135.2,
+    136.7
+   ],
+   "lab_last": [
+    89.4,
+    135.5,
+    136.8
+   ],
+   "motion": [
+    -0.006,
+    -0.008
+   ],
+   "motion_strength": 0.01
+  },
+  {
+   "id": "MON-096",
+   "src": "library/monegasque/clips/MON-096.mp4",
+   "file": "Salle - coin canapé avec écran, ambiance tamisée.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_07",
+   "name": "coin canapé avec écran, ambiance tamisée",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.145,
+   "lab": [
+    37.0,
+    138.6,
+    131.1
+   ],
+   "lab_first": [
+    32.4,
+    137.9,
+    129.6
+   ],
+   "lab_last": [
+    44.9,
+    139.4,
+    133.5
+   ],
+   "motion": [
+    -0.015,
+    -0.007
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-097",
+   "src": "library/monegasque/clips/MON-097.mp4",
+   "file": "Extérieur - piscine éclairée le soir et trône en mosaïque.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_08",
+   "name": "piscine éclairée le soir et trône en mosaïque",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.467,
+   "lab": [
+    119.0,
+    129.1,
+    134.4
+   ],
+   "lab_first": [
+    119.9,
+    129.0,
+    134.1
+   ],
+   "lab_last": [
+    117.4,
+    129.5,
+    134.4
+   ],
+   "motion": [
+    -0.062,
+    0.002
+   ],
+   "motion_strength": 0.062
+  },
+  {
+   "id": "MON-098",
+   "src": "library/monegasque/clips/MON-098.mp4",
+   "file": "Salle - salle rouge et néons, travelling.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_09",
+   "name": "salle rouge et néons, travelling",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.266,
+   "lab": [
+    67.8,
+    145.1,
+    139.4
+   ],
+   "lab_first": [
+    67.5,
+    144.6,
+    139.4
+   ],
+   "lab_last": [
+    67.5,
+    145.0,
+    139.6
+   ],
+   "motion": [
+    -0.04,
+    -0.022
+   ],
+   "motion_strength": 0.046
+  },
+  {
+   "id": "MON-099",
+   "src": "library/monegasque/clips/MON-099.mp4",
+   "file": "Extérieur - terrasse animée le soir sous les lustres en osier.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_10",
+   "name": "terrasse animée le soir sous les lustres en osier",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.349,
+   "lab": [
+    89.1,
+    132.7,
+    135.9
+   ],
+   "lab_first": [
+    88.9,
+    132.6,
+    135.1
+   ],
+   "lab_last": [
+    89.9,
+    132.6,
+    136.7
+   ],
+   "motion": [
+    0.074,
+    -0.005
+   ],
+   "motion_strength": 0.074
+  },
+  {
+   "id": "MON-100",
+   "src": "library/monegasque/clips/MON-100.mp4",
+   "file": "Extérieur - terrasse le soir avec clients.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_11",
+   "name": "terrasse le soir avec clients",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.369,
+   "lab": [
+    94.2,
+    131.3,
+    135.8
+   ],
+   "lab_first": [
+    93.6,
+    131.0,
+    136.0
+   ],
+   "lab_last": [
+    94.6,
+    131.7,
+    135.5
+   ],
+   "motion": [
+    -0.004,
+    -0.004
+   ],
+   "motion_strength": 0.005
+  },
+  {
+   "id": "MON-101",
+   "src": "library/monegasque/clips/MON-101.mp4",
+   "file": "Extérieur - piscine le soir avec cascade.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_12",
+   "name": "piscine le soir avec cascade",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.422,
+   "lab": [
+    107.6,
+    126.5,
+    138.0
+   ],
+   "lab_first": [
+    107.4,
+    127.0,
+    137.7
+   ],
+   "lab_last": [
+    108.1,
+    125.6,
+    138.4
+   ],
+   "motion": [
+    0.025,
+    -0.03
+   ],
+   "motion_strength": 0.039
+  },
+  {
+   "id": "MON-102",
+   "src": "library/monegasque/clips/MON-102.mp4",
+   "file": "Extérieur - balcon fleuri éclairé la nuit.mp4",
+   "source": "PNTI9320.MP4",
+   "extract": "PNTI9320_13",
+   "name": "balcon fleuri éclairé la nuit",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.341,
+   "lab": [
+    86.8,
+    133.1,
+    130.9
+   ],
+   "lab_first": [
+    86.8,
+    132.6,
+    130.5
+   ],
+   "lab_last": [
+    86.3,
+    133.4,
+    131.5
+   ],
+   "motion": [
+    0.111,
+    0.027
+   ],
+   "motion_strength": 0.114
+  },
+  {
+   "id": "MON-103",
+   "src": "library/monegasque/clips/MON-103.mp4",
+   "file": "Cuisine - flamme dans la poêle en cuisine.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_01",
+   "name": "flamme dans la poêle en cuisine",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.57,
+   "orientation": "vertical",
+   "brightness": 0.364,
+   "lab": [
+    92.7,
+    151.0,
+    162.5
+   ],
+   "lab_first": [
+    94.5,
+    152.0,
+    164.2
+   ],
+   "lab_last": [
+    112.8,
+    154.3,
+    170.1
+   ],
+   "motion": [
+    -0.059,
+    -0.169
+   ],
+   "motion_strength": 0.179
+  },
+  {
+   "id": "MON-104",
+   "src": "library/monegasque/clips/MON-104.mp4",
+   "file": "Cuisine - cuisine et feux allumés.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_02",
+   "name": "cuisine et feux allumés",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.53,
+   "orientation": "vertical",
+   "brightness": 0.196,
+   "lab": [
+    49.9,
+    127.6,
+    125.6
+   ],
+   "lab_first": [
+    39.7,
+    127.9,
+    127.2
+   ],
+   "lab_last": [
+    62.8,
+    128.1,
+    126.5
+   ],
+   "motion": [
+    0.018,
+    0.013
+   ],
+   "motion_strength": 0.022
+  },
+  {
+   "id": "MON-105",
+   "src": "library/monegasque/clips/MON-105.mp4",
+   "file": "Plat - plateau de makis sauce blanche.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_03",
+   "name": "plateau de makis sauce blanche",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.9,
+   "orientation": "vertical",
+   "brightness": 0.371,
+   "lab": [
+    94.6,
+    133.0,
+    137.6
+   ],
+   "lab_first": [
+    94.9,
+    132.8,
+    137.3
+   ],
+   "lab_last": [
+    94.9,
+    133.1,
+    138.3
+   ],
+   "motion": [
+    -0.077,
+    0.056
+   ],
+   "motion_strength": 0.095
+  },
+  {
+   "id": "MON-106",
+   "src": "library/monegasque/clips/MON-106.mp4",
+   "file": "Table - table du soir avec makis et cocktails.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_04",
+   "name": "table du soir avec makis et cocktails",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.271,
+   "lab": [
+    69.2,
+    140.0,
+    148.2
+   ],
+   "lab_first": [
+    69.6,
+    139.7,
+    148.2
+   ],
+   "lab_last": [
+    68.6,
+    140.5,
+    148.0
+   ],
+   "motion": [
+    0.061,
+    -0.002
+   ],
+   "motion_strength": 0.061
+  },
+  {
+   "id": "MON-107",
+   "src": "library/monegasque/clips/MON-107.mp4",
+   "file": "Ambiance - jeune fille qui goûte un maki.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_05",
+   "name": "jeune fille qui goûte un maki",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.29,
+   "lab": [
+    73.9,
+    141.5,
+    136.2
+   ],
+   "lab_first": [
+    74.0,
+    141.7,
+    136.3
+   ],
+   "lab_last": [
+    74.1,
+    141.5,
+    136.3
+   ],
+   "motion": [
+    0.001,
+    0.026
+   ],
+   "motion_strength": 0.026
+  },
+  {
+   "id": "MON-108",
+   "src": "library/monegasque/clips/MON-108.mp4",
+   "file": "Table - grande table du soir avec plats variés.mp4",
+   "source": "PZQQ0715.MP4",
+   "extract": "PZQQ0715_06",
+   "name": "grande table du soir avec plats variés",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.53,
+   "orientation": "vertical",
+   "brightness": 0.405,
+   "lab": [
+    103.3,
+    138.5,
+    143.2
+   ],
+   "lab_first": [
+    102.1,
+    138.3,
+    143.1
+   ],
+   "lab_last": [
+    104.3,
+    138.5,
+    143.2
+   ],
+   "motion": [
+    0.002,
+    -0.013
+   ],
+   "motion_strength": 0.013
+  },
+  {
+   "id": "MON-109",
+   "src": "library/monegasque/clips/MON-109.mp4",
+   "file": "Table - table au bord de la piscine, fresque léopard.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_01",
+   "name": "table au bord de la piscine, fresque léopard",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.437,
+   "lab": [
+    111.4,
+    130.9,
+    131.0
+   ],
+   "lab_first": [
+    110.1,
+    130.6,
+    130.9
+   ],
+   "lab_last": [
+    112.3,
+    131.0,
+    131.2
+   ],
+   "motion": [
+    -0.085,
+    -0.017
+   ],
+   "motion_strength": 0.086
+  },
+  {
+   "id": "MON-110",
+   "src": "library/monegasque/clips/MON-110.mp4",
+   "file": "Table - main sur la table du brunch, crêpe et milkshake.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_02",
+   "name": "main sur la table du brunch, crêpe et milkshake",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.315,
+   "lab": [
+    80.3,
+    138.6,
+    131.1
+   ],
+   "lab_first": [
+    78.1,
+    138.0,
+    131.4
+   ],
+   "lab_last": [
+    82.0,
+    138.7,
+    131.3
+   ],
+   "motion": [
+    -0.114,
+    -0.03
+   ],
+   "motion_strength": 0.117
+  },
+  {
+   "id": "MON-111",
+   "src": "library/monegasque/clips/MON-111.mp4",
+   "file": "Geste - main qui photographie la burrata.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_03",
+   "name": "main qui photographie la burrata",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.308,
+   "lab": [
+    78.7,
+    137.0,
+    137.0
+   ],
+   "lab_first": [
+    76.3,
+    136.8,
+    136.9
+   ],
+   "lab_last": [
+    81.5,
+    137.2,
+    137.4
+   ],
+   "motion": [
+    0.015,
+    -0.002
+   ],
+   "motion_strength": 0.015
+  },
+  {
+   "id": "MON-112",
+   "src": "library/monegasque/clips/MON-112.mp4",
+   "file": "Extérieur - escalier d'entrée avec tapis rouge.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_04",
+   "name": "escalier d'entrée avec tapis rouge",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.327,
+   "lab": [
+    83.4,
+    138.1,
+    133.8
+   ],
+   "lab_first": [
+    91.5,
+    137.0,
+    134.4
+   ],
+   "lab_last": [
+    76.3,
+    138.9,
+    133.2
+   ],
+   "motion": [
+    -0.214,
+    -0.018
+   ],
+   "motion_strength": 0.215
+  },
+  {
+   "id": "MON-113",
+   "src": "library/monegasque/clips/MON-113.mp4",
+   "file": "Geste - couteau qui coupe le burger.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_05",
+   "name": "couteau qui coupe le burger",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.5,
+   "orientation": "vertical",
+   "brightness": 0.393,
+   "lab": [
+    100.2,
+    133.9,
+    130.2
+   ],
+   "lab_first": [
+    99.6,
+    134.0,
+    130.5
+   ],
+   "lab_last": [
+    100.9,
+    133.8,
+    129.7
+   ],
+   "motion": [
+    -0.075,
+    0.061
+   ],
+   "motion_strength": 0.097
+  },
+  {
+   "id": "MON-114",
+   "src": "library/monegasque/clips/MON-114.mp4",
+   "file": "Geste - fourchette dans la burrata, tomates et radis.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_06",
+   "name": "fourchette dans la burrata, tomates et radis",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.57,
+   "orientation": "vertical",
+   "brightness": 0.376,
+   "lab": [
+    95.9,
+    141.7,
+    142.6
+   ],
+   "lab_first": [
+    94.4,
+    141.5,
+    142.6
+   ],
+   "lab_last": [
+    96.7,
+    141.7,
+    142.6
+   ],
+   "motion": [
+    -0.046,
+    0.015
+   ],
+   "motion_strength": 0.048
+  },
+  {
+   "id": "MON-115",
+   "src": "library/monegasque/clips/MON-115.mp4",
+   "file": "Plat - tartine avocat et œuf poché en gros plan.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_07",
+   "name": "tartine avocat et œuf poché en gros plan",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.57,
+   "orientation": "vertical",
+   "brightness": 0.322,
+   "lab": [
+    82.1,
+    138.9,
+    142.8
+   ],
+   "lab_first": [
+    81.5,
+    139.2,
+    142.9
+   ],
+   "lab_last": [
+    81.2,
+    138.7,
+    142.7
+   ],
+   "motion": [
+    -0.04,
+    0.031
+   ],
+   "motion_strength": 0.051
+  },
+  {
+   "id": "MON-116",
+   "src": "library/monegasque/clips/MON-116.mp4",
+   "file": "Table - table du brunch devant la piscine, milkshake rose.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_08",
+   "name": "table du brunch devant la piscine, milkshake rose",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.31,
+   "lab": [
+    79.1,
+    131.8,
+    129.9
+   ],
+   "lab_first": [
+    78.8,
+    131.9,
+    129.8
+   ],
+   "lab_last": [
+    79.2,
+    131.8,
+    129.9
+   ],
+   "motion": [
+    0.009,
+    -0.005
+   ],
+   "motion_strength": 0.01
+  },
+  {
+   "id": "MON-117",
+   "src": "library/monegasque/clips/MON-117.mp4",
+   "file": "Table - brunch complet, crêpe et burrata.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_09",
+   "name": "brunch complet, crêpe et burrata",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.382,
+   "lab": [
+    97.5,
+    132.3,
+    134.7
+   ],
+   "lab_first": [
+    96.8,
+    131.9,
+    134.9
+   ],
+   "lab_last": [
+    98.0,
+    132.7,
+    134.5
+   ],
+   "motion": [
+    0.015,
+    0.008
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-118",
+   "src": "library/monegasque/clips/MON-118.mp4",
+   "file": "Plat - burger frites sur set coloré.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_10",
+   "name": "burger frites sur set coloré",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.35,
+   "lab": [
+    89.3,
+    140.6,
+    135.5
+   ],
+   "lab_first": [
+    89.0,
+    140.6,
+    135.6
+   ],
+   "lab_last": [
+    89.8,
+    140.3,
+    135.4
+   ],
+   "motion": [
+    0.015,
+    0.066
+   ],
+   "motion_strength": 0.068
+  },
+  {
+   "id": "MON-119",
+   "src": "library/monegasque/clips/MON-119.mp4",
+   "file": "Geste - mains qui coupent la tartine avocat.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_11",
+   "name": "mains qui coupent la tartine avocat",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.371,
+   "lab": [
+    94.6,
+    138.0,
+    139.3
+   ],
+   "lab_first": [
+    93.5,
+    137.7,
+    139.0
+   ],
+   "lab_last": [
+    96.2,
+    138.3,
+    139.7
+   ],
+   "motion": [
+    -0.008,
+    -0.006
+   ],
+   "motion_strength": 0.01
+  },
+  {
+   "id": "MON-120",
+   "src": "library/monegasque/clips/MON-120.mp4",
+   "file": "Geste - assiette au bord de la piscine, couverts en action.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_12",
+   "name": "assiette au bord de la piscine, couverts en action",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.432,
+   "lab": [
+    110.2,
+    128.2,
+    130.9
+   ],
+   "lab_first": [
+    110.1,
+    128.2,
+    130.9
+   ],
+   "lab_last": [
+    110.3,
+    128.2,
+    131.0
+   ],
+   "motion": [
+    -0.013,
+    0.015
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "MON-121",
+   "src": "library/monegasque/clips/MON-121.mp4",
+   "file": "Extérieur - terrasse fleurie, plantes violettes.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_13",
+   "name": "terrasse fleurie, plantes violettes",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.369,
+   "lab": [
+    94.2,
+    129.7,
+    126.6
+   ],
+   "lab_first": [
+    106.6,
+    128.4,
+    126.0
+   ],
+   "lab_last": [
+    82.6,
+    131.3,
+    128.3
+   ],
+   "motion": [
+    -0.19,
+    -0.023
+   ],
+   "motion_strength": 0.192
+  },
+  {
+   "id": "MON-122",
+   "src": "library/monegasque/clips/MON-122.mp4",
+   "file": "Extérieur - table devant la piscine et le mur d'assiettes.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_14",
+   "name": "table devant la piscine et le mur d'assiettes",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.408,
+   "lab": [
+    104.1,
+    127.8,
+    128.8
+   ],
+   "lab_first": [
+    103.8,
+    127.7,
+    128.8
+   ],
+   "lab_last": [
+    104.1,
+    127.7,
+    128.9
+   ],
+   "motion": [
+    -0.002,
+    -0.003
+   ],
+   "motion_strength": 0.004
+  },
+  {
+   "id": "MON-123",
+   "src": "library/monegasque/clips/MON-123.mp4",
+   "file": "Extérieur - terrasse avec lustre en osier et chaises tressées.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_15",
+   "name": "terrasse avec lustre en osier et chaises tressées",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.07,
+   "orientation": "vertical",
+   "brightness": 0.369,
+   "lab": [
+    94.0,
+    133.5,
+    134.1
+   ],
+   "lab_first": [
+    93.4,
+    133.1,
+    134.1
+   ],
+   "lab_last": [
+    95.2,
+    133.9,
+    134.8
+   ],
+   "motion": [
+    -0.004,
+    -0.037
+   ],
+   "motion_strength": 0.037
+  },
+  {
+   "id": "MON-124",
+   "src": "library/monegasque/clips/MON-124.mp4",
+   "file": "Extérieur - piscine et cage décorative.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_16",
+   "name": "piscine et cage décorative",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.57,
+   "orientation": "vertical",
+   "brightness": 0.457,
+   "lab": [
+    116.5,
+    123.6,
+    133.2
+   ],
+   "lab_first": [
+    116.7,
+    123.5,
+    133.3
+   ],
+   "lab_last": [
+    116.7,
+    123.7,
+    133.2
+   ],
+   "motion": [
+    0.004,
+    -0.003
+   ],
+   "motion_strength": 0.005
+  },
+  {
+   "id": "MON-125",
+   "src": "library/monegasque/clips/MON-125.mp4",
+   "file": "Table - table du brunch au-dessus de la piscine.mp4",
+   "source": "QGEX4478.MP4",
+   "extract": "QGEX4478_17",
+   "name": "table du brunch au-dessus de la piscine",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.371,
+   "lab": [
+    94.6,
+    132.3,
+    127.4
+   ],
+   "lab_first": [
+    94.3,
+    131.8,
+    127.7
+   ],
+   "lab_last": [
+    94.5,
+    132.7,
+    127.4
+   ],
+   "motion": [
+    0.005,
+    0.014
+   ],
+   "motion_strength": 0.015
+  },
+  {
+   "id": "MON-126",
+   "src": "library/monegasque/clips/MON-126.mp4",
+   "file": "Extérieur - piscine intérieure et mur d'assiettes.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_01",
+   "name": "piscine intérieure et mur d'assiettes",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.486,
+   "lab": [
+    123.9,
+    120.6,
+    121.8
+   ],
+   "lab_first": [
+    119.7,
+    120.7,
+    122.1
+   ],
+   "lab_last": [
+    130.9,
+    119.8,
+    121.9
+   ],
+   "motion": [
+    0.184,
+    0.017
+   ],
+   "motion_strength": 0.185
+  },
+  {
+   "id": "MON-127",
+   "src": "library/monegasque/clips/MON-127.mp4",
+   "file": "Plat - salade burrata sur assiette festonnée.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_02",
+   "name": "salade burrata sur assiette festonnée",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.423,
+   "lab": [
+    108.0,
+    138.1,
+    148.0
+   ],
+   "lab_first": [
+    107.8,
+    138.1,
+    147.7
+   ],
+   "lab_last": [
+    107.7,
+    137.7,
+    147.9
+   ],
+   "motion": [
+    -0.026,
+    -0.051
+   ],
+   "motion_strength": 0.057
+  },
+  {
+   "id": "MON-128",
+   "src": "library/monegasque/clips/MON-128.mp4",
+   "file": "Déco - table dressée avec roses jaunes et faïence bleue.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_03",
+   "name": "table dressée avec roses jaunes et faïence bleue",
+   "category": "deco",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.485,
+   "lab": [
+    123.6,
+    125.7,
+    136.0
+   ],
+   "lab_first": [
+    124.4,
+    125.9,
+    136.0
+   ],
+   "lab_last": [
+    121.5,
+    125.8,
+    136.1
+   ],
+   "motion": [
+    0.275,
+    0.23
+   ],
+   "motion_strength": 0.358
+  },
+  {
+   "id": "MON-129",
+   "src": "library/monegasque/clips/MON-129.mp4",
+   "file": "Ambiance - mains qui applaudissent autour du gâteau d'anniversaire.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_04",
+   "name": "mains qui applaudissent autour du gâteau d'anniversaire",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.392,
+   "lab": [
+    99.9,
+    134.5,
+    131.3
+   ],
+   "lab_first": [
+    94.2,
+    134.8,
+    131.2
+   ],
+   "lab_last": [
+    108.5,
+    133.6,
+    131.2
+   ],
+   "motion": [
+    0.013,
+    0.065
+   ],
+   "motion_strength": 0.066
+  },
+  {
+   "id": "MON-130",
+   "src": "library/monegasque/clips/MON-130.mp4",
+   "file": "Dessert - crêpe chocolat et verre ciselé sur faïence.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_05",
+   "name": "crêpe chocolat et verre ciselé sur faïence",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.467,
+   "lab": [
+    119.1,
+    134.0,
+    136.2
+   ],
+   "lab_first": [
+    115.8,
+    134.3,
+    134.8
+   ],
+   "lab_last": [
+    122.5,
+    133.6,
+    137.8
+   ],
+   "motion": [
+    -0.145,
+    -0.168
+   ],
+   "motion_strength": 0.222
+  },
+  {
+   "id": "MON-131",
+   "src": "library/monegasque/clips/MON-131.mp4",
+   "file": "Salle - coin terrasse avec néon rose.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_06",
+   "name": "coin terrasse avec néon rose",
+   "category": "salle",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.352,
+   "lab": [
+    89.8,
+    137.1,
+    133.3
+   ],
+   "lab_first": [
+    93.2,
+    135.1,
+    133.3
+   ],
+   "lab_last": [
+    84.1,
+    137.9,
+    134.6
+   ],
+   "motion": [
+    -0.291,
+    0.085
+   ],
+   "motion_strength": 0.304
+  },
+  {
+   "id": "MON-132",
+   "src": "library/monegasque/clips/MON-132.mp4",
+   "file": "Plat - paella aux crevettes et citrons.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_07",
+   "name": "paella aux crevettes et citrons",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.365,
+   "lab": [
+    93.1,
+    136.7,
+    139.6
+   ],
+   "lab_first": [
+    91.6,
+    136.5,
+    139.9
+   ],
+   "lab_last": [
+    96.1,
+    136.9,
+    139.2
+   ],
+   "motion": [
+    0.013,
+    0.265
+   ],
+   "motion_strength": 0.265
+  },
+  {
+   "id": "MON-133",
+   "src": "library/monegasque/clips/MON-133.mp4",
+   "file": "Déco - bouquet de roses offert à table.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_08",
+   "name": "bouquet de roses offert à table",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.366,
+   "lab": [
+    93.2,
+    140.8,
+    132.1
+   ],
+   "lab_first": [
+    92.6,
+    140.7,
+    132.1
+   ],
+   "lab_last": [
+    94.5,
+    140.5,
+    132.3
+   ],
+   "motion": [
+    0.006,
+    -0.001
+   ],
+   "motion_strength": 0.006
+  },
+  {
+   "id": "MON-134",
+   "src": "library/monegasque/clips/MON-134.mp4",
+   "file": "Ambiance - couple qui arrive dans la salle.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_09",
+   "name": "couple qui arrive dans la salle",
+   "category": "personnes",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.395,
+   "lab": [
+    100.6,
+    138.9,
+    139.9
+   ],
+   "lab_first": [
+    101.5,
+    138.6,
+    140.0
+   ],
+   "lab_last": [
+    100.0,
+    138.7,
+    139.8
+   ],
+   "motion": [
+    0.006,
+    0.016
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "MON-135",
+   "src": "library/monegasque/clips/MON-135.mp4",
+   "file": "Ambiance - cliente qui entre sous les pétales rouges.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_10",
+   "name": "cliente qui entre sous les pétales rouges",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.407,
+   "lab": [
+    103.7,
+    144.5,
+    139.0
+   ],
+   "lab_first": [
+    88.8,
+    144.5,
+    136.6
+   ],
+   "lab_last": [
+    103.7,
+    144.1,
+    141.2
+   ],
+   "motion": [
+    0.016,
+    -0.028
+   ],
+   "motion_strength": 0.032
+  },
+  {
+   "id": "MON-136",
+   "src": "library/monegasque/clips/MON-136.mp4",
+   "file": "Plat - paella sur set coloré, fleurs autour.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_11",
+   "name": "paella sur set coloré, fleurs autour",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.378,
+   "lab": [
+    96.4,
+    139.7,
+    150.2
+   ],
+   "lab_first": [
+    91.8,
+    139.4,
+    150.1
+   ],
+   "lab_last": [
+    99.7,
+    138.4,
+    150.4
+   ],
+   "motion": [
+    0.052,
+    -0.018
+   ],
+   "motion_strength": 0.055
+  },
+  {
+   "id": "MON-137",
+   "src": "library/monegasque/clips/MON-137.mp4",
+   "file": "Déco - cage à oiseaux en gros plan.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_12",
+   "name": "cage à oiseaux en gros plan",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.385,
+   "lab": [
+    98.2,
+    134.4,
+    131.6
+   ],
+   "lab_first": [
+    102.4,
+    133.6,
+    131.6
+   ],
+   "lab_last": [
+    96.4,
+    134.5,
+    131.5
+   ],
+   "motion": [
+    0.033,
+    0.026
+   ],
+   "motion_strength": 0.042
+  },
+  {
+   "id": "MON-138",
+   "src": "library/monegasque/clips/MON-138.mp4",
+   "file": "Extérieur - terrasse et piscine vues d'en haut.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_13",
+   "name": "terrasse et piscine vues d'en haut",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.388,
+   "lab": [
+    98.9,
+    129.4,
+    130.7
+   ],
+   "lab_first": [
+    98.2,
+    129.2,
+    131.2
+   ],
+   "lab_last": [
+    99.1,
+    129.5,
+    130.3
+   ],
+   "motion": [
+    -0.026,
+    -0.029
+   ],
+   "motion_strength": 0.039
+  },
+  {
+   "id": "MON-139",
+   "src": "library/monegasque/clips/MON-139.mp4",
+   "file": "Déco - mur de pierre et fleurs bleues et jaunes.mp4",
+   "source": "QGGV0366.MP4",
+   "extract": "QGGV0366_14",
+   "name": "mur de pierre et fleurs bleues et jaunes",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.438,
+   "lab": [
+    111.8,
+    132.7,
+    139.5
+   ],
+   "lab_first": [
+    101.7,
+    133.8,
+    141.4
+   ],
+   "lab_last": [
+    118.7,
+    132.0,
+    136.9
+   ],
+   "motion": [
+    -0.298,
+    -0.048
+   ],
+   "motion_strength": 0.301
+  },
+  {
+   "id": "MON-140",
+   "src": "library/monegasque/clips/MON-140.mp4",
+   "file": "Table - tajine, gâteau et assiette avocat devant la piscine.mp4",
+   "source": "SCCS0618.MP4",
+   "extract": "SCCS0618_01",
+   "name": "tajine, gâteau et assiette avocat devant la piscine",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.461,
+   "lab": [
+    117.5,
+    132.3,
+    133.5
+   ],
+   "lab_first": [
+    117.6,
+    132.4,
+    133.4
+   ],
+   "lab_last": [
+    117.7,
+    132.2,
+    133.5
+   ],
+   "motion": [
+    -0.003,
+    -0.011
+   ],
+   "motion_strength": 0.012
+  },
+  {
+   "id": "MON-141",
+   "src": "library/monegasque/clips/MON-141.mp4",
+   "file": "Table - table ronde du brunch sur la terrasse arborée.mp4",
+   "source": "SCCS0618.MP4",
+   "extract": "SCCS0618_02",
+   "name": "table ronde du brunch sur la terrasse arborée",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.17,
+   "orientation": "vertical",
+   "brightness": 0.433,
+   "lab": [
+    110.5,
+    133.9,
+    136.8
+   ],
+   "lab_first": [
+    109.8,
+    133.7,
+    136.9
+   ],
+   "lab_last": [
+    110.8,
+    133.9,
+    136.7
+   ],
+   "motion": [
+    0.009,
+    0.0
+   ],
+   "motion_strength": 0.009
+  },
+  {
+   "id": "MON-142",
+   "src": "library/monegasque/clips/MON-142.mp4",
+   "file": "Geste - sauce chocolat versée sur la crêpe.mp4",
+   "source": "SCCS0618.MP4",
+   "extract": "SCCS0618_03",
+   "name": "sauce chocolat versée sur la crêpe",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.449,
+   "lab": [
+    114.5,
+    141.6,
+    143.6
+   ],
+   "lab_first": [
+    115.4,
+    141.6,
+    143.9
+   ],
+   "lab_last": [
+    114.4,
+    141.5,
+    143.3
+   ],
+   "motion": [
+    0.019,
+    -0.052
+   ],
+   "motion_strength": 0.056
+  },
+  {
+   "id": "MON-143",
+   "src": "library/monegasque/clips/MON-143.mp4",
+   "file": "Geste - serveur qui apporte l'assiette, bar en fond.mp4",
+   "source": "SCCS0618.MP4",
+   "extract": "SCCS0618_04",
+   "name": "serveur qui apporte l'assiette, bar en fond",
+   "category": "geste",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.36,
+   "lab": [
+    91.8,
+    136.3,
+    140.2
+   ],
+   "lab_first": [
+    90.8,
+    136.5,
+    140.4
+   ],
+   "lab_last": [
+    91.7,
+    136.2,
+    140.3
+   ],
+   "motion": [
+    0.006,
+    0.015
+   ],
+   "motion_strength": 0.016
+  },
+  {
+   "id": "MON-144",
+   "src": "library/monegasque/clips/MON-144.mp4",
+   "file": "Table - brunch au bord de la piscine avec jus et smoothies.mp4",
+   "source": "SGIH2797.MP4",
+   "extract": "SGIH2797_01",
+   "name": "brunch au bord de la piscine avec jus et smoothies",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.378,
+   "lab": [
+    96.3,
+    126.6,
+    129.0
+   ],
+   "lab_first": [
+    95.7,
+    126.4,
+    129.3
+   ],
+   "lab_last": [
+    96.2,
+    126.7,
+    128.8
+   ],
+   "motion": [
+    -0.001,
+    0.001
+   ],
+   "motion_strength": 0.002
+  },
+  {
+   "id": "MON-145",
+   "src": "library/monegasque/clips/MON-145.mp4",
+   "file": "Table - table du brunch en surplomb de la piscine.mp4",
+   "source": "SGIH2797.MP4",
+   "extract": "SGIH2797_02",
+   "name": "table du brunch en surplomb de la piscine",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.7,
+   "orientation": "vertical",
+   "brightness": 0.38,
+   "lab": [
+    96.9,
+    129.9,
+    129.7
+   ],
+   "lab_first": [
+    99.7,
+    129.7,
+    130.2
+   ],
+   "lab_last": [
+    96.6,
+    128.8,
+    129.1
+   ],
+   "motion": [
+    0.022,
+    0.005
+   ],
+   "motion_strength": 0.023
+  },
+  {
+   "id": "MON-146",
+   "src": "library/monegasque/clips/MON-146.mp4",
+   "file": "Table - brunch complet avec crêpe et toasts, vue de dessus.mp4",
+   "source": "SGIH2797.MP4",
+   "extract": "SGIH2797_03",
+   "name": "brunch complet avec crêpe et toasts, vue de dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.321,
+   "lab": [
+    81.9,
+    137.4,
+    133.2
+   ],
+   "lab_first": [
+    79.0,
+    137.2,
+    133.1
+   ],
+   "lab_last": [
+    83.1,
+    137.4,
+    133.5
+   ],
+   "motion": [
+    -0.054,
+    -0.01
+   ],
+   "motion_strength": 0.055
+  },
+  {
+   "id": "MON-147",
+   "src": "library/monegasque/clips/MON-147.mp4",
+   "file": "Extérieur - terrasse couverte et lustres en osier.mp4",
+   "source": "SGIH2797.MP4",
+   "extract": "SGIH2797_04",
+   "name": "terrasse couverte et lustres en osier",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.438,
+   "lab": [
+    111.8,
+    135.6,
+    133.1
+   ],
+   "lab_first": [
+    112.8,
+    134.9,
+    132.8
+   ],
+   "lab_last": [
+    109.7,
+    135.6,
+    134.0
+   ],
+   "motion": [
+    -0.065,
+    -0.011
+   ],
+   "motion_strength": 0.066
+  },
+  {
+   "id": "MON-148",
+   "src": "library/monegasque/clips/MON-148.mp4",
+   "file": "Ambiance - cliente sur la terrasse aux tournesols.mp4",
+   "source": "SGIH2797.MP4",
+   "extract": "SGIH2797_05",
+   "name": "cliente sur la terrasse aux tournesols",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.17,
+   "orientation": "vertical",
+   "brightness": 0.455,
+   "lab": [
+    115.9,
+    133.6,
+    135.1
+   ],
+   "lab_first": [
+    112.2,
+    133.9,
+    135.5
+   ],
+   "lab_last": [
+    116.8,
+    133.1,
+    134.2
+   ],
+   "motion": [
+    -0.096,
+    -0.038
+   ],
+   "motion_strength": 0.103
+  },
+  {
+   "id": "MON-149",
+   "src": "library/monegasque/clips/MON-149.mp4",
+   "file": "Plat - salade, frites de patate douce et sauce.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_02",
+   "name": "salade, frites de patate douce et sauce",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.374,
+   "lab": [
+    95.3,
+    131.0,
+    141.0
+   ],
+   "lab_first": [
+    92.1,
+    130.1,
+    139.5
+   ],
+   "lab_last": [
+    94.9,
+    131.2,
+    142.1
+   ],
+   "motion": [
+    0.007,
+    -0.072
+   ],
+   "motion_strength": 0.072
+  },
+  {
+   "id": "MON-150",
+   "src": "library/monegasque/clips/MON-150.mp4",
+   "file": "Plat - poisson grillé et vase jaune.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_04",
+   "name": "poisson grillé et vase jaune",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.345,
+   "lab": [
+    87.9,
+    136.4,
+    144.2
+   ],
+   "lab_first": [
+    89.2,
+    136.4,
+    145.0
+   ],
+   "lab_last": [
+    88.3,
+    136.0,
+    144.2
+   ],
+   "motion": [
+    0.028,
+    -0.028
+   ],
+   "motion_strength": 0.039
+  },
+  {
+   "id": "MON-151",
+   "src": "library/monegasque/clips/MON-151.mp4",
+   "file": "Déco - bouquet de roses rouges et blanches.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_05",
+   "name": "bouquet de roses rouges et blanches",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.219,
+   "lab": [
+    55.9,
+    148.7,
+    141.8
+   ],
+   "lab_first": [
+    54.6,
+    148.4,
+    141.6
+   ],
+   "lab_last": [
+    57.2,
+    149.0,
+    142.0
+   ],
+   "motion": [
+    0.062,
+    0.012
+   ],
+   "motion_strength": 0.063
+  },
+  {
+   "id": "MON-152",
+   "src": "library/monegasque/clips/MON-152.mp4",
+   "file": "Boisson - main qui tient un mojito bleu.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_06",
+   "name": "main qui tient un mojito bleu",
+   "category": "boisson",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.354,
+   "lab": [
+    90.3,
+    127.5,
+    125.2
+   ],
+   "lab_first": [
+    89.8,
+    128.0,
+    126.3
+   ],
+   "lab_last": [
+    90.9,
+    127.7,
+    124.4
+   ],
+   "motion": [
+    -0.004,
+    0.016
+   ],
+   "motion_strength": 0.016
+  },
+  {
+   "id": "MON-153",
+   "src": "library/monegasque/clips/MON-153.mp4",
+   "file": "Plat - assiette de grillades au bord de la piscine.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_07",
+   "name": "assiette de grillades au bord de la piscine",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.346,
+   "lab": [
+    88.3,
+    128.6,
+    134.4
+   ],
+   "lab_first": [
+    87.9,
+    128.6,
+    134.3
+   ],
+   "lab_last": [
+    88.5,
+    128.5,
+    134.4
+   ],
+   "motion": [
+    -0.001,
+    -0.007
+   ],
+   "motion_strength": 0.007
+  },
+  {
+   "id": "MON-154",
+   "src": "library/monegasque/clips/MON-154.mp4",
+   "file": "Plat - viande et frites sur set coloré.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_08",
+   "name": "viande et frites sur set coloré",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.353,
+   "lab": [
+    90.0,
+    138.7,
+    134.3
+   ],
+   "lab_first": [
+    88.9,
+    138.7,
+    134.5
+   ],
+   "lab_last": [
+    91.1,
+    138.2,
+    134.4
+   ],
+   "motion": [
+    0.008,
+    0.036
+   ],
+   "motion_strength": 0.037
+  },
+  {
+   "id": "MON-155",
+   "src": "library/monegasque/clips/MON-155.mp4",
+   "file": "Plat - assiette œuf et roquette devant la fresque.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_10",
+   "name": "assiette œuf et roquette devant la fresque",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.27,
+   "orientation": "vertical",
+   "brightness": 0.416,
+   "lab": [
+    106.2,
+    131.9,
+    142.9
+   ],
+   "lab_first": [
+    106.0,
+    131.5,
+    140.7
+   ],
+   "lab_last": [
+    105.1,
+    132.4,
+    145.2
+   ],
+   "motion": [
+    0.04,
+    -0.05
+   ],
+   "motion_strength": 0.064
+  },
+  {
+   "id": "MON-156",
+   "src": "library/monegasque/clips/MON-156.mp4",
+   "file": "Extérieur - façade avec drapeaux et enseigne Samouraï.mp4",
+   "source": "THFR5018.MP4",
+   "extract": "THFR5018_11",
+   "name": "façade avec drapeaux et enseigne Samouraï",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.354,
+   "lab": [
+    90.3,
+    134.0,
+    131.2
+   ],
+   "lab_first": [
+    89.6,
+    133.5,
+    131.0
+   ],
+   "lab_last": [
+    99.1,
+    133.4,
+    132.4
+   ],
+   "motion": [
+    0.019,
+    -0.022
+   ],
+   "motion_strength": 0.029
+  },
+  {
+   "id": "MON-157",
+   "src": "library/monegasque/clips/MON-157.mp4",
+   "file": "Dessert - dessert chantilly et milkshake au bord de la piscine.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_01",
+   "name": "dessert chantilly et milkshake au bord de la piscine",
+   "category": "dessert",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.6,
+   "orientation": "vertical",
+   "brightness": 0.314,
+   "lab": [
+    80.2,
+    131.7,
+    126.4
+   ],
+   "lab_first": [
+    80.8,
+    130.5,
+    126.0
+   ],
+   "lab_last": [
+    78.6,
+    132.1,
+    126.8
+   ],
+   "motion": [
+    -0.013,
+    0.007
+   ],
+   "motion_strength": 0.014
+  },
+  {
+   "id": "MON-158",
+   "src": "library/monegasque/clips/MON-158.mp4",
+   "file": "Ambiance - cliente qui regarde le menu face à la piscine.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_02",
+   "name": "cliente qui regarde le menu face à la piscine",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.47,
+   "orientation": "vertical",
+   "brightness": 0.49,
+   "lab": [
+    124.9,
+    132.3,
+    132.1
+   ],
+   "lab_first": [
+    115.7,
+    131.6,
+    132.7
+   ],
+   "lab_last": [
+    117.5,
+    132.3,
+    132.5
+   ],
+   "motion": [
+    -0.109,
+    0.026
+   ],
+   "motion_strength": 0.112
+  },
+  {
+   "id": "MON-159",
+   "src": "library/monegasque/clips/MON-159.mp4",
+   "file": "Geste - doigt qui montre la salade au parmesan.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_03",
+   "name": "doigt qui montre la salade au parmesan",
+   "category": "geste",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.356,
+   "lab": [
+    90.8,
+    144.6,
+    133.2
+   ],
+   "lab_first": [
+    96.7,
+    145.6,
+    134.0
+   ],
+   "lab_last": [
+    86.8,
+    143.7,
+    132.6
+   ],
+   "motion": [
+    0.004,
+    0.086
+   ],
+   "motion_strength": 0.086
+  },
+  {
+   "id": "MON-160",
+   "src": "library/monegasque/clips/MON-160.mp4",
+   "file": "Table - table avec frites, salade et carafe ciselée.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_04",
+   "name": "table avec frites, salade et carafe ciselée",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.53,
+   "orientation": "vertical",
+   "brightness": 0.45,
+   "lab": [
+    114.8,
+    130.0,
+    146.1
+   ],
+   "lab_first": [
+    101.1,
+    134.0,
+    137.3
+   ],
+   "lab_last": [
+    139.3,
+    131.5,
+    152.7
+   ],
+   "motion": [
+    0.448,
+    0.09
+   ],
+   "motion_strength": 0.457
+  },
+  {
+   "id": "MON-161",
+   "src": "library/monegasque/clips/MON-161.mp4",
+   "file": "Plat - escalope panée nappée de sauce.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_05",
+   "name": "escalope panée nappée de sauce",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 3.3,
+   "orientation": "vertical",
+   "brightness": 0.502,
+   "lab": [
+    128.0,
+    135.3,
+    149.7
+   ],
+   "lab_first": [
+    129.3,
+    134.6,
+    148.9
+   ],
+   "lab_last": [
+    136.6,
+    136.9,
+    150.9
+   ],
+   "motion": [
+    -0.187,
+    0.055
+   ],
+   "motion_strength": 0.194
+  },
+  {
+   "id": "MON-162",
+   "src": "library/monegasque/clips/MON-162.mp4",
+   "file": "Plat - assiette frites et sauce, verres ciselés.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_06",
+   "name": "assiette frites et sauce, verres ciselés",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.93,
+   "orientation": "vertical",
+   "brightness": 0.359,
+   "lab": [
+    91.6,
+    134.3,
+    136.0
+   ],
+   "lab_first": [
+    91.6,
+    133.7,
+    136.2
+   ],
+   "lab_last": [
+    92.0,
+    135.0,
+    136.3
+   ],
+   "motion": [
+    0.005,
+    -0.02
+   ],
+   "motion_strength": 0.021
+  },
+  {
+   "id": "MON-163",
+   "src": "library/monegasque/clips/MON-163.mp4",
+   "file": "Geste - couteau qui tranche la viande grillée.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_07",
+   "name": "couteau qui tranche la viande grillée",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.388,
+   "lab": [
+    99.0,
+    139.1,
+    137.8
+   ],
+   "lab_first": [
+    105.3,
+    139.2,
+    136.6
+   ],
+   "lab_last": [
+    95.8,
+    139.9,
+    139.1
+   ],
+   "motion": [
+    -0.05,
+    -0.007
+   ],
+   "motion_strength": 0.05
+  },
+  {
+   "id": "MON-164",
+   "src": "library/monegasque/clips/MON-164.mp4",
+   "file": "Table - table avec houmous et bouteille d'eau.mp4",
+   "source": "UMNK1451.MP4",
+   "extract": "UMNK1451_08",
+   "name": "table avec houmous et bouteille d'eau",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.17,
+   "orientation": "vertical",
+   "brightness": 0.469,
+   "lab": [
+    119.7,
+    133.9,
+    132.4
+   ],
+   "lab_first": [
+    120.8,
+    134.3,
+    132.8
+   ],
+   "lab_last": [
+    116.1,
+    132.4,
+    130.9
+   ],
+   "motion": [
+    -0.083,
+    0.155
+   ],
+   "motion_strength": 0.176
+  },
+  {
+   "id": "MON-165",
+   "src": "library/monegasque/clips/MON-165.mp4",
+   "file": "Extérieur - terrasse fleurie et lustres en osier.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_02",
+   "name": "terrasse fleurie et lustres en osier",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.36,
+   "orientation": "vertical",
+   "brightness": 0.448,
+   "lab": [
+    114.3,
+    124.2,
+    129.6
+   ],
+   "lab_first": [
+    114.5,
+    124.1,
+    129.6
+   ],
+   "lab_last": [
+    113.8,
+    124.2,
+    129.6
+   ],
+   "motion": [
+    -0.004,
+    -0.03
+   ],
+   "motion_strength": 0.031
+  },
+  {
+   "id": "MON-166",
+   "src": "library/monegasque/clips/MON-166.mp4",
+   "file": "Déco - ballons d'anniversaire blancs et noirs.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_03",
+   "name": "ballons d'anniversaire blancs et noirs",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.36,
+   "orientation": "vertical",
+   "brightness": 0.3,
+   "lab": [
+    76.5,
+    134.0,
+    137.1
+   ],
+   "lab_first": [
+    61.1,
+    127.9,
+    131.5
+   ],
+   "lab_last": [
+    85.8,
+    137.9,
+    140.3
+   ],
+   "motion": [
+    0.027,
+    0.001
+   ],
+   "motion_strength": 0.027
+  },
+  {
+   "id": "MON-167",
+   "src": "library/monegasque/clips/MON-167.mp4",
+   "file": "Table - table du brunch sous les plantes.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_04",
+   "name": "table du brunch sous les plantes",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.36,
+   "orientation": "vertical",
+   "brightness": 0.388,
+   "lab": [
+    99.1,
+    138.1,
+    141.0
+   ],
+   "lab_first": [
+    100.6,
+    138.7,
+    143.9
+   ],
+   "lab_last": [
+    92.2,
+    136.0,
+    132.2
+   ],
+   "motion": [
+    0.052,
+    -0.031
+   ],
+   "motion_strength": 0.061
+  },
+  {
+   "id": "MON-168",
+   "src": "library/monegasque/clips/MON-168.mp4",
+   "file": "Extérieur - entrée avec escalier et tapis rouge.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_05",
+   "name": "entrée avec escalier et tapis rouge",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.36,
+   "orientation": "vertical",
+   "brightness": 0.389,
+   "lab": [
+    99.1,
+    137.1,
+    134.9
+   ],
+   "lab_first": [
+    103.9,
+    138.4,
+    135.4
+   ],
+   "lab_last": [
+    91.4,
+    135.0,
+    133.9
+   ],
+   "motion": [
+    -0.056,
+    -0.049
+   ],
+   "motion_strength": 0.075
+  },
+  {
+   "id": "MON-169",
+   "src": "library/monegasque/clips/MON-169.mp4",
+   "file": "Table - pancakes chocolat, café et jus d'orange.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_06",
+   "name": "pancakes chocolat, café et jus d'orange",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.44,
+   "orientation": "vertical",
+   "brightness": 0.26,
+   "lab": [
+    66.4,
+    154.6,
+    118.1
+   ],
+   "lab_first": [
+    81.8,
+    136.6,
+    137.4
+   ],
+   "lab_last": [
+    57.9,
+    165.0,
+    111.0
+   ],
+   "motion": [
+    0.061,
+    -0.016
+   ],
+   "motion_strength": 0.063
+  },
+  {
+   "id": "MON-170",
+   "src": "library/monegasque/clips/MON-170.mp4",
+   "file": "Extérieur - entrée illuminée en violet la nuit.mp4",
+   "source": "WVUR6737.MP4",
+   "extract": "WVUR6737_07",
+   "name": "entrée illuminée en violet la nuit",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.44,
+   "orientation": "vertical",
+   "brightness": 0.267,
+   "lab": [
+    68.2,
+    156.1,
+    122.9
+   ],
+   "lab_first": [
+    57.1,
+    164.9,
+    111.1
+   ],
+   "lab_last": [
+    86.3,
+    140.9,
+    142.7
+   ],
+   "motion": [
+    -0.029,
+    -0.012
+   ],
+   "motion_strength": 0.031
+  },
+  {
+   "id": "MON-171",
+   "src": "library/monegasque/clips/MON-171.mp4",
+   "file": "Extérieur - terrasse et fauteuil en rotin.mp4",
+   "source": "XKUX8230.MP4",
+   "extract": "XKUX8230_01",
+   "name": "terrasse et fauteuil en rotin",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.393,
+   "lab": [
+    100.3,
+    138.5,
+    134.3
+   ],
+   "lab_first": [
+    99.2,
+    138.1,
+    134.4
+   ],
+   "lab_last": [
+    101.5,
+    138.8,
+    134.2
+   ],
+   "motion": [
+    0.03,
+    -0.019
+   ],
+   "motion_strength": 0.035
+  },
+  {
+   "id": "MON-172",
+   "src": "library/monegasque/clips/MON-172.mp4",
+   "file": "Dessert - bol granola, fraises et banane.mp4",
+   "source": "XKUX8230.MP4",
+   "extract": "XKUX8230_02",
+   "name": "bol granola, fraises et banane",
+   "category": "dessert",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.93,
+   "orientation": "vertical",
+   "brightness": 0.354,
+   "lab": [
+    90.4,
+    137.8,
+    133.7
+   ],
+   "lab_first": [
+    88.1,
+    140.9,
+    134.7
+   ],
+   "lab_last": [
+    101.8,
+    138.5,
+    137.9
+   ],
+   "motion": [
+    0.868,
+    0.407
+   ],
+   "motion_strength": 0.959
+  }
+ ]
+}

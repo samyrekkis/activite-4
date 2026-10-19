@@ -20,7 +20,11 @@ const output = `out/${name}-v${plan.version ?? 1}${preview ? "-preview" : ""}.mp
 // Prefer an explicit browser, else a preinstalled headless shell, else let Remotion download one.
 const browser =
   process.env.REMOTION_BROWSER ??
-  globSync("/opt/pw-browsers/chromium_headless_shell-*/*/headless_shell").find(existsSync);
+  [
+    ...globSync("/opt/pw-browsers/chromium_headless_shell-*/*/headless_shell"),
+    "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+  ].find(existsSync);
 
 // The composition takes { plan } (see src/Root.tsx).
 mkdirSync("out", { recursive: true });
@@ -31,7 +35,8 @@ const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--p
 if (preview) cliArgs.push("--scale=0.5");
 if (browser) cliArgs.push(`--browser-executable=${browser}`);
 
-const child = spawn("npx", cliArgs, { stdio: "inherit" });
+// Run the Remotion CLI with this Node directly (npx is a .cmd on Windows, which needs a shell).
+const child = spawn(process.execPath, ["node_modules/@remotion/cli/remotion-cli.js", ...cliArgs.slice(1)], { stdio: "inherit" });
 child.on("close", (code) => {
   if (code === 0) console.log(`\nRendu : ${output}`);
   process.exit(code ?? 1);

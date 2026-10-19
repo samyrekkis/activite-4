@@ -1,0 +1,1825 @@
+{
+ "restaurant": "samourai",
+ "clips": [
+  {
+   "id": "SAM-001",
+   "src": "library/samourai/clips/SAM-001.mp4",
+   "file": "Salle - salle avec bar et cave, plan horizontal.mp4",
+   "source": "CFVE3873.MP4",
+   "extract": "CFVE3873_01",
+   "name": "salle avec bar et cave, plan horizontal",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 3.74,
+   "orientation": "horizontal",
+   "brightness": 0.397,
+   "lab": [
+    101.2,
+    134.4,
+    132.9
+   ],
+   "lab_first": [
+    92.8,
+    138.4,
+    131.3
+   ],
+   "lab_last": [
+    112.4,
+    133.3,
+    136.4
+   ],
+   "motion": [
+    0.208,
+    -0.061
+   ],
+   "motion_strength": 0.217
+  },
+  {
+   "id": "SAM-002",
+   "src": "library/samourai/clips/SAM-002.mp4",
+   "file": "Déco - entrée néon et vitrine dorée.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_01",
+   "name": "entrée néon et vitrine dorée",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.344,
+   "lab": [
+    87.8,
+    146.5,
+    126.1
+   ],
+   "lab_first": [
+    96.0,
+    146.6,
+    126.2
+   ],
+   "lab_last": [
+    81.8,
+    142.9,
+    130.2
+   ],
+   "motion": [
+    0.166,
+    0.047
+   ],
+   "motion_strength": 0.173
+  },
+  {
+   "id": "SAM-003",
+   "src": "library/samourai/clips/SAM-003.mp4",
+   "file": "Plat - bœuf laqué et riz sur set Samouraï.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_02",
+   "name": "bœuf laqué et riz sur set Samouraï",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.97,
+   "orientation": "vertical",
+   "brightness": 0.414,
+   "lab": [
+    105.5,
+    135.5,
+    123.9
+   ],
+   "lab_first": [
+    104.9,
+    135.1,
+    124.8
+   ],
+   "lab_last": [
+    104.8,
+    136.4,
+    123.2
+   ],
+   "motion": [
+    -0.022,
+    -0.024
+   ],
+   "motion_strength": 0.033
+  },
+  {
+   "id": "SAM-004",
+   "src": "library/samourai/clips/SAM-004.mp4",
+   "file": "Plat - plateau étagé de sushis et makis.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_03",
+   "name": "plateau étagé de sushis et makis",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.17,
+   "orientation": "vertical",
+   "brightness": 0.429,
+   "lab": [
+    109.3,
+    135.8,
+    151.9
+   ],
+   "lab_first": [
+    105.8,
+    135.5,
+    150.4
+   ],
+   "lab_last": [
+    112.0,
+    136.1,
+    152.1
+   ],
+   "motion": [
+    0.044,
+    -0.241
+   ],
+   "motion_strength": 0.245
+  },
+  {
+   "id": "SAM-005",
+   "src": "library/samourai/clips/SAM-005.mp4",
+   "file": "Plat - makis frits et sauce soja sur set laqué.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_04",
+   "name": "makis frits et sauce soja sur set laqué",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.374,
+   "lab": [
+    95.5,
+    137.4,
+    138.2
+   ],
+   "lab_first": [
+    95.1,
+    137.0,
+    138.4
+   ],
+   "lab_last": [
+    95.1,
+    137.7,
+    138.1
+   ],
+   "motion": [
+    0.039,
+    -0.029
+   ],
+   "motion_strength": 0.049
+  },
+  {
+   "id": "SAM-006",
+   "src": "library/samourai/clips/SAM-006.mp4",
+   "file": "Geste - baguettes qui trempent un maki dans la sauce.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_05",
+   "name": "baguettes qui trempent un maki dans la sauce",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.426,
+   "lab": [
+    108.5,
+    133.2,
+    138.3
+   ],
+   "lab_first": [
+    104.5,
+    133.1,
+    136.6
+   ],
+   "lab_last": [
+    111.7,
+    134.0,
+    139.9
+   ],
+   "motion": [
+    0.034,
+    -0.039
+   ],
+   "motion_strength": 0.051
+  },
+  {
+   "id": "SAM-007",
+   "src": "library/samourai/clips/SAM-007.mp4",
+   "file": "Salle - salle avec plantes et lanternes rouges.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_06",
+   "name": "salle avec plantes et lanternes rouges",
+   "category": "salle",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.93,
+   "orientation": "vertical",
+   "brightness": 0.311,
+   "lab": [
+    79.3,
+    136.1,
+    143.4
+   ],
+   "lab_first": [
+    77.2,
+    141.7,
+    142.3
+   ],
+   "lab_last": [
+    81.4,
+    132.3,
+    143.5
+   ],
+   "motion": [
+    0.2,
+    0.023
+   ],
+   "motion_strength": 0.201
+  },
+  {
+   "id": "SAM-008",
+   "src": "library/samourai/clips/SAM-008.mp4",
+   "file": "Salle - salle aux chaises rouges et climatisation.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_07",
+   "name": "salle aux chaises rouges et climatisation",
+   "category": "salle",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.63,
+   "orientation": "vertical",
+   "brightness": 0.312,
+   "lab": [
+    79.5,
+    138.2,
+    136.6
+   ],
+   "lab_first": [
+    78.0,
+    137.9,
+    137.1
+   ],
+   "lab_last": [
+    81.1,
+    138.1,
+    136.4
+   ],
+   "motion": [
+    -0.005,
+    0.024
+   ],
+   "motion_strength": 0.025
+  },
+  {
+   "id": "SAM-009",
+   "src": "library/samourai/clips/SAM-009.mp4",
+   "file": "Cuisine - chefs en cuisine derrière le comptoir en marbre.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_08",
+   "name": "chefs en cuisine derrière le comptoir en marbre",
+   "category": "cuisine",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.27,
+   "orientation": "vertical",
+   "brightness": 0.397,
+   "lab": [
+    101.2,
+    138.2,
+    146.6
+   ],
+   "lab_first": [
+    98.3,
+    137.5,
+    146.1
+   ],
+   "lab_last": [
+    103.4,
+    138.5,
+    147.2
+   ],
+   "motion": [
+    -0.039,
+    -0.041
+   ],
+   "motion_strength": 0.057
+  },
+  {
+   "id": "SAM-010",
+   "src": "library/samourai/clips/SAM-010.mp4",
+   "file": "Extérieur - terrasse végétale et tables.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_09",
+   "name": "terrasse végétale et tables",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.63,
+   "orientation": "vertical",
+   "brightness": 0.312,
+   "lab": [
+    79.4,
+    131.7,
+    134.9
+   ],
+   "lab_first": [
+    80.5,
+    131.1,
+    135.4
+   ],
+   "lab_last": [
+    80.7,
+    134.0,
+    133.0
+   ],
+   "motion": [
+    -0.368,
+    0.076
+   ],
+   "motion_strength": 0.376
+  },
+  {
+   "id": "SAM-011",
+   "src": "library/samourai/clips/SAM-011.mp4",
+   "file": "Salle - salle avec vase calligraphié et plantes.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_10",
+   "name": "salle avec vase calligraphié et plantes",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.318,
+   "lab": [
+    81.0,
+    134.2,
+    143.7
+   ],
+   "lab_first": [
+    80.2,
+    134.5,
+    145.0
+   ],
+   "lab_last": [
+    81.3,
+    133.2,
+    141.4
+   ],
+   "motion": [
+    -0.056,
+    0.022
+   ],
+   "motion_strength": 0.06
+  },
+  {
+   "id": "SAM-012",
+   "src": "library/samourai/clips/SAM-012.mp4",
+   "file": "Déco - grande plante tropicale dans la salle.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_11",
+   "name": "grande plante tropicale dans la salle",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.39,
+   "lab": [
+    99.4,
+    126.0,
+    140.1
+   ],
+   "lab_first": [
+    96.6,
+    126.8,
+    140.2
+   ],
+   "lab_last": [
+    106.8,
+    125.5,
+    139.4
+   ],
+   "motion": [
+    -0.146,
+    0.008
+   ],
+   "motion_strength": 0.146
+  },
+  {
+   "id": "SAM-013",
+   "src": "library/samourai/clips/SAM-013.mp4",
+   "file": "Salle - salle aux lanternes et miroir doré.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_12",
+   "name": "salle aux lanternes et miroir doré",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.256,
+   "lab": [
+    65.3,
+    142.6,
+    132.4
+   ],
+   "lab_first": [
+    65.7,
+    142.0,
+    132.8
+   ],
+   "lab_last": [
+    64.2,
+    143.2,
+    131.7
+   ],
+   "motion": [
+    -0.084,
+    0.002
+   ],
+   "motion_strength": 0.084
+  },
+  {
+   "id": "SAM-014",
+   "src": "library/samourai/clips/SAM-014.mp4",
+   "file": "Salle - entrée avec sol en marbre et lanternes.mp4",
+   "source": "FGSO1877.MP4",
+   "extract": "FGSO1877_13",
+   "name": "entrée avec sol en marbre et lanternes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.27,
+   "orientation": "vertical",
+   "brightness": 0.316,
+   "lab": [
+    80.6,
+    138.9,
+    141.4
+   ],
+   "lab_first": [
+    93.4,
+    135.2,
+    132.2
+   ],
+   "lab_last": [
+    62.3,
+    144.4,
+    148.6
+   ],
+   "motion": [
+    0.251,
+    0.042
+   ],
+   "motion_strength": 0.255
+  },
+  {
+   "id": "SAM-015",
+   "src": "library/samourai/clips/SAM-015.mp4",
+   "file": "Déco - paravent en bois sculpté et lumière rouge.mp4",
+   "source": "GFKM5806.MP4",
+   "extract": "GFKM5806_01",
+   "name": "paravent en bois sculpté et lumière rouge",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.73,
+   "orientation": "vertical",
+   "brightness": 0.3,
+   "lab": [
+    76.5,
+    149.6,
+    134.8
+   ],
+   "lab_first": [
+    77.5,
+    147.8,
+    134.8
+   ],
+   "lab_last": [
+    80.9,
+    151.3,
+    137.5
+   ],
+   "motion": [
+    -0.194,
+    -0.001
+   ],
+   "motion_strength": 0.194
+  },
+  {
+   "id": "SAM-016",
+   "src": "library/samourai/clips/SAM-016.mp4",
+   "file": "Déco - escalier et fresque rouge du samouraï.mp4",
+   "source": "GFKM5806.MP4",
+   "extract": "GFKM5806_02",
+   "name": "escalier et fresque rouge du samouraï",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.229,
+   "lab": [
+    58.4,
+    152.6,
+    117.4
+   ],
+   "lab_first": [
+    51.2,
+    149.5,
+    118.2
+   ],
+   "lab_last": [
+    70.4,
+    157.5,
+    118.3
+   ],
+   "motion": [
+    -0.332,
+    0.019
+   ],
+   "motion_strength": 0.333
+  },
+  {
+   "id": "SAM-017",
+   "src": "library/samourai/clips/SAM-017.mp4",
+   "file": "Déco - cage à lanterne et néon violet.mp4",
+   "source": "GFKM5806.MP4",
+   "extract": "GFKM5806_03",
+   "name": "cage à lanterne et néon violet",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.63,
+   "orientation": "vertical",
+   "brightness": 0.249,
+   "lab": [
+    63.6,
+    153.0,
+    120.2
+   ],
+   "lab_first": [
+    65.8,
+    151.5,
+    121.1
+   ],
+   "lab_last": [
+    61.9,
+    154.3,
+    119.9
+   ],
+   "motion": [
+    0.2,
+    0.01
+   ],
+   "motion_strength": 0.2
+  },
+  {
+   "id": "SAM-018",
+   "src": "library/samourai/clips/SAM-018.mp4",
+   "file": "Déco - chambre à table basse et poupée japonaise.mp4",
+   "source": "GFKM5806.MP4",
+   "extract": "GFKM5806_04",
+   "name": "chambre à table basse et poupée japonaise",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.478,
+   "lab": [
+    121.9,
+    137.3,
+    149.2
+   ],
+   "lab_first": [
+    112.5,
+    137.3,
+    148.9
+   ],
+   "lab_last": [
+    131.4,
+    137.5,
+    149.2
+   ],
+   "motion": [
+    -0.181,
+    -0.078
+   ],
+   "motion_strength": 0.197
+  },
+  {
+   "id": "SAM-019",
+   "src": "library/samourai/clips/SAM-019.mp4",
+   "file": "Déco - kimonos suspendus pour le shooting.mp4",
+   "source": "GFKM5806.MP4",
+   "extract": "GFKM5806_05",
+   "name": "kimonos suspendus pour le shooting",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.43,
+   "orientation": "vertical",
+   "brightness": 0.218,
+   "lab": [
+    55.7,
+    141.0,
+    134.6
+   ],
+   "lab_first": [
+    58.9,
+    141.1,
+    134.8
+   ],
+   "lab_last": [
+    56.1,
+    141.3,
+    135.2
+   ],
+   "motion": [
+    -0.048,
+    -0.024
+   ],
+   "motion_strength": 0.054
+  },
+  {
+   "id": "SAM-020",
+   "src": "library/samourai/clips/SAM-020.mp4",
+   "file": "Déco - escalier néon rouge et kanji.mp4",
+   "source": "HVJC6019.MP4",
+   "extract": "HVJC6019_01",
+   "name": "escalier néon rouge et kanji",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.292,
+   "lab": [
+    74.6,
+    164.4,
+    132.7
+   ],
+   "lab_first": [
+    77.3,
+    164.2,
+    129.3
+   ],
+   "lab_last": [
+    70.8,
+    163.1,
+    136.5
+   ],
+   "motion": [
+    -0.122,
+    -0.055
+   ],
+   "motion_strength": 0.134
+  },
+  {
+   "id": "SAM-021",
+   "src": "library/samourai/clips/SAM-021.mp4",
+   "file": "Déco - fresque du guerrier samouraï dans le couloir.mp4",
+   "source": "HVJC6019.MP4",
+   "extract": "HVJC6019_02",
+   "name": "fresque du guerrier samouraï dans le couloir",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.19,
+   "lab": [
+    48.5,
+    143.7,
+    132.6
+   ],
+   "lab_first": [
+    41.6,
+    144.7,
+    131.5
+   ],
+   "lab_last": [
+    58.3,
+    142.9,
+    134.4
+   ],
+   "motion": [
+    -0.169,
+    -0.009
+   ],
+   "motion_strength": 0.169
+  },
+  {
+   "id": "SAM-022",
+   "src": "library/samourai/clips/SAM-022.mp4",
+   "file": "Plat - dragon roll avocat et caviar.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_01",
+   "name": "dragon roll avocat et caviar",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.594,
+   "lab": [
+    151.3,
+    132.7,
+    142.1
+   ],
+   "lab_first": [
+    150.7,
+    131.8,
+    141.2
+   ],
+   "lab_last": [
+    149.8,
+    134.3,
+    143.4
+   ],
+   "motion": [
+    -0.006,
+    0.016
+   ],
+   "motion_strength": 0.017
+  },
+  {
+   "id": "SAM-023",
+   "src": "library/samourai/clips/SAM-023.mp4",
+   "file": "Plat - poulet croustillant laqué et chou rouge.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_02",
+   "name": "poulet croustillant laqué et chou rouge",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.517,
+   "lab": [
+    131.9,
+    147.6,
+    135.5
+   ],
+   "lab_first": [
+    131.0,
+    147.8,
+    136.4
+   ],
+   "lab_last": [
+    132.1,
+    146.7,
+    134.1
+   ],
+   "motion": [
+    0.005,
+    -0.015
+   ],
+   "motion_strength": 0.016
+  },
+  {
+   "id": "SAM-024",
+   "src": "library/samourai/clips/SAM-024.mp4",
+   "file": "Plat - makis avocat sauce teriyaki en gros plan.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_03",
+   "name": "makis avocat sauce teriyaki en gros plan",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.531,
+   "lab": [
+    135.5,
+    142.1,
+    156.2
+   ],
+   "lab_first": [
+    157.7,
+    142.1,
+    159.4
+   ],
+   "lab_last": [
+    160.3,
+    138.6,
+    152.7
+   ],
+   "motion": [
+    0.502,
+    -0.137
+   ],
+   "motion_strength": 0.52
+  },
+  {
+   "id": "SAM-025",
+   "src": "library/samourai/clips/SAM-025.mp4",
+   "file": "Plat - makis avocat et caviar, plan serré.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_04",
+   "name": "makis avocat et caviar, plan serré",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.07,
+   "orientation": "vertical",
+   "brightness": 0.492,
+   "lab": [
+    125.5,
+    137.3,
+    150.3
+   ],
+   "lab_first": [
+    124.1,
+    137.5,
+    148.1
+   ],
+   "lab_last": [
+    127.3,
+    136.7,
+    152.8
+   ],
+   "motion": [
+    0.118,
+    0.247
+   ],
+   "motion_strength": 0.274
+  },
+  {
+   "id": "SAM-026",
+   "src": "library/samourai/clips/SAM-026.mp4",
+   "file": "Table - plateau sushis, nems et éventail rouge.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_05",
+   "name": "plateau sushis, nems et éventail rouge",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.0,
+   "orientation": "vertical",
+   "brightness": 0.393,
+   "lab": [
+    100.3,
+    144.4,
+    145.6
+   ],
+   "lab_first": [
+    97.7,
+    145.3,
+    147.1
+   ],
+   "lab_last": [
+    103.7,
+    143.8,
+    144.8
+   ],
+   "motion": [
+    0.088,
+    -0.494
+   ],
+   "motion_strength": 0.502
+  },
+  {
+   "id": "SAM-027",
+   "src": "library/samourai/clips/SAM-027.mp4",
+   "file": "Geste - sauce versée sur les makis frits.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_06",
+   "name": "sauce versée sur les makis frits",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.411,
+   "lab": [
+    104.7,
+    138.3,
+    139.8
+   ],
+   "lab_first": [
+    102.4,
+    138.8,
+    141.3
+   ],
+   "lab_last": [
+    103.0,
+    137.8,
+    138.6
+   ],
+   "motion": [
+    0.043,
+    0.019
+   ],
+   "motion_strength": 0.047
+  },
+  {
+   "id": "SAM-028",
+   "src": "library/samourai/clips/SAM-028.mp4",
+   "file": "Plat - nouilles sautées et légumes croquants.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_07",
+   "name": "nouilles sautées et légumes croquants",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.03,
+   "orientation": "vertical",
+   "brightness": 0.352,
+   "lab": [
+    89.8,
+    148.9,
+    147.9
+   ],
+   "lab_first": [
+    91.0,
+    149.2,
+    148.2
+   ],
+   "lab_last": [
+    90.0,
+    148.9,
+    147.5
+   ],
+   "motion": [
+    0.037,
+    -0.017
+   ],
+   "motion_strength": 0.04
+  },
+  {
+   "id": "SAM-029",
+   "src": "library/samourai/clips/SAM-029.mp4",
+   "file": "Plat - soupe au curry et citron.mp4",
+   "source": "JXUI9306.MP4",
+   "extract": "JXUI9306_08",
+   "name": "soupe au curry et citron",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.485,
+   "lab": [
+    123.7,
+    142.0,
+    158.5
+   ],
+   "lab_first": [
+    122.3,
+    141.6,
+    156.8
+   ],
+   "lab_last": [
+    124.4,
+    142.1,
+    160.6
+   ],
+   "motion": [
+    0.003,
+    0.036
+   ],
+   "motion_strength": 0.036
+  },
+  {
+   "id": "SAM-030",
+   "src": "library/samourai/clips/SAM-030.mp4",
+   "file": "Ambiance - petite fille en robe chinoise rouge.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_01",
+   "name": "petite fille en robe chinoise rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.337,
+   "lab": [
+    85.9,
+    148.0,
+    143.1
+   ],
+   "lab_first": [
+    87.6,
+    149.3,
+    145.3
+   ],
+   "lab_last": [
+    84.9,
+    146.6,
+    142.2
+   ],
+   "motion": [
+    -0.015,
+    -0.027
+   ],
+   "motion_strength": 0.031
+  },
+  {
+   "id": "SAM-031",
+   "src": "library/samourai/clips/SAM-031.mp4",
+   "file": "Plat - sushis devant l'éventail rouge, piscine en fond.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_02",
+   "name": "sushis devant l'éventail rouge, piscine en fond",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.0,
+   "orientation": "vertical",
+   "brightness": 0.353,
+   "lab": [
+    90.1,
+    136.1,
+    139.8
+   ],
+   "lab_first": [
+    79.5,
+    138.2,
+    139.3
+   ],
+   "lab_last": [
+    105.3,
+    133.6,
+    139.6
+   ],
+   "motion": [
+    -0.072,
+    -0.007
+   ],
+   "motion_strength": 0.072
+  },
+  {
+   "id": "SAM-032",
+   "src": "library/samourai/clips/SAM-032.mp4",
+   "file": "Ambiance - petite fille avec éventail.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_03",
+   "name": "petite fille avec éventail",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.73,
+   "orientation": "vertical",
+   "brightness": 0.332,
+   "lab": [
+    84.7,
+    150.0,
+    145.0
+   ],
+   "lab_first": [
+    79.8,
+    146.5,
+    143.5
+   ],
+   "lab_last": [
+    89.0,
+    152.3,
+    146.3
+   ],
+   "motion": [
+    -0.066,
+    -0.015
+   ],
+   "motion_strength": 0.068
+  },
+  {
+   "id": "SAM-033",
+   "src": "library/samourai/clips/SAM-033.mp4",
+   "file": "Ambiance - petite fille qui ouvre l'éventail.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_04",
+   "name": "petite fille qui ouvre l'éventail",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.358,
+   "lab": [
+    91.3,
+    144.7,
+    142.7
+   ],
+   "lab_first": [
+    89.8,
+    144.3,
+    143.5
+   ],
+   "lab_last": [
+    89.0,
+    144.2,
+    139.5
+   ],
+   "motion": [
+    -0.065,
+    0.024
+   ],
+   "motion_strength": 0.07
+  },
+  {
+   "id": "SAM-034",
+   "src": "library/samourai/clips/SAM-034.mp4",
+   "file": "Plat - plateau de makis devant l'éventail rouge.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_05",
+   "name": "plateau de makis devant l'éventail rouge",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.281,
+   "lab": [
+    71.8,
+    150.9,
+    144.6
+   ],
+   "lab_first": [
+    71.5,
+    151.3,
+    145.1
+   ],
+   "lab_last": [
+    73.4,
+    150.6,
+    144.3
+   ],
+   "motion": [
+    -0.216,
+    -0.014
+   ],
+   "motion_strength": 0.217
+  },
+  {
+   "id": "SAM-035",
+   "src": "library/samourai/clips/SAM-035.mp4",
+   "file": "Salle - salle animée le soir avec lanternes.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_06",
+   "name": "salle animée le soir avec lanternes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.162,
+   "lab": [
+    41.3,
+    139.1,
+    134.7
+   ],
+   "lab_first": [
+    45.4,
+    136.5,
+    138.0
+   ],
+   "lab_last": [
+    45.5,
+    141.7,
+    130.8
+   ],
+   "motion": [
+    0.486,
+    0.002
+   ],
+   "motion_strength": 0.486
+  },
+  {
+   "id": "SAM-036",
+   "src": "library/samourai/clips/SAM-036.mp4",
+   "file": "Plat - bateau de sushis et sashimis.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_07",
+   "name": "bateau de sushis et sashimis",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.43,
+   "orientation": "vertical",
+   "brightness": 0.398,
+   "lab": [
+    101.5,
+    149.1,
+    140.3
+   ],
+   "lab_first": [
+    93.0,
+    150.9,
+    141.8
+   ],
+   "lab_last": [
+    105.7,
+    149.0,
+    139.9
+   ],
+   "motion": [
+    -0.019,
+    -0.177
+   ],
+   "motion_strength": 0.178
+  },
+  {
+   "id": "SAM-037",
+   "src": "library/samourai/clips/SAM-037.mp4",
+   "file": "Salle - salle tamisée avec tables dressées.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_08",
+   "name": "salle tamisée avec tables dressées",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.5,
+   "orientation": "vertical",
+   "brightness": 0.036,
+   "lab": [
+    9.3,
+    130.8,
+    129.8
+   ],
+   "lab_first": [
+    13.2,
+    131.7,
+    130.3
+   ],
+   "lab_last": [
+    2.7,
+    129.2,
+    128.7
+   ],
+   "motion": [
+    -0.123,
+    0.008
+   ],
+   "motion_strength": 0.124
+  },
+  {
+   "id": "SAM-038",
+   "src": "library/samourai/clips/SAM-038.mp4",
+   "file": "Ambiance - cliente en kimono avec éventail.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_09",
+   "name": "cliente en kimono avec éventail",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.282,
+   "lab": [
+    71.8,
+    139.3,
+    134.4
+   ],
+   "lab_first": [
+    54.9,
+    138.4,
+    134.7
+   ],
+   "lab_last": [
+    85.5,
+    139.7,
+    134.0
+   ],
+   "motion": [
+    -0.052,
+    0.01
+   ],
+   "motion_strength": 0.053
+  },
+  {
+   "id": "SAM-039",
+   "src": "library/samourai/clips/SAM-039.mp4",
+   "file": "Ambiance - cliente qui goûte un maki aux baguettes.mp4",
+   "source": "RJZU2158.MP4",
+   "extract": "RJZU2158_10",
+   "name": "cliente qui goûte un maki aux baguettes",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.274,
+   "lab": [
+    69.9,
+    144.2,
+    139.4
+   ],
+   "lab_first": [
+    70.1,
+    144.5,
+    138.8
+   ],
+   "lab_last": [
+    70.3,
+    144.3,
+    139.8
+   ],
+   "motion": [
+    0.026,
+    0.049
+   ],
+   "motion_strength": 0.056
+  },
+  {
+   "id": "SAM-040",
+   "src": "library/samourai/clips/SAM-040.mp4",
+   "file": "Déco - rideau de cœurs rouges et table d'anniversaire.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_03",
+   "name": "rideau de cœurs rouges et table d'anniversaire",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.8,
+   "orientation": "vertical",
+   "brightness": 0.113,
+   "lab": [
+    28.9,
+    141.0,
+    137.1
+   ],
+   "lab_first": [
+    22.3,
+    137.1,
+    134.8
+   ],
+   "lab_last": [
+    35.4,
+    144.8,
+    139.2
+   ],
+   "motion": [
+    -0.013,
+    -0.014
+   ],
+   "motion_strength": 0.02
+  },
+  {
+   "id": "SAM-041",
+   "src": "library/samourai/clips/SAM-041.mp4",
+   "file": "Ambiance - cliente en kimono de soie bleue, de dos.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_04",
+   "name": "cliente en kimono de soie bleue, de dos",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.224,
+   "lab": [
+    57.1,
+    136.7,
+    120.9
+   ],
+   "lab_first": [
+    60.6,
+    137.2,
+    122.2
+   ],
+   "lab_last": [
+    51.7,
+    135.2,
+    118.6
+   ],
+   "motion": [
+    0.077,
+    0.212
+   ],
+   "motion_strength": 0.225
+  },
+  {
+   "id": "SAM-042",
+   "src": "library/samourai/clips/SAM-042.mp4",
+   "file": "Ambiance - cliente qui ajuste son kimono bleu brodé.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_05",
+   "name": "cliente qui ajuste son kimono bleu brodé",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.164,
+   "lab": [
+    41.9,
+    132.7,
+    118.4
+   ],
+   "lab_first": [
+    41.3,
+    132.8,
+    117.9
+   ],
+   "lab_last": [
+    44.3,
+    132.8,
+    119.3
+   ],
+   "motion": [
+    0.144,
+    0.465
+   ],
+   "motion_strength": 0.486
+  },
+  {
+   "id": "SAM-043",
+   "src": "library/samourai/clips/SAM-043.mp4",
+   "file": "Salle - table dressée dans la pénombre, assiettes dorées.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_06",
+   "name": "table dressée dans la pénombre, assiettes dorées",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.73,
+   "orientation": "vertical",
+   "brightness": 0.025,
+   "lab": [
+    6.4,
+    131.2,
+    130.2
+   ],
+   "lab_first": [
+    4.9,
+    130.4,
+    129.6
+   ],
+   "lab_last": [
+    8.1,
+    131.9,
+    130.6
+   ],
+   "motion": [
+    -0.066,
+    -0.011
+   ],
+   "motion_strength": 0.067
+  },
+  {
+   "id": "SAM-044",
+   "src": "library/samourai/clips/SAM-044.mp4",
+   "file": "Table - table d'anniversaire rouge avec roses.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_07",
+   "name": "table d'anniversaire rouge avec roses",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.0,
+   "orientation": "vertical",
+   "brightness": 0.284,
+   "lab": [
+    72.4,
+    146.3,
+    145.3
+   ],
+   "lab_first": [
+    65.3,
+    144.0,
+    142.5
+   ],
+   "lab_last": [
+    77.1,
+    152.7,
+    149.7
+   ],
+   "motion": [
+    0.087,
+    -0.227
+   ],
+   "motion_strength": 0.243
+  },
+  {
+   "id": "SAM-045",
+   "src": "library/samourai/clips/SAM-045.mp4",
+   "file": "Salle - table dressée et chaises rouges, lumière tamisée.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_08",
+   "name": "table dressée et chaises rouges, lumière tamisée",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.8,
+   "orientation": "vertical",
+   "brightness": 0.075,
+   "lab": [
+    19.1,
+    135.4,
+    133.7
+   ],
+   "lab_first": [
+    17.4,
+    135.7,
+    133.6
+   ],
+   "lab_last": [
+    24.3,
+    136.6,
+    135.1
+   ],
+   "motion": [
+    -0.09,
+    -0.015
+   ],
+   "motion_strength": 0.091
+  },
+  {
+   "id": "SAM-046",
+   "src": "library/samourai/clips/SAM-046.mp4",
+   "file": "Déco - rideau de cœurs rouges.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_09",
+   "name": "rideau de cœurs rouges",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.8,
+   "orientation": "vertical",
+   "brightness": 0.141,
+   "lab": [
+    36.0,
+    150.4,
+    141.1
+   ],
+   "lab_first": [
+    35.7,
+    148.2,
+    139.2
+   ],
+   "lab_last": [
+    36.5,
+    153.7,
+    143.4
+   ],
+   "motion": [
+    -0.091,
+    0.434
+   ],
+   "motion_strength": 0.443
+  },
+  {
+   "id": "SAM-047",
+   "src": "library/samourai/clips/SAM-047.mp4",
+   "file": "Table - table rouge, roses noires et assiettes dorées.mp4",
+   "source": "RZQZ0664.MP4",
+   "extract": "RZQZ0664_10",
+   "name": "table rouge, roses noires et assiettes dorées",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.9,
+   "orientation": "vertical",
+   "brightness": 0.273,
+   "lab": [
+    69.6,
+    152.1,
+    145.4
+   ],
+   "lab_first": [
+    69.4,
+    152.4,
+    145.5
+   ],
+   "lab_last": [
+    70.3,
+    151.1,
+    145.8
+   ],
+   "motion": [
+    0.049,
+    -0.001
+   ],
+   "motion_strength": 0.049
+  },
+  {
+   "id": "SAM-048",
+   "src": "library/samourai/clips/SAM-048.mp4",
+   "file": "Plat - tour de sushis géante et éventail.mp4",
+   "source": "TWEX2752.MP4",
+   "extract": "TWEX2752_01",
+   "name": "tour de sushis géante et éventail",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 3.57,
+   "orientation": "vertical",
+   "brightness": 0.421,
+   "lab": [
+    107.4,
+    139.5,
+    135.0
+   ],
+   "lab_first": [
+    109.5,
+    142.0,
+    137.9
+   ],
+   "lab_last": [
+    105.3,
+    137.5,
+    133.5
+   ],
+   "motion": [
+    0.014,
+    -0.005
+   ],
+   "motion_strength": 0.015
+  },
+  {
+   "id": "SAM-049",
+   "src": "library/samourai/clips/SAM-049.mp4",
+   "file": "Plat - tour de sushis devant l'éventail Samouraï.mp4",
+   "source": "TWEX2752.MP4",
+   "extract": "TWEX2752_02",
+   "name": "tour de sushis devant l'éventail Samouraï",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 2.77,
+   "orientation": "vertical",
+   "brightness": 0.452,
+   "lab": [
+    115.1,
+    149.8,
+    145.7
+   ],
+   "lab_first": [
+    107.8,
+    150.2,
+    142.5
+   ],
+   "lab_last": [
+    120.5,
+    149.0,
+    145.9
+   ],
+   "motion": [
+    -0.076,
+    -0.132
+   ],
+   "motion_strength": 0.152
+  },
+  {
+   "id": "SAM-050",
+   "src": "library/samourai/clips/SAM-050.mp4",
+   "file": "Geste - serveur qui apporte la tour de sushis.mp4",
+   "source": "TWEX2752.MP4",
+   "extract": "TWEX2752_03",
+   "name": "serveur qui apporte la tour de sushis",
+   "category": "geste",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.73,
+   "orientation": "vertical",
+   "brightness": 0.438,
+   "lab": [
+    111.7,
+    141.7,
+    148.3
+   ],
+   "lab_first": [
+    111.8,
+    140.2,
+    147.8
+   ],
+   "lab_last": [
+    118.9,
+    142.9,
+    150.4
+   ],
+   "motion": [
+    -0.03,
+    0.043
+   ],
+   "motion_strength": 0.052
+  },
+  {
+   "id": "SAM-051",
+   "src": "library/samourai/clips/SAM-051.mp4",
+   "file": "Plat - tour de sushis à quatre étages.mp4",
+   "source": "TWEX2752.MP4",
+   "extract": "TWEX2752_04",
+   "name": "tour de sushis à quatre étages",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.472,
+   "lab": [
+    120.2,
+    138.1,
+    138.7
+   ],
+   "lab_first": [
+    129.5,
+    138.5,
+    138.6
+   ],
+   "lab_last": [
+    117.1,
+    140.7,
+    140.0
+   ],
+   "motion": [
+    -0.144,
+    0.183
+   ],
+   "motion_strength": 0.233
+  },
+  {
+   "id": "SAM-052",
+   "src": "library/samourai/clips/SAM-052.mp4",
+   "file": "Plat - tour de sushis vue de face.mp4",
+   "source": "TWEX2752.MP4",
+   "extract": "TWEX2752_05",
+   "name": "tour de sushis vue de face",
+   "category": "plat",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 2.03,
+   "orientation": "vertical",
+   "brightness": 0.462,
+   "lab": [
+    117.8,
+    144.2,
+    142.7
+   ],
+   "lab_first": [
+    117.4,
+    140.9,
+    140.2
+   ],
+   "lab_last": [
+    119.0,
+    146.1,
+    144.4
+   ],
+   "motion": [
+    0.055,
+    0.043
+   ],
+   "motion_strength": 0.07
+  }
+ ]
+}

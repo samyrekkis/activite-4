@@ -1,0 +1,202 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « avant-goût en 3 flashs », puis Ping-pong : un plat, un lieu, un plat, un lieu… glissements et ouvertures alternés. Look « teal & orange », finition « commentaire », 128 BPM. Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "template": {
+    "hook": "avantGout",
+    "recette": "pingPong",
+    "look": "teal & orange",
+    "finition": "commentaire",
+    "bpm": 128,
+    "seed": 1758856961
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK poulet croustillant laqué et chou rouge",
+      "src": "library/samourai/clips/SAM-023.mp4",
+      "start": 0.35,
+      "end": 0.58,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#2 HOOK makis frits et sauce soja sur set laqué",
+      "src": "library/samourai/clips/SAM-005.mp4",
+      "start": 0.35,
+      "end": 0.58,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#3 HOOK dragon roll avocat et caviar",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0.25,
+      "end": 0.68,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#4 HOOK table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 0.48,
+      "end": 1.42,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#5 tour de sushis à quatre étages",
+      "src": "library/samourai/clips/SAM-051.mp4",
+      "start": 0.4,
+      "end": 1.64,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#6 table dressée dans la pénombre, assiettes dorées",
+      "src": "library/samourai/clips/SAM-043.mp4",
+      "start": 0.22,
+      "end": 1.51,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#7 tour de sushis vue de face",
+      "src": "library/samourai/clips/SAM-052.mp4",
+      "start": 0.4,
+      "end": 1.64,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "split",
+        "direction": "from-top",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#8 salle tamisée avec tables dressées",
+      "src": "library/samourai/clips/SAM-037.mp4",
+      "start": 0.61,
+      "end": 1.9,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#9 tour de sushis géante et éventail",
+      "src": "library/samourai/clips/SAM-048.mp4",
+      "start": 1.17,
+      "end": 2.41,
+      "motion": "panUp",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "split",
+        "direction": "from-left",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#10 table dressée et chaises rouges, lumière tamisée",
+      "src": "library/samourai/clips/SAM-045.mp4",
+      "start": 0.26,
+      "end": 1.55,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#11 bœuf laqué et riz sur set Samouraï",
+      "src": "library/samourai/clips/SAM-003.mp4",
+      "start": 0.37,
+      "end": 1.61,
+      "motion": "panUp",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "split",
+        "direction": "from-top",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#12 rideau de cœurs rouges et table d'anniversaire",
+      "src": "library/samourai/clips/SAM-040.mp4",
+      "start": 0.26,
+      "end": 1.55,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#13 makis avocat sauce teriyaki en gros plan",
+      "src": "library/samourai/clips/SAM-024.mp4",
+      "start": 0.03,
+      "end": 0.91,
+      "speed": 0.71,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "split",
+        "direction": "from-left",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#14 escalier et fresque rouge du samouraï",
+      "src": "library/samourai/clips/SAM-016.mp4",
+      "start": 0.38,
+      "end": 1.32,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    }
+  ]
+}

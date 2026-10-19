@@ -17,7 +17,10 @@
     "audio:add": "node scripts/add-audio.mjs",
     "typecheck": "tsc --noEmit",
     "fonts": "node scripts/fetch-fonts.mjs",
-    "demo:media": "node scripts/make-demo-media.mjs"
+    "demo:media": "node scripts/make-demo-media.mjs",
+    "edits:generate": "node scripts/library/generate-edits.mjs",
+    "edits:render": "node scripts/library/render-batch.mjs",
+    "photos:enhance": "node scripts/library/enhance-photos.mjs"
   },
   "dependencies": {
     "@google/genai": "2.24.0",

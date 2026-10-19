@@ -1,0 +1,167 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « question en commentaire », puis Dégradé : chaque plan prend la couleur du précédent, fondus et voiles de lumière. Look « golden hour », finition « bandes + cartes », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "question",
+    "recette": "degrade",
+    "look": "golden hour",
+    "finition": "bandes + cartes",
+    "bpm": 120,
+    "seed": 1295249704
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK burger et frites",
+      "src": "library/monegasque/clips/MON-085.mp4",
+      "start": 0.22,
+      "end": 2.22,
+      "motion": "zoomIn",
+      "motionIntensity": 0.8,
+      "grade": {
+        "curve": "golden"
+      },
+      "social": [
+        {
+          "kind": "comment",
+          "handle": "@ton.pote",
+          "text": "On réserve quand ?",
+          "delay": 0.05
+        }
+      ],
+      "letterbox": true
+    },
+    {
+      "label": "#2 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 0.55,
+      "end": 2.43,
+      "motion": "zoomIn",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#3 femme en haïk sur le trône doré sous les néons",
+      "src": "library/monegasque/clips/MON-042.mp4",
+      "start": 0.16,
+      "end": 2.04,
+      "motion": "panUp",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-bottom",
+        "duration": 0.38
+      },
+      "letterbox": true,
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Monégasque · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#4 gâteau aux fraises sur la table du brunch",
+      "src": "library/monegasque/clips/MON-082.mp4",
+      "start": 0.48,
+      "end": 2.36,
+      "motion": "panDown",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-bottom",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#5 cliente qui regarde le menu face à la piscine",
+      "src": "library/monegasque/clips/MON-158.mp4",
+      "start": 0.36,
+      "end": 2.11,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-left",
+        "duration": 0.38
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 milkshake rose et crêpe au chocolat",
+      "src": "library/monegasque/clips/MON-089.mp4",
+      "start": 0.36,
+      "end": 2.24,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#7 petit-déjeuner avec jus, toasts et beurre",
+      "src": "library/monegasque/clips/MON-051.mp4",
+      "start": 0.54,
+      "end": 2.29,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-left",
+        "duration": 0.38
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 tajine aux œufs et sauce tomate",
+      "src": "library/monegasque/clips/MON-008.mp4",
+      "start": 0.03,
+      "end": 1.75,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#9 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 0.31,
+      "end": 1.81,
+      "motion": "panRight",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      },
+      "letterbox": true,
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « geste au ralenti », puis Un seul geste : tous les plans bougent dans le même sens, raccords invisibles. Look « naturel », finition « épuré », 128 BPM. Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "template": {
+    "hook": "geste",
+    "recette": "unGeste",
+    "look": "naturel",
+    "finition": "épuré",
+    "bpm": 128,
+    "seed": 804062032
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK sauce versée sur les makis frits",
+      "src": "library/samourai/clips/SAM-027.mp4",
+      "start": 0.03,
+      "end": 0.85,
+      "speed": 0.6,
+      "motion": "punchIn",
+      "motionIntensity": 1
+    },
+    {
+      "label": "#2 plateau sushis, nems et éventail rouge",
+      "src": "library/samourai/clips/SAM-026.mp4",
+      "start": 0.03,
+      "end": 0.97
+    },
+    {
+      "label": "#3 plateau étagé de sushis et makis",
+      "src": "library/samourai/clips/SAM-004.mp4",
+      "start": 0.12,
+      "end": 1.06,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#4 escalier néon rouge et kanji",
+      "src": "library/samourai/clips/SAM-020.mp4",
+      "start": 0.3,
+      "end": 1.24,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#5 plateau de makis devant l'éventail rouge",
+      "src": "library/samourai/clips/SAM-034.mp4",
+      "start": 0.08,
+      "end": 1.02,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#6 salle aux lanternes et miroir doré",
+      "src": "library/samourai/clips/SAM-013.mp4",
+      "start": 0.25,
+      "end": 1.19,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#7 chambre à table basse et poupée japonaise",
+      "src": "library/samourai/clips/SAM-018.mp4",
+      "start": 0.32,
+      "end": 1.26,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#8 table dressée et chaises rouges, lumière tamisée",
+      "src": "library/samourai/clips/SAM-045.mp4",
+      "start": 0.43,
+      "end": 1.37,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#9 escalier et fresque rouge du samouraï",
+      "src": "library/samourai/clips/SAM-016.mp4",
+      "start": 0.38,
+      "end": 1.32,
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#10 fresque du guerrier samouraï dans le couloir",
+      "src": "library/samourai/clips/SAM-021.mp4",
+      "start": 0.23,
+      "end": 1.17,
+      "transitionIn": {
+        "type": "cut"
+      }
+    }
+  ]
+}

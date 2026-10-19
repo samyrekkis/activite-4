@@ -17,7 +17,14 @@ export type TransitionType =
   | "pushCut"
   | "flash"
   | "zoomPunch"
-  | "whip";
+  | "whip"
+  | "spin"
+  | "blurZoom"
+  | "split"
+  | "blinds"
+  | "glitch"
+  | "lightLeak"
+  | "stretch";
 
 export type Direction = "from-left" | "from-right" | "from-top" | "from-bottom";
 
@@ -54,6 +61,8 @@ export type TextOverlay = {
 };
 
 export type Grade = {
+  /** Film tone curve (see src/grading.tsx), applied before the other settings. */
+  curve?: "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody";
   brightness?: number;
   contrast?: number;
   saturate?: number;
@@ -62,6 +71,23 @@ export type Grade = {
   /** CSS color blended over the clip (e.g. "rgba(255,140,0,0.12)"). */
   tint?: string;
   tintBlend?: "overlay" | "soft-light" | "color" | "multiply" | "screen";
+};
+
+export type SocialCard = {
+  kind: "post" | "comment" | "location" | "reserve" | "story" | "saved";
+  /** Comment / caption / button text. */
+  text?: string;
+  /** Account shown (defaults to the plan's handle). */
+  handle?: string;
+  /** Place name for "location" and the post header. */
+  place?: string;
+  /** Story bars: how many segments, and which one is playing. */
+  segments?: number;
+  index?: number;
+  /** Seconds after the clip starts. Default 0. */
+  delay?: number;
+  /** Seconds. Default: until the end of the clip. */
+  duration?: number;
 };
 
 export type Clip = {
@@ -84,6 +110,10 @@ export type Clip = {
   /** Overrides the restaurant's default grade for this clip only. */
   grade?: Grade;
   text?: TextOverlay[];
+  /** Instagram-style cards over the clip. */
+  social?: SocialCard[];
+  /** Cinema bars on this clip only (2.39:1 look inside the vertical frame). */
+  letterbox?: boolean;
   /** Transition INTO this clip from the previous one. */
   transitionIn?: Transition;
   /** Free label so Gemini feedback can reference clips ("#3 plat signature"). */

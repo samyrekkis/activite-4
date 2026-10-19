@@ -9,6 +9,7 @@ import { wipe } from "@remotion/transitions/wipe";
 import type { Theme } from "../themes";
 import type { Transition } from "../types";
 import { flash, whip, zoomPunch } from "./custom";
+import { blinds, blurZoom, glitch, lightLeak, spin, split, stretch } from "./extra";
 
 export const presentationFor = (
   t: Transition,
@@ -35,6 +36,20 @@ export const presentationFor = (
       return zoomPunch();
     case "whip":
       return whip(direction);
+    case "spin":
+      return spin(direction);
+    case "blurZoom":
+      return blurZoom();
+    case "split":
+      return split(direction);
+    case "blinds":
+      return blinds(direction);
+    case "glitch":
+      return glitch();
+    case "lightLeak":
+      return lightLeak(direction);
+    case "stretch":
+      return stretch(direction);
     case "fade":
     default:
       return fade();

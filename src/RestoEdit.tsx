@@ -23,7 +23,7 @@ export const RestoEdit: React.FC<EditPlan> = (plan) => {
           const tFrames = i > 0 ? transitionFrames(seg.transitionIn, segments[i - 1].frames, seg.frames, fps) : 0;
           const content =
             seg.kind === "clip" ? (
-              <ClipView clip={seg.clip} index={seg.index} theme={theme} durationInFrames={seg.frames} />
+              <ClipView clip={seg.clip} index={seg.index} theme={theme} durationInFrames={seg.frames} handle={plan.handle} />
             ) : (
               <CardView
                 card={

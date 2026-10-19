@@ -1,0 +1,158 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « story Instagram », puis Dégradé : chaque plan prend la couleur du précédent, fondus et voiles de lumière. Look « golden hour », finition « cartes de fin », 128 BPM. Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "template": {
+    "hook": "story",
+    "recette": "degrade",
+    "look": "golden hour",
+    "finition": "cartes de fin",
+    "bpm": 128,
+    "seed": 1935367303
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK sushis devant l'éventail rouge, piscine en fond",
+      "src": "library/samourai/clips/SAM-031.mp4",
+      "start": 0.3,
+      "end": 1.71,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "golden"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "label": "#2 cliente en kimono de soie bleue, de dos",
+      "src": "library/samourai/clips/SAM-041.mp4",
+      "start": 0.03,
+      "end": 1.08,
+      "speed": 0.74,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#3 paravent en bois sculpté et lumière rouge",
+      "src": "library/samourai/clips/SAM-015.mp4",
+      "start": 0.03,
+      "end": 1.7,
+      "speed": 0.95,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.23
+      },
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Samouraï · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#4 tour de sushis géante et éventail",
+      "src": "library/samourai/clips/SAM-048.mp4",
+      "start": 0.97,
+      "end": 2.61,
+      "motion": "zoomIn",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-bottom",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#5 petite fille en robe chinoise rouge",
+      "src": "library/samourai/clips/SAM-030.mp4",
+      "start": 0.19,
+      "end": 1.95,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.23
+      }
+    },
+    {
+      "label": "#6 salle avec bar et cave, plan horizontal",
+      "src": "library/samourai/clips/SAM-001.mp4",
+      "start": 0.99,
+      "end": 2.75,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-bottom",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#7 salle avec plantes et lanternes rouges",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0.09,
+      "end": 1.85,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-bottom",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#8 salle avec vase calligraphié et plantes",
+      "src": "library/samourai/clips/SAM-011.mp4",
+      "start": 0.11,
+      "end": 1.12,
+      "speed": 0.72,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "lightLeak",
+        "direction": "from-right",
+        "duration": 0.35
+      }
+    },
+    {
+      "label": "#9 grande plante tropicale dans la salle",
+      "src": "library/samourai/clips/SAM-012.mp4",
+      "start": 0.15,
+      "end": 1.56,
+      "grade": {
+        "curve": "golden"
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table"
+        }
+      ]
+    }
+  ]
+}

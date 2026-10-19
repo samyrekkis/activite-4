@@ -1,0 +1,240 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « révélation flou → net », puis Un seul geste : tous les plans bougent dans le même sens, raccords invisibles. Look « bleach », finition « story Instagram », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "revelation",
+    "recette": "unGeste",
+    "look": "bleach",
+    "finition": "story Instagram",
+    "bpm": 120,
+    "seed": 1935292119
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK piscine intérieure et mur d'assiettes",
+      "src": "library/monegasque/clips/MON-126.mp4",
+      "start": 0.1,
+      "end": 1,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "label": "#2 HOOK main qui soulève le couvercle du tajine",
+      "src": "library/monegasque/clips/MON-007.mp4",
+      "start": 0.42,
+      "end": 1.92,
+      "motion": "punchIn",
+      "motionIntensity": 0.8,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.4
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "label": "#3 jeune femme qui accueille à l'entrée",
+      "src": "library/monegasque/clips/MON-039.mp4",
+      "start": 1.05,
+      "end": 2.05,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "label": "#4 table du brunch avec glace, vue de dessus",
+      "src": "library/monegasque/clips/MON-053.mp4",
+      "start": 0.7,
+      "end": 1.7,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "label": "#5 femme en haïk qui tourne au bord de la piscine",
+      "src": "library/monegasque/clips/MON-045.mp4",
+      "start": 0.17,
+      "end": 1.17,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "label": "#6 table au bord de la piscine, fresque léopard",
+      "src": "library/monegasque/clips/MON-109.mp4",
+      "start": 0.03,
+      "end": 0.75,
+      "speed": 0.72,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "label": "#7 cliente sur la terrasse aux tournesols",
+      "src": "library/monegasque/clips/MON-148.mp4",
+      "start": 0.59,
+      "end": 1.59,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "label": "#8 femme en haïk blanc au bord de la piscine",
+      "src": "library/monegasque/clips/MON-001.mp4",
+      "start": 0.99,
+      "end": 1.99,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "label": "#9 piscine éclairée le soir et trône en mosaïque",
+      "src": "library/monegasque/clips/MON-097.mp4",
+      "start": 0.03,
+      "end": 0.88,
+      "speed": 0.85,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "label": "#10 mur de pierre et fleurs bleues et jaunes",
+      "src": "library/monegasque/clips/MON-139.mp4",
+      "start": 0.03,
+      "end": 0.91,
+      "speed": 0.88,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "label": "#11 terrasse fleurie, plantes violettes",
+      "src": "library/monegasque/clips/MON-121.mp4",
+      "start": 0.03,
+      "end": 0.95,
+      "speed": 0.92,
+      "grade": {
+        "curve": "bleach",
+        "contrast": 1.05
+      },
+      "transitionIn": {
+        "type": "cut"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « story Instagram », puis La table se remplit : le décor, puis les plats arrivent, puis la table complète. Look « pellicule », finition « commentaire », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "story",
+    "recette": "tablePleine",
+    "look": "pellicule",
+    "finition": "commentaire",
+    "bpm": 120,
+    "seed": 1929558037
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK doigt qui montre la salade au parmesan",
+      "src": "library/monegasque/clips/MON-159.mp4",
+      "start": 0.03,
+      "end": 1.51,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "label": "#2 cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0.1,
+      "end": 1.48,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "film"
+      }
+    },
+    {
+      "label": "#3 salle intérieure avec suspensions en verre",
+      "src": "library/monegasque/clips/MON-034.mp4",
+      "start": 0.25,
+      "end": 1.55,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "blinds",
+        "direction": "from-top",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#4 carpaccio et salade sur assiette bleue",
+      "src": "library/monegasque/clips/MON-080.mp4",
+      "start": 0.65,
+      "end": 2.03,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "wipe",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#5 crêpe chocolat et verre ciselé sur faïence",
+      "src": "library/monegasque/clips/MON-130.mp4",
+      "start": 0.03,
+      "end": 1.3,
+      "speed": 0.98,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "blinds",
+        "direction": "from-left",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#6 salade et sauce blanche en gros plan",
+      "src": "library/monegasque/clips/MON-077.mp4",
+      "start": 0.16,
+      "end": 1.54,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "wipe",
+        "direction": "from-top",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#7 crêpe chocolat amandes, fond noir et blanc",
+      "src": "library/monegasque/clips/MON-068.mp4",
+      "start": 0.4,
+      "end": 1.7,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "blinds",
+        "direction": "from-left",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#8 assiette frites et sauce, verres ciselés",
+      "src": "library/monegasque/clips/MON-162.mp4",
+      "start": 0.97,
+      "end": 1.97,
+      "motion": "panRight",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "wipe",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#9 mains qui se servent au brunch",
+      "src": "library/monegasque/clips/MON-055.mp4",
+      "start": 0.53,
+      "end": 1.5,
+      "speed": 0.7,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "cut"
+      }
+    },
+    {
+      "label": "#10 table avec frites, carpaccio et cocktails",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 0.03,
+      "end": 2.03,
+      "motion": "panDown",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "film"
+      },
+      "transitionIn": {
+        "type": "blinds",
+        "direction": "from-left",
+        "duration": 0.38
+      }
+    }
+  ]
+}

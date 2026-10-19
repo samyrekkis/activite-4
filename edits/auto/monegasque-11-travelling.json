@@ -1,0 +1,223 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Hook « avant-goût en 3 flashs », puis Travelling : tout glisse vers la gauche, un seul long mouvement à travers le resto. Look « moody », finition « bandes cinéma », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "hook": "avantGout",
+    "recette": "travelling",
+    "look": "moody",
+    "finition": "bandes cinéma",
+    "bpm": 120,
+    "seed": 1369393641
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK fourchette dans la burrata, tomates et radis",
+      "src": "library/monegasque/clips/MON-114.mp4",
+      "start": 0.16,
+      "end": 0.41,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 HOOK assiette au bord de la piscine, couverts en action",
+      "src": "library/monegasque/clips/MON-120.mp4",
+      "start": 0.18,
+      "end": 0.43,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#3 HOOK assiette avocat saumon et jus, déco colorée",
+      "src": "library/monegasque/clips/MON-058.mp4",
+      "start": 0.02,
+      "end": 0.47,
+      "motion": "punchIn",
+      "motionIntensity": 1.2,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 HOOK crêpe chocolat et assiettes sur la table",
+      "src": "library/monegasque/clips/MON-073.mp4",
+      "start": 0.08,
+      "end": 1.08,
+      "motion": "zoomIn",
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "flash",
+        "duration": 0.2
+      }
+    },
+    {
+      "label": "#5 piscine et fresques, plan large",
+      "src": "library/monegasque/clips/MON-028.mp4",
+      "start": 0.03,
+      "end": 1.4,
+      "speed": 0.76,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 table ronde du brunch sur la terrasse",
+      "src": "library/monegasque/clips/MON-075.mp4",
+      "start": 0.03,
+      "end": 0.98,
+      "speed": 0.76,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#7 terrasse couverte avec écran et clients",
+      "src": "library/monegasque/clips/MON-032.mp4",
+      "start": 0.03,
+      "end": 1.28,
+      "speed": 0.96,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.25
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 0.41,
+      "end": 1.71,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#9 terrasse avec lustre en osier et chaises tressées",
+      "src": "library/monegasque/clips/MON-123.mp4",
+      "start": 0.03,
+      "end": 1.04,
+      "speed": 0.81,
+      "motion": "panUp",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "stretch",
+        "direction": "from-right",
+        "duration": 0.3
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 tajine de boulettes sauce tomate, fond noir et blanc",
+      "src": "library/monegasque/clips/MON-072.mp4",
+      "start": 0.03,
+      "end": 1.28,
+      "speed": 0.96,
+      "motion": "zoomOut",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#11 table du brunch au bord de la piscine, jus et crêpe",
+      "src": "library/monegasque/clips/MON-031.mp4",
+      "start": 0.08,
+      "end": 1.38,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "stretch",
+        "direction": "from-right",
+        "duration": 0.3
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#12 table du brunch avec milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-074.mp4",
+      "start": 0.03,
+      "end": 1.2,
+      "speed": 0.94,
+      "motion": "panLeft",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "slide",
+        "direction": "from-right",
+        "duration": 0.3
+      }
+    },
+    {
+      "label": "#13 plateau de makis sauce blanche",
+      "src": "library/monegasque/clips/MON-105.mp4",
+      "start": 0.3,
+      "end": 1.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-right",
+        "duration": 0.25
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 mur d'assiettes bleu et enseigne rayée",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 0.35,
+      "end": 1.85,
+      "motion": "panRight",
+      "motionIntensity": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "transitionIn": {
+        "type": "pushCut",
+        "duration": 0.3
+      }
+    }
+  ]
+}
