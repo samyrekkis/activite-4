@@ -1,0 +1,162 @@
+{
+  "restaurant": "avanti",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Reel Instagram de ~38 s pour Avanti Travel (agence de visas pour les Émirats). Script en 6 scènes : accroche « Dreaming of Dubai? », la ville, les expériences, le problème (le visa), la solution (Avanti), appel à l'action WhatsApp. Plans de 1 à 2 s calés sur une grille de 0,5 s (120 BPM) pour qu'un son tendance ajouté dans Instagram tombe juste. Numéro WhatsApp à l'écran au moins 4 s. Photos personnelles de Dubaï + une vidéo de la fontaine du Dubai Mall.",
+  "clips": [
+    {
+      "label": "#1 accroche Creek coucher de soleil",
+      "src": "rushes/avanti/photos/creek-mouettes.jpg",
+      "duration": 2,
+      "motion": "zoomIn",
+      "motionIntensity": 2,
+      "text": [{ "content": "Dreaming of Dubai? ✈️", "style": "title", "position": "center", "delay": 0.1 }]
+    },
+    {
+      "label": "#2 skyline au soleil",
+      "src": "rushes/avanti/photos/skyline-soleil.jpg",
+      "fit": "blur",
+      "duration": 1,
+      "motion": "panRight",
+      "transitionIn": { "type": "whip", "direction": "from-right", "duration": 0.2 }
+    },
+    {
+      "label": "#3 Burj Khalifa arc-en-ciel",
+      "src": "rushes/avanti/photos/burj-arcenciel.jpg",
+      "fit": "blur",
+      "duration": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "cut" },
+      "text": [{ "content": "The world's tallest tower", "style": "caption", "position": "bottom", "delay": 0.1 }]
+    },
+    {
+      "label": "#4 fontaine du Dubai Mall (vidéo)",
+      "src": "rushes/avanti/fontaine.mp4",
+      "fit": "blur",
+      "start": 13.5,
+      "end": 16.5,
+      "muted": false,
+      "volume": 0.7,
+      "transitionIn": { "type": "flash", "duration": 0.2 }
+    },
+    {
+      "label": "#5 lac de nuit",
+      "src": "rushes/avanti/photos/lac-nuit.jpg",
+      "fit": "blur",
+      "duration": 1.5,
+      "motion": "panLeft",
+      "transitionIn": { "type": "cut" },
+      "text": [{ "content": "Magical nights", "style": "caption", "position": "bottom", "delay": 0.1 }]
+    },
+    {
+      "label": "#6 trafic de nuit",
+      "src": "rushes/avanti/photos/trafic-nuit.jpg",
+      "duration": 1,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "cut" },
+      "text": [{ "content": "A city that never stops", "style": "caption", "position": "bottom", "delay": 0.05 }]
+    },
+    {
+      "label": "#7 Creek ponton",
+      "src": "rushes/avanti/photos/creek-ponton.jpg",
+      "duration": 1.5,
+      "motion": "panRight",
+      "transitionIn": { "type": "whip", "direction": "from-left", "duration": 0.2 },
+      "text": [{ "content": "Sunsets on the Creek", "style": "caption", "position": "bottom", "delay": 0.1 }]
+    },
+    {
+      "label": "#8 piste et palmiers",
+      "src": "rushes/avanti/photos/piste-plage.jpg",
+      "duration": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "cut" },
+      "text": [{ "content": "Palm-lined beaches", "style": "caption", "position": "bottom", "delay": 0.1 }]
+    },
+    {
+      "label": "#9 plage et mer",
+      "src": "rushes/avanti/photos/plage-mer.jpg",
+      "duration": 1.5,
+      "motion": "panLeft",
+      "transitionIn": { "type": "cut" }
+    },
+    {
+      "label": "#10 lac du Dubai Mall de jour",
+      "src": "rushes/avanti/photos/lac-jour.jpg",
+      "fit": "blur",
+      "duration": 1.5,
+      "motion": "zoomOut",
+      "transitionIn": { "type": "whip", "direction": "from-right", "duration": 0.2 }
+    },
+    {
+      "label": "#11 Dubai Mall dinosaure",
+      "src": "rushes/avanti/photos/mall-dinosaure.jpg",
+      "fit": "blur",
+      "duration": 2,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "cut" },
+      "text": [
+        { "content": "World-class shopping", "style": "caption", "position": "top", "delay": 0.1 },
+        { "content": "Dubai has it all.", "style": "caption", "position": "bottom", "delay": 0.6 }
+      ]
+    },
+    {
+      "label": "#12 le problème : verrière du mall",
+      "src": "rushes/avanti/photos/mall-verriere.jpg",
+      "duration": 4,
+      "motion": "zoomIn",
+      "motionIntensity": 2,
+      "grade": { "saturate": 0.85, "brightness": 0.95 },
+      "transitionIn": { "type": "fade", "duration": 0.3 },
+      "text": [{ "content": "But the visa? 🤔", "style": "title", "position": "top", "delay": 0.3 }]
+    },
+    {
+      "label": "#13 logo Avanti",
+      "src": "rushes/avanti/photos/outro-logo.jpg",
+      "duration": 2.5,
+      "motion": "punchIn",
+      "transitionIn": { "type": "zoomPunch", "duration": 0.25 },
+      "text": [{ "content": "Your UAE visa, handled", "style": "tag", "position": "bottom", "delay": 0.3 }]
+    },
+    {
+      "label": "#14 Fast",
+      "src": "rushes/avanti/photos/sharjah-soir.jpg",
+      "duration": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "whip", "direction": "from-right", "duration": 0.2 },
+      "text": [{ "content": "Fast ✅", "style": "title", "position": "center", "delay": 0.05 }]
+    },
+    {
+      "label": "#15 Easy",
+      "src": "rushes/avanti/photos/creek-mouettes.jpg",
+      "duration": 1.5,
+      "motion": "panLeft",
+      "transitionIn": { "type": "whip", "direction": "from-left", "duration": 0.2 },
+      "text": [{ "content": "Easy ✅", "style": "title", "position": "center", "delay": 0.05 }]
+    },
+    {
+      "label": "#16 Trusted",
+      "src": "rushes/avanti/photos/burj-arcenciel.jpg",
+      "fit": "blur",
+      "duration": 2.5,
+      "motion": "zoomOut",
+      "transitionIn": { "type": "whip", "direction": "from-right", "duration": 0.2 },
+      "text": [
+        { "content": "Trusted ✅", "style": "title", "position": "center", "delay": 0.05, "duration": 1.2 },
+        { "content": "Fast ✅ Easy ✅ Trusted ✅", "style": "tag", "position": "bottom", "delay": 1.2 }
+      ]
+    },
+    {
+      "label": "#17 appel à l'action WhatsApp",
+      "src": "rushes/avanti/photos/outro-logo.jpg",
+      "duration": 8,
+      "motion": "zoomIn",
+      "transitionIn": { "type": "fade", "duration": 0.3 },
+      "grade": { "brightness": 1, "contrast": 1, "saturate": 1, "tint": "rgba(0,0,0,0)" },
+      "text": [
+        { "content": "Message us on WhatsApp today!", "style": "tag", "position": "center", "delay": 0.3 },
+        { "content": "📞 +971 XX XXX XXXX\n📍 Your office, Dubai\n🌐 @avantitravel", "style": "caption", "position": "bottom", "delay": 0.6 }
+      ]
+    }
+  ]
+}

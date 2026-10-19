@@ -43,7 +43,9 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
     // Letter-by-letter reveal. Words never break mid-word, and long titles
     // shrink so the longest word fits the frame width.
     const words = overlay.content.split(" ");
-    const longest = Math.max(...words.map((w) => [...w].length));
+    // Split into graphemes so emoji like ✈️ (two code points) stay whole.
+    const graphemes = (w: string) => Array.from(new Intl.Segmenter().segment(w), (g) => g.segment);
+    const longest = Math.max(...words.map((w) => graphemes(w).length));
     const size = style === "kanji" ? 220 : Math.min(120, 1500 / Math.max(longest, 1));
     let index = 0;
     return (
@@ -60,7 +62,7 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
       >
         {words.map((word, w) => (
           <span key={w} style={{ display: "inline-block", whiteSpace: "nowrap", margin: `0 ${0.15 * size * unit}px` }}>
-            {[...word].map((ch) => {
+            {graphemes(word).map((ch) => {
               const s = spring({ frame: frame - index++ * 1.5, fps, config: { damping: 12, stiffness: 180 } });
               return (
                 <span
@@ -107,6 +109,8 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
         fontFamily: theme.fonts.body,
         fontWeight: 600,
         fontSize: 64 * unit,
+        // Multi-line captions (contact details) keep their line breaks.
+        whiteSpace: "pre-line",
         textShadow: `0 0 ${14 * unit}px rgba(0,0,0,0.9), 0 ${3 * unit}px ${8 * unit}px rgba(0,0,0,0.9)`,
         transform: `translateY(${(1 - enter) * 30 * unit}px)`,
       }}

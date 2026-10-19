@@ -76,6 +76,33 @@ export const THEMES: Record<RestaurantId, Theme> = {
     defaultTransition: "whip",
     ornament: "侍",
   },
+  // Agence de voyage (visas EAU) : bleu du logo, or chaud du coucher de soleil sur Dubaï.
+  avanti: {
+    name: "Avanti Travel",
+    colors: {
+      background: "#F7F5F4",
+      primary: "#1F5FAF",
+      accent: "#EBA53A",
+      text: "#FFFFFF",
+      textShadow: "0 4px 24px rgba(0,20,60,0.6)",
+    },
+    fonts: {
+      title: FONTS.montserrat,
+      body: FONTS.montserrat,
+      accent: FONTS.montserrat,
+    },
+    grade: {
+      brightness: 1.03,
+      contrast: 1.1,
+      saturate: 1.15,
+      tint: "rgba(255,170,80,0.08)",
+      tintBlend: "soft-light",
+    },
+    grain: 0.03,
+    vignette: 0.2,
+    defaultTransition: "whip",
+    ornament: "✈",
+  },
 };
 
 export const FORMATS = {

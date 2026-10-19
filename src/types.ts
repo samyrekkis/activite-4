@@ -2,7 +2,7 @@
 // Claude writes it (edits/*.json), Remotion renders it, Gemini critiques the
 // render, and Claude revises the plan. All times are in seconds.
 
-export type RestaurantId = "monegasque" | "samourai";
+export type RestaurantId = "monegasque" | "samourai" | "avanti";
 
 export type Format = "vertical" | "horizontal" | "square";
 
@@ -78,6 +78,11 @@ export type Clip = {
   motion?: Motion;
   /** 1 = subtle, 2 = strong. Default 1. */
   motionIntensity?: number;
+  /**
+   * "cover" (default) fills the frame. "blur" shows the whole picture over a
+   * blurred copy of itself: for landscape photos or videos in a vertical edit.
+   */
+  fit?: "cover" | "blur";
   /** Mute the clip's own sound. Default true (music carries the edit). */
   muted?: boolean;
   volume?: number;
