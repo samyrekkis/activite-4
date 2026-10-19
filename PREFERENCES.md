@@ -25,3 +25,4 @@ Format : une règle par ligne, formulée pour être réutilisable. Entre parenth
 - Mettre Dubaï en avant (le plus connu), mais les autres émirats comme Sharjah sont acceptés : c'est un visa pour les EAU. (2026-10-19, avanti-visa-dubai v3)
 - Montrer les visas obtenus comme preuve : en-tête officiel, type de visa et dates lisibles, mais photo, code-barres, n° UID, nom, naissance, passeport et téléphone floutés. (2026-10-19, avanti-visa-dubai v3)
 - Contact : WhatsApp +971 50 422 8130, site avanti-travel.vercel.app. (2026-10-19, avanti-visa-dubai v3)
+- Délai de traitement des visas : 30 à 48 heures (à afficher avec « Fast »). (2026-10-19, avanti-visa-dubai v4)
