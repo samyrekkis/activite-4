@@ -2,44 +2,25 @@
  "restaurant": "samourai",
  "bpm": 100,
  "autoMirror": true,
- "out": "edits/reels/samourai-lanternes.json",
- "version": 4,
+ "out": "edits/stories/samourai-lanternes.json",
+ "version": 1,
  "curve": "encre",
- "brief": "REEL lent (environ 19 s, 100 BPM). Thème « Sous les lanternes » : on entre par la cage aux perruches, puis on glisse dans la salle rouge sous les lanternes, un serveur passe, on finit sur les coussins. Technique : quasi plan-séquence — plans très longs, tous en travelling avant au ralenti (rushs 60 i/s), coupes invisibles dans le sens du mouvement. Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "speed": 0.7,
+ "brief": "STORY (environ 10 s, 100 BPM). Thème « Sous les lanternes » : la cage aux perruches à l’entrée, la salle rouge sous les lanternes, un serveur qui traverse. Trois plans longs, tous en travelling avant à la même vitesse lente (rushs 60 i/s), coupes dans le sens du mouvement. Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
  "shots": [
   {
    "id": "SAM-064",
    "beats": 5,
-   "speed": 0.8,
    "b": 1.04
   },
   {
    "id": "SAM-053",
    "beats": 6,
-   "speed": 0.7,
    "at": 1.6
   },
   {
-   "id": "SAM-059",
-   "beats": 5,
-   "speed": 0.8,
-   "at": 1.25
-  },
-  {
-   "id": "SAM-056",
-   "beats": 4,
-   "speed": 0.8,
-   "at": 1.9
-  },
-  {
    "id": "SAM-060",
-   "beats": 6,
-   "speed": 0.75
-  },
-  {
-   "id": "SAM-054",
-   "beats": 6,
-   "speed": 0.75
+   "beats": 6
   }
  ]
 }

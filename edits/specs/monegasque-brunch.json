@@ -1,41 +1,24 @@
 {
  "restaurant": "monegasque",
  "bpm": 100,
+ "stabilize": true,
  "out": "edits/stories/monegasque-brunch.json",
- "version": 4,
+ "version": 21,
  "curve": "portra",
- "brief": "STORY (environ 13 s, 100 BPM). Thème « Brunch au bord de la piscine » : la grande table du brunch vue du dessus, la table au bord de la piscine, la burrata qu'on attrape, le café turc. Technique : tout en plongée (vue du dessus), un triptyque (trois bandes) pour finir. Look portra lumineux. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "speed": 0.8,
+ "brief": "STORY (environ 11 s, 100 BPM). Thème « Brunch au bord de la piscine » : la table du brunch vue du dessus, la salade aux œufs, puis la main qui la prend à côté du café turc. Technique : tout en plongée, trois plans calmes à la même vitesse. Look portra lumineux. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
  "shots": [
   {
    "id": "MON-289",
-   "beats": 5,
-   "speed": 0.9
-  },
-  {
-   "id": "MON-290",
-   "beats": 3,
-   "speed": 0.9
+   "beats": 6
   },
   {
    "id": "MON-291",
-   "beats": 3,
-   "speed": 0.9
+   "beats": 5
   },
   {
    "id": "MON-327",
-   "beats": 4,
-   "speed": 0.9
-  },
-  {
-   "id": "MON-325",
-   "beats": 3,
-   "speed": 0.8,
-   "panels": [
-    "MON-288",
-    "MON-286"
-   ],
-   "layout": "rows",
-   "stagger": 0.08
+   "beats": 6
   }
  ]
 }

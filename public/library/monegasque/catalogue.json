@@ -34,7 +34,13 @@
     -0.131,
     -0.016
    ],
-   "motion_strength": 0.132
+   "motion_strength": 0.132,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
   },
   {
    "id": "MON-002",
@@ -69,7 +75,8 @@
     0.015,
     -0.004
    ],
-   "motion_strength": 0.016
+   "motion_strength": 0.016,
+   "wm": []
   },
   {
    "id": "MON-003",
@@ -104,7 +111,8 @@
     0.008,
     -0.027
    ],
-   "motion_strength": 0.029
+   "motion_strength": 0.029,
+   "wm": []
   },
   {
    "id": "MON-004",
@@ -139,7 +147,8 @@
     -0.006,
     0.013
    ],
-   "motion_strength": 0.014
+   "motion_strength": 0.014,
+   "wm": []
   },
   {
    "id": "MON-005",
@@ -174,7 +183,8 @@
     0.008,
     0.0
    ],
-   "motion_strength": 0.009
+   "motion_strength": 0.009,
+   "wm": []
   },
   {
    "id": "MON-006",
@@ -209,7 +219,8 @@
     0.003,
     0.016
    ],
-   "motion_strength": 0.016
+   "motion_strength": 0.016,
+   "wm": []
   },
   {
    "id": "MON-007",
@@ -244,7 +255,8 @@
     -0.002,
     -0.024
    ],
-   "motion_strength": 0.024
+   "motion_strength": 0.024,
+   "wm": []
   },
   {
    "id": "MON-008",
@@ -279,7 +291,8 @@
     0.058,
     0.126
    ],
-   "motion_strength": 0.138
+   "motion_strength": 0.138,
+   "wm": []
   },
   {
    "id": "MON-009",
@@ -314,7 +327,8 @@
     0.231,
     -0.061
    ],
-   "motion_strength": 0.239
+   "motion_strength": 0.239,
+   "wm": []
   },
   {
    "id": "MON-010",
@@ -349,7 +363,8 @@
     -0.067,
     0.07
    ],
-   "motion_strength": 0.097
+   "motion_strength": 0.097,
+   "wm": []
   },
   {
    "id": "MON-011",
@@ -384,7 +399,8 @@
     -0.01,
     0.008
    ],
-   "motion_strength": 0.013
+   "motion_strength": 0.013,
+   "wm": []
   },
   {
    "id": "MON-012",
@@ -419,7 +435,13 @@
     -0.007,
     0.031
    ],
-   "motion_strength": 0.032
+   "motion_strength": 0.032,
+   "wm": [
+    [
+     0.25,
+     0.55
+    ]
+   ]
   },
   {
    "id": "MON-013",
@@ -454,7 +476,13 @@
     -0.004,
     0.0
    ],
-   "motion_strength": 0.004
+   "motion_strength": 0.004,
+   "wm": [
+    [
+     0,
+     0.15
+    ]
+   ]
   },
   {
    "id": "MON-014",
@@ -489,7 +517,8 @@
     0.014,
     0.015
    ],
-   "motion_strength": 0.021
+   "motion_strength": 0.021,
+   "wm": []
   },
   {
    "id": "MON-015",
@@ -524,7 +553,8 @@
     0.002,
     -0.036
    ],
-   "motion_strength": 0.036
+   "motion_strength": 0.036,
+   "wm": []
   },
   {
    "id": "MON-016",
@@ -559,7 +589,8 @@
     0.021,
     -0.023
    ],
-   "motion_strength": 0.031
+   "motion_strength": 0.031,
+   "wm": []
   },
   {
    "id": "MON-017",
@@ -594,7 +625,8 @@
     -0.0,
     0.02
    ],
-   "motion_strength": 0.02
+   "motion_strength": 0.02,
+   "wm": []
   },
   {
    "id": "MON-018",
@@ -629,7 +661,8 @@
     -0.054,
     -0.008
    ],
-   "motion_strength": 0.054
+   "motion_strength": 0.054,
+   "wm": []
   },
   {
    "id": "MON-019",
@@ -664,7 +697,8 @@
     0.015,
     0.005
    ],
-   "motion_strength": 0.015
+   "motion_strength": 0.015,
+   "wm": []
   },
   {
    "id": "MON-020",
@@ -699,7 +733,8 @@
     0.014,
     -0.003
    ],
-   "motion_strength": 0.014
+   "motion_strength": 0.014,
+   "wm": []
   },
   {
    "id": "MON-021",
@@ -734,7 +769,8 @@
     0.01,
     -0.014
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-022",
@@ -769,7 +805,8 @@
     0.004,
     -0.005
    ],
-   "motion_strength": 0.007
+   "motion_strength": 0.007,
+   "wm": []
   },
   {
    "id": "MON-023",
@@ -804,7 +841,8 @@
     0.03,
     -0.004
    ],
-   "motion_strength": 0.03
+   "motion_strength": 0.03,
+   "wm": []
   },
   {
    "id": "MON-024",
@@ -839,7 +877,8 @@
     0.019,
     0.01
    ],
-   "motion_strength": 0.021
+   "motion_strength": 0.021,
+   "wm": []
   },
   {
    "id": "MON-025",
@@ -874,7 +913,8 @@
     0.279,
     0.023
    ],
-   "motion_strength": 0.28
+   "motion_strength": 0.28,
+   "wm": []
   },
   {
    "id": "MON-026",
@@ -909,7 +949,8 @@
     0.17,
     0.013
    ],
-   "motion_strength": 0.171
+   "motion_strength": 0.171,
+   "wm": []
   },
   {
    "id": "MON-027",
@@ -944,7 +985,8 @@
     -0.015,
     -0.009
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-028",
@@ -979,7 +1021,13 @@
     0.265,
     0.014
    ],
-   "motion_strength": 0.265
+   "motion_strength": 0.265,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
   },
   {
    "id": "MON-029",
@@ -1014,7 +1062,8 @@
     0.006,
     0.0
    ],
-   "motion_strength": 0.006
+   "motion_strength": 0.006,
+   "wm": []
   },
   {
    "id": "MON-030",
@@ -1049,7 +1098,8 @@
     0.099,
     0.022
    ],
-   "motion_strength": 0.102
+   "motion_strength": 0.102,
+   "wm": []
   },
   {
    "id": "MON-031",
@@ -1084,7 +1134,8 @@
     -0.08,
     -0.076
    ],
-   "motion_strength": 0.11
+   "motion_strength": 0.11,
+   "wm": []
   },
   {
    "id": "MON-032",
@@ -1119,7 +1170,8 @@
     0.065,
     -0.003
    ],
-   "motion_strength": 0.065
+   "motion_strength": 0.065,
+   "wm": []
   },
   {
    "id": "MON-033",
@@ -1154,7 +1206,8 @@
     0.04,
     0.022
    ],
-   "motion_strength": 0.046
+   "motion_strength": 0.046,
+   "wm": []
   },
   {
    "id": "MON-034",
@@ -1189,7 +1242,8 @@
     0.075,
     -0.006
    ],
-   "motion_strength": 0.075
+   "motion_strength": 0.075,
+   "wm": []
   },
   {
    "id": "MON-035",
@@ -1224,7 +1278,8 @@
     -0.019,
     -0.016
    ],
-   "motion_strength": 0.025
+   "motion_strength": 0.025,
+   "wm": []
   },
   {
    "id": "MON-036",
@@ -1259,7 +1314,8 @@
     -0.028,
     0.013
    ],
-   "motion_strength": 0.031
+   "motion_strength": 0.031,
+   "wm": []
   },
   {
    "id": "MON-037",
@@ -1294,7 +1350,8 @@
     -0.241,
     0.012
    ],
-   "motion_strength": 0.241
+   "motion_strength": 0.241,
+   "wm": []
   },
   {
    "id": "MON-038",
@@ -1329,7 +1386,8 @@
     0.136,
     -0.01
    ],
-   "motion_strength": 0.136
+   "motion_strength": 0.136,
+   "wm": []
   },
   {
    "id": "MON-039",
@@ -1364,7 +1422,8 @@
     -0.086,
     0.014
    ],
-   "motion_strength": 0.087
+   "motion_strength": 0.087,
+   "wm": []
   },
   {
    "id": "MON-040",
@@ -1399,7 +1458,8 @@
     -0.041,
     0.006
    ],
-   "motion_strength": 0.041
+   "motion_strength": 0.041,
+   "wm": []
   },
   {
    "id": "MON-041",
@@ -1434,7 +1494,8 @@
     -0.033,
     -0.022
    ],
-   "motion_strength": 0.04
+   "motion_strength": 0.04,
+   "wm": []
   },
   {
    "id": "MON-042",
@@ -1469,7 +1530,8 @@
     -0.008,
     -0.009
    ],
-   "motion_strength": 0.012
+   "motion_strength": 0.012,
+   "wm": []
   },
   {
    "id": "MON-043",
@@ -1504,7 +1566,8 @@
     -0.014,
     0.002
    ],
-   "motion_strength": 0.014
+   "motion_strength": 0.014,
+   "wm": []
   },
   {
    "id": "MON-044",
@@ -1539,7 +1602,8 @@
     -0.004,
     0.016
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-045",
@@ -1574,7 +1638,8 @@
     -0.079,
     -0.011
    ],
-   "motion_strength": 0.079
+   "motion_strength": 0.079,
+   "wm": []
   },
   {
    "id": "MON-046",
@@ -1609,7 +1674,8 @@
     0.046,
     -0.002
    ],
-   "motion_strength": 0.046
+   "motion_strength": 0.046,
+   "wm": []
   },
   {
    "id": "MON-047",
@@ -1644,7 +1710,8 @@
     0.003,
     0.013
    ],
-   "motion_strength": 0.014
+   "motion_strength": 0.014,
+   "wm": []
   },
   {
    "id": "MON-048",
@@ -1679,7 +1746,8 @@
     0.007,
     -0.004
    ],
-   "motion_strength": 0.008
+   "motion_strength": 0.008,
+   "wm": []
   },
   {
    "id": "MON-049",
@@ -1714,7 +1782,8 @@
     0.006,
     -0.0
    ],
-   "motion_strength": 0.006
+   "motion_strength": 0.006,
+   "wm": []
   },
   {
    "id": "MON-050",
@@ -1749,7 +1818,8 @@
     -0.035,
     -0.04
    ],
-   "motion_strength": 0.053
+   "motion_strength": 0.053,
+   "wm": []
   },
   {
    "id": "MON-051",
@@ -1784,7 +1854,8 @@
     0.132,
     0.013
    ],
-   "motion_strength": 0.133
+   "motion_strength": 0.133,
+   "wm": []
   },
   {
    "id": "MON-052",
@@ -1819,7 +1890,8 @@
     0.006,
     0.06
    ],
-   "motion_strength": 0.061
+   "motion_strength": 0.061,
+   "wm": []
   },
   {
    "id": "MON-053",
@@ -1854,7 +1926,8 @@
     -0.238,
     0.048
    ],
-   "motion_strength": 0.242
+   "motion_strength": 0.242,
+   "wm": []
   },
   {
    "id": "MON-054",
@@ -1889,7 +1962,8 @@
     -0.004,
     0.026
    ],
-   "motion_strength": 0.026
+   "motion_strength": 0.026,
+   "wm": []
   },
   {
    "id": "MON-055",
@@ -1924,7 +1998,8 @@
     -0.264,
     0.092
    ],
-   "motion_strength": 0.279
+   "motion_strength": 0.279,
+   "wm": []
   },
   {
    "id": "MON-056",
@@ -1959,7 +2034,8 @@
     0.003,
     0.01
    ],
-   "motion_strength": 0.011
+   "motion_strength": 0.011,
+   "wm": []
   },
   {
    "id": "MON-057",
@@ -1994,7 +2070,13 @@
     0.161,
     0.054
    ],
-   "motion_strength": 0.17
+   "motion_strength": 0.17,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
   },
   {
    "id": "MON-058",
@@ -2029,7 +2111,8 @@
     -0.017,
     0.093
    ],
-   "motion_strength": 0.095
+   "motion_strength": 0.095,
+   "wm": []
   },
   {
    "id": "MON-059",
@@ -2064,7 +2147,8 @@
     0.074,
     0.01
    ],
-   "motion_strength": 0.075
+   "motion_strength": 0.075,
+   "wm": []
   },
   {
    "id": "MON-060",
@@ -2099,7 +2183,8 @@
     -0.007,
     0.021
    ],
-   "motion_strength": 0.022
+   "motion_strength": 0.022,
+   "wm": []
   },
   {
    "id": "MON-061",
@@ -2134,7 +2219,8 @@
     -0.021,
     0.01
    ],
-   "motion_strength": 0.023
+   "motion_strength": 0.023,
+   "wm": []
   },
   {
    "id": "MON-062",
@@ -2169,7 +2255,8 @@
     0.007,
     0.017
    ],
-   "motion_strength": 0.018
+   "motion_strength": 0.018,
+   "wm": []
   },
   {
    "id": "MON-063",
@@ -2204,7 +2291,8 @@
     0.024,
     0.018
    ],
-   "motion_strength": 0.03
+   "motion_strength": 0.03,
+   "wm": []
   },
   {
    "id": "MON-064",
@@ -2239,7 +2327,8 @@
     -0.074,
     0.002
    ],
-   "motion_strength": 0.074
+   "motion_strength": 0.074,
+   "wm": []
   },
   {
    "id": "MON-065",
@@ -2274,7 +2363,8 @@
     -0.009,
     0.001
    ],
-   "motion_strength": 0.009
+   "motion_strength": 0.009,
+   "wm": []
   },
   {
    "id": "MON-066",
@@ -2309,7 +2399,13 @@
     0.002,
     -0.04
    ],
-   "motion_strength": 0.04
+   "motion_strength": 0.04,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
   },
   {
    "id": "MON-067",
@@ -2344,7 +2440,8 @@
     -0.128,
     0.005
    ],
-   "motion_strength": 0.128
+   "motion_strength": 0.128,
+   "wm": []
   },
   {
    "id": "MON-068",
@@ -2379,7 +2476,8 @@
     0.002,
     0.008
    ],
-   "motion_strength": 0.008
+   "motion_strength": 0.008,
+   "wm": []
   },
   {
    "id": "MON-069",
@@ -2414,7 +2512,8 @@
     -0.002,
     0.02
    ],
-   "motion_strength": 0.02
+   "motion_strength": 0.02,
+   "wm": []
   },
   {
    "id": "MON-070",
@@ -2449,7 +2548,8 @@
     0.003,
     0.04
    ],
-   "motion_strength": 0.04
+   "motion_strength": 0.04,
+   "wm": []
   },
   {
    "id": "MON-071",
@@ -2484,7 +2584,8 @@
     0.002,
     0.009
    ],
-   "motion_strength": 0.009
+   "motion_strength": 0.009,
+   "wm": []
   },
   {
    "id": "MON-072",
@@ -2519,7 +2620,8 @@
     -0.019,
     -0.006
    ],
-   "motion_strength": 0.02
+   "motion_strength": 0.02,
+   "wm": []
   },
   {
    "id": "MON-073",
@@ -2554,7 +2656,8 @@
     0.001,
     -0.018
    ],
-   "motion_strength": 0.018
+   "motion_strength": 0.018,
+   "wm": []
   },
   {
    "id": "MON-074",
@@ -2589,7 +2692,8 @@
     -0.032,
     -0.0
    ],
-   "motion_strength": 0.032
+   "motion_strength": 0.032,
+   "wm": []
   },
   {
    "id": "MON-075",
@@ -2624,7 +2728,13 @@
     0.005,
     0.007
    ],
-   "motion_strength": 0.009
+   "motion_strength": 0.009,
+   "wm": [
+    [
+     0.78,
+     1.08
+    ]
+   ]
   },
   {
    "id": "MON-076",
@@ -2659,7 +2769,8 @@
     0.019,
     0.018
    ],
-   "motion_strength": 0.026
+   "motion_strength": 0.026,
+   "wm": []
   },
   {
    "id": "MON-077",
@@ -2694,7 +2805,8 @@
     0.304,
     0.187
    ],
-   "motion_strength": 0.357
+   "motion_strength": 0.357,
+   "wm": []
   },
   {
    "id": "MON-078",
@@ -2729,7 +2841,8 @@
     0.04,
     0.023
    ],
-   "motion_strength": 0.046
+   "motion_strength": 0.046,
+   "wm": []
   },
   {
    "id": "MON-079",
@@ -2764,7 +2877,8 @@
     -0.021,
     -0.021
    ],
-   "motion_strength": 0.03
+   "motion_strength": 0.03,
+   "wm": []
   },
   {
    "id": "MON-080",
@@ -2799,7 +2913,8 @@
     0.018,
     -0.158
    ],
-   "motion_strength": 0.159
+   "motion_strength": 0.159,
+   "wm": []
   },
   {
    "id": "MON-081",
@@ -2834,7 +2949,8 @@
     -0.043,
     0.031
    ],
-   "motion_strength": 0.053
+   "motion_strength": 0.053,
+   "wm": []
   },
   {
    "id": "MON-082",
@@ -2869,7 +2985,8 @@
     -0.018,
     -0.009
    ],
-   "motion_strength": 0.02
+   "motion_strength": 0.02,
+   "wm": []
   },
   {
    "id": "MON-083",
@@ -2904,7 +3021,8 @@
     -0.025,
     0.015
    ],
-   "motion_strength": 0.029
+   "motion_strength": 0.029,
+   "wm": []
   },
   {
    "id": "MON-084",
@@ -2939,7 +3057,8 @@
     -0.055,
     0.009
    ],
-   "motion_strength": 0.056
+   "motion_strength": 0.056,
+   "wm": []
   },
   {
    "id": "MON-085",
@@ -2974,7 +3093,8 @@
     -0.024,
     0.063
    ],
-   "motion_strength": 0.068
+   "motion_strength": 0.068,
+   "wm": []
   },
   {
    "id": "MON-086",
@@ -3009,7 +3129,8 @@
     0.02,
     -0.027
    ],
-   "motion_strength": 0.033
+   "motion_strength": 0.033,
+   "wm": []
   },
   {
    "id": "MON-087",
@@ -3044,7 +3165,8 @@
     -0.005,
     0.006
    ],
-   "motion_strength": 0.008
+   "motion_strength": 0.008,
+   "wm": []
   },
   {
    "id": "MON-088",
@@ -3079,7 +3201,8 @@
     -0.216,
     0.053
    ],
-   "motion_strength": 0.222
+   "motion_strength": 0.222,
+   "wm": []
   },
   {
    "id": "MON-089",
@@ -3114,7 +3237,8 @@
     -0.082,
     0.072
    ],
-   "motion_strength": 0.109
+   "motion_strength": 0.109,
+   "wm": []
   },
   {
    "id": "MON-090",
@@ -3149,7 +3273,8 @@
     -0.046,
     0.004
    ],
-   "motion_strength": 0.046
+   "motion_strength": 0.046,
+   "wm": []
   },
   {
    "id": "MON-091",
@@ -3184,7 +3309,8 @@
     0.12,
     0.002
    ],
-   "motion_strength": 0.12
+   "motion_strength": 0.12,
+   "wm": []
   },
   {
    "id": "MON-092",
@@ -3219,7 +3345,8 @@
     -0.011,
     0.005
    ],
-   "motion_strength": 0.012
+   "motion_strength": 0.012,
+   "wm": []
   },
   {
    "id": "MON-093",
@@ -3254,7 +3381,8 @@
     -0.016,
     -0.085
    ],
-   "motion_strength": 0.087
+   "motion_strength": 0.087,
+   "wm": []
   },
   {
    "id": "MON-094",
@@ -3289,7 +3417,8 @@
     0.076,
     -0.011
    ],
-   "motion_strength": 0.077
+   "motion_strength": 0.077,
+   "wm": []
   },
   {
    "id": "MON-095",
@@ -3324,7 +3453,8 @@
     -0.006,
     -0.008
    ],
-   "motion_strength": 0.01
+   "motion_strength": 0.01,
+   "wm": []
   },
   {
    "id": "MON-096",
@@ -3359,7 +3489,8 @@
     -0.015,
     -0.007
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-097",
@@ -3394,7 +3525,8 @@
     -0.062,
     0.002
    ],
-   "motion_strength": 0.062
+   "motion_strength": 0.062,
+   "wm": []
   },
   {
    "id": "MON-098",
@@ -3429,7 +3561,8 @@
     -0.04,
     -0.022
    ],
-   "motion_strength": 0.046
+   "motion_strength": 0.046,
+   "wm": []
   },
   {
    "id": "MON-099",
@@ -3464,7 +3597,8 @@
     0.074,
     -0.005
    ],
-   "motion_strength": 0.074
+   "motion_strength": 0.074,
+   "wm": []
   },
   {
    "id": "MON-100",
@@ -3499,7 +3633,8 @@
     -0.004,
     -0.004
    ],
-   "motion_strength": 0.005
+   "motion_strength": 0.005,
+   "wm": []
   },
   {
    "id": "MON-101",
@@ -3534,7 +3669,8 @@
     0.025,
     -0.03
    ],
-   "motion_strength": 0.039
+   "motion_strength": 0.039,
+   "wm": []
   },
   {
    "id": "MON-102",
@@ -3569,7 +3705,8 @@
     0.111,
     0.027
    ],
-   "motion_strength": 0.114
+   "motion_strength": 0.114,
+   "wm": []
   },
   {
    "id": "MON-103",
@@ -3604,7 +3741,8 @@
     -0.059,
     -0.169
    ],
-   "motion_strength": 0.179
+   "motion_strength": 0.179,
+   "wm": []
   },
   {
    "id": "MON-104",
@@ -3639,7 +3777,8 @@
     0.018,
     0.013
    ],
-   "motion_strength": 0.022
+   "motion_strength": 0.022,
+   "wm": []
   },
   {
    "id": "MON-105",
@@ -3674,7 +3813,8 @@
     -0.077,
     0.056
    ],
-   "motion_strength": 0.095
+   "motion_strength": 0.095,
+   "wm": []
   },
   {
    "id": "MON-106",
@@ -3709,7 +3849,8 @@
     0.061,
     -0.002
    ],
-   "motion_strength": 0.061
+   "motion_strength": 0.061,
+   "wm": []
   },
   {
    "id": "MON-107",
@@ -3744,7 +3885,8 @@
     0.001,
     0.026
    ],
-   "motion_strength": 0.026
+   "motion_strength": 0.026,
+   "wm": []
   },
   {
    "id": "MON-108",
@@ -3779,7 +3921,8 @@
     0.002,
     -0.013
    ],
-   "motion_strength": 0.013
+   "motion_strength": 0.013,
+   "wm": []
   },
   {
    "id": "MON-109",
@@ -3814,7 +3957,8 @@
     -0.085,
     -0.017
    ],
-   "motion_strength": 0.086
+   "motion_strength": 0.086,
+   "wm": []
   },
   {
    "id": "MON-110",
@@ -3849,7 +3993,8 @@
     -0.114,
     -0.03
    ],
-   "motion_strength": 0.117
+   "motion_strength": 0.117,
+   "wm": []
   },
   {
    "id": "MON-111",
@@ -3884,7 +4029,8 @@
     0.015,
     -0.002
    ],
-   "motion_strength": 0.015
+   "motion_strength": 0.015,
+   "wm": []
   },
   {
    "id": "MON-112",
@@ -3919,7 +4065,8 @@
     -0.214,
     -0.018
    ],
-   "motion_strength": 0.215
+   "motion_strength": 0.215,
+   "wm": []
   },
   {
    "id": "MON-113",
@@ -3954,7 +4101,8 @@
     -0.075,
     0.061
    ],
-   "motion_strength": 0.097
+   "motion_strength": 0.097,
+   "wm": []
   },
   {
    "id": "MON-114",
@@ -3989,7 +4137,8 @@
     -0.046,
     0.015
    ],
-   "motion_strength": 0.048
+   "motion_strength": 0.048,
+   "wm": []
   },
   {
    "id": "MON-115",
@@ -4024,7 +4173,8 @@
     -0.04,
     0.031
    ],
-   "motion_strength": 0.051
+   "motion_strength": 0.051,
+   "wm": []
   },
   {
    "id": "MON-116",
@@ -4059,7 +4209,8 @@
     0.009,
     -0.005
    ],
-   "motion_strength": 0.01
+   "motion_strength": 0.01,
+   "wm": []
   },
   {
    "id": "MON-117",
@@ -4094,7 +4245,8 @@
     0.015,
     0.008
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-118",
@@ -4129,7 +4281,8 @@
     0.015,
     0.066
    ],
-   "motion_strength": 0.068
+   "motion_strength": 0.068,
+   "wm": []
   },
   {
    "id": "MON-119",
@@ -4164,7 +4317,8 @@
     -0.008,
     -0.006
    ],
-   "motion_strength": 0.01
+   "motion_strength": 0.01,
+   "wm": []
   },
   {
    "id": "MON-120",
@@ -4199,7 +4353,8 @@
     -0.013,
     0.015
    ],
-   "motion_strength": 0.02
+   "motion_strength": 0.02,
+   "wm": []
   },
   {
    "id": "MON-121",
@@ -4234,7 +4389,8 @@
     -0.19,
     -0.023
    ],
-   "motion_strength": 0.192
+   "motion_strength": 0.192,
+   "wm": []
   },
   {
    "id": "MON-122",
@@ -4269,7 +4425,8 @@
     -0.002,
     -0.003
    ],
-   "motion_strength": 0.004
+   "motion_strength": 0.004,
+   "wm": []
   },
   {
    "id": "MON-123",
@@ -4304,7 +4461,8 @@
     -0.004,
     -0.037
    ],
-   "motion_strength": 0.037
+   "motion_strength": 0.037,
+   "wm": []
   },
   {
    "id": "MON-124",
@@ -4339,7 +4497,8 @@
     0.004,
     -0.003
    ],
-   "motion_strength": 0.005
+   "motion_strength": 0.005,
+   "wm": []
   },
   {
    "id": "MON-125",
@@ -4374,7 +4533,8 @@
     0.005,
     0.014
    ],
-   "motion_strength": 0.015
+   "motion_strength": 0.015,
+   "wm": []
   },
   {
    "id": "MON-126",
@@ -4409,7 +4569,8 @@
     0.184,
     0.017
    ],
-   "motion_strength": 0.185
+   "motion_strength": 0.185,
+   "wm": []
   },
   {
    "id": "MON-127",
@@ -4444,7 +4605,8 @@
     -0.026,
     -0.051
    ],
-   "motion_strength": 0.057
+   "motion_strength": 0.057,
+   "wm": []
   },
   {
    "id": "MON-128",
@@ -4479,7 +4641,8 @@
     0.275,
     0.23
    ],
-   "motion_strength": 0.358
+   "motion_strength": 0.358,
+   "wm": []
   },
   {
    "id": "MON-129",
@@ -4514,7 +4677,8 @@
     0.013,
     0.065
    ],
-   "motion_strength": 0.066
+   "motion_strength": 0.066,
+   "wm": []
   },
   {
    "id": "MON-130",
@@ -4549,7 +4713,8 @@
     -0.145,
     -0.168
    ],
-   "motion_strength": 0.222
+   "motion_strength": 0.222,
+   "wm": []
   },
   {
    "id": "MON-131",
@@ -4584,7 +4749,8 @@
     -0.291,
     0.085
    ],
-   "motion_strength": 0.304
+   "motion_strength": 0.304,
+   "wm": []
   },
   {
    "id": "MON-132",
@@ -4619,7 +4785,8 @@
     0.013,
     0.265
    ],
-   "motion_strength": 0.265
+   "motion_strength": 0.265,
+   "wm": []
   },
   {
    "id": "MON-133",
@@ -4654,7 +4821,8 @@
     0.006,
     -0.001
    ],
-   "motion_strength": 0.006
+   "motion_strength": 0.006,
+   "wm": []
   },
   {
    "id": "MON-134",
@@ -4689,7 +4857,8 @@
     0.006,
     0.016
    ],
-   "motion_strength": 0.017
+   "motion_strength": 0.017,
+   "wm": []
   },
   {
    "id": "MON-135",
@@ -4724,7 +4893,8 @@
     0.016,
     -0.028
    ],
-   "motion_strength": 0.032
+   "motion_strength": 0.032,
+   "wm": []
   },
   {
    "id": "MON-136",
@@ -4759,7 +4929,8 @@
     0.052,
     -0.018
    ],
-   "motion_strength": 0.055
+   "motion_strength": 0.055,
+   "wm": []
   },
   {
    "id": "MON-137",
@@ -4794,7 +4965,8 @@
     0.033,
     0.026
    ],
-   "motion_strength": 0.042
+   "motion_strength": 0.042,
+   "wm": []
   },
   {
    "id": "MON-138",
@@ -4829,7 +5001,8 @@
     -0.026,
     -0.029
    ],
-   "motion_strength": 0.039
+   "motion_strength": 0.039,
+   "wm": []
   },
   {
    "id": "MON-139",
@@ -4864,7 +5037,8 @@
     -0.298,
     -0.048
    ],
-   "motion_strength": 0.301
+   "motion_strength": 0.301,
+   "wm": []
   },
   {
    "id": "MON-140",
@@ -4899,7 +5073,8 @@
     -0.003,
     -0.011
    ],
-   "motion_strength": 0.012
+   "motion_strength": 0.012,
+   "wm": []
   },
   {
    "id": "MON-141",
@@ -4934,7 +5109,8 @@
     0.009,
     0.0
    ],
-   "motion_strength": 0.009
+   "motion_strength": 0.009,
+   "wm": []
   },
   {
    "id": "MON-142",
@@ -4969,7 +5145,8 @@
     0.019,
     -0.052
    ],
-   "motion_strength": 0.056
+   "motion_strength": 0.056,
+   "wm": []
   },
   {
    "id": "MON-143",
@@ -5004,7 +5181,8 @@
     0.006,
     0.015
    ],
-   "motion_strength": 0.016
+   "motion_strength": 0.016,
+   "wm": []
   },
   {
    "id": "MON-144",
@@ -5039,7 +5217,8 @@
     -0.001,
     0.001
    ],
-   "motion_strength": 0.002
+   "motion_strength": 0.002,
+   "wm": []
   },
   {
    "id": "MON-145",
@@ -5074,7 +5253,8 @@
     0.022,
     0.005
    ],
-   "motion_strength": 0.023
+   "motion_strength": 0.023,
+   "wm": []
   },
   {
    "id": "MON-146",
@@ -5109,7 +5289,8 @@
     -0.054,
     -0.01
    ],
-   "motion_strength": 0.055
+   "motion_strength": 0.055,
+   "wm": []
   },
   {
    "id": "MON-147",
@@ -5144,7 +5325,8 @@
     -0.065,
     -0.011
    ],
-   "motion_strength": 0.066
+   "motion_strength": 0.066,
+   "wm": []
   },
   {
    "id": "MON-148",
@@ -5179,7 +5361,8 @@
     -0.096,
     -0.038
    ],
-   "motion_strength": 0.103
+   "motion_strength": 0.103,
+   "wm": []
   },
   {
    "id": "MON-149",
@@ -5214,7 +5397,8 @@
     0.007,
     -0.072
    ],
-   "motion_strength": 0.072
+   "motion_strength": 0.072,
+   "wm": []
   },
   {
    "id": "MON-150",
@@ -5249,7 +5433,8 @@
     0.028,
     -0.028
    ],
-   "motion_strength": 0.039
+   "motion_strength": 0.039,
+   "wm": []
   },
   {
    "id": "MON-151",
@@ -5284,7 +5469,8 @@
     0.062,
     0.012
    ],
-   "motion_strength": 0.063
+   "motion_strength": 0.063,
+   "wm": []
   },
   {
    "id": "MON-152",
@@ -5319,7 +5505,8 @@
     -0.004,
     0.016
    ],
-   "motion_strength": 0.016
+   "motion_strength": 0.016,
+   "wm": []
   },
   {
    "id": "MON-153",
@@ -5354,7 +5541,8 @@
     -0.001,
     -0.007
    ],
-   "motion_strength": 0.007
+   "motion_strength": 0.007,
+   "wm": []
   },
   {
    "id": "MON-154",
@@ -5389,7 +5577,8 @@
     0.008,
     0.036
    ],
-   "motion_strength": 0.037
+   "motion_strength": 0.037,
+   "wm": []
   },
   {
    "id": "MON-155",
@@ -5424,7 +5613,8 @@
     0.04,
     -0.05
    ],
-   "motion_strength": 0.064
+   "motion_strength": 0.064,
+   "wm": []
   },
   {
    "id": "MON-156",
@@ -5459,7 +5649,8 @@
     0.019,
     -0.022
    ],
-   "motion_strength": 0.029
+   "motion_strength": 0.029,
+   "wm": []
   },
   {
    "id": "MON-157",
@@ -5494,7 +5685,8 @@
     -0.013,
     0.007
    ],
-   "motion_strength": 0.014
+   "motion_strength": 0.014,
+   "wm": []
   },
   {
    "id": "MON-158",
@@ -5529,7 +5721,8 @@
     -0.109,
     0.026
    ],
-   "motion_strength": 0.112
+   "motion_strength": 0.112,
+   "wm": []
   },
   {
    "id": "MON-159",
@@ -5564,7 +5757,8 @@
     0.004,
     0.086
    ],
-   "motion_strength": 0.086
+   "motion_strength": 0.086,
+   "wm": []
   },
   {
    "id": "MON-160",
@@ -5599,7 +5793,8 @@
     0.448,
     0.09
    ],
-   "motion_strength": 0.457
+   "motion_strength": 0.457,
+   "wm": []
   },
   {
    "id": "MON-161",
@@ -5634,7 +5829,8 @@
     -0.187,
     0.055
    ],
-   "motion_strength": 0.194
+   "motion_strength": 0.194,
+   "wm": []
   },
   {
    "id": "MON-162",
@@ -5669,7 +5865,8 @@
     0.005,
     -0.02
    ],
-   "motion_strength": 0.021
+   "motion_strength": 0.021,
+   "wm": []
   },
   {
    "id": "MON-163",
@@ -5704,7 +5901,8 @@
     -0.05,
     -0.007
    ],
-   "motion_strength": 0.05
+   "motion_strength": 0.05,
+   "wm": []
   },
   {
    "id": "MON-164",
@@ -5739,7 +5937,8 @@
     -0.083,
     0.155
    ],
-   "motion_strength": 0.176
+   "motion_strength": 0.176,
+   "wm": []
   },
   {
    "id": "MON-165",
@@ -5774,7 +5973,8 @@
     -0.004,
     -0.03
    ],
-   "motion_strength": 0.031
+   "motion_strength": 0.031,
+   "wm": []
   },
   {
    "id": "MON-166",
@@ -5809,7 +6009,8 @@
     0.027,
     0.001
    ],
-   "motion_strength": 0.027
+   "motion_strength": 0.027,
+   "wm": []
   },
   {
    "id": "MON-167",
@@ -5844,7 +6045,8 @@
     0.052,
     -0.031
    ],
-   "motion_strength": 0.061
+   "motion_strength": 0.061,
+   "wm": []
   },
   {
    "id": "MON-168",
@@ -5879,7 +6081,8 @@
     -0.056,
     -0.049
    ],
-   "motion_strength": 0.075
+   "motion_strength": 0.075,
+   "wm": []
   },
   {
    "id": "MON-169",
@@ -5914,7 +6117,8 @@
     0.061,
     -0.016
    ],
-   "motion_strength": 0.063
+   "motion_strength": 0.063,
+   "wm": []
   },
   {
    "id": "MON-170",
@@ -5949,7 +6153,8 @@
     -0.029,
     -0.012
    ],
-   "motion_strength": 0.031
+   "motion_strength": 0.031,
+   "wm": []
   },
   {
    "id": "MON-171",
@@ -5984,7 +6189,8 @@
     0.03,
     -0.019
    ],
-   "motion_strength": 0.035
+   "motion_strength": 0.035,
+   "wm": []
   },
   {
    "id": "MON-172",
@@ -6019,7 +6225,8 @@
     0.868,
     0.407
    ],
-   "motion_strength": 0.959
+   "motion_strength": 0.959,
+   "wm": []
   },
   {
    "id": "MON-173",
@@ -6054,7 +6261,8 @@
     0.194,
     0.001
    ],
-   "motion_strength": 0.194
+   "motion_strength": 0.194,
+   "wm": []
   },
   {
    "id": "MON-174",
@@ -6089,7 +6297,8 @@
     -0.237,
     -0.005
    ],
-   "motion_strength": 0.237
+   "motion_strength": 0.237,
+   "wm": []
   },
   {
    "id": "MON-175",
@@ -6124,7 +6333,8 @@
     0.178,
     0.148
    ],
-   "motion_strength": 0.232
+   "motion_strength": 0.232,
+   "wm": []
   },
   {
    "id": "MON-176",
@@ -6159,7 +6369,8 @@
     0.167,
     0.044
    ],
-   "motion_strength": 0.173
+   "motion_strength": 0.173,
+   "wm": []
   },
   {
    "id": "MON-177",
@@ -6194,7 +6405,8 @@
     -0.129,
     0.184
    ],
-   "motion_strength": 0.225
+   "motion_strength": 0.225,
+   "wm": []
   },
   {
    "id": "MON-178",
@@ -6229,7 +6441,8 @@
     -0.139,
     -0.007
    ],
-   "motion_strength": 0.139
+   "motion_strength": 0.139,
+   "wm": []
   },
   {
    "id": "MON-179",
@@ -6264,7 +6477,8 @@
     -0.211,
     -0.011
    ],
-   "motion_strength": 0.211
+   "motion_strength": 0.211,
+   "wm": []
   },
   {
    "id": "MON-180",
@@ -6299,7 +6513,8 @@
     -0.002,
     0.291
    ],
-   "motion_strength": 0.291
+   "motion_strength": 0.291,
+   "wm": []
   },
   {
    "id": "MON-181",
@@ -6334,7 +6549,8 @@
     0.185,
     0.019
    ],
-   "motion_strength": 0.186
+   "motion_strength": 0.186,
+   "wm": []
   },
   {
    "id": "MON-182",
@@ -6369,7 +6585,8 @@
     -0.1,
     -0.005
    ],
-   "motion_strength": 0.1
+   "motion_strength": 0.1,
+   "wm": []
   },
   {
    "id": "MON-183",
@@ -6404,7 +6621,8 @@
     -0.113,
     -0.02
    ],
-   "motion_strength": 0.114
+   "motion_strength": 0.114,
+   "wm": []
   },
   {
    "id": "MON-184",
@@ -6439,7 +6657,8 @@
     0.066,
     -0.291
    ],
-   "motion_strength": 0.299
+   "motion_strength": 0.299,
+   "wm": []
   },
   {
    "id": "MON-185",
@@ -6474,7 +6693,8 @@
     -0.207,
     0.023
    ],
-   "motion_strength": 0.208
+   "motion_strength": 0.208,
+   "wm": []
   },
   {
    "id": "MON-186",
@@ -6509,7 +6729,8 @@
     0.267,
     0.004
    ],
-   "motion_strength": 0.267
+   "motion_strength": 0.267,
+   "wm": []
   },
   {
    "id": "MON-187",
@@ -6544,7 +6765,8 @@
     -0.103,
     0.007
    ],
-   "motion_strength": 0.104
+   "motion_strength": 0.104,
+   "wm": []
   },
   {
    "id": "MON-188",
@@ -6579,7 +6801,8 @@
     0.014,
     0.386
    ],
-   "motion_strength": 0.387
+   "motion_strength": 0.387,
+   "wm": []
   },
   {
    "id": "MON-189",
@@ -6614,7 +6837,8 @@
     -0.109,
     0.008
    ],
-   "motion_strength": 0.109
+   "motion_strength": 0.109,
+   "wm": []
   },
   {
    "id": "MON-190",
@@ -6649,7 +6873,8 @@
     -0.056,
     -0.001
    ],
-   "motion_strength": 0.056
+   "motion_strength": 0.056,
+   "wm": []
   },
   {
    "id": "MON-191",
@@ -6684,7 +6909,8 @@
     0.114,
     0.045
    ],
-   "motion_strength": 0.122
+   "motion_strength": 0.122,
+   "wm": []
   },
   {
    "id": "MON-192",
@@ -6719,7 +6945,8 @@
     -0.146,
     -0.004
    ],
-   "motion_strength": 0.146
+   "motion_strength": 0.146,
+   "wm": []
   },
   {
    "id": "MON-193",
@@ -6754,7 +6981,8 @@
     0.162,
     -0.067
    ],
-   "motion_strength": 0.175
+   "motion_strength": 0.175,
+   "wm": []
   },
   {
    "id": "MON-194",
@@ -6789,7 +7017,8 @@
     -0.105,
     0.118
    ],
-   "motion_strength": 0.158
+   "motion_strength": 0.158,
+   "wm": []
   },
   {
    "id": "MON-195",
@@ -6824,7 +7053,8 @@
     -0.213,
     0.034
    ],
-   "motion_strength": 0.215
+   "motion_strength": 0.215,
+   "wm": []
   },
   {
    "id": "MON-196",
@@ -6859,7 +7089,8 @@
     -0.105,
     0.118
    ],
-   "motion_strength": 0.158
+   "motion_strength": 0.158,
+   "wm": []
   },
   {
    "id": "MON-197",
@@ -6894,7 +7125,8 @@
     -0.212,
     0.033
    ],
-   "motion_strength": 0.215
+   "motion_strength": 0.215,
+   "wm": []
   },
   {
    "id": "MON-198",

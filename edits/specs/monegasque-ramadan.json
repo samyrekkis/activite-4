@@ -1,47 +1,36 @@
 {
  "restaurant": "monegasque",
  "bpm": 100,
+ "stabilize": true,
  "out": "edits/reels/monegasque-ramadan.json",
- "version": 4,
+ "version": 12,
  "curve": "moody",
- "brief": "REEL lent (environ 17 s, 100 BPM). Thème « Les soirs de ramadan » : le thé versé, le hall illuminé, le buffet et ses desserts, les convives qui se servent. Technique : plans longs et posés, mouvements de caméra tous dans le même sens, rythme qui respire. Look chaud et profond (moody). Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "speed": 0.8,
+ "brief": "REEL lent (environ 15 s, 100 BPM). Thème « Les soirs de ramadan » : le thé versé, le buffet et ses bricks, les convives qui se servent, puis la vitrine de desserts pour finir. Technique : plans longs et posés, mouvements de caméra dans le même sens, une seule vitesse lente. Look chaud et profond (moody). Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
  "shots": [
   {
    "id": "MON-200",
-   "beats": 2,
-   "speed": 0.9
-  },
-  {
-   "id": "MON-199",
-   "beats": 5,
-   "speed": 0.9,
-   "mirror": true
+   "beats": 2
   },
   {
    "id": "MON-204",
    "beats": 4,
-   "speed": 0.9
+   "reverse": true
   },
   {
    "id": "MON-201",
    "beats": 6,
-   "speed": 0.85,
-   "b": 1.1
+   "b": 1.06
   },
   {
    "id": "MON-207",
    "beats": 4,
-   "speed": 0.9
-  },
-  {
-   "id": "MON-202",
-   "beats": 4,
-   "speed": 0.9
+   "b": 0.97
   },
   {
    "id": "MON-203",
    "beats": 5,
-   "speed": 0.8
+   "b": 1.06
   }
  ]
 }

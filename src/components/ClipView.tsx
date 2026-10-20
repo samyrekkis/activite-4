@@ -19,7 +19,9 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
   const { fps } = useVideoConfig();
   const grade = { ...theme.grade, ...clip.grade };
   const src = staticFile(clip.src);
-  const media: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover" };
+  // Mirror (flips a camera move left/right) on the media itself, around its own centre,
+  // so it never combines with the reframe origin and pushes the image out of frame.
+  const media: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover", ...(clip.mirror ? { transform: "scaleX(-1)" } : {}) };
   const curveId = `curve-${index}`;
   const filter = [grade.curve ? `url(#${curveId})` : "", gradeToFilter(grade)].join(" ").trim();
 
@@ -33,10 +35,7 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
           style={{
             filter,
             // Static reframe (no movement): hides an edge without a fake camera move.
-            ...(clip.reframe ? { transform: `scale(${clip.reframe.scale})`, transformOrigin: clip.reframe.origin ?? "center" } : {}),
-            // Mirror: flips a camera move left/right so it continues the previous shot direction.
-            ...(clip.mirror ? { transform: `${clip.reframe ? `scale(${clip.reframe.scale}) ` : ""}scaleX(-1)` } : {}),
-          }}
+            ...(clip.reframe ? { transform: `scale(${clip.reframe.scale})`, transformOrigin: clip.reframe.origin ?? "center" } : {}),          }}
         >
           {clip.panels?.length ? (
             <PanelsView panels={clip.panels} layout={clip.layout ?? "rows"} stagger={clip.stagger ?? 0.15} gap={theme.colors.background} />

@@ -18,17 +18,36 @@ const catalogue = (resto) =>
     const j = JSON.parse(fs.readFileSync(`public/library/${resto}/catalogue.json`, "utf8"));
     return j.clips || j;
   })());
+// stabilize: vidstab (2 passes) on handheld clips; kept only when the measured
+// shake (jitter.py) drops by 15 % or more. Decision cached in stab/<id>.json.
+const PY = process.env.PYTHON || "C:/Users/hp/.studioresto/venv/Scripts/python.exe";
+const stabilized = (m) => {
+  const resto = m.src.split("/")[1];
+  const dir = `public/library/${resto}/stab`;
+  const meta = `${dir}/${m.id}.json`;
+  if (!fs.existsSync(meta)) {
+    fs.mkdirSync(dir, { recursive: true });
+    const trf = `${dir}/${m.id}.trf`;
+    execFileSync("ffmpeg", ["-v", "error", "-y", "-i", `public/${m.src}`, "-vf", `vidstabdetect=shakiness=8:accuracy=15:result=${trf}`, "-f", "null", "-"]);
+    execFileSync("ffmpeg", ["-v", "error", "-y", "-i", `public/${m.src}`, "-vf", `vidstabtransform=input=${trf}:smoothing=40:optzoom=1:interpol=bicubic,unsharp=5:5:0.6`, "-an", "-c:v", "libx264", "-crf", "17", "-preset", "fast", "-pix_fmt", "yuv420p", `${dir}/${m.id}.mp4`]);
+    fs.rmSync(trf, { force: true });
+    const [before, after] = execFileSync(PY, ["scripts/library/jitter.py", `public/${m.src}`, `${dir}/${m.id}.mp4`], { encoding: "utf8" }).trim().split(/\r?\n/).map((l) => +l.split(" ").pop());
+    fs.writeFileSync(meta, JSON.stringify({ before, after, use: after <= before * 0.85 }));
+  }
+  const { use } = JSON.parse(fs.readFileSync(meta, "utf8"));
+  return use ? { ...m, src: `library/${resto}/stab/${m.id}.mp4` } : m;
+};
 // reverse: plays the clip backwards (a camera pulling back becomes a push in).
 // The reversed copy is made once with ffmpeg in public/library/<resto>/rev/.
 const reversed = (m) => {
   const resto = m.src.split("/")[1];
-  const out = `public/library/${resto}/rev/${m.id}.mp4`;
+  const out = `public/library/${resto}/rev/${m.id}${m.src.includes("/stab/") ? "-stab" : ""}.mp4`;
   if (!fs.existsSync(out)) {
     fs.mkdirSync(path.dirname(out), { recursive: true });
     execFileSync("ffmpeg", ["-v", "error", "-y", "-i", `public/${m.src}`, "-vf", "reverse", "-an", "-c:v", "libx264", "-crf", "17", "-preset", "fast", "-pix_fmt", "yuv420p", out]);
   }
   // Watermark spans mirror in time too.
-  return { ...m, src: `library/${resto}/rev/${m.id}.mp4`, wm: (m.wm || []).map(([a, b]) => [r2(m.duration - b), r2(m.duration - a)]) };
+  return { ...m, src: out.replace("public/", ""), wm: (m.wm || []).map(([a, b]) => [r2(m.duration - b), r2(m.duration - a)]) };
 };
 const find = (id) => {
   const resto = id.startsWith("SAM") ? "samourai" : "monegasque";
@@ -64,13 +83,16 @@ const flipIt = (m, s) => {
 const clips = [];
 let total = 0;
 for (const s of spec.shots) {
-  const m = s.reverse ? reversed(find(s.id)) : find(s.id);
+  let m = find(s.id);
+  if (s.stabilize ?? spec.stabilize) m = stabilized(m);
+  if (s.reverse) m = reversed(m);
   const grade = { curve: s.curve || spec.curve, brightness: s.b ?? 1 };
   if (s.sat) grade.saturate = s.sat;
   const base = { grade, ...(s.b ? { gradeAdjust: s.b } : {}) };
   if (s.reframe) base.reframe = s.reframe;
   if (!s.panels && flipIt(m, s)) base.mirror = true;
   if (s.motion) base.motion = s.motion;
+  if (s.fade) base.transitionIn = { type: "fade", duration: s.fade };
   if (s.letterbox ?? spec.letterbox) base.letterbox = true;
   if (s.ramp) {
     const [b1, b2, slow] = s.ramp;
@@ -84,7 +106,8 @@ for (const s of spec.shots) {
     continue;
   }
   const on = s.beats * beat;
-  const speed = s.speed ?? 1;
+  // spec.speed: one constant speed for the whole edit (the user finds speed changes abrupt).
+  const speed = spec.speed ?? s.speed ?? 1;
   const span = Math.min(m.duration - 0.05, on * speed);
   const sp = +(span / on).toFixed(3);
   if (sp < speed - 0.02) console.warn(`! ${s.id} short: speed ${speed} -> ${sp}`);

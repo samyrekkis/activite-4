@@ -3,49 +3,28 @@
  "bpm": 100,
  "autoMirror": true,
  "out": "edits/reels/samourai-rituel.json",
- "version": 4,
+ "version": 6,
  "curve": "encre",
  "letterbox": true,
- "brief": "REEL lent (environ 15 s, 100 BPM), format cinéma (bandes noires sur toute la vidéo). Thème « Le rituel » : du miroir de maquillage aux kimonos, la table laquée, la salle sous les lanternes, puis la chambre calligraphiée et la table basse, pour finir en respiration sur le rooftop. Progression de l’ombre vers la lumière. Technique : speed ramps (vitesse réelle puis ralenti soudain, rushs 60 i/s). Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "speed": 0.55,
+ "brief": "REEL lent (environ 14 s, 100 BPM), format cinéma (bandes noires). Thème « Se préparer » : une visite qui se lit d’un trait. On arrive sur le rooftop, on entre dans la chambre calligraphiée, on s’assoit à la table basse ; un seul fondu doux, la nuit tombe, et l’on finit devant le miroir aux kimonos. Une seule vitesse lente et constante (ralenti 60 i/s), aucun speed ramp. Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
  "shots": [
   {
-   "id": "SAM-074",
-   "ramp": [
-    1,
-    3,
-    0.35
-   ]
-  },
-  {
-   "id": "SAM-055",
-   "beats": 3,
-   "speed": 0.6
-  },
-  {
-   "id": "SAM-058",
-   "beats": 4,
-   "speed": 0.5
+   "id": "SAM-067",
+   "beats": 5
   },
   {
    "id": "SAM-075",
-   "ramp": [
-    1,
-    2,
-    0.4
-   ]
+   "beats": 6
   },
   {
    "id": "SAM-070",
-   "ramp": [
-    1,
-    2,
-    0.4
-   ]
+   "beats": 7
   },
   {
-   "id": "SAM-067",
-   "beats": 6,
-   "speed": 0.48
+   "id": "SAM-074",
+   "beats": 5,
+   "fade": 0.6
   }
  ]
 }

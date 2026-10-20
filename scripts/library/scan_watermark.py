@@ -1,7 +1,7 @@
 # Finds when the Instagram watermark (logo, faded in and out by Instagram) is on
 # screen in library clips, and stores it in the catalogue as "wm": [[t0, t1], ...]
 # so build-plan.mjs can pick in points that avoid it (erasing it smears).
-#   python scan_watermark.py <resto> [first_id_number]
+#   python scan_watermark.py <resto> [first_id_number | ID ID ...]
 import json
 import sys
 from pathlib import Path
@@ -14,7 +14,8 @@ TEMPLATE = cv2.imread(str(Path(__file__).with_name("ig_glyph.png")), cv2.IMREAD_
 SCALES = [cv2.resize(TEMPLATE, None, fx=s, fy=s) for s in (0.7, 0.85, 1.0, 1.2, 1.4)]
 
 resto = sys.argv[1]
-first = int(sys.argv[2]) if len(sys.argv) > 2 else 0
+ids = {a for a in sys.argv[2:] if "-" in a}
+first = int(sys.argv[2]) if len(sys.argv) > 2 and not ids else 0
 lib = Path("public/library") / resto
 cat_path = lib / "catalogue.json"
 cat = json.loads(cat_path.read_text(encoding="utf-8"))
@@ -27,7 +28,7 @@ def logo(frame):
 
 
 for c in clips:
-    if int(c["id"].split("-")[1]) < first:
+    if (ids and c["id"] not in ids) or int(c["id"].split("-")[1]) < first:
         continue
     cap = cv2.VideoCapture(str(lib / "clips" / f"{c['id']}.mp4"))
     fps = cap.get(cv2.CAP_PROP_FPS) or 30

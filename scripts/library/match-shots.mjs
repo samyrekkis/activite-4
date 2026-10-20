@@ -11,7 +11,7 @@ const catalogue = JSON.parse(readFileSync(`public/library/${plan.restaurant}/cat
 const bySrc = new Map(catalogue.map((c) => [c.src, c]));
 const themeBrightness = plan.restaurant === "monegasque" ? 1.04 : 1.0; // src/themes.ts
 
-const levels = plan.clips.map((c) => (c.panels ? null : bySrc.get(c.src.replace("/rev/", "/clips/"))?.brightness ?? null));
+const levels = plan.clips.map((c) => (c.panels ? null : bySrc.get(c.src.replace(/\/(rev|stab)\//, "/clips/").replace("-stab.mp4", ".mp4"))?.brightness ?? null));
 const known = levels.filter((b) => b !== null).sort((a, b) => a - b);
 const target = known[Math.floor(known.length / 2)];
 plan.clips.forEach((c, i) => {
