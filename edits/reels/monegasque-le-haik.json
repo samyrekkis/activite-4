@@ -1,0 +1,92 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "REEL lent (environ 15 s, 100 BPM). Thème « Le haïk » (tenue traditionnelle) : de jour sur la terrasse, une femme en haïk au bord de la piscine se dévoile ; puis le soir, sous les néons : le voile brodé en gros plan, elle ajuste son voile, puis le trône doré. Une seule vitesse lente et constante, coupes dans le sens du mouvement. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK femme en haïk sur la terrasse couverte",
+      "src": "library/monegasque/stab/MON-043.mp4",
+      "start": 0.45,
+      "end": 2.61,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#2 femme en haïk blanc au bord de la piscine",
+      "src": "library/monegasque/clips/MON-001.mp4",
+      "start": 0.62,
+      "end": 2.78,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.01
+      }
+    },
+    {
+      "label": "#3 femme en haïk qui se dévoile près de la piscine",
+      "src": "library/monegasque/clips/MON-002.mp4",
+      "start": 0.15,
+      "end": 2.85,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      }
+    },
+    {
+      "label": "#4 gros plan du voile brodé",
+      "src": "library/monegasque/stab/MON-050.mp4",
+      "start": 0.2,
+      "end": 1.82,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.01
+      }
+    },
+    {
+      "label": "#5 femme en haïk qui ajuste son voile, néon rouge",
+      "src": "library/monegasque/stab/MON-048.mp4",
+      "start": 0.26,
+      "end": 1.34,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#6 femme en haïk et voile brodé sous le néon",
+      "src": "library/monegasque/stab/MON-047.mp4",
+      "start": 0.13,
+      "end": 1.75,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#7 femme en haïk sur le trône doré sous les néons",
+      "src": "library/monegasque/stab/MON-042.mp4",
+      "start": 0.02,
+      "end": 2.17,
+      "speed": 0.896,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05
+      },
+      "gradeAdjust": 0.95,
+      "reframe": {
+        "scale": 1.12,
+        "origin": "right bottom"
+      }
+    }
+  ]
+}

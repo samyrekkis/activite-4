@@ -1,0 +1,76 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "REEL lent (environ 17 s, 100 BPM). Thème « Le brunch » : la table en surplomb de la piscine, le petit-déjeuner servi, les mains qui se servent, le couvercle du tajine qu’on soulève, les milkshakes qui trinquent, et le gâteau aux fraises pour finir. Une seule vitesse lente et constante, coupes dans le sens du mouvement. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK table du brunch en surplomb de la piscine",
+      "src": "library/monegasque/stab/MON-145.mp4",
+      "start": 0.27,
+      "end": 2.43,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#2 petit-déjeuner avec jus, toasts et beurre",
+      "src": "library/monegasque/stab/MON-051.mp4",
+      "start": 0.33,
+      "end": 2.49,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#3 mains qui se servent au brunch",
+      "src": "library/monegasque/stab/MON-055.mp4",
+      "start": 0.2,
+      "end": 1.82,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#4 main qui soulève le couvercle du tajine",
+      "src": "library/monegasque/clips/MON-007.mp4",
+      "start": 0.08,
+      "end": 2.24,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#5 mains qui trinquent au-dessus des milkshakes et burgers",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.62,
+      "end": 2.24,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#6 gâteau aux fraises sur la table du brunch",
+      "src": "library/monegasque/stab/MON-082.mp4",
+      "start": 0.06,
+      "end": 2.76,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.02
+      }
+    }
+  ]
+}

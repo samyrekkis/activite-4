@@ -1,0 +1,45 @@
+{
+ "bpm": 100,
+ "out": "edits/reels/monegasque-le-haik.json",
+ "version": 3,
+ "restaurant": "monegasque",
+ "curve": "film",
+ "speed": 0.9,
+ "stabilize": true,
+ "brief": "REEL lent (environ 15 s, 100 BPM). Thème « Le haïk » (tenue traditionnelle) : de jour sur la terrasse, une femme en haïk au bord de la piscine se dévoile ; puis le soir, sous les néons : le voile brodé en gros plan, elle ajuste son voile, puis le trône doré. Une seule vitesse lente et constante, coupes dans le sens du mouvement. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-043",
+   "beats": 4
+  },
+  {
+   "id": "MON-001",
+   "beats": 4
+  },
+  {
+   "id": "MON-002",
+   "beats": 5
+  },
+  {
+   "id": "MON-050",
+   "beats": 3
+  },
+  {
+   "id": "MON-048",
+   "beats": 2
+  },
+  {
+   "id": "MON-047",
+   "beats": 3
+  },
+  {
+   "id": "MON-042",
+   "beats": 4,
+   "b": 0.95,
+   "reframe": {
+    "scale": 1.12,
+    "origin": "right bottom"
+   }
+  }
+ ]
+}

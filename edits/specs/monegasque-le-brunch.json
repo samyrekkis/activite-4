@@ -1,0 +1,36 @@
+{
+ "bpm": 100,
+ "out": "edits/reels/monegasque-le-brunch.json",
+ "version": 2,
+ "restaurant": "monegasque",
+ "curve": "portra",
+ "speed": 0.9,
+ "stabilize": true,
+ "brief": "REEL lent (environ 17 s, 100 BPM). Thème « Le brunch » : la table en surplomb de la piscine, le petit-déjeuner servi, les mains qui se servent, le couvercle du tajine qu’on soulève, les milkshakes qui trinquent, et le gâteau aux fraises pour finir. Une seule vitesse lente et constante, coupes dans le sens du mouvement. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-145",
+   "beats": 4
+  },
+  {
+   "id": "MON-051",
+   "beats": 4
+  },
+  {
+   "id": "MON-055",
+   "beats": 3
+  },
+  {
+   "id": "MON-007",
+   "beats": 4
+  },
+  {
+   "id": "MON-066",
+   "beats": 3
+  },
+  {
+   "id": "MON-082",
+   "beats": 5
+  }
+ ]
+}
