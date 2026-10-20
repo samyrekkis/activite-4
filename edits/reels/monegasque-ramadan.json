@@ -1,0 +1,89 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "REEL lent (environ 17 s, 100 BPM). Thème « Les soirs de ramadan » : le thé versé, le hall illuminé, le buffet et ses desserts, les convives qui se servent. Technique : plans longs et posés, mouvements de caméra tous dans le même sens, rythme qui respire. Look chaud et profond (moody). Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK serveur qui verse le thé devant le buffet du ramadan",
+      "src": "library/monegasque/clips/MON-200.mp4",
+      "start": 0.03,
+      "end": 1.11,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#2 hall d'entrée illuminé, buffet du soir",
+      "src": "library/monegasque/clips/MON-199.mp4",
+      "start": 0.51,
+      "end": 3.21,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.06
+      },
+      "mirror": true
+    },
+    {
+      "label": "#3 buffet garni et chef derrière, ramadan",
+      "src": "library/monegasque/clips/MON-204.mp4",
+      "start": 0.14,
+      "end": 2.3,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#4 buffet du ramadan, assiettes et bricks",
+      "src": "library/monegasque/clips/MON-201.mp4",
+      "start": 0.07,
+      "end": 3.13,
+      "speed": 0.85,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.1
+      },
+      "gradeAdjust": 1.1
+    },
+    {
+      "label": "#5 file au buffet, salle illuminée",
+      "src": "library/monegasque/clips/MON-207.mp4",
+      "start": 0.23,
+      "end": 2.39,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#6 salle aux fauteuils verts, soir de ramadan",
+      "src": "library/monegasque/clips/MON-202.mp4",
+      "start": 0.08,
+      "end": 2.24,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#7 vitrine de desserts du buffet",
+      "src": "library/monegasque/clips/MON-203.mp4",
+      "start": 0.06,
+      "end": 2.46,
+      "speed": 0.8,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.02
+      }
+    }
+  ]
+}

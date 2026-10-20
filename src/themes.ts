@@ -63,13 +63,13 @@ export const THEMES: Record<RestaurantId, Theme> = {
       body: FONTS.montserrat,
       accent: FONTS.bebas,
     },
+    // Neutral base: whites stay white (rice, plates), blacks keep detail. The
+    // red veil and heavy contrast of the first version turned whites pink and
+    // crushed the shadows; the look now comes from the curve of each edit.
     grade: {
-      brightness: 0.96,
-      contrast: 1.22,
-      saturate: 1.1,
-      hueRotate: -4,
-      tint: "rgba(179,0,27,0.10)",
-      tintBlend: "overlay",
+      brightness: 1.0,
+      contrast: 1.06,
+      saturate: 1.04,
     },
     grain: 0.08,
     vignette: 0.45,

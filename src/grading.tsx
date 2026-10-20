@@ -4,7 +4,7 @@ import React from "react";
 // black to white). CSS filters only do global brightness/contrast; curves give
 // the split toning of a real grade: teal shadows with warm skin, lifted film
 // blacks, golden highlights…
-export type CurveName = "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody" | "vibrant" | "pastel" | "portra" | "tokyo";
+export type CurveName = "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody" | "vibrant" | "pastel" | "portra" | "tokyo" | "encre";
 
 type Curve = { r: string; g: string; b: string; saturate?: number };
 
@@ -30,6 +30,9 @@ export const CURVES: Record<CurveName, Curve> = {
   // Portra-like film stock: warm, flattering skin, gentle contrast, creamy highlights.
   portra: { r: "0.04 0.26 0.57 0.85 0.98", g: "0.03 0.23 0.52 0.81 0.96", b: "0.05 0.21 0.47 0.75 0.9", saturate: 1.05 },
   // Tokyo night: deep blacks, reds kept rich, cool cyan highlights.
+  // Encre (Samouraï signature): neutral whites, deep but detailed blacks, rich
+  // reds kept, a hint of cool in the shadows, no colour veil.
+  encre: { r: "0.015 0.2 0.52 0.84 1", g: "0.02 0.19 0.49 0.81 0.98", b: "0.045 0.215 0.49 0.8 0.97", saturate: 1.08 },
   tokyo: { r: "0 0.17 0.53 0.85 0.98", g: "0 0.13 0.45 0.8 0.97", b: "0.04 0.22 0.5 0.84 1", saturate: 1.12 },
 };
 

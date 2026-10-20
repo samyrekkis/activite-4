@@ -1,0 +1,78 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "REEL lent (environ 14 s, 100 BPM). Thème « La surprise » : on suit le chemin d'une demande romantique, du cordon qu'on ouvre jusqu'à la table aux pétales, puis la piscine au crépuscule. Technique : plans longs et calmes, un seul sens de lecture (on avance), coupes franches, ralentis légers. Look film doux. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK serveur qui ouvre le cordon devant les pétales",
+      "src": "library/monegasque/clips/MON-276.mp4",
+      "start": 0.07,
+      "end": 2.23,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.9
+      }
+    },
+    {
+      "label": "#2 cœur de pétales au sol, lumière du jour",
+      "src": "library/monegasque/clips/MON-278.mp4",
+      "start": 0.25,
+      "end": 2.41,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.88
+      }
+    },
+    {
+      "label": "#3 dîner romantique dressé, salle aux fauteuils",
+      "src": "library/monegasque/clips/MON-283.mp4",
+      "start": 0.54,
+      "end": 1.62,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.08
+      }
+    },
+    {
+      "label": "#4 table romantique noire, pétales en cœur",
+      "src": "library/monegasque/clips/MON-281.mp4",
+      "start": 0.18,
+      "end": 2.34,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "gradeAdjust": 0.96
+    },
+    {
+      "label": "#5 table romantique aux bougies près de la baie",
+      "src": "library/monegasque/rev/MON-280.mp4",
+      "start": 0.39,
+      "end": 2.55,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#6 piscine au crépuscule, lumière dorée",
+      "src": "library/monegasque/clips/MON-282.mp4",
+      "start": 0.3,
+      "end": 2.22,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.02
+      },
+      "gradeAdjust": 0.93
+    }
+  ]
+}

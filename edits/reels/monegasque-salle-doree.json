@@ -1,0 +1,120 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "REEL lent (environ 18-20 s, 100 BPM). Thème « La salle dorée » : la salle intérieure du Monégasque, suspensions dorées, plafond miroir, colonnes lumineuses, néons et velours. Hook : mur de cadres et néon Le Monégasque. Travellings 60 i/s légèrement ralentis, enchaînés dans le même sens, coupes franches, aucun effet, aucun texte de fin. Look pellicule. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK mur de cadres et néon Le Monégasque",
+      "src": "library/monegasque/clips/MON-191.mp4",
+      "start": 0.03,
+      "end": 0.96,
+      "speed": 0.775,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.25
+      }
+    },
+    {
+      "label": "#2 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 1.49,
+      "end": 3.41,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#3 travelling sous les suspensions dorées, salle et néon",
+      "src": "library/monegasque/clips/MON-178.mp4",
+      "start": 1.28,
+      "end": 3.2,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#4 travelling devant la banquette arrondie, salle et baie vitrée",
+      "src": "library/monegasque/clips/MON-179.mp4",
+      "start": 0.77,
+      "end": 2.21,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      }
+    },
+    {
+      "label": "#5 travelling dans la salle, bar et colonnes lumineuses",
+      "src": "library/monegasque/clips/MON-183.mp4",
+      "start": 0.77,
+      "end": 2.21,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#6 salle sous le plafond miroir, suspensions dorées",
+      "src": "library/monegasque/clips/MON-189.mp4",
+      "start": 0.92,
+      "end": 1.88,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#7 salle sous le plafond miroir, néon et colonnes",
+      "src": "library/monegasque/clips/MON-192.mp4",
+      "start": 1.27,
+      "end": 2.71,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#8 coin salle au néon rose et fauteuils verts",
+      "src": "library/monegasque/clips/MON-182.mp4",
+      "start": 0.17,
+      "end": 0.65,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.13
+      }
+    },
+    {
+      "label": "#9 salle aux suspensions dorées et banquettes vertes",
+      "src": "library/monegasque/clips/MON-181.mp4",
+      "start": 0.7,
+      "end": 2.14,
+      "speed": 0.8,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#10 travelling dans la salle au plafond miroir",
+      "src": "library/monegasque/clips/MON-193.mp4",
+      "start": 0.77,
+      "end": 2.21,
+      "speed": 0.6,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.06
+      }
+    }
+  ]
+}

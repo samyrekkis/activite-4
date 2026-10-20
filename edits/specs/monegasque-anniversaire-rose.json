@@ -1,0 +1,38 @@
+{
+ "restaurant": "monegasque",
+ "bpm": 100,
+ "out": "edits/stories/monegasque-anniversaire-rose.json",
+ "version": 3,
+ "curve": "pastel",
+ "brief": "STORY (environ 10 s, 100 BPM). Thème « Anniversaire en rose » : le néon Love, la salle rose, la table rose et argent. Technique : un écran partagé en deux colonnes au milieu (table / assiette), le reste en plans pleins. Look pastel. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-272",
+   "beats": 2,
+   "speed": 0.85
+  },
+  {
+   "id": "MON-271",
+   "beats": 5,
+   "speed": 0.84
+  },
+  {
+   "id": "MON-270",
+   "beats": 3,
+   "speed": 0.9,
+   "panels": [
+    "MON-273"
+   ],
+   "layout": "columns"
+  },
+  {
+   "id": "MON-274",
+   "beats": 2
+  },
+  {
+   "id": "MON-275",
+   "beats": 4,
+   "speed": 0.7
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "restaurant": "samourai",
+ "bpm": 100,
+ "autoMirror": true,
+ "out": "edits/stories/samourai-recoins.json",
+ "version": 4,
+ "curve": "encre",
+ "brief": "STORY (environ 13 s, 100 BPM). Thème « Les recoins du Samouraï » : l'escalier sous la lanterne, le salon aux coussins jaunes et le vase calligraphié côte à côte, puis le jardin au néon. Technique : travellings lents puis un écran partagé en deux colonnes au milieu. Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-066",
+   "beats": 4,
+   "speed": 1
+  },
+  {
+   "id": "SAM-061",
+   "beats": 4,
+   "speed": 0.8,
+   "mirror": true
+  },
+  {
+   "id": "SAM-072",
+   "beats": 4,
+   "speed": 0.8,
+   "panels": [
+    "SAM-073"
+   ],
+   "layout": "columns",
+   "motion": "zoomIn"
+  },
+  {
+   "id": "SAM-079",
+   "beats": 3,
+   "speed": 0.8
+  },
+  {
+   "id": "SAM-080",
+   "beats": 4,
+   "speed": 0.8,
+   "reframe": {
+    "scale": 1.1,
+    "origin": "right center"
+   }
+  }
+ ]
+}

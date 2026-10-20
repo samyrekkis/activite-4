@@ -1,0 +1,122 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "REEL lent (environ 25 s, 100 BPM). Thème « Entrer au Samouraï » : une visite lente et cinématique, du néon d’entrée au rooftop. Hook : néon Samouraï sur la fresque rouge. Travellings filmés en 60 i/s, légers ralentis fluides, coupes franches, aucun effet, aucun texte de fin. Look signature Samouraï « encre » (blancs neutres, noirs détaillés, rouges riches). Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 HOOK néon Samouraï sur la fresque rouge, gros plan",
+      "src": "library/samourai/clips/SAM-078.mp4",
+      "start": 0.64,
+      "end": 2.56,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#2 salle aux lanternes et tableau de geisha",
+      "src": "library/samourai/clips/SAM-062.mp4",
+      "start": 0.54,
+      "end": 2.46,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      }
+    },
+    {
+      "label": "#3 salle aux lanternes et mur de bambou",
+      "src": "library/samourai/clips/SAM-063.mp4",
+      "start": 1.02,
+      "end": 1.98,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#4 ombrelle en papier et lanternes au-dessus des tables",
+      "src": "library/samourai/clips/SAM-065.mp4",
+      "start": 1.03,
+      "end": 2.47,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.01
+      }
+    },
+    {
+      "label": "#5 salle aux lanternes rouges et chapeau chinois",
+      "src": "library/samourai/clips/SAM-057.mp4",
+      "start": 1.81,
+      "end": 3.61,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.1
+      }
+    },
+    {
+      "label": "#6 miroir de maquillage et kimonos suspendus",
+      "src": "library/samourai/clips/SAM-074.mp4",
+      "start": 0.48,
+      "end": 1.44,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.98
+      }
+    },
+    {
+      "label": "#7 chambre à la calligraphie, table basse et éventail",
+      "src": "library/samourai/clips/SAM-075.mp4",
+      "start": 0.63,
+      "end": 2.07,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.94
+      }
+    },
+    {
+      "label": "#8 table basse et set Samouraï vus du dessus",
+      "src": "library/samourai/clips/SAM-070.mp4",
+      "start": 2.17,
+      "end": 3.37,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#9 rooftop, néon kanji et plantes tropicales",
+      "src": "library/samourai/clips/SAM-077.mp4",
+      "start": 0.86,
+      "end": 1.82,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "reframe": {
+        "scale": 1.22,
+        "origin": "right bottom"
+      }
+    },
+    {
+      "label": "#10 rooftop aux lanternes en osier et fresque rouge",
+      "src": "library/samourai/clips/SAM-076.mp4",
+      "start": 0.28,
+      "end": 2.68,
+      "speed": 0.8,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.98
+      }
+    }
+  ]
+}

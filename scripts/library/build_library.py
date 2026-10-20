@@ -1,6 +1,6 @@
 # Files the extracted clips under readable names and builds the catalogue used
 # by the edit generator.
-#   python build_library.py <resto> <work_dir> <names.json> <studio_resto_dir>
+#   python build_library.py <resto> <work_dir> <names.json> <studio_resto_dir> [--append]
 #
 # names.json: { "<CLIP>": {"name": "...", "category": "...", "view": "...",
 #               "light": "jour|nuit", "quality": 0-3, "photo": true|false}, ... }
@@ -17,6 +17,8 @@ import sys
 from pathlib import Path
 
 resto, work, names_file, studio = sys.argv[1], Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4])
+# --append: keep the existing catalogue and its ids (plans reference them), add new clips after.
+append = "--append" in sys.argv
 FOLDER = {"monegasque": "Monegasque", "samourai": "Samourai"}[resto]
 PREFIX = {"monegasque": "MON", "samourai": "SAM"}[resto]
 LABEL = {
@@ -38,10 +40,14 @@ def safe(s):
     return re.sub(r'[<>:"/\\|?*]', "", s).strip()
 
 
-taken = set()
+cat_path = Path(f"public/library/{resto}/catalogue.json")
+previous = json.loads(cat_path.read_text(encoding="utf-8"))["clips"] if append and cat_path.exists() else []
+taken = {Path(e["file"]).stem.lower() for e in previous}
+known = {e["extract"] for e in previous}
+first = max((int(e["id"].split("-")[1]) for e in previous), default=0) + 1
 entries = []
-kept = sorted((k for k, v in names.items() if v.get("quality", 2) > 0 and k in reports))
-for n, key in enumerate(kept, 1):
+kept = sorted((k for k, v in names.items() if v.get("quality", 2) > 0 and k in reports and k not in known))
+for n, key in enumerate(kept, first):
     meta = names[key]
     cid = f"{PREFIX}-{n:03d}"
     shutil.copy2(work / f"{key}.mp4", lib / f"{cid}.mp4")
@@ -65,6 +71,6 @@ for e in entries:
     f = by_file[f"{e['id']}.mp4"]
     e.update({k: f[k] for k in ("duration", "orientation", "brightness", "lab", "lab_first", "lab_last", "motion", "motion_strength")})
 
-Path(f"public/library/{resto}/catalogue.json").write_text(
-    json.dumps({"restaurant": resto, "clips": entries}, ensure_ascii=False, indent=1), encoding="utf-8")
+cat_path.write_text(
+    json.dumps({"restaurant": resto, "clips": previous + entries}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"{resto} : {len(entries)} clips rangés, {sum(1 for e in entries if e.get('photo', True))} photos.")

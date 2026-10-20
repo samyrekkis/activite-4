@@ -1,0 +1,116 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "REEL (environ 20 s, 100 BPM). Thème « Le Monégasque en fête » : le musicien, la chanteuse, le service qui défile, la paella, le risotto, le poisson. Technique : variation de rythme — ouverture lente sur le musicien, accélération sur les plats (plans d’un temps puis de deux), puis retour au calme sur la chanteuse en plan long. Look festif et riche. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK musicien au banjo près du sapin",
+      "src": "library/monegasque/clips/MON-298.mp4",
+      "start": 0.25,
+      "end": 2.41,
+      "speed": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.12
+      }
+    },
+    {
+      "label": "#2 serveur qui porte deux assiettes",
+      "src": "library/monegasque/clips/MON-303.mp4",
+      "start": 0.04,
+      "end": 1.66,
+      "speed": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#3 paella aux fruits de mer sur faïence",
+      "src": "library/monegasque/clips/MON-305.mp4",
+      "start": 0.3,
+      "end": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#4 paella aux moules en gros plan",
+      "src": "library/monegasque/clips/MON-307.mp4",
+      "start": 0.3,
+      "end": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#5 risotto aux fruits de mer et parmesan",
+      "src": "library/monegasque/clips/MON-310.mp4",
+      "start": 0.03,
+      "end": 1.21,
+      "speed": 0.983,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#6 poisson entier sur riz safrané",
+      "src": "library/monegasque/clips/MON-308.mp4",
+      "start": 0.05,
+      "end": 1.25,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#7 calamars frits et sauce",
+      "src": "library/monegasque/clips/MON-315.mp4",
+      "start": 0.54,
+      "end": 2.16,
+      "speed": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.99
+      }
+    },
+    {
+      "label": "#8 serveur qui traverse la salle",
+      "src": "library/monegasque/clips/MON-313.mp4",
+      "start": 0.05,
+      "end": 2.45,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.11
+      }
+    },
+    {
+      "label": "#9 poulet gratiné sur salade",
+      "src": "library/monegasque/clips/MON-317.mp4",
+      "start": 1.13,
+      "end": 2.75,
+      "speed": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.97
+      }
+    },
+    {
+      "label": "#10 chanteuse au micro, soirée",
+      "src": "library/monegasque/clips/MON-302.mp4",
+      "start": 0.1,
+      "end": 3.34,
+      "speed": 0.9,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.06
+      }
+    }
+  ]
+}

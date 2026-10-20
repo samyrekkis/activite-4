@@ -1820,6 +1820,986 @@
     0.043
    ],
    "motion_strength": 0.07
+  },
+  {
+   "id": "SAM-053",
+   "src": "library/samourai/clips/SAM-053.mp4",
+   "file": "Salle - travelling dans la salle aux lanternes, étagère laquée.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_01",
+   "name": "travelling dans la salle aux lanternes, étagère laquée",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.42,
+   "orientation": "vertical",
+   "brightness": 0.265,
+   "lab": [
+    67.6,
+    142.1,
+    139.6
+   ],
+   "lab_first": [
+    70.1,
+    144.4,
+    140.4
+   ],
+   "lab_last": [
+    69.9,
+    138.3,
+    138.8
+   ],
+   "motion": [
+    -0.083,
+    0.002
+   ],
+   "motion_strength": 0.083
+  },
+  {
+   "id": "SAM-054",
+   "src": "library/samourai/clips/SAM-054.mp4",
+   "file": "Salle - salle aux lanternes et coussins, travelling lent.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_02",
+   "name": "salle aux lanternes et coussins, travelling lent",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.42,
+   "orientation": "vertical",
+   "brightness": 0.304,
+   "lab": [
+    77.6,
+    139.4,
+    139.9
+   ],
+   "lab_first": [
+    70.4,
+    138.3,
+    138.9
+   ],
+   "lab_last": [
+    105.0,
+    143.2,
+    144.9
+   ],
+   "motion": [
+    0.083,
+    -0.225
+   ],
+   "motion_strength": 0.24
+  },
+  {
+   "id": "SAM-055",
+   "src": "library/samourai/clips/SAM-055.mp4",
+   "file": "Déco - set de table laqué rouge en gros plan.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_03",
+   "name": "set de table laqué rouge en gros plan",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.4,
+   "orientation": "vertical",
+   "brightness": 0.39,
+   "lab": [
+    99.4,
+    148.8,
+    142.7
+   ],
+   "lab_first": [
+    96.0,
+    145.3,
+    145.1
+   ],
+   "lab_last": [
+    99.7,
+    150.8,
+    141.6
+   ],
+   "motion": [
+    0.055,
+    0.008
+   ],
+   "motion_strength": 0.056
+  },
+  {
+   "id": "SAM-056",
+   "src": "library/samourai/clips/SAM-056.mp4",
+   "file": "Salle - table au chapeau chinois et chaises rouges.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_04",
+   "name": "table au chapeau chinois et chaises rouges",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.4,
+   "orientation": "vertical",
+   "brightness": 0.337,
+   "lab": [
+    85.8,
+    143.1,
+    140.4
+   ],
+   "lab_first": [
+    99.7,
+    150.9,
+    141.0
+   ],
+   "lab_last": [
+    77.4,
+    137.2,
+    140.8
+   ],
+   "motion": [
+    0.221,
+    0.24
+   ],
+   "motion_strength": 0.326
+  },
+  {
+   "id": "SAM-057",
+   "src": "library/samourai/clips/SAM-057.mp4",
+   "file": "Salle - salle aux lanternes rouges et chapeau chinois.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_05",
+   "name": "salle aux lanternes rouges et chapeau chinois",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 5.42,
+   "orientation": "vertical",
+   "brightness": 0.303,
+   "lab": [
+    77.2,
+    139.2,
+    140.8
+   ],
+   "lab_first": [
+    77.9,
+    137.3,
+    140.9
+   ],
+   "lab_last": [
+    76.5,
+    140.1,
+    140.9
+   ],
+   "motion": [
+    -0.039,
+    -0.002
+   ],
+   "motion_strength": 0.039
+  },
+  {
+   "id": "SAM-058",
+   "src": "library/samourai/clips/SAM-058.mp4",
+   "file": "Salle - travelling sous les lanternes, tables dressées.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_06",
+   "name": "travelling sous les lanternes, tables dressées",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 5.4,
+   "orientation": "vertical",
+   "brightness": 0.286,
+   "lab": [
+    73.0,
+    142.5,
+    141.0
+   ],
+   "lab_first": [
+    76.2,
+    140.3,
+    140.7
+   ],
+   "lab_last": [
+    72.5,
+    143.9,
+    142.0
+   ],
+   "motion": [
+    -0.058,
+    -0.002
+   ],
+   "motion_strength": 0.058
+  },
+  {
+   "id": "SAM-059",
+   "src": "library/samourai/clips/SAM-059.mp4",
+   "file": "Salle - allée sous les lanternes et bannière rouge.mp4",
+   "source": "IMG_2538.MOV",
+   "extract": "IMG_2538_07",
+   "name": "allée sous les lanternes et bannière rouge",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.4,
+   "orientation": "vertical",
+   "brightness": 0.334,
+   "lab": [
+    85.1,
+    141.6,
+    140.2
+   ],
+   "lab_first": [
+    72.8,
+    144.1,
+    142.0
+   ],
+   "lab_last": [
+    111.7,
+    141.1,
+    141.9
+   ],
+   "motion": [
+    -0.117,
+    0.156
+   ],
+   "motion_strength": 0.195
+  },
+  {
+   "id": "SAM-060",
+   "src": "library/samourai/clips/SAM-060.mp4",
+   "file": "Ambiance - serveur qui traverse la salle aux lanternes.mp4",
+   "source": "IMG_2539.MOV",
+   "extract": "IMG_2539_01",
+   "name": "serveur qui traverse la salle aux lanternes",
+   "category": "personnes",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.43,
+   "orientation": "vertical",
+   "brightness": 0.353,
+   "lab": [
+    89.9,
+    138.2,
+    139.9
+   ],
+   "lab_first": [
+    85.7,
+    141.6,
+    138.7
+   ],
+   "lab_last": [
+    93.0,
+    134.5,
+    138.8
+   ],
+   "motion": [
+    -0.093,
+    0.007
+   ],
+   "motion_strength": 0.094
+  },
+  {
+   "id": "SAM-061",
+   "src": "library/samourai/clips/SAM-061.mp4",
+   "file": "Salle - salle aux lanternes et sol en marbre, travelling.mp4",
+   "source": "IMG_2539.MOV",
+   "extract": "IMG_2539_02",
+   "name": "salle aux lanternes et sol en marbre, travelling",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 5.43,
+   "orientation": "vertical",
+   "brightness": 0.39,
+   "lab": [
+    99.4,
+    133.6,
+    140.3
+   ],
+   "lab_first": [
+    92.9,
+    134.5,
+    138.8
+   ],
+   "lab_last": [
+    107.0,
+    129.8,
+    138.5
+   ],
+   "motion": [
+    0.139,
+    -0.103
+   ],
+   "motion_strength": 0.173
+  },
+  {
+   "id": "SAM-062",
+   "src": "library/samourai/clips/SAM-062.mp4",
+   "file": "Salle - salle aux lanternes et tableau de geisha.mp4",
+   "source": "IMG_2540.MOV",
+   "extract": "IMG_2540_01",
+   "name": "salle aux lanternes et tableau de geisha",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.0,
+   "orientation": "vertical",
+   "brightness": 0.4,
+   "lab": [
+    101.9,
+    141.8,
+    136.9
+   ],
+   "lab_first": [
+    96.6,
+    143.1,
+    134.3
+   ],
+   "lab_last": [
+    101.4,
+    140.9,
+    140.4
+   ],
+   "motion": [
+    -0.155,
+    0.008
+   ],
+   "motion_strength": 0.155
+  },
+  {
+   "id": "SAM-063",
+   "src": "library/samourai/clips/SAM-063.mp4",
+   "file": "Salle - salle aux lanternes et mur de bambou.mp4",
+   "source": "IMG_2540.MOV",
+   "extract": "IMG_2540_02",
+   "name": "salle aux lanternes et mur de bambou",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.0,
+   "orientation": "vertical",
+   "brightness": 0.381,
+   "lab": [
+    97.0,
+    141.0,
+    140.8
+   ],
+   "lab_first": [
+    100.4,
+    140.8,
+    140.5
+   ],
+   "lab_last": [
+    98.8,
+    141.4,
+    142.6
+   ],
+   "motion": [
+    -0.146,
+    0.006
+   ],
+   "motion_strength": 0.146
+  },
+  {
+   "id": "SAM-064",
+   "src": "library/samourai/clips/SAM-064.mp4",
+   "file": "Déco - cage aux perruches devant la salle rouge.mp4",
+   "source": "IMG_2552.MOV",
+   "extract": "IMG_2552_01",
+   "name": "cage aux perruches devant la salle rouge",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.52,
+   "orientation": "vertical",
+   "brightness": 0.396,
+   "lab": [
+    101.0,
+    135.8,
+    135.4
+   ],
+   "lab_first": [
+    101.4,
+    130.7,
+    134.5
+   ],
+   "lab_last": [
+    98.2,
+    145.0,
+    139.3
+   ],
+   "motion": [
+    -0.292,
+    -0.082
+   ],
+   "motion_strength": 0.303
+  },
+  {
+   "id": "SAM-065",
+   "src": "library/samourai/clips/SAM-065.mp4",
+   "file": "Déco - ombrelle en papier et lanternes au-dessus des tables.mp4",
+   "source": "IMG_2552.MOV",
+   "extract": "IMG_2552_02",
+   "name": "ombrelle en papier et lanternes au-dessus des tables",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.5,
+   "orientation": "vertical",
+   "brightness": 0.39,
+   "lab": [
+    99.5,
+    141.7,
+    142.0
+   ],
+   "lab_first": [
+    98.9,
+    145.3,
+    139.7
+   ],
+   "lab_last": [
+    101.8,
+    137.5,
+    144.0
+   ],
+   "motion": [
+    -0.321,
+    -0.013
+   ],
+   "motion_strength": 0.321
+  },
+  {
+   "id": "SAM-066",
+   "src": "library/samourai/clips/SAM-066.mp4",
+   "file": "Déco - escalier sous la lanterne et fresque rouge.mp4",
+   "source": "IMG_2553.MOV",
+   "extract": "IMG_2553_01",
+   "name": "escalier sous la lanterne et fresque rouge",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.22,
+   "orientation": "vertical",
+   "brightness": 0.278,
+   "lab": [
+    70.9,
+    148.2,
+    137.2
+   ],
+   "lab_first": [
+    72.8,
+    151.3,
+    136.1
+   ],
+   "lab_last": [
+    70.9,
+    146.9,
+    134.4
+   ],
+   "motion": [
+    0.257,
+    0.016
+   ],
+   "motion_strength": 0.257
+  },
+  {
+   "id": "SAM-067",
+   "src": "library/samourai/clips/SAM-067.mp4",
+   "file": "Extérieur - rooftop aux lanternes en papier et voilages.mp4",
+   "source": "IMG_2554.MOV",
+   "extract": "IMG_2554_01",
+   "name": "rooftop aux lanternes en papier et voilages",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.82,
+   "orientation": "vertical",
+   "brightness": 0.48,
+   "lab": [
+    122.3,
+    130.4,
+    134.1
+   ],
+   "lab_first": [
+    121.6,
+    129.6,
+    133.5
+   ],
+   "lab_last": [
+    120.6,
+    130.6,
+    134.3
+   ],
+   "motion": [
+    -0.12,
+    0.017
+   ],
+   "motion_strength": 0.121
+  },
+  {
+   "id": "SAM-068",
+   "src": "library/samourai/clips/SAM-068.mp4",
+   "file": "Salle - marche vers la table sur le sol en marbre.mp4",
+   "source": "IMG_2555.MOV",
+   "extract": "IMG_2555_01",
+   "name": "marche vers la table sur le sol en marbre",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 5.55,
+   "orientation": "vertical",
+   "brightness": 0.37,
+   "lab": [
+    94.4,
+    134.2,
+    139.1
+   ],
+   "lab_first": [
+    82.3,
+    138.9,
+    137.2
+   ],
+   "lab_last": [
+    109.7,
+    134.1,
+    144.7
+   ],
+   "motion": [
+    0.172,
+    0.038
+   ],
+   "motion_strength": 0.176
+  },
+  {
+   "id": "SAM-069",
+   "src": "library/samourai/clips/SAM-069.mp4",
+   "file": "Déco - arrivée à la table basse, coussins au sol.mp4",
+   "source": "IMG_2555.MOV",
+   "extract": "IMG_2555_02",
+   "name": "arrivée à la table basse, coussins au sol",
+   "category": "deco",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 5.55,
+   "orientation": "vertical",
+   "brightness": 0.435,
+   "lab": [
+    111.0,
+    135.2,
+    144.9
+   ],
+   "lab_first": [
+    109.8,
+    134.3,
+    144.6
+   ],
+   "lab_last": [
+    105.9,
+    138.7,
+    145.4
+   ],
+   "motion": [
+    0.076,
+    0.038
+   ],
+   "motion_strength": 0.085
+  },
+  {
+   "id": "SAM-070",
+   "src": "library/samourai/clips/SAM-070.mp4",
+   "file": "Table - table basse et set Samouraï vus du dessus.mp4",
+   "source": "IMG_2555.MOV",
+   "extract": "IMG_2555_03",
+   "name": "table basse et set Samouraï vus du dessus",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 5.55,
+   "orientation": "vertical",
+   "brightness": 0.353,
+   "lab": [
+    89.9,
+    138.2,
+    139.8
+   ],
+   "lab_first": [
+    105.6,
+    138.9,
+    145.5
+   ],
+   "lab_last": [
+    84.9,
+    136.2,
+    136.3
+   ],
+   "motion": [
+    0.024,
+    -0.002
+   ],
+   "motion_strength": 0.024
+  },
+  {
+   "id": "SAM-071",
+   "src": "library/samourai/clips/SAM-071.mp4",
+   "file": "Table - assis à la table basse, théière et éventail.mp4",
+   "source": "IMG_2556.MOV",
+   "extract": "IMG_2556_01",
+   "name": "assis à la table basse, théière et éventail",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 2,
+   "duration": 5.68,
+   "orientation": "vertical",
+   "brightness": 0.485,
+   "lab": [
+    123.6,
+    138.4,
+    142.0
+   ],
+   "lab_first": [
+    130.4,
+    133.2,
+    142.2
+   ],
+   "lab_last": [
+    110.6,
+    146.7,
+    144.6
+   ],
+   "motion": [
+    -0.021,
+    0.057
+   ],
+   "motion_strength": 0.061
+  },
+  {
+   "id": "SAM-072",
+   "src": "library/samourai/clips/SAM-072.mp4",
+   "file": "Salle - salon aux lanternes et coussins jaunes.mp4",
+   "source": "IMG_2557.MOV",
+   "extract": "IMG_2557_01",
+   "name": "salon aux lanternes et coussins jaunes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.47,
+   "orientation": "vertical",
+   "brightness": 0.34,
+   "lab": [
+    86.7,
+    139.8,
+    138.2
+   ],
+   "lab_first": [
+    85.9,
+    141.5,
+    140.0
+   ],
+   "lab_last": [
+    87.4,
+    138.1,
+    137.1
+   ],
+   "motion": [
+    -0.143,
+    -0.011
+   ],
+   "motion_strength": 0.143
+  },
+  {
+   "id": "SAM-073",
+   "src": "library/samourai/clips/SAM-073.mp4",
+   "file": "Salle - salle aux lanternes et vase calligraphié.mp4",
+   "source": "IMG_2558.MOV",
+   "extract": "IMG_2558_01",
+   "name": "salle aux lanternes et vase calligraphié",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.4,
+   "orientation": "vertical",
+   "brightness": 0.389,
+   "lab": [
+    99.2,
+    139.7,
+    141.4
+   ],
+   "lab_first": [
+    93.2,
+    142.9,
+    144.4
+   ],
+   "lab_last": [
+    94.7,
+    140.4,
+    141.2
+   ],
+   "motion": [
+    0.321,
+    0.01
+   ],
+   "motion_strength": 0.321
+  },
+  {
+   "id": "SAM-074",
+   "src": "library/samourai/clips/SAM-074.mp4",
+   "file": "Déco - miroir de maquillage et kimonos suspendus.mp4",
+   "source": "IMG_2559.MOV",
+   "extract": "IMG_2559_01",
+   "name": "miroir de maquillage et kimonos suspendus",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.92,
+   "orientation": "vertical",
+   "brightness": 0.429,
+   "lab": [
+    109.3,
+    131.8,
+    129.5
+   ],
+   "lab_first": [
+    104.4,
+    131.5,
+    127.5
+   ],
+   "lab_last": [
+    111.0,
+    131.9,
+    129.2
+   ],
+   "motion": [
+    -0.203,
+    0.051
+   ],
+   "motion_strength": 0.209
+  },
+  {
+   "id": "SAM-075",
+   "src": "library/samourai/clips/SAM-075.mp4",
+   "file": "Déco - chambre à la calligraphie, table basse et éventail.mp4",
+   "source": "IMG_2560.MOV",
+   "extract": "IMG_2560_01",
+   "name": "chambre à la calligraphie, table basse et éventail",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.7,
+   "orientation": "vertical",
+   "brightness": 0.481,
+   "lab": [
+    122.8,
+    137.7,
+    148.6
+   ],
+   "lab_first": [
+    129.7,
+    133.3,
+    144.2
+   ],
+   "lab_last": [
+    122.9,
+    141.3,
+    155.9
+   ],
+   "motion": [
+    0.214,
+    -0.016
+   ],
+   "motion_strength": 0.214
+  },
+  {
+   "id": "SAM-076",
+   "src": "library/samourai/clips/SAM-076.mp4",
+   "file": "Extérieur - rooftop aux lanternes en osier et fresque rouge.mp4",
+   "source": "IMG_2561.MOV",
+   "extract": "IMG_2561_01",
+   "name": "rooftop aux lanternes en osier et fresque rouge",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.95,
+   "orientation": "vertical",
+   "brightness": 0.426,
+   "lab": [
+    108.7,
+    141.2,
+    144.5
+   ],
+   "lab_first": [
+    95.2,
+    152.9,
+    152.1
+   ],
+   "lab_last": [
+    111.7,
+    136.8,
+    142.4
+   ],
+   "motion": [
+    0.231,
+    0.012
+   ],
+   "motion_strength": 0.232
+  },
+  {
+   "id": "SAM-077",
+   "src": "library/samourai/clips/SAM-077.mp4",
+   "file": "Extérieur - rooftop, néon kanji et plantes tropicales.mp4",
+   "source": "IMG_2562.MOV",
+   "extract": "IMG_2562_01",
+   "name": "rooftop, néon kanji et plantes tropicales",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.68,
+   "orientation": "vertical",
+   "brightness": 0.402,
+   "lab": [
+    102.6,
+    149.0,
+    149.6
+   ],
+   "lab_first": [
+    91.1,
+    160.0,
+    154.7
+   ],
+   "lab_last": [
+    117.1,
+    137.0,
+    142.9
+   ],
+   "motion": [
+    0.253,
+    0.004
+   ],
+   "motion_strength": 0.253
+  },
+  {
+   "id": "SAM-078",
+   "src": "library/samourai/clips/SAM-078.mp4",
+   "file": "Déco - néon Samouraï sur la fresque rouge, gros plan.mp4",
+   "source": "IMG_2563.MOV",
+   "extract": "IMG_2563_01",
+   "name": "néon Samouraï sur la fresque rouge, gros plan",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 3.2,
+   "orientation": "vertical",
+   "brightness": 0.373,
+   "lab": [
+    95.2,
+    168.2,
+    149.1
+   ],
+   "lab_first": [
+    95.0,
+    168.3,
+    148.4
+   ],
+   "lab_last": [
+    97.3,
+    165.0,
+    150.0
+   ],
+   "motion": [
+    -0.207,
+    -0.014
+   ],
+   "motion_strength": 0.208
+  },
+  {
+   "id": "SAM-079",
+   "src": "library/samourai/clips/SAM-079.mp4",
+   "file": "Déco - néon Samouraï et feuillage tropical.mp4",
+   "source": "IMG_2564.MOV",
+   "extract": "IMG_2564_01",
+   "name": "néon Samouraï et feuillage tropical",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.75,
+   "orientation": "vertical",
+   "brightness": 0.403,
+   "lab": [
+    102.8,
+    156.9,
+    139.1
+   ],
+   "lab_first": [
+    102.9,
+    156.7,
+    138.4
+   ],
+   "lab_last": [
+    101.3,
+    154.1,
+    136.9
+   ],
+   "motion": [
+    0.001,
+    -0.001
+   ],
+   "motion_strength": 0.001
+  },
+  {
+   "id": "SAM-080",
+   "src": "library/samourai/clips/SAM-080.mp4",
+   "file": "Déco - cage bleue et plantes devant la fresque rouge.mp4",
+   "source": "IMG_2565.MOV",
+   "extract": "IMG_2565_01",
+   "name": "cage bleue et plantes devant la fresque rouge",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 2.38,
+   "orientation": "vertical",
+   "brightness": 0.387,
+   "lab": [
+    98.6,
+    138.9,
+    134.7
+   ],
+   "lab_first": [
+    102.8,
+    137.5,
+    135.4
+   ],
+   "lab_last": [
+    95.6,
+    138.4,
+    134.6
+   ],
+   "motion": [
+    -0.052,
+    -0.048
+   ],
+   "motion_strength": 0.071
   }
  ]
 }

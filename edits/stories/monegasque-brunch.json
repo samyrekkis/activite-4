@@ -1,0 +1,84 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "STORY (environ 13 s, 100 BPM). Thème « Brunch au bord de la piscine » : la grande table du brunch vue du dessus, la table au bord de la piscine, la burrata qu'on attrape, le café turc. Technique : tout en plongée (vue du dessus), un triptyque (trois bandes) pour finir. Look portra lumineux. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK grande table du brunch, crêpes et toasts",
+      "src": "library/monegasque/clips/MON-289.mp4",
+      "start": 0.35,
+      "end": 3.05,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#2 table du brunch au bord de la piscine",
+      "src": "library/monegasque/clips/MON-290.mp4",
+      "start": 0.2,
+      "end": 1.82,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#3 salade aux œufs sur faïence bleue",
+      "src": "library/monegasque/clips/MON-291.mp4",
+      "start": 0.61,
+      "end": 2.23,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#4 main qui prend la burrata, café turc",
+      "src": "library/monegasque/clips/MON-327.mp4",
+      "start": 0.85,
+      "end": 3.01,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#5 split : burrata, figues et tomates sur assiette bleue / brunch partagé vu du dessus / fourchette qui prend la salade",
+      "src": "library/monegasque/clips/MON-325.mp4",
+      "start": 0.36,
+      "end": 1.8,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1
+      },
+      "panels": [
+        {
+          "src": "library/monegasque/clips/MON-325.mp4",
+          "start": 0.36,
+          "speed": 0.8
+        },
+        {
+          "src": "library/monegasque/clips/MON-288.mp4",
+          "start": 0.03,
+          "speed": 0.8
+        },
+        {
+          "src": "library/monegasque/clips/MON-286.mp4",
+          "start": 1.15,
+          "speed": 0.8
+        }
+      ],
+      "layout": "rows",
+      "stagger": 0.08
+    }
+  ]
+}

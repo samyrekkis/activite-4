@@ -62,7 +62,7 @@ export type TextOverlay = {
 
 export type Grade = {
   /** Film tone curve (see src/grading.tsx), applied before the other settings. */
-  curve?: "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody" | "vibrant" | "pastel" | "portra" | "tokyo";
+  curve?: "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody" | "vibrant" | "pastel" | "portra" | "tokyo" | "encre";
   brightness?: number;
   contrast?: number;
   saturate?: number;
@@ -132,6 +132,8 @@ export type Clip = {
   reframe?: { scale: number; origin?: string };
   /** Cinema bars on this clip only (2.39:1 look inside the vertical frame). */
   letterbox?: boolean;
+  /** Flip left/right, to match the direction of the previous camera move (avoid shots with readable text). */
+  mirror?: boolean;
   /** Transition INTO this clip from the previous one. */
   transitionIn?: Transition;
   /** Free label so Gemini feedback can reference clips ("#3 plat signature"). */

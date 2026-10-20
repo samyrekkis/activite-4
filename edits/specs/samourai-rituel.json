@@ -1,0 +1,51 @@
+{
+ "restaurant": "samourai",
+ "bpm": 100,
+ "autoMirror": true,
+ "out": "edits/reels/samourai-rituel.json",
+ "version": 4,
+ "curve": "encre",
+ "letterbox": true,
+ "brief": "REEL lent (environ 15 s, 100 BPM), format cinéma (bandes noires sur toute la vidéo). Thème « Le rituel » : du miroir de maquillage aux kimonos, la table laquée, la salle sous les lanternes, puis la chambre calligraphiée et la table basse, pour finir en respiration sur le rooftop. Progression de l’ombre vers la lumière. Technique : speed ramps (vitesse réelle puis ralenti soudain, rushs 60 i/s). Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-074",
+   "ramp": [
+    1,
+    3,
+    0.35
+   ]
+  },
+  {
+   "id": "SAM-055",
+   "beats": 3,
+   "speed": 0.6
+  },
+  {
+   "id": "SAM-058",
+   "beats": 4,
+   "speed": 0.5
+  },
+  {
+   "id": "SAM-075",
+   "ramp": [
+    1,
+    2,
+    0.4
+   ]
+  },
+  {
+   "id": "SAM-070",
+   "ramp": [
+    1,
+    2,
+    0.4
+   ]
+  },
+  {
+   "id": "SAM-067",
+   "beats": 6,
+   "speed": 0.48
+  }
+ ]
+}

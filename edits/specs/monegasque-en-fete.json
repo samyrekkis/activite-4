@@ -1,0 +1,57 @@
+{
+ "restaurant": "monegasque",
+ "bpm": 100,
+ "out": "edits/reels/monegasque-en-fete.json",
+ "version": 4,
+ "curve": "vibrant",
+ "brief": "REEL (environ 20 s, 100 BPM). Thème « Le Monégasque en fête » : le musicien, la chanteuse, le service qui défile, la paella, le risotto, le poisson. Technique : variation de rythme — ouverture lente sur le musicien, accélération sur les plats (plans d’un temps puis de deux), puis retour au calme sur la chanteuse en plan long. Look festif et riche. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-298",
+   "beats": 4,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-303",
+   "beats": 3,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-305",
+   "beats": 1
+  },
+  {
+   "id": "MON-307",
+   "beats": 1
+  },
+  {
+   "id": "MON-310",
+   "beats": 2
+  },
+  {
+   "id": "MON-308",
+   "beats": 2
+  },
+  {
+   "id": "MON-315",
+   "beats": 3,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-313",
+   "beats": 4,
+   "speed": 1,
+   "at": 0.05
+  },
+  {
+   "id": "MON-317",
+   "beats": 3,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-302",
+   "beats": 6,
+   "speed": 0.9
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "restaurant": "monegasque",
+ "bpm": 100,
+ "out": "edits/stories/monegasque-tablee-citrons.json",
+ "version": 3,
+ "curve": "golden",
+ "brief": "STORY (environ 12 s, 100 BPM). Thème « La grande tablée aux citrons » : on cueille un citron, on déroule la serviette, la longue table, le cocktail levé. Technique : presque un plan-séquence, très peu de coupes, plans longs. Look doré solaire. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-214",
+   "beats": 3,
+   "speed": 0.9,
+   "at": 1.6
+  },
+  {
+   "id": "MON-219",
+   "beats": 2,
+   "speed": 1,
+   "b": 1.1
+  },
+  {
+   "id": "MON-215",
+   "beats": 3,
+   "speed": 0.9,
+   "reframe": {
+    "scale": 1.14,
+    "origin": "left center"
+   }
+  },
+  {
+   "id": "MON-220",
+   "beats": 4,
+   "speed": 0.9,
+   "sat": 0.9
+  },
+  {
+   "id": "MON-224",
+   "beats": 4,
+   "speed": 0.85
+  }
+ ]
+}

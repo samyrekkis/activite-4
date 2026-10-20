@@ -9,9 +9,9 @@ const strength = rest.includes("--strength") ? Number(rest[rest.indexOf("--stren
 const plan = JSON.parse(readFileSync(planPath, "utf8"));
 const catalogue = JSON.parse(readFileSync(`public/library/${plan.restaurant}/catalogue.json`, "utf8")).clips;
 const bySrc = new Map(catalogue.map((c) => [c.src, c]));
-const themeBrightness = plan.restaurant === "monegasque" ? 1.04 : 0.96; // src/themes.ts
+const themeBrightness = plan.restaurant === "monegasque" ? 1.04 : 1.0; // src/themes.ts
 
-const levels = plan.clips.map((c) => (c.panels ? null : bySrc.get(c.src)?.brightness ?? null));
+const levels = plan.clips.map((c) => (c.panels ? null : bySrc.get(c.src.replace("/rev/", "/clips/"))?.brightness ?? null));
 const known = levels.filter((b) => b !== null).sort((a, b) => a - b);
 const target = known[Math.floor(known.length / 2)];
 plan.clips.forEach((c, i) => {
@@ -19,7 +19,8 @@ plan.clips.forEach((c, i) => {
   if (b === null) return;
   // Partial correction (strength) and limits: matching, not flattening.
   const factor = Math.min(1.25, Math.max(0.85, Math.pow(target / b, strength)));
-  c.grade = { ...c.grade, brightness: Math.round(themeBrightness * factor * 100) / 100 };
+  // gradeAdjust: a deliberate trim from the spec (build-plan.mjs "b"), kept on top of the matching.
+  c.grade = { ...c.grade, brightness: Math.round(themeBrightness * factor * (c.gradeAdjust ?? 1) * 100) / 100 };
 });
 writeFileSync(planPath, JSON.stringify(plan, null, 2) + "\n");
 console.log(plan.clips.map((c, i) => `${c.label.slice(0, 40).padEnd(40)} ${levels[i] ?? "-"} -> ${c.grade?.brightness ?? "-"}`).join("\n"));

@@ -1,0 +1,40 @@
+{
+ "restaurant": "monegasque",
+ "bpm": 100,
+ "out": "edits/stories/monegasque-douceurs-nuit.json",
+ "version": 5,
+ "curve": "film",
+ "brief": "STORY (environ 11 s, 100 BPM). Thème « Douceurs de nuit » : le dessert aux figues, la fourchette qui plonge, les gambas à la mangue, le plateau de fromages, la crêpe au chocolat. Technique : écran partagé en deux bandes horizontales au milieu, gros plans gourmands autour. Look film, naturel et élégant. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-264",
+   "beats": 4,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-267",
+   "beats": 3,
+   "speed": 0.9
+  },
+  {
+   "id": "MON-266",
+   "beats": 3,
+   "speed": 0.9,
+   "panels": [
+    "MON-265"
+   ],
+   "layout": "rows"
+  },
+  {
+   "id": "MON-268",
+   "beats": 4,
+   "speed": 0.9,
+   "b": 1.1
+  },
+  {
+   "id": "MON-250",
+   "beats": 2,
+   "speed": 0.55
+  }
+ ]
+}

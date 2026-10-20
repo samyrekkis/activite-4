@@ -16,7 +16,8 @@ const PanelCell: React.FC<{ panel: Panel; index: number; revealAt: number; horiz
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const p = interpolate(frame, [revealAt, revealAt + WIPE_FRAMES], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  // A panel on screen from the cut needs no wipe: wiping it in from black reads as a flash.
+  const p = revealAt === 0 ? 1 : interpolate(frame, [revealAt, revealAt + WIPE_FRAMES], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const hidden = (1 - p) * 100;
   const fromStart = index % 2 === 0;
   const clipPath = horizontalWipe

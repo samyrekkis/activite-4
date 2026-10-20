@@ -1,0 +1,80 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 5,
+  "brief": "REEL lent (environ 15 s, 100 BPM). Thème « La terrasse et la piscine » : l’extérieur du Monégasque en travellings (passerelle fleurie, terrasse aux lustres en osier, tables colorées, piscine et mur d’assiettes). Hook : la passerelle fleurie au-dessus de la piscine. Mouvements groupés par direction, ralentis légers 60 i/s, coupes franches, aucun effet, aucun texte de fin. Look portra (chaleur pour équilibrer le bleu). Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK travelling sur la passerelle fleurie au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-180.mp4",
+      "start": 1.15,
+      "end": 3.07,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.02
+      },
+      "reframe": {
+        "scale": 1.06,
+        "origin": "right top"
+      }
+    },
+    {
+      "label": "#2 travelling sur une table dressée, chaises tressées",
+      "src": "library/monegasque/clips/MON-188.mp4",
+      "start": 0.06,
+      "end": 1.02,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#3 terrasse aux lustres en osier et plantes, travelling",
+      "src": "library/monegasque/clips/MON-186.mp4",
+      "start": 0.73,
+      "end": 2.65,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#4 travelling le long de la piscine et du mur d'assiettes",
+      "src": "library/monegasque/clips/MON-176.mp4",
+      "start": 0.57,
+      "end": 2.49,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.99
+      }
+    },
+    {
+      "label": "#5 table colorée au bord de la piscine, travelling",
+      "src": "library/monegasque/clips/MON-194.mp4",
+      "start": 0.53,
+      "end": 2.45,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#6 piscine et mur d'assiettes bleu, plan large",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 1.29,
+      "end": 4.17,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.96
+      }
+    }
+  ]
+}

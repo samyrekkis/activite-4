@@ -1,0 +1,80 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 5,
+  "brief": "STORY (environ 11 s, 100 BPM). Thème « Douceurs de nuit » : le dessert aux figues, la fourchette qui plonge, les gambas à la mangue, le plateau de fromages, la crêpe au chocolat. Technique : écran partagé en deux bandes horizontales au milieu, gros plans gourmands autour. Look film, naturel et élégant. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK dessert aux figues et fleurs violettes",
+      "src": "library/monegasque/clips/MON-264.mp4",
+      "start": 0.05,
+      "end": 2.21,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#2 fourchette dans le dessert aux figues",
+      "src": "library/monegasque/clips/MON-267.mp4",
+      "start": 0.09,
+      "end": 1.71,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#3 split : gambas et sauce mangue dressées / dessert aux figues, plan serré",
+      "src": "library/monegasque/clips/MON-266.mp4",
+      "start": 0.19,
+      "end": 1.81,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "panels": [
+        {
+          "src": "library/monegasque/clips/MON-266.mp4",
+          "start": 0.19,
+          "speed": 0.9
+        },
+        {
+          "src": "library/monegasque/clips/MON-265.mp4",
+          "start": 0.34,
+          "speed": 0.9
+        }
+      ],
+      "layout": "rows",
+      "stagger": 0
+    },
+    {
+      "label": "#4 plateau de fromages sur faïence",
+      "src": "library/monegasque/clips/MON-268.mp4",
+      "start": 0.32,
+      "end": 2.48,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.23
+      },
+      "gradeAdjust": 1.1
+    },
+    {
+      "label": "#5 crêpe au chocolat en gros plan",
+      "src": "library/monegasque/clips/MON-250.mp4",
+      "start": 0.03,
+      "end": 0.68,
+      "speed": 0.542,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.04
+      }
+    }
+  ]
+}

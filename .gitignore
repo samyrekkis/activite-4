@@ -16,3 +16,5 @@ public/photos/
 
 # Bibliothèque de clips nettoyés (médias, jamais dans git)
 public/library/*/clips/
+public/library/*/clips_orig/
+public/library/*/rev/

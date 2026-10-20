@@ -1,0 +1,70 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "STORY (environ 11 s, 100 BPM), format cinéma (bandes noires). Thème « Saint-Valentin » : les tables rouges aux bougies, les roses, le rideau de cœurs. Technique : cadre cinéma 2.39 sur toute la story, plans lents et posés, un seul sens de mouvement. Look profond et feutré. Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK tables rouges aux bougies, Saint-Valentin",
+      "src": "library/monegasque/clips/MON-319.mp4",
+      "start": 0.17,
+      "end": 2.33,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.07
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 tables rouges, bougies et roses",
+      "src": "library/monegasque/clips/MON-320.mp4",
+      "start": 0.07,
+      "end": 2.23,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.06
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 bougies rouges et lettres Love",
+      "src": "library/monegasque/clips/MON-322.mp4",
+      "start": 0.05,
+      "end": 1.58,
+      "speed": 0.85,
+      "grade": {
+        "curve": "moody",
+        "brightness": 1.04
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 rideau de cœurs et cœur de pétales",
+      "src": "library/monegasque/clips/MON-296.mp4",
+      "start": 0.39,
+      "end": 3.09,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 0.96
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 rideau de cœurs et pétales au sol",
+      "src": "library/monegasque/clips/MON-323.mp4",
+      "start": 0.34,
+      "end": 1.96,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody",
+        "brightness": 0.9
+      },
+      "letterbox": true
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "REEL lent (environ 15 s, 100 BPM), format cinéma (bandes noires sur toute la vidéo). Thème « Le rituel » : du miroir de maquillage aux kimonos, la table laquée, la salle sous les lanternes, puis la chambre calligraphiée et la table basse, pour finir en respiration sur le rooftop. Progression de l’ombre vers la lumière. Technique : speed ramps (vitesse réelle puis ralenti soudain, rushs 60 i/s). Look signature Samouraï « encre ». Sans musique : la cliente ajoute le son. Aucun texte, aucun logo, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 HOOK miroir de maquillage et kimonos suspendus (vitesse réelle)",
+      "src": "library/samourai/clips/SAM-074.mp4",
+      "start": 0.32,
+      "end": 0.92,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 miroir de maquillage et kimonos suspendus (ralenti)",
+      "src": "library/samourai/clips/SAM-074.mp4",
+      "start": 0.92,
+      "end": 1.55,
+      "speed": 0.35,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 set de table laqué rouge en gros plan",
+      "src": "library/samourai/clips/SAM-055.mp4",
+      "start": 2.16,
+      "end": 3.24,
+      "speed": 0.6,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.03
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 travelling sous les lanternes, tables dressées",
+      "src": "library/samourai/clips/SAM-058.mp4",
+      "start": 2.1,
+      "end": 3.3,
+      "speed": 0.5,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 chambre à la calligraphie, table basse et éventail (vitesse réelle)",
+      "src": "library/samourai/clips/SAM-075.mp4",
+      "start": 0.79,
+      "end": 1.39,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.96
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 chambre à la calligraphie, table basse et éventail (ralenti)",
+      "src": "library/samourai/clips/SAM-075.mp4",
+      "start": 1.39,
+      "end": 1.87,
+      "speed": 0.4,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.96
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 table basse et set Samouraï vus du dessus (vitesse réelle)",
+      "src": "library/samourai/clips/SAM-070.mp4",
+      "start": 2.21,
+      "end": 2.81,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.07
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 table basse et set Samouraï vus du dessus (ralenti)",
+      "src": "library/samourai/clips/SAM-070.mp4",
+      "start": 2.81,
+      "end": 3.29,
+      "speed": 0.4,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.07
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 rooftop aux lanternes en papier et voilages",
+      "src": "library/samourai/clips/SAM-067.mp4",
+      "start": 0.05,
+      "end": 1.78,
+      "speed": 0.48,
+      "grade": {
+        "curve": "encre",
+        "brightness": 0.96
+      },
+      "letterbox": true
+    }
+  ]
+}

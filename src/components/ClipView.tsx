@@ -34,6 +34,8 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
             filter,
             // Static reframe (no movement): hides an edge without a fake camera move.
             ...(clip.reframe ? { transform: `scale(${clip.reframe.scale})`, transformOrigin: clip.reframe.origin ?? "center" } : {}),
+            // Mirror: flips a camera move left/right so it continues the previous shot direction.
+            ...(clip.mirror ? { transform: `${clip.reframe ? `scale(${clip.reframe.scale}) ` : ""}scaleX(-1)` } : {}),
           }}
         >
           {clip.panels?.length ? (

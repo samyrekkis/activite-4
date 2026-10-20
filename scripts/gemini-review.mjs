@@ -36,8 +36,22 @@ const preferences = existsSync("PREFERENCES.md") ? readFileSync("PREFERENCES.md"
 const name = basename(planPath, ".json");
 const version = plan.version ?? 1;
 
+// Network hiccups (connection reset, timeout) are retried a few times before giving up.
+const isNetwork = (err) => !err.status && /fetch failed|ECONNRESET|timeout|socket/i.test(`${err.message} ${err.cause?.code ?? ""}`);
+const withRetry = async (what, fn) => {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      if (!isNetwork(err) || attempt >= 4) throw err;
+      console.log(`  coupure réseau (${what}), nouvel essai dans ${attempt * 15} s…`);
+      await new Promise((r) => setTimeout(r, attempt * 15000));
+    }
+  }
+};
+
 const upload = async (path) => {
-  let file = await ai.files.upload({ file: path, config: { mimeType: "video/mp4" } });
+  let file = await withRetry("envoi", () => ai.files.upload({ file: path, config: { mimeType: "video/mp4" } }));
   while (file.state === "PROCESSING") {
     await new Promise((r) => setTimeout(r, 3000));
     file = await ai.files.get({ name: file.name });
@@ -136,7 +150,7 @@ const generate = async () => {
         return { model, response };
       } catch (err) {
         const status = err.status ?? 0;
-        if (status === 503 && attempt < 3) {
+        if ((status === 503 || isNetwork(err)) && attempt < 3) {
           console.log(`  ${model} surchargé, nouvel essai dans ${attempt * 10} s…`);
           await new Promise((r) => setTimeout(r, attempt * 10000));
           continue;
