@@ -1,0 +1,106 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Montage modèle, fait à la main. Thème original « Dans les détails » : la déco du Monégasque vue de près, comme un magazine déco (oiseaux, fleurs, rotin, velours, couleurs). Hook : les perruches en gros plan dans leur cage. Coupes franches sur le beat (120 BPM), aucun effet, look pellicule, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0.05,
+      "end": 1.55,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05
+      }
+    },
+    {
+      "label": "#2 salle avec banquettes vertes",
+      "src": "library/monegasque/clips/MON-015.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.65,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.15
+      }
+    },
+    {
+      "label": "#3 salon rose avec fauteuils violets",
+      "src": "library/monegasque/clips/MON-014.mp4",
+      "start": 0,
+      "end": 0.45,
+      "speed": 0.9,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1
+      }
+    },
+    {
+      "label": "#4 mur de pierre et fleurs bleues et jaunes",
+      "src": "library/monegasque/clips/MON-139.mp4",
+      "start": 0.05,
+      "end": 0.55,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      }
+    },
+    {
+      "label": "#5 terrasse et fauteuil en rotin",
+      "src": "library/monegasque/clips/MON-171.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.75,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.04
+      },
+      "reframe": {
+        "scale": 1.12,
+        "origin": "left center"
+      }
+    },
+    {
+      "label": "#6 terrasse fleurie, plantes violettes",
+      "src": "library/monegasque/clips/MON-121.mp4",
+      "start": 0.45,
+      "end": 0.95,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#7 terrasse fleurie et lustres en osier",
+      "src": "library/monegasque/clips/MON-165.mp4",
+      "start": 0,
+      "end": 0.35,
+      "speed": 0.7,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.99
+      }
+    },
+    {
+      "label": "#8 piscine et cage décorative",
+      "src": "library/monegasque/clips/MON-124.mp4",
+      "start": 0,
+      "end": 0.55,
+      "speed": 0.55,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.99
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

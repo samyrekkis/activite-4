@@ -1,0 +1,76 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Montage modèle, fait à la main. Thème original « Un déjeuner au Samouraï » : la version lumineuse du midi, entre la chambre à table basse, la verdure et les sushis au bord de la piscine. Hook : sauce versée sur les makis frits. Coupes franches sur le beat (120 BPM), aucun effet, look golden, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 HOOK sauce versée sur les makis frits",
+      "src": "library/samourai/clips/SAM-027.mp4",
+      "start": 0.02,
+      "end": 0.92,
+      "speed": 0.6,
+      "grade": {
+        "curve": "golden",
+        "brightness": 0.96
+      }
+    },
+    {
+      "label": "#2 serveur qui apporte la tour de sushis",
+      "src": "library/samourai/clips/SAM-050.mp4",
+      "start": 0.6,
+      "end": 2.1,
+      "grade": {
+        "curve": "golden",
+        "brightness": 0.94
+      },
+      "reframe": {
+        "scale": 1.12,
+        "origin": "center bottom"
+      }
+    },
+    {
+      "label": "#3 sushis devant l’éventail rouge, piscine en fond",
+      "src": "library/samourai/clips/SAM-031.mp4",
+      "start": 0.25,
+      "end": 1.75,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.01
+      },
+      "reframe": {
+        "scale": 1.12,
+        "origin": "center bottom"
+      }
+    },
+    {
+      "label": "#4 chambre à table basse et poupée japonaise",
+      "src": "library/samourai/clips/SAM-018.mp4",
+      "start": 0.05,
+      "end": 1.55,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.14
+      }
+    },
+    {
+      "label": "#5 terrasse végétale et tables",
+      "src": "library/samourai/clips/SAM-010.mp4",
+      "start": 0.05,
+      "end": 1.55,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.02
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

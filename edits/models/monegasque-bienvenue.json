@@ -1,0 +1,96 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 6,
+  "brief": "Montage modèle, fait à la main. Thème original « Bienvenue au Monégasque » : l’expérience de l’accueil, de la rue jusqu’à l’assiette. Hook : une cliente qui entre sous une pluie de pétales rouges. Coupes franches sur le beat (120 BPM), aucun effet, look golden chaleureux, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK cliente qui entre sous les pétales rouges",
+      "src": "library/monegasque/clips/MON-135.mp4",
+      "start": 0,
+      "end": 1.25,
+      "speed": 0.833,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#2 couple qui arrive dans la salle",
+      "src": "library/monegasque/clips/MON-134.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.75,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.1
+      }
+    },
+    {
+      "label": "#3 cliente sur la terrasse aux tournesols",
+      "src": "library/monegasque/clips/MON-148.mp4",
+      "start": 0.4,
+      "end": 1.4,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#4 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 0.4,
+      "end": 1.4,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.05
+      },
+      "reframe": {
+        "scale": 1.06,
+        "origin": "left bottom"
+      }
+    },
+    {
+      "label": "#5 table du brunch au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-125.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.75,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#6 table au bord de la piscine, fresque léopard",
+      "src": "library/monegasque/clips/MON-109.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.75,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#7 piscine et fresques pop art",
+      "src": "library/monegasque/clips/MON-090.mp4",
+      "start": 0,
+      "end": 1.05,
+      "speed": 0.7,
+      "grade": {
+        "curve": "golden",
+        "brightness": 0.96
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

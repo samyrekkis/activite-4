@@ -1,0 +1,116 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Montage modèle, fait à la main. Thème original « Vu d’en haut » : le brunch du Monégasque filmé uniquement en plongée verticale, comme un magazine culinaire, une table après l’autre. Hook : mosaïque de quatre tables vues du dessus. Coupes franches sur le beat (120 BPM), aucun effet, look pastel, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK MOSAÏQUE quatre tables vues du dessus",
+      "src": "library/monegasque/clips/MON-061.mp4",
+      "start": 0,
+      "end": 1.5,
+      "grade": {
+        "curve": "pastel"
+      },
+      "layout": "grid",
+      "stagger": 0,
+      "panels": [
+        {
+          "src": "library/monegasque/clips/MON-061.mp4",
+          "start": 0,
+          "speed": 0.43
+        },
+        {
+          "src": "library/monegasque/clips/MON-018.mp4",
+          "start": 0,
+          "speed": 0.37
+        },
+        {
+          "src": "library/monegasque/clips/MON-021.mp4",
+          "start": 0,
+          "speed": 0.43
+        },
+        {
+          "src": "library/monegasque/clips/MON-117.mp4",
+          "start": 0,
+          "speed": 0.43
+        }
+      ]
+    },
+    {
+      "label": "#2 table avec frites, carpaccio et cocktails",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 0.3,
+      "end": 1.8,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.2
+      }
+    },
+    {
+      "label": "#3 table du brunch avec café et milkshake",
+      "src": "library/monegasque/clips/MON-010.mp4",
+      "start": 0.4,
+      "end": 1.4,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.18
+      }
+    },
+    {
+      "label": "#4 table du brunch avec glace",
+      "src": "library/monegasque/clips/MON-053.mp4",
+      "start": 0.6,
+      "end": 2.1,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.12
+      }
+    },
+    {
+      "label": "#5 table avec soupe, crêpe et omelette",
+      "src": "library/monegasque/clips/MON-036.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#6 salade et cocktails sur nappe colorée",
+      "src": "library/monegasque/clips/MON-059.mp4",
+      "start": 0,
+      "end": 0.35,
+      "speed": 0.7,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.02
+      }
+    },
+    {
+      "label": "#7 crêpe chocolat et assiettes",
+      "src": "library/monegasque/clips/MON-073.mp4",
+      "start": 0,
+      "end": 1.2,
+      "grade": {
+        "curve": "pastel",
+        "brightness": 1.04
+      },
+      "speed": 0.8,
+      "reframe": {
+        "scale": 1.1,
+        "origin": "center top"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}
