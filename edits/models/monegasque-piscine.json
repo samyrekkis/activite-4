@@ -1,0 +1,126 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "Montage modèle, fait à la main. Thème « brunch au bord de la piscine » : un après-midi au Monégasque, de l'arrivée à la dernière gorgée. Hook : sauce chocolat versée au ralenti. Coupes franches sur le beat (120 BPM), aucun effet, un seul look (golden hour). Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK sauce chocolat versée sur les pancakes",
+      "src": "library/monegasque/clips/MON-029.mp4",
+      "start": 0,
+      "end": 1.15,
+      "speed": 0.575,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#2 escalier au tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0.15,
+      "end": 0.9,
+      "speed": 0.75,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#3 porte d’entrée fleurie",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 1,
+      "end": 2.5,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#4 terrasse et piscine vues d'en haut",
+      "src": "library/monegasque/clips/MON-138.mp4",
+      "start": 0.15,
+      "end": 1.65,
+      "grade": {
+        "curve": "golden"
+      },
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Monégasque · Alger",
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "label": "#5 terrasse aux lustres en osier et chaises tressées",
+      "src": "library/monegasque/clips/MON-123.mp4",
+      "start": 0.05,
+      "end": 1.05,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#6 table du brunch en surplomb de la piscine",
+      "src": "library/monegasque/clips/MON-145.mp4",
+      "start": 0.6,
+      "end": 2.1,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#7 mains qui se servent au brunch",
+      "src": "library/monegasque/clips/MON-055.mp4",
+      "start": 0.25,
+      "end": 1.25,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#8 mains qui coupent la tartine avocat",
+      "src": "library/monegasque/clips/MON-119.mp4",
+      "start": 0.02,
+      "end": 0.87,
+      "speed": 0.85,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#9 pancake au chocolat et bananes",
+      "src": "library/monegasque/clips/MON-033.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#10 mains qui trinquent",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.5,
+      "end": 2,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#11 piscine vue d'en haut et mur d'assiettes",
+      "src": "library/monegasque/clips/MON-030.mp4",
+      "start": 0,
+      "end": 1.5,
+      "grade": {
+        "curve": "golden"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

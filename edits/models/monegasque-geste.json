@@ -1,0 +1,102 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Montage modèle, fait à la main. Thème original « Le geste » : le repas raconté uniquement par les mains, en gros plans, du service à la dernière bouchée (quasi ASMR). Hook : le couvercle du tajine soulevé au ralenti. Coupes franches sur le beat (120 BPM), courts ralentis sur les gestes, aucun effet, look portra, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK main qui soulève le couvercle du tajine",
+      "src": "library/monegasque/clips/MON-007.mp4",
+      "start": 0.4,
+      "end": 1.6,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#2 doigt qui montre la salade au parmesan",
+      "src": "library/monegasque/clips/MON-159.mp4",
+      "start": 0.25,
+      "end": 1.25,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1
+      }
+    },
+    {
+      "label": "#3 main qui photographie la burrata",
+      "src": "library/monegasque/clips/MON-111.mp4",
+      "start": 0.1,
+      "end": 0.65,
+      "speed": 0.55,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.19
+      }
+    },
+    {
+      "label": "#4 fourchette dans la burrata, tomates et radis",
+      "src": "library/monegasque/clips/MON-114.mp4",
+      "start": 0.02,
+      "end": 0.57,
+      "speed": 0.55,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#5 couteau qui tranche la viande grillée",
+      "src": "library/monegasque/clips/MON-163.mp4",
+      "start": 0.1,
+      "end": 1.6,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#6 couverts en action au bord de la piscine",
+      "src": "library/monegasque/clips/MON-120.mp4",
+      "start": 0.02,
+      "end": 0.57,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1
+      },
+      "speed": 0.55
+    },
+    {
+      "label": "#7 sauce chocolat versée sur la crêpe",
+      "src": "library/monegasque/clips/MON-142.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.65,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.95
+      }
+    },
+    {
+      "label": "#8 mains qui trinquent",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.9,
+      "end": 2.4,
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ],
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.03
+      }
+    }
+  ]
+}

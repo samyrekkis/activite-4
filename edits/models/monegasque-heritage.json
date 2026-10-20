@@ -1,0 +1,109 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Montage modèle, fait à la main. Thème original « Héritage » : le haïk algérois, la tradition dans le décor méditerranéen du Monégasque, du jour à la nuit. Hook : la jeune femme qui se dévoile. Coupes franches sur le beat (120 BPM), aucun effet, look portra (peaux et blancs du haïk), plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK femme en haïk qui se dévoile près de la piscine",
+      "src": "library/monegasque/clips/MON-002.mp4",
+      "start": 0.5,
+      "end": 2.5,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#2 femme en haïk qui tourne au bord de la piscine",
+      "src": "library/monegasque/clips/MON-045.mp4",
+      "start": 0.15,
+      "end": 1.15,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.03
+      }
+    },
+    {
+      "label": "#3 terrasse couverte et lustres en osier",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0.5,
+      "end": 1.5,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.08
+      }
+    },
+    {
+      "label": "#4 couple en tenue traditionnelle blanche",
+      "src": "library/monegasque/clips/MON-004.mp4",
+      "start": 0.2,
+      "end": 1.7,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.94
+      }
+    },
+    {
+      "label": "#5 la nuit tombe : piscine éclairée et trône en mosaïque",
+      "src": "library/monegasque/clips/MON-097.mp4",
+      "start": 0.02,
+      "end": 0.87,
+      "speed": 0.85,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#6 femme en haïk et voile brodé sous le néon",
+      "src": "library/monegasque/clips/MON-047.mp4",
+      "start": 0.2,
+      "end": 1.7,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.12
+      }
+    },
+    {
+      "label": "#7 gros plan du voile brodé",
+      "src": "library/monegasque/clips/MON-050.mp4",
+      "start": 0.5,
+      "end": 1.5,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#8 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 0.75,
+      "end": 2.25,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.13
+      }
+    },
+    {
+      "label": "#9 femme en haïk devant le néon Monégasque",
+      "src": "library/monegasque/clips/MON-049.mp4",
+      "start": 0.02,
+      "end": 1.37,
+      "speed": 0.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

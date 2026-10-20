@@ -1,0 +1,201 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « douceurs ». Hook « question en commentaire », puis Crescendo : des plans de plus en plus courts, puis un plan large qui respire. Look « moody », finition « bandes cinéma », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "douceurs",
+    "hook": "question",
+    "recette": "crescendo",
+    "look": "moody",
+    "finition": "bandes cinéma",
+    "bpm": 120,
+    "seed": 1091749291
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK milkshake rose et crêpe au chocolat",
+      "src": "library/monegasque/clips/MON-089.mp4",
+      "start": 0.3,
+      "end": 2.3,
+      "grade": {
+        "curve": "moody"
+      },
+      "social": [
+        {
+          "kind": "comment",
+          "handle": "@ton.pote",
+          "text": "C'est où ça ?? 😍",
+          "delay": 0.1
+        }
+      ],
+      "letterbox": true
+    },
+    {
+      "label": "#2 brunch complet avec crêpe et toasts, vue de dessus",
+      "src": "library/monegasque/clips/MON-146.mp4",
+      "start": 0.03,
+      "end": 1.99,
+      "speed": 0.98,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 table du brunch avec café et milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-010.mp4",
+      "start": 0.64,
+      "end": 1.14,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 crêpe chocolat et assiettes sur la table",
+      "src": "library/monegasque/clips/MON-073.mp4",
+      "start": 0.34,
+      "end": 0.84,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#5 tajine, gâteau et assiette avocat devant la piscine",
+      "src": "library/monegasque/clips/MON-140.mp4",
+      "start": 0.1,
+      "end": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#6 brunch complet, crêpe et burrata",
+      "src": "library/monegasque/clips/MON-117.mp4",
+      "start": 0.1,
+      "end": 0.6,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#7 table pleine avec jus et cocktails",
+      "src": "library/monegasque/clips/MON-057.mp4",
+      "start": 0.05,
+      "end": 0.55,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 table du brunch avec milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-074.mp4",
+      "start": 0.21,
+      "end": 1.01,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#9 sauce chocolat versée sur les pancakes banane",
+      "src": "library/monegasque/clips/MON-029.mp4",
+      "start": 0.27,
+      "end": 0.97,
+      "speed": 0.7,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 assiette avocat saumon et jus, déco colorée",
+      "src": "library/monegasque/clips/MON-058.mp4",
+      "start": 0.02,
+      "end": 0.47,
+      "speed": 0.9,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 sauce chocolat versée sur la crêpe",
+      "src": "library/monegasque/clips/MON-142.mp4",
+      "start": 0.18,
+      "end": 0.53,
+      "speed": 0.7,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#12 pancakes aux pommes et chocolat",
+      "src": "library/monegasque/clips/MON-052.mp4",
+      "start": 0.03,
+      "end": 1.97,
+      "speed": 0.97,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 gâteau aux fraises sur la table du brunch",
+      "src": "library/monegasque/clips/MON-082.mp4",
+      "start": 0.92,
+      "end": 1.92,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#14 pancake au chocolat et bananes",
+      "src": "library/monegasque/clips/MON-033.mp4",
+      "start": 0.2,
+      "end": 0.9,
+      "grade": {
+        "curve": "moody"
+      },
+      "motion": "zoomOut",
+      "motionIntensity": 0.35,
+      "letterbox": true
+    },
+    {
+      "label": "#15 petit-déjeuner avec jus, toasts et beurre",
+      "src": "library/monegasque/clips/MON-051.mp4",
+      "start": 0.42,
+      "end": 2.42,
+      "grade": {
+        "curve": "moody"
+      },
+      "letterbox": true,
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

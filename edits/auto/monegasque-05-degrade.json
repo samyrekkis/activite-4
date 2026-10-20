@@ -1,0 +1,127 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « shooting en haïk ». Hook « plan choc », puis Dégradé : chaque plan prend la couleur du précédent, fondus et voiles de lumière. Look « naturel », finition « cartes de fin », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "shooting en haïk",
+    "hook": "coupDePoing",
+    "recette": "degrade",
+    "look": "naturel",
+    "finition": "cartes de fin",
+    "bpm": 120,
+    "seed": 1019726570
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK brunch complet avec sushis et salade",
+      "src": "library/monegasque/clips/MON-054.mp4",
+      "start": 0.19,
+      "end": 2.19,
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#2 mur d'assiettes bleu et enseigne rayée",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 0.23,
+      "end": 1.98,
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#3 femme en haïk qui se dévoile près de la piscine",
+      "src": "library/monegasque/clips/MON-002.mp4",
+      "start": 0.63,
+      "end": 2.38,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35,
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Monégasque · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#4 bouquet de roses offert à table",
+      "src": "library/monegasque/clips/MON-133.mp4",
+      "start": 0.03,
+      "end": 1.2,
+      "speed": 0.78,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#5 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 0.61,
+      "end": 2.36,
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#6 cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0.03,
+      "end": 1.54,
+      "speed": 0.86,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#7 femme en haïk sur la terrasse, de plus près",
+      "src": "library/monegasque/clips/MON-044.mp4",
+      "start": 0.66,
+      "end": 2.41,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#8 gros plan du voile brodé",
+      "src": "library/monegasque/clips/MON-050.mp4",
+      "start": 0.14,
+      "end": 1.89,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#9 jeune femme qui enfile le haïk devant la colonne lumineuse",
+      "src": "library/monegasque/clips/MON-041.mp4",
+      "start": 1.07,
+      "end": 2.57,
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.25
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35,
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « la déco ». Hook « story Instagram », puis Gros plans lents : textures et détails, légers ralentis, fondus flous. Look « teal & orange », finition « commentaire », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "la déco",
+    "hook": "story",
+    "recette": "lent",
+    "look": "teal & orange",
+    "finition": "commentaire",
+    "bpm": 120,
+    "seed": 1553696112
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK doigt qui montre la salade au parmesan",
+      "src": "library/monegasque/clips/MON-159.mp4",
+      "start": 0.03,
+      "end": 1.51,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 6,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "label": "#2 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 0.78,
+      "end": 2.68,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#3 façade avec drapeaux et enseigne Samouraï",
+      "src": "library/monegasque/clips/MON-156.mp4",
+      "start": 0.11,
+      "end": 2.01,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#4 rue et entrée du restaurant avec tapis rouge",
+      "src": "library/monegasque/clips/MON-081.mp4",
+      "start": 0.03,
+      "end": 1.93,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#5 cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0.03,
+      "end": 1.53,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#6 table dressée avec roses jaunes et faïence bleue",
+      "src": "library/monegasque/clips/MON-128.mp4",
+      "start": 0.03,
+      "end": 1.4,
+      "speed": 0.73,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.38
+      }
+    },
+    {
+      "label": "#7 terrasse et piscine vues d'en haut",
+      "src": "library/monegasque/clips/MON-138.mp4",
+      "start": 0.08,
+      "end": 1.68,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.38
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

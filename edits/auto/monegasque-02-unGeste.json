@@ -1,0 +1,138 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « soirée ». Hook « geste au ralenti », puis Un seul geste : tous les plans bougent dans le même sens, raccords invisibles. Look « néon », finition « bandes + cartes », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "soirée",
+    "hook": "geste",
+    "recette": "unGeste",
+    "look": "néon",
+    "finition": "bandes + cartes",
+    "bpm": 120,
+    "seed": 541685767
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK mains qui se servent, crêpe et glace",
+      "src": "library/monegasque/clips/MON-088.mp4",
+      "start": 0.64,
+      "end": 1.84,
+      "speed": 0.6,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 balcon fleuri éclairé la nuit",
+      "src": "library/monegasque/clips/MON-102.mp4",
+      "start": 0.03,
+      "end": 0.98,
+      "speed": 0.95,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 terrasse animée le soir sous les lustres en osier",
+      "src": "library/monegasque/clips/MON-099.mp4",
+      "start": 0.03,
+      "end": 0.88,
+      "speed": 0.85,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true,
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Monégasque · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#4 salle intérieure avec suspensions en verre",
+      "src": "library/monegasque/clips/MON-034.mp4",
+      "start": 0.4,
+      "end": 1.4,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 bouquet de roses rouges et blanches",
+      "src": "library/monegasque/clips/MON-151.mp4",
+      "start": 0.03,
+      "end": 0.95,
+      "speed": 0.92,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 plateau de makis sauce blanche",
+      "src": "library/monegasque/clips/MON-105.mp4",
+      "start": 0.45,
+      "end": 1.45,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 burger et frites",
+      "src": "library/monegasque/clips/MON-085.mp4",
+      "start": 0.72,
+      "end": 1.72,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 assortiment de desserts sur table noire",
+      "src": "library/monegasque/clips/MON-037.mp4",
+      "start": 0.25,
+      "end": 1.25,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 bol granola, fraises et banane",
+      "src": "library/monegasque/clips/MON-172.mp4",
+      "start": 0.47,
+      "end": 1.47,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 salle près de la piscine avec clients",
+      "src": "library/monegasque/clips/MON-091.mp4",
+      "start": 0.03,
+      "end": 0.98,
+      "speed": 0.95,
+      "grade": {
+        "curve": "neon"
+      },
+      "letterbox": true,
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

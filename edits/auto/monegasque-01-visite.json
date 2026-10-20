@@ -1,0 +1,147 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « brunch au bord de la piscine ». Hook « trois plans forts », puis La visite : de l'entrée à l'assiette, en suivant le mouvement de la caméra. Look « golden hour », finition « épuré », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "brunch au bord de la piscine",
+    "hook": "avantGout",
+    "recette": "visite",
+    "look": "golden hour",
+    "finition": "épuré",
+    "bpm": 120,
+    "seed": 608005331
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK dessert chantilly et milkshake au bord de la piscine",
+      "src": "library/monegasque/clips/MON-157.mp4",
+      "start": 0.8,
+      "end": 1.8,
+      "grade": {
+        "curve": "golden"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#2 HOOK mains qui se servent au brunch",
+      "src": "library/monegasque/clips/MON-055.mp4",
+      "start": 0.51,
+      "end": 1.51,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#3 HOOK main qui soulève le couvercle du tajine",
+      "src": "library/monegasque/clips/MON-007.mp4",
+      "start": 0.42,
+      "end": 1.92,
+      "grade": {
+        "curve": "golden"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#4 terrasse couverte et lustres en osier",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0.14,
+      "end": 1.64,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#5 coin terrasse avec néon rose",
+      "src": "library/monegasque/clips/MON-131.mp4",
+      "start": 0.03,
+      "end": 1.4,
+      "speed": 0.91,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#6 femme en haïk sur la terrasse couverte",
+      "src": "library/monegasque/clips/MON-043.mp4",
+      "start": 0.91,
+      "end": 2.16,
+      "grade": {
+        "curve": "golden"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#7 cliente sur la terrasse aux tournesols",
+      "src": "library/monegasque/clips/MON-148.mp4",
+      "start": 0.46,
+      "end": 1.46,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#8 brunch au bord de la piscine avec jus et smoothies",
+      "src": "library/monegasque/clips/MON-144.mp4",
+      "start": 0.06,
+      "end": 1.06,
+      "grade": {
+        "curve": "golden"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35
+    },
+    {
+      "label": "#9 table du brunch au bord de la piscine, jus et crêpe",
+      "src": "library/monegasque/clips/MON-031.mp4",
+      "start": 0.03,
+      "end": 1.16,
+      "speed": 0.94,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#10 assiette de grillades au bord de la piscine",
+      "src": "library/monegasque/clips/MON-153.mp4",
+      "start": 0.03,
+      "end": 0.7,
+      "speed": 0.84,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#11 assiette au bord de la piscine, couverts en action",
+      "src": "library/monegasque/clips/MON-120.mp4",
+      "start": 0.13,
+      "end": 0.31,
+      "speed": 0.7,
+      "grade": {
+        "curve": "golden"
+      }
+    },
+    {
+      "label": "#12 piscine vue d'en haut et mur d'assiettes bleu",
+      "src": "library/monegasque/clips/MON-030.mp4",
+      "start": 0.03,
+      "end": 1.51,
+      "speed": 0.74,
+      "grade": {
+        "curve": "golden"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

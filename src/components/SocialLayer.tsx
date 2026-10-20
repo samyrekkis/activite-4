@@ -128,7 +128,7 @@ const Comment: React.FC<{ card: SocialCard; theme: Theme; unit: number }> = ({ c
 const Location: React.FC<{ card: SocialCard; theme: Theme; unit: number }> = ({ card, theme, unit }) => {
   const enter = useEnter();
   const frame = useCurrentFrame();
-  const chars = Math.floor(interpolate(frame, [6, 30], [0, (card.place ?? "").length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
+  const chars = Math.floor(interpolate(frame, [3, 12], [0, (card.place ?? "").length], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }));
   return (
     <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: "16%" }}>
       <div
@@ -159,7 +159,6 @@ const Reserve: React.FC<{ card: SocialCard; theme: Theme; unit: number; total: n
   const tap = total * 0.55;
   const press = frame > tap && frame < tap + 6 ? 0.92 : 1;
   const ripple = interpolate(frame, [tap, tap + 14], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const cursorY = interpolate(frame, [0, tap], [260, 0], { extrapolateRight: "clamp" }) * unit;
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: "30%" }}>
       <div
@@ -186,19 +185,6 @@ const Reserve: React.FC<{ card: SocialCard; theme: Theme; unit: number; total: n
             inset: -20 * ripple * unit,
             borderRadius: 999,
             border: `${4 * unit}px solid rgba(255,255,255,${1 - ripple})`,
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            right: 60 * unit,
-            bottom: -30 * unit - cursorY,
-            width: 54 * unit,
-            height: 54 * unit,
-            borderRadius: "50%",
-            background: "rgba(255,255,255,0.85)",
-            boxShadow: "0 0 0 6px rgba(0,0,0,0.12)",
-            opacity: frame < tap + 10 ? 1 : 0,
           }}
         />
       </div>

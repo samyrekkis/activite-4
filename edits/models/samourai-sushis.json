@@ -1,0 +1,126 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "Montage modèle, fait à la main. Thème « les sushis du Samouraï » : de la cuisine à l’assiette. Hook : makis avocat-caviar en gros plan au ralenti, puis une mosaïque de quatre plats. Coupes franches sur le beat (120 BPM), aucun effet, un seul look (teal & orange). Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 HOOK makis avocat et caviar en gros plan",
+      "src": "library/samourai/clips/SAM-025.mp4",
+      "start": 0.02,
+      "end": 1.07,
+      "speed": 0.7,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#2 MOSAÏQUE dragon roll, makis teriyaki, poulet croustillant, nouilles sautées",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0,
+      "end": 1.5,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "layout": "grid",
+      "panels": [
+        {
+          "src": "library/samourai/clips/SAM-022.mp4",
+          "start": 0,
+          "speed": 0.6
+        },
+        {
+          "src": "library/samourai/clips/SAM-024.mp4",
+          "start": 0,
+          "speed": 0.62
+        },
+        {
+          "src": "library/samourai/clips/SAM-023.mp4",
+          "start": 0,
+          "speed": 0.7
+        },
+        {
+          "src": "library/samourai/clips/SAM-028.mp4",
+          "start": 0,
+          "speed": 0.9
+        }
+      ]
+    },
+    {
+      "label": "#3 chefs en cuisine",
+      "src": "library/samourai/clips/SAM-009.mp4",
+      "start": 0.15,
+      "end": 1.15,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#4 plateau étagé de sushis et makis",
+      "src": "library/samourai/clips/SAM-004.mp4",
+      "start": 0.1,
+      "end": 1.1,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#5 bateau de sushis et sashimis",
+      "src": "library/samourai/clips/SAM-036.mp4",
+      "start": 0.45,
+      "end": 1.95,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#6 soupe au curry et citron",
+      "src": "library/samourai/clips/SAM-029.mp4",
+      "start": 0,
+      "end": 1,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#7 plateau de makis devant l’éventail rouge",
+      "src": "library/samourai/clips/SAM-034.mp4",
+      "start": 0.05,
+      "end": 1.05,
+      "grade": {
+        "curve": "tealOrange"
+      }
+    },
+    {
+      "label": "#8 bœuf laqué et riz",
+      "src": "library/samourai/clips/SAM-003.mp4",
+      "start": 0.5,
+      "end": 1.5,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "reframe": {
+        "scale": 1.12,
+        "origin": "center top"
+      }
+    },
+    {
+      "label": "#9 salle aux plantes et lanternes rouges",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0.2,
+      "end": 1.7,
+      "grade": {
+        "curve": "tealOrange"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

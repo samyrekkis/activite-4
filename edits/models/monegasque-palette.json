@@ -1,0 +1,141 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 3,
+  "brief": "Montage modèle, fait à la main. Thème original « la palette du Monégasque » : un voyage par couleurs (bleu, rose, vert-jaune, orange) à travers la déco et les assiettes. Hook : triptyque bleu / rose / jaune qui annonce le concept. Coupes franches sur le beat (120 BPM), aucun effet, look vibrant, plans égalisés. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 HOOK TRIPTYQUE bleu, rose, jaune",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 0,
+      "end": 2,
+      "grade": {
+        "curve": "vibrant"
+      },
+      "layout": "rows",
+      "panels": [
+        {
+          "src": "library/monegasque/clips/MON-079.mp4",
+          "start": 0.1
+        },
+        {
+          "src": "library/monegasque/clips/MON-133.mp4",
+          "start": 0,
+          "speed": 0.6
+        },
+        {
+          "src": "library/monegasque/clips/MON-128.mp4",
+          "start": 0,
+          "speed": 0.8
+        }
+      ]
+    },
+    {
+      "label": "#2 BLEU piscine intérieure et mur d’assiettes",
+      "src": "library/monegasque/clips/MON-126.mp4",
+      "start": 0.05,
+      "end": 1.05,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.89
+      }
+    },
+    {
+      "label": "#3 BLEU main qui tient un mojito bleu",
+      "src": "library/monegasque/clips/MON-152.mp4",
+      "start": 0.02,
+      "end": 0.87,
+      "speed": 0.85,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.07
+      }
+    },
+    {
+      "label": "#4 ROSE table complète avec crêpe et milkshake rose",
+      "src": "library/monegasque/clips/MON-011.mp4",
+      "start": 0.05,
+      "end": 1.55,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04
+      }
+    },
+    {
+      "label": "#5 ROSE milkshake rose au bord de la piscine",
+      "src": "library/monegasque/clips/MON-116.mp4",
+      "start": 0,
+      "end": 0.7,
+      "speed": 0.7,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.16
+      }
+    },
+    {
+      "label": "#6 VERT salade burrata sur assiette festonnée",
+      "src": "library/monegasque/clips/MON-127.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.96
+      }
+    },
+    {
+      "label": "#7 VERT tartine avocat et œuf poché",
+      "src": "library/monegasque/clips/MON-115.mp4",
+      "start": 0,
+      "end": 0.6,
+      "speed": 0.6,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.06
+      }
+    },
+    {
+      "label": "#8 ORANGE paella aux crevettes et citrons",
+      "src": "library/monegasque/clips/MON-132.mp4",
+      "start": 0.05,
+      "end": 1.05,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.05
+      },
+      "reframe": {
+        "scale": 1.1,
+        "origin": "left bottom"
+      }
+    },
+    {
+      "label": "#9 ORANGE tajine aux œufs et sauce tomate",
+      "src": "library/monegasque/clips/MON-008.mp4",
+      "start": 0.4,
+      "end": 1.4,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.98
+      }
+    },
+    {
+      "label": "#10 table devant la piscine et le mur d’assiettes, toutes les couleurs",
+      "src": "library/monegasque/clips/MON-122.mp4",
+      "start": 0,
+      "end": 0.9,
+      "speed": 0.6,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 0.99
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}

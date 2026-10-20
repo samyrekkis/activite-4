@@ -1,5 +1,5 @@
 // Renders every generated plan of a restaurant and files the videos for the user.
-//   npm run edits:render -- --resto monegasque [--dest "C:/Users/moi/OneDrive/Bureau/Studio Resto/Montages"] [--preview]
+//   npm run edits:render -- --resto monegasque [--dest "C:/Users/moi/OneDrive/Bureau/Studio Resto/Montages"] [--preview] [--force]
 // Output: <dest>/<Resto>/<nn> - <recette> (<look>, <finition>).mp4 ; plans already
 // rendered (same file name) are skipped, so the command can be re-run after a crash.
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync } from "node:fs";
@@ -11,6 +11,7 @@ const flag = (n, d) => (args.includes(n) ? args[args.indexOf(n) + 1] : d);
 const resto = flag("--resto");
 const dest = flag("--dest", "C:/Users/hp/OneDrive/Bureau/Studio Resto/Montages");
 const preview = args.includes("--preview");
+const force = args.includes("--force"); // re-render and replace videos already filed
 if (!resto) {
   console.error("Usage: npm run edits:render -- --resto monegasque|samourai [--dest dossier] [--preview]");
   process.exit(1);
@@ -24,14 +25,18 @@ const TITLES = {
 const folder = join(dest, resto === "monegasque" ? "Monegasque" : "Samourai");
 mkdirSync(folder, { recursive: true });
 
-const plans = readdirSync("edits/auto").filter((f) => f.startsWith(`${resto}-`) && f.endsWith(".json")).sort();
+const only = flag("--only"); // comma-separated plan numbers, e.g. "03,07"
+const plans = readdirSync("edits/auto")
+  .filter((f) => f.startsWith(`${resto}-`) && f.endsWith(".json"))
+  .filter((f) => !only || only.split(",").includes(f.split("-")[1]))
+  .sort();
 for (const file of plans) {
   const plan = JSON.parse(readFileSync(`edits/auto/${file}`, "utf8"));
   const t = plan.template ?? {};
   const nn = file.split("-")[1];
   const nice = `${nn} - ${TITLES[t.recette] ?? t.recette} (${t.look}, ${t.finition}).mp4`;
   const target = join(folder, nice);
-  if (existsSync(target)) {
+  if (existsSync(target) && !force) {
     console.log(`déjà fait : ${nice}`);
     continue;
   }

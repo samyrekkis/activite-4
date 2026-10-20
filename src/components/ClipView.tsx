@@ -4,6 +4,7 @@ import { gradeToFilter, type Theme } from "../themes";
 import { isImage } from "../timeline";
 import type { Clip } from "../types";
 import { MotionLayer } from "./MotionLayer";
+import { PanelsView } from "./PanelsView";
 import { SocialLayer } from "./SocialLayer";
 import { CurveFilter } from "../grading";
 import { TextLayer } from "./TextLayer";
@@ -28,8 +29,16 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
         durationInFrames={durationInFrames}
       >
         {grade.curve ? <CurveFilter id={curveId} curve={grade.curve} /> : null}
-        <AbsoluteFill style={{ filter }}>
-          {isImage(clip.src) ? (
+        <AbsoluteFill
+          style={{
+            filter,
+            // Static reframe (no movement): hides an edge without a fake camera move.
+            ...(clip.reframe ? { transform: `scale(${clip.reframe.scale})`, transformOrigin: clip.reframe.origin ?? "center" } : {}),
+          }}
+        >
+          {clip.panels?.length ? (
+            <PanelsView panels={clip.panels} layout={clip.layout ?? "rows"} stagger={clip.stagger ?? 0.15} gap={theme.colors.background} />
+          ) : isImage(clip.src) ? (
             <Img src={src} style={media} />
           ) : (
             <OffthreadVideo

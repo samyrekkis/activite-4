@@ -59,6 +59,10 @@ const schema = {
     score: { type: "number", description: "Note globale /10, exigeante (7 = publiable, 9 = excellent)." },
     verdict: { type: "string", enum: ["a_retravailler", "presque_pret", "pret_a_publier"] },
     summary: { type: "string" },
+    fluidityScore: { type: "number", description: "Fluidité et niveau professionnel du montage, de 0 à 10 (10 = monteur pro haut de gamme)." },
+    colorScore: { type: "number", description: "Qualité de l'étalonnage de 0 à 10 (justesse du look pour le thème, raccords couleur entre plans, peau, blancs, appétence)." },
+    color: { type: "string", description: "Analyse d'étalonneur : le look choisi sert-il le thème ? Plans trop sombres/clairs/froids par rapport aux voisins ? Correction précise (courbe, luminosité par plan)." },
+    fluidity: { type: "string", description: "Analyse détaillée de la fluidité : raccords, continuité du mouvement, logique d'enchaînement, effets superflus, ce qui fait amateur." },
     hook: { type: "string", description: "Les 2 premières secondes accrochent-elles ? Pourquoi ?" },
     pacing: { type: "string", description: "Rythme, durée des plans, synchronisation avec la musique." },
     matchesReference: { type: "string", description: "Écarts de style avec la vidéo de référence (si fournie)." },
@@ -72,7 +76,7 @@ const schema = {
           clipLabel: { type: "string", description: "Label du clip concerné dans le plan (ex: #3), si identifiable." },
           category: {
             type: "string",
-            enum: ["rythme", "transition", "couleur", "cadrage", "texte", "son", "histoire", "technique", "food_appeal"],
+            enum: ["fluidite", "rythme", "transition", "couleur", "cadrage", "texte", "son", "histoire", "technique", "food_appeal"],
           },
           severity: { type: "string", enum: ["bloquant", "important", "mineur"] },
           problem: { type: "string" },
@@ -83,7 +87,7 @@ const schema = {
     },
     fixedSincePrevious: { type: "array", items: { type: "string" } },
   },
-  required: ["score", "verdict", "summary", "hook", "pacing", "strengths", "issues"],
+  required: ["score", "verdict", "summary", "fluidityScore", "fluidity", "colorScore", "color", "hook", "pacing", "strengths", "issues"],
 };
 
 const prompt = `Tu es directeur artistique et monteur senior spécialisé dans les vidéos de restaurants pour Instagram Reels et TikTok.
@@ -93,7 +97,19 @@ Restaurant : ${plan.restaurant === "samourai" ? "Le Samouraï, cuisine asiatique
 Brief : ${plan.brief ?? "non précisé"}
 ${ref ? "La SECONDE vidéo jointe est la RÉFÉRENCE de style à imiter (rythme, transitions, textes, étalonnage, énergie). Compare précisément." : ""}
 
-Évalue : accroche des 2 premières secondes, rythme et calage sur le beat, transitions, étalonnage et appétence des plats (food appeal), lisibilité et timing des textes, son (musique, effets sonores, niveaux), cohérence de marque, fin et appel à l'action, défauts techniques (saut d'image, flou, noir, image figée, texte coupé).
+PRIORITÉ N°1 DU CLIENT : LA FLUIDITÉ ET LE NIVEAU PROFESSIONNEL. Le client trouve que les montages « font amateur » et manquent de fluidité. Parle beaucoup de ça, avec précision, plan par plan.
+Juge comme un monteur de pubs haut de gamme. Signes d'un montage amateur, à relever systématiquement :
+- trop de types de transitions différents, transitions « gadget » (rotation, stores, retournement, volet circulaire, iris, glitch) qui attirent l'attention sur l'effet au lieu du sujet ;
+- zooms numériques et punch-in sur des plans qui bougent déjà, à-coups, flashs, plans trop courts pour être lus (moins de 0,4 s) ;
+- raccords sans logique : sauts jour/nuit ou lieu/plat sans fil conducteur, mouvements de caméra qui changent de sens d'un plan à l'autre, cadrages qui se contredisent, changements d'étalonnage visibles ;
+- coupes hors du beat, rythme haché ou monotone, absence de respiration ;
+- cartes ou éléments graphiques qui coupent le flux.
+Signes d'un montage pro : coupes franches sur le beat, raccords dans le mouvement (le geste ou le mouvement de caméra continue d'un plan à l'autre), séquences regroupées par lieu et par lumière, progression claire (accroche, montée, respiration, fin), effets rares et toujours au service du sujet.
+ÉTALONNAGE : juge aussi comme un étalonneur expert. Le look doit servir le thème : couleurs vives et blancs propres pour une déco colorée ou un brunch de jour, ambiance sombre et contrastée pour la nuit, peaux naturelles, plats appétissants (jamais gris, verts ou violets). Les plans voisins doivent raccorder en exposition et en température. Looks disponibles pour grade.curve : vibrant, pastel, portra, golden, film, tealOrange, moody, neon, tokyo, bleach, noir ; grade.brightness ajuste un plan.
+ORIGINALITÉ : le thème doit être clair et original, et le hook accrocheur dès la première image.
+La note globale ne doit JAMAIS dépasser fluidityScore + 1. Chaque problème de fluidité doit avoir une correction concrète (quelle transition remplacer par une coupe, quel clip déplacer, quel mouvement supprimer, quel plan rallonger).
+
+${plan.music ? "" : "La musique et les sons seront ajoutés plus tard par le client : ne juge pas et ne pénalise pas l'absence de son.\n"}Évalue aussi : accroche des 2 premières secondes, rythme et calage sur le beat, transitions, étalonnage et appétence des plats (food appeal), lisibilité et timing des textes, son (musique, effets sonores, niveaux), cohérence de marque, fin et appel à l'action, défauts techniques (saut d'image, flou, noir, image figée, texte coupé).
 Les timestamps doivent être exacts. Chaque correction doit être concrète et applicable au plan JSON (start/end, speed, motion, transitionIn, text, sfx, grade, ordre des clips).
 ${previous.length ? `Critiques précédentes (vérifie ce qui a été corrigé) : ${JSON.stringify(previous.map((p) => ({ version: p.version, score: p.score, issues: p.issues })))}` : ""}
 
@@ -146,6 +162,8 @@ for (const f of files) await ai.files.delete({ name: f.name }).catch(() => {});
 
 console.log(`\nNote : ${review.score}/10 (${review.verdict})`);
 console.log(review.summary);
+console.log(`Fluidité : ${review.fluidityScore}/10. ${review.fluidity}`);
+console.log(`Couleur : ${review.colorScore}/10. ${review.color}`);
 for (const i of review.issues) {
   console.log(`  [${i.severity}] ${i.timestamp} ${i.clipLabel ?? ""} ${i.category} : ${i.problem}\n      -> ${i.fix}`);
 }

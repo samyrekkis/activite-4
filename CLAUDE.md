@@ -37,6 +37,19 @@ Claude est le monteur principal. Remotion rend la vidéo à partir d'un **plan d
    - si une préférence revient souvent, ajuster aussi les valeurs par défaut (`src/themes.ts`, règles de `CLAUDE.md`) ;
    - committer `PREFERENCES.md` avec le plan corrigé.
 
+## Montages depuis la bibliothèque de clips (méthode qui fonctionne)
+
+Le générateur automatique (`npm run edits:generate`) plafonne autour de 5-6/10 en fluidité selon Gemini. Les montages publiables (8,5+/10) se font **à la main**, plan par plan, dans `edits/models/` :
+1. Choisir **un thème** et raconter une progression : accroche → arrivée (extérieur, entrée, salle) → l'expérience (personnes, déco) → la table → les plats et les gestes → plan final large et lumineux + carte « Réserve ta table ». Jour avant nuit.
+2. Lister les clips du thème (`public/library/<resto>/catalogue.json`) et regarder leurs photos (`scripts/library/sheet.py`) avant de choisir : vérifier qu'aucun logo de l'**autre** restaurant n'apparaît (les deux restos partagent sets de table et façade), pas de reste de texte, d'émoji ou de filigrane, pas d'angle penché.
+3. Uniquement des coupes franches, durées multiples du beat (1 s et 1,5 s à 120 BPM, 2 s pour la fin), aucun `motion`, un seul `grade.curve` pour tout le montage. Ralenti seulement sur le hook (geste).
+4. Jamais deux plans du même plat ou de la même vidéo d'origine à la suite (effet jump-cut).
+5. Temps fort possible : `panels` + `layout` (`rows` = triptyque de bandes horizontales, `grid` = mosaïque 2x2), juste après le hook ; chaque panneau doit avoir assez de rush pour toute la durée (ralentir avec `speed` si besoin).
+6. Pour masquer un bord gênant : `reframe: { scale: 1.08-1.15, origin: "left bottom" }` (recadrage fixe, sans mouvement).
+7. Étalonnage : un seul `grade.curve` par montage, choisi pour le thème (vibrant = déco colorée et plats frais, portra = peaux et blancs, golden/film = douceurs, tealOrange/tokyo = nuit, moody = mystère) ; puis `node scripts/library/match-shots.mjs <plan>` pour égaliser les expositions (correction douce), et retouches fines plan par plan (`grade.brightness`, `saturate`).
+8. Ralentis (`speed` < 1) uniquement sur des plans posés ou des gestes lents : sur un plan tenu à la main, ils saccadent (rushs à 30 i/s). Un micro-zoom (`motion: zoomIn`, intensité 0,6) est toléré seulement pour prolonger un vrai mouvement de caméra qui s'arrête avant la coupe.
+9. Boucle : `node scripts/render.mjs edits/models/<plan>.json` puis `node scripts/gemini-review.mjs out/<plan>-vN.mp4 edits/models/<plan>.json`, appliquer les corrections `bloquant`/`important`, incrémenter `version`, recommencer jusqu'à fluidité ≥ 8.
+
 ## Vérifier un rendu (sans Gemini)
 
 ```bash

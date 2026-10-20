@@ -62,7 +62,7 @@ export type TextOverlay = {
 
 export type Grade = {
   /** Film tone curve (see src/grading.tsx), applied before the other settings. */
-  curve?: "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody";
+  curve?: "tealOrange" | "film" | "golden" | "neon" | "bleach" | "noir" | "moody" | "vibrant" | "pastel" | "portra" | "tokyo";
   brightness?: number;
   contrast?: number;
   saturate?: number;
@@ -90,6 +90,16 @@ export type SocialCard = {
   duration?: number;
 };
 
+export type Panel = {
+  /** Path relative to public/. */
+  src: string;
+  /** In point in the source, seconds. */
+  start?: number;
+  speed?: number;
+  /** CSS object-position, to choose which part of the shot fills the band (e.g. "center 30%"). */
+  position?: string;
+};
+
 export type Clip = {
   /** Path relative to public/, e.g. "rushes/plat-01.mp4" or "brand/logo.png". */
   src: string;
@@ -112,6 +122,14 @@ export type Clip = {
   text?: TextOverlay[];
   /** Instagram-style cards over the clip. */
   social?: SocialCard[];
+  /** Several shots on screen at once (src/start/end still set the length of the clip). */
+  panels?: Panel[];
+  /** "rows" = stacked horizontal bands (triptych), "columns" = side by side, "grid" = 2x2. Default "rows". */
+  layout?: "rows" | "columns" | "grid";
+  /** Seconds between two panels appearing: a quick cascade (0.15) never leaves an empty band on screen. Default 0.15. */
+  stagger?: number;
+  /** Static reframe: enlarge the shot and keep this point fixed (CSS transform-origin, e.g. "left bottom"). */
+  reframe?: { scale: number; origin?: string };
   /** Cinema bars on this clip only (2.39:1 look inside the vertical frame). */
   letterbox?: boolean;
   /** Transition INTO this clip from the previous one. */

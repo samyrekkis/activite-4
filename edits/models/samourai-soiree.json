@@ -1,0 +1,151 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Montage modèle, fait à la main. Thème « une soirée au Samouraï » : l’entrée mystérieuse (néons, fresques, paravent), la salle et l’expérience kimono, puis les sushis. Hook : makis avocat sauce teriyaki, au ralenti. Coupes franches sur le beat (120 BPM), raccords dans le mouvement, aucun effet, un seul’look (moody). Sans musique : à ajouter.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 HOOK makis avocat sauce teriyaki",
+      "src": "library/samourai/clips/SAM-024.mp4",
+      "start": 0.02,
+      "end": 0.92,
+      "speed": 0.6,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#2 escalier néon rouge et kanji",
+      "src": "library/samourai/clips/SAM-020.mp4",
+      "start": 0.25,
+      "end": 1.25,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#3 fresque du guerrier samouraï dans le couloir",
+      "src": "library/samourai/clips/SAM-021.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#4 paravent en bois sculpté et lumière rouge",
+      "src": "library/samourai/clips/SAM-015.mp4",
+      "start": 0.1,
+      "end": 1.6,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#5 salle aux lanternes et miroir doré",
+      "src": "library/samourai/clips/SAM-013.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "moody"
+      },
+      "social": [
+        {
+          "kind": "location",
+          "place": "Le Samouraï · Alger",
+          "delay": 0.15
+        }
+      ]
+    },
+    {
+      "label": "#6 kimonos suspendus pour le shooting",
+      "src": "library/samourai/clips/SAM-019.mp4",
+      "start": 0.2,
+      "end": 1.2,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#7 cliente en kimono de soie bleue",
+      "src": "library/samourai/clips/SAM-041.mp4",
+      "start": 0.05,
+      "end": 1.05,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#8 chefs en cuisine",
+      "src": "library/samourai/clips/SAM-009.mp4",
+      "start": 0.15,
+      "end": 1.15,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#9 bateau de sushis et sashimis",
+      "src": "library/samourai/clips/SAM-036.mp4",
+      "start": 0.45,
+      "end": 1.95,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#10 dragon roll avocat et caviar",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0.02,
+      "end": 0.87,
+      "speed": 0.85,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#11 bœuf laqué et riz",
+      "src": "library/samourai/clips/SAM-003.mp4",
+      "start": 0.5,
+      "end": 1.5,
+      "grade": {
+        "curve": "moody"
+      },
+      "reframe": {
+        "scale": 1.12,
+        "origin": "center top"
+      }
+    },
+    {
+      "label": "#12 cliente qui goûte un maki",
+      "src": "library/samourai/clips/SAM-039.mp4",
+      "start": 0.25,
+      "end": 1.25,
+      "grade": {
+        "curve": "moody"
+      }
+    },
+    {
+      "label": "#13 entrée au sol de marbre et lanternes",
+      "src": "library/samourai/clips/SAM-014.mp4",
+      "start": 0.15,
+      "end": 2.15,
+      "grade": {
+        "curve": "moody"
+      },
+      "social": [
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.3
+        }
+      ],
+      "reframe": {
+        "scale": 1.15,
+        "origin": "left bottom"
+      }
+    }
+  ]
+}

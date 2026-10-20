@@ -1,0 +1,208 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Thème « brunch salé ». Hook « du lieu à l'assiette », puis La table se remplit : le décor, puis les plats arrivent, puis la table complète. Look « pellicule », finition « story Instagram », 120 BPM. Sans musique : à ajouter.",
+  "handle": "@lemonegasquedz",
+  "template": {
+    "theme": "brunch salé",
+    "hook": "revelation",
+    "recette": "tablePleine",
+    "look": "pellicule",
+    "finition": "story Instagram",
+    "bpm": 120,
+    "seed": 432449095
+  },
+  "clips": [
+    {
+      "label": "#1 HOOK table dressée avec roses jaunes et faïence bleue",
+      "src": "library/monegasque/clips/MON-128.mp4",
+      "start": 0.21,
+      "end": 1.21,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "label": "#2 HOOK couteau qui tranche la viande grillée",
+      "src": "library/monegasque/clips/MON-163.mp4",
+      "start": 0.1,
+      "end": 1.6,
+      "grade": {
+        "curve": "film"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35,
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "label": "#3 table avec frites, carpaccio et cocktails",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 0.53,
+      "end": 1.23,
+      "grade": {
+        "curve": "film"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35,
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "label": "#4 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 0.41,
+      "end": 1.71,
+      "grade": {
+        "curve": "film"
+      },
+      "motion": "zoomIn",
+      "motionIntensity": 0.35,
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "label": "#5 salade burrata sur assiette festonnée",
+      "src": "library/monegasque/clips/MON-127.mp4",
+      "start": 0.03,
+      "end": 1,
+      "speed": 0.97,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "label": "#6 tajine aux œufs et sauce tomate",
+      "src": "library/monegasque/clips/MON-008.mp4",
+      "start": 0.39,
+      "end": 1.39,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "label": "#7 carpaccio et salade sur assiette bleue",
+      "src": "library/monegasque/clips/MON-080.mp4",
+      "start": 0.65,
+      "end": 1.65,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "label": "#8 paella aux crevettes et citrons",
+      "src": "library/monegasque/clips/MON-132.mp4",
+      "start": 0.06,
+      "end": 1.06,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "label": "#9 escalope panée nappée de sauce",
+      "src": "library/monegasque/clips/MON-161.mp4",
+      "start": 0.96,
+      "end": 1.96,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 8
+        }
+      ]
+    },
+    {
+      "label": "#10 mains qui trinquent au-dessus des milkshakes et burgers",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.91,
+      "end": 1.61,
+      "speed": 0.7,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "label": "#11 petit-déjeuner avec jus, toasts et beurre",
+      "src": "library/monegasque/clips/MON-051.mp4",
+      "start": 0.42,
+      "end": 2.42,
+      "grade": {
+        "curve": "film"
+      },
+      "social": [
+        {
+          "kind": "story",
+          "segments": 11,
+          "index": 10
+        },
+        {
+          "kind": "reserve",
+          "text": "Réserve ta table",
+          "delay": 0.2
+        }
+      ]
+    }
+  ]
+}
