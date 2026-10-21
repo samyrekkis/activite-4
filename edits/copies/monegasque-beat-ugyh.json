@@ -1,0 +1,316 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-UGYH0475.json), autre chanson, autre moment de chaque plan, look film. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 crêpe au chocolat en gros plan",
+      "src": "library/monegasque/clips/MON-250.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.651,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#2 dessert aux figues et fleurs violettes",
+      "src": "library/monegasque/clips/MON-264.mp4",
+      "start": 0.68,
+      "end": 1.516,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.17,
+      "end": 1.03,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-264.mp4",
+        "start": 1.516,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#4 grande table du soir avec plats variés",
+      "src": "library/monegasque/clips/MON-108.mp4",
+      "start": 0,
+      "end": 0.48,
+      "speed": 0.591,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 serveur qui apporte l'assiette, bar en fond",
+      "src": "library/monegasque/clips/MON-251.mp4",
+      "start": 0.13,
+      "end": 0.92,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-108.mp4",
+        "start": 0.273,
+        "speed": 0.591,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#6 table dressée avec roses jaunes et faïence bleue",
+      "src": "library/monegasque/clips/MON-128.mp4",
+      "start": 0.3,
+      "end": 1.043,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 table du soir avec makis et cocktails",
+      "src": "library/monegasque/clips/MON-106.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.875,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-128.mp4",
+        "start": 1.03,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#8 salle rouge et néons, travelling",
+      "src": "library/monegasque/clips/MON-098.mp4",
+      "start": 0,
+      "end": 0.78,
+      "speed": 0.908,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 table du brunch devant la piscine, milkshake rose",
+      "src": "library/monegasque/clips/MON-116.mp4",
+      "start": 0,
+      "end": 0.62,
+      "speed": 0.763,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-098.mp4",
+        "start": 0.462,
+        "speed": 0.908,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#10 assiette de gambas et salade, mains",
+      "src": "library/monegasque/clips/MON-252.mp4",
+      "start": 0.45,
+      "end": 1.239,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 grande table du brunch, vue de dessus",
+      "src": "library/monegasque/clips/MON-061.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.823,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-252.mp4",
+        "start": 1.239,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#12 table du brunch devant la piscine et les fresques",
+      "src": "library/monegasque/clips/MON-020.mp4",
+      "start": 0,
+      "end": 0.42,
+      "speed": 0.517,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 tartine avocat et œuf poché en gros plan",
+      "src": "library/monegasque/clips/MON-115.mp4",
+      "start": 0,
+      "end": 0.52,
+      "speed": 0.658,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-020.mp4",
+        "start": 0.239,
+        "speed": 0.517,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#14 bouquet de roses offert à table",
+      "src": "library/monegasque/clips/MON-133.mp4",
+      "start": 0.17,
+      "end": 0.982,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#15 gambas et citrons, autre angle",
+      "src": "library/monegasque/clips/MON-223.mp4",
+      "start": 0.63,
+      "end": 1.397,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-133.mp4",
+        "start": 0.83,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#16 assiette frites et sauce, verres ciselés",
+      "src": "library/monegasque/clips/MON-162.mp4",
+      "start": 1.02,
+      "end": 1.832,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.05,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/UGYH0475.MP4",
+    "from": 0
+  }
+}

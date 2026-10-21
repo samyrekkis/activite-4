@@ -1,0 +1,315 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 302,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-UGYH0475.json), autre chanson, autre moment de chaque plan, look tokyo. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 escalier sous la lanterne et fresque rouge",
+      "src": "library/samourai/clips/SAM-066.mp4",
+      "start": 0.6,
+      "end": 1.598,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#2 Chef cuisinant au wok sur flammes",
+      "src": "library/samourai/clips/SAM-207.mp4",
+      "start": 0.05,
+      "end": 0.886,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 Chef ajoutant de la sauce sur sushis",
+      "src": "library/samourai/clips/SAM-224.mp4",
+      "start": 0,
+      "end": 0.62,
+      "speed": 0.721,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-207.mp4",
+        "start": 0.57,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#4 baguettes saisissant un sushi recouvert de sauce rouge",
+      "src": "library/samourai/clips/SAM-139.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.924,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 Serveur apportant un grand plateau de sushis",
+      "src": "library/samourai/clips/SAM-116.mp4",
+      "start": 2,
+      "end": 2.79,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-139.mp4",
+        "start": 0.427,
+        "speed": 0.924,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#6 tranches d'avocat sur les makis",
+      "src": "library/samourai/clips/SAM-176.mp4",
+      "start": 0,
+      "end": 0.72,
+      "speed": 0.969,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 clients assis sur la terrasse rouge",
+      "src": "library/samourai/clips/SAM-238.mp4",
+      "start": 0.08,
+      "end": 0.823,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-176.mp4",
+        "start": 0.381,
+        "speed": 0.969,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#8 cliente qui ajuste son kimono bleu brodé",
+      "src": "library/samourai/clips/SAM-042.mp4",
+      "start": 0,
+      "end": 0.58,
+      "speed": 0.675,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 bougie allumée sur table avec sac et verres",
+      "src": "library/samourai/clips/SAM-165.mp4",
+      "start": 0.19,
+      "end": 1.003,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-042.mp4",
+        "start": 0.344,
+        "speed": 0.675,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#10 plateau étagé de sushis et makis",
+      "src": "library/samourai/clips/SAM-004.mp4",
+      "start": 0.21,
+      "end": 0.999,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 sac a emporter pose sur table",
+      "src": "library/samourai/clips/SAM-259.mp4",
+      "start": 0,
+      "end": 0.42,
+      "speed": 0.532,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-004.mp4",
+        "start": 0.77,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#12 Serveuse en kimono marchant dans la salle",
+      "src": "library/samourai/clips/SAM-212.mp4",
+      "start": 0.05,
+      "end": 0.862,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 service de bouchées vapeur sur un buffet",
+      "src": "library/samourai/clips/SAM-084.mp4",
+      "start": 0.05,
+      "end": 0.84,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-212.mp4",
+        "start": 0.57,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#14 facade de restaurant illuminee la nuit",
+      "src": "library/samourai/clips/SAM-258.mp4",
+      "start": 0,
+      "end": 0.35,
+      "speed": 0.431,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#15 Serveur apportant un plateau de sushis",
+      "src": "library/samourai/clips/SAM-209.mp4",
+      "start": 0.11,
+      "end": 0.877,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-258.mp4",
+        "start": 0.199,
+        "speed": 0.431,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#16 bateau de sushis et sashimis",
+      "src": "library/samourai/clips/SAM-036.mp4",
+      "start": 1.08,
+      "end": 1.892,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/UGYH0475.MP4",
+    "from": 0
+  }
+}

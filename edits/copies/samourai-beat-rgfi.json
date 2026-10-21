@@ -1,0 +1,283 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-RGFI9032.json), autre chanson, autre moment de chaque plan, look lumiere avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 chef déposant des œufs de poisson sur les sushis",
+      "src": "library/samourai/clips/SAM-182.mp4",
+      "start": 0,
+      "end": 0.58,
+      "speed": 0.543,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#2 Gros plan sur assiette de sushis",
+      "src": "library/samourai/clips/SAM-219.mp4",
+      "start": 0,
+      "end": 0.62,
+      "speed": 0.667,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 deux femmes en kimono de dos",
+      "src": "library/samourai/clips/SAM-254.mp4",
+      "start": 0,
+      "end": 0.38,
+      "speed": 0.431,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#4 chef découpant un énorme thon rouge au couteau",
+      "src": "library/samourai/clips/SAM-179.mp4",
+      "start": 0,
+      "end": 0.58,
+      "speed": 0.675,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-254.mp4",
+        "start": 0.229,
+        "speed": 0.431,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#5 verres de cocktails sur table de restaurant",
+      "src": "library/samourai/clips/SAM-155.mp4",
+      "start": 0.3,
+      "end": 1.229,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#6 personnes en kimono marchant dans la salle",
+      "src": "library/samourai/clips/SAM-144.mp4",
+      "start": 0.028,
+      "end": 0.98,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 homme en kimono traditionnel japonais",
+      "src": "library/samourai/clips/SAM-257.mp4",
+      "start": 0,
+      "end": 0.35,
+      "speed": 0.396,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-144.mp4",
+        "start": 0.63,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#8 client se servant des raviolis japonais frits",
+      "src": "library/samourai/clips/SAM-085.mp4",
+      "start": 0.044,
+      "end": 0.88,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 clientes en kimono avec des éventails",
+      "src": "library/samourai/clips/SAM-199.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.829,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#10 salle de restaurant avec chaises rouges et kimonos",
+      "src": "library/samourai/clips/SAM-133.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.683,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-199.mp4",
+        "start": 0.46,
+        "speed": 0.829,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#11 détail d'une table en marbre noir veiné",
+      "src": "library/samourai/clips/SAM-082.mp4",
+      "start": 0,
+      "end": 0.75,
+      "speed": 0.807,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#12 chef barbu présentant une assiette de sushis",
+      "src": "library/samourai/clips/SAM-240.mp4",
+      "start": 0.45,
+      "end": 1.355,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 détail du dos d'un kimono à motifs",
+      "src": "library/samourai/clips/SAM-090.mp4",
+      "start": 0,
+      "end": 0.78,
+      "speed": 0.861,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-240.mp4",
+        "start": 1.355,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#14 Femme portant un kimono dans le restaurant",
+      "src": "library/samourai/clips/SAM-109.mp4",
+      "start": 0.25,
+      "end": 1.132,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/RGFI9032.MP4",
+    "from": 0
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 302,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-MWAJ5790.json), autre chanson, autre moment de chaque plan, look tokyo. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 panneaux lumineux et néons asiatiques colorés",
+      "src": "library/samourai/clips/SAM-164.mp4",
+      "start": 0.68,
+      "end": 1.539,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#2 homme en kimono dégustant un sushi aux baguettes",
+      "src": "library/samourai/clips/SAM-190.mp4",
+      "start": 0.58,
+      "end": 1.439,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 Deux personnes en kimono à table",
+      "src": "library/samourai/clips/SAM-220.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.757,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-190.mp4",
+        "start": 1.439,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#4 homme en kimono posant avec un katana",
+      "src": "library/samourai/clips/SAM-158.mp4",
+      "start": 0.38,
+      "end": 1.24,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 personne en kimono entrant dans le restaurant",
+      "src": "library/samourai/clips/SAM-230.mp4",
+      "start": 0.4,
+      "end": 1.259,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-158.mp4",
+        "start": 1.24,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#6 femmes portant des kimonos traditionnels colorés",
+      "src": "library/samourai/clips/SAM-089.mp4",
+      "start": 0.42,
+      "end": 1.279,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 Salle de restaurant avec lanternes rouges",
+      "src": "library/samourai/clips/SAM-203.mp4",
+      "start": 1.12,
+      "end": 1.979,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-089.mp4",
+        "start": 1.279,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#8 salle de restaurant avec chaises rouges élégantes",
+      "src": "library/samourai/clips/SAM-083.mp4",
+      "start": 0.3,
+      "end": 1.159,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 enseignes néons colorées au-dessus d'un escalier tournant",
+      "src": "library/samourai/clips/SAM-180.mp4",
+      "start": 0.35,
+      "end": 1.209,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-083.mp4",
+        "start": 1.13,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#10 Décoration murale avec sabres japonais",
+      "src": "library/samourai/clips/SAM-211.mp4",
+      "start": 0.05,
+      "end": 0.909,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 cocktail et plateau de sushis sur table",
+      "src": "library/samourai/clips/SAM-160.mp4",
+      "start": 0.98,
+      "end": 1.84,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-211.mp4",
+        "start": 0.6,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#12 chef au travail derrière le poisson",
+      "src": "library/samourai/clips/SAM-175.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.477,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 plats de nouilles sautées sur la table",
+      "src": "library/samourai/clips/SAM-244.mp4",
+      "start": 0.28,
+      "end": 1.139,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-175.mp4",
+        "start": 0.653,
+        "speed": 0.477,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#14 bol de salade poké avec des baguettes",
+      "src": "library/samourai/clips/SAM-249.mp4",
+      "start": 0,
+      "end": 0.35,
+      "speed": 0.407,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#15 Bols de nouilles japonaises alignés sur le buffet",
+      "src": "library/samourai/clips/SAM-098.mp4",
+      "start": 0,
+      "end": 0.85,
+      "speed": 0.99,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-249.mp4",
+        "start": 0.208,
+        "speed": 0.407,
+        "dur": 0.35
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/MWAJ5790.MP4",
+    "from": 0
+  }
+}

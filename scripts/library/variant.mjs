@@ -13,7 +13,7 @@ bounds.push(+to);
 const n = bounds.length - 1;
 
 // Logo table sets the client rejected.
-const EXCLUDE = ["SAM-003", "SAM-005", "SAM-055", "SAM-070", "SAM-039", "SAM-112", "SAM-101", "SAM-243"];
+const EXCLUDE = ["SAM-003", "SAM-005", "SAM-055", "SAM-070", "SAM-039", "SAM-112", "SAM-101", "SAM-243", "SAM-255"];
 // Shots of the source videos, in their (logical) order, without the mosaic placeholder.
 const ids = [];
 for (const s of sources) {
@@ -41,7 +41,9 @@ const spec = {
     // The OYUA reference is a sped-up tour: keep its accelerations.
     const sp = /OYUA/.test(ref) ? [1.88, 2.12, 2.12, 2.2, 1.08, 1.04, 1.04, 1.1, 1.1, 1.31][i] : 1;
     // AT=start shows the beginning of each clip instead (a third, different moment).
-    const at = process.env.AT === "start" ? 0.1 : Math.max(0, +(m.duration - len * sp - 0.08).toFixed(2));
+    // AT=<0..1> picks that moment of the clip (0.1 = near the start, 1 = the end).
+    const room = Math.max(0, m.duration - len * sp - 0.08);
+    const at = process.env.AT === "start" ? 0.1 : process.env.AT ? +(Math.max(0.05, room * +process.env.AT)).toFixed(2) : +room.toFixed(2);
     return { id, ...(sp !== 1 ? { speed: sp } : {}), at };
   }),
 };

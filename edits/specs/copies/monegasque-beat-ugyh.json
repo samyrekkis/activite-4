@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/monegasque-beat-ugyh.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/beat-UGYH0475.json",
+ "from": 0,
+ "to": 13.026,
+ "minShot": 0.3,
+ "curve": "film",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-UGYH0475.json), autre chanson, autre moment de chaque plan, look film. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-250",
+   "at": 0.05
+  },
+  {
+   "id": "MON-264",
+   "at": 0.68
+  },
+  {
+   "id": "MON-155",
+   "at": 0.17
+  },
+  {
+   "id": "MON-108",
+   "at": 0.05
+  },
+  {
+   "id": "MON-251",
+   "at": 0.13
+  },
+  {
+   "id": "MON-128",
+   "at": 0.3
+  },
+  {
+   "id": "MON-106",
+   "at": 0.05
+  },
+  {
+   "id": "MON-098",
+   "at": 0.05
+  },
+  {
+   "id": "MON-116",
+   "at": 0.05
+  },
+  {
+   "id": "MON-252",
+   "at": 0.45
+  },
+  {
+   "id": "MON-061",
+   "at": 0.05
+  },
+  {
+   "id": "MON-020",
+   "at": 0.05
+  },
+  {
+   "id": "MON-115",
+   "at": 0.05
+  },
+  {
+   "id": "MON-133",
+   "at": 0.17
+  },
+  {
+   "id": "MON-223",
+   "at": 0.63
+  },
+  {
+   "id": "MON-162",
+   "at": 1.02
+  }
+ ]
+}

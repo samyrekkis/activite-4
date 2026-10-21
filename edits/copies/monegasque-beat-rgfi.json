@@ -1,0 +1,273 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-RGFI9032.json), autre chanson, autre moment de chaque plan, look portra avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.768,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#2 terrasse colorée, fauteuil tressé",
+      "src": "library/monegasque/clips/MON-324.mp4",
+      "start": 1.31,
+      "end": 2.239,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 dîner romantique dressé, salle aux fauteuils",
+      "src": "library/monegasque/clips/MON-283.mp4",
+      "start": 0.72,
+      "end": 1.602,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#4 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 1.52,
+      "end": 2.379,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-283.mp4",
+        "start": 1.602,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#5 tables rouges, bougies et roses",
+      "src": "library/monegasque/clips/MON-320.mp4",
+      "start": 0.77,
+      "end": 1.699,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#6 table d'anniversaire rose et argent",
+      "src": "library/monegasque/clips/MON-270.mp4",
+      "start": 0.38,
+      "end": 1.332,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 2.36,
+      "end": 3.243,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-270.mp4",
+        "start": 1.27,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#8 fourchette dans le dessert aux figues",
+      "src": "library/monegasque/clips/MON-267.mp4",
+      "start": 0.53,
+      "end": 1.366,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 bouquet de roses rouges et blanches",
+      "src": "library/monegasque/clips/MON-151.mp4",
+      "start": 0.015,
+      "end": 0.92,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#10 salle sous le plafond miroir, néon et colonnes",
+      "src": "library/monegasque/clips/MON-192.mp4",
+      "start": 1.77,
+      "end": 2.722,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-151.mp4",
+        "start": 0.57,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#11 rideau de cœurs et pétales au sol",
+      "src": "library/monegasque/clips/MON-323.mp4",
+      "start": 0.77,
+      "end": 1.699,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#12 table du brunch, smoothies et assiettes",
+      "src": "library/monegasque/clips/MON-287.mp4",
+      "start": 1.08,
+      "end": 1.985,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 poisson grillé et légumes",
+      "src": "library/monegasque/clips/MON-306.mp4",
+      "start": 0.31,
+      "end": 1.216,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-287.mp4",
+        "start": 1.67,
+        "dur": 0.35
+      }
+    },
+    {
+      "label": "#14 poulet gratiné sur salade",
+      "src": "library/monegasque/clips/MON-317.mp4",
+      "start": 1.74,
+      "end": 2.622,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.04,
+        "contrast": 1.05,
+        "saturate": 0.95
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.08,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/RGFI9032.MP4",
+    "from": 0
+  }
+}

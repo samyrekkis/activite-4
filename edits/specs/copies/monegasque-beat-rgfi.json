@@ -1,0 +1,71 @@
+{
+ "out": "edits/copies/monegasque-beat-rgfi.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/beat-RGFI9032.json",
+ "from": 0,
+ "to": 12.817,
+ "minShot": 0.3,
+ "curve": "portra",
+ "version": 1,
+ "copyZoom": false,
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-RGFI9032.json), autre chanson, autre moment de chaque plan, look portra avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-112",
+   "at": 0.05
+  },
+  {
+   "id": "MON-324",
+   "at": 1.31
+  },
+  {
+   "id": "MON-283",
+   "at": 0.72
+  },
+  {
+   "id": "MON-067",
+   "at": 1.52
+  },
+  {
+   "id": "MON-320",
+   "at": 0.77
+  },
+  {
+   "id": "MON-270",
+   "at": 0.38
+  },
+  {
+   "id": "MON-174",
+   "at": 2.36
+  },
+  {
+   "id": "MON-267",
+   "at": 0.53
+  },
+  {
+   "id": "MON-151",
+   "at": 0.05
+  },
+  {
+   "id": "MON-192",
+   "at": 1.77
+  },
+  {
+   "id": "MON-323",
+   "at": 0.77
+  },
+  {
+   "id": "MON-287",
+   "at": 0.65
+  },
+  {
+   "id": "MON-306",
+   "at": 0.31
+  },
+  {
+   "id": "MON-317",
+   "at": 1.74
+  }
+ ]
+}

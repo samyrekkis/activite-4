@@ -1,0 +1,71 @@
+{
+ "out": "edits/copies/samourai-beat-rgfi.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/beat-RGFI9032.json",
+ "from": 0,
+ "to": 12.817,
+ "minShot": 0.3,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-RGFI9032.json), autre chanson, autre moment de chaque plan, look lumiere avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-182",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-219",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-254",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-179",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-155",
+   "at": 0.3
+  },
+  {
+   "id": "SAM-144",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-257",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-085",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-199",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-133",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-082",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-240",
+   "at": 0.45
+  },
+  {
+   "id": "SAM-090",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-109",
+   "at": 0.25
+  }
+ ]
+}

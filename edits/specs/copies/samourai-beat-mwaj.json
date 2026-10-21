@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/samourai-beat-mwaj.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/beat-MWAJ5790.json",
+ "from": 0,
+ "to": 13.746,
+ "minShot": 0.3,
+ "curve": "tokyo",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-MWAJ5790.json), autre chanson, autre moment de chaque plan, look tokyo. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-164",
+   "at": 0.68
+  },
+  {
+   "id": "SAM-190",
+   "at": 0.58
+  },
+  {
+   "id": "SAM-220",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-158",
+   "at": 0.38
+  },
+  {
+   "id": "SAM-230",
+   "at": 0.4
+  },
+  {
+   "id": "SAM-089",
+   "at": 0.42
+  },
+  {
+   "id": "SAM-203",
+   "at": 1.12
+  },
+  {
+   "id": "SAM-083",
+   "at": 0.3
+  },
+  {
+   "id": "SAM-180",
+   "at": 0.35
+  },
+  {
+   "id": "SAM-211",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-160",
+   "at": 0.98
+  },
+  {
+   "id": "SAM-175",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-255",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-244",
+   "at": 0.28
+  },
+  {
+   "id": "SAM-249",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-098",
+   "at": 0.05
+  }
+ ]
+}

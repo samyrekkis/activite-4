@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/monegasque-beat-mwaj.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/beat-MWAJ5790.json",
+ "from": 0,
+ "to": 13.746,
+ "minShot": 0.3,
+ "curve": "golden",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (beat-MWAJ5790.json), autre chanson, autre moment de chaque plan, look golden. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-199",
+   "at": 0.98
+  },
+  {
+   "id": "MON-091",
+   "at": 0.05
+  },
+  {
+   "id": "MON-041",
+   "at": 0.94
+  },
+  {
+   "id": "MON-246",
+   "at": 0.34
+  },
+  {
+   "id": "MON-242",
+   "at": 0.55
+  },
+  {
+   "id": "MON-172",
+   "at": 0.35
+  },
+  {
+   "id": "MON-143",
+   "at": 0.07
+  },
+  {
+   "id": "MON-282",
+   "at": 0.56
+  },
+  {
+   "id": "MON-126",
+   "at": 0.06
+  },
+  {
+   "id": "MON-277",
+   "at": 0.48
+  },
+  {
+   "id": "MON-075",
+   "at": 0.05
+  },
+  {
+   "id": "MON-008",
+   "at": 0.29
+  },
+  {
+   "id": "MON-221",
+   "at": 0.58
+  },
+  {
+   "id": "MON-057",
+   "at": 0.05
+  },
+  {
+   "id": "MON-135",
+   "at": 0.14
+  },
+  {
+   "id": "MON-171",
+   "at": 0.05
+  }
+ ]
+}

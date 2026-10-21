@@ -9100,7 +9100,7 @@
    "category": "plat",
    "view": "dessus",
    "light": "nuit",
-   "quality": 2,
+   "quality": 0,
    "duration": 0.4,
    "orientation": "vertical",
    "brightness": 0.226,
