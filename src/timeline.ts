@@ -38,9 +38,11 @@ export const buildSegments = (plan: EditPlan): Segment[] => {
     });
   }
   plan.clips.forEach((clip, index) => {
+    // A quadrant transition shows the previous shot with that shot's current grade.
+    const prev = plan.clips[index - 1];
     segments.push({
       kind: "clip",
-      clip,
+      clip: clip.quadIn && prev ? { ...clip, quadIn: { ...clip.quadIn, grade: prev.grade } } : clip,
       index,
       frames: toFrames(clipSeconds(clip), fps),
       transitionIn: segments.length ? clip.transitionIn : undefined,

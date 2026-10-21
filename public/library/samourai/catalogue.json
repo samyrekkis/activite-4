@@ -56,7 +56,7 @@
     126.1
    ],
    "lab_first": [
-    96.0,
+    96,
     146.6,
     126.2
    ],
@@ -131,7 +131,7 @@
     150.4
    ],
    "lab_last": [
-    112.0,
+    112,
     136.1,
     152.1
    ],
@@ -162,7 +162,7 @@
    ],
    "lab_first": [
     95.1,
-    137.0,
+    137,
     138.4
    ],
    "lab_last": [
@@ -202,7 +202,7 @@
    ],
    "lab_last": [
     111.7,
-    134.0,
+    134,
     139.9
    ],
    "motion": [
@@ -266,7 +266,7 @@
     136.6
    ],
    "lab_first": [
-    78.0,
+    78,
     137.9,
     137.1
    ],
@@ -342,8 +342,8 @@
    ],
    "lab_last": [
     80.7,
-    134.0,
-    133.0
+    134,
+    133
    ],
    "motion": [
     -0.368,
@@ -366,14 +366,14 @@
    "orientation": "vertical",
    "brightness": 0.318,
    "lab": [
-    81.0,
+    81,
     134.2,
     143.7
    ],
    "lab_first": [
     80.2,
     134.5,
-    145.0
+    145
    ],
    "lab_last": [
     81.3,
@@ -402,7 +402,7 @@
    "brightness": 0.39,
    "lab": [
     99.4,
-    126.0,
+    126,
     140.1
    ],
    "lab_first": [
@@ -442,7 +442,7 @@
    ],
    "lab_first": [
     65.7,
-    142.0,
+    142,
     132.8
    ],
    "lab_last": [
@@ -577,7 +577,7 @@
    "brightness": 0.249,
    "lab": [
     63.6,
-    153.0,
+    153,
     120.2
    ],
    "lab_first": [
@@ -647,7 +647,7 @@
    "brightness": 0.218,
    "lab": [
     55.7,
-    141.0,
+    141,
     134.6
    ],
    "lab_first": [
@@ -791,7 +791,7 @@
     135.5
    ],
    "lab_first": [
-    131.0,
+    131,
     147.8,
     136.4
    ],
@@ -887,7 +887,7 @@
    "view": "moyen",
    "light": "jour",
    "quality": 3,
-   "duration": 1.0,
+   "duration": 1,
    "orientation": "vertical",
    "brightness": 0.393,
    "lab": [
@@ -936,7 +936,7 @@
     141.3
    ],
    "lab_last": [
-    103.0,
+    103,
     137.8,
     138.6
    ],
@@ -966,12 +966,12 @@
     147.9
    ],
    "lab_first": [
-    91.0,
+    91,
     149.2,
     148.2
    ],
    "lab_last": [
-    90.0,
+    90,
     148.9,
     147.5
    ],
@@ -997,7 +997,7 @@
    "brightness": 0.485,
    "lab": [
     123.7,
-    142.0,
+    142,
     158.5
    ],
    "lab_first": [
@@ -1032,7 +1032,7 @@
    "brightness": 0.337,
    "lab": [
     85.9,
-    148.0,
+    148,
     143.1
    ],
    "lab_first": [
@@ -1062,7 +1062,7 @@
    "view": "moyen",
    "light": "jour",
    "quality": 3,
-   "duration": 2.0,
+   "duration": 2,
    "orientation": "vertical",
    "brightness": 0.353,
    "lab": [
@@ -1102,8 +1102,8 @@
    "brightness": 0.332,
    "lab": [
     84.7,
-    150.0,
-    145.0
+    150,
+    145
    ],
    "lab_first": [
     79.8,
@@ -1111,7 +1111,7 @@
     143.5
    ],
    "lab_last": [
-    89.0,
+    89,
     152.3,
     146.3
    ],
@@ -1146,7 +1146,7 @@
     143.5
    ],
    "lab_last": [
-    89.0,
+    89,
     144.2,
     139.5
    ],
@@ -1213,7 +1213,7 @@
    "lab_first": [
     45.4,
     136.5,
-    138.0
+    138
    ],
    "lab_last": [
     45.5,
@@ -1246,13 +1246,13 @@
     140.3
    ],
    "lab_first": [
-    93.0,
+    93,
     150.9,
     141.8
    ],
    "lab_last": [
     105.7,
-    149.0,
+    149,
     139.9
    ],
    "motion": [
@@ -1323,7 +1323,7 @@
    "lab_last": [
     85.5,
     139.7,
-    134.0
+    134
    ],
    "motion": [
     -0.052,
@@ -1382,7 +1382,7 @@
    "brightness": 0.113,
    "lab": [
     28.9,
-    141.0,
+    141,
     137.1
    ],
    "lab_first": [
@@ -1517,7 +1517,7 @@
    "view": "moyen",
    "light": "nuit",
    "quality": 3,
-   "duration": 2.0,
+   "duration": 2,
    "orientation": "vertical",
    "brightness": 0.284,
    "lab": [
@@ -1527,7 +1527,7 @@
    ],
    "lab_first": [
     65.3,
-    144.0,
+    144,
     142.5
    ],
    "lab_last": [
@@ -1591,7 +1591,7 @@
    "orientation": "vertical",
    "brightness": 0.141,
    "lab": [
-    36.0,
+    36,
     150.4,
     141.1
    ],
@@ -1663,11 +1663,11 @@
    "lab": [
     107.4,
     139.5,
-    135.0
+    135
    ],
    "lab_first": [
     109.5,
-    142.0,
+    142,
     137.9
    ],
    "lab_last": [
@@ -1707,7 +1707,7 @@
    ],
    "lab_last": [
     120.5,
-    149.0,
+    149,
     145.9
    ],
    "motion": [
@@ -1778,7 +1778,7 @@
    "lab_last": [
     117.1,
     140.7,
-    140.0
+    140
    ],
    "motion": [
     -0.144,
@@ -1811,7 +1811,7 @@
     140.2
    ],
    "lab_last": [
-    119.0,
+    119,
     146.1,
     144.4
    ],
@@ -1881,7 +1881,7 @@
     138.9
    ],
    "lab_last": [
-    105.0,
+    105,
     143.2,
     144.9
    ],
@@ -1911,7 +1911,7 @@
     142.7
    ],
    "lab_first": [
-    96.0,
+    96,
     145.3,
     145.1
    ],
@@ -1948,7 +1948,7 @@
    "lab_first": [
     99.7,
     150.9,
-    141.0
+    141
    ],
    "lab_last": [
     77.4,
@@ -2011,9 +2011,9 @@
    "orientation": "vertical",
    "brightness": 0.286,
    "lab": [
-    73.0,
+    73,
     142.5,
-    141.0
+    141
    ],
    "lab_first": [
     76.2,
@@ -2023,7 +2023,7 @@
    "lab_last": [
     72.5,
     143.9,
-    142.0
+    142
    ],
    "motion": [
     -0.058,
@@ -2053,7 +2053,7 @@
    "lab_first": [
     72.8,
     144.1,
-    142.0
+    142
    ],
    "lab_last": [
     111.7,
@@ -2091,7 +2091,7 @@
     138.7
    ],
    "lab_last": [
-    93.0,
+    93,
     134.5,
     138.8
    ],
@@ -2126,7 +2126,7 @@
     138.8
    ],
    "lab_last": [
-    107.0,
+    107,
     129.8,
     138.5
    ],
@@ -2147,7 +2147,7 @@
    "view": "large",
    "light": "nuit",
    "quality": 3,
-   "duration": 3.0,
+   "duration": 3,
    "orientation": "vertical",
    "brightness": 0.4,
    "lab": [
@@ -2182,12 +2182,12 @@
    "view": "large",
    "light": "nuit",
    "quality": 3,
-   "duration": 3.0,
+   "duration": 3,
    "orientation": "vertical",
    "brightness": 0.381,
    "lab": [
-    97.0,
-    141.0,
+    97,
+    141,
     140.8
    ],
    "lab_first": [
@@ -2221,7 +2221,7 @@
    "orientation": "vertical",
    "brightness": 0.396,
    "lab": [
-    101.0,
+    101,
     135.8,
     135.4
    ],
@@ -2232,7 +2232,7 @@
    ],
    "lab_last": [
     98.2,
-    145.0,
+    145,
     139.3
    ],
    "motion": [
@@ -2258,7 +2258,7 @@
    "lab": [
     99.5,
     141.7,
-    142.0
+    142
    ],
    "lab_first": [
     98.9,
@@ -2268,7 +2268,7 @@
    "lab_last": [
     101.8,
     137.5,
-    144.0
+    144
    ],
    "motion": [
     -0.321,
@@ -2396,7 +2396,7 @@
    "orientation": "vertical",
    "brightness": 0.435,
    "lab": [
-    111.0,
+    111,
     135.2,
     144.9
    ],
@@ -2468,7 +2468,7 @@
    "lab": [
     123.6,
     138.4,
-    142.0
+    142
    ],
    "lab_first": [
     130.4,
@@ -2508,7 +2508,7 @@
    "lab_first": [
     85.9,
     141.5,
-    140.0
+    140
    ],
    "lab_last": [
     87.4,
@@ -2581,7 +2581,7 @@
     127.5
    ],
    "lab_last": [
-    111.0,
+    111,
     131.9,
     129.2
    ],
@@ -2677,17 +2677,17 @@
    "brightness": 0.402,
    "lab": [
     102.6,
-    149.0,
+    149,
     149.6
    ],
    "lab_first": [
     91.1,
-    160.0,
+    160,
     154.7
    ],
    "lab_last": [
     117.1,
-    137.0,
+    137,
     142.9
    ],
    "motion": [
@@ -2716,14 +2716,14 @@
     149.1
    ],
    "lab_first": [
-    95.0,
+    95,
     168.3,
     148.4
    ],
    "lab_last": [
     97.3,
-    165.0,
-    150.0
+    165,
+    150
    ],
    "motion": [
     -0.207,
@@ -2800,6 +2800,6475 @@
     -0.048
    ],
    "motion_strength": 0.071
+  },
+  {
+   "id": "SAM-081",
+   "src": "library/samourai/clips/SAM-081.mp4",
+   "file": "Table - longue table dressée sur une terrasse extérieure.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_01",
+   "name": "longue table dressée sur une terrasse extérieure",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.487,
+   "lab": [
+    124.3,
+    132.6,
+    130
+   ],
+   "lab_first": [
+    123.6,
+    130.8,
+    130.4
+   ],
+   "lab_last": [
+    110.2,
+    134.6,
+    130.4
+   ],
+   "motion": [
+    0.311,
+    0.123
+   ],
+   "motion_strength": 0.335,
+   "wm": []
+  },
+  {
+   "id": "SAM-082",
+   "src": "library/samourai/clips/SAM-082.mp4",
+   "file": "Table - détail d'une table en marbre noir veiné.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_02",
+   "name": "détail d'une table en marbre noir veiné",
+   "category": "table",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.424,
+   "lab": [
+    108.1,
+    136.1,
+    131.1
+   ],
+   "lab_first": [
+    109,
+    135.9,
+    131.1
+   ],
+   "lab_last": [
+    106.9,
+    135.9,
+    130.9
+   ],
+   "motion": [
+    0.166,
+    -0.006
+   ],
+   "motion_strength": 0.167,
+   "wm": []
+  },
+  {
+   "id": "SAM-083",
+   "src": "library/samourai/clips/SAM-083.mp4",
+   "file": "Salle - salle de restaurant avec chaises rouges élégantes.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_03",
+   "name": "salle de restaurant avec chaises rouges élégantes",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.331,
+   "lab": [
+    84.5,
+    158,
+    143
+   ],
+   "lab_first": [
+    84.5,
+    157.5,
+    143.8
+   ],
+   "lab_last": [
+    85.9,
+    157.7,
+    141
+   ],
+   "motion": [
+    -0.253,
+    -0.028
+   ],
+   "motion_strength": 0.255,
+   "wm": []
+  },
+  {
+   "id": "SAM-084",
+   "src": "library/samourai/clips/SAM-084.mp4",
+   "file": "Geste - service de bouchées vapeur sur un buffet.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_06",
+   "name": "service de bouchées vapeur sur un buffet",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.351,
+   "lab": [
+    89.5,
+    151.1,
+    151.1
+   ],
+   "lab_first": [
+    90.5,
+    150.6,
+    149.8
+   ],
+   "lab_last": [
+    91.3,
+    151.9,
+    152.3
+   ],
+   "motion": [
+    0.039,
+    -0.132
+   ],
+   "motion_strength": 0.138,
+   "wm": []
+  },
+  {
+   "id": "SAM-085",
+   "src": "library/samourai/clips/SAM-085.mp4",
+   "file": "Geste - client se servant des raviolis japonais frits.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_07",
+   "name": "client se servant des raviolis japonais frits",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.372,
+   "lab": [
+    94.9,
+    151.3,
+    146.4
+   ],
+   "lab_first": [
+    90.5,
+    153.7,
+    149.6
+   ],
+   "lab_last": [
+    101.2,
+    150.3,
+    141.9
+   ],
+   "motion": [
+    -0.227,
+    -0.008
+   ],
+   "motion_strength": 0.228,
+   "wm": []
+  },
+  {
+   "id": "SAM-086",
+   "src": "library/samourai/clips/SAM-086.mp4",
+   "file": "Déco - décoration de fête avec des boîtes rouges.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_08",
+   "name": "décoration de fête avec des boîtes rouges",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.273,
+   "lab": [
+    69.5,
+    161.1,
+    140.6
+   ],
+   "lab_first": [
+    70.3,
+    160.2,
+    139.8
+   ],
+   "lab_last": [
+    68.2,
+    162.2,
+    142
+   ],
+   "motion": [
+    0.043,
+    0.006
+   ],
+   "motion_strength": 0.044,
+   "wm": []
+  },
+  {
+   "id": "SAM-087",
+   "src": "library/samourai/clips/SAM-087.mp4",
+   "file": "Déco - affiches japonaises rouges sur un mur sombre.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_09",
+   "name": "affiches japonaises rouges sur un mur sombre",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1,
+   "orientation": "vertical",
+   "brightness": 0.295,
+   "lab": [
+    75.1,
+    175,
+    163.1
+   ],
+   "lab_first": [
+    76.4,
+    174.1,
+    162.2
+   ],
+   "lab_last": [
+    74,
+    175.2,
+    163.3
+   ],
+   "motion": [
+    -0.033,
+    -0.164
+   ],
+   "motion_strength": 0.167,
+   "wm": []
+  },
+  {
+   "id": "SAM-088",
+   "src": "library/samourai/clips/SAM-088.mp4",
+   "file": "Cuisine - chef préparant de nombreux bols de nouilles.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_10",
+   "name": "chef préparant de nombreux bols de nouilles",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.249,
+   "lab": [
+    63.4,
+    143.3,
+    131.6
+   ],
+   "lab_first": [
+    63.2,
+    143.1,
+    131.2
+   ],
+   "lab_last": [
+    63.7,
+    143.7,
+    133.5
+   ],
+   "motion": [
+    -0.116,
+    0.02
+   ],
+   "motion_strength": 0.118,
+   "wm": []
+  },
+  {
+   "id": "SAM-089",
+   "src": "library/samourai/clips/SAM-089.mp4",
+   "file": "Ambiance - femmes portant des kimonos traditionnels colorés.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_11",
+   "name": "femmes portant des kimonos traditionnels colorés",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.314,
+   "lab": [
+    80.1,
+    156.8,
+    101.4
+   ],
+   "lab_first": [
+    83.1,
+    157.5,
+    102.6
+   ],
+   "lab_last": [
+    79.9,
+    155.9,
+    99.6
+   ],
+   "motion": [
+    0.089,
+    0.011
+   ],
+   "motion_strength": 0.089,
+   "wm": []
+  },
+  {
+   "id": "SAM-090",
+   "src": "library/samourai/clips/SAM-090.mp4",
+   "file": "Ambiance - détail du dos d'un kimono à motifs.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_12",
+   "name": "détail du dos d'un kimono à motifs",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.311,
+   "lab": [
+    79.3,
+    168.4,
+    132.1
+   ],
+   "lab_first": [
+    73.4,
+    169.8,
+    133.8
+   ],
+   "lab_last": [
+    86,
+    166.2,
+    129.5
+   ],
+   "motion": [
+    0.12,
+    -0.162
+   ],
+   "motion_strength": 0.201,
+   "wm": []
+  },
+  {
+   "id": "SAM-091",
+   "src": "library/samourai/clips/SAM-091.mp4",
+   "file": "Cuisine - Chefs en kimono rouge cuisinant derrière le comptoir.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_13",
+   "name": "Chefs en kimono rouge cuisinant derrière le comptoir",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.366,
+   "lab": [
+    93.3,
+    143.4,
+    144.1
+   ],
+   "lab_first": [
+    96.3,
+    142.7,
+    144.1
+   ],
+   "lab_last": [
+    89.8,
+    144.3,
+    144.4
+   ],
+   "motion": [
+    -0.081,
+    -0.032
+   ],
+   "motion_strength": 0.088,
+   "wm": []
+  },
+  {
+   "id": "SAM-092",
+   "src": "library/samourai/clips/SAM-092.mp4",
+   "file": "Plat - Brochettes de poulet grillées présentées sur une assiette.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_14",
+   "name": "Brochettes de poulet grillées présentées sur une assiette",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.296,
+   "lab": [
+    75.5,
+    153,
+    148.8
+   ],
+   "lab_first": [
+    83.3,
+    149,
+    144.5
+   ],
+   "lab_last": [
+    70.9,
+    156,
+    152.1
+   ],
+   "motion": [
+    0.053,
+    0.249
+   ],
+   "motion_strength": 0.255,
+   "wm": []
+  },
+  {
+   "id": "SAM-093",
+   "src": "library/samourai/clips/SAM-093.mp4",
+   "file": "Plat - Plateaux de brochettes superposés sur un buffet sombre.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_15",
+   "name": "Plateaux de brochettes superposés sur un buffet sombre",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.27,
+   "lab": [
+    68.9,
+    149.2,
+    147.4
+   ],
+   "lab_first": [
+    68.2,
+    149.2,
+    147.8
+   ],
+   "lab_last": [
+    69.9,
+    149.4,
+    146.8
+   ],
+   "motion": [
+    -0.132,
+    -0.165
+   ],
+   "motion_strength": 0.212,
+   "wm": []
+  },
+  {
+   "id": "SAM-094",
+   "src": "library/samourai/clips/SAM-094.mp4",
+   "file": "Boisson - Cocktails fruités avec pailles roses et figurines Mickey.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_16",
+   "name": "Cocktails fruités avec pailles roses et figurines Mickey",
+   "category": "boisson",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.331,
+   "lab": [
+    84.4,
+    152.3,
+    140.8
+   ],
+   "lab_first": [
+    85.7,
+    151.5,
+    142.8
+   ],
+   "lab_last": [
+    83.6,
+    153,
+    138.8
+   ],
+   "motion": [
+    -0.024,
+    0.085
+   ],
+   "motion_strength": 0.089,
+   "wm": []
+  },
+  {
+   "id": "SAM-095",
+   "src": "library/samourai/clips/SAM-095.mp4",
+   "file": "Plat - Pyramide de sushis et makis variés sur présentoir.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_17",
+   "name": "Pyramide de sushis et makis variés sur présentoir",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.327,
+   "lab": [
+    83.4,
+    151.2,
+    138.1
+   ],
+   "lab_first": [
+    82.1,
+    151.3,
+    137.3
+   ],
+   "lab_last": [
+    85.8,
+    150.4,
+    138.9
+   ],
+   "motion": [
+    0.069,
+    0.032
+   ],
+   "motion_strength": 0.076,
+   "wm": []
+  },
+  {
+   "id": "SAM-096",
+   "src": "library/samourai/clips/SAM-096.mp4",
+   "file": "Plat - Raviolis vapeur roses disposés sur des plateaux gris.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_18",
+   "name": "Raviolis vapeur roses disposés sur des plateaux gris",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.206,
+   "lab": [
+    52.6,
+    145,
+    135.7
+   ],
+   "lab_first": [
+    54.3,
+    145.3,
+    136.4
+   ],
+   "lab_last": [
+    51,
+    144.7,
+    135.1
+   ],
+   "motion": [
+    0.106,
+    0.029
+   ],
+   "motion_strength": 0.11,
+   "wm": []
+  },
+  {
+   "id": "SAM-097",
+   "src": "library/samourai/clips/SAM-097.mp4",
+   "file": "Plat - Gros plan sur des gyozas roses et blancs.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_19",
+   "name": "Gros plan sur des gyozas roses et blancs",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.226,
+   "lab": [
+    57.6,
+    139.9,
+    137.1
+   ],
+   "lab_first": [
+    57.2,
+    137.6,
+    135.3
+   ],
+   "lab_last": [
+    58.6,
+    141.8,
+    138.8
+   ],
+   "motion": [
+    0.188,
+    0.024
+   ],
+   "motion_strength": 0.189,
+   "wm": []
+  },
+  {
+   "id": "SAM-098",
+   "src": "library/samourai/clips/SAM-098.mp4",
+   "file": "Plat - Bols de nouilles japonaises alignés sur le buffet.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_20",
+   "name": "Bols de nouilles japonaises alignés sur le buffet",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.272,
+   "lab": [
+    69.3,
+    148.5,
+    140
+   ],
+   "lab_first": [
+    71.8,
+    149.6,
+    141.7
+   ],
+   "lab_last": [
+    73.1,
+    148.2,
+    138.2
+   ],
+   "motion": [
+    -0.133,
+    0.034
+   ],
+   "motion_strength": 0.137,
+   "wm": []
+  },
+  {
+   "id": "SAM-099",
+   "src": "library/samourai/clips/SAM-099.mp4",
+   "file": "Ambiance - Client devant un buffet de sushis et cocktails.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_21",
+   "name": "Client devant un buffet de sushis et cocktails",
+   "category": "personnes",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.268,
+   "lab": [
+    68.2,
+    148.5,
+    139.7
+   ],
+   "lab_first": [
+    75.6,
+    147.6,
+    141.2
+   ],
+   "lab_last": [
+    63.1,
+    150.1,
+    138.8
+   ],
+   "motion": [
+    0.131,
+    0.037
+   ],
+   "motion_strength": 0.136,
+   "wm": []
+  },
+  {
+   "id": "SAM-100",
+   "src": "library/samourai/clips/SAM-100.mp4",
+   "file": "Table - Buffet asiatique complet avec sushis et boissons colorées.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_22",
+   "name": "Buffet asiatique complet avec sushis et boissons colorées",
+   "category": "table",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.314,
+   "lab": [
+    80.1,
+    156.8,
+    152.3
+   ],
+   "lab_first": [
+    83.3,
+    159.1,
+    154.7
+   ],
+   "lab_last": [
+    75.8,
+    154.7,
+    151
+   ],
+   "motion": [
+    0.165,
+    0.056
+   ],
+   "motion_strength": 0.174,
+   "wm": []
+  },
+  {
+   "id": "SAM-101",
+   "src": "library/samourai/clips/SAM-101.mp4",
+   "file": "Ambiance - Famille se servant au buffet dans une ambiance tamisée.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_23",
+   "name": "Famille se servant au buffet dans une ambiance tamisée",
+   "category": "personnes",
+   "view": "large",
+   "light": "nuit",
+   "quality": 0,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.304,
+   "lab": [
+    77.5,
+    151.7,
+    132.2
+   ],
+   "lab_first": [
+    77.2,
+    152,
+    132.7
+   ],
+   "lab_last": [
+    77.5,
+    151.2,
+    132.9
+   ],
+   "motion": [
+    0.272,
+    0
+   ],
+   "motion_strength": 0.272,
+   "wm": []
+  },
+  {
+   "id": "SAM-102",
+   "src": "library/samourai/clips/SAM-102.mp4",
+   "file": "Salle - Clients attendant devant le buffet décoré de lanternes.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_24",
+   "name": "Clients attendant devant le buffet décoré de lanternes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.315,
+   "lab": [
+    80.3,
+    149.5,
+    127.8
+   ],
+   "lab_first": [
+    78.7,
+    148.1,
+    124.7
+   ],
+   "lab_last": [
+    82.1,
+    150.3,
+    130.2
+   ],
+   "motion": [
+    0.198,
+    0.042
+   ],
+   "motion_strength": 0.202,
+   "wm": []
+  },
+  {
+   "id": "SAM-103",
+   "src": "library/samourai/clips/SAM-103.mp4",
+   "file": "Ambiance - femme en hijab discutant dans le restaurant.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_25",
+   "name": "femme en hijab discutant dans le restaurant",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.03,
+   "orientation": "vertical",
+   "brightness": 0.283,
+   "lab": [
+    72.2,
+    166.3,
+    143.5
+   ],
+   "lab_first": [
+    78.6,
+    168.2,
+    146.2
+   ],
+   "lab_last": [
+    65.5,
+    163.3,
+    139.4
+   ],
+   "motion": [
+    0.273,
+    -0.008
+   ],
+   "motion_strength": 0.273,
+   "wm": []
+  },
+  {
+   "id": "SAM-104",
+   "src": "library/samourai/clips/SAM-104.mp4",
+   "file": "Ambiance - clients se servant au buffet sous les lanternes.mp4",
+   "source": "AGLT8363.MP4",
+   "extract": "AGLT8363_26",
+   "name": "clients se servant au buffet sous les lanternes",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.323,
+   "lab": [
+    82.3,
+    167.7,
+    144.5
+   ],
+   "lab_first": [
+    85.3,
+    166.2,
+    144.5
+   ],
+   "lab_last": [
+    79.3,
+    167.7,
+    144.5
+   ],
+   "motion": [
+    0.539,
+    0.052
+   ],
+   "motion_strength": 0.542,
+   "wm": []
+  },
+  {
+   "id": "SAM-105",
+   "src": "library/samourai/clips/SAM-105.mp4",
+   "file": "Plat - soupe ramen avec œuf et champignons en gros plan.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_03",
+   "name": "soupe ramen avec œuf et champignons en gros plan",
+   "category": "plat",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.23,
+   "orientation": "vertical",
+   "brightness": 0.42,
+   "lab": [
+    107,
+    132,
+    140.4
+   ],
+   "lab_first": [
+    107.4,
+    131.9,
+    140.9
+   ],
+   "lab_last": [
+    107.6,
+    132.1,
+    140.1
+   ],
+   "motion": [
+    0.007,
+    0.006
+   ],
+   "motion_strength": 0.009,
+   "wm": []
+  },
+  {
+   "id": "SAM-106",
+   "src": "library/samourai/clips/SAM-106.mp4",
+   "file": "Plat - deux bols de nouilles chinoises sur le bar.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_04",
+   "name": "deux bols de nouilles chinoises sur le bar",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.346,
+   "lab": [
+    88.1,
+    139.3,
+    135.9
+   ],
+   "lab_first": [
+    88.7,
+    139.6,
+    136.5
+   ],
+   "lab_last": [
+    86.4,
+    139.5,
+    135.7
+   ],
+   "motion": [
+    -0.061,
+    0.009
+   ],
+   "motion_strength": 0.062,
+   "wm": []
+  },
+  {
+   "id": "SAM-107",
+   "src": "library/samourai/clips/SAM-107.mp4",
+   "file": "Plat - Sushis sur plateau bois avec petit bonsaï.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_05",
+   "name": "Sushis sur plateau bois avec petit bonsaï",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.226,
+   "lab": [
+    57.7,
+    141.8,
+    141.6
+   ],
+   "lab_first": [
+    57.2,
+    140,
+    140.5
+   ],
+   "lab_last": [
+    56.9,
+    142.4,
+    142.5
+   ],
+   "motion": [
+    -0.217,
+    0.027
+   ],
+   "motion_strength": 0.219,
+   "wm": []
+  },
+  {
+   "id": "SAM-108",
+   "src": "library/samourai/clips/SAM-108.mp4",
+   "file": "Plat - Sushis et nigiris sous une lumière rouge.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_06",
+   "name": "Sushis et nigiris sous une lumière rouge",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.106,
+   "lab": [
+    26.9,
+    147.5,
+    138.8
+   ],
+   "lab_first": [
+    25.3,
+    146.8,
+    139.1
+   ],
+   "lab_last": [
+    29.4,
+    148.9,
+    139
+   ],
+   "motion": [
+    -0.194,
+    0.088
+   ],
+   "motion_strength": 0.213,
+   "wm": []
+  },
+  {
+   "id": "SAM-109",
+   "src": "library/samourai/clips/SAM-109.mp4",
+   "file": "Ambiance - Femme portant un kimono dans le restaurant.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_07",
+   "name": "Femme portant un kimono dans le restaurant",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.8,
+   "orientation": "vertical",
+   "brightness": 0.169,
+   "lab": [
+    43,
+    153.8,
+    140.9
+   ],
+   "lab_first": [
+    40.6,
+    153.4,
+    141.4
+   ],
+   "lab_last": [
+    46.9,
+    152.1,
+    137.7
+   ],
+   "motion": [
+    -0.031,
+    0.024
+   ],
+   "motion_strength": 0.039,
+   "wm": []
+  },
+  {
+   "id": "SAM-110",
+   "src": "library/samourai/clips/SAM-110.mp4",
+   "file": "Table - Vue de dessus d'une table très garnie.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_08",
+   "name": "Vue de dessus d'une table très garnie",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.87,
+   "orientation": "vertical",
+   "brightness": 0.224,
+   "lab": [
+    57.2,
+    151.9,
+    142.7
+   ],
+   "lab_first": [
+    55.8,
+    152.8,
+    144.2
+   ],
+   "lab_last": [
+    56.9,
+    151.7,
+    142.1
+   ],
+   "motion": [
+    -0.051,
+    0.012
+   ],
+   "motion_strength": 0.053,
+   "wm": []
+  },
+  {
+   "id": "SAM-111",
+   "src": "library/samourai/clips/SAM-111.mp4",
+   "file": "Salle - Décoration intérieure avec voilages rouges au plafond.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_09",
+   "name": "Décoration intérieure avec voilages rouges au plafond",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.315,
+   "lab": [
+    80.2,
+    148.2,
+    130.8
+   ],
+   "lab_first": [
+    78.6,
+    145.3,
+    129.7
+   ],
+   "lab_last": [
+    78.4,
+    148.3,
+    131.6
+   ],
+   "motion": [
+    -0.128,
+    0.001
+   ],
+   "motion_strength": 0.128,
+   "wm": []
+  },
+  {
+   "id": "SAM-112",
+   "src": "library/samourai/clips/SAM-112.mp4",
+   "file": "Plat - Salade composée avec crevettes et fruits frais.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_10",
+   "name": "Salade composée avec crevettes et fruits frais",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.287,
+   "lab": [
+    73.3,
+    141,
+    126.3
+   ],
+   "lab_first": [
+    77.6,
+    140.9,
+    132.6
+   ],
+   "lab_last": [
+    71.4,
+    140.6,
+    121.3
+   ],
+   "motion": [
+    -0.077,
+    -0.024
+   ],
+   "motion_strength": 0.081,
+   "wm": []
+  },
+  {
+   "id": "SAM-113",
+   "src": "library/samourai/clips/SAM-113.mp4",
+   "file": "Cuisine - Chef cuisinier dressant un plat en cuisine.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_11",
+   "name": "Chef cuisinier dressant un plat en cuisine",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.17,
+   "orientation": "vertical",
+   "brightness": 0.243,
+   "lab": [
+    61.9,
+    132.8,
+    136
+   ],
+   "lab_first": [
+    64.8,
+    132.9,
+    136.9
+   ],
+   "lab_last": [
+    60.4,
+    133.1,
+    135.2
+   ],
+   "motion": [
+    0.056,
+    0.004
+   ],
+   "motion_strength": 0.057,
+   "wm": []
+  },
+  {
+   "id": "SAM-114",
+   "src": "library/samourai/clips/SAM-114.mp4",
+   "file": "Déco - Nombreuses lanternes rouges suspendues au plafond.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_12",
+   "name": "Nombreuses lanternes rouges suspendues au plafond",
+   "category": "deco",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.311,
+   "lab": [
+    79.4,
+    149.7,
+    145
+   ],
+   "lab_first": [
+    70.5,
+    150.9,
+    140.4
+   ],
+   "lab_last": [
+    85.3,
+    146.6,
+    147.7
+   ],
+   "motion": [
+    -0.374,
+    0.01
+   ],
+   "motion_strength": 0.374,
+   "wm": []
+  },
+  {
+   "id": "SAM-115",
+   "src": "library/samourai/clips/SAM-115.mp4",
+   "file": "Déco - Néons asiatiques enfermés dans une grande cage.mp4",
+   "source": "DCDA3582.MP4",
+   "extract": "DCDA3582_13",
+   "name": "Néons asiatiques enfermés dans une grande cage",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.37,
+   "orientation": "vertical",
+   "brightness": 0.219,
+   "lab": [
+    55.9,
+    144.1,
+    127.6
+   ],
+   "lab_first": [
+    62.7,
+    144.4,
+    128
+   ],
+   "lab_last": [
+    54.7,
+    144,
+    127.5
+   ],
+   "motion": [
+    -0.246,
+    -0.003
+   ],
+   "motion_strength": 0.246,
+   "wm": []
+  },
+  {
+   "id": "SAM-116",
+   "src": "library/samourai/clips/SAM-116.mp4",
+   "file": "Plat - Serveur apportant un grand plateau de sushis.mp4",
+   "source": "DTUE9869.MP4",
+   "extract": "DTUE9869_01",
+   "name": "Serveur apportant un grand plateau de sushis",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 3.73,
+   "orientation": "vertical",
+   "brightness": 0.35,
+   "lab": [
+    89.2,
+    158.9,
+    149.8
+   ],
+   "lab_first": [
+    77.9,
+    162.4,
+    149.1
+   ],
+   "lab_last": [
+    97.6,
+    155.3,
+    150.1
+   ],
+   "motion": [
+    -0.07,
+    -0.032
+   ],
+   "motion_strength": 0.077,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "SAM-117",
+   "src": "library/samourai/clips/SAM-117.mp4",
+   "file": "Plat - Sushis recouverts de fines tranches d'avocat.mp4",
+   "source": "DTUE9869.MP4",
+   "extract": "DTUE9869_02",
+   "name": "Sushis recouverts de fines tranches d'avocat",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.17,
+   "orientation": "vertical",
+   "brightness": 0.341,
+   "lab": [
+    87,
+    147.5,
+    147.5
+   ],
+   "lab_first": [
+    92.2,
+    153.6,
+    147.6
+   ],
+   "lab_last": [
+    84.7,
+    146.4,
+    147.4
+   ],
+   "motion": [
+    0.055,
+    -0.014
+   ],
+   "motion_strength": 0.056,
+   "wm": []
+  },
+  {
+   "id": "SAM-118",
+   "src": "library/samourai/clips/SAM-118.mp4",
+   "file": "Table - Nouilles et brochettes japonaises sur la table.mp4",
+   "source": "DTUE9869.MP4",
+   "extract": "DTUE9869_03",
+   "name": "Nouilles et brochettes japonaises sur la table",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.8,
+   "orientation": "vertical",
+   "brightness": 0.456,
+   "lab": [
+    116.3,
+    160,
+    139.4
+   ],
+   "lab_first": [
+    120,
+    160.4,
+    139.5
+   ],
+   "lab_last": [
+    112,
+    161.2,
+    138.9
+   ],
+   "motion": [
+    -0.002,
+    -0.009
+   ],
+   "motion_strength": 0.009,
+   "wm": []
+  },
+  {
+   "id": "SAM-119",
+   "src": "library/samourai/clips/SAM-119.mp4",
+   "file": "Plat - Grand présentoir à étages garni de sushis.mp4",
+   "source": "EIKH0472.MP4",
+   "extract": "EIKH0472_01",
+   "name": "Grand présentoir à étages garni de sushis",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.7,
+   "orientation": "vertical",
+   "brightness": 0.396,
+   "lab": [
+    100.9,
+    142.7,
+    137.6
+   ],
+   "lab_first": [
+    96.3,
+    143.8,
+    138.4
+   ],
+   "lab_last": [
+    110.2,
+    139.8,
+    138
+   ],
+   "motion": [
+    0.109,
+    -0.068
+   ],
+   "motion_strength": 0.128,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "SAM-120",
+   "src": "library/samourai/clips/SAM-120.mp4",
+   "file": "Ambiance - Femme en kimono avec éventail près des sushis.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_01",
+   "name": "Femme en kimono avec éventail près des sushis",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.63,
+   "orientation": "vertical",
+   "brightness": 0.322,
+   "lab": [
+    82.2,
+    148.7,
+    138.8
+   ],
+   "lab_first": [
+    83.4,
+    147.4,
+    138.7
+   ],
+   "lab_last": [
+    82.5,
+    149.8,
+    140.3
+   ],
+   "motion": [
+    0.01,
+    -0.015
+   ],
+   "motion_strength": 0.018,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "SAM-121",
+   "src": "library/samourai/clips/SAM-121.mp4",
+   "file": "Plat - Plateau de sushis sur un socle en bois.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_02",
+   "name": "Plateau de sushis sur un socle en bois",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.485,
+   "lab": [
+    123.8,
+    137.5,
+    143.4
+   ],
+   "lab_first": [
+    124.2,
+    137.4,
+    143.9
+   ],
+   "lab_last": [
+    122.9,
+    137.6,
+    142.7
+   ],
+   "motion": [
+    0,
+    0.019
+   ],
+   "motion_strength": 0.019,
+   "wm": []
+  },
+  {
+   "id": "SAM-122",
+   "src": "library/samourai/clips/SAM-122.mp4",
+   "file": "Plat - Gros plan sur des sushis et makis variés.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_03",
+   "name": "Gros plan sur des sushis et makis variés",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.17,
+   "orientation": "vertical",
+   "brightness": 0.508,
+   "lab": [
+    129.5,
+    137.5,
+    151.4
+   ],
+   "lab_first": [
+    128.4,
+    135.5,
+    146.9
+   ],
+   "lab_last": [
+    134.4,
+    139.7,
+    153.8
+   ],
+   "motion": [
+    -0.057,
+    0.076
+   ],
+   "motion_strength": 0.095,
+   "wm": []
+  },
+  {
+   "id": "SAM-123",
+   "src": "library/samourai/clips/SAM-123.mp4",
+   "file": "Déco - Mur décoré d'une geisha dans le restaurant.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_04",
+   "name": "Mur décoré d'une geisha dans le restaurant",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.57,
+   "orientation": "vertical",
+   "brightness": 0.391,
+   "lab": [
+    99.7,
+    131.5,
+    135.2
+   ],
+   "lab_first": [
+    101.2,
+    131.2,
+    133.8
+   ],
+   "lab_last": [
+    99.5,
+    131.2,
+    136.9
+   ],
+   "motion": [
+    -0.07,
+    -0.033
+   ],
+   "motion_strength": 0.078,
+   "wm": []
+  },
+  {
+   "id": "SAM-124",
+   "src": "library/samourai/clips/SAM-124.mp4",
+   "file": "Salle - Salle de restaurant avec décoration de ballons rouges.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_05",
+   "name": "Salle de restaurant avec décoration de ballons rouges",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.396,
+   "lab": [
+    101,
+    147.9,
+    143.9
+   ],
+   "lab_first": [
+    104.3,
+    146.2,
+    146.3
+   ],
+   "lab_last": [
+    99.4,
+    149.7,
+    140.8
+   ],
+   "motion": [
+    -0.148,
+    0.014
+   ],
+   "motion_strength": 0.149,
+   "wm": []
+  },
+  {
+   "id": "SAM-125",
+   "src": "library/samourai/clips/SAM-125.mp4",
+   "file": "Ambiance - Vue de dos d'une cliente en kimono rouge.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_06",
+   "name": "Vue de dos d'une cliente en kimono rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.471,
+   "lab": [
+    120.2,
+    158.9,
+    144.7
+   ],
+   "lab_first": [
+    118.7,
+    158.9,
+    144.4
+   ],
+   "lab_last": [
+    121.1,
+    159.1,
+    144.9
+   ],
+   "motion": [
+    -0.046,
+    -0.005
+   ],
+   "motion_strength": 0.046,
+   "wm": []
+  },
+  {
+   "id": "SAM-126",
+   "src": "library/samourai/clips/SAM-126.mp4",
+   "file": "Déco - Peinture murale d'un samouraï et lanternes rouges.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_07",
+   "name": "Peinture murale d'un samouraï et lanternes rouges",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.87,
+   "orientation": "vertical",
+   "brightness": 0.384,
+   "lab": [
+    97.9,
+    162.5,
+    138.8
+   ],
+   "lab_first": [
+    99.4,
+    166.2,
+    137.7
+   ],
+   "lab_last": [
+    98.7,
+    159.6,
+    139.5
+   ],
+   "motion": [
+    -0.16,
+    0.018
+   ],
+   "motion_strength": 0.161,
+   "wm": []
+  },
+  {
+   "id": "SAM-127",
+   "src": "library/samourai/clips/SAM-127.mp4",
+   "file": "Déco - Mannequin en kimono exposé dans un escalier.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_08",
+   "name": "Mannequin en kimono exposé dans un escalier",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.37,
+   "orientation": "vertical",
+   "brightness": 0.368,
+   "lab": [
+    93.9,
+    165.1,
+    126.5
+   ],
+   "lab_first": [
+    94.8,
+    164,
+    125.7
+   ],
+   "lab_last": [
+    93.3,
+    166,
+    127.5
+   ],
+   "motion": [
+    -0.009,
+    -0.088
+   ],
+   "motion_strength": 0.089,
+   "wm": []
+  },
+  {
+   "id": "SAM-128",
+   "src": "library/samourai/clips/SAM-128.mp4",
+   "file": "Déco - Poupée japonaise traditionnelle sous un éclairage néon.mp4",
+   "source": "EODZ4413.MP4",
+   "extract": "EODZ4413_09",
+   "name": "Poupée japonaise traditionnelle sous un éclairage néon",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.479,
+   "lab": [
+    122.2,
+    138.5,
+    128.5
+   ],
+   "lab_first": [
+    122.8,
+    138.4,
+    128.5
+   ],
+   "lab_last": [
+    121.7,
+    138.4,
+    128.7
+   ],
+   "motion": [
+    -0.004,
+    -0.011
+   ],
+   "motion_strength": 0.012,
+   "wm": []
+  },
+  {
+   "id": "SAM-129",
+   "src": "library/samourai/clips/SAM-129.mp4",
+   "file": "Geste - Saisie d'un sushi avec des baguettes noires.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_01",
+   "name": "Saisie d'un sushi avec des baguettes noires",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.469,
+   "lab": [
+    119.5,
+    149.9,
+    139.1
+   ],
+   "lab_first": [
+    120.8,
+    149.5,
+    139.4
+   ],
+   "lab_last": [
+    119.5,
+    150.2,
+    139
+   ],
+   "motion": [
+    -0.03,
+    0.038
+   ],
+   "motion_strength": 0.049,
+   "wm": []
+  },
+  {
+   "id": "SAM-130",
+   "src": "library/samourai/clips/SAM-130.mp4",
+   "file": "Ambiance - Femmes portant des kimonos dans le restaurant.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_02",
+   "name": "Femmes portant des kimonos dans le restaurant",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.223,
+   "lab": [
+    56.9,
+    163.3,
+    149.6
+   ],
+   "lab_first": [
+    55.8,
+    162.7,
+    149.1
+   ],
+   "lab_last": [
+    57.9,
+    164.1,
+    150.5
+   ],
+   "motion": [
+    0.009,
+    0.023
+   ],
+   "motion_strength": 0.025,
+   "wm": []
+  },
+  {
+   "id": "SAM-131",
+   "src": "library/samourai/clips/SAM-131.mp4",
+   "file": "Table - Vue de dessus d'une table bien garnie.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_03",
+   "name": "Vue de dessus d'une table bien garnie",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.41,
+   "lab": [
+    104.6,
+    156,
+    132
+   ],
+   "lab_first": [
+    104.3,
+    155.8,
+    132.1
+   ],
+   "lab_last": [
+    104.9,
+    156.1,
+    131.9
+   ],
+   "motion": [
+    -0.021,
+    0.017
+   ],
+   "motion_strength": 0.027,
+   "wm": []
+  },
+  {
+   "id": "SAM-132",
+   "src": "library/samourai/clips/SAM-132.mp4",
+   "file": "Table - vue de dessus d'une table garnie de plats.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_04",
+   "name": "vue de dessus d'une table garnie de plats",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.335,
+   "lab": [
+    85.3,
+    158,
+    151.3
+   ],
+   "lab_first": [
+    84.7,
+    157.8,
+    151.4
+   ],
+   "lab_last": [
+    85.7,
+    158.3,
+    151.4
+   ],
+   "motion": [
+    0.008,
+    0.016
+   ],
+   "motion_strength": 0.018,
+   "wm": []
+  },
+  {
+   "id": "SAM-133",
+   "src": "library/samourai/clips/SAM-133.mp4",
+   "file": "Salle - salle de restaurant avec chaises rouges et kimonos.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_05",
+   "name": "salle de restaurant avec chaises rouges et kimonos",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.162,
+   "lab": [
+    41.3,
+    152.5,
+    140.5
+   ],
+   "lab_first": [
+    40.4,
+    152.3,
+    140.4
+   ],
+   "lab_last": [
+    42.1,
+    152.5,
+    140.4
+   ],
+   "motion": [
+    0.02,
+    0.072
+   ],
+   "motion_strength": 0.075,
+   "wm": []
+  },
+  {
+   "id": "SAM-134",
+   "src": "library/samourai/clips/SAM-134.mp4",
+   "file": "Boisson - cocktail rouge décoré servi sur une table marbrée.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_06",
+   "name": "cocktail rouge décoré servi sur une table marbrée",
+   "category": "boisson",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.406,
+   "lab": [
+    103.6,
+    160.5,
+    136.6
+   ],
+   "lab_first": [
+    99.1,
+    158.7,
+    136.2
+   ],
+   "lab_last": [
+    107.4,
+    162.1,
+    137.1
+   ],
+   "motion": [
+    0.174,
+    -0.012
+   ],
+   "motion_strength": 0.175,
+   "wm": []
+  },
+  {
+   "id": "SAM-135",
+   "src": "library/samourai/clips/SAM-135.mp4",
+   "file": "Ambiance - femmes en kimonos marchant dans un couloir rouge.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_07",
+   "name": "femmes en kimonos marchant dans un couloir rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.356,
+   "lab": [
+    90.8,
+    156.8,
+    145.1
+   ],
+   "lab_first": [
+    89.5,
+    156.9,
+    145.3
+   ],
+   "lab_last": [
+    91.3,
+    156.7,
+    145
+   ],
+   "motion": [
+    0.005,
+    -0.014
+   ],
+   "motion_strength": 0.015,
+   "wm": []
+  },
+  {
+   "id": "SAM-136",
+   "src": "library/samourai/clips/SAM-136.mp4",
+   "file": "Ambiance - femme en kimono montant l'escalier avec une ombrelle.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_08",
+   "name": "femme en kimono montant l'escalier avec une ombrelle",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.333,
+   "lab": [
+    85,
+    161.2,
+    153.6
+   ],
+   "lab_first": [
+    86.4,
+    162.5,
+    154.6
+   ],
+   "lab_last": [
+    85.6,
+    160,
+    152.8
+   ],
+   "motion": [
+    -0.034,
+    0.011
+   ],
+   "motion_strength": 0.036,
+   "wm": []
+  },
+  {
+   "id": "SAM-137",
+   "src": "library/samourai/clips/SAM-137.mp4",
+   "file": "Ambiance - femme en kimono traversant une porte avec ombrelle.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_09",
+   "name": "femme en kimono traversant une porte avec ombrelle",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.321,
+   "lab": [
+    81.8,
+    163.8,
+    151.1
+   ],
+   "lab_first": [
+    85.9,
+    164.7,
+    151
+   ],
+   "lab_last": [
+    76.6,
+    164.1,
+    151.5
+   ],
+   "motion": [
+    0.094,
+    0.031
+   ],
+   "motion_strength": 0.099,
+   "wm": []
+  },
+  {
+   "id": "SAM-138",
+   "src": "library/samourai/clips/SAM-138.mp4",
+   "file": "Geste - clients trinquant avec des cocktails colorés à table.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_10",
+   "name": "clients trinquant avec des cocktails colorés à table",
+   "category": "geste",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.258,
+   "lab": [
+    65.9,
+    155.2,
+    145.8
+   ],
+   "lab_first": [
+    65,
+    155.2,
+    146.1
+   ],
+   "lab_last": [
+    65.9,
+    155.2,
+    145.8
+   ],
+   "motion": [
+    -0.009,
+    0.007
+   ],
+   "motion_strength": 0.011,
+   "wm": []
+  },
+  {
+   "id": "SAM-139",
+   "src": "library/samourai/clips/SAM-139.mp4",
+   "file": "Geste - baguettes saisissant un sushi recouvert de sauce rouge.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_11",
+   "name": "baguettes saisissant un sushi recouvert de sauce rouge",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.407,
+   "lab": [
+    103.8,
+    156.9,
+    145.4
+   ],
+   "lab_first": [
+    102.1,
+    156.3,
+    145.2
+   ],
+   "lab_last": [
+    105.2,
+    157.6,
+    145.9
+   ],
+   "motion": [
+    -0.007,
+    0.043
+   ],
+   "motion_strength": 0.044,
+   "wm": []
+  },
+  {
+   "id": "SAM-140",
+   "src": "library/samourai/clips/SAM-140.mp4",
+   "file": "Salle - salle décorée de lanternes rouges et clients costumés.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_12",
+   "name": "salle décorée de lanternes rouges et clients costumés",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.223,
+   "lab": [
+    56.9,
+    159.9,
+    148
+   ],
+   "lab_first": [
+    56.6,
+    160,
+    147.5
+   ],
+   "lab_last": [
+    57.6,
+    160.1,
+    148.6
+   ],
+   "motion": [
+    -0.001,
+    0.003
+   ],
+   "motion_strength": 0.003,
+   "wm": []
+  },
+  {
+   "id": "SAM-141",
+   "src": "library/samourai/clips/SAM-141.mp4",
+   "file": "Table - table remplie de sushis et plats japonais variés.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_13",
+   "name": "table remplie de sushis et plats japonais variés",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.301,
+   "lab": [
+    76.7,
+    150.9,
+    132.4
+   ],
+   "lab_first": [
+    76.1,
+    150.7,
+    132.4
+   ],
+   "lab_last": [
+    76.9,
+    150.9,
+    132.4
+   ],
+   "motion": [
+    -0.013,
+    0.009
+   ],
+   "motion_strength": 0.016,
+   "wm": []
+  },
+  {
+   "id": "SAM-142",
+   "src": "library/samourai/clips/SAM-142.mp4",
+   "file": "Table - vue d'ensemble d'une table avec spécialités japonaises.mp4",
+   "source": "EPLY2038.MP4",
+   "extract": "EPLY2038_14",
+   "name": "vue d'ensemble d'une table avec spécialités japonaises",
+   "category": "table",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.278,
+   "lab": [
+    70.8,
+    152.3,
+    145.7
+   ],
+   "lab_first": [
+    70.4,
+    152.3,
+    145.7
+   ],
+   "lab_last": [
+    71,
+    152.3,
+    145.7
+   ],
+   "motion": [
+    0.006,
+    0.01
+   ],
+   "motion_strength": 0.012,
+   "wm": []
+  },
+  {
+   "id": "SAM-143",
+   "src": "library/samourai/clips/SAM-143.mp4",
+   "file": "Ambiance - gros plan sur les motifs de kimonos traditionnels.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_01",
+   "name": "gros plan sur les motifs de kimonos traditionnels",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.336,
+   "lab": [
+    85.7,
+    157.3,
+    148.9
+   ],
+   "lab_first": [
+    90.9,
+    159.9,
+    146.4
+   ],
+   "lab_last": [
+    80,
+    152.3,
+    148
+   ],
+   "motion": [
+    0.125,
+    -0.298
+   ],
+   "motion_strength": 0.323,
+   "wm": []
+  },
+  {
+   "id": "SAM-144",
+   "src": "library/samourai/clips/SAM-144.mp4",
+   "file": "Ambiance - personnes en kimono marchant dans la salle.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_02",
+   "name": "personnes en kimono marchant dans la salle",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.03,
+   "orientation": "vertical",
+   "brightness": 0.42,
+   "lab": [
+    107.2,
+    142.9,
+    138
+   ],
+   "lab_first": [
+    108.4,
+    143.6,
+    140.5
+   ],
+   "lab_last": [
+    108,
+    142,
+    135.2
+   ],
+   "motion": [
+    -0.019,
+    0.176
+   ],
+   "motion_strength": 0.177,
+   "wm": []
+  },
+  {
+   "id": "SAM-145",
+   "src": "library/samourai/clips/SAM-145.mp4",
+   "file": "Plat - client mélangeant des nouilles sautées au boeuf.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_03",
+   "name": "client mélangeant des nouilles sautées au boeuf",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.07,
+   "orientation": "vertical",
+   "brightness": 0.444,
+   "lab": [
+    113.3,
+    138.6,
+    137.4
+   ],
+   "lab_first": [
+    112.4,
+    138.3,
+    137.1
+   ],
+   "lab_last": [
+    115.2,
+    138.7,
+    137.7
+   ],
+   "motion": [
+    0.048,
+    -0.012
+   ],
+   "motion_strength": 0.049,
+   "wm": []
+  },
+  {
+   "id": "SAM-146",
+   "src": "library/samourai/clips/SAM-146.mp4",
+   "file": "Extérieur - plantes vertes en pot devant le restaurant.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_04",
+   "name": "plantes vertes en pot devant le restaurant",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.482,
+   "lab": [
+    122.8,
+    128.1,
+    142.4
+   ],
+   "lab_first": [
+    123,
+    127.5,
+    142.2
+   ],
+   "lab_last": [
+    123.1,
+    128.5,
+    141.8
+   ],
+   "motion": [
+    -0.275,
+    -0.005
+   ],
+   "motion_strength": 0.275,
+   "wm": []
+  },
+  {
+   "id": "SAM-147",
+   "src": "library/samourai/clips/SAM-147.mp4",
+   "file": "Salle - salle de restaurant décorée de lanternes rouges.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_05",
+   "name": "salle de restaurant décorée de lanternes rouges",
+   "category": "salle",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.359,
+   "lab": [
+    91.6,
+    148.4,
+    140
+   ],
+   "lab_first": [
+    95.5,
+    148.3,
+    140.2
+   ],
+   "lab_last": [
+    85.1,
+    148.3,
+    139.7
+   ],
+   "motion": [
+    -0.212,
+    0.023
+   ],
+   "motion_strength": 0.213,
+   "wm": []
+  },
+  {
+   "id": "SAM-148",
+   "src": "library/samourai/clips/SAM-148.mp4",
+   "file": "Extérieur - terrasse extérieure avec plantes et mobilier noir.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_06",
+   "name": "terrasse extérieure avec plantes et mobilier noir",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.409,
+   "lab": [
+    104.4,
+    131.4,
+    129.9
+   ],
+   "lab_first": [
+    101.1,
+    131.8,
+    128.8
+   ],
+   "lab_last": [
+    108.5,
+    131.1,
+    130.9
+   ],
+   "motion": [
+    0.207,
+    0.044
+   ],
+   "motion_strength": 0.211,
+   "wm": []
+  },
+  {
+   "id": "SAM-149",
+   "src": "library/samourai/clips/SAM-149.mp4",
+   "file": "Déco - néons asiatiques colorés dans une grande cage.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_07",
+   "name": "néons asiatiques colorés dans une grande cage",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 1.2,
+   "orientation": "vertical",
+   "brightness": 0.271,
+   "lab": [
+    69.1,
+    147.6,
+    127.6
+   ],
+   "lab_first": [
+    69.7,
+    147.5,
+    127.7
+   ],
+   "lab_last": [
+    68.7,
+    147.6,
+    127.5
+   ],
+   "motion": [
+    0.002,
+    -0.012
+   ],
+   "motion_strength": 0.012,
+   "wm": []
+  },
+  {
+   "id": "SAM-150",
+   "src": "library/samourai/clips/SAM-150.mp4",
+   "file": "Table - table garnie de nombreux plats asiatiques variés.mp4",
+   "source": "GJMO0696.MP4",
+   "extract": "GJMO0696_08",
+   "name": "table garnie de nombreux plats asiatiques variés",
+   "category": "table",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.447,
+   "lab": [
+    114,
+    134.5,
+    132.4
+   ],
+   "lab_first": [
+    113,
+    134.6,
+    132.6
+   ],
+   "lab_last": [
+    115,
+    134.5,
+    132.3
+   ],
+   "motion": [
+    -0.004,
+    0
+   ],
+   "motion_strength": 0.004,
+   "wm": []
+  },
+  {
+   "id": "SAM-151",
+   "src": "library/samourai/clips/SAM-151.mp4",
+   "file": "Déco - éventails rouges posés sur une table noire.mp4",
+   "source": "IFHV6372.MP4",
+   "extract": "IFHV6372_02",
+   "name": "éventails rouges posés sur une table noire",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.83,
+   "orientation": "vertical",
+   "brightness": 0.216,
+   "lab": [
+    55.1,
+    151.6,
+    142.8
+   ],
+   "lab_first": [
+    77.5,
+    158.5,
+    147.8
+   ],
+   "lab_last": [
+    43.4,
+    150.6,
+    142.9
+   ],
+   "motion": [
+    -0.009,
+    0.039
+   ],
+   "motion_strength": 0.041,
+   "wm": []
+  },
+  {
+   "id": "SAM-152",
+   "src": "library/samourai/clips/SAM-152.mp4",
+   "file": "Ambiance - gros plan sur les motifs d'un kimono.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_01",
+   "name": "gros plan sur les motifs d'un kimono",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.137,
+   "lab": [
+    35.1,
+    146.3,
+    115.9
+   ],
+   "lab_first": [
+    33.4,
+    146.3,
+    118.1
+   ],
+   "lab_last": [
+    35.4,
+    145.7,
+    114.7
+   ],
+   "motion": [
+    0.001,
+    -0.016
+   ],
+   "motion_strength": 0.016,
+   "wm": []
+  },
+  {
+   "id": "SAM-153",
+   "src": "library/samourai/clips/SAM-153.mp4",
+   "file": "Ambiance - détails des broderies d'un kimono bleu sombre.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_02",
+   "name": "détails des broderies d'un kimono bleu sombre",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.13,
+   "orientation": "vertical",
+   "brightness": 0.121,
+   "lab": [
+    30.7,
+    144,
+    118.4
+   ],
+   "lab_first": [
+    35.4,
+    145.2,
+    114.9
+   ],
+   "lab_last": [
+    25.1,
+    141.5,
+    128
+   ],
+   "motion": [
+    0.099,
+    0.033
+   ],
+   "motion_strength": 0.104,
+   "wm": []
+  },
+  {
+   "id": "SAM-154",
+   "src": "library/samourai/clips/SAM-154.mp4",
+   "file": "Ambiance - personne en kimono marchant sous lumière rouge.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_03",
+   "name": "personne en kimono marchant sous lumière rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.6,
+   "orientation": "vertical",
+   "brightness": 0.203,
+   "lab": [
+    51.7,
+    154.7,
+    139.2
+   ],
+   "lab_first": [
+    46,
+    151.5,
+    137.8
+   ],
+   "lab_last": [
+    56.7,
+    157.6,
+    140.1
+   ],
+   "motion": [
+    -0.004,
+    -0.066
+   ],
+   "motion_strength": 0.066,
+   "wm": []
+  },
+  {
+   "id": "SAM-155",
+   "src": "library/samourai/clips/SAM-155.mp4",
+   "file": "Table - verres de cocktails sur table de restaurant.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_04",
+   "name": "verres de cocktails sur table de restaurant",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2,
+   "orientation": "vertical",
+   "brightness": 0.267,
+   "lab": [
+    68.2,
+    154.3,
+    137.6
+   ],
+   "lab_first": [
+    58,
+    154.8,
+    138.6
+   ],
+   "lab_last": [
+    84.2,
+    153.9,
+    137.4
+   ],
+   "motion": [
+    -0.046,
+    0.134
+   ],
+   "motion_strength": 0.142,
+   "wm": []
+  },
+  {
+   "id": "SAM-156",
+   "src": "library/samourai/clips/SAM-156.mp4",
+   "file": "Cuisine - chef préparant des makis au comptoir.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_05",
+   "name": "chef préparant des makis au comptoir",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 3.5,
+   "orientation": "vertical",
+   "brightness": 0.408,
+   "lab": [
+    103.9,
+    135.1,
+    133.6
+   ],
+   "lab_first": [
+    100.8,
+    135,
+    131.9
+   ],
+   "lab_last": [
+    103.8,
+    135.2,
+    134.4
+   ],
+   "motion": [
+    -0.014,
+    0.01
+   ],
+   "motion_strength": 0.017,
+   "wm": []
+  },
+  {
+   "id": "SAM-157",
+   "src": "library/samourai/clips/SAM-157.mp4",
+   "file": "Salle - femme en kimono rouge entrant dans la salle.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_06",
+   "name": "femme en kimono rouge entrant dans la salle",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.267,
+   "lab": [
+    68.2,
+    155.7,
+    138.8
+   ],
+   "lab_first": [
+    66.3,
+    153.5,
+    132.9
+   ],
+   "lab_last": [
+    67.7,
+    157.2,
+    145.5
+   ],
+   "motion": [
+    0.06,
+    0.051
+   ],
+   "motion_strength": 0.079,
+   "wm": []
+  },
+  {
+   "id": "SAM-158",
+   "src": "library/samourai/clips/SAM-158.mp4",
+   "file": "Ambiance - homme en kimono posant avec un katana.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_07",
+   "name": "homme en kimono posant avec un katana",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.232,
+   "lab": [
+    59.2,
+    147.5,
+    140.3
+   ],
+   "lab_first": [
+    58.7,
+    150,
+    141.4
+   ],
+   "lab_last": [
+    61.9,
+    145.5,
+    139.3
+   ],
+   "motion": [
+    -0.096,
+    -0.077
+   ],
+   "motion_strength": 0.123,
+   "wm": []
+  },
+  {
+   "id": "SAM-159",
+   "src": "library/samourai/clips/SAM-159.mp4",
+   "file": "Plat - assortiment de sushis et makis sur plateau.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_08",
+   "name": "assortiment de sushis et makis sur plateau",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.417,
+   "lab": [
+    106.3,
+    134.3,
+    136.2
+   ],
+   "lab_first": [
+    98.6,
+    136.4,
+    138
+   ],
+   "lab_last": [
+    106,
+    133.1,
+    132.7
+   ],
+   "motion": [
+    -0.205,
+    0.263
+   ],
+   "motion_strength": 0.333,
+   "wm": []
+  },
+  {
+   "id": "SAM-160",
+   "src": "library/samourai/clips/SAM-160.mp4",
+   "file": "Table - cocktail et plateau de sushis sur table.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_09",
+   "name": "cocktail et plateau de sushis sur table",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.9,
+   "orientation": "vertical",
+   "brightness": 0.302,
+   "lab": [
+    77.1,
+    145.8,
+    129.6
+   ],
+   "lab_first": [
+    78.5,
+    147.8,
+    127.8
+   ],
+   "lab_last": [
+    75.4,
+    143,
+    133.5
+   ],
+   "motion": [
+    -0.047,
+    0.121
+   ],
+   "motion_strength": 0.13,
+   "wm": []
+  },
+  {
+   "id": "SAM-161",
+   "src": "library/samourai/clips/SAM-161.mp4",
+   "file": "Salle - serveur présentant des assiettes de sushis.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_10",
+   "name": "serveur présentant des assiettes de sushis",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 3.53,
+   "orientation": "vertical",
+   "brightness": 0.335,
+   "lab": [
+    85.5,
+    146.9,
+    127.3
+   ],
+   "lab_first": [
+    77.2,
+    151.3,
+    124.1
+   ],
+   "lab_last": [
+    72.1,
+    146.5,
+    145.1
+   ],
+   "motion": [
+    -0.104,
+    0.16
+   ],
+   "motion_strength": 0.191,
+   "wm": []
+  },
+  {
+   "id": "SAM-162",
+   "src": "library/samourai/clips/SAM-162.mp4",
+   "file": "Plat - plateau de makis noirs avec salade.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_11",
+   "name": "plateau de makis noirs avec salade",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.397,
+   "lab": [
+    101.3,
+    128.8,
+    137.7
+   ],
+   "lab_first": [
+    94.5,
+    129.6,
+    135.2
+   ],
+   "lab_last": [
+    108,
+    127,
+    141.3
+   ],
+   "motion": [
+    0.166,
+    0.196
+   ],
+   "motion_strength": 0.257,
+   "wm": []
+  },
+  {
+   "id": "SAM-163",
+   "src": "library/samourai/clips/SAM-163.mp4",
+   "file": "Plat - chef présentant un plateau de makis panés.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_12",
+   "name": "chef présentant un plateau de makis panés",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.33,
+   "orientation": "vertical",
+   "brightness": 0.354,
+   "lab": [
+    90.2,
+    131.6,
+    131
+   ],
+   "lab_first": [
+    86.3,
+    131.6,
+    129.4
+   ],
+   "lab_last": [
+    84.7,
+    133.2,
+    133.7
+   ],
+   "motion": [
+    -0.005,
+    0.04
+   ],
+   "motion_strength": 0.041,
+   "wm": []
+  },
+  {
+   "id": "SAM-164",
+   "src": "library/samourai/clips/SAM-164.mp4",
+   "file": "Déco - panneaux lumineux et néons asiatiques colorés.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_13",
+   "name": "panneaux lumineux et néons asiatiques colorés",
+   "category": "deco",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.3,
+   "orientation": "vertical",
+   "brightness": 0.186,
+   "lab": [
+    47.3,
+    149.4,
+    122.6
+   ],
+   "lab_first": [
+    43.2,
+    147.6,
+    121
+   ],
+   "lab_last": [
+    51,
+    150.8,
+    123.8
+   ],
+   "motion": [
+    -0.009,
+    -0.056
+   ],
+   "motion_strength": 0.057,
+   "wm": []
+  },
+  {
+   "id": "SAM-165",
+   "src": "library/samourai/clips/SAM-165.mp4",
+   "file": "Table - bougie allumée sur table avec sac et verres.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_14",
+   "name": "bougie allumée sur table avec sac et verres",
+   "category": "table",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.17,
+   "orientation": "vertical",
+   "brightness": 0.123,
+   "lab": [
+    31.5,
+    152.4,
+    142.8
+   ],
+   "lab_first": [
+    29.3,
+    151,
+    141.8
+   ],
+   "lab_last": [
+    32.8,
+    152.3,
+    142.9
+   ],
+   "motion": [
+    0.056,
+    -0.021
+   ],
+   "motion_strength": 0.059,
+   "wm": []
+  },
+  {
+   "id": "SAM-166",
+   "src": "library/samourai/clips/SAM-166.mp4",
+   "file": "Ambiance - cliente mangeant un nem en terrasse.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_15",
+   "name": "cliente mangeant un nem en terrasse",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.13,
+   "orientation": "vertical",
+   "brightness": 0.227,
+   "lab": [
+    57.9,
+    152.2,
+    144.7
+   ],
+   "lab_first": [
+    61.8,
+    154.6,
+    146
+   ],
+   "lab_last": [
+    57.3,
+    150.2,
+    143.6
+   ],
+   "motion": [
+    -0.032,
+    0.079
+   ],
+   "motion_strength": 0.085,
+   "wm": []
+  },
+  {
+   "id": "SAM-167",
+   "src": "library/samourai/clips/SAM-167.mp4",
+   "file": "Plat - assortiment de sushis et makis.mp4",
+   "source": "IYUQ6719.MP4",
+   "extract": "IYUQ6719_16",
+   "name": "assortiment de sushis et makis",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.37,
+   "orientation": "vertical",
+   "brightness": 0.355,
+   "lab": [
+    90.6,
+    139.7,
+    139.9
+   ],
+   "lab_first": [
+    85.5,
+    139.2,
+    137
+   ],
+   "lab_last": [
+    91.1,
+    141,
+    144.5
+   ],
+   "motion": [
+    0.631,
+    0.022
+   ],
+   "motion_strength": 0.632,
+   "wm": []
+  },
+  {
+   "id": "SAM-168",
+   "src": "library/samourai/clips/SAM-168.mp4",
+   "file": "Cuisine - chef qui pose un grand couteau.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_01",
+   "name": "chef qui pose un grand couteau",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 1,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.478,
+   "lab": [
+    121.9,
+    136.7,
+    135.3
+   ],
+   "lab_first": [
+    122.1,
+    137.8,
+    137.3
+   ],
+   "lab_last": [
+    124.3,
+    135.8,
+    134.6
+   ],
+   "motion": [
+    0.007,
+    -0.007
+   ],
+   "motion_strength": 0.01,
+   "wm": [
+    [
+     0.25,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "SAM-169",
+   "src": "library/samourai/clips/SAM-169.mp4",
+   "file": "Cuisine - coupe précise le long de l'arête.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_02",
+   "name": "coupe précise le long de l'arête",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.6,
+   "orientation": "vertical",
+   "brightness": 0.478,
+   "lab": [
+    122,
+    136.1,
+    125.1
+   ],
+   "lab_first": [
+    121.8,
+    137,
+    126.1
+   ],
+   "lab_last": [
+    124.5,
+    135.6,
+    124.3
+   ],
+   "motion": [
+    0.252,
+    -0.068
+   ],
+   "motion_strength": 0.261,
+   "wm": []
+  },
+  {
+   "id": "SAM-170",
+   "src": "library/samourai/clips/SAM-170.mp4",
+   "file": "Cuisine - mains qui façonnent la boule de riz.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_03",
+   "name": "mains qui façonnent la boule de riz",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.528,
+   "lab": [
+    134.5,
+    142.8,
+    134.1
+   ],
+   "lab_first": [
+    128.2,
+    142.9,
+    134.5
+   ],
+   "lab_last": [
+    138.5,
+    144.5,
+    134.9
+   ],
+   "motion": [
+    -0.05,
+    0.033
+   ],
+   "motion_strength": 0.06,
+   "wm": []
+  },
+  {
+   "id": "SAM-171",
+   "src": "library/samourai/clips/SAM-171.mp4",
+   "file": "Cuisine - chef découpe un grand thon entier.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_04",
+   "name": "chef découpe un grand thon entier",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.345,
+   "lab": [
+    87.9,
+    136.4,
+    126
+   ],
+   "lab_first": [
+    90.9,
+    136.7,
+    126.4
+   ],
+   "lab_last": [
+    94.5,
+    137.5,
+    127.6
+   ],
+   "motion": [
+    0.023,
+    0.019
+   ],
+   "motion_strength": 0.03,
+   "wm": []
+  },
+  {
+   "id": "SAM-172",
+   "src": "library/samourai/clips/SAM-172.mp4",
+   "file": "Cuisine - application de sauce sur le riz.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_05",
+   "name": "application de sauce sur le riz",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.538,
+   "lab": [
+    137.1,
+    141.2,
+    134.7
+   ],
+   "lab_first": [
+    138.7,
+    139.5,
+    133.2
+   ],
+   "lab_last": [
+    136,
+    141.9,
+    135.1
+   ],
+   "motion": [
+    0.002,
+    0
+   ],
+   "motion_strength": 0.002,
+   "wm": []
+  },
+  {
+   "id": "SAM-173",
+   "src": "library/samourai/clips/SAM-173.mp4",
+   "file": "Cuisine - chef en train de préparer le thon.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_06",
+   "name": "chef en train de préparer le thon",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1,
+   "orientation": "vertical",
+   "brightness": 0.411,
+   "lab": [
+    104.7,
+    135.1,
+    128.1
+   ],
+   "lab_first": [
+    107.6,
+    135.3,
+    128.5
+   ],
+   "lab_last": [
+    99.3,
+    134.8,
+    127.7
+   ],
+   "motion": [
+    -0.008,
+    0.029
+   ],
+   "motion_strength": 0.03,
+   "wm": []
+  },
+  {
+   "id": "SAM-174",
+   "src": "library/samourai/clips/SAM-174.mp4",
+   "file": "Cuisine - pose des tranches de thon sur les sushis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_07",
+   "name": "pose des tranches de thon sur les sushis",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.505,
+   "lab": [
+    128.7,
+    146.3,
+    135.1
+   ],
+   "lab_first": [
+    137.3,
+    147.1,
+    136.2
+   ],
+   "lab_last": [
+    111,
+    142.3,
+    132.3
+   ],
+   "motion": [
+    0.051,
+    0.159
+   ],
+   "motion_strength": 0.167,
+   "wm": []
+  },
+  {
+   "id": "SAM-175",
+   "src": "library/samourai/clips/SAM-175.mp4",
+   "file": "Cuisine - chef au travail derrière le poisson.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_08",
+   "name": "chef au travail derrière le poisson",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.373,
+   "lab": [
+    95,
+    138.3,
+    126.4
+   ],
+   "lab_first": [
+    98.1,
+    139.1,
+    127.8
+   ],
+   "lab_last": [
+    68.7,
+    136.7,
+    125.1
+   ],
+   "motion": [
+    -0.158,
+    0.069
+   ],
+   "motion_strength": 0.172,
+   "wm": []
+  },
+  {
+   "id": "SAM-176",
+   "src": "library/samourai/clips/SAM-176.mp4",
+   "file": "Plat - tranches d'avocat sur les makis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_09",
+   "name": "tranches d'avocat sur les makis",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.609,
+   "lab": [
+    155.3,
+    148.4,
+    141.7
+   ],
+   "lab_first": [
+    151.1,
+    149.9,
+    140.4
+   ],
+   "lab_last": [
+    157.1,
+    147.8,
+    142.7
+   ],
+   "motion": [
+    0.041,
+    0.049
+   ],
+   "motion_strength": 0.064,
+   "wm": []
+  },
+  {
+   "id": "SAM-177",
+   "src": "library/samourai/clips/SAM-177.mp4",
+   "file": "Cuisine - découpe du gros thon en deux.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_10",
+   "name": "découpe du gros thon en deux",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 1.03,
+   "orientation": "vertical",
+   "brightness": 0.437,
+   "lab": [
+    111.3,
+    136.3,
+    129.1
+   ],
+   "lab_first": [
+    100.8,
+    135,
+    127.5
+   ],
+   "lab_last": [
+    110.9,
+    137.2,
+    130.6
+   ],
+   "motion": [
+    0.044,
+    0.261
+   ],
+   "motion_strength": 0.265,
+   "wm": []
+  },
+  {
+   "id": "SAM-178",
+   "src": "library/samourai/clips/SAM-178.mp4",
+   "file": "Plat - ajout de mayonnaise sur les sushis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_11",
+   "name": "ajout de mayonnaise sur les sushis",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.53,
+   "orientation": "vertical",
+   "brightness": 0.367,
+   "lab": [
+    93.6,
+    140.7,
+    129.6
+   ],
+   "lab_first": [
+    98.1,
+    140.7,
+    129.8
+   ],
+   "lab_last": [
+    83.4,
+    141,
+    129
+   ],
+   "motion": [
+    -0.061,
+    -0.18
+   ],
+   "motion_strength": 0.19,
+   "wm": []
+  },
+  {
+   "id": "SAM-179",
+   "src": "library/samourai/clips/SAM-179.mp4",
+   "file": "Cuisine - chef découpant un énorme thon rouge au couteau.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_12",
+   "name": "chef découpant un énorme thon rouge au couteau",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.443,
+   "lab": [
+    112.9,
+    150.2,
+    129.9
+   ],
+   "lab_first": [
+    117.6,
+    149,
+    131.3
+   ],
+   "lab_last": [
+    109.1,
+    150.6,
+    129.2
+   ],
+   "motion": [
+    -0.108,
+    -0.052
+   ],
+   "motion_strength": 0.12,
+   "wm": []
+  },
+  {
+   "id": "SAM-180",
+   "src": "library/samourai/clips/SAM-180.mp4",
+   "file": "Déco - enseignes néons colorées au-dessus d'un escalier tournant.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_13",
+   "name": "enseignes néons colorées au-dessus d'un escalier tournant",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.63,
+   "orientation": "vertical",
+   "brightness": 0.125,
+   "lab": [
+    32,
+    140.9,
+    130.1
+   ],
+   "lab_first": [
+    43.2,
+    147.6,
+    131.1
+   ],
+   "lab_last": [
+    28.4,
+    141.3,
+    129.9
+   ],
+   "motion": [
+    0.148,
+    0.072
+   ],
+   "motion_strength": 0.165,
+   "wm": []
+  },
+  {
+   "id": "SAM-181",
+   "src": "library/samourai/clips/SAM-181.mp4",
+   "file": "Cuisine - découpe de la chair d'un thon à la feuille.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_14",
+   "name": "découpe de la chair d'un thon à la feuille",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.403,
+   "lab": [
+    102.9,
+    142.2,
+    129.1
+   ],
+   "lab_first": [
+    100.2,
+    141.6,
+    128.8
+   ],
+   "lab_last": [
+    104.7,
+    143,
+    129.7
+   ],
+   "motion": [
+    0.023,
+    -0.014
+   ],
+   "motion_strength": 0.027,
+   "wm": []
+  },
+  {
+   "id": "SAM-182",
+   "src": "library/samourai/clips/SAM-182.mp4",
+   "file": "Geste - chef déposant des œufs de poisson sur les sushis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_15",
+   "name": "chef déposant des œufs de poisson sur les sushis",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.321,
+   "lab": [
+    82,
+    139.8,
+    131.8
+   ],
+   "lab_first": [
+    81.1,
+    139.8,
+    131.8
+   ],
+   "lab_last": [
+    80.7,
+    139.2,
+    131.6
+   ],
+   "motion": [
+    0.071,
+    -0.014
+   ],
+   "motion_strength": 0.072,
+   "wm": []
+  },
+  {
+   "id": "SAM-183",
+   "src": "library/samourai/clips/SAM-183.mp4",
+   "file": "Cuisine - filet de thon frais sur le plan de travail.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_16",
+   "name": "filet de thon frais sur le plan de travail",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.6,
+   "orientation": "vertical",
+   "brightness": 0.429,
+   "lab": [
+    109.3,
+    142.4,
+    121.8
+   ],
+   "lab_first": [
+    110.3,
+    139.3,
+    110.5
+   ],
+   "lab_last": [
+    113.6,
+    142.5,
+    126.1
+   ],
+   "motion": [
+    0.099,
+    -0.016
+   ],
+   "motion_strength": 0.101,
+   "wm": []
+  },
+  {
+   "id": "SAM-184",
+   "src": "library/samourai/clips/SAM-184.mp4",
+   "file": "Geste - chef saupoudrant des épices sur une rangée de sushis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_17",
+   "name": "chef saupoudrant des épices sur une rangée de sushis",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.73,
+   "orientation": "vertical",
+   "brightness": 0.353,
+   "lab": [
+    90,
+    139.4,
+    131.3
+   ],
+   "lab_first": [
+    82.2,
+    138.7,
+    130.8
+   ],
+   "lab_last": [
+    98.5,
+    140.5,
+    132.5
+   ],
+   "motion": [
+    0.071,
+    -0.098
+   ],
+   "motion_strength": 0.121,
+   "wm": []
+  },
+  {
+   "id": "SAM-185",
+   "src": "library/samourai/clips/SAM-185.mp4",
+   "file": "Cuisine - tête de thon imposante posée sur le comptoir.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_18",
+   "name": "tête de thon imposante posée sur le comptoir",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.63,
+   "orientation": "vertical",
+   "brightness": 0.411,
+   "lab": [
+    104.9,
+    136.9,
+    130.2
+   ],
+   "lab_first": [
+    104.7,
+    136.8,
+    130.2
+   ],
+   "lab_last": [
+    105,
+    137.1,
+    130.3
+   ],
+   "motion": [
+    -0.008,
+    -0.013
+   ],
+   "motion_strength": 0.015,
+   "wm": []
+  },
+  {
+   "id": "SAM-186",
+   "src": "library/samourai/clips/SAM-186.mp4",
+   "file": "Cuisine - chef soulevant l'arête centrale d'un thon entier.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_19",
+   "name": "chef soulevant l'arête centrale d'un thon entier",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.53,
+   "orientation": "vertical",
+   "brightness": 0.387,
+   "lab": [
+    98.7,
+    136.7,
+    127.4
+   ],
+   "lab_first": [
+    100.7,
+    136.8,
+    127.5
+   ],
+   "lab_last": [
+    97.3,
+    136.8,
+    127.4
+   ],
+   "motion": [
+    0.043,
+    0.032
+   ],
+   "motion_strength": 0.054,
+   "wm": []
+  },
+  {
+   "id": "SAM-187",
+   "src": "library/samourai/clips/SAM-187.mp4",
+   "file": "Cuisine - chef préparant les filets derrière une tête de thon.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_20",
+   "name": "chef préparant les filets derrière une tête de thon",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.385,
+   "lab": [
+    98.1,
+    134.9,
+    128
+   ],
+   "lab_first": [
+    96.8,
+    134.9,
+    128.3
+   ],
+   "lab_last": [
+    101,
+    134.9,
+    127.8
+   ],
+   "motion": [
+    -0.016,
+    -0.018
+   ],
+   "motion_strength": 0.024,
+   "wm": []
+  },
+  {
+   "id": "SAM-188",
+   "src": "library/samourai/clips/SAM-188.mp4",
+   "file": "Ambiance - deux chefs présentant la tête et l'arête du thon.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_21",
+   "name": "deux chefs présentant la tête et l'arête du thon",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.53,
+   "orientation": "vertical",
+   "brightness": 0.346,
+   "lab": [
+    88.1,
+    139.1,
+    130.2
+   ],
+   "lab_first": [
+    88.3,
+    138.9,
+    130.3
+   ],
+   "lab_last": [
+    87.7,
+    139,
+    130.1
+   ],
+   "motion": [
+    0.001,
+    0.013
+   ],
+   "motion_strength": 0.013,
+   "wm": []
+  },
+  {
+   "id": "SAM-189",
+   "src": "library/samourai/clips/SAM-189.mp4",
+   "file": "Plat - plateau de sushis variés servis sur une table.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_22",
+   "name": "plateau de sushis variés servis sur une table",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.63,
+   "orientation": "vertical",
+   "brightness": 0.371,
+   "lab": [
+    94.6,
+    138.1,
+    135.4
+   ],
+   "lab_first": [
+    93.4,
+    137.8,
+    134.1
+   ],
+   "lab_last": [
+    70.8,
+    135.4,
+    132.4
+   ],
+   "motion": [
+    0.029,
+    0.106
+   ],
+   "motion_strength": 0.11,
+   "wm": []
+  },
+  {
+   "id": "SAM-190",
+   "src": "library/samourai/clips/SAM-190.mp4",
+   "file": "Ambiance - homme en kimono dégustant un sushi aux baguettes.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_23",
+   "name": "homme en kimono dégustant un sushi aux baguettes",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 2.1,
+   "orientation": "vertical",
+   "brightness": 0.386,
+   "lab": [
+    98.4,
+    135.2,
+    137
+   ],
+   "lab_first": [
+    92.8,
+    131.6,
+    133.8
+   ],
+   "lab_last": [
+    84.5,
+    139.1,
+    140.5
+   ],
+   "motion": [
+    -0.238,
+    0.09
+   ],
+   "motion_strength": 0.254,
+   "wm": []
+  },
+  {
+   "id": "SAM-191",
+   "src": "library/samourai/clips/SAM-191.mp4",
+   "file": "Ambiance - client en kimono mangeant des sushis.mp4",
+   "source": "QLCN0770.MP4",
+   "extract": "QLCN0770_24",
+   "name": "client en kimono mangeant des sushis",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.1,
+   "orientation": "vertical",
+   "brightness": 0.285,
+   "lab": [
+    72.7,
+    138.6,
+    138.2
+   ],
+   "lab_first": [
+    83.4,
+    138.6,
+    140.4
+   ],
+   "lab_last": [
+    67.1,
+    138.3,
+    137.2
+   ],
+   "motion": [
+    0.046,
+    0.066
+   ],
+   "motion_strength": 0.08,
+   "wm": []
+  },
+  {
+   "id": "SAM-192",
+   "src": "library/samourai/clips/SAM-192.mp4",
+   "file": "Plat - plateau de sushis à étages.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_01",
+   "name": "plateau de sushis à étages",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.259,
+   "lab": [
+    65.9,
+    160.6,
+    147.9
+   ],
+   "lab_first": [
+    62.8,
+    159.6,
+    147
+   ],
+   "lab_last": [
+    68.1,
+    160.9,
+    148.6
+   ],
+   "motion": [
+    0.03,
+    -0.02
+   ],
+   "motion_strength": 0.036,
+   "wm": []
+  },
+  {
+   "id": "SAM-193",
+   "src": "library/samourai/clips/SAM-193.mp4",
+   "file": "Plat - présentation de sushis sur support.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_02",
+   "name": "présentation de sushis sur support",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1,
+   "orientation": "vertical",
+   "brightness": 0.35,
+   "lab": [
+    89.3,
+    145.8,
+    135
+   ],
+   "lab_first": [
+    90.6,
+    145.6,
+    135.3
+   ],
+   "lab_last": [
+    86.7,
+    146.2,
+    135.3
+   ],
+   "motion": [
+    -0.042,
+    0.079
+   ],
+   "motion_strength": 0.09,
+   "wm": []
+  },
+  {
+   "id": "SAM-194",
+   "src": "library/samourai/clips/SAM-194.mp4",
+   "file": "Boisson - toast avec des verres de cocktail.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_03",
+   "name": "toast avec des verres de cocktail",
+   "category": "boisson",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.371,
+   "lab": [
+    94.7,
+    170.6,
+    142.3
+   ],
+   "lab_first": [
+    96.1,
+    171.1,
+    143.6
+   ],
+   "lab_last": [
+    94.5,
+    168.4,
+    140.8
+   ],
+   "motion": [
+    -0.021,
+    -0.044
+   ],
+   "motion_strength": 0.049,
+   "wm": []
+  },
+  {
+   "id": "SAM-195",
+   "src": "library/samourai/clips/SAM-195.mp4",
+   "file": "Extérieur - terrasse du restaurant le soir.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_04",
+   "name": "terrasse du restaurant le soir",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.83,
+   "orientation": "vertical",
+   "brightness": 0.135,
+   "lab": [
+    34.4,
+    151.2,
+    134.7
+   ],
+   "lab_first": [
+    32.9,
+    149.4,
+    133.7
+   ],
+   "lab_last": [
+    36.6,
+    153.1,
+    136.3
+   ],
+   "motion": [
+    -0.196,
+    0.082
+   ],
+   "motion_strength": 0.212,
+   "wm": []
+  },
+  {
+   "id": "SAM-196",
+   "src": "library/samourai/clips/SAM-196.mp4",
+   "file": "Plat - grand plateau de sushis avocat.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_05",
+   "name": "grand plateau de sushis avocat",
+   "category": "plat",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.77,
+   "orientation": "vertical",
+   "brightness": 0.29,
+   "lab": [
+    74.1,
+    141.1,
+    124.4
+   ],
+   "lab_first": [
+    64.6,
+    143.9,
+    126.1
+   ],
+   "lab_last": [
+    81.2,
+    138.3,
+    124.4
+   ],
+   "motion": [
+    0.029,
+    0.051
+   ],
+   "motion_strength": 0.058,
+   "wm": []
+  },
+  {
+   "id": "SAM-197",
+   "src": "library/samourai/clips/SAM-197.mp4",
+   "file": "Plat - gros plan sur des makis.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_06",
+   "name": "gros plan sur des makis",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.287,
+   "lab": [
+    73.3,
+    154.3,
+    141.5
+   ],
+   "lab_first": [
+    58.4,
+    160.3,
+    145.9
+   ],
+   "lab_last": [
+    82.2,
+    147.5,
+    134.3
+   ],
+   "motion": [
+    0.345,
+    0.166
+   ],
+   "motion_strength": 0.382,
+   "wm": []
+  },
+  {
+   "id": "SAM-198",
+   "src": "library/samourai/clips/SAM-198.mp4",
+   "file": "Plat - assortiment varié de sushis.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_07",
+   "name": "assortiment varié de sushis",
+   "category": "plat",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.411,
+   "lab": [
+    104.9,
+    152.7,
+    130.8
+   ],
+   "lab_first": [
+    110.9,
+    153.4,
+    127.1
+   ],
+   "lab_last": [
+    99.7,
+    152.2,
+    134.6
+   ],
+   "motion": [
+    0.305,
+    0.347
+   ],
+   "motion_strength": 0.463,
+   "wm": []
+  },
+  {
+   "id": "SAM-199",
+   "src": "library/samourai/clips/SAM-199.mp4",
+   "file": "Ambiance - clientes en kimono avec des éventails.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_08",
+   "name": "clientes en kimono avec des éventails",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.8,
+   "orientation": "vertical",
+   "brightness": 0.211,
+   "lab": [
+    53.8,
+    153.7,
+    137.4
+   ],
+   "lab_first": [
+    54.4,
+    155.1,
+    138.8
+   ],
+   "lab_last": [
+    52.9,
+    152.3,
+    135.8
+   ],
+   "motion": [
+    0.063,
+    -0.028
+   ],
+   "motion_strength": 0.069,
+   "wm": []
+  },
+  {
+   "id": "SAM-200",
+   "src": "library/samourai/clips/SAM-200.mp4",
+   "file": "Déco - décoration lumineuse avec lanterne.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_09",
+   "name": "décoration lumineuse avec lanterne",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.33,
+   "orientation": "vertical",
+   "brightness": 0.208,
+   "lab": [
+    53,
+    161.1,
+    144
+   ],
+   "lab_first": [
+    49.3,
+    161.6,
+    144.3
+   ],
+   "lab_last": [
+    56.4,
+    159.3,
+    143.2
+   ],
+   "motion": [
+    0.036,
+    -0.217
+   ],
+   "motion_strength": 0.22,
+   "wm": []
+  },
+  {
+   "id": "SAM-201",
+   "src": "library/samourai/clips/SAM-201.mp4",
+   "file": "Salle - escalier moderne du restaurant.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_10",
+   "name": "escalier moderne du restaurant",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.07,
+   "orientation": "vertical",
+   "brightness": 0.261,
+   "lab": [
+    66.5,
+    145.5,
+    139.5
+   ],
+   "lab_first": [
+    67.4,
+    145.5,
+    137.8
+   ],
+   "lab_last": [
+    66.5,
+    147.2,
+    142.8
+   ],
+   "motion": [
+    -0.127,
+    0.373
+   ],
+   "motion_strength": 0.394,
+   "wm": []
+  },
+  {
+   "id": "SAM-202",
+   "src": "library/samourai/clips/SAM-202.mp4",
+   "file": "Salle - couloir décoré dans le restaurant.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_11",
+   "name": "couloir décoré dans le restaurant",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1.1,
+   "orientation": "vertical",
+   "brightness": 0.175,
+   "lab": [
+    44.7,
+    148.9,
+    133.6
+   ],
+   "lab_first": [
+    44.8,
+    149.1,
+    133.9
+   ],
+   "lab_last": [
+    44.9,
+    148.7,
+    133.7
+   ],
+   "motion": [
+    0,
+    0.002
+   ],
+   "motion_strength": 0.002,
+   "wm": []
+  },
+  {
+   "id": "SAM-203",
+   "src": "library/samourai/clips/SAM-203.mp4",
+   "file": "Salle - Salle de restaurant avec lanternes rouges.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_12",
+   "name": "Salle de restaurant avec lanternes rouges",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 3.17,
+   "orientation": "vertical",
+   "brightness": 0.21,
+   "lab": [
+    53.6,
+    163.5,
+    144.2
+   ],
+   "lab_first": [
+    55.6,
+    161.3,
+    141.2
+   ],
+   "lab_last": [
+    49.2,
+    158.4,
+    141.5
+   ],
+   "motion": [
+    0.554,
+    0.034
+   ],
+   "motion_strength": 0.555,
+   "wm": []
+  },
+  {
+   "id": "SAM-204",
+   "src": "library/samourai/clips/SAM-204.mp4",
+   "file": "Ambiance - Serveur en kimono marchant dans le restaurant.mp4",
+   "source": "SWLX4306.MP4",
+   "extract": "SWLX4306_13",
+   "name": "Serveur en kimono marchant dans le restaurant",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.155,
+   "lab": [
+    39.6,
+    152.3,
+    140.6
+   ],
+   "lab_first": [
+    38.9,
+    152.1,
+    140.5
+   ],
+   "lab_last": [
+    40,
+    152,
+    140.7
+   ],
+   "motion": [
+    -0.085,
+    -0.093
+   ],
+   "motion_strength": 0.126,
+   "wm": []
+  },
+  {
+   "id": "SAM-205",
+   "src": "library/samourai/clips/SAM-205.mp4",
+   "file": "Plat - Plateau de sushis tournant sur table.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_01",
+   "name": "Plateau de sushis tournant sur table",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.409,
+   "lab": [
+    104.4,
+    134.5,
+    135.9
+   ],
+   "lab_first": [
+    106.2,
+    134.9,
+    136.1
+   ],
+   "lab_last": [
+    102.2,
+    134.3,
+    135.7
+   ],
+   "motion": [
+    -0.15,
+    -0.034
+   ],
+   "motion_strength": 0.154,
+   "wm": []
+  },
+  {
+   "id": "SAM-206",
+   "src": "library/samourai/clips/SAM-206.mp4",
+   "file": "Plat - Assiette de nems avec salade et sauce.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_02",
+   "name": "Assiette de nems avec salade et sauce",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.93,
+   "orientation": "vertical",
+   "brightness": 0.315,
+   "lab": [
+    80.3,
+    138.2,
+    141.3
+   ],
+   "lab_first": [
+    80,
+    138.1,
+    141.6
+   ],
+   "lab_last": [
+    78.5,
+    138.3,
+    140.6
+   ],
+   "motion": [
+    -0.025,
+    -0.021
+   ],
+   "motion_strength": 0.033,
+   "wm": []
+  },
+  {
+   "id": "SAM-207",
+   "src": "library/samourai/clips/SAM-207.mp4",
+   "file": "Cuisine - Chef cuisinant au wok sur flammes.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_03",
+   "name": "Chef cuisinant au wok sur flammes",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.36,
+   "lab": [
+    91.7,
+    133.2,
+    133.7
+   ],
+   "lab_first": [
+    94.8,
+    133.1,
+    133.6
+   ],
+   "lab_last": [
+    92.6,
+    132.2,
+    133.2
+   ],
+   "motion": [
+    0.113,
+    0.15
+   ],
+   "motion_strength": 0.188,
+   "wm": []
+  },
+  {
+   "id": "SAM-208",
+   "src": "library/samourai/clips/SAM-208.mp4",
+   "file": "Plat - Bol de nouilles sautées avec baguettes.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_04",
+   "name": "Bol de nouilles sautées avec baguettes",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.295,
+   "lab": [
+    75.2,
+    150.3,
+    127.8
+   ],
+   "lab_first": [
+    76.7,
+    149.2,
+    128.4
+   ],
+   "lab_last": [
+    72,
+    151.9,
+    127.1
+   ],
+   "motion": [
+    -0.196,
+    -0.022
+   ],
+   "motion_strength": 0.198,
+   "wm": []
+  },
+  {
+   "id": "SAM-209",
+   "src": "library/samourai/clips/SAM-209.mp4",
+   "file": "Geste - Serveur apportant un plateau de sushis.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_05",
+   "name": "Serveur apportant un plateau de sushis",
+   "category": "geste",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1,
+   "orientation": "vertical",
+   "brightness": 0.3,
+   "lab": [
+    76.5,
+    170.6,
+    155.5
+   ],
+   "lab_first": [
+    80.5,
+    171.2,
+    154.9
+   ],
+   "lab_last": [
+    67.6,
+    169.5,
+    154.7
+   ],
+   "motion": [
+    -0.233,
+    -0.08
+   ],
+   "motion_strength": 0.246,
+   "wm": []
+  },
+  {
+   "id": "SAM-210",
+   "src": "library/samourai/clips/SAM-210.mp4",
+   "file": "Déco - Petit bonsaï décoratif dans un pot bleu.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_06",
+   "name": "Petit bonsaï décoratif dans un pot bleu",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.319,
+   "lab": [
+    81.4,
+    142.6,
+    129.6
+   ],
+   "lab_first": [
+    83.5,
+    141.7,
+    127.9
+   ],
+   "lab_last": [
+    81.2,
+    144.3,
+    132.6
+   ],
+   "motion": [
+    -0.178,
+    0.028
+   ],
+   "motion_strength": 0.18,
+   "wm": []
+  },
+  {
+   "id": "SAM-211",
+   "src": "library/samourai/clips/SAM-211.mp4",
+   "file": "Déco - Décoration murale avec sabres japonais.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_07",
+   "name": "Décoration murale avec sabres japonais",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 1,
+   "orientation": "vertical",
+   "brightness": 0.237,
+   "lab": [
+    60.4,
+    165.9,
+    153.1
+   ],
+   "lab_first": [
+    59.6,
+    164.2,
+    151.6
+   ],
+   "lab_last": [
+    59.9,
+    167.5,
+    154.6
+   ],
+   "motion": [
+    -0.171,
+    0.003
+   ],
+   "motion_strength": 0.171,
+   "wm": []
+  },
+  {
+   "id": "SAM-212",
+   "src": "library/samourai/clips/SAM-212.mp4",
+   "file": "Ambiance - Serveuse en kimono marchant dans la salle.mp4",
+   "source": "TFJL6063.MP4",
+   "extract": "TFJL6063_08",
+   "name": "Serveuse en kimono marchant dans la salle",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.97,
+   "orientation": "vertical",
+   "brightness": 0.344,
+   "lab": [
+    87.7,
+    157.1,
+    147
+   ],
+   "lab_first": [
+    88.9,
+    154.9,
+    146
+   ],
+   "lab_last": [
+    86.9,
+    160.7,
+    148.8
+   ],
+   "motion": [
+    -0.417,
+    0.113
+   ],
+   "motion_strength": 0.432,
+   "wm": []
+  },
+  {
+   "id": "SAM-213",
+   "src": "library/samourai/clips/SAM-213.mp4",
+   "file": "Salle - Ambiance sombre du restaurant avec lanternes.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_02",
+   "name": "Ambiance sombre du restaurant avec lanternes",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 1,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.124,
+   "lab": [
+    31.7,
+    139.5,
+    136.2
+   ],
+   "lab_first": [
+    30.6,
+    139.3,
+    135.9
+   ],
+   "lab_last": [
+    32.9,
+    139.8,
+    136.6
+   ],
+   "motion": [
+    0.071,
+    -0.007
+   ],
+   "motion_strength": 0.071,
+   "wm": []
+  },
+  {
+   "id": "SAM-214",
+   "src": "library/samourai/clips/SAM-214.mp4",
+   "file": "Déco - Chaise haute vide sous néon rouge.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_03",
+   "name": "Chaise haute vide sous néon rouge",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.9,
+   "orientation": "vertical",
+   "brightness": 0.123,
+   "lab": [
+    31.3,
+    148.1,
+    136.5
+   ],
+   "lab_first": [
+    29.7,
+    146.7,
+    135.5
+   ],
+   "lab_last": [
+    33.6,
+    149.7,
+    137.5
+   ],
+   "motion": [
+    0.155,
+    -0.011
+   ],
+   "motion_strength": 0.155,
+   "wm": []
+  },
+  {
+   "id": "SAM-215",
+   "src": "library/samourai/clips/SAM-215.mp4",
+   "file": "Extérieur - Vue plongeante sur terrasse avec piscine.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_04",
+   "name": "Vue plongeante sur terrasse avec piscine",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.15,
+   "lab": [
+    38.2,
+    136.2,
+    133.6
+   ],
+   "lab_first": [
+    36,
+    137.1,
+    133.4
+   ],
+   "lab_last": [
+    38.3,
+    135.7,
+    134
+   ],
+   "motion": [
+    -0.006,
+    0.028
+   ],
+   "motion_strength": 0.029,
+   "wm": []
+  },
+  {
+   "id": "SAM-216",
+   "src": "library/samourai/clips/SAM-216.mp4",
+   "file": "Déco - Escalier avec vase décoratif éclairé.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_05",
+   "name": "Escalier avec vase décoratif éclairé",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.316,
+   "lab": [
+    80.6,
+    163.3,
+    153.7
+   ],
+   "lab_first": [
+    80.5,
+    163.2,
+    153.9
+   ],
+   "lab_last": [
+    80.8,
+    163.6,
+    153.6
+   ],
+   "motion": [
+    0.025,
+    -0.063
+   ],
+   "motion_strength": 0.068,
+   "wm": []
+  },
+  {
+   "id": "SAM-217",
+   "src": "library/samourai/clips/SAM-217.mp4",
+   "file": "Déco - Rampe d'escalier et décoration murale asiatique.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_06",
+   "name": "Rampe d'escalier et décoration murale asiatique",
+   "category": "deco",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.21,
+   "lab": [
+    53.4,
+    149.9,
+    141.4
+   ],
+   "lab_first": [
+    54.3,
+    150.1,
+    141.7
+   ],
+   "lab_last": [
+    52.2,
+    149.5,
+    141.1
+   ],
+   "motion": [
+    0.029,
+    -0.004
+   ],
+   "motion_strength": 0.029,
+   "wm": []
+  },
+  {
+   "id": "SAM-218",
+   "src": "library/samourai/clips/SAM-218.mp4",
+   "file": "Ambiance - Client en kimono servant des sushis.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_07",
+   "name": "Client en kimono servant des sushis",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.401,
+   "lab": [
+    102.3,
+    153.2,
+    134.5
+   ],
+   "lab_first": [
+    100.5,
+    153.3,
+    134.3
+   ],
+   "lab_last": [
+    103.1,
+    152.7,
+    134.8
+   ],
+   "motion": [
+    0.004,
+    0
+   ],
+   "motion_strength": 0.004,
+   "wm": []
+  },
+  {
+   "id": "SAM-219",
+   "src": "library/samourai/clips/SAM-219.mp4",
+   "file": "Plat - Gros plan sur assiette de sushis.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_08",
+   "name": "Gros plan sur assiette de sushis",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.414,
+   "lab": [
+    105.5,
+    141.9,
+    142.2
+   ],
+   "lab_first": [
+    105.5,
+    142.7,
+    143.6
+   ],
+   "lab_last": [
+    105.2,
+    141.3,
+    140.8
+   ],
+   "motion": [
+    -0.019,
+    0.029
+   ],
+   "motion_strength": 0.034,
+   "wm": []
+  },
+  {
+   "id": "SAM-220",
+   "src": "library/samourai/clips/SAM-220.mp4",
+   "file": "Ambiance - Deux personnes en kimono à table.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_09",
+   "name": "Deux personnes en kimono à table",
+   "category": "personnes",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.286,
+   "lab": [
+    72.9,
+    149,
+    143.3
+   ],
+   "lab_first": [
+    72.6,
+    149.3,
+    143.9
+   ],
+   "lab_last": [
+    73.5,
+    148.8,
+    142.9
+   ],
+   "motion": [
+    -0.049,
+    -0.014
+   ],
+   "motion_strength": 0.051,
+   "wm": []
+  },
+  {
+   "id": "SAM-221",
+   "src": "library/samourai/clips/SAM-221.mp4",
+   "file": "Cuisine - Chef retirant le noyau d'un avocat.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_10",
+   "name": "Chef retirant le noyau d'un avocat",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.493,
+   "lab": [
+    125.6,
+    142.1,
+    137.4
+   ],
+   "lab_first": [
+    119.2,
+    145.2,
+    138.3
+   ],
+   "lab_last": [
+    135.3,
+    139.8,
+    136.8
+   ],
+   "motion": [
+    0.09,
+    -0.016
+   ],
+   "motion_strength": 0.092,
+   "wm": []
+  },
+  {
+   "id": "SAM-222",
+   "src": "library/samourai/clips/SAM-222.mp4",
+   "file": "Cuisine - Chef découpant un rouleau de sushi.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_11",
+   "name": "Chef découpant un rouleau de sushi",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.608,
+   "lab": [
+    155,
+    134.9,
+    132.4
+   ],
+   "lab_first": [
+    160.2,
+    134.7,
+    132.5
+   ],
+   "lab_last": [
+    151.9,
+    134.6,
+    132.1
+   ],
+   "motion": [
+    0.039,
+    -0.02
+   ],
+   "motion_strength": 0.044,
+   "wm": []
+  },
+  {
+   "id": "SAM-223",
+   "src": "library/samourai/clips/SAM-223.mp4",
+   "file": "Geste - Main disposant les sushis sur l'assiette.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_12",
+   "name": "Main disposant les sushis sur l'assiette",
+   "category": "geste",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.7,
+   "orientation": "vertical",
+   "brightness": 0.421,
+   "lab": [
+    107.3,
+    153.7,
+    141.3
+   ],
+   "lab_first": [
+    106.1,
+    150.1,
+    138.6
+   ],
+   "lab_last": [
+    106.9,
+    155.1,
+    142.9
+   ],
+   "motion": [
+    0.079,
+    0.397
+   ],
+   "motion_strength": 0.405,
+   "wm": []
+  },
+  {
+   "id": "SAM-224",
+   "src": "library/samourai/clips/SAM-224.mp4",
+   "file": "Cuisine - Chef ajoutant de la sauce sur sushis.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_13",
+   "name": "Chef ajoutant de la sauce sur sushis",
+   "category": "cuisine",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.67,
+   "orientation": "vertical",
+   "brightness": 0.375,
+   "lab": [
+    95.7,
+    141.1,
+    132.3
+   ],
+   "lab_first": [
+    87.6,
+    140.8,
+    132.4
+   ],
+   "lab_last": [
+    106.1,
+    141.5,
+    132.6
+   ],
+   "motion": [
+    -0.004,
+    0.013
+   ],
+   "motion_strength": 0.013,
+   "wm": []
+  },
+  {
+   "id": "SAM-225",
+   "src": "library/samourai/clips/SAM-225.mp4",
+   "file": "Plat - Assiette de sushis décorée avec soin.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_14",
+   "name": "Assiette de sushis décorée avec soin",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.37,
+   "orientation": "vertical",
+   "brightness": 0.445,
+   "lab": [
+    113.5,
+    140.6,
+    137.3
+   ],
+   "lab_first": [
+    112.9,
+    139.7,
+    138.7
+   ],
+   "lab_last": [
+    114.7,
+    141.3,
+    135.9
+   ],
+   "motion": [
+    0.023,
+    -0.014
+   ],
+   "motion_strength": 0.027,
+   "wm": []
+  },
+  {
+   "id": "SAM-226",
+   "src": "library/samourai/clips/SAM-226.mp4",
+   "file": "Ambiance - homme en kimono assis à une table.mp4",
+   "source": "UBXO8333.MP4",
+   "extract": "UBXO8333_15",
+   "name": "homme en kimono assis à une table",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.7,
+   "orientation": "vertical",
+   "brightness": 0.265,
+   "lab": [
+    67.5,
+    148.1,
+    135
+   ],
+   "lab_first": [
+    57.5,
+    152.7,
+    139.3
+   ],
+   "lab_last": [
+    83.9,
+    137,
+    121.8
+   ],
+   "motion": [
+    0.105,
+    -0.176
+   ],
+   "motion_strength": 0.205,
+   "wm": []
+  },
+  {
+   "id": "SAM-227",
+   "src": "library/samourai/clips/SAM-227.mp4",
+   "file": "Ambiance - personne en kimono tenant un parapluie rouge.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_01",
+   "name": "personne en kimono tenant un parapluie rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.74,
+   "orientation": "vertical",
+   "brightness": 0.254,
+   "lab": [
+    64.8,
+    153.9,
+    145
+   ],
+   "lab_first": [
+    51.6,
+    145.3,
+    131.7
+   ],
+   "lab_last": [
+    79.4,
+    130.8,
+    139.8
+   ],
+   "motion": [
+    0.053,
+    -0.056
+   ],
+   "motion_strength": 0.077,
+   "wm": [
+    [
+     0.18,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "SAM-228",
+   "src": "library/samourai/clips/SAM-228.mp4",
+   "file": "Salle - escalier moderne avec décoration asiatique rouge.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_02",
+   "name": "escalier moderne avec décoration asiatique rouge",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 2.81,
+   "orientation": "vertical",
+   "brightness": 0.215,
+   "lab": [
+    54.7,
+    153.1,
+    140.6
+   ],
+   "lab_first": [
+    61.5,
+    154.7,
+    143.4
+   ],
+   "lab_last": [
+    50.2,
+    152.7,
+    139.4
+   ],
+   "motion": [
+    -0.176,
+    0.121
+   ],
+   "motion_strength": 0.213,
+   "wm": []
+  },
+  {
+   "id": "SAM-229",
+   "src": "library/samourai/clips/SAM-229.mp4",
+   "file": "Salle - salle de restaurant avec lanternes rouges (2).mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_03",
+   "name": "salle de restaurant avec lanternes rouges",
+   "category": "salle",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.84,
+   "orientation": "vertical",
+   "brightness": 0.254,
+   "lab": [
+    64.7,
+    168.8,
+    156.9
+   ],
+   "lab_first": [
+    66.6,
+    170.4,
+    158.8
+   ],
+   "lab_last": [
+    66.1,
+    165.7,
+    154.3
+   ],
+   "motion": [
+    -0.265,
+    0.017
+   ],
+   "motion_strength": 0.265,
+   "wm": []
+  },
+  {
+   "id": "SAM-230",
+   "src": "library/samourai/clips/SAM-230.mp4",
+   "file": "Ambiance - personne en kimono entrant dans le restaurant.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_04",
+   "name": "personne en kimono entrant dans le restaurant",
+   "category": "personnes",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.74,
+   "orientation": "vertical",
+   "brightness": 0.271,
+   "lab": [
+    69,
+    160.3,
+    147.7
+   ],
+   "lab_first": [
+    67.4,
+    156.7,
+    141.4
+   ],
+   "lab_last": [
+    69.7,
+    163.4,
+    153.7
+   ],
+   "motion": [
+    0.067,
+    0.039
+   ],
+   "motion_strength": 0.078,
+   "wm": []
+  },
+  {
+   "id": "SAM-231",
+   "src": "library/samourai/clips/SAM-231.mp4",
+   "file": "Ambiance - personne en kimono tenant un parapluie rouge (2).mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_05",
+   "name": "personne en kimono tenant un parapluie rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.77,
+   "orientation": "vertical",
+   "brightness": 0.275,
+   "lab": [
+    70.1,
+    164.6,
+    155.7
+   ],
+   "lab_first": [
+    60.8,
+    157.9,
+    149.7
+   ],
+   "lab_last": [
+    79.2,
+    171.2,
+    161.9
+   ],
+   "motion": [
+    0.011,
+    0.049
+   ],
+   "motion_strength": 0.05,
+   "wm": []
+  },
+  {
+   "id": "SAM-232",
+   "src": "library/samourai/clips/SAM-232.mp4",
+   "file": "Ambiance - femme en kimono tenant un éventail rouge.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_06",
+   "name": "femme en kimono tenant un éventail rouge",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.4,
+   "orientation": "vertical",
+   "brightness": 0.286,
+   "lab": [
+    72.8,
+    169.6,
+    159.5
+   ],
+   "lab_first": [
+    70.4,
+    169.3,
+    158.6
+   ],
+   "lab_last": [
+    74.3,
+    170.2,
+    160.7
+   ],
+   "motion": [
+    -0.199,
+    0.056
+   ],
+   "motion_strength": 0.207,
+   "wm": []
+  },
+  {
+   "id": "SAM-233",
+   "src": "library/samourai/clips/SAM-233.mp4",
+   "file": "Table - tables de restaurant avec chaises rouges.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_07",
+   "name": "tables de restaurant avec chaises rouges",
+   "category": "table",
+   "view": "large",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.54,
+   "orientation": "vertical",
+   "brightness": 0.236,
+   "lab": [
+    60.2,
+    165.7,
+    152.5
+   ],
+   "lab_first": [
+    59,
+    164.7,
+    151.5
+   ],
+   "lab_last": [
+    62,
+    165.9,
+    153.4
+   ],
+   "motion": [
+    0.326,
+    0.019
+   ],
+   "motion_strength": 0.326,
+   "wm": []
+  },
+  {
+   "id": "SAM-234",
+   "src": "library/samourai/clips/SAM-234.mp4",
+   "file": "Déco - néons colorés avec inscriptions asiatiques.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_08",
+   "name": "néons colorés avec inscriptions asiatiques",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.3,
+   "orientation": "vertical",
+   "brightness": 0.176,
+   "lab": [
+    44.8,
+    149.1,
+    127
+   ],
+   "lab_first": [
+    45.1,
+    151.8,
+    130.7
+   ],
+   "lab_last": [
+    47.6,
+    148.7,
+    124.4
+   ],
+   "motion": [
+    -0.008,
+    -0.244
+   ],
+   "motion_strength": 0.244,
+   "wm": []
+  },
+  {
+   "id": "SAM-235",
+   "src": "library/samourai/clips/SAM-235.mp4",
+   "file": "Ambiance - détail du motif dragon sur un kimono.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_09",
+   "name": "détail du motif dragon sur un kimono",
+   "category": "personnes",
+   "view": "gros-plan",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 1.6,
+   "orientation": "vertical",
+   "brightness": 0.171,
+   "lab": [
+    43.6,
+    157.6,
+    142.2
+   ],
+   "lab_first": [
+    51.1,
+    160.7,
+    145.5
+   ],
+   "lab_last": [
+    41.6,
+    151.3,
+    138.6
+   ],
+   "motion": [
+    0.049,
+    -0.017
+   ],
+   "motion_strength": 0.052,
+   "wm": []
+  },
+  {
+   "id": "SAM-236",
+   "src": "library/samourai/clips/SAM-236.mp4",
+   "file": "Plat - assiettes de sushis et plats asiatiques.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_10",
+   "name": "assiettes de sushis et plats asiatiques",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.37,
+   "orientation": "vertical",
+   "brightness": 0.68,
+   "lab": [
+    173.4,
+    150.5,
+    178.8
+   ],
+   "lab_first": [
+    200.2,
+    138.2,
+    181.5
+   ],
+   "lab_last": [
+    128.9,
+    150.4,
+    164.8
+   ],
+   "motion": [
+    0.468,
+    -0.112
+   ],
+   "motion_strength": 0.481,
+   "wm": []
+  },
+  {
+   "id": "SAM-237",
+   "src": "library/samourai/clips/SAM-237.mp4",
+   "file": "Plat - gros plan sur des assiettes de sushis.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_11",
+   "name": "gros plan sur des assiettes de sushis",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.87,
+   "orientation": "vertical",
+   "brightness": 0.247,
+   "lab": [
+    63,
+    146.5,
+    142
+   ],
+   "lab_first": [
+    60.7,
+    147.1,
+    141.7
+   ],
+   "lab_last": [
+    63.6,
+    144,
+    140.4
+   ],
+   "motion": [
+    0.694,
+    0.116
+   ],
+   "motion_strength": 0.704,
+   "wm": []
+  },
+  {
+   "id": "SAM-238",
+   "src": "library/samourai/clips/SAM-238.mp4",
+   "file": "Salle - clients assis sur la terrasse rouge.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_12",
+   "name": "clients assis sur la terrasse rouge",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.94,
+   "orientation": "vertical",
+   "brightness": 0.236,
+   "lab": [
+    60.1,
+    167.1,
+    152.8
+   ],
+   "lab_first": [
+    55.1,
+    164.1,
+    150
+   ],
+   "lab_last": [
+    67,
+    170.4,
+    156.9
+   ],
+   "motion": [
+    -0.349,
+    0.028
+   ],
+   "motion_strength": 0.35,
+   "wm": []
+  },
+  {
+   "id": "SAM-239",
+   "src": "library/samourai/clips/SAM-239.mp4",
+   "file": "Extérieur - vue plongeante sur la piscine extérieure.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_13",
+   "name": "vue plongeante sur la piscine extérieure",
+   "category": "exterieur",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 3.01,
+   "orientation": "vertical",
+   "brightness": 0.354,
+   "lab": [
+    90.2,
+    121.1,
+    139.3
+   ],
+   "lab_first": [
+    79.5,
+    131.3,
+    140
+   ],
+   "lab_last": [
+    109,
+    102.8,
+    138.4
+   ],
+   "motion": [
+    -0.122,
+    0.123
+   ],
+   "motion_strength": 0.173,
+   "wm": []
+  },
+  {
+   "id": "SAM-240",
+   "src": "library/samourai/clips/SAM-240.mp4",
+   "file": "Cuisine - chef barbu présentant une assiette de sushis.mp4",
+   "source": "UPPR7435.MP4",
+   "extract": "UPPR7435_14",
+   "name": "chef barbu présentant une assiette de sushis",
+   "category": "cuisine",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.5,
+   "orientation": "vertical",
+   "brightness": 0.334,
+   "lab": [
+    85.1,
+    136.3,
+    137.8
+   ],
+   "lab_first": [
+    79.4,
+    135.4,
+    135.4
+   ],
+   "lab_last": [
+    86.4,
+    138.8,
+    140.1
+   ],
+   "motion": [
+    0.022,
+    0.12
+   ],
+   "motion_strength": 0.122,
+   "wm": []
+  },
+  {
+   "id": "SAM-241",
+   "src": "library/samourai/clips/SAM-241.mp4",
+   "file": "Ambiance - femme de dos en kimono traditionnel japonais.mp4",
+   "source": "VBOJ1284.MP4",
+   "extract": "VBOJ1284_01",
+   "name": "femme de dos en kimono traditionnel japonais",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 4,
+   "orientation": "vertical",
+   "brightness": 0.241,
+   "lab": [
+    61.6,
+    143,
+    134.1
+   ],
+   "lab_first": [
+    50.3,
+    139.4,
+    132.5
+   ],
+   "lab_last": [
+    82.4,
+    140.2,
+    137.2
+   ],
+   "motion": [
+    -0.027,
+    -0.015
+   ],
+   "motion_strength": 0.031,
+   "wm": []
+  },
+  {
+   "id": "SAM-242",
+   "src": "library/samourai/clips/SAM-242.mp4",
+   "file": "Ambiance - deux femmes en kimono marchant de dos.mp4",
+   "source": "VBOJ1284.MP4",
+   "extract": "VBOJ1284_02",
+   "name": "deux femmes en kimono marchant de dos",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 3.43,
+   "orientation": "vertical",
+   "brightness": 0.292,
+   "lab": [
+    74.5,
+    147.2,
+    140.4
+   ],
+   "lab_first": [
+    65.3,
+    144.8,
+    136.2
+   ],
+   "lab_last": [
+    78.3,
+    150,
+    146.3
+   ],
+   "motion": [
+    -0.012,
+    -0.047
+   ],
+   "motion_strength": 0.048,
+   "wm": []
+  },
+  {
+   "id": "SAM-243",
+   "src": "library/samourai/clips/SAM-243.mp4",
+   "file": "Plat - assiettes de sushis et gyozas sur table.mp4",
+   "source": "VBOJ1284.MP4",
+   "extract": "VBOJ1284_03",
+   "name": "assiettes de sushis et gyozas sur table",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 0,
+   "duration": 1.53,
+   "orientation": "vertical",
+   "brightness": 0.449,
+   "lab": [
+    114.6,
+    134.1,
+    134
+   ],
+   "lab_first": [
+    116.2,
+    133.7,
+    133.1
+   ],
+   "lab_last": [
+    110.5,
+    134.5,
+    134.3
+   ],
+   "motion": [
+    0.108,
+    0.027
+   ],
+   "motion_strength": 0.112,
+   "wm": []
+  },
+  {
+   "id": "SAM-244",
+   "src": "library/samourai/clips/SAM-244.mp4",
+   "file": "Plat - plats de nouilles sautées sur la table.mp4",
+   "source": "VBOJ1284.MP4",
+   "extract": "VBOJ1284_04",
+   "name": "plats de nouilles sautées sur la table",
+   "category": "plat",
+   "view": "dessus",
+   "light": "jour",
+   "quality": 3,
+   "duration": 1.5,
+   "orientation": "vertical",
+   "brightness": 0.348,
+   "lab": [
+    88.8,
+    134.9,
+    131.2
+   ],
+   "lab_first": [
+    88.5,
+    135,
+    130.9
+   ],
+   "lab_last": [
+    88.4,
+    134.9,
+    131.1
+   ],
+   "motion": [
+    -0.005,
+    0.004
+   ],
+   "motion_strength": 0.007,
+   "wm": []
+  },
+  {
+   "id": "SAM-245",
+   "src": "library/samourai/clips/SAM-245.mp4",
+   "file": "Plat - grande pièce montée de sushis sur bois.mp4",
+   "source": "VBOJ1284.MP4",
+   "extract": "VBOJ1284_05",
+   "name": "grande pièce montée de sushis sur bois",
+   "category": "plat",
+   "view": "large",
+   "light": "jour",
+   "quality": 3,
+   "duration": 2.53,
+   "orientation": "vertical",
+   "brightness": 0.419,
+   "lab": [
+    106.8,
+    133.1,
+    132.1
+   ],
+   "lab_first": [
+    105.7,
+    133,
+    133.7
+   ],
+   "lab_last": [
+    107.1,
+    132.9,
+    130.9
+   ],
+   "motion": [
+    0.013,
+    0.012
+   ],
+   "motion_strength": 0.018,
+   "wm": []
+  },
+  {
+   "id": "SAM-246",
+   "src": "library/samourai/clips/SAM-246.mp4",
+   "file": "Déco - enseigne lumineuse du restaurant samourai.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_01",
+   "name": "enseigne lumineuse du restaurant samourai",
+   "category": "deco",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.318,
+   "lab": [
+    81.2,
+    128.9,
+    134.7
+   ],
+   "lab_first": [
+    80.8,
+    128.7,
+    134.8
+   ],
+   "lab_last": [
+    81.4,
+    129,
+    134.6
+   ],
+   "motion": [
+    -0.02,
+    0.01
+   ],
+   "motion_strength": 0.023,
+   "wm": []
+  },
+  {
+   "id": "SAM-247",
+   "src": "library/samourai/clips/SAM-247.mp4",
+   "file": "Déco - deux oiseaux jaunes et rouges dans une cage.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_02",
+   "name": "deux oiseaux jaunes et rouges dans une cage",
+   "category": "deco",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.334,
+   "lab": [
+    85.2,
+    132.6,
+    138.6
+   ],
+   "lab_first": [
+    78.5,
+    132.3,
+    139.3
+   ],
+   "lab_last": [
+    88.9,
+    132.7,
+    138.2
+   ],
+   "motion": [
+    -0.087,
+    -0.171
+   ],
+   "motion_strength": 0.191,
+   "wm": []
+  },
+  {
+   "id": "SAM-248",
+   "src": "library/samourai/clips/SAM-248.mp4",
+   "file": "Ambiance - jeune femme souriante à côté des sushis.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_03",
+   "name": "jeune femme souriante à côté des sushis",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.303,
+   "lab": [
+    77.3,
+    137.7,
+    133.7
+   ],
+   "lab_first": [
+    77.5,
+    137.6,
+    134
+   ],
+   "lab_last": [
+    76.2,
+    137.9,
+    133.4
+   ],
+   "motion": [
+    0,
+    0.021
+   ],
+   "motion_strength": 0.021,
+   "wm": []
+  },
+  {
+   "id": "SAM-249",
+   "src": "library/samourai/clips/SAM-249.mp4",
+   "file": "Plat - bol de salade poké avec des baguettes.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_04",
+   "name": "bol de salade poké avec des baguettes",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.373,
+   "lab": [
+    95.2,
+    134.9,
+    135.7
+   ],
+   "lab_first": [
+    95.4,
+    134.3,
+    135.3
+   ],
+   "lab_last": [
+    94.4,
+    135.2,
+    136.3
+   ],
+   "motion": [
+    0.111,
+    0.004
+   ],
+   "motion_strength": 0.111,
+   "wm": []
+  },
+  {
+   "id": "SAM-250",
+   "src": "library/samourai/clips/SAM-250.mp4",
+   "file": "Extérieur - entree du restaurant avec decoration asiatique.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_05",
+   "name": "entree du restaurant avec decoration asiatique",
+   "category": "exterieur",
+   "view": "large",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.316,
+   "lab": [
+    80.6,
+    137.8,
+    135.4
+   ],
+   "lab_first": [
+    80.6,
+    138.4,
+    135.4
+   ],
+   "lab_last": [
+    80.6,
+    137.1,
+    135.3
+   ],
+   "motion": [
+    -0.098,
+    -0.001
+   ],
+   "motion_strength": 0.098,
+   "wm": []
+  },
+  {
+   "id": "SAM-251",
+   "src": "library/samourai/clips/SAM-251.mp4",
+   "file": "Plat - baguettes attrapant un maki dore.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_06",
+   "name": "baguettes attrapant un maki dore",
+   "category": "plat",
+   "view": "gros-plan",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.341,
+   "lab": [
+    86.9,
+    132.1,
+    135
+   ],
+   "lab_first": [
+    86.8,
+    132.3,
+    135.1
+   ],
+   "lab_last": [
+    86.4,
+    132.1,
+    135.1
+   ],
+   "motion": [
+    -0.03,
+    -0.051
+   ],
+   "motion_strength": 0.059,
+   "wm": []
+  },
+  {
+   "id": "SAM-252",
+   "src": "library/samourai/clips/SAM-252.mp4",
+   "file": "Extérieur - entree du restaurant decoree de lanternes.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_07",
+   "name": "entree du restaurant decoree de lanternes",
+   "category": "exterieur",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.237,
+   "lab": [
+    60.6,
+    136.8,
+    138.1
+   ],
+   "lab_first": [
+    60.5,
+    136.9,
+    138.4
+   ],
+   "lab_last": [
+    60.8,
+    137.2,
+    137.9
+   ],
+   "motion": [
+    0.063,
+    -0.003
+   ],
+   "motion_strength": 0.063,
+   "wm": []
+  },
+  {
+   "id": "SAM-253",
+   "src": "library/samourai/clips/SAM-253.mp4",
+   "file": "Salle - salle du restaurant aux lanternes rouges.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_08",
+   "name": "salle du restaurant aux lanternes rouges",
+   "category": "salle",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.211,
+   "lab": [
+    53.9,
+    138.5,
+    140.3
+   ],
+   "lab_first": [
+    53.2,
+    139.3,
+    140.1
+   ],
+   "lab_last": [
+    54.1,
+    137.6,
+    140.2
+   ],
+   "motion": [
+    -0.18,
+    0.013
+   ],
+   "motion_strength": 0.181,
+   "wm": []
+  },
+  {
+   "id": "SAM-254",
+   "src": "library/samourai/clips/SAM-254.mp4",
+   "file": "Ambiance - deux femmes en kimono de dos.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_09",
+   "name": "deux femmes en kimono de dos",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.277,
+   "lab": [
+    70.6,
+    146.8,
+    143.8
+   ],
+   "lab_first": [
+    70.2,
+    146.7,
+    143.6
+   ],
+   "lab_last": [
+    70.2,
+    146.5,
+    144.2
+   ],
+   "motion": [
+    -0.005,
+    -0.034
+   ],
+   "motion_strength": 0.034,
+   "wm": []
+  },
+  {
+   "id": "SAM-255",
+   "src": "library/samourai/clips/SAM-255.mp4",
+   "file": "Plat - plateau de makis nappes de sauce.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_10",
+   "name": "plateau de makis nappes de sauce",
+   "category": "plat",
+   "view": "dessus",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.226,
+   "lab": [
+    57.6,
+    133.6,
+    124.6
+   ],
+   "lab_first": [
+    55.9,
+    133.6,
+    124.5
+   ],
+   "lab_last": [
+    59.6,
+    133.6,
+    124.8
+   ],
+   "motion": [
+    0.07,
+    0.024
+   ],
+   "motion_strength": 0.074,
+   "wm": []
+  },
+  {
+   "id": "SAM-256",
+   "src": "library/samourai/clips/SAM-256.mp4",
+   "file": "Plat - presentation de sushis sur etageres en bois.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_11",
+   "name": "presentation de sushis sur etageres en bois",
+   "category": "plat",
+   "view": "moyen",
+   "light": "nuit",
+   "quality": 3,
+   "duration": 0.43,
+   "orientation": "vertical",
+   "brightness": 0.181,
+   "lab": [
+    46.2,
+    137.4,
+    133.2
+   ],
+   "lab_first": [
+    45.9,
+    137.4,
+    133.3
+   ],
+   "lab_last": [
+    46.7,
+    137.3,
+    133.3
+   ],
+   "motion": [
+    0.032,
+    -0.011
+   ],
+   "motion_strength": 0.034,
+   "wm": []
+  },
+  {
+   "id": "SAM-257",
+   "src": "library/samourai/clips/SAM-257.mp4",
+   "file": "Ambiance - homme en kimono traditionnel japonais.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_12",
+   "name": "homme en kimono traditionnel japonais",
+   "category": "personnes",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 3,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.313,
+   "lab": [
+    79.7,
+    141.6,
+    135.2
+   ],
+   "lab_first": [
+    78.6,
+    139.2,
+    133.9
+   ],
+   "lab_last": [
+    80.9,
+    143.2,
+    136.5
+   ],
+   "motion": [
+    0.167,
+    -0.41
+   ],
+   "motion_strength": 0.443,
+   "wm": []
+  },
+  {
+   "id": "SAM-258",
+   "src": "library/samourai/clips/SAM-258.mp4",
+   "file": "Extérieur - facade de restaurant illuminee la nuit.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_13",
+   "name": "facade de restaurant illuminee la nuit",
+   "category": "exterieur",
+   "view": "large",
+   "light": "nuit",
+   "quality": 2,
+   "duration": 0.4,
+   "orientation": "vertical",
+   "brightness": 0.272,
+   "lab": [
+    69.4,
+    156.5,
+    118.1
+   ],
+   "lab_first": [
+    70.6,
+    155.4,
+    119.5
+   ],
+   "lab_last": [
+    67.6,
+    157.6,
+    116.4
+   ],
+   "motion": [
+    -0.222,
+    -0.001
+   ],
+   "motion_strength": 0.222,
+   "wm": []
+  },
+  {
+   "id": "SAM-259",
+   "src": "library/samourai/clips/SAM-259.mp4",
+   "file": "Table - sac a emporter pose sur table.mp4",
+   "source": "VWLS0079.MP4",
+   "extract": "VWLS0079_14",
+   "name": "sac a emporter pose sur table",
+   "category": "table",
+   "view": "moyen",
+   "light": "jour",
+   "quality": 2,
+   "duration": 0.47,
+   "orientation": "vertical",
+   "brightness": 0.222,
+   "lab": [
+    56.5,
+    137.9,
+    137.5
+   ],
+   "lab_first": [
+    56.9,
+    137.9,
+    137.8
+   ],
+   "lab_last": [
+    54.1,
+    137.7,
+    136.9
+   ],
+   "motion": [
+    -0.031,
+    0.017
+   ],
+   "motion_strength": 0.036,
+   "wm": []
   }
  ]
 }

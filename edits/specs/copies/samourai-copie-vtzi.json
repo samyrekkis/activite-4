@@ -1,0 +1,191 @@
+{
+ "out": "edits/copies/samourai-copie-vtzi.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/VTZI7105.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.1,
+ "curve": "encre",
+ "version": 100,
+ "brief": "Copie de l’edit de référence VTZI7105 (cuisine cinéma ultra-rapide, 59 coupes) avec le Samouraï : ambiance, le chef en action, les sushis, la salle, la tradition, les tables. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "shots": [
+  {
+   "id": "SAM-234"
+  },
+  {
+   "id": "SAM-087"
+  },
+  {
+   "id": "SAM-115"
+  },
+  {
+   "id": "SAM-253"
+  },
+  {
+   "id": "SAM-207"
+  },
+  {
+   "id": "SAM-222"
+  },
+  {
+   "id": "SAM-169"
+  },
+  {
+   "id": "SAM-088"
+  },
+  {
+   "id": "SAM-224"
+  },
+  {
+   "id": "SAM-174"
+  },
+  {
+   "id": "SAM-163"
+  },
+  {
+   "id": "SAM-197"
+  },
+  {
+   "id": "SAM-139"
+  },
+  {
+   "id": "SAM-166"
+  },
+  {
+   "id": "SAM-208"
+  },
+  {
+   "id": "SAM-198"
+  },
+  {
+   "id": "SAM-116"
+  },
+  {
+   "id": "SAM-243"
+  },
+  {
+   "id": "SAM-108"
+  },
+  {
+   "id": "SAM-162"
+  },
+  {
+   "id": "SAM-095"
+  },
+  {
+   "id": "SAM-176"
+  },
+  {
+   "id": "SAM-150"
+  },
+  {
+   "id": "SAM-142"
+  },
+  {
+   "id": "SAM-214"
+  },
+  {
+   "id": "SAM-238"
+  },
+  {
+   "id": "SAM-111"
+  },
+  {
+   "id": "SAM-202"
+  },
+  {
+   "id": "SAM-102"
+  },
+  {
+   "id": "SAM-042"
+  },
+  {
+   "id": "SAM-235"
+  },
+  {
+   "id": "SAM-251"
+  },
+  {
+   "id": "SAM-245"
+  },
+  {
+   "id": "SAM-112"
+  },
+  {
+   "id": "SAM-165"
+  },
+  {
+   "id": "SAM-173"
+  },
+  {
+   "id": "SAM-093"
+  },
+  {
+   "id": "SAM-107"
+  },
+  {
+   "id": "SAM-004"
+  },
+  {
+   "id": "SAM-185"
+  },
+  {
+   "id": "SAM-096"
+  },
+  {
+   "id": "SAM-134"
+  },
+  {
+   "id": "SAM-259"
+  },
+  {
+   "id": "SAM-094"
+  },
+  {
+   "id": "SAM-227"
+  },
+  {
+   "id": "SAM-218"
+  },
+  {
+   "id": "SAM-212"
+  },
+  {
+   "id": "SAM-241"
+  },
+  {
+   "id": "SAM-223"
+  },
+  {
+   "id": "SAM-196"
+  },
+  {
+   "id": "SAM-084"
+  },
+  {
+   "id": "SAM-159"
+  },
+  {
+   "id": "SAM-141"
+  },
+  {
+   "id": "SAM-146"
+  },
+  {
+   "id": "SAM-258"
+  },
+  {
+   "id": "SAM-113"
+  },
+  {
+   "id": "SAM-183"
+  },
+  {
+   "id": "SAM-192"
+  },
+  {
+   "id": "SAM-209"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "out": "edits/copies/samourai-copie-lxwz.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/LXWZ3325.json",
+ "from": 0,
+ "to": 9.43,
+ "minShot": 0.1,
+ "curve": "encre",
+ "version": 100,
+ "brief": "Copie de l’edit de référence LXWZ3325 (montage restaurant : un plan d’accroche de 3,7 s puis 28 coupes rapides) avec le Samouraï : le chef au passe, l’entrée, la cuisine en action, la salle, les sushis, les plats, les kimonos, et des mains qui servent pour finir. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "shots": [
+  {
+   "id": "SAM-156"
+  },
+  {
+   "id": "SAM-151"
+  },
+  {
+   "id": "SAM-221"
+  },
+  {
+   "id": "SAM-229"
+  },
+  {
+   "id": "SAM-170"
+  },
+  {
+   "id": "SAM-129"
+  },
+  {
+   "id": "SAM-100"
+  },
+  {
+   "id": "SAM-205"
+  },
+  {
+   "id": "SAM-193"
+  },
+  {
+   "id": "SAM-114"
+  },
+  {
+   "id": "SAM-161"
+  },
+  {
+   "id": "SAM-248"
+  },
+  {
+   "id": "SAM-195"
+  },
+  {
+   "id": "SAM-119"
+  },
+  {
+   "id": "SAM-118"
+  },
+  {
+   "id": "SAM-178"
+  },
+  {
+   "id": "SAM-206"
+  },
+  {
+   "id": "SAM-105"
+  },
+  {
+   "id": "SAM-092"
+  },
+  {
+   "id": "SAM-131"
+  },
+  {
+   "id": "SAM-225"
+  },
+  {
+   "id": "SAM-256"
+  },
+  {
+   "id": "SAM-117"
+  },
+  {
+   "id": "SAM-231"
+  },
+  {
+   "id": "SAM-145"
+  },
+  {
+   "id": "SAM-210"
+  },
+  {
+   "id": "SAM-167"
+  },
+  {
+   "id": "SAM-106"
+  }
+ ]
+}

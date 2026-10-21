@@ -113,6 +113,12 @@ export type MosaicCell = {
 
 export type Mosaic = { cols: number; rows: number; cells: MosaicCell[]; /** Gap in px at 1080 wide. */ gap?: number };
 
+/** Puzzle reveal: rectangles [x, y, w, h, appearSeconds] (fractions of the frame), whole frame at `full` seconds. */
+// Quadrant transition (CapCut "white photo overlay" tutorial): the previous shot keeps
+// playing underneath while this shot appears quarter by quarter, then fills the frame.
+export type QuadIn = { src: string; start: number; speed?: number; grade?: Grade; dur: number };
+export type Reveal = { rects: [number, number, number, number, number][]; full: number };
+
 export type Clip = {
   /** Path relative to public/, e.g. "rushes/plat-01.mp4" or "brand/logo.png". */
   src: string;
@@ -139,6 +145,8 @@ export type Clip = {
   social?: SocialCard[];
   /** Grid of shots revealed one by one, black and white then colour (src/start/end set the clip length). */
   mosaic?: Mosaic;
+  reveal?: Reveal;
+  quadIn?: QuadIn;
   /** Several shots on screen at once (src/start/end still set the length of the clip). */
   panels?: Panel[];
   /** "rows" = stacked horizontal bands (triptych), "columns" = side by side, "grid" = 2x2. Default "rows". */

@@ -12,6 +12,8 @@ for (const x of r.cuts) if (x > +from + +minShot && x < +to - +minShot && x - bo
 bounds.push(+to);
 const n = bounds.length - 1;
 
+// Logo table sets the client rejected.
+const EXCLUDE = ["SAM-003", "SAM-005", "SAM-055", "SAM-070", "SAM-039", "SAM-112", "SAM-101", "SAM-243"];
 // Shots of the source videos, in their (logical) order, without the mosaic placeholder.
 const ids = [];
 for (const s of sources) {
@@ -19,7 +21,7 @@ for (const s of sources) {
   for (const c of j.clips) {
     if (c.mosaic) continue;
     const id = /(MON|SAM)-\d+/.exec(c.src)?.[0];
-    if (id && !ids.includes(id)) ids.push(id);
+    if (id && !ids.includes(id) && !EXCLUDE.includes(id)) ids.push(id);
   }
 }
 if (ids.length < n) throw new Error(`${name}: ${n} shots needed, ${ids.length} available`);
@@ -38,7 +40,9 @@ const spec = {
     const len = bounds[i + 1] - bounds[i];
     // The OYUA reference is a sped-up tour: keep its accelerations.
     const sp = /OYUA/.test(ref) ? [1.88, 2.12, 2.12, 2.2, 1.08, 1.04, 1.04, 1.1, 1.1, 1.31][i] : 1;
-    return { id, ...(sp !== 1 ? { speed: sp } : {}), at: Math.max(0, +(m.duration - len * sp - 0.08).toFixed(2)) };
+    // AT=start shows the beginning of each clip instead (a third, different moment).
+    const at = process.env.AT === "start" ? 0.1 : Math.max(0, +(m.duration - len * sp - 0.08).toFixed(2));
+    return { id, ...(sp !== 1 ? { speed: sp } : {}), at };
   }),
 };
 fs.writeFileSync(`edits/specs/copies/${name}.json`, JSON.stringify(spec, null, 1));

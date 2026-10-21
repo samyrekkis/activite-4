@@ -1,0 +1,282 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (HWJC6898.json), autre chanson, autre moment de chaque plan, look tealOrange. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 terrasse couverte et lustres en osier (zoom avant 18 %)",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0.1,
+      "end": 1.233,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.175
+      }
+    },
+    {
+      "label": "#2 table du brunch au bord de la piscine, jus et crêpe",
+      "src": "library/monegasque/clips/MON-031.mp4",
+      "start": 0.1,
+      "end": 0.667,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#3 table ronde du brunch sur la terrasse arborée (zoom arrière 7 %)",
+      "src": "library/monegasque/clips/MON-249.mp4",
+      "start": 0.1,
+      "end": 0.733,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.074,
+        "to": 1
+      }
+    },
+    {
+      "label": "#4 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 0.1,
+      "end": 0.667,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-249.mp4",
+        "start": 0.733,
+        "dur": 0.3
+      }
+    },
+    {
+      "label": "#5 clients qui se servent au buffet (zoom avant 9 %)",
+      "src": "library/monegasque/clips/MON-206.mp4",
+      "start": 0.1,
+      "end": 0.767,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.093
+      }
+    },
+    {
+      "label": "#6 cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0.1,
+      "end": 0.666,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 main qui tient un mojito bleu (zoom arrière 9 %)",
+      "src": "library/monegasque/clips/MON-152.mp4",
+      "start": 0.1,
+      "end": 0.734,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.095,
+        "to": 1
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-137.mp4",
+        "start": 0.666,
+        "dur": 0.3
+      }
+    },
+    {
+      "label": "#8 carpaccio et salade sur assiette bleue",
+      "src": "library/monegasque/clips/MON-080.mp4",
+      "start": 0.1,
+      "end": 0.633,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 grande table du soir avec plats variés",
+      "src": "library/monegasque/clips/MON-108.mp4",
+      "start": 0,
+      "end": 0.48,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 serveur qui apporte l'assiette, bar en fond",
+      "src": "library/monegasque/clips/MON-251.mp4",
+      "start": 0.1,
+      "end": 0.8,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-108.mp4",
+        "start": 0.24,
+        "speed": 0.8,
+        "dur": 0.3
+      }
+    },
+    {
+      "label": "#11 cuisine et feux allumés",
+      "src": "library/monegasque/clips/MON-104.mp4",
+      "start": 0,
+      "end": 0.48,
+      "speed": 0.901,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#12 néon Love et ballons roses",
+      "src": "library/monegasque/clips/MON-272.mp4",
+      "start": 0.1,
+      "end": 0.6,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 femme en haïk sous les lustres en osier",
+      "src": "library/monegasque/clips/MON-003.mp4",
+      "start": 0.1,
+      "end": 0.534,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-272.mp4",
+        "start": 0.6,
+        "dur": 0.26
+      }
+    },
+    {
+      "label": "#14 dessert aux figues, plan serré",
+      "src": "library/monegasque/clips/MON-265.mp4",
+      "start": 0.1,
+      "end": 0.833,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 grande table du brunch, vue de dessus",
+      "src": "library/monegasque/clips/MON-061.mp4",
+      "start": 0.1,
+      "end": 0.567,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#16 table du brunch au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-125.mp4",
+      "start": 0.047,
+      "end": 0.78,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 0.949,
+        "contrast": 1.045,
+        "saturate": 1.17,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-061.mp4",
+        "start": 0.35,
+        "dur": 0.3
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/HWJC6898.MP4",
+    "from": 0
+  }
+}

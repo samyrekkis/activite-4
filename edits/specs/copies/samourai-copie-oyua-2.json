@@ -1,0 +1,65 @@
+{
+ "out": "edits/copies/samourai-copie-oyua-2.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/OYUA3954.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.3,
+ "curve": "encre",
+ "version": 100,
+ "brief": "Copie de l’edit de référence OYUA3954 (tour rapide en travellings accélérés) avec le Samouraï : l’entrée, la salle, le chef, les kimonos, une table, la déco, un plat et l’ambiance. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "720:820:0:460",
+ "shots": [
+  {
+   "id": "SAM-228",
+   "speed": 1.88,
+   "at": 0
+  },
+  {
+   "id": "SAM-101",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "SAM-181",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "SAM-147",
+   "speed": 2.2,
+   "at": 0
+  },
+  {
+   "id": "SAM-152",
+   "speed": 1.08,
+   "at": 0
+  },
+  {
+   "id": "SAM-237",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "SAM-149",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "SAM-171",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "SAM-136",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "SAM-201",
+   "speed": 1.31,
+   "at": 0
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "out": "edits/copies/samourai-quad-osjv.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/OSJV5474.json",
+ "from": 0,
+ "to": 13.4,
+ "minShot": 0.4,
+ "curve": "tokyo",
+ "version": 1,
+ "copyZoom": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OSJV5474.json), autre chanson, autre moment de chaque plan, look tokyo. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-016",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-018",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-012",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-080",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-027",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-010",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-151",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-129",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-114",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-119",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-105",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-256",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-210",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-101",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-237",
+   "at": 0.1
+  }
+ ]
+}

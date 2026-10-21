@@ -1,0 +1,75 @@
+{
+ "out": "edits/copies/monegasque-quad-osjv.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/OSJV5474.json",
+ "from": 0,
+ "to": 13.4,
+ "minShot": 0.4,
+ "curve": "portra",
+ "version": 1,
+ "copyZoom": true,
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OSJV5474.json), autre chanson, autre moment de chaque plan, look portra avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-081",
+   "at": 0.1
+  },
+  {
+   "id": "MON-183",
+   "at": 0.1
+  },
+  {
+   "id": "MON-144",
+   "at": 0.1
+  },
+  {
+   "id": "MON-208",
+   "at": 0.1
+  },
+  {
+   "id": "MON-146",
+   "at": 0.1
+  },
+  {
+   "id": "MON-199",
+   "at": 0.1
+  },
+  {
+   "id": "MON-041",
+   "at": 0.1
+  },
+  {
+   "id": "MON-005",
+   "at": 0.1
+  },
+  {
+   "id": "MON-105",
+   "at": 0.1
+  },
+  {
+   "id": "MON-189",
+   "at": 0.1
+  },
+  {
+   "id": "MON-222",
+   "at": 0.1
+  },
+  {
+   "id": "MON-267",
+   "at": 0.1
+  },
+  {
+   "id": "MON-202",
+   "at": 0.1
+  },
+  {
+   "id": "MON-129",
+   "at": 0.1
+  },
+  {
+   "id": "MON-103",
+   "at": 0.1
+  }
+ ]
+}

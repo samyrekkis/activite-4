@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/monegasque-quad-hwjc.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/HWJC6898.json",
+ "from": 0,
+ "to": 10,
+ "minShot": 0.4,
+ "curve": "tealOrange",
+ "version": 1,
+ "copyZoom": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (HWJC6898.json), autre chanson, autre moment de chaque plan, look tealOrange. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-147",
+   "at": 0.1
+  },
+  {
+   "id": "MON-031",
+   "at": 0.1
+  },
+  {
+   "id": "MON-249",
+   "at": 0.1
+  },
+  {
+   "id": "MON-067",
+   "at": 0.1
+  },
+  {
+   "id": "MON-206",
+   "at": 0.1
+  },
+  {
+   "id": "MON-137",
+   "at": 0.1
+  },
+  {
+   "id": "MON-152",
+   "at": 0.1
+  },
+  {
+   "id": "MON-080",
+   "at": 0.1
+  },
+  {
+   "id": "MON-108",
+   "at": 0.1
+  },
+  {
+   "id": "MON-251",
+   "at": 0.1
+  },
+  {
+   "id": "MON-104",
+   "at": 0.1
+  },
+  {
+   "id": "MON-272",
+   "at": 0.1
+  },
+  {
+   "id": "MON-003",
+   "at": 0.1
+  },
+  {
+   "id": "MON-265",
+   "at": 0.1
+  },
+  {
+   "id": "MON-061",
+   "at": 0.1
+  },
+  {
+   "id": "MON-125",
+   "at": 0.1
+  }
+ ]
+}

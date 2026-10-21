@@ -1,0 +1,746 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 302,
+  "brief": "Copie de l’edit de référence VTZI7105 (cuisine cinéma ultra-rapide, 59 coupes) avec le Samouraï : ambiance, le chef en action, les sushis, la salle, la tradition, les tables. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 néons colorés avec inscriptions asiatiques",
+      "src": "library/samourai/clips/SAM-234.mp4",
+      "start": 0.55,
+      "end": 0.75,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#2 affiches japonaises rouges sur un mur sombre",
+      "src": "library/samourai/clips/SAM-087.mp4",
+      "start": 0.384,
+      "end": 0.617,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#3 Néons asiatiques enfermés dans une grande cage",
+      "src": "library/samourai/clips/SAM-115.mp4",
+      "start": 0.602,
+      "end": 0.769,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#4 salle du restaurant aux lanternes rouges",
+      "src": "library/samourai/clips/SAM-253.mp4",
+      "start": 0.084,
+      "end": 0.317,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#5 Chef cuisinant au wok sur flammes",
+      "src": "library/samourai/clips/SAM-207.mp4",
+      "start": 0.418,
+      "end": 0.552,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#6 Chef découpant un rouleau de sushi",
+      "src": "library/samourai/clips/SAM-222.mp4",
+      "start": 0.233,
+      "end": 0.466,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#7 coupe précise le long de l'arête",
+      "src": "library/samourai/clips/SAM-169.mp4",
+      "start": 0.216,
+      "end": 0.383,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#8 chef préparant de nombreux bols de nouilles (zoom arrière 11 %)",
+      "src": "library/samourai/clips/SAM-088.mp4",
+      "start": 0.332,
+      "end": 0.498,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.12,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 Chef ajoutant de la sauce sur sushis (zoom arrière 6 %)",
+      "src": "library/samourai/clips/SAM-224.mp4",
+      "start": 0.252,
+      "end": 0.419,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.063,
+        "to": 1
+      }
+    },
+    {
+      "label": "#10 pose des tranches de thon sur les sushis (zoom arrière 11 %)",
+      "src": "library/samourai/clips/SAM-174.mp4",
+      "start": 0.269,
+      "end": 0.402,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.12,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 chef présentant un plateau de makis panés (zoom arrière 9 %)",
+      "src": "library/samourai/clips/SAM-163.mp4",
+      "start": 1.082,
+      "end": 1.249,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.102,
+        "to": 1
+      }
+    },
+    {
+      "label": "#12 gros plan sur des makis",
+      "src": "library/samourai/clips/SAM-197.mp4",
+      "start": 0.5,
+      "end": 0.6,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#13 baguettes saisissant un sushi recouvert de sauce rouge",
+      "src": "library/samourai/clips/SAM-139.mp4",
+      "start": 0.234,
+      "end": 0.567,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#14 cliente mangeant un nem en terrasse",
+      "src": "library/samourai/clips/SAM-166.mp4",
+      "start": 0.415,
+      "end": 0.715,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#15 Bol de nouilles sautées avec baguettes (zoom avant 6 %)",
+      "src": "library/samourai/clips/SAM-208.mp4",
+      "start": 0.402,
+      "end": 0.569,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.063
+      }
+    },
+    {
+      "label": "#16 assortiment varié de sushis",
+      "src": "library/samourai/clips/SAM-198.mp4",
+      "start": 0.351,
+      "end": 0.518,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#17 Serveur apportant un grand plateau de sushis",
+      "src": "library/samourai/clips/SAM-116.mp4",
+      "start": 1.782,
+      "end": 2.082,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#18 Sushis et nigiris sous une lumière rouge (zoom avant 8 %)",
+      "src": "library/samourai/clips/SAM-108.mp4",
+      "start": 0.7,
+      "end": 1,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.079
+      }
+    },
+    {
+      "label": "#19 plateau de makis noirs avec salade",
+      "src": "library/samourai/clips/SAM-162.mp4",
+      "start": 0.317,
+      "end": 0.783,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#20 Pyramide de sushis et makis variés sur présentoir",
+      "src": "library/samourai/clips/SAM-095.mp4",
+      "start": 0.101,
+      "end": 0.868,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#21 tranches d'avocat sur les makis (zoom arrière 10 %)",
+      "src": "library/samourai/clips/SAM-176.mp4",
+      "start": 0.269,
+      "end": 0.502,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.11,
+        "to": 1
+      }
+    },
+    {
+      "label": "#22 table garnie de nombreux plats asiatiques variés",
+      "src": "library/samourai/clips/SAM-150.mp4",
+      "start": 0.431,
+      "end": 0.698,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#23 vue d'ensemble d'une table avec spécialités japonaises (zoom arrière 8 %)",
+      "src": "library/samourai/clips/SAM-142.mp4",
+      "start": 0.269,
+      "end": 0.602,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.084,
+        "to": 1
+      }
+    },
+    {
+      "label": "#24 Chaise haute vide sous néon rouge (zoom avant 7 %)",
+      "src": "library/samourai/clips/SAM-214.mp4",
+      "start": 0.316,
+      "end": 0.583,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.065
+      }
+    },
+    {
+      "label": "#25 clients assis sur la terrasse rouge",
+      "src": "library/samourai/clips/SAM-238.mp4",
+      "start": 0.387,
+      "end": 0.554,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#26 Décoration intérieure avec voilages rouges au plafond",
+      "src": "library/samourai/clips/SAM-111.mp4",
+      "start": 1.099,
+      "end": 1.232,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#27 couloir décoré dans le restaurant",
+      "src": "library/samourai/clips/SAM-202.mp4",
+      "start": 0.484,
+      "end": 0.617,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#28 Clients attendant devant le buffet décoré de lanternes",
+      "src": "library/samourai/clips/SAM-102.mp4",
+      "start": 0.382,
+      "end": 0.549,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#29 cliente qui ajuste son kimono bleu brodé",
+      "src": "library/samourai/clips/SAM-042.mp4",
+      "start": 0.231,
+      "end": 0.398,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#30 détail du motif dragon sur un kimono",
+      "src": "library/samourai/clips/SAM-235.mp4",
+      "start": 0.717,
+      "end": 0.883,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#31 baguettes attrapant un maki dore (zoom arrière 4 %)",
+      "src": "library/samourai/clips/SAM-251.mp4",
+      "start": 0.117,
+      "end": 0.284,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.044,
+        "to": 1
+      }
+    },
+    {
+      "label": "#32 grande pièce montée de sushis sur bois",
+      "src": "library/samourai/clips/SAM-245.mp4",
+      "start": 1.131,
+      "end": 1.731,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#33 bougie allumée sur table avec sac et verres",
+      "src": "library/samourai/clips/SAM-165.mp4",
+      "start": 0.435,
+      "end": 0.735,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#34 chef en train de préparer le thon (zoom arrière 7 %)",
+      "src": "library/samourai/clips/SAM-173.mp4",
+      "start": 0.35,
+      "end": 0.65,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.079,
+        "to": 1
+      }
+    },
+    {
+      "label": "#35 Plateaux de brochettes superposés sur un buffet sombre",
+      "src": "library/samourai/clips/SAM-093.mp4",
+      "start": 0.317,
+      "end": 0.484,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#36 Sushis sur plateau bois avec petit bonsaï",
+      "src": "library/samourai/clips/SAM-107.mp4",
+      "start": 0.684,
+      "end": 0.817,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#37 plateau étagé de sushis et makis",
+      "src": "library/samourai/clips/SAM-004.mp4",
+      "start": 0.502,
+      "end": 0.669,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#38 tête de thon imposante posée sur le comptoir",
+      "src": "library/samourai/clips/SAM-185.mp4",
+      "start": 0.248,
+      "end": 0.381,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#39 Raviolis vapeur roses disposés sur des plateaux gris",
+      "src": "library/samourai/clips/SAM-096.mp4",
+      "start": 0.252,
+      "end": 0.419,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#40 cocktail rouge décoré servi sur une table marbrée",
+      "src": "library/samourai/clips/SAM-134.mp4",
+      "start": 0.332,
+      "end": 0.498,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#41 sac a emporter pose sur table",
+      "src": "library/samourai/clips/SAM-259.mp4",
+      "start": 0.168,
+      "end": 0.302,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#42 Cocktails fruités avec pailles roses et figurines Mickey",
+      "src": "library/samourai/clips/SAM-094.mp4",
+      "start": 0.152,
+      "end": 0.618,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#43 personne en kimono tenant un parapluie rouge",
+      "src": "library/samourai/clips/SAM-227.mp4",
+      "start": 0.636,
+      "end": 1.103,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#44 Client en kimono servant des sushis",
+      "src": "library/samourai/clips/SAM-218.mp4",
+      "start": 0.117,
+      "end": 0.584,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#45 Serveuse en kimono marchant dans la salle",
+      "src": "library/samourai/clips/SAM-212.mp4",
+      "start": 0.318,
+      "end": 0.651,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#46 femme de dos en kimono traditionnel japonais",
+      "src": "library/samourai/clips/SAM-241.mp4",
+      "start": 1.784,
+      "end": 2.217,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#47 Main disposant les sushis sur l'assiette",
+      "src": "library/samourai/clips/SAM-223.mp4",
+      "start": 0.25,
+      "end": 0.45,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#48 grand plateau de sushis avocat",
+      "src": "library/samourai/clips/SAM-196.mp4",
+      "start": 0.252,
+      "end": 0.519,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#49 service de bouchées vapeur sur un buffet",
+      "src": "library/samourai/clips/SAM-084.mp4",
+      "start": 0.315,
+      "end": 0.615,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#50 assortiment de sushis et makis sur plateau (zoom arrière 15 %)",
+      "src": "library/samourai/clips/SAM-159.mp4",
+      "start": 0.4,
+      "end": 0.9,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      },
+      "zoom": {
+        "from": 1.172,
+        "to": 1
+      }
+    },
+    {
+      "label": "#51 table remplie de sushis et plats japonais variés",
+      "src": "library/samourai/clips/SAM-141.mp4",
+      "start": 0.184,
+      "end": 0.617,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#52 plantes vertes en pot devant le restaurant",
+      "src": "library/samourai/clips/SAM-146.mp4",
+      "start": 0.3,
+      "end": 0.6,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#53 facade de restaurant illuminee la nuit",
+      "src": "library/samourai/clips/SAM-258.mp4",
+      "start": 0.083,
+      "end": 0.317,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#54 Chef cuisinier dressant un plat en cuisine",
+      "src": "library/samourai/clips/SAM-113.mp4",
+      "start": 0.518,
+      "end": 0.651,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#55 filet de thon frais sur le plan de travail",
+      "src": "library/samourai/clips/SAM-183.mp4",
+      "start": 0.667,
+      "end": 0.934,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#56 plateau de sushis à étages",
+      "src": "library/samourai/clips/SAM-192.mp4",
+      "start": 0.352,
+      "end": 0.518,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    },
+    {
+      "label": "#57 Serveur apportant un plateau de sushis",
+      "src": "library/samourai/clips/SAM-209.mp4",
+      "start": 0.417,
+      "end": 0.584,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.06,
+        "saturate": 0.85
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/VTZI7105.MP4",
+    "from": 0
+  }
+}

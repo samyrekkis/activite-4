@@ -7,7 +7,9 @@ cd "$(dirname "$0")/../.."
 name=$1; ref=$2; from=$3; to=$4; title=$5
 R="/c/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre"
 P="edits/copies/$name.json"
+REFP="$ref"; [ -f "$REFP" ] || REFP="$R/$ref"
 review="reviews/compare-$name-best.json"
+grep -qx "$name" out/locked.txt 2>/dev/null && { echo "LOCKED $name (look chosen with the client)"; exit 0; }
 [ -s "$review" ] || { echo "no review for $name"; exit 1; }
 total() { node -p "const r=require('./$1');(r.resemblanceScore+r.colorScore+r.fluidityScore).toFixed(1)"; }
 before=$(total "$review")
@@ -27,11 +29,11 @@ v=$(node -p "require('./$P').version")
 vid="out/$name-v$v.mp4"
 for try in 1 2 3; do [ -s "$vid" ] && break; node scripts/render.mjs "$P" > "out/$name.render.txt" 2>&1; [ -s "$vid" ] || { taskkill //F //IM chrome-headless-shell.exe >/dev/null 2>&1; sleep 5; }; done
 [ -s "$vid" ] || { echo "POLISH_FAIL $name"; exit 1; }
-node scripts/compare-review.mjs "$vid" "$R/$ref" "$from" "$to" "$P" > "out/reviews/compare-$name-polish.txt" 2>&1
+node scripts/compare-review.mjs "$vid" "$REFP" "$from" "$to" "$P" > "out/reviews/compare-$name-polish.txt" 2>&1
 after=$(total "reviews/compare-$name-v$v.json")
 echo "POLISH $name before=$before after=$after"
 if awk "BEGIN{exit !($after > $before)}"; then
   cp "$vid" "out/$name-best.mp4"; cp "reviews/compare-$name-v$v.json" "$review"
-  bash scripts/library/make_preview.sh "out/$name-best.mp4" "$R/$ref" "$from" "$title" > /dev/null
+  bash scripts/library/make_preview.sh "out/$name-best.mp4" "$REFP" "$from" "$title" > /dev/null
   echo "KEPT polish for $name"
 fi

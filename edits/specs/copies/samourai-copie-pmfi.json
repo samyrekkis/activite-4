@@ -1,0 +1,80 @@
+{
+ "out": "edits/copies/samourai-copie-pmfi.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/PMFI3044.json",
+ "from": 5.6,
+ "to": 13,
+ "minShot": 0.1,
+ "curve": "encre",
+ "version": 100,
+ "brief": "Copie de l’edit de référence PMFI3044 avec le Samouraï : une mosaïque 3×3 de sushis en noir et blanc qui passent en couleur une à une, puis 22 gros plans de plats, boissons et gestes sur le beat. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "shots": [
+  {
+   "id": "SAM-182"
+  },
+  {
+   "id": "SAM-219"
+  },
+  {
+   "id": "SAM-194"
+  },
+  {
+   "id": "SAM-254"
+  },
+  {
+   "id": "SAM-179"
+  },
+  {
+   "id": "SAM-081"
+  },
+  {
+   "id": "SAM-155"
+  },
+  {
+   "id": "SAM-144"
+  },
+  {
+   "id": "SAM-130"
+  },
+  {
+   "id": "SAM-257"
+  },
+  {
+   "id": "SAM-184"
+  },
+  {
+   "id": "SAM-085"
+  },
+  {
+   "id": "SAM-199"
+  },
+  {
+   "id": "SAM-154"
+  },
+  {
+   "id": "SAM-133"
+  },
+  {
+   "id": "SAM-082"
+  },
+  {
+   "id": "SAM-186"
+  },
+  {
+   "id": "SAM-240"
+  },
+  {
+   "id": "SAM-090"
+  },
+  {
+   "id": "SAM-187"
+  },
+  {
+   "id": "SAM-109"
+  },
+  {
+   "id": "SAM-091"
+  }
+ ]
+}

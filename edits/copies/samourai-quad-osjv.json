@@ -1,0 +1,218 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 301,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OSJV5474.json), autre chanson, autre moment de chaque plan, look tokyo. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 escalier et fresque rouge du samouraï",
+      "src": "library/samourai/clips/SAM-016.mp4",
+      "start": 0.1,
+      "end": 1.133,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#2 chambre à table basse et poupée japonaise",
+      "src": "library/samourai/clips/SAM-018.mp4",
+      "start": 0.1,
+      "end": 1.234,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#3 grande plante tropicale dans la salle",
+      "src": "library/samourai/clips/SAM-012.mp4",
+      "start": 0.1,
+      "end": 1.266,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-018.mp4",
+        "start": 1.12,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#4 cage bleue et plantes devant la fresque rouge",
+      "src": "library/samourai/clips/SAM-080.mp4",
+      "start": 0.1,
+      "end": 1.3,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#5 sauce versée sur les makis frits",
+      "src": "library/samourai/clips/SAM-027.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.723,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-080.mp4",
+        "start": 1.3,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#6 terrasse végétale et tables",
+      "src": "library/samourai/clips/SAM-010.mp4",
+      "start": 0.1,
+      "end": 1.233,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#7 éventails rouges posés sur une table noire",
+      "src": "library/samourai/clips/SAM-151.mp4",
+      "start": 0.1,
+      "end": 1.333,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-010.mp4",
+        "start": 1.18,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#8 Saisie d'un sushi avec des baguettes noires",
+      "src": "library/samourai/clips/SAM-129.mp4",
+      "start": 0,
+      "end": 0.92,
+      "speed": 0.836,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#9 Nombreuses lanternes rouges suspendues au plafond",
+      "src": "library/samourai/clips/SAM-114.mp4",
+      "start": 0.1,
+      "end": 0.634,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-129.mp4",
+        "start": 0.652,
+        "speed": 0.836,
+        "dur": 0.32
+      }
+    },
+    {
+      "label": "#10 Grand présentoir à étages garni de sushis",
+      "src": "library/samourai/clips/SAM-119.mp4",
+      "start": 0.62,
+      "end": 1.32,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#11 soupe ramen avec œuf et champignons en gros plan",
+      "src": "library/samourai/clips/SAM-105.mp4",
+      "start": 0.1,
+      "end": 0.666,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-119.mp4",
+        "start": 1.32,
+        "dur": 0.34
+      }
+    },
+    {
+      "label": "#12 presentation de sushis sur etageres en bois",
+      "src": "library/samourai/clips/SAM-256.mp4",
+      "start": 0,
+      "end": 0.38,
+      "speed": 0.633,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#13 Petit bonsaï décoratif dans un pot bleu",
+      "src": "library/samourai/clips/SAM-210.mp4",
+      "start": 0.1,
+      "end": 0.567,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "speed": 0.438,
+      "quadIn": {
+        "src": "library/samourai/clips/SAM-256.mp4",
+        "start": 0.127,
+        "speed": 0.633,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#14 gros plan sur des assiettes de sushis",
+      "src": "library/samourai/clips/SAM-237.mp4",
+      "start": 0.02,
+      "end": 0.82,
+      "grade": {
+        "curve": "tokyo",
+        "brightness": 1.08,
+        "contrast": 1.04,
+        "saturate": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OSJV5474.MP4",
+    "from": 0
+  }
+}

@@ -1,11 +1,12 @@
 import React from "react";
-import { AbsoluteFill, Img, OffthreadVideo, staticFile, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, OffthreadVideo, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { gradeToFilter, type Theme } from "../themes";
 import { isImage } from "../timeline";
 import type { Clip } from "../types";
 import { MotionLayer } from "./MotionLayer";
 import { PanelsView } from "./PanelsView";
 import { MosaicView } from "./MosaicView";
+import { RevealMask } from "./RevealMask";
 import { SocialLayer } from "./SocialLayer";
 import { CurveFilter } from "../grading";
 import { TextLayer } from "./TextLayer";
@@ -17,7 +18,8 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
   durationInFrames,
   handle,
 }) => {
-  const { fps } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
+  const frame = useCurrentFrame();
   const grade = { ...theme.grade, ...clip.grade };
   const src = staticFile(clip.src);
   // Mirror (flips a camera move left/right) on the media itself, around its own centre,
@@ -26,8 +28,30 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
   const curveId = `curve-${index}`;
   const filter = [grade.curve ? `url(#${curveId})` : "", gradeToFilter(grade)].join(" ").trim();
 
+  // Quadrant transition: this shot shows quarter by quarter (top-left, bottom-left,
+  // top-right, bottom-right) over the end of the previous shot, then in full.
+  const q = clip.quadIn;
+  const qt = frame / fps;
+  let quadPath: string | undefined;
+  if (q && qt < q.dur) {
+    const W = width / 2, H = height / 2;
+    const quads = [[0, 0], [0, H], [W, 0], [W, H]].filter((_, k) => qt >= (k * q.dur) / 4);
+    quadPath = `path('${quads.map(([x, y]) => `M${x} ${y}H${x + W}V${y + H}H${x}Z`).join(" ")}')`;
+  }
+  const prevGrade = q ? { ...theme.grade, ...q.grade } : undefined;
+
   return (
     <AbsoluteFill style={{ backgroundColor: theme.colors.background, overflow: "hidden" }}>
+      {q && prevGrade && quadPath ? (
+        <AbsoluteFill>
+          {prevGrade.curve ? <CurveFilter id={`quad-${curveId}`} curve={prevGrade.curve} /> : null}
+          <AbsoluteFill style={{ filter: [prevGrade.curve ? `url(#quad-${curveId})` : "", gradeToFilter(prevGrade)].join(" ").trim() }}>
+            <OffthreadVideo src={staticFile(q.src)} trimBefore={Math.round(q.start * fps)} playbackRate={q.speed ?? 1} muted
+              style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          </AbsoluteFill>
+        </AbsoluteFill>
+      ) : null}
+      <AbsoluteFill style={quadPath ? { clipPath: quadPath } : undefined}>
       <MotionLayer motion={clip.motion ?? "none"} intensity={clip.motionIntensity ?? 1} seed={`clip-${index}`}
         durationInFrames={durationInFrames}
         zoom={clip.zoom}
@@ -60,6 +84,11 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
           <AbsoluteFill style={{ backgroundColor: grade.tint, mixBlendMode: grade.tintBlend ?? "soft-light" }} />
         ) : null}
       </MotionLayer>
+      </AbsoluteFill>
+      {clip.reveal ? (
+        // Black outside the revealed rectangles (puzzle reveal); the shot keeps playing underneath.
+        <RevealMask reveal={clip.reveal} />
+      ) : null}
       {clip.letterbox ? (
         // Cinema bars inside the vertical frame: the image reads as a wide film shot.
         <AbsoluteFill style={{ pointerEvents: "none" }}>

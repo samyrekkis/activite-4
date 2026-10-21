@@ -25,7 +25,8 @@ const theme = (m) => {
   if (m.category === "salle") return "SALLE";
   if (m.category === "deco") return "DECO";
   if (m.category === "table") return "TABLE";
-  if (m.category === "plat" || m.category === "cuisine") return "PLAT";
+  if (m.category === "cuisine") return "CUISINE";
+  if (m.category === "plat") return "PLAT";
   if (m.category === "dessert" || m.category === "boisson" || /milkshake|cocktail|caf[ée]|\bth[ée]\b|jus|smoothie/.test(n)) return "DESSERT";
   if (m.category === "geste") return "GESTE";
   return "PERSONNES";

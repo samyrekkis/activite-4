@@ -1,0 +1,126 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 402,
+  "brief": "Story copiée de l’edit de référence XWSA6292 : un seul plan qui se construit sur fond noir, rectangle par rectangle, puis s’ouvre en entier à 6 s. Même chanson. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 piscine et mur d'assiettes bleu, plan large (révélé en puzzle)",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 0.05,
+      "end": 5.871,
+      "speed": 0.828,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.81,
+        "contrast": 1.21,
+        "saturate": 0.64,
+        "tint": "rgba(40,120,255,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "reveal": {
+        "rects": [
+          [
+            0.3,
+            0.4,
+            0.4,
+            0.1,
+            0
+          ],
+          [
+            0.3,
+            0.5,
+            0.4,
+            0.12,
+            1
+          ],
+          [
+            0.1,
+            0.4,
+            0.2,
+            0.22,
+            1.8
+          ],
+          [
+            0.7,
+            0.4,
+            0.2,
+            0.22,
+            2.6
+          ],
+          [
+            0.3,
+            0.28,
+            0.4,
+            0.12,
+            3
+          ],
+          [
+            0.1,
+            0.28,
+            0.2,
+            0.12,
+            3.2
+          ],
+          [
+            0.7,
+            0.28,
+            0.2,
+            0.12,
+            3.6
+          ],
+          [
+            0.1,
+            0.62,
+            0.8,
+            0.12,
+            3.8
+          ],
+          [
+            0,
+            0.16,
+            0.5,
+            0.12,
+            4.2
+          ],
+          [
+            0.5,
+            0.16,
+            0.5,
+            0.12,
+            4.4
+          ],
+          [
+            0,
+            0.74,
+            1,
+            0.12,
+            4.8
+          ],
+          [
+            0,
+            0.28,
+            0.1,
+            0.46,
+            5.2
+          ],
+          [
+            0.9,
+            0.28,
+            0.1,
+            0.46,
+            5.2
+          ]
+        ],
+        "full": 6
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "XWSA6292",
+    "from": 0
+  }
+}

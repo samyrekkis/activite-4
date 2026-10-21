@@ -1,0 +1,419 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (LXWZ3325.json), autre chanson, autre moment de chaque plan, look film. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 hall d'entrée illuminé, buffet du soir (zoom avant 7 %)",
+      "src": "library/monegasque/clips/MON-199.mp4",
+      "start": 0,
+      "end": 3.68,
+      "speed": 0.986,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.074
+      }
+    },
+    {
+      "label": "#2 mur d'assiettes bleu et enseigne rayée",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 1.92,
+      "end": 2.12,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#3 salle près de la piscine avec clients",
+      "src": "library/monegasque/clips/MON-091.mp4",
+      "start": 0.69,
+      "end": 0.924,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#4 salle et buffet sous le lustre en cristal",
+      "src": "library/monegasque/clips/MON-205.mp4",
+      "start": 1.46,
+      "end": 1.593,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#5 jeune femme qui enfile le haïk devant la colonne lumineuse",
+      "src": "library/monegasque/clips/MON-041.mp4",
+      "start": 3.32,
+      "end": 3.553,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#6 salle de fêtes et décor de neige",
+      "src": "library/monegasque/clips/MON-311.mp4",
+      "start": 1.22,
+      "end": 1.454,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 table surprise rouge, cadeaux et pétales",
+      "src": "library/monegasque/clips/MON-246.mp4",
+      "start": 1.62,
+      "end": 1.82,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 milkshake rose et crêpe au chocolat",
+      "src": "library/monegasque/clips/MON-089.mp4",
+      "start": 2.29,
+      "end": 2.523,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 2.69,
+      "end": 2.89,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 assiette dressée et lampe dorée, table rose",
+      "src": "library/monegasque/clips/MON-273.mp4",
+      "start": 1.46,
+      "end": 1.693,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#11 bol granola, fraises et banane (zoom arrière 6 %)",
+      "src": "library/monegasque/clips/MON-172.mp4",
+      "start": 1.62,
+      "end": 1.854,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.059,
+        "to": 1
+      }
+    },
+    {
+      "label": "#12 brunch partagé vu du dessus",
+      "src": "library/monegasque/clips/MON-288.mp4",
+      "start": 1.19,
+      "end": 1.423,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 serveur qui apporte l'assiette, bar en fond",
+      "src": "library/monegasque/clips/MON-143.mp4",
+      "start": 0.82,
+      "end": 1.053,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#14 cliente qui regarde le menu face à la piscine",
+      "src": "library/monegasque/clips/MON-158.mp4",
+      "start": 2.19,
+      "end": 2.39,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 piscine au crépuscule, lumière dorée",
+      "src": "library/monegasque/clips/MON-282.mp4",
+      "start": 2.25,
+      "end": 2.45,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#16 fondant au chocolat coulant",
+      "src": "library/monegasque/clips/MON-023.mp4",
+      "start": 0.22,
+      "end": 0.354,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#17 escalope panée nappée de sauce",
+      "src": "library/monegasque/clips/MON-161.mp4",
+      "start": 3.09,
+      "end": 3.223,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#18 assiette avocat saumon et jus, déco colorée (zoom arrière 13 %)",
+      "src": "library/monegasque/clips/MON-058.mp4",
+      "start": 0,
+      "end": 0.433,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.155,
+        "to": 1
+      }
+    },
+    {
+      "label": "#19 main qui déroule la serviette sur la table citron",
+      "src": "library/monegasque/clips/MON-219.mp4",
+      "start": 1.26,
+      "end": 1.394,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#20 paella aux crevettes et citrons",
+      "src": "library/monegasque/clips/MON-132.mp4",
+      "start": 0.92,
+      "end": 1.053,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#21 crêpe et pancakes sur set de table coloré",
+      "src": "library/monegasque/clips/MON-035.mp4",
+      "start": 0.45,
+      "end": 0.65,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#22 fourchette et couteau dans la burrata",
+      "src": "library/monegasque/clips/MON-019.mp4",
+      "start": 0.12,
+      "end": 0.387,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#23 dessert chantilly et milkshake au bord de la piscine",
+      "src": "library/monegasque/clips/MON-157.mp4",
+      "start": 2.32,
+      "end": 2.52,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#24 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.96,
+      "end": 1.193,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#25 burrata et figues, plan serré",
+      "src": "library/monegasque/clips/MON-326.mp4",
+      "start": 0.69,
+      "end": 0.89,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#26 main qui photographie la burrata",
+      "src": "library/monegasque/clips/MON-111.mp4",
+      "start": 0.42,
+      "end": 0.653,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#27 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 1.85,
+      "end": 2.05,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#28 makis et pain sur nappe faïence",
+      "src": "library/monegasque/clips/MON-258.mp4",
+      "start": 0.75,
+      "end": 0.947,
+      "grade": {
+        "curve": "film",
+        "brightness": 1.1,
+        "contrast": 1.29,
+        "saturate": 0.726,
+        "tint": "rgba(255,150,40,0.03)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 2/LXWZ3325.MP4",
+    "from": 0
+  }
+}

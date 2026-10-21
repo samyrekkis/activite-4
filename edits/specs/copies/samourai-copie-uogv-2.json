@@ -1,0 +1,96 @@
+{
+ "out": "edits/copies/samourai-copie-uogv-2.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/UOGV3464-manual.json",
+ "from": 0,
+ "to": 16.5,
+ "minShot": 0.09,
+ "curve": "encre",
+ "version": 100,
+ "brief": "Deuxième copie de l’edit de référence UOGV3464 (visite du soir, flashs noir et blanc) avec les nouveaux plans du Samouraï : l’entrée, 8 flashs de détails en noir et blanc, la salle, les kimonos, le chef, des flashs de sushis, et la salle pour finir. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "shots": [
+  {
+   "id": "SAM-164"
+  },
+  {
+   "id": "SAM-190"
+  },
+  {
+   "id": "SAM-232"
+  },
+  {
+   "id": "SAM-220"
+  },
+  {
+   "id": "SAM-137"
+  },
+  {
+   "id": "SAM-158"
+  },
+  {
+   "id": "SAM-230"
+  },
+  {
+   "id": "SAM-200"
+  },
+  {
+   "id": "SAM-089"
+  },
+  {
+   "id": "SAM-008"
+  },
+  {
+   "id": "SAM-203"
+  },
+  {
+   "id": "SAM-083"
+  },
+  {
+   "id": "SAM-143"
+  },
+  {
+   "id": "SAM-180"
+  },
+  {
+   "id": "SAM-110"
+  },
+  {
+   "id": "SAM-211"
+  },
+  {
+   "id": "SAM-160"
+  },
+  {
+   "id": "SAM-135"
+  },
+  {
+   "id": "SAM-175"
+  },
+  {
+   "id": "SAM-148"
+  },
+  {
+   "id": "SAM-255"
+  },
+  {
+   "id": "SAM-244"
+  },
+  {
+   "id": "SAM-097"
+  },
+  {
+   "id": "SAM-249"
+  },
+  {
+   "id": "SAM-236"
+  },
+  {
+   "id": "SAM-098"
+  },
+  {
+   "id": "SAM-140"
+  }
+ ]
+}

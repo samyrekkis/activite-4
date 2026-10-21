@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/samourai-quad-hwjc.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/HWJC6898.json",
+ "from": 0,
+ "to": 10,
+ "minShot": 0.4,
+ "curve": "encre",
+ "version": 1,
+ "copyZoom": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (HWJC6898.json), autre chanson, autre moment de chaque plan, look encre. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-066",
+   "at": 2.01
+  },
+  {
+   "id": "SAM-058",
+   "at": 4.75
+  },
+  {
+   "id": "SAM-079",
+   "at": 1.04
+  },
+  {
+   "id": "SAM-036",
+   "at": 1.78
+  },
+  {
+   "id": "SAM-220",
+   "at": 0
+  },
+  {
+   "id": "SAM-203",
+   "at": 2.52
+  },
+  {
+   "id": "SAM-160",
+   "at": 2.19
+  },
+  {
+   "id": "SAM-249",
+   "at": 0
+  },
+  {
+   "id": "SAM-253",
+   "at": 0
+  },
+  {
+   "id": "SAM-163",
+   "at": 1.55
+  },
+  {
+   "id": "SAM-243",
+   "at": 0.92
+  },
+  {
+   "id": "SAM-142",
+   "at": 0.29
+  },
+  {
+   "id": "SAM-235",
+   "at": 1.09
+  },
+  {
+   "id": "SAM-004",
+   "at": 0.36
+  },
+  {
+   "id": "SAM-218",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-141",
+   "at": 0
+  }
+ ]
+}

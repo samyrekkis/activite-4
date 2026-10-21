@@ -1,0 +1,276 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 4,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OSJV5474.json), autre chanson, autre moment de chaque plan, look portra avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 rue et entrée du restaurant avec tapis rouge",
+      "src": "library/monegasque/clips/MON-081.mp4",
+      "start": 0.1,
+      "end": 1.133,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 travelling dans la salle, bar et colonnes lumineuses",
+      "src": "library/monegasque/clips/MON-183.mp4",
+      "start": 0.1,
+      "end": 1.234,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 brunch au bord de la piscine avec jus et smoothies",
+      "src": "library/monegasque/clips/MON-144.mp4",
+      "start": 0,
+      "end": 1.08,
+      "speed": 0.926,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-183.mp4",
+        "start": 1.234,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#4 table romantique rouge et noire, pétales",
+      "src": "library/monegasque/clips/MON-208.mp4",
+      "start": 0.62,
+      "end": 1.82,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 brunch complet avec crêpe et toasts, vue de dessus",
+      "src": "library/monegasque/clips/MON-146.mp4",
+      "start": 0.1,
+      "end": 1.234,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-208.mp4",
+        "start": 1.82,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#6 hall d'entrée illuminé, buffet du soir",
+      "src": "library/monegasque/clips/MON-199.mp4",
+      "start": 0.1,
+      "end": 1.233,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 jeune femme qui enfile le haïk devant la colonne lumineuse",
+      "src": "library/monegasque/clips/MON-041.mp4",
+      "start": 0.1,
+      "end": 1.333,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-199.mp4",
+        "start": 1.233,
+        "dur": 0.4
+      }
+    },
+    {
+      "label": "#8 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 0.1,
+      "end": 1.2,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 plateau de makis sauce blanche",
+      "src": "library/monegasque/clips/MON-105.mp4",
+      "start": 0.1,
+      "end": 0.634,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-005.mp4",
+        "start": 1.2,
+        "dur": 0.32
+      }
+    },
+    {
+      "label": "#10 salle sous le plafond miroir, suspensions dorées",
+      "src": "library/monegasque/clips/MON-189.mp4",
+      "start": 0.1,
+      "end": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 gambas grillées et sauce, plan serré",
+      "src": "library/monegasque/clips/MON-222.mp4",
+      "start": 0.1,
+      "end": 0.666,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-189.mp4",
+        "start": 0.8,
+        "dur": 0.34
+      }
+    },
+    {
+      "label": "#12 fourchette dans le dessert aux figues",
+      "src": "library/monegasque/clips/MON-267.mp4",
+      "start": 0.1,
+      "end": 0.7,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 salle aux fauteuils verts, soir de ramadan",
+      "src": "library/monegasque/clips/MON-202.mp4",
+      "start": 0.1,
+      "end": 0.567,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-267.mp4",
+        "start": 0.7,
+        "dur": 0.28
+      }
+    },
+    {
+      "label": "#14 mains qui applaudissent autour du gâteau d'anniversaire",
+      "src": "library/monegasque/clips/MON-129.mp4",
+      "start": 0.1,
+      "end": 0.7,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 flamme dans la poêle en cuisine",
+      "src": "library/monegasque/clips/MON-103.mp4",
+      "start": 0,
+      "end": 0.52,
+      "speed": 0.65,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.702,
+        "contrast": 1.08,
+        "saturate": 1.733,
+        "tint": "rgba(255,150,40,0.05)",
+        "tintBlend": "soft-light"
+      },
+      "letterbox": true,
+      "quadIn": {
+        "src": "library/monegasque/clips/MON-129.mp4",
+        "start": 0.7,
+        "dur": 0.4
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OSJV5474.MP4",
+    "from": 0
+  }
+}
