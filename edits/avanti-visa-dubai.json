@@ -2,12 +2,12 @@
   "restaurant": "avanti",
   "format": "vertical",
   "fps": 30,
-  "version": 5,
+  "version": 6,
   "brief": "Reel Instagram de ~38 s pour Avanti Travel (agence de visas pour les Émirats). Script en 6 scènes : accroche « Dreaming of Dubai? », la ville, les expériences, le problème (le visa), la solution (Avanti), appel à l'action WhatsApp. Plans de 1 à 2 s calés sur une grille de 0,5 s (120 BPM) pour qu'un son tendance ajouté dans Instagram tombe juste. Numéro WhatsApp à l'écran au moins 4 s. Photos personnelles de Dubaï, vidéos de la fontaine et de la plage Barasti, photo des visas obtenus (floutés). Musique « Habibi Come to Dubai » ou un son tendance, ajouté dans Instagram : la vidéo est livrée sans musique.",
   "clips": [
     {
-      "label": "#1 accroche Marina vue drone",
-      "src": "rushes/avanti/photos/marina-yacht.jpg",
+      "label": "#1 accroche Burj Khalifa et fontaines",
+      "src": "rushes/avanti/photos/burj-fontaine-nuit.jpg",
       "duration": 2,
       "motion": "drone",
       "text": [
@@ -20,29 +20,18 @@
       ]
     },
     {
-      "label": "#2 fontaine et abra",
-      "src": "rushes/avanti/photos/fontaine-abra.jpg",
+      "label": "#2 parachute au-dessus de Palm",
+      "src": "rushes/avanti/photos/parachute-palm.jpg",
       "duration": 1.5,
       "motion": "drone",
-      "motionIntensity": 1,
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
         "duration": 0.2
-      }
-    },
-    {
-      "label": "#3 Burj Khalifa arc-en-ciel",
-      "src": "rushes/avanti/photos/burj-arcenciel.jpg",
-      "fit": "blur",
-      "duration": 1.5,
-      "motion": "drone",
-      "transitionIn": {
-        "type": "cut"
       },
       "text": [
         {
-          "content": "The world's tallest tower",
+          "content": "Sky-high adventures",
           "style": "caption",
           "position": "bottom",
           "delay": 0.1
@@ -50,23 +39,38 @@
       ]
     },
     {
-      "label": "#4 fontaine du Dubai Mall (vidéo)",
-      "src": "rushes/avanti/fontaine.mp4",
-      "fit": "blur",
-      "start": 13.5,
-      "end": 15.5,
-      "muted": true,
-      "volume": 0.7,
+      "label": "#3 Marina depuis le yacht",
+      "src": "rushes/avanti/photos/marina-yacht.jpg",
+      "duration": 1,
+      "motion": "panLeft",
       "transitionIn": {
-        "type": "flash",
-        "duration": 0.2
+        "type": "cut"
       }
+    },
+    {
+      "label": "#4 Musée du Futur",
+      "src": "rushes/avanti/photos/musee-futur.jpg",
+      "duration": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "whip",
+        "direction": "from-left",
+        "duration": 0.2
+      },
+      "text": [
+        {
+          "content": "Museum of the Future",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.1
+        }
+      ]
     },
     {
       "label": "#5 Dubai Marina de nuit",
       "src": "rushes/avanti/photos/marina-nuit.jpg",
       "duration": 1.5,
-      "motion": "drone",
+      "motion": "panRight",
       "transitionIn": {
         "type": "cut"
       },
@@ -89,18 +93,35 @@
       }
     },
     {
-      "label": "#7 dunes du désert",
-      "src": "rushes/avanti/photos/dunes.jpg",
+      "label": "#7 quad dans les dunes",
+      "src": "rushes/avanti/photos/quad-desert.jpg",
       "duration": 1.5,
       "motion": "drone",
       "transitionIn": {
         "type": "whip",
-        "direction": "from-left",
+        "direction": "from-right",
         "duration": 0.2
       },
       "text": [
         {
           "content": "Desert adventures",
+          "style": "caption",
+          "position": "bottom",
+          "delay": 0.1
+        }
+      ]
+    },
+    {
+      "label": "#8 jet-ski face au Burj Al Arab",
+      "src": "rushes/avanti/photos/jetski-burj-al-arab.jpg",
+      "duration": 1.5,
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "cut"
+      },
+      "text": [
+        {
+          "content": "Burj Al Arab views",
           "style": "caption",
           "position": "bottom",
           "delay": 0.1
@@ -148,40 +169,25 @@
       "motion": "zoomOut",
       "transitionIn": {
         "type": "cut"
-      }
-    },
-    {
-      "label": "#12 Dubai Mall dinosaure",
-      "src": "rushes/avanti/photos/mall-dinosaure.jpg",
-      "fit": "blur",
-      "duration": 1.5,
-      "motion": "zoomIn",
-      "transitionIn": {
-        "type": "whip",
-        "direction": "from-right",
-        "duration": 0.2
       },
       "text": [
-        {
-          "content": "World-class shopping",
-          "style": "caption",
-          "position": "top",
-          "delay": 0.1
-        },
         {
           "content": "Dubai has it all.",
           "style": "caption",
           "position": "bottom",
-          "delay": 0.6
+          "delay": 0.1
         }
       ]
     },
     {
-      "label": "#12 le problème : avion Emirates",
-      "src": "rushes/avanti/photos/avion-emirates.jpg",
+      "label": "#12 le problème : A380 Emirates",
+      "src": "rushes/avanti/photos/emirates-a380.jpg",
       "duration": 2,
       "motion": "zoomIn",
       "motionIntensity": 2,
+      "grade": {
+        "saturate": 0.95
+      },
       "transitionIn": {
         "type": "fade",
         "duration": 0.3
@@ -304,9 +310,9 @@
     },
     {
       "label": "#18 Fast",
-      "src": "rushes/avanti/photos/aeroport-dxb.jpg",
+      "src": "rushes/avanti/photos/avion-emirates.jpg",
       "duration": 2,
-      "motion": "zoomIn",
+      "motion": "panRight",
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
@@ -329,9 +335,9 @@
     },
     {
       "label": "#19 Easy",
-      "src": "rushes/avanti/photos/plage-coucher.jpg",
+      "src": "rushes/avanti/photos/aeroport-dxb.jpg",
       "duration": 1,
-      "motion": "panLeft",
+      "motion": "zoomIn",
       "transitionIn": {
         "type": "whip",
         "direction": "from-left",
@@ -348,10 +354,10 @@
     },
     {
       "label": "#20 Trusted",
-      "src": "rushes/avanti/photos/fontaine-abra.jpg",
+      "src": "rushes/avanti/photos/burj-fontaine-nuit.jpg",
       "fit": "cover",
       "duration": 2.5,
-      "motion": "drone",
+      "motion": "zoomOut",
       "transitionIn": {
         "type": "whip",
         "direction": "from-right",
