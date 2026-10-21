@@ -1,0 +1,340 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 7,
+  "brief": "Copie exacte de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps à 136 BPM, 23 plans) : l’enseigne, la rue et l’entrée, le hall, les plafonds et suspensions, la salle, le bar, puis la terrasse et la piscine du Monégasque. Sans son : la cliente remet la même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 mur de cadres et néon Le Monégasque",
+      "src": "library/monegasque/clips/MON-191.mp4",
+      "start": 0,
+      "end": 0.93,
+      "speed": 0.997,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#2 rue et entrée du restaurant avec tapis rouge",
+      "src": "library/monegasque/clips/MON-081.mp4",
+      "start": 0.551,
+      "end": 1.418,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#3 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 1.335,
+      "end": 2.135,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#4 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.946,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#5 travelling derrière la vitre vers la salle",
+      "src": "library/monegasque/clips/MON-190.mp4",
+      "start": 0.473,
+      "end": 1.406,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#6 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 2,
+      "end": 2.9,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 salle sous le plafond miroir, suspensions dorées",
+      "src": "library/monegasque/clips/MON-189.mp4",
+      "start": 0.966,
+      "end": 1.833,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 travelling sous les suspensions dorées, salle et néon",
+      "src": "library/monegasque/clips/MON-178.mp4",
+      "start": 1.824,
+      "end": 2.657,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 travelling devant la banquette arrondie, salle et baie vitrée",
+      "src": "library/monegasque/clips/MON-179.mp4",
+      "start": 1.073,
+      "end": 1.906,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 salle aux suspensions dorées et banquettes vertes",
+      "src": "library/monegasque/clips/MON-181.mp4",
+      "start": 0.982,
+      "end": 1.849,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#11 travelling dans la salle, bar et colonnes lumineuses",
+      "src": "library/monegasque/clips/MON-183.mp4",
+      "start": 1.051,
+      "end": 1.918,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#12 coin salle au néon rose et fauteuils verts",
+      "src": "library/monegasque/clips/MON-182.mp4",
+      "start": 0,
+      "end": 0.78,
+      "speed": 0.901,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 travelling dans la salle aux colonnes lumineuses",
+      "src": "library/monegasque/clips/MON-184.mp4",
+      "start": 1.54,
+      "end": 2.44,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#14 salle avec banquettes vertes",
+      "src": "library/monegasque/clips/MON-015.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.75,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 coin terrasse avec néon rose",
+      "src": "library/monegasque/clips/MON-131.mp4",
+      "start": 0.4,
+      "end": 1.3,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#16 salle de la terrasse avec écran et fresques colorées",
+      "src": "library/monegasque/clips/MON-187.mp4",
+      "start": 1.573,
+      "end": 2.406,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#17 terrasse colorée, cocktails et fauteuil rouge",
+      "src": "library/monegasque/clips/MON-262.mp4",
+      "start": 0.601,
+      "end": 1.468,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#18 terrasse aux lustres en osier et plantes, travelling",
+      "src": "library/monegasque/clips/MON-186.mp4",
+      "start": 1.269,
+      "end": 2.102,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#19 terrasse sous l'auvent, vue sur la piscine et les arbres",
+      "src": "library/monegasque/clips/MON-177.mp4",
+      "start": 1.16,
+      "end": 2.06,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#20 travelling sur la passerelle fleurie au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-180.mp4",
+      "start": 1.677,
+      "end": 2.544,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#21 piscine et mur d'assiettes bleu, plan large",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 2.526,
+      "end": 3.393,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#22 travelling le long de la piscine depuis la table",
+      "src": "library/monegasque/clips/MON-195.mp4",
+      "start": 1.085,
+      "end": 1.885,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#23 travelling sur la table colorée face à la piscine",
+      "src": "library/monegasque/clips/MON-173.mp4",
+      "start": 0.848,
+      "end": 1.951,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 1.05,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/CLCC7774.MP4",
+    "from": 0
+  }
+}

@@ -1,0 +1,82 @@
+{
+ "out": "edits/copies/monegasque-copie-clcc.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/CLCC7774.json",
+ "from": 0,
+ "to": 20.17,
+ "minShot": 0.3,
+ "curve": "golden",
+ "version": 1,
+ "brief": "Copie exacte de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps à 136 BPM, 23 plans) : l’enseigne, la rue et l’entrée, le hall, les plafonds et suspensions, la salle, le bar, puis la terrasse et la piscine du Monégasque. Sans son : la cliente remet la même chanson. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-191"
+  },
+  {
+   "id": "MON-081"
+  },
+  {
+   "id": "MON-067"
+  },
+  {
+   "id": "MON-112"
+  },
+  {
+   "id": "MON-190"
+  },
+  {
+   "id": "MON-174"
+  },
+  {
+   "id": "MON-189"
+  },
+  {
+   "id": "MON-178"
+  },
+  {
+   "id": "MON-179"
+  },
+  {
+   "id": "MON-181"
+  },
+  {
+   "id": "MON-183"
+  },
+  {
+   "id": "MON-182"
+  },
+  {
+   "id": "MON-184"
+  },
+  {
+   "id": "MON-015"
+  },
+  {
+   "id": "MON-131"
+  },
+  {
+   "id": "MON-187"
+  },
+  {
+   "id": "MON-262"
+  },
+  {
+   "id": "MON-186"
+  },
+  {
+   "id": "MON-177"
+  },
+  {
+   "id": "MON-180"
+  },
+  {
+   "id": "MON-185"
+  },
+  {
+   "id": "MON-195"
+  },
+  {
+   "id": "MON-173"
+  }
+ ]
+}

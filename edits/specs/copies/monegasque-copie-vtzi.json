@@ -1,0 +1,249 @@
+{
+ "out": "edits/copies/monegasque-copie-vtzi.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/VTZI7105.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.1,
+ "curve": "moody",
+ "version": 6,
+ "brief": "Copie exacte du rythme de l’edit de référence VTZI7105 (montage cinéma ultra-rapide, 59 coupes en 14,5 s, chanson 129 BPM) avec les plans du Monégasque : ambiance, puis l’action (versers, couvercle, flamme, couteau), les plats, la salle, et les plats tenus en main. Sans son : la cliente remet la même chanson. Aucun texte, aucun logo, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-322",
+   "b": 0.9
+  },
+  {
+   "id": "MON-247",
+   "b": 0.9
+  },
+  {
+   "id": "MON-151",
+   "b": 0.9
+  },
+  {
+   "id": "MON-245",
+   "b": 0.9
+  },
+  {
+   "id": "MON-296",
+   "b": 0.9
+  },
+  {
+   "id": "MON-314",
+   "b": 0.9
+  },
+  {
+   "id": "MON-200",
+   "b": 0.9
+  },
+  {
+   "id": "MON-303",
+   "b": 0.9
+  },
+  {
+   "id": "MON-267",
+   "b": 0.9
+  },
+  {
+   "id": "MON-251",
+   "b": 0.9
+  },
+  {
+   "id": "MON-093",
+   "b": 0.9
+  },
+  {
+   "id": "MON-088",
+   "b": 0.9
+  },
+  {
+   "id": "MON-235",
+   "b": 0.9
+  },
+  {
+   "id": "MON-029",
+   "b": 0.9
+  },
+  {
+   "id": "MON-007",
+   "b": 0.9
+  },
+  {
+   "id": "MON-304",
+   "b": 0.9
+  },
+  {
+   "id": "MON-204",
+   "b": 0.9
+  },
+  {
+   "id": "MON-305",
+   "b": 0.9
+  },
+  {
+   "id": "MON-307",
+   "b": 0.9
+  },
+  {
+   "id": "MON-306",
+   "b": 0.9
+  },
+  {
+   "id": "MON-309",
+   "b": 0.9
+  },
+  {
+   "id": "MON-310",
+   "b": 0.9
+  },
+  {
+   "id": "MON-308",
+   "b": 0.9
+  },
+  {
+   "id": "MON-315",
+   "b": 0.9
+  },
+  {
+   "id": "MON-317",
+   "b": 0.9
+  },
+  {
+   "id": "MON-239",
+   "b": 0.9
+  },
+  {
+   "id": "MON-266",
+   "b": 0.9
+  },
+  {
+   "id": "MON-268",
+   "b": 0.9
+  },
+  {
+   "id": "MON-085",
+   "b": 0.9
+  },
+  {
+   "id": "MON-105",
+   "b": 0.9
+  },
+  {
+   "id": "MON-086",
+   "b": 0.9
+  },
+  {
+   "id": "MON-300",
+   "b": 0.9
+  },
+  {
+   "id": "MON-264",
+   "b": 0.9
+  },
+  {
+   "id": "MON-265",
+   "b": 0.9
+  },
+  {
+   "id": "MON-240",
+   "b": 0.9
+  },
+  {
+   "id": "MON-203",
+   "b": 0.9
+  },
+  {
+   "id": "MON-205",
+   "b": 0.9
+  },
+  {
+   "id": "MON-242",
+   "b": 0.9
+  },
+  {
+   "id": "MON-271",
+   "b": 0.9
+  },
+  {
+   "id": "MON-311",
+   "b": 0.9
+  },
+  {
+   "id": "MON-094",
+   "b": 0.9
+  },
+  {
+   "id": "MON-095",
+   "b": 0.9
+  },
+  {
+   "id": "MON-034",
+   "b": 0.9
+  },
+  {
+   "id": "MON-213",
+   "b": 0.9
+  },
+  {
+   "id": "MON-246",
+   "b": 0.9
+  },
+  {
+   "id": "MON-201",
+   "b": 0.9
+  },
+  {
+   "id": "MON-089",
+   "b": 0.9
+  },
+  {
+   "id": "MON-087",
+   "b": 0.9
+  },
+  {
+   "id": "MON-083",
+   "b": 0.9
+  },
+  {
+   "id": "MON-273",
+   "b": 0.9
+  },
+  {
+   "id": "MON-274",
+   "b": 0.9
+  },
+  {
+   "id": "MON-275",
+   "b": 0.9
+  },
+  {
+   "id": "MON-281",
+   "b": 0.9
+  },
+  {
+   "id": "MON-319",
+   "b": 0.9
+  },
+  {
+   "id": "MON-320",
+   "b": 0.9
+  },
+  {
+   "id": "MON-321",
+   "b": 0.9
+  },
+  {
+   "id": "MON-270",
+   "b": 0.9
+  },
+  {
+   "id": "MON-323",
+   "b": 0.9
+  },
+  {
+   "id": "MON-220",
+   "b": 0.9
+  }
+ ]
+}

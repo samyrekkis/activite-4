@@ -1,0 +1,362 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 7,
+  "brief": "Copie exacte du rythme de l’edit de référence CAJY3696 (un plan d’ouverture de 1,4 s puis 28 coupes de 0,45 s sur le beat, chanson 136 BPM) : balade de jour, façade, entrée, enseignes, déco, terrasse et piscine du Monégasque, en contre-plongée et en marche avant. Sans son : la cliente remet la même chanson. Aucun texte ajouté, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 rue et entrée du restaurant avec tapis rouge",
+      "src": "library/monegasque/clips/MON-081.mp4",
+      "start": 0.268,
+      "end": 1.701,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#2 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 1.552,
+      "end": 1.919,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#3 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0.252,
+      "end": 0.619,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#4 cage à oiseaux avec perruches colorées",
+      "src": "library/monegasque/clips/MON-065.mp4",
+      "start": 0.132,
+      "end": 0.598,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#5 mur d'assiettes bleu et enseigne rayée",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 0.867,
+      "end": 1.334,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#6 coin terrasse avec néon rose",
+      "src": "library/monegasque/clips/MON-131.mp4",
+      "start": 0.65,
+      "end": 1.05,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#7 mur de pierre et fleurs bleues et jaunes",
+      "src": "library/monegasque/clips/MON-139.mp4",
+      "start": 0.231,
+      "end": 0.698,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#8 table dressée avec roses jaunes et faïence bleue",
+      "src": "library/monegasque/clips/MON-128.mp4",
+      "start": 0.482,
+      "end": 0.948,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#9 citrons, bougie et verre sur la nappe faïence",
+      "src": "library/monegasque/clips/MON-217.mp4",
+      "start": 0.868,
+      "end": 1.302,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#10 bouquet de roses offert à table",
+      "src": "library/monegasque/clips/MON-133.mp4",
+      "start": 0.382,
+      "end": 0.848,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#11 terrasse et fauteuil en rotin",
+      "src": "library/monegasque/clips/MON-171.mp4",
+      "start": 0.198,
+      "end": 0.632,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#12 piscine et mur d'assiettes bleu, plan large",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 2.727,
+      "end": 3.193,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#13 salle aux fauteuils bleus et colonne lumineuse",
+      "src": "library/monegasque/clips/MON-255.mp4",
+      "start": 0.266,
+      "end": 0.733,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#14 terrasse fleurie, plantes violettes",
+      "src": "library/monegasque/clips/MON-121.mp4",
+      "start": 0.269,
+      "end": 0.702,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#15 terrasse colorée, cocktails et fauteuil rouge",
+      "src": "library/monegasque/clips/MON-262.mp4",
+      "start": 0.818,
+      "end": 1.252,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#16 ballons roses et fresque colorée",
+      "src": "library/monegasque/clips/MON-263.mp4",
+      "start": 1.249,
+      "end": 1.682,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#17 terrasse couverte et lustres en osier",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0.798,
+      "end": 1.231,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#18 terrasse aux lustres en osier et plantes, travelling",
+      "src": "library/monegasque/clips/MON-186.mp4",
+      "start": 1.451,
+      "end": 1.918,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#19 salle de la terrasse avec écran et fresques colorées",
+      "src": "library/monegasque/clips/MON-187.mp4",
+      "start": 1.756,
+      "end": 2.223,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#20 terrasse couverte avec clients à table",
+      "src": "library/monegasque/clips/MON-025.mp4",
+      "start": 0.084,
+      "end": 0.517,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#21 travelling sur la terrasse et la piscine, clients de dos",
+      "src": "library/monegasque/clips/MON-175.mp4",
+      "start": 1.302,
+      "end": 1.769,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#22 travelling sur la passerelle fleurie au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-180.mp4",
+      "start": 1.877,
+      "end": 2.343,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#23 palmier au-dessus de la piscine turquoise",
+      "src": "library/monegasque/clips/MON-218.mp4",
+      "start": 1.533,
+      "end": 1.967,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#24 terrasse colorée, fauteuil tressé",
+      "src": "library/monegasque/clips/MON-324.mp4",
+      "start": 1.35,
+      "end": 1.85,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#25 allée de pétales et cordon rouge",
+      "src": "library/monegasque/clips/MON-294.mp4",
+      "start": 0.734,
+      "end": 1.167,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#26 escalier couvert de pétales",
+      "src": "library/monegasque/clips/MON-277.mp4",
+      "start": 0.933,
+      "end": 1.366,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#27 travelling sous les suspensions dorées, salle et néon",
+      "src": "library/monegasque/clips/MON-178.mp4",
+      "start": 1.99,
+      "end": 2.49,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#28 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 2.25,
+      "end": 2.65,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    },
+    {
+      "label": "#29 mur de cadres et néon Le Monégasque",
+      "src": "library/monegasque/clips/MON-191.mp4",
+      "start": 0.206,
+      "end": 0.773,
+      "grade": {
+        "curve": "vibrant",
+        "brightness": 1.04,
+        "contrast": 1.1,
+        "saturate": 0.9
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/CAJY3696.MP4",
+    "from": 0
+  }
+}

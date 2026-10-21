@@ -1,0 +1,100 @@
+{
+ "out": "edits/copies/monegasque-copie-cajy.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/CAJY3696.json",
+ "from": 0,
+ "to": 14,
+ "minShot": 0.1,
+ "curve": "portra",
+ "version": 4,
+ "brief": "Copie exacte du rythme de l’edit de référence CAJY3696 (un plan d’ouverture de 1,4 s puis 28 coupes de 0,45 s sur le beat, chanson 136 BPM) : balade de jour, façade, entrée, enseignes, déco, terrasse et piscine du Monégasque, en contre-plongée et en marche avant. Sans son : la cliente remet la même chanson. Aucun texte ajouté, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-081"
+  },
+  {
+   "id": "MON-067"
+  },
+  {
+   "id": "MON-112"
+  },
+  {
+   "id": "MON-065"
+  },
+  {
+   "id": "MON-079"
+  },
+  {
+   "id": "MON-131"
+  },
+  {
+   "id": "MON-139"
+  },
+  {
+   "id": "MON-128"
+  },
+  {
+   "id": "MON-217"
+  },
+  {
+   "id": "MON-133"
+  },
+  {
+   "id": "MON-171"
+  },
+  {
+   "id": "MON-185"
+  },
+  {
+   "id": "MON-255"
+  },
+  {
+   "id": "MON-121"
+  },
+  {
+   "id": "MON-262"
+  },
+  {
+   "id": "MON-263"
+  },
+  {
+   "id": "MON-147"
+  },
+  {
+   "id": "MON-186"
+  },
+  {
+   "id": "MON-187"
+  },
+  {
+   "id": "MON-025"
+  },
+  {
+   "id": "MON-175"
+  },
+  {
+   "id": "MON-180"
+  },
+  {
+   "id": "MON-218"
+  },
+  {
+   "id": "MON-324"
+  },
+  {
+   "id": "MON-294"
+  },
+  {
+   "id": "MON-277"
+  },
+  {
+   "id": "MON-178"
+  },
+  {
+   "id": "MON-174"
+  },
+  {
+   "id": "MON-191"
+  }
+ ]
+}

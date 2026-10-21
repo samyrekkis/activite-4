@@ -1,0 +1,63 @@
+{
+ "out": "edits/copies/monegasque-copie-oyua.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/OYUA3954.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.3,
+ "curve": "portra",
+ "version": 1,
+ "brief": "Copie exacte de l’edit de référence OYUA3954 : tour rapide d’un lieu en travellings accélérés (x1,9 à x2,2 puis x1,05 à x1,3), plans de 2 s puis de 1 s, coupes sur le beat. Ici la terrasse et la piscine du Monégasque. Sans son : la cliente remet la même chanson. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-177",
+   "speed": 1.88,
+   "at": 0
+  },
+  {
+   "id": "MON-185",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-180",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-176",
+   "speed": 2.2,
+   "at": 0
+  },
+  {
+   "id": "MON-195",
+   "speed": 1.08,
+   "at": 0
+  },
+  {
+   "id": "MON-175",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "MON-194",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "MON-173",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "MON-186",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "MON-147",
+   "speed": 1.31,
+   "at": 0
+  }
+ ]
+}
