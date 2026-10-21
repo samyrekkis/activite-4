@@ -1,0 +1,712 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (VTZI7105.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 rue et entrée du restaurant avec tapis rouge",
+      "src": "library/monegasque/clips/MON-081.mp4",
+      "start": 1.69,
+      "end": 1.89,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 mur de cadres et néon Le Monégasque",
+      "src": "library/monegasque/clips/MON-191.mp4",
+      "start": 0.67,
+      "end": 0.903,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 terrasse avec lustre en osier et chaises tressées",
+      "src": "library/monegasque/clips/MON-123.mp4",
+      "start": 0.82,
+      "end": 0.987,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 piscine intérieure et mur d'assiettes",
+      "src": "library/monegasque/clips/MON-126.mp4",
+      "start": 0.79,
+      "end": 1.023,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 table surprise, pétales, bougies et cadeaux",
+      "src": "library/monegasque/clips/MON-209.mp4",
+      "start": 2.76,
+      "end": 2.894,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 travelling dans la salle, bar et colonnes lumineuses",
+      "src": "library/monegasque/clips/MON-183.mp4",
+      "start": 2.66,
+      "end": 2.893,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 escalier couvert de pétales",
+      "src": "library/monegasque/clips/MON-277.mp4",
+      "start": 2.05,
+      "end": 2.217,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 femme en haïk qui tourne au bord de la piscine (zoom arrière 12 %)",
+      "src": "library/monegasque/clips/MON-045.mp4",
+      "start": 1.08,
+      "end": 1.246,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.131,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 table d'anniversaire devant la piscine (zoom arrière 4 %)",
+      "src": "library/monegasque/clips/MON-293.mp4",
+      "start": 1.98,
+      "end": 2.147,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.047,
+        "to": 1
+      }
+    },
+    {
+      "label": "#10 table ronde du brunch sur la terrasse (zoom arrière 11 %)",
+      "src": "library/monegasque/clips/MON-075.mp4",
+      "start": 0.64,
+      "end": 0.773,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.119,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 serveur qui ouvre le cordon devant les pétales (zoom arrière 8 %)",
+      "src": "library/monegasque/clips/MON-276.mp4",
+      "start": 2.05,
+      "end": 2.217,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.091,
+        "to": 1
+      }
+    },
+    {
+      "label": "#12 brunch au bord de la piscine avec jus et smoothies",
+      "src": "library/monegasque/clips/MON-144.mp4",
+      "start": 0.95,
+      "end": 1.05,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 tajine aux œufs et sauce tomate",
+      "src": "library/monegasque/clips/MON-008.mp4",
+      "start": 1.36,
+      "end": 1.693,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 pancake au chocolat et bananes",
+      "src": "library/monegasque/clips/MON-033.mp4",
+      "start": 1.02,
+      "end": 1.32,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 couteau qui tranche la viande grillée (zoom avant 6 %)",
+      "src": "library/monegasque/clips/MON-163.mp4",
+      "start": 1.45,
+      "end": 1.617,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.064
+      }
+    },
+    {
+      "label": "#16 bouquet de roses et salade de pâtes",
+      "src": "library/monegasque/clips/MON-256.mp4",
+      "start": 0.48,
+      "end": 0.647,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#17 plateau de gambas et citrons sur faïence",
+      "src": "library/monegasque/clips/MON-221.mp4",
+      "start": 2.35,
+      "end": 2.516,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#18 table romantique rouge et noire, pétales",
+      "src": "library/monegasque/clips/MON-208.mp4",
+      "start": 2.16,
+      "end": 2.294,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#19 pancakes aux pommes et chocolat (zoom avant 9 %)",
+      "src": "library/monegasque/clips/MON-052.mp4",
+      "start": 1.62,
+      "end": 1.92,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.086
+      }
+    },
+    {
+      "label": "#20 table pleine avec jus et cocktails",
+      "src": "library/monegasque/clips/MON-057.mp4",
+      "start": 0.05,
+      "end": 0.516,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#21 sauce chocolat versée sur la crêpe",
+      "src": "library/monegasque/clips/MON-142.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.847,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#22 cliente qui entre sous les pétales rouges (zoom arrière 10 %)",
+      "src": "library/monegasque/clips/MON-135.mp4",
+      "start": 1.02,
+      "end": 1.253,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.111,
+        "to": 1
+      }
+    },
+    {
+      "label": "#23 brunch complet avec crêpe et toasts, vue de dessus",
+      "src": "library/monegasque/clips/MON-146.mp4",
+      "start": 1.68,
+      "end": 1.947,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#24 burrata, figues et tomates sur assiette bleue (zoom arrière 8 %)",
+      "src": "library/monegasque/clips/MON-325.mp4",
+      "start": 1.76,
+      "end": 2.093,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.085,
+        "to": 1
+      }
+    },
+    {
+      "label": "#25 terrasse et fauteuil en rotin (zoom avant 6 %)",
+      "src": "library/monegasque/clips/MON-171.mp4",
+      "start": 0.48,
+      "end": 0.747,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.059
+      }
+    },
+    {
+      "label": "#26 travelling sur la terrasse et la piscine, clients de dos",
+      "src": "library/monegasque/clips/MON-175.mp4",
+      "start": 2.82,
+      "end": 2.987,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#27 piscine et cage décorative",
+      "src": "library/monegasque/clips/MON-124.mp4",
+      "start": 0.36,
+      "end": 0.493,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#28 palmier au-dessus de la piscine turquoise",
+      "src": "library/monegasque/clips/MON-218.mp4",
+      "start": 3.29,
+      "end": 3.423,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#29 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0.62,
+      "end": 0.787,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#30 salle sous le plafond miroir, suspensions dorées",
+      "src": "library/monegasque/clips/MON-189.mp4",
+      "start": 2.55,
+      "end": 2.717,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#31 table romantique devant la piscine, ballons cœur",
+      "src": "library/monegasque/clips/MON-210.mp4",
+      "start": 3.42,
+      "end": 3.586,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#32 terrasse colorée, fauteuil tressé (zoom arrière 4 %)",
+      "src": "library/monegasque/clips/MON-324.mp4",
+      "start": 2.95,
+      "end": 3.117,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.04,
+        "to": 1
+      }
+    },
+    {
+      "label": "#33 couple en tenue traditionnelle blanche",
+      "src": "library/monegasque/clips/MON-004.mp4",
+      "start": 1.58,
+      "end": 1.847,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#34 table avec frites, carpaccio et cocktails",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 1.66,
+      "end": 1.993,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#35 dîner romantique dressé, salle aux fauteuils",
+      "src": "library/monegasque/clips/MON-283.mp4",
+      "start": 1.79,
+      "end": 2.09,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#36 gambas grillées et sauce, plan serré (zoom arrière 4 %)",
+      "src": "library/monegasque/clips/MON-222.mp4",
+      "start": 1.69,
+      "end": 1.99,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.043,
+        "to": 1
+      }
+    },
+    {
+      "label": "#37 sauce chocolat versée sur les pancakes banane",
+      "src": "library/monegasque/clips/MON-029.mp4",
+      "start": 0.98,
+      "end": 1.147,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#38 travelling le long de la piscine depuis la table",
+      "src": "library/monegasque/clips/MON-195.mp4",
+      "start": 2.76,
+      "end": 2.893,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#39 terrasse couverte et lustres en osier",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 1.78,
+      "end": 1.947,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#40 terrasse fleurie, plantes violettes",
+      "src": "library/monegasque/clips/MON-121.mp4",
+      "start": 0.76,
+      "end": 0.893,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#41 bouquet de roses offert à table",
+      "src": "library/monegasque/clips/MON-133.mp4",
+      "start": 0.98,
+      "end": 1.147,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#42 table du brunch avec milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-074.mp4",
+      "start": 0.98,
+      "end": 1.146,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#43 table Happy Birthday, couronne et bougies",
+      "src": "library/monegasque/clips/MON-292.mp4",
+      "start": 2.02,
+      "end": 2.154,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#44 femme en haïk au bord de la piscine, de face",
+      "src": "library/monegasque/clips/MON-046.mp4",
+      "start": 0.78,
+      "end": 1.246,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#45 table du brunch au bord de la piscine, jus et crêpe",
+      "src": "library/monegasque/clips/MON-031.mp4",
+      "start": 0.92,
+      "end": 1.387,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#46 salade burrata sur assiette festonnée",
+      "src": "library/monegasque/clips/MON-127.mp4",
+      "start": 0.85,
+      "end": 1.317,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#47 cœur de pétales, plan serré",
+      "src": "library/monegasque/clips/MON-279.mp4",
+      "start": 2.29,
+      "end": 2.623,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#48 gambas et citrons, autre angle",
+      "src": "library/monegasque/clips/MON-223.mp4",
+      "start": 1.59,
+      "end": 2.023,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#49 fourchette qui prend la salade",
+      "src": "library/monegasque/clips/MON-286.mp4",
+      "start": 3.45,
+      "end": 3.65,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#50 table avec carafe ciselée et nappe colorée (fin Instagram coupée)",
+      "src": "library/monegasque/clips/MON-253.mp4",
+      "start": 0.75,
+      "end": 1.017,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#51 paella aux fruits de mer et citron",
+      "src": "library/monegasque/clips/MON-009.mp4",
+      "start": 1.72,
+      "end": 2.02,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#52 cage à oiseaux avec perruches colorées (zoom arrière 14 %)",
+      "src": "library/monegasque/clips/MON-065.mp4",
+      "start": 0.15,
+      "end": 0.65,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.157,
+        "to": 1
+      }
+    },
+    {
+      "label": "#53 table ronde du brunch sur la terrasse arborée",
+      "src": "library/monegasque/clips/MON-249.mp4",
+      "start": 0.66,
+      "end": 1.093,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#54 assiette frites et sauce, verres ciselés",
+      "src": "library/monegasque/clips/MON-162.mp4",
+      "start": 2.55,
+      "end": 2.85,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#55 mains qui coupent la tartine avocat",
+      "src": "library/monegasque/clips/MON-119.mp4",
+      "start": 0.62,
+      "end": 0.854,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#56 tajine, gâteau et assiette avocat devant la piscine",
+      "src": "library/monegasque/clips/MON-140.mp4",
+      "start": 0.49,
+      "end": 0.623,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#57 salade et sauce blanche en gros plan",
+      "src": "library/monegasque/clips/MON-077.mp4",
+      "start": 1.35,
+      "end": 1.617,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#58 terrasse sous l'auvent, vue sur la piscine et les arbres",
+      "src": "library/monegasque/clips/MON-177.mp4",
+      "start": 2.97,
+      "end": 3.136,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#59 terrasse colorée, cocktails et fauteuil rouge",
+      "src": "library/monegasque/clips/MON-262.mp4",
+      "start": 1.82,
+      "end": 1.987,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/VTZI7105.MP4",
+    "from": 0
+  }
+}

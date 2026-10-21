@@ -1,0 +1,340 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (UOGV3464-manual.json), autre chanson, autre moment de chaque plan, look tealOrange avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 hall d'entrée illuminé, buffet du soir",
+      "src": "library/monegasque/clips/MON-199.mp4",
+      "start": 1.62,
+      "end": 3.65,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 mur d'assiettes bleu et enseigne rayée",
+      "src": "library/monegasque/clips/MON-079.mp4",
+      "start": 1.98,
+      "end": 2.12,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 longue table d'anniversaire, ballons et roses",
+      "src": "library/monegasque/clips/MON-274.mp4",
+      "start": 1.16,
+      "end": 1.32,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 salle près de la piscine avec clients",
+      "src": "library/monegasque/clips/MON-091.mp4",
+      "start": 0.78,
+      "end": 0.92,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 salle et buffet sous le lustre en cristal",
+      "src": "library/monegasque/clips/MON-205.mp4",
+      "start": 1.43,
+      "end": 1.59,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 jeune femme qui enfile le haïk devant la colonne lumineuse",
+      "src": "library/monegasque/clips/MON-041.mp4",
+      "start": 3.38,
+      "end": 3.55,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 table romantique noire, pétales en cœur",
+      "src": "library/monegasque/clips/MON-281.mp4",
+      "start": 2.32,
+      "end": 2.45,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 salle de fêtes et décor de neige",
+      "src": "library/monegasque/clips/MON-311.mp4",
+      "start": 1.28,
+      "end": 1.45,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 table surprise rouge, cadeaux et pétales",
+      "src": "library/monegasque/clips/MON-246.mp4",
+      "start": 1.69,
+      "end": 1.82,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 milkshake rose et crêpe au chocolat",
+      "src": "library/monegasque/clips/MON-089.mp4",
+      "start": 1.32,
+      "end": 2.52,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 femme en haïk assise sur le trône doré (zoom avant 7 %)",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 1.69,
+      "end": 2.89,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.066
+      }
+    },
+    {
+      "label": "#12 salle décorée de ballons rouges pour un anniversaire",
+      "src": "library/monegasque/clips/MON-242.mp4",
+      "start": 1.22,
+      "end": 2.42,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 assiette dressée et lampe dorée, table rose",
+      "src": "library/monegasque/clips/MON-273.mp4",
+      "start": 1.15,
+      "end": 1.69,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 gambas et sauce mangue dressées",
+      "src": "library/monegasque/clips/MON-266.mp4",
+      "start": 1.29,
+      "end": 1.92,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 brunch partagé vu du dessus",
+      "src": "library/monegasque/clips/MON-288.mp4",
+      "start": 0.25,
+      "end": 1.42,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#16 plateau de makis sauce blanche",
+      "src": "library/monegasque/clips/MON-105.mp4",
+      "start": 0.74,
+      "end": 1.82,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#17 serveur qui apporte l'assiette, bar en fond",
+      "src": "library/monegasque/clips/MON-143.mp4",
+      "start": 0,
+      "end": 1.08,
+      "speed": 0.8,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#18 cliente qui regarde le menu face à la piscine",
+      "src": "library/monegasque/clips/MON-158.mp4",
+      "start": 1.99,
+      "end": 2.39,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#19 piscine au crépuscule, lumière dorée",
+      "src": "library/monegasque/clips/MON-282.mp4",
+      "start": 1.68,
+      "end": 2.45,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#20 porte d'entrée en bois entourée de fleurs",
+      "src": "library/monegasque/clips/MON-067.mp4",
+      "start": 2.19,
+      "end": 3.39,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#21 travelling sous les suspensions dorées, salle et néon",
+      "src": "library/monegasque/clips/MON-178.mp4",
+      "start": 4.3,
+      "end": 4.4,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#22 rideau de cœurs et cœur de pétales",
+      "src": "library/monegasque/clips/MON-296.mp4",
+      "start": 3.26,
+      "end": 3.39,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#23 tables rouges, bougies et roses",
+      "src": "library/monegasque/clips/MON-320.mp4",
+      "start": 2.09,
+      "end": 2.22,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#24 décor anniversaire 20 ans, bougies et mimosa",
+      "src": "library/monegasque/clips/MON-232.mp4",
+      "start": 1.49,
+      "end": 1.59,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#25 table d'anniversaire rose et argent",
+      "src": "library/monegasque/clips/MON-270.mp4",
+      "start": 1.45,
+      "end": 1.59,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#26 assiette de filet et légumes",
+      "src": "library/monegasque/clips/MON-300.mp4",
+      "start": 0.62,
+      "end": 1.25,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#27 clients qui se servent au buffet",
+      "src": "library/monegasque/clips/MON-206.mp4",
+      "start": 0.62,
+      "end": 1.92,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/UOGV3464.MP4",
+    "from": 0
+  }
+}

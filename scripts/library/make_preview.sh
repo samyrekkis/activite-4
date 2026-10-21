@@ -5,7 +5,7 @@
 #   bash scripts/library/make_preview.sh <copy.mp4> <ref.mp4> <ref_from> "<title>"
 set -e
 COPY=$1; REF=$2; FROM=$3; TITLE=$4
-DEST="/c/Users/hp/OneDrive/Bureau/Studio Resto/Montages/Copies"
+DEST="${DEST:-/c/Users/hp/OneDrive/Bureau/Studio Resto/Montages/Copies}"
 mkdir -p "$DEST"
 cp "$COPY" "$DEST/$TITLE (sans son).mp4"
 D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$COPY")

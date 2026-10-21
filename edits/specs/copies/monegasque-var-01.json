@@ -1,0 +1,108 @@
+{
+ "out": "edits/copies/monegasque-var-01.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/CLCC7774.json",
+ "from": 0,
+ "to": 20.17,
+ "minShot": 0.3,
+ "curve": "film",
+ "version": 1,
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (CLCC7774.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-174",
+   "at": 3.89
+  },
+  {
+   "id": "MON-271",
+   "at": 1.62
+  },
+  {
+   "id": "MON-245",
+   "at": 0.72
+  },
+  {
+   "id": "MON-267",
+   "at": 0.85
+  },
+  {
+   "id": "MON-213",
+   "at": 0.82
+  },
+  {
+   "id": "MON-037",
+   "at": 0.52
+  },
+  {
+   "id": "MON-247",
+   "at": 0.22
+  },
+  {
+   "id": "MON-093",
+   "at": 0.09
+  },
+  {
+   "id": "MON-202",
+   "at": 1.42
+  },
+  {
+   "id": "MON-192",
+   "at": 3.03
+  },
+  {
+   "id": "MON-280",
+   "at": 1.98
+  },
+  {
+   "id": "MON-049",
+   "at": 0.45
+  },
+  {
+   "id": "MON-087",
+   "at": 1.45
+  },
+  {
+   "id": "MON-129",
+   "at": 0.35
+  },
+  {
+   "id": "MON-287",
+   "at": 1.09
+  },
+  {
+   "id": "MON-263",
+   "at": 2.02
+  },
+  {
+   "id": "MON-212",
+   "at": 1.45
+  },
+  {
+   "id": "MON-234",
+   "at": 0.12
+  },
+  {
+   "id": "MON-103",
+   "at": 0
+  },
+  {
+   "id": "MON-085",
+   "at": 1.48
+  },
+  {
+   "id": "MON-317",
+   "at": 2.92
+  },
+  {
+   "id": "MON-239",
+   "at": 0.89
+  },
+  {
+   "id": "MON-318",
+   "at": 0
+  }
+ ]
+}

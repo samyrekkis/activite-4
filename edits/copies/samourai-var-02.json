@@ -1,0 +1,347 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (UOGV3464-manual.json), autre chanson, autre moment de chaque plan, look encre avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 escalier et fresque rouge du samouraï",
+      "src": "library/samourai/clips/SAM-016.mp4",
+      "start": 0,
+      "end": 1.65,
+      "speed": 0.813,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 salle aux lanternes et miroir doré",
+      "src": "library/samourai/clips/SAM-013.mp4",
+      "start": 1.21,
+      "end": 1.35,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 rideau de cœurs rouges",
+      "src": "library/samourai/clips/SAM-046.mp4",
+      "start": 1.56,
+      "end": 1.72,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 salle avec vase calligraphié et plantes",
+      "src": "library/samourai/clips/SAM-011.mp4",
+      "start": 1.01,
+      "end": 1.15,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 1.66,
+      "end": 1.82,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 plateau de makis devant l'éventail rouge",
+      "src": "library/samourai/clips/SAM-034.mp4",
+      "start": 0.85,
+      "end": 1.02,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 nouilles sautées et légumes croquants",
+      "src": "library/samourai/clips/SAM-028.mp4",
+      "start": 0.82,
+      "end": 0.95,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 cage bleue et plantes devant la fresque rouge",
+      "src": "library/samourai/clips/SAM-080.mp4",
+      "start": 2.13,
+      "end": 2.3,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 baguettes qui trempent un maki dans la sauce",
+      "src": "library/samourai/clips/SAM-006.mp4",
+      "start": 0.76,
+      "end": 0.89,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1,
+        "saturate": 0,
+        "contrast": 1.15
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 sauce versée sur les makis frits (zoom avant 9 %)",
+      "src": "library/samourai/clips/SAM-027.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.683,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.086
+      }
+    },
+    {
+      "label": "#11 salle aux lanternes et coussins, travelling lent (zoom avant 9 %)",
+      "src": "library/samourai/clips/SAM-054.mp4",
+      "start": 4.14,
+      "end": 5.34,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.093
+      }
+    },
+    {
+      "label": "#12 terrasse végétale et tables",
+      "src": "library/samourai/clips/SAM-010.mp4",
+      "start": 0.35,
+      "end": 1.55,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 salle avec plantes et lanternes rouges",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 1.31,
+      "end": 1.85,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 entrée avec sol en marbre et lanternes",
+      "src": "library/samourai/clips/SAM-014.mp4",
+      "start": 1.56,
+      "end": 2.19,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 kimonos suspendus pour le shooting",
+      "src": "library/samourai/clips/SAM-019.mp4",
+      "start": 0.18,
+      "end": 1.35,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#16 fresque du guerrier samouraï dans le couloir",
+      "src": "library/samourai/clips/SAM-021.mp4",
+      "start": 0.24,
+      "end": 1.32,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#17 travelling sous les lanternes, tables dressées",
+      "src": "library/samourai/clips/SAM-058.mp4",
+      "start": 3.97,
+      "end": 5.32,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#18 paravent en bois sculpté et lumière rouge",
+      "src": "library/samourai/clips/SAM-015.mp4",
+      "start": 1.25,
+      "end": 1.65,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#19 table dressée dans la pénombre, assiettes dorées",
+      "src": "library/samourai/clips/SAM-043.mp4",
+      "start": 0.88,
+      "end": 1.65,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#20 cliente en kimono de soie bleue, de dos",
+      "src": "library/samourai/clips/SAM-041.mp4",
+      "start": 0,
+      "end": 1.05,
+      "speed": 0.875,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#21 chefs en cuisine derrière le comptoir en marbre",
+      "src": "library/samourai/clips/SAM-009.mp4",
+      "start": 1.09,
+      "end": 1.19,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#22 set de table laqué rouge en gros plan",
+      "src": "library/samourai/clips/SAM-055.mp4",
+      "start": 5.19,
+      "end": 5.32,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#23 table d'anniversaire rouge avec roses",
+      "src": "library/samourai/clips/SAM-044.mp4",
+      "start": 1.79,
+      "end": 1.92,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#24 rooftop aux lanternes en papier et voilages",
+      "src": "library/samourai/clips/SAM-067.mp4",
+      "start": 1.64,
+      "end": 1.74,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#25 bateau de sushis et sashimis",
+      "src": "library/samourai/clips/SAM-036.mp4",
+      "start": 2.21,
+      "end": 2.35,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#26 poulet croustillant laqué et chou rouge",
+      "src": "library/samourai/clips/SAM-023.mp4",
+      "start": 0.22,
+      "end": 0.85,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#27 dragon roll avocat et caviar",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0,
+      "end": 0.88,
+      "speed": 0.677,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/UOGV3464.MP4",
+    "from": 0
+  }
+}

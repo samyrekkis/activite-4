@@ -1,0 +1,124 @@
+{
+ "out": "edits/copies/samourai-var-02.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/UOGV3464-manual.json",
+ "from": 0,
+ "to": 16.5,
+ "minShot": 0.09,
+ "curve": "encre",
+ "version": 1,
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (UOGV3464-manual.json), autre chanson, autre moment de chaque plan, look encre avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "SAM-016",
+   "at": 0
+  },
+  {
+   "id": "SAM-013",
+   "at": 1.21
+  },
+  {
+   "id": "SAM-046",
+   "at": 1.56
+  },
+  {
+   "id": "SAM-011",
+   "at": 1.01
+  },
+  {
+   "id": "SAM-047",
+   "at": 1.66
+  },
+  {
+   "id": "SAM-034",
+   "at": 0.85
+  },
+  {
+   "id": "SAM-028",
+   "at": 0.82
+  },
+  {
+   "id": "SAM-080",
+   "at": 2.13
+  },
+  {
+   "id": "SAM-006",
+   "at": 0.76
+  },
+  {
+   "id": "SAM-027",
+   "at": 0
+  },
+  {
+   "id": "SAM-054",
+   "at": 4.14
+  },
+  {
+   "id": "SAM-010",
+   "at": 0.35
+  },
+  {
+   "id": "SAM-007",
+   "at": 1.31
+  },
+  {
+   "id": "SAM-014",
+   "at": 1.56
+  },
+  {
+   "id": "SAM-019",
+   "at": 0.18
+  },
+  {
+   "id": "SAM-021",
+   "at": 0.24
+  },
+  {
+   "id": "SAM-058",
+   "at": 3.97
+  },
+  {
+   "id": "SAM-015",
+   "at": 1.25
+  },
+  {
+   "id": "SAM-043",
+   "at": 0.88
+  },
+  {
+   "id": "SAM-041",
+   "at": 0
+  },
+  {
+   "id": "SAM-009",
+   "at": 1.09
+  },
+  {
+   "id": "SAM-055",
+   "at": 5.19
+  },
+  {
+   "id": "SAM-044",
+   "at": 1.79
+  },
+  {
+   "id": "SAM-067",
+   "at": 1.64
+  },
+  {
+   "id": "SAM-036",
+   "at": 2.21
+  },
+  {
+   "id": "SAM-023",
+   "at": 0.22
+  },
+  {
+   "id": "SAM-022",
+   "at": 0
+  }
+ ]
+}

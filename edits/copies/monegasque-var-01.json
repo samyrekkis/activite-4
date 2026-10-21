@@ -1,0 +1,309 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (CLCC7774.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 3.89,
+      "end": 4.823,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 salle d'anniversaire rose, néon et ballons (zoom arrière 13 %)",
+      "src": "library/monegasque/clips/MON-271.mp4",
+      "start": 1.62,
+      "end": 2.487,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.153,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 cœur de pétales de roses au sol (zoom avant 4 %)",
+      "src": "library/monegasque/clips/MON-245.mp4",
+      "start": 0.72,
+      "end": 1.52,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.043
+      }
+    },
+    {
+      "label": "#4 fourchette dans le dessert aux figues",
+      "src": "library/monegasque/clips/MON-267.mp4",
+      "start": 0.85,
+      "end": 1.717,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 table d'anniversaire, bougies rouges et couronne",
+      "src": "library/monegasque/clips/MON-213.mp4",
+      "start": 0.82,
+      "end": 1.753,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 assortiment de desserts sur table noire (zoom avant 7 %)",
+      "src": "library/monegasque/clips/MON-037.mp4",
+      "start": 0.52,
+      "end": 1.42,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.073
+      }
+    },
+    {
+      "label": "#7 bougies rouges et ballons devant la baie",
+      "src": "library/monegasque/clips/MON-247.mp4",
+      "start": 0.22,
+      "end": 1.087,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 main qui sert les tartines",
+      "src": "library/monegasque/clips/MON-093.mp4",
+      "start": 0.09,
+      "end": 0.923,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 salle aux fauteuils verts, soir de ramadan",
+      "src": "library/monegasque/clips/MON-202.mp4",
+      "start": 1.42,
+      "end": 2.253,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 salle sous le plafond miroir, néon et colonnes",
+      "src": "library/monegasque/clips/MON-192.mp4",
+      "start": 3.03,
+      "end": 3.897,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 table romantique aux bougies près de la baie",
+      "src": "library/monegasque/clips/MON-280.mp4",
+      "start": 1.98,
+      "end": 2.847,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#12 femme en haïk devant le néon Monégasque",
+      "src": "library/monegasque/clips/MON-049.mp4",
+      "start": 0.45,
+      "end": 1.316,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 table complète avec milkshake rose",
+      "src": "library/monegasque/clips/MON-087.mp4",
+      "start": 1.45,
+      "end": 2.35,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 mains qui applaudissent autour du gâteau d'anniversaire",
+      "src": "library/monegasque/clips/MON-129.mp4",
+      "start": 0.35,
+      "end": 1.217,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 table du brunch, smoothies et assiettes (zoom avant 13 %)",
+      "src": "library/monegasque/clips/MON-287.mp4",
+      "start": 1.09,
+      "end": 1.99,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.127
+      }
+    },
+    {
+      "label": "#16 ballons roses et fresque colorée (zoom avant 8 %)",
+      "src": "library/monegasque/clips/MON-263.mp4",
+      "start": 2.02,
+      "end": 2.853,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#17 allée de pétales rouges et cordons dorés",
+      "src": "library/monegasque/clips/MON-212.mp4",
+      "start": 1.45,
+      "end": 2.317,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#18 piscine la nuit et cascade éclairée (zoom avant 3 %)",
+      "src": "library/monegasque/clips/MON-234.mp4",
+      "start": 0.12,
+      "end": 0.953,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.03
+      }
+    },
+    {
+      "label": "#19 flamme dans la poêle en cuisine (zoom arrière 8 %)",
+      "src": "library/monegasque/clips/MON-103.mp4",
+      "start": 0,
+      "end": 0.52,
+      "speed": 0.578,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.089,
+        "to": 1
+      }
+    },
+    {
+      "label": "#20 burger et frites",
+      "src": "library/monegasque/clips/MON-085.mp4",
+      "start": 1.48,
+      "end": 2.347,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#21 poulet gratiné sur salade (zoom avant 5 %)",
+      "src": "library/monegasque/clips/MON-317.mp4",
+      "start": 2.92,
+      "end": 3.787,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.049
+      }
+    },
+    {
+      "label": "#22 ailes de poulet laquées et purée (zoom arrière 25 %)",
+      "src": "library/monegasque/clips/MON-239.mp4",
+      "start": 0.89,
+      "end": 1.69,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.333,
+        "to": 1
+      }
+    },
+    {
+      "label": "#23 vitrine et décor romantique à l'entrée (zoom arrière 5 %)",
+      "src": "library/monegasque/clips/MON-318.mp4",
+      "start": 0,
+      "end": 0.72,
+      "speed": 0.653,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.058,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/CLCC7774.MP4",
+    "from": 0
+  }
+}

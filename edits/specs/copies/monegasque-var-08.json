@@ -1,0 +1,66 @@
+{
+ "out": "edits/copies/monegasque-var-08.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/OYUA3954.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.3,
+ "curve": "tealOrange",
+ "version": 1,
+ "copyZoom": true,
+ "refCrop": "720:820:0:460",
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OYUA3954.json), autre chanson, autre moment de chaque plan, look tealOrange avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-174",
+   "speed": 1.88,
+   "at": 1.25
+  },
+  {
+   "id": "MON-245",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-037",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-093",
+   "speed": 2.2,
+   "at": 0
+  },
+  {
+   "id": "MON-192",
+   "speed": 1.08,
+   "at": 2.75
+  },
+  {
+   "id": "MON-323",
+   "speed": 1.04,
+   "at": 1.14
+  },
+  {
+   "id": "MON-287",
+   "speed": 1.04,
+   "at": 0.92
+  },
+  {
+   "id": "MON-212",
+   "speed": 1.1,
+   "at": 1.11
+  },
+  {
+   "id": "MON-103",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "MON-239",
+   "speed": 1.31,
+   "at": 0.64
+  }
+ ]
+}

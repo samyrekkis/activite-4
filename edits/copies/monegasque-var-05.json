@@ -1,0 +1,306 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (CLCC7774.json), autre chanson, autre moment de chaque plan, look golden avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 crêpe au chocolat en gros plan",
+      "src": "library/monegasque/clips/MON-250.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.697,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 fondant au chocolat coulant (zoom arrière 14 %)",
+      "src": "library/monegasque/clips/MON-023.mp4",
+      "start": 0,
+      "end": 0.38,
+      "speed": 0.438,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.164,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 escalope panée nappée de sauce",
+      "src": "library/monegasque/clips/MON-161.mp4",
+      "start": 2.42,
+      "end": 3.22,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 assiette avocat saumon et jus, déco colorée",
+      "src": "library/monegasque/clips/MON-058.mp4",
+      "start": 0,
+      "end": 0.45,
+      "speed": 0.519,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 main qui déroule la serviette sur la table citron",
+      "src": "library/monegasque/clips/MON-219.mp4",
+      "start": 0.46,
+      "end": 1.393,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 dessert aux figues et fleurs violettes (zoom avant 5 %)",
+      "src": "library/monegasque/clips/MON-264.mp4",
+      "start": 1.29,
+      "end": 2.19,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.051
+      }
+    },
+    {
+      "label": "#7 burger frites sur set coloré",
+      "src": "library/monegasque/clips/MON-118.mp4",
+      "start": 0,
+      "end": 0.68,
+      "speed": 0.784,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 crêpe et pancakes sur set de table coloré",
+      "src": "library/monegasque/clips/MON-035.mp4",
+      "start": 0,
+      "end": 0.68,
+      "speed": 0.816,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 carpaccio et salade sur assiette bleue",
+      "src": "library/monegasque/clips/MON-080.mp4",
+      "start": 1.76,
+      "end": 2.593,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 dessert chantilly et milkshake au bord de la piscine",
+      "src": "library/monegasque/clips/MON-157.mp4",
+      "start": 1.65,
+      "end": 2.517,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.32,
+      "end": 1.187,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#12 burrata et figues, plan serré",
+      "src": "library/monegasque/clips/MON-326.mp4",
+      "start": 0.02,
+      "end": 0.886,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#13 paella, citron et moules",
+      "src": "library/monegasque/clips/MON-309.mp4",
+      "start": 0.15,
+      "end": 1.05,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#14 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 1.18,
+      "end": 2.047,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#15 grande table du soir avec plats variés (zoom avant 8 %)",
+      "src": "library/monegasque/clips/MON-108.mp4",
+      "start": 0,
+      "end": 0.48,
+      "speed": 0.533,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.076
+      }
+    },
+    {
+      "label": "#16 makis et pain sur nappe faïence (zoom avant 8 %)",
+      "src": "library/monegasque/clips/MON-258.mp4",
+      "start": 0.12,
+      "end": 0.953,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.08
+      }
+    },
+    {
+      "label": "#17 escalier d'entrée avec tapis rouge",
+      "src": "library/monegasque/clips/MON-112.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.946,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#18 salle sous le plafond miroir, suspensions dorées (zoom avant 5 %)",
+      "src": "library/monegasque/clips/MON-189.mp4",
+      "start": 1.89,
+      "end": 2.723,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.046
+      }
+    },
+    {
+      "label": "#19 terrasse colorée, fauteuil tressé (zoom arrière 8 %)",
+      "src": "library/monegasque/clips/MON-324.mp4",
+      "start": 2.22,
+      "end": 3.12,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.091,
+        "to": 1
+      }
+    },
+    {
+      "label": "#20 couple en tenue traditionnelle blanche",
+      "src": "library/monegasque/clips/MON-004.mp4",
+      "start": 0.98,
+      "end": 1.847,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#21 table avec frites, carpaccio et cocktails (zoom avant 4 %)",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 1.12,
+      "end": 1.987,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.039
+      }
+    },
+    {
+      "label": "#22 gambas grillées et sauce, plan serré",
+      "src": "library/monegasque/clips/MON-222.mp4",
+      "start": 1.19,
+      "end": 1.99,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#23 sauce chocolat versée sur les pancakes banane (zoom arrière 19 %)",
+      "src": "library/monegasque/clips/MON-029.mp4",
+      "start": 0.05,
+      "end": 1.153,
+      "grade": {
+        "curve": "golden",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.227,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/CLCC7774.MP4",
+    "from": 0
+  }
+}

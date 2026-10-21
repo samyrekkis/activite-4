@@ -5,7 +5,8 @@ import fs from "node:fs";
 const p = process.argv[2];
 const j = JSON.parse(fs.readFileSync(p, "utf8"));
 const cat = JSON.parse(fs.readFileSync("public/library/monegasque/catalogue.json", "utf8")).clips;
-const cells = JSON.parse(fs.readFileSync("out/allocation.json", "utf8"))["monegasque-pmfi-mosaic"].map((s) => s.id.slice(4));
+// Cells: a list given on the command line ("MON-1,MON-2,…"), else the allocation.
+const cells = process.argv[3] ? process.argv[3].split(",").map((s) => s.slice(4)) : JSON.parse(fs.readFileSync("out/allocation.json", "utf8"))["monegasque-pmfi-mosaic"].map((s) => s.id.slice(4));
 // Instants measured on the reference (seconds).
 const appear = [0.2, 0.6, 1.0, 1.2, 1.4, 1.8, 2.0, 2.4, 2.6];
 const color = [3.0, 3.4, 3.6, 3.8, 4.0, 4.2, 4.8, 5.0, 5.2];

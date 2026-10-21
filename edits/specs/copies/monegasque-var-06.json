@@ -1,0 +1,251 @@
+{
+ "out": "edits/copies/monegasque-var-06.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/VTZI7105.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.1,
+ "curve": "film",
+ "version": 1,
+ "copyZoom": true,
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (VTZI7105.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-081",
+   "at": 1.69
+  },
+  {
+   "id": "MON-191",
+   "at": 0.67
+  },
+  {
+   "id": "MON-123",
+   "at": 0.82
+  },
+  {
+   "id": "MON-126",
+   "at": 0.79
+  },
+  {
+   "id": "MON-209",
+   "at": 2.76
+  },
+  {
+   "id": "MON-183",
+   "at": 2.66
+  },
+  {
+   "id": "MON-277",
+   "at": 2.05
+  },
+  {
+   "id": "MON-045",
+   "at": 1.08
+  },
+  {
+   "id": "MON-293",
+   "at": 1.98
+  },
+  {
+   "id": "MON-075",
+   "at": 0.79
+  },
+  {
+   "id": "MON-276",
+   "at": 2.05
+  },
+  {
+   "id": "MON-144",
+   "at": 0.95
+  },
+  {
+   "id": "MON-008",
+   "at": 1.36
+  },
+  {
+   "id": "MON-033",
+   "at": 1.02
+  },
+  {
+   "id": "MON-163",
+   "at": 1.45
+  },
+  {
+   "id": "MON-256",
+   "at": 0.48
+  },
+  {
+   "id": "MON-221",
+   "at": 2.35
+  },
+  {
+   "id": "MON-208",
+   "at": 2.16
+  },
+  {
+   "id": "MON-052",
+   "at": 1.62
+  },
+  {
+   "id": "MON-057",
+   "at": 0.05
+  },
+  {
+   "id": "MON-142",
+   "at": 0
+  },
+  {
+   "id": "MON-135",
+   "at": 1.02
+  },
+  {
+   "id": "MON-146",
+   "at": 1.68
+  },
+  {
+   "id": "MON-325",
+   "at": 1.76
+  },
+  {
+   "id": "MON-171",
+   "at": 0.48
+  },
+  {
+   "id": "MON-175",
+   "at": 2.82
+  },
+  {
+   "id": "MON-124",
+   "at": 0.36
+  },
+  {
+   "id": "MON-218",
+   "at": 3.29
+  },
+  {
+   "id": "MON-112",
+   "at": 0.62
+  },
+  {
+   "id": "MON-189",
+   "at": 2.55
+  },
+  {
+   "id": "MON-210",
+   "at": 3.42
+  },
+  {
+   "id": "MON-324",
+   "at": 2.95
+  },
+  {
+   "id": "MON-004",
+   "at": 1.58
+  },
+  {
+   "id": "MON-078",
+   "at": 1.66
+  },
+  {
+   "id": "MON-283",
+   "at": 1.79
+  },
+  {
+   "id": "MON-222",
+   "at": 1.69
+  },
+  {
+   "id": "MON-029",
+   "at": 0.98
+  },
+  {
+   "id": "MON-195",
+   "at": 2.76
+  },
+  {
+   "id": "MON-147",
+   "at": 1.78
+  },
+  {
+   "id": "MON-121",
+   "at": 0.76
+  },
+  {
+   "id": "MON-133",
+   "at": 0.98
+  },
+  {
+   "id": "MON-074",
+   "at": 0.98
+  },
+  {
+   "id": "MON-292",
+   "at": 2.02
+  },
+  {
+   "id": "MON-046",
+   "at": 0.78
+  },
+  {
+   "id": "MON-031",
+   "at": 0.92
+  },
+  {
+   "id": "MON-127",
+   "at": 0.85
+  },
+  {
+   "id": "MON-279",
+   "at": 2.29
+  },
+  {
+   "id": "MON-223",
+   "at": 1.59
+  },
+  {
+   "id": "MON-286",
+   "at": 3.45
+  },
+  {
+   "id": "MON-253",
+   "at": 0.75
+  },
+  {
+   "id": "MON-009",
+   "at": 1.72
+  },
+  {
+   "id": "MON-065",
+   "at": 0.15
+  },
+  {
+   "id": "MON-249",
+   "at": 0.66
+  },
+  {
+   "id": "MON-162",
+   "at": 2.55
+  },
+  {
+   "id": "MON-119",
+   "at": 0.62
+  },
+  {
+   "id": "MON-140",
+   "at": 0.49
+  },
+  {
+   "id": "MON-077",
+   "at": 1.35
+  },
+  {
+   "id": "MON-177",
+   "at": 2.97
+  },
+  {
+   "id": "MON-262",
+   "at": 1.82
+  }
+ ]
+}

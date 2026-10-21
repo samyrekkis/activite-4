@@ -1,0 +1,124 @@
+{
+ "out": "edits/copies/monegasque-var-07.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/UOGV3464-manual.json",
+ "from": 0,
+ "to": 16.5,
+ "minShot": 0.09,
+ "curve": "film",
+ "version": 1,
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "letterbox": true,
+ "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (UOGV3464-manual.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+ "shots": [
+  {
+   "id": "MON-322",
+   "at": 0
+  },
+  {
+   "id": "MON-241",
+   "at": 2.31
+  },
+  {
+   "id": "MON-251",
+   "at": 0.89
+  },
+  {
+   "id": "MON-088",
+   "at": 2.25
+  },
+  {
+   "id": "MON-307",
+   "at": 0.96
+  },
+  {
+   "id": "MON-128",
+   "at": 1.18
+  },
+  {
+   "id": "MON-321",
+   "at": 0.66
+  },
+  {
+   "id": "MON-059",
+   "at": 0.12
+  },
+  {
+   "id": "MON-106",
+   "at": 0.49
+  },
+  {
+   "id": "MON-304",
+   "at": 0.65
+  },
+  {
+   "id": "MON-285",
+   "at": 2.05
+  },
+  {
+   "id": "MON-034",
+   "at": 0.52
+  },
+  {
+   "id": "MON-095",
+   "at": 0.25
+  },
+  {
+   "id": "MON-003",
+   "at": 0.69
+  },
+  {
+   "id": "MON-116",
+   "at": 0
+  },
+  {
+   "id": "MON-259",
+   "at": 0
+  },
+  {
+   "id": "MON-011",
+   "at": 0.14
+  },
+  {
+   "id": "MON-154",
+   "at": 0.29
+  },
+  {
+   "id": "MON-290",
+   "at": 1.18
+  },
+  {
+   "id": "MON-164",
+   "at": 0.89
+  },
+  {
+   "id": "MON-061",
+   "at": 0.52
+  },
+  {
+   "id": "MON-275",
+   "at": 1.56
+  },
+  {
+   "id": "MON-167",
+   "at": 0.15
+  },
+  {
+   "id": "MON-260",
+   "at": 0.39
+  },
+  {
+   "id": "MON-018",
+   "at": 0.41
+  },
+  {
+   "id": "MON-039",
+   "at": 2.39
+  },
+  {
+   "id": "MON-115",
+   "at": 0
+  }
+ ]
+}

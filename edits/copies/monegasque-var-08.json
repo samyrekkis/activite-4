@@ -1,0 +1,154 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 2,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OYUA3954.json), autre chanson, autre moment de chaque plan, look tealOrange avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 travelling dans la salle, colonne lumineuse et cordons rouges (zoom avant 24 %)",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 1.25,
+      "end": 4.822,
+      "speed": 1.88,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.243
+      }
+    },
+    {
+      "label": "#2 cœur de pétales de roses au sol (zoom avant 30 %)",
+      "src": "library/monegasque/clips/MON-245.mp4",
+      "start": 0,
+      "end": 1.55,
+      "speed": 0.727,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.297
+      }
+    },
+    {
+      "label": "#3 assortiment de desserts sur table noire (zoom avant 32 %)",
+      "src": "library/monegasque/clips/MON-037.mp4",
+      "start": 0,
+      "end": 1.45,
+      "speed": 0.679,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.323
+      }
+    },
+    {
+      "label": "#4 main qui sert les tartines (zoom avant 35 %)",
+      "src": "library/monegasque/clips/MON-093.mp4",
+      "start": 0,
+      "end": 0.95,
+      "speed": 0.432,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.349
+      }
+    },
+    {
+      "label": "#5 salle sous le plafond miroir, néon et colonnes (zoom arrière 12 %)",
+      "src": "library/monegasque/clips/MON-192.mp4",
+      "start": 2.75,
+      "end": 3.901,
+      "speed": 1.08,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.141,
+        "to": 1
+      }
+    },
+    {
+      "label": "#6 rideau de cœurs et pétales au sol",
+      "src": "library/monegasque/clips/MON-323.mp4",
+      "start": 1.14,
+      "end": 2.215,
+      "speed": 1.04,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 table du brunch, smoothies et assiettes",
+      "src": "library/monegasque/clips/MON-287.mp4",
+      "start": 0.92,
+      "end": 1.994,
+      "speed": 1.04,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 allée de pétales rouges et cordons dorés",
+      "src": "library/monegasque/clips/MON-212.mp4",
+      "start": 1.11,
+      "end": 2.32,
+      "speed": 1.1,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 flamme dans la poêle en cuisine",
+      "src": "library/monegasque/clips/MON-103.mp4",
+      "start": 0,
+      "end": 0.52,
+      "speed": 0.473,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 ailes de poulet laquées et purée",
+      "src": "library/monegasque/clips/MON-239.mp4",
+      "start": 0.05,
+      "end": 1.098,
+      "speed": 1.31,
+      "grade": {
+        "curve": "tealOrange",
+        "brightness": 1
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OYUA3954.MP4",
+    "from": 0
+  }
+}

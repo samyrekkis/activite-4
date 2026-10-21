@@ -1,0 +1,154 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 1,
+  "brief": "Variante cinéma : mêmes lieux que des vidéos déjà publiées, recoupés sur un autre edit de référence (OYUA3954.json), autre chanson, autre moment de chaque plan, look film avec bandes cinéma. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 terrasse couverte et lustres en osier (zoom avant 23 %)",
+      "src": "library/monegasque/clips/MON-147.mp4",
+      "start": 0,
+      "end": 1.98,
+      "speed": 1.042,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.233
+      }
+    },
+    {
+      "label": "#2 salle aux suspensions dorées et banquettes vertes (zoom avant 26 %)",
+      "src": "library/monegasque/clips/MON-181.mp4",
+      "start": 0,
+      "end": 2.78,
+      "speed": 1.303,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.259
+      }
+    },
+    {
+      "label": "#3 table du brunch avec milkshake, vue de dessus (zoom avant 25 %)",
+      "src": "library/monegasque/clips/MON-074.mp4",
+      "start": 0,
+      "end": 1.18,
+      "speed": 0.553,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.254
+      }
+    },
+    {
+      "label": "#4 femme en haïk au bord de la piscine, de face (zoom avant 24 %)",
+      "src": "library/monegasque/clips/MON-046.mp4",
+      "start": 0,
+      "end": 1.28,
+      "speed": 0.582,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1,
+        "to": 1.236
+      }
+    },
+    {
+      "label": "#5 cœur de pétales, plan serré (zoom arrière 15 %)",
+      "src": "library/monegasque/clips/MON-279.mp4",
+      "start": 1.47,
+      "end": 2.621,
+      "speed": 1.08,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true,
+      "zoom": {
+        "from": 1.17,
+        "to": 1
+      }
+    },
+    {
+      "label": "#6 fourchette qui prend la salade",
+      "src": "library/monegasque/clips/MON-286.mp4",
+      "start": 2.57,
+      "end": 3.645,
+      "speed": 1.04,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 paella aux fruits de mer et citron",
+      "src": "library/monegasque/clips/MON-009.mp4",
+      "start": 0.95,
+      "end": 2.024,
+      "speed": 1.04,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 assiette frites et sauce, verres ciselés",
+      "src": "library/monegasque/clips/MON-162.mp4",
+      "start": 1.64,
+      "end": 2.85,
+      "speed": 1.1,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 tajine, gâteau et assiette avocat devant la piscine",
+      "src": "library/monegasque/clips/MON-140.mp4",
+      "start": 0,
+      "end": 0.65,
+      "speed": 0.591,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 terrasse sous l'auvent, vue sur la piscine et les arbres",
+      "src": "library/monegasque/clips/MON-177.mp4",
+      "start": 2.09,
+      "end": 3.138,
+      "speed": 1.31,
+      "grade": {
+        "curve": "film",
+        "brightness": 1
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OYUA3954.MP4",
+    "from": 0
+  }
+}
