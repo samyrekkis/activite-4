@@ -6,79 +6,79 @@
  "to": 20.17,
  "minShot": 0.3,
  "curve": "encre",
- "version": 1,
+ "version": 100,
+ "brief": "Copie de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps) avec le Samouraï : l’entrée, la salle aux lanternes, les détails, la tradition, les tables, les plats asiatiques. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
  "copyZoom": true,
  "refCrop": "384:680:166:60",
- "brief": "Copie exacte de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps) avec le Samouraï : le néon et le rooftop, l’escalier et l’entrée, la salle aux lanternes, les détails, la table basse, la chambre et le miroir aux kimonos. Mêmes coupes, mêmes zooms, même chanson. Aucun texte.",
  "shots": [
   {
-   "id": "SAM-078"
+   "id": "SAM-016"
   },
   {
-   "id": "SAM-076"
+   "id": "SAM-013"
   },
   {
-   "id": "SAM-077"
+   "id": "SAM-056"
   },
   {
-   "id": "SAM-079"
+   "id": "SAM-046"
   },
   {
-   "id": "SAM-080"
+   "id": "SAM-018"
   },
   {
-   "id": "SAM-066"
+   "id": "SAM-011"
   },
   {
-   "id": "SAM-014"
+   "id": "SAM-029"
   },
   {
-   "id": "SAM-065"
+   "id": "SAM-047"
   },
   {
-   "id": "SAM-062"
+   "id": "SAM-012"
   },
   {
-   "id": "SAM-063"
-  },
-  {
-   "id": "SAM-072"
-  },
-  {
-   "id": "SAM-073"
-  },
-  {
-   "id": "SAM-064"
-  },
-  {
-   "id": "SAM-055"
-  },
-  {
-   "id": "SAM-070"
-  },
-  {
-   "id": "SAM-075"
-  },
-  {
-   "id": "SAM-074"
-  },
-  {
-   "id": "SAM-019"
-  },
-  {
-   "id": "SAM-015"
-  },
-  {
-   "id": "SAM-017"
+   "id": "SAM-034"
   },
   {
    "id": "SAM-020"
   },
   {
-   "id": "SAM-021"
+   "id": "SAM-028"
   },
   {
-   "id": "SAM-057"
+   "id": "SAM-080"
+  },
+  {
+   "id": "SAM-025"
+  },
+  {
+   "id": "SAM-006"
+  },
+  {
+   "id": "SAM-061"
+  },
+  {
+   "id": "SAM-027"
+  },
+  {
+   "id": "SAM-002"
+  },
+  {
+   "id": "SAM-054"
+  },
+  {
+   "id": "SAM-035"
+  },
+  {
+   "id": "SAM-010"
+  },
+  {
+   "id": "SAM-031"
+  },
+  {
+   "id": "SAM-007"
   }
  ]
 }

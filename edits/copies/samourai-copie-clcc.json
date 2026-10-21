@@ -1,0 +1,377 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 102,
+  "brief": "Copie de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps) avec le Samouraï : l’entrée, la salle aux lanternes, les détails, la tradition, les tables, les plats asiatiques. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 escalier et fresque rouge du samouraï",
+      "src": "library/samourai/clips/SAM-016.mp4",
+      "start": 0.383,
+      "end": 1.316,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#2 salle aux lanternes et miroir doré (zoom arrière 14 %)",
+      "src": "library/samourai/clips/SAM-013.mp4",
+      "start": 0.281,
+      "end": 1.148,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.157,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 table au chapeau chinois et chaises rouges (zoom avant 4 %)",
+      "src": "library/samourai/clips/SAM-056.mp4",
+      "start": 2.3,
+      "end": 3.1,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.043
+      }
+    },
+    {
+      "label": "#4 rideau de cœurs rouges",
+      "src": "library/samourai/clips/SAM-046.mp4",
+      "start": 0.467,
+      "end": 1.334,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#5 chambre à table basse et poupée japonaise",
+      "src": "library/samourai/clips/SAM-018.mp4",
+      "start": 0.318,
+      "end": 1.251,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#6 salle avec vase calligraphié et plantes (zoom avant 6 %)",
+      "src": "library/samourai/clips/SAM-011.mp4",
+      "start": 0.165,
+      "end": 1.065,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.057
+      }
+    },
+    {
+      "label": "#7 soupe au curry et citron",
+      "src": "library/samourai/clips/SAM-029.mp4",
+      "start": 0.051,
+      "end": 0.918,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 0.533,
+      "end": 1.366,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 grande plante tropicale dans la salle",
+      "src": "library/samourai/clips/SAM-012.mp4",
+      "start": 0.433,
+      "end": 1.266,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 plateau de makis devant l'éventail rouge",
+      "src": "library/samourai/clips/SAM-034.mp4",
+      "start": 0.117,
+      "end": 0.984,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#11 escalier néon rouge et kanji",
+      "src": "library/samourai/clips/SAM-020.mp4",
+      "start": 0.331,
+      "end": 1.198,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#12 nouilles sautées et légumes croquants",
+      "src": "library/samourai/clips/SAM-028.mp4",
+      "start": 0.082,
+      "end": 0.948,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 cage bleue et plantes devant la fresque rouge",
+      "src": "library/samourai/clips/SAM-080.mp4",
+      "start": 0.74,
+      "end": 1.64,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#14 makis avocat et caviar, plan serré",
+      "src": "library/samourai/clips/SAM-025.mp4",
+      "start": 0.102,
+      "end": 0.969,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 baguettes qui trempent un maki dans la sauce (zoom avant 12 %)",
+      "src": "library/samourai/clips/SAM-006.mp4",
+      "start": 0.02,
+      "end": 0.92,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.118
+      }
+    },
+    {
+      "label": "#16 salle aux lanternes et sol en marbre, travelling (zoom avant 8 %)",
+      "src": "library/samourai/clips/SAM-061.mp4",
+      "start": 2.298,
+      "end": 3.131,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.082
+      }
+    },
+    {
+      "label": "#17 sauce versée sur les makis frits",
+      "src": "library/samourai/clips/SAM-027.mp4",
+      "start": 0,
+      "end": 0.82,
+      "speed": 0.946,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#18 entrée néon et vitrine dorée (zoom avant 10 %)",
+      "src": "library/samourai/clips/SAM-002.mp4",
+      "start": 0.334,
+      "end": 1.167,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.1
+      }
+    },
+    {
+      "label": "#19 salle aux lanternes et coussins, travelling lent (zoom arrière 8 %)",
+      "src": "library/samourai/clips/SAM-054.mp4",
+      "start": 2.26,
+      "end": 3.16,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.092,
+        "to": 1
+      }
+    },
+    {
+      "label": "#20 salle animée le soir avec lanternes",
+      "src": "library/samourai/clips/SAM-035.mp4",
+      "start": 0.352,
+      "end": 1.219,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#21 terrasse végétale et tables (zoom avant 10 %)",
+      "src": "library/samourai/clips/SAM-010.mp4",
+      "start": 0.381,
+      "end": 1.248,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.096
+      }
+    },
+    {
+      "label": "#22 sushis devant l'éventail rouge, piscine en fond (zoom arrière 13 %)",
+      "src": "library/samourai/clips/SAM-031.mp4",
+      "start": 0.6,
+      "end": 1.4,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.143,
+        "to": 1
+      }
+    },
+    {
+      "label": "#23 salle avec plantes et lanternes rouges (zoom arrière 7 %)",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0.413,
+      "end": 1.516,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.488,
+        "contrast": 0.927,
+        "saturate": 0.664,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/CLCC7774.MP4",
+    "from": 0
+  }
+}

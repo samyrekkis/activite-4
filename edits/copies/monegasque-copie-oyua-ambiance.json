@@ -1,0 +1,184 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 102,
+  "brief": "Copie de l’edit de référence OYUA3954 (tour rapide en travellings accélérés) : l’ambiance du Monégasque — la salle, les clients, le serveur, l’allée de pétales, la terrasse et la piscine vue d’en haut. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 salle de la terrasse avec écran et fresques colorées (zoom avant 28 %)",
+      "src": "library/monegasque/clips/MON-187.mp4",
+      "start": 0,
+      "end": 3.572,
+      "speed": 1.88,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.283
+      }
+    },
+    {
+      "label": "#2 travelling dans la salle aux colonnes lumineuses (zoom avant 28 %)",
+      "src": "library/monegasque/clips/MON-184.mp4",
+      "start": 0,
+      "end": 3.93,
+      "speed": 1.842,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.284
+      }
+    },
+    {
+      "label": "#3 travelling derrière la vitre vers la salle (zoom avant 31 %)",
+      "src": "library/monegasque/clips/MON-190.mp4",
+      "start": 0,
+      "end": 1.83,
+      "speed": 0.858,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.306
+      }
+    },
+    {
+      "label": "#4 serveur qui traverse la salle (zoom avant 25 %)",
+      "src": "library/monegasque/clips/MON-313.mp4",
+      "start": 0,
+      "end": 2.85,
+      "speed": 1.295,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.245
+      }
+    },
+    {
+      "label": "#5 cliente sur la terrasse aux tournesols (zoom arrière 12 %)",
+      "src": "library/monegasque/clips/MON-148.mp4",
+      "start": 0,
+      "end": 1.151,
+      "speed": 1.08,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.14,
+        "to": 1
+      }
+    },
+    {
+      "label": "#6 cage à oiseaux en gros plan",
+      "src": "library/monegasque/clips/MON-137.mp4",
+      "start": 0,
+      "end": 1.075,
+      "speed": 1.04,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 clientes à table, salle animée",
+      "src": "library/monegasque/clips/MON-299.mp4",
+      "start": 0,
+      "end": 1.074,
+      "speed": 1.04,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 allée de pétales et cordon rouge",
+      "src": "library/monegasque/clips/MON-294.mp4",
+      "start": 0,
+      "end": 1.21,
+      "speed": 1.1,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 mur de pierre et fleurs bleues et jaunes",
+      "src": "library/monegasque/clips/MON-139.mp4",
+      "start": 0,
+      "end": 0.88,
+      "speed": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 piscine et fresques, plan large",
+      "src": "library/monegasque/clips/MON-028.mp4",
+      "start": 0,
+      "end": 1.048,
+      "speed": 1.31,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.085,
+        "contrast": 1.124,
+        "saturate": 0.72,
+        "tint": "rgba(40,120,255,0.02)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OYUA3954.MP4",
+    "from": 0
+  }
+}
