@@ -7,6 +7,7 @@
 // Cuts closer than minShot are merged. A shot list shorter than the cuts is an error.
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 
 const spec = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
 const ref = JSON.parse(fs.readFileSync(spec.ref, "utf8"));
@@ -60,6 +61,24 @@ for (let i = 0; i < n; i++) {
   if (s.reframe) c.reframe = s.reframe;
   if (s.letterbox ?? spec.letterbox) c.letterbox = true;
   clips.push(c);
+}
+// copyZoom: each shot gets the digital zoom that makes its apparent zoom (camera push +
+// zoom) equal to the reference shot's, both measured by shot_zoom.py. refCrop: preview
+// window of a screen-recorded reference (w:h:x:y).
+if (spec.copyZoom) {
+  const PY = process.env.PYTHON || "C:/Users/hp/.studioresto/venv/Scripts/python.exe";
+  const segs = bounds.slice(0, -1).map((b, i) => `${b},${bounds[i + 1]}`);
+  const refZ = JSON.parse(execFileSync(PY, ["scripts/library/shot_zoom.py", ref.src, spec.refCrop || "-", ...segs], { encoding: "utf8" }));
+  clips.forEach((c, i) => {
+    const own = JSON.parse(execFileSync(PY, ["scripts/library/shot_zoom.py", `public/${c.src}`, "-", `${c.start},${c.end}`], { encoding: "utf8" }))[0];
+    // A static reference shot stays static: no digital zoom to cancel our own camera move.
+    if (Math.abs(refZ[i] - 1) < 0.04) return;
+    const r = Math.min(1.35, Math.max(0.75, refZ[i] / own));
+    if (Math.abs(r - 1) < 0.03) return;
+    c.zoom = r > 1 ? { from: 1, to: +r.toFixed(3) } : { from: +(1 / r).toFixed(3), to: 1 };
+    c.label += ` (zoom ${r > 1 ? "avant" : "arrière"} ${Math.round(Math.abs(r - 1) * 100)} %)`;
+  });
+  console.log("ref zoom per shot:", refZ.join(" "));
 }
 const plan = { restaurant: spec.restaurant, format: "vertical", fps: 30, version: spec.version || 1, brief: spec.brief,
   handle: spec.restaurant === "samourai" ? "@samourai_restaurant" : "@lemonegasquedz", clips,

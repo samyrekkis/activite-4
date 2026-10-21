@@ -1,0 +1,409 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 202,
+  "brief": "Copie de l’edit de référence UOGV3464 (visite d’un café le soir) avec le Monégasque : l’enseigne, 8 flashs de détails en noir et blanc, la salle, la tradition, les anniversaires, des flashs de plats, et la salle pour finir. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 travelling dans la salle, colonne lumineuse et cordons rouges",
+      "src": "library/monegasque/clips/MON-174.mp4",
+      "start": 1.435,
+      "end": 3.465,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#2 salle d'anniversaire rose, néon et ballons",
+      "src": "library/monegasque/clips/MON-271.mp4",
+      "start": 1.215,
+      "end": 1.355,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#3 cœur de pétales de roses au sol",
+      "src": "library/monegasque/clips/MON-245.mp4",
+      "start": 0.72,
+      "end": 0.88,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#4 fourchette dans le dessert aux figues",
+      "src": "library/monegasque/clips/MON-267.mp4",
+      "start": 0.83,
+      "end": 0.97,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#5 table d'anniversaire, bougies rouges et couronne",
+      "src": "library/monegasque/clips/MON-213.mp4",
+      "start": 0.835,
+      "end": 0.995,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#6 assortiment de desserts sur table noire",
+      "src": "library/monegasque/clips/MON-037.mp4",
+      "start": 0.665,
+      "end": 0.835,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 bouquet de roses rouges et blanches",
+      "src": "library/monegasque/clips/MON-151.mp4",
+      "start": 0.42,
+      "end": 0.55,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 bougies rouges et ballons devant la baie",
+      "src": "library/monegasque/clips/MON-247.mp4",
+      "start": 0.5,
+      "end": 0.67,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 main qui sert les tartines",
+      "src": "library/monegasque/clips/MON-093.mp4",
+      "start": 0.435,
+      "end": 0.565,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "saturate": 0,
+        "contrast": 1.228,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 salle aux fauteuils verts, soir de ramadan (zoom avant 10 %)",
+      "src": "library/monegasque/clips/MON-202.mp4",
+      "start": 0.565,
+      "end": 1.765,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.103
+      }
+    },
+    {
+      "label": "#11 salle sous le plafond miroir, néon et colonnes (zoom avant 12 %)",
+      "src": "library/monegasque/clips/MON-192.mp4",
+      "start": 1.39,
+      "end": 2.59,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.123
+      }
+    },
+    {
+      "label": "#12 table romantique aux bougies près de la baie",
+      "src": "library/monegasque/clips/MON-280.mp4",
+      "start": 0.865,
+      "end": 2.065,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 femme en haïk devant le néon Monégasque",
+      "src": "library/monegasque/clips/MON-049.mp4",
+      "start": 0.43,
+      "end": 0.97,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#14 rideau de cœurs et pétales au sol",
+      "src": "library/monegasque/clips/MON-323.mp4",
+      "start": 0.835,
+      "end": 1.465,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 table complète avec milkshake rose",
+      "src": "library/monegasque/clips/MON-087.mp4",
+      "start": 0.63,
+      "end": 1.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#16 mains qui applaudissent autour du gâteau d'anniversaire",
+      "src": "library/monegasque/clips/MON-129.mp4",
+      "start": 0.11,
+      "end": 1.19,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#17 table du brunch, smoothies et assiettes",
+      "src": "library/monegasque/clips/MON-287.mp4",
+      "start": 0.36,
+      "end": 1.71,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      },
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#18 ballons roses et fresque colorée",
+      "src": "library/monegasque/clips/MON-263.mp4",
+      "start": 1.265,
+      "end": 1.665,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#19 allée de pétales rouges et cordons dorés",
+      "src": "library/monegasque/clips/MON-212.mp4",
+      "start": 0.815,
+      "end": 1.585,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#20 piscine la nuit et cascade éclairée",
+      "src": "library/monegasque/clips/MON-234.mp4",
+      "start": 0,
+      "end": 0.98,
+      "speed": 0.817,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#21 poisson grillé et légumes",
+      "src": "library/monegasque/clips/MON-306.mp4",
+      "start": 0.7,
+      "end": 0.8,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#22 flamme dans la poêle en cuisine",
+      "src": "library/monegasque/clips/MON-103.mp4",
+      "start": 0.22,
+      "end": 0.35,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#23 burger et frites",
+      "src": "library/monegasque/clips/MON-085.mp4",
+      "start": 1.15,
+      "end": 1.28,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#24 poulet gratiné sur salade",
+      "src": "library/monegasque/clips/MON-317.mp4",
+      "start": 1.885,
+      "end": 1.985,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#25 ailes de poulet laquées et purée",
+      "src": "library/monegasque/clips/MON-239.mp4",
+      "start": 0.815,
+      "end": 0.955,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#26 vitrine et décor romantique à l'entrée",
+      "src": "library/monegasque/clips/MON-318.mp4",
+      "start": 0.07,
+      "end": 0.7,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      },
+      "transitionIn": {
+        "type": "blurZoom",
+        "duration": 0.25
+      }
+    },
+    {
+      "label": "#27 travelling devant la banquette arrondie, salle et baie vitrée",
+      "src": "library/monegasque/clips/MON-179.mp4",
+      "start": 0.84,
+      "end": 2.14,
+      "grade": {
+        "curve": "portra",
+        "brightness": 0.821,
+        "contrast": 1.067,
+        "saturate": 0.882,
+        "tint": "rgba(255,150,40,0.06)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/UOGV3464.MP4",
+    "from": 0
+  }
+}

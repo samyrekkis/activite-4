@@ -8,8 +8,10 @@ export const MotionLayer: React.FC<{
   intensity: number;
   seed: string;
   durationInFrames: number;
+  /** Exact zoom over the clip (copied from a reference shot), applied after the motion. */
+  zoom?: { from: number; to: number };
   children: React.ReactNode;
-}> = ({ motion, intensity, seed, durationInFrames, children }) => {
+}> = ({ motion, intensity, seed, durationInFrames, zoom, children }) => {
   const frame = useCurrentFrame();
   const p = interpolate(frame, [0, Math.max(1, durationInFrames - 1)], [0, 1], {
     extrapolateRight: "clamp",
@@ -58,5 +60,9 @@ export const MotionLayer: React.FC<{
       transform = "none";
   }
 
+  if (zoom) {
+    const lin = interpolate(frame, [0, Math.max(1, durationInFrames - 1)], [zoom.from, zoom.to], { extrapolateRight: "clamp" });
+    transform = `${transform === "none" ? "" : transform} scale(${lin})`.trim();
+  }
   return <AbsoluteFill style={{ transform, transformOrigin: "center center" }}>{children}</AbsoluteFill>;
 };

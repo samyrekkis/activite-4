@@ -5,6 +5,7 @@ import { isImage } from "../timeline";
 import type { Clip } from "../types";
 import { MotionLayer } from "./MotionLayer";
 import { PanelsView } from "./PanelsView";
+import { MosaicView } from "./MosaicView";
 import { SocialLayer } from "./SocialLayer";
 import { CurveFilter } from "../grading";
 import { TextLayer } from "./TextLayer";
@@ -29,6 +30,7 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
     <AbsoluteFill style={{ backgroundColor: theme.colors.background, overflow: "hidden" }}>
       <MotionLayer motion={clip.motion ?? "none"} intensity={clip.motionIntensity ?? 1} seed={`clip-${index}`}
         durationInFrames={durationInFrames}
+        zoom={clip.zoom}
       >
         {grade.curve ? <CurveFilter id={curveId} curve={grade.curve} /> : null}
         <AbsoluteFill
@@ -37,7 +39,9 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
             // Static reframe (no movement): hides an edge without a fake camera move.
             ...(clip.reframe ? { transform: `scale(${clip.reframe.scale})`, transformOrigin: clip.reframe.origin ?? "center" } : {}),          }}
         >
-          {clip.panels?.length ? (
+          {clip.mosaic ? (
+            <MosaicView mosaic={clip.mosaic} gap={theme.colors.background} />
+          ) : clip.panels?.length ? (
             <PanelsView panels={clip.panels} layout={clip.layout ?? "rows"} stagger={clip.stagger ?? 0.15} gap={theme.colors.background} />
           ) : isImage(clip.src) ? (
             <Img src={src} style={media} />

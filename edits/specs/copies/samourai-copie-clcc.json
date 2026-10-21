@@ -1,0 +1,84 @@
+{
+ "out": "edits/copies/samourai-copie-clcc.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/CLCC7774.json",
+ "from": 0,
+ "to": 20.17,
+ "minShot": 0.3,
+ "curve": "encre",
+ "version": 1,
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "brief": "Copie exacte de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps) avec le Samouraï : le néon et le rooftop, l’escalier et l’entrée, la salle aux lanternes, les détails, la table basse, la chambre et le miroir aux kimonos. Mêmes coupes, mêmes zooms, même chanson. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-078"
+  },
+  {
+   "id": "SAM-076"
+  },
+  {
+   "id": "SAM-077"
+  },
+  {
+   "id": "SAM-079"
+  },
+  {
+   "id": "SAM-080"
+  },
+  {
+   "id": "SAM-066"
+  },
+  {
+   "id": "SAM-014"
+  },
+  {
+   "id": "SAM-065"
+  },
+  {
+   "id": "SAM-062"
+  },
+  {
+   "id": "SAM-063"
+  },
+  {
+   "id": "SAM-072"
+  },
+  {
+   "id": "SAM-073"
+  },
+  {
+   "id": "SAM-064"
+  },
+  {
+   "id": "SAM-055"
+  },
+  {
+   "id": "SAM-070"
+  },
+  {
+   "id": "SAM-075"
+  },
+  {
+   "id": "SAM-074"
+  },
+  {
+   "id": "SAM-019"
+  },
+  {
+   "id": "SAM-015"
+  },
+  {
+   "id": "SAM-017"
+  },
+  {
+   "id": "SAM-020"
+  },
+  {
+   "id": "SAM-021"
+  },
+  {
+   "id": "SAM-057"
+  }
+ ]
+}

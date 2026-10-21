@@ -31,7 +31,7 @@ mkdirSync("out", { recursive: true });
 const propsPath = `out/.props-${name}.json`;
 writeFileSync(propsPath, JSON.stringify({ plan }));
 
-const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--props=${propsPath}`];
+const cliArgs = ["remotion", "render", "src/index.ts", "RestoEdit", output, `--props=${propsPath}`, "--timeout=120000"];
 if (preview) cliArgs.push("--scale=0.5");
 if (browser) cliArgs.push(`--browser-executable=${browser}`);
 

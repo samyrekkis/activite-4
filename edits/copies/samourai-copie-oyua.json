@@ -1,0 +1,184 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 202,
+  "brief": "Copie de l’edit de référence OYUA3954 (tour rapide en travellings accélérés) avec le Samouraï : l’entrée, la salle aux lanternes, la tradition, les détails, les tables, les plats et le rooftop. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 salle aux lanternes et coussins, travelling lent (zoom avant 25 %)",
+      "src": "library/samourai/clips/SAM-054.mp4",
+      "start": 0,
+      "end": 3.572,
+      "speed": 1.88,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.249
+      }
+    },
+    {
+      "label": "#2 salle avec plantes et lanternes rouges (zoom avant 30 %)",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0,
+      "end": 1.88,
+      "speed": 0.881,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.304
+      }
+    },
+    {
+      "label": "#3 chambre à table basse et poupée japonaise (zoom avant 32 %)",
+      "src": "library/samourai/clips/SAM-018.mp4",
+      "start": 0,
+      "end": 1.52,
+      "speed": 0.712,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.322
+      }
+    },
+    {
+      "label": "#4 table au chapeau chinois et chaises rouges (zoom avant 25 %)",
+      "src": "library/samourai/clips/SAM-056.mp4",
+      "start": 0,
+      "end": 4.84,
+      "speed": 2.2,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.245
+      }
+    },
+    {
+      "label": "#5 cage bleue et plantes devant la fresque rouge (zoom arrière 11 %)",
+      "src": "library/samourai/clips/SAM-080.mp4",
+      "start": 0,
+      "end": 1.151,
+      "speed": 1.08,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.12,
+        "to": 1
+      }
+    },
+    {
+      "label": "#6 table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 0,
+      "end": 1.075,
+      "speed": 1.04,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 sushis devant l'éventail rouge, piscine en fond",
+      "src": "library/samourai/clips/SAM-031.mp4",
+      "start": 0,
+      "end": 1.074,
+      "speed": 1.04,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 makis avocat et caviar, plan serré",
+      "src": "library/samourai/clips/SAM-025.mp4",
+      "start": 0,
+      "end": 1.02,
+      "speed": 0.927,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#9 baguettes qui trempent un maki dans la sauce",
+      "src": "library/samourai/clips/SAM-006.mp4",
+      "start": 0,
+      "end": 0.92,
+      "speed": 0.836,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#10 rideau de cœurs rouges",
+      "src": "library/samourai/clips/SAM-046.mp4",
+      "start": 0,
+      "end": 1.048,
+      "speed": 1.31,
+      "grade": {
+        "curve": "encre",
+        "brightness": 1.495,
+        "contrast": 0.957,
+        "saturate": 0.54,
+        "tint": "rgba(40,120,255,0.03)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/OYUA3954.MP4",
+    "from": 0
+  }
+}

@@ -1,0 +1,96 @@
+{
+ "out": "edits/copies/monegasque-copie-uogv.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/UOGV3464-manual.json",
+ "from": 0,
+ "to": 16.5,
+ "minShot": 0.09,
+ "curve": "portra",
+ "version": 200,
+ "brief": "Copie de l’edit de référence UOGV3464 (visite d’un café le soir) avec le Monégasque : l’enseigne, 8 flashs de détails en noir et blanc, la salle, la tradition, les anniversaires, des flashs de plats, et la salle pour finir. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "shots": [
+  {
+   "id": "MON-174"
+  },
+  {
+   "id": "MON-271"
+  },
+  {
+   "id": "MON-245"
+  },
+  {
+   "id": "MON-267"
+  },
+  {
+   "id": "MON-213"
+  },
+  {
+   "id": "MON-037"
+  },
+  {
+   "id": "MON-151"
+  },
+  {
+   "id": "MON-247"
+  },
+  {
+   "id": "MON-093"
+  },
+  {
+   "id": "MON-202"
+  },
+  {
+   "id": "MON-192"
+  },
+  {
+   "id": "MON-280"
+  },
+  {
+   "id": "MON-049"
+  },
+  {
+   "id": "MON-323"
+  },
+  {
+   "id": "MON-087"
+  },
+  {
+   "id": "MON-129"
+  },
+  {
+   "id": "MON-287"
+  },
+  {
+   "id": "MON-263"
+  },
+  {
+   "id": "MON-212"
+  },
+  {
+   "id": "MON-234"
+  },
+  {
+   "id": "MON-306"
+  },
+  {
+   "id": "MON-103"
+  },
+  {
+   "id": "MON-085"
+  },
+  {
+   "id": "MON-317"
+  },
+  {
+   "id": "MON-239"
+  },
+  {
+   "id": "MON-318"
+  },
+  {
+   "id": "MON-179"
+  }
+ ]
+}

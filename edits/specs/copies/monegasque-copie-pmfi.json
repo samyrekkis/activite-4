@@ -1,0 +1,80 @@
+{
+ "out": "edits/copies/monegasque-copie-pmfi.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/PMFI3044.json",
+ "from": 5.6,
+ "to": 13,
+ "minShot": 0.1,
+ "curve": "film",
+ "version": 200,
+ "brief": "Copie de l’edit de référence PMFI3044 : une mosaïque 3×3 de tables en noir et blanc qui apparaissent une à une puis passent en couleur, puis 22 gros plans de desserts, boissons et plats sur le beat. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "shots": [
+  {
+   "id": "MON-250"
+  },
+  {
+   "id": "MON-023"
+  },
+  {
+   "id": "MON-161"
+  },
+  {
+   "id": "MON-152"
+  },
+  {
+   "id": "MON-058"
+  },
+  {
+   "id": "MON-219"
+  },
+  {
+   "id": "MON-264"
+  },
+  {
+   "id": "MON-132"
+  },
+  {
+   "id": "MON-118"
+  },
+  {
+   "id": "MON-035"
+  },
+  {
+   "id": "MON-019"
+  },
+  {
+   "id": "MON-080"
+  },
+  {
+   "id": "MON-157"
+  },
+  {
+   "id": "MON-155"
+  },
+  {
+   "id": "MON-010"
+  },
+  {
+   "id": "MON-326"
+  },
+  {
+   "id": "MON-309"
+  },
+  {
+   "id": "MON-111"
+  },
+  {
+   "id": "MON-136"
+  },
+  {
+   "id": "MON-108"
+  },
+  {
+   "id": "MON-258"
+  },
+  {
+   "id": "MON-086"
+  }
+ ]
+}

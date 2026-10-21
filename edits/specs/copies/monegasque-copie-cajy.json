@@ -6,95 +6,97 @@
  "to": 14,
  "minShot": 0.1,
  "curve": "portra",
- "version": 4,
- "brief": "Copie exacte du rythme de l’edit de référence CAJY3696 (un plan d’ouverture de 1,4 s puis 28 coupes de 0,45 s sur le beat, chanson 136 BPM) : balade de jour, façade, entrée, enseignes, déco, terrasse et piscine du Monégasque, en contre-plongée et en marche avant. Sans son : la cliente remet la même chanson. Aucun texte ajouté, aucune carte de fin.",
+ "version": 200,
+ "brief": "Copie de l’edit de référence CAJY3696 (balade de jour, un plan de 1,4 s puis 28 coupes de 0,45 s sur le beat) : l’entrée, les vues, la salle, la tradition, les anniversaires, les tables, les plats, les desserts, les gestes, puis la piscine. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "720:820:0:460",
  "shots": [
   {
    "id": "MON-081"
   },
   {
-   "id": "MON-067"
+   "id": "MON-191"
   },
   {
-   "id": "MON-112"
+   "id": "MON-123"
   },
   {
-   "id": "MON-065"
+   "id": "MON-126"
   },
   {
-   "id": "MON-079"
+   "id": "MON-209"
   },
   {
-   "id": "MON-131"
-  },
-  {
-   "id": "MON-139"
-  },
-  {
-   "id": "MON-128"
-  },
-  {
-   "id": "MON-217"
-  },
-  {
-   "id": "MON-133"
-  },
-  {
-   "id": "MON-171"
-  },
-  {
-   "id": "MON-185"
-  },
-  {
-   "id": "MON-255"
-  },
-  {
-   "id": "MON-121"
-  },
-  {
-   "id": "MON-262"
-  },
-  {
-   "id": "MON-263"
-  },
-  {
-   "id": "MON-147"
-  },
-  {
-   "id": "MON-186"
-  },
-  {
-   "id": "MON-187"
-  },
-  {
-   "id": "MON-025"
-  },
-  {
-   "id": "MON-175"
-  },
-  {
-   "id": "MON-180"
-  },
-  {
-   "id": "MON-218"
-  },
-  {
-   "id": "MON-324"
-  },
-  {
-   "id": "MON-294"
+   "id": "MON-183"
   },
   {
    "id": "MON-277"
   },
   {
-   "id": "MON-178"
+   "id": "MON-045"
   },
   {
-   "id": "MON-174"
+   "id": "MON-293"
   },
   {
-   "id": "MON-191"
+   "id": "MON-075"
+  },
+  {
+   "id": "MON-276"
+  },
+  {
+   "id": "MON-144"
+  },
+  {
+   "id": "MON-008"
+  },
+  {
+   "id": "MON-033"
+  },
+  {
+   "id": "MON-163"
+  },
+  {
+   "id": "MON-256"
+  },
+  {
+   "id": "MON-221"
+  },
+  {
+   "id": "MON-208"
+  },
+  {
+   "id": "MON-052"
+  },
+  {
+   "id": "MON-057"
+  },
+  {
+   "id": "MON-149"
+  },
+  {
+   "id": "MON-142"
+  },
+  {
+   "id": "MON-135"
+  },
+  {
+   "id": "MON-146"
+  },
+  {
+   "id": "MON-325"
+  },
+  {
+   "id": "MON-171"
+  },
+  {
+   "id": "MON-175"
+  },
+  {
+   "id": "MON-124"
+  },
+  {
+   "id": "MON-218"
   }
  ]
 }

@@ -1,0 +1,84 @@
+{
+ "out": "edits/copies/monegasque-copie-clcc-jour.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/CLCC7774.json",
+ "from": 0,
+ "to": 20.17,
+ "minShot": 0.3,
+ "curve": "portra",
+ "version": 200,
+ "brief": "Copie de l’edit de référence CLCC7774 (visite d’un restaurant, une coupe tous les 2 temps) : le Monégasque de jour — l’entrée, la terrasse, la salle, les détails, la tradition, les anniversaires, le brunch, les plats, et la piscine. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "384:680:166:60",
+ "shots": [
+  {
+   "id": "MON-147"
+  },
+  {
+   "id": "MON-121"
+  },
+  {
+   "id": "MON-181"
+  },
+  {
+   "id": "MON-133"
+  },
+  {
+   "id": "MON-074"
+  },
+  {
+   "id": "MON-292"
+  },
+  {
+   "id": "MON-046"
+  },
+  {
+   "id": "MON-031"
+  },
+  {
+   "id": "MON-127"
+  },
+  {
+   "id": "MON-279"
+  },
+  {
+   "id": "MON-223"
+  },
+  {
+   "id": "MON-286"
+  },
+  {
+   "id": "MON-253"
+  },
+  {
+   "id": "MON-009"
+  },
+  {
+   "id": "MON-065"
+  },
+  {
+   "id": "MON-249"
+  },
+  {
+   "id": "MON-162"
+  },
+  {
+   "id": "MON-119"
+  },
+  {
+   "id": "MON-140"
+  },
+  {
+   "id": "MON-077"
+  },
+  {
+   "id": "MON-177"
+  },
+  {
+   "id": "MON-262"
+  },
+  {
+   "id": "MON-030"
+  }
+ ]
+}

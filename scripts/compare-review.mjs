@@ -47,6 +47,17 @@ const schema = {
     resemblance: { type: "string", description: "Ce qui ressemble et ce qui diffère, section par section de la référence." },
     color: { type: "string", description: "Écarts d'étalonnage précis (ex : copie trop claire, trop rouge, noirs pas assez denses) et réglages à appliquer." },
     fluidity: { type: "string" },
+    colorFix: {
+      type: "object",
+      description: "Réglages globaux à appliquer à la COPIE pour que son étalonnage se rapproche de la RÉFÉRENCE (1 = inchangé).",
+      properties: {
+        brightness: { type: "number", description: "Multiplicateur d'exposition, 0.8 à 1.3." },
+        contrast: { type: "number", description: "Multiplicateur de contraste, 0.8 à 1.3." },
+        saturate: { type: "number", description: "Multiplicateur de saturation, 0.6 à 1.5." },
+        warmth: { type: "number", description: "-1 (plus froid/bleu) à +1 (plus chaud/orangé), 0 = inchangé." },
+      },
+      required: ["brightness", "contrast", "saturate", "warmth"],
+    },
     issues: {
       type: "array",
       items: {
@@ -62,7 +73,7 @@ const schema = {
       },
     },
   },
-  required: ["resemblanceScore", "colorScore", "fluidityScore", "resemblance", "color", "fluidity", "issues"],
+  required: ["resemblanceScore", "colorScore", "fluidityScore", "resemblance", "color", "fluidity", "colorFix", "issues"],
 };
 
 const prompt = `Tu es monteur et étalonneur senior. Une cliente veut que l'on REPRODUISE le plus fidèlement possible un edit Instagram de référence, mais avec les images de son restaurant (${plan?.restaurant === "samourai" ? "Le Samouraï, asiatique" : "Le Monégasque, méditerranéen, déco colorée"}).
@@ -90,4 +101,5 @@ console.log(`Comparaison par ${used}`);
 console.log(`Ressemblance : ${result.resemblanceScore}/10. ${result.resemblance}`);
 console.log(`Couleur : ${result.colorScore}/10. ${result.color}`);
 console.log(`Fluidité : ${result.fluidityScore}/10. ${result.fluidity}`);
+console.log(`Correction couleur : ${JSON.stringify(result.colorFix)}`);
 for (const i of result.issues) console.log(`  [${i.category}] ${i.timestamp} ${i.shot ?? ""} : ${i.problem}\n      -> ${i.fix}`);

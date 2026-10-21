@@ -1,0 +1,65 @@
+{
+ "out": "edits/copies/monegasque-copie-oyua-nuit.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/OYUA3954.json",
+ "from": 0,
+ "to": 14.5,
+ "minShot": 0.3,
+ "curve": "portra",
+ "version": 200,
+ "brief": "Copie de l’edit de référence OYUA3954 (tour rapide en travellings accélérés) : le Monégasque le soir — l’entrée, la salle, un anniversaire, une table, la tradition, la déco, un plat, l’ambiance et la piscine. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+ "copyZoom": true,
+ "refCrop": "720:820:0:460",
+ "shots": [
+  {
+   "id": "MON-067",
+   "speed": 1.88,
+   "at": 0
+  },
+  {
+   "id": "MON-178",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-296",
+   "speed": 2.12,
+   "at": 0
+  },
+  {
+   "id": "MON-320",
+   "speed": 2.2,
+   "at": 0
+  },
+  {
+   "id": "MON-006",
+   "speed": 1.08,
+   "at": 0
+  },
+  {
+   "id": "MON-232",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "MON-270",
+   "speed": 1.04,
+   "at": 0
+  },
+  {
+   "id": "MON-300",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "MON-206",
+   "speed": 1.1,
+   "at": 0
+  },
+  {
+   "id": "MON-101",
+   "speed": 1.31,
+   "at": 0
+  }
+ ]
+}

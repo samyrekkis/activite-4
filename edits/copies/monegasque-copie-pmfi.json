@@ -1,0 +1,413 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 202,
+  "brief": "Copie de l’edit de référence PMFI3044 : une mosaïque 3×3 de tables en noir et blanc qui apparaissent une à une puis passent en couleur, puis 22 gros plans de desserts, boissons et plats sur le beat. Coupes identiques à la référence, mêmes zooms, même chanson. Aucun texte, aucune carte de fin.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 mosaïque 3x3 noir et blanc puis couleur",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 0,
+      "end": 5.6,
+      "grade": {
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      },
+      "mosaic": {
+        "cols": 3,
+        "rows": 3,
+        "gap": 0,
+        "cells": [
+          {
+            "src": "library/monegasque/clips/MON-056.mp4",
+            "start": 0.05,
+            "speed": 0.413,
+            "appear": 0.2,
+            "color": 3
+          },
+          {
+            "src": "library/monegasque/clips/MON-216.mp4",
+            "start": 0.05,
+            "speed": 0.426,
+            "appear": 0.6,
+            "color": 3.4
+          },
+          {
+            "src": "library/monegasque/clips/MON-173.mp4",
+            "start": 0.05,
+            "speed": 0.587,
+            "appear": 1,
+            "color": 3.6
+          },
+          {
+            "src": "library/monegasque/clips/MON-054.mp4",
+            "start": 0.05,
+            "speed": 0.516,
+            "appear": 1.2,
+            "color": 3.8
+          },
+          {
+            "src": "library/monegasque/clips/MON-160.mp4",
+            "start": 0.05,
+            "speed": 0.579,
+            "appear": 1.4,
+            "color": 4
+          },
+          {
+            "src": "library/monegasque/clips/MON-036.mp4",
+            "start": 0.05,
+            "speed": 0.35,
+            "appear": 1.8,
+            "color": 4.2
+          },
+          {
+            "src": "library/monegasque/clips/MON-141.mp4",
+            "start": 0.05,
+            "speed": 0.297,
+            "appear": 2,
+            "color": 4.8
+          },
+          {
+            "src": "library/monegasque/clips/MON-261.mp4",
+            "start": 0.05,
+            "speed": 0.291,
+            "appear": 2.4,
+            "color": 5
+          },
+          {
+            "src": "library/monegasque/clips/MON-248.mp4",
+            "start": 0.05,
+            "speed": 0.2,
+            "appear": 2.6,
+            "color": 5.2
+          }
+        ]
+      }
+    },
+    {
+      "label": "#2 crêpe au chocolat en gros plan",
+      "src": "library/monegasque/clips/MON-250.mp4",
+      "start": 0.15,
+      "end": 0.55,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#3 fondant au chocolat coulant",
+      "src": "library/monegasque/clips/MON-023.mp4",
+      "start": 0.065,
+      "end": 0.365,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#4 escalope panée nappée de sauce",
+      "src": "library/monegasque/clips/MON-161.mp4",
+      "start": 1.333,
+      "end": 1.966,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#5 main qui tient un mojito bleu",
+      "src": "library/monegasque/clips/MON-152.mp4",
+      "start": 0.331,
+      "end": 0.598,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#6 assiette avocat saumon et jus, déco colorée",
+      "src": "library/monegasque/clips/MON-058.mp4",
+      "start": 0.134,
+      "end": 0.367,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#7 main qui déroule la serviette sur la table citron",
+      "src": "library/monegasque/clips/MON-219.mp4",
+      "start": 0.235,
+      "end": 1.235,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#8 dessert aux figues et fleurs violettes (zoom arrière 25 %)",
+      "src": "library/monegasque/clips/MON-264.mp4",
+      "start": 0.968,
+      "end": 1.302,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1.333,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 paella aux crevettes et citrons (zoom avant 24 %)",
+      "src": "library/monegasque/clips/MON-132.mp4",
+      "start": 0.398,
+      "end": 0.731,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.243
+      }
+    },
+    {
+      "label": "#10 burger frites sur set coloré",
+      "src": "library/monegasque/clips/MON-118.mp4",
+      "start": 0.198,
+      "end": 0.531,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#11 crêpe et pancakes sur set de table coloré",
+      "src": "library/monegasque/clips/MON-035.mp4",
+      "start": 0.232,
+      "end": 0.499,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#12 fourchette et couteau dans la burrata",
+      "src": "library/monegasque/clips/MON-019.mp4",
+      "start": 0.085,
+      "end": 0.385,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#13 carpaccio et salade sur assiette bleue",
+      "src": "library/monegasque/clips/MON-080.mp4",
+      "start": 1.185,
+      "end": 1.485,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#14 dessert chantilly et milkshake au bord de la piscine",
+      "src": "library/monegasque/clips/MON-157.mp4",
+      "start": 1.134,
+      "end": 1.467,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#15 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.468,
+      "end": 0.802,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#16 table du brunch avec café et milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-010.mp4",
+      "start": 0.735,
+      "end": 1.035,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#17 burrata et figues, plan serré",
+      "src": "library/monegasque/clips/MON-326.mp4",
+      "start": 0.352,
+      "end": 0.618,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#18 paella, citron et moules",
+      "src": "library/monegasque/clips/MON-309.mp4",
+      "start": 0.398,
+      "end": 0.732,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#19 main qui photographie la burrata",
+      "src": "library/monegasque/clips/MON-111.mp4",
+      "start": 0.215,
+      "end": 0.515,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#20 paella sur set coloré, fleurs autour",
+      "src": "library/monegasque/clips/MON-136.mp4",
+      "start": 0.982,
+      "end": 1.148,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#21 grande table du soir avec plats variés",
+      "src": "library/monegasque/clips/MON-108.mp4",
+      "start": 0.182,
+      "end": 0.349,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#22 makis et pain sur nappe faïence",
+      "src": "library/monegasque/clips/MON-258.mp4",
+      "start": 0.365,
+      "end": 0.665,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    },
+    {
+      "label": "#23 salade et bricks dans la corbeille",
+      "src": "library/monegasque/clips/MON-086.mp4",
+      "start": 1.115,
+      "end": 1.315,
+      "grade": {
+        "curve": "film",
+        "brightness": 0.868,
+        "contrast": 1.033,
+        "saturate": 1.418,
+        "tint": "rgba(40,120,255,0.04)",
+        "tintBlend": "soft-light"
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/PMFI3044.MP4",
+    "from": 0
+  }
+}

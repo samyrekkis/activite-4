@@ -100,6 +100,19 @@ export type Panel = {
   position?: string;
 };
 
+export type MosaicCell = {
+  src: string;
+  start?: number;
+  speed?: number;
+  position?: string;
+  /** Seconds after the clip starts when the cell appears (black before). */
+  appear?: number;
+  /** Seconds after the clip starts when the cell turns to colour (black and white before). */
+  color?: number;
+};
+
+export type Mosaic = { cols: number; rows: number; cells: MosaicCell[]; /** Gap in px at 1080 wide. */ gap?: number };
+
 export type Clip = {
   /** Path relative to public/, e.g. "rushes/plat-01.mp4" or "brand/logo.png". */
   src: string;
@@ -112,6 +125,8 @@ export type Clip = {
   /** Playback speed: 0.5 = slow motion, 2 = fast. Default 1. */
   speed?: number;
   motion?: Motion;
+  /** Exact digital zoom over the clip, e.g. { from: 1, to: 1.12 } (copied from a reference shot). */
+  zoom?: { from: number; to: number };
   /** 1 = subtle, 2 = strong. Default 1. */
   motionIntensity?: number;
   /** Mute the clip's own sound. Default true (music carries the edit). */
@@ -122,6 +137,8 @@ export type Clip = {
   text?: TextOverlay[];
   /** Instagram-style cards over the clip. */
   social?: SocialCard[];
+  /** Grid of shots revealed one by one, black and white then colour (src/start/end set the clip length). */
+  mosaic?: Mosaic;
   /** Several shots on screen at once (src/start/end still set the length of the clip). */
   panels?: Panel[];
   /** "rows" = stacked horizontal bands (triptych), "columns" = side by side, "grid" = 2x2. Default "rows". */
