@@ -1,0 +1,200 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « amis » sur les coupes et la chanson de ext-FYTP9144.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 entrée avec sol en marbre et lanternes",
+      "src": "library/samourai/clips/SAM-014.mp4",
+      "start": 0.67,
+      "end": 1.803,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#2 salle aux lanternes et vase calligraphié",
+      "src": "library/samourai/clips/SAM-073.mp4",
+      "start": 0.84,
+      "end": 2.107,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#3 table remplie de sushis et plats japonais variés",
+      "src": "library/samourai/clips/SAM-141.mp4",
+      "start": 0.15,
+      "end": 0.65,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#4 deux femmes en kimono de dos",
+      "src": "library/samourai/clips/SAM-254.mp4",
+      "start": 0.03,
+      "end": 0.34,
+      "speed": 0.775,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#5 Clients attendant devant le buffet décoré de lanternes",
+      "src": "library/samourai/clips/SAM-102.mp4",
+      "start": 0.15,
+      "end": 0.55,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#6 rooftop aux lanternes en papier et voilages",
+      "src": "library/samourai/clips/SAM-067.mp4",
+      "start": 0.32,
+      "end": 1.053,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#7 grande pièce montée de sushis sur bois",
+      "src": "library/samourai/clips/SAM-245.mp4",
+      "start": 1.47,
+      "end": 2.037,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#8 assortiment de sushis et makis sur plateau",
+      "src": "library/samourai/clips/SAM-159.mp4",
+      "start": 0.11,
+      "end": 1.143,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#9 Main disposant les sushis sur l'assiette",
+      "src": "library/samourai/clips/SAM-223.mp4",
+      "start": 0.02,
+      "end": 0.554,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#10 Vue de dessus d'une table bien garnie",
+      "src": "library/samourai/clips/SAM-131.mp4",
+      "start": 0.12,
+      "end": 0.586,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#11 clients assis sur la terrasse rouge (zoom avant 8 %)",
+      "src": "library/samourai/clips/SAM-238.mp4",
+      "start": 0.2,
+      "end": 0.634,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.084
+      }
+    },
+    {
+      "label": "#12 homme en kimono traditionnel japonais",
+      "src": "library/samourai/clips/SAM-257.mp4",
+      "start": 0.02,
+      "end": 0.3,
+      "speed": 0.765,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#13 clientes en kimono avec des éventails",
+      "src": "library/samourai/clips/SAM-199.mp4",
+      "start": 0.15,
+      "end": 0.684,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#14 clients trinquant avec des cocktails colorés à table",
+      "src": "library/samourai/clips/SAM-138.mp4",
+      "start": 0.05,
+      "end": 0.716,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    },
+    {
+      "label": "#15 rooftop, néon kanji et plantes tropicales",
+      "src": "library/samourai/clips/SAM-077.mp4",
+      "start": 1.62,
+      "end": 2.107,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/FYTP9144.MP4",
+    "from": 0
+  }
+}

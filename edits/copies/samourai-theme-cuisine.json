@@ -1,0 +1,210 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « cuisine » sur les coupes et la chanson de ext-HDTR6186.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 plateau de makis devant l'éventail rouge",
+      "src": "library/samourai/clips/SAM-034.mp4",
+      "start": 0.09,
+      "end": 0.833,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 sushis devant l'éventail rouge, piscine en fond",
+      "src": "library/samourai/clips/SAM-031.mp4",
+      "start": 0.5,
+      "end": 1.591,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 chef barbu présentant une assiette de sushis",
+      "src": "library/samourai/clips/SAM-240.mp4",
+      "start": 0.82,
+      "end": 1.935,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 soupe ramen avec œuf et champignons en gros plan",
+      "src": "library/samourai/clips/SAM-105.mp4",
+      "start": 0.03,
+      "end": 1.121,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 bateau de sushis et sashimis",
+      "src": "library/samourai/clips/SAM-036.mp4",
+      "start": 0.98,
+      "end": 2.095,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 plateau sushis, nems et éventail rouge",
+      "src": "library/samourai/clips/SAM-026.mp4",
+      "start": 0.01,
+      "end": 0.889,
+      "speed": 0.715,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 makis avocat et caviar, plan serré",
+      "src": "library/samourai/clips/SAM-025.mp4",
+      "start": 0.01,
+      "end": 0.96,
+      "speed": 0.802,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 chefs en cuisine derrière le comptoir en marbre",
+      "src": "library/samourai/clips/SAM-009.mp4",
+      "start": 0.02,
+      "end": 1.134,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 chef préparant des makis au comptoir",
+      "src": "library/samourai/clips/SAM-156.mp4",
+      "start": 1.39,
+      "end": 2.458,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 dragon roll avocat et caviar",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0.02,
+      "end": 0.829,
+      "speed": 0.726,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 Grand présentoir à étages garni de sushis",
+      "src": "library/samourai/clips/SAM-119.mp4",
+      "start": 1.83,
+      "end": 2.898,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 soupe au curry et citron",
+      "src": "library/samourai/clips/SAM-029.mp4",
+      "start": 0.03,
+      "end": 0.88,
+      "speed": 0.762,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/HDTR6186.MP4",
+    "from": 0
+  }
+}

@@ -1,0 +1,67 @@
+{
+ "out": "edits/copies/monegasque-theme-anniv.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-FMGV8604.json",
+ "from": 18.6,
+ "to": 30.743,
+ "minShot": 0.4,
+ "curve": "joie",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « anniversaire » sur les coupes et la chanson de ext-FMGV8604.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-274",
+   "at": 0.1
+  },
+  {
+   "id": "MON-270",
+   "at": 0.16
+  },
+  {
+   "id": "MON-242",
+   "at": 1.1
+  },
+  {
+   "id": "MON-246",
+   "at": 0.55
+  },
+  {
+   "id": "MON-245",
+   "at": 0.35
+  },
+  {
+   "id": "MON-146",
+   "at": 0.29
+  },
+  {
+   "id": "MON-155",
+   "at": 0.21
+  },
+  {
+   "id": "MON-263",
+   "at": 0.5
+  },
+  {
+   "id": "MON-209",
+   "at": 0.82
+  },
+  {
+   "id": "MON-272",
+   "at": 0.05
+  },
+  {
+   "id": "MON-296",
+   "at": 1.64
+  },
+  {
+   "id": "MON-213",
+   "at": 0.6
+  },
+  {
+   "id": "MON-240",
+   "speed": 0.947,
+   "at": 0.01
+  }
+ ]
+}

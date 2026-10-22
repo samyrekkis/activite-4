@@ -1,0 +1,78 @@
+{
+ "out": "edits/copies/samourai-new-fytp.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-FYTP9144.json",
+ "from": 0,
+ "to": 9.52,
+ "minShot": 0.28,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": true,
+ "brief": "Montage sur les coupes et la chanson de ext-FYTP9144.json, plans dans l'ordre d'une visite (arrivée, salle, ambiance, table, plats, fin). Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-067",
+   "at": 0.29
+  },
+  {
+   "id": "SAM-157",
+   "at": 0.22
+  },
+  {
+   "id": "SAM-011",
+   "at": 0.47
+  },
+  {
+   "id": "SAM-007",
+   "at": 0.63
+  },
+  {
+   "id": "SAM-014",
+   "at": 1.3
+  },
+  {
+   "id": "SAM-038",
+   "at": 1.28
+  },
+  {
+   "id": "SAM-232",
+   "at": 0.2
+  },
+  {
+   "id": "SAM-233",
+   "at": 0.21
+  },
+  {
+   "id": "SAM-044",
+   "at": 0.3
+  },
+  {
+   "id": "SAM-047",
+   "at": 0.57
+  },
+  {
+   "id": "SAM-189",
+   "at": 0.65
+  },
+  {
+   "id": "SAM-208",
+   "at": 0.09
+  },
+  {
+   "id": "SAM-022",
+   "at": 0.38
+  },
+  {
+   "id": "SAM-163",
+   "at": 0.68
+  },
+  {
+   "id": "SAM-024",
+   "at": 0.14
+  },
+  {
+   "id": "SAM-057",
+   "at": 3.37
+  }
+ ]
+}

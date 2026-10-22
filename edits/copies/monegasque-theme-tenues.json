@@ -1,0 +1,207 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 301,
+  "brief": "Thème « tenues » sur les coupes et la chanson de ext-EHOE5126.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 piscine et mur d'assiettes bleu, plan large",
+      "src": "library/monegasque/clips/MON-185.mp4",
+      "start": 2.98,
+      "end": 4.141,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 femme en haïk blanc au bord de la piscine",
+      "src": "library/monegasque/clips/MON-001.mp4",
+      "start": 1.21,
+      "end": 2.208,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 femme en haïk au bord de la piscine, de face",
+      "src": "library/monegasque/clips/MON-046.mp4",
+      "start": 0.16,
+      "end": 1.159,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 femme en haïk qui tourne au bord de la piscine",
+      "src": "library/monegasque/clips/MON-045.mp4",
+      "start": 0.02,
+      "end": 1.158,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 couple en tenue traditionnelle blanche",
+      "src": "library/monegasque/clips/MON-004.mp4",
+      "start": 0.4,
+      "end": 1.375,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 femme en haïk sur la terrasse couverte",
+      "src": "library/monegasque/clips/MON-043.mp4",
+      "start": 1.17,
+      "end": 2.261,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      },
+      "speed": 0.528
+    },
+    {
+      "label": "#7 mains qui applaudissent autour du gâteau d'anniversaire",
+      "src": "library/monegasque/clips/MON-129.mp4",
+      "start": 0.09,
+      "end": 1.111,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#8 mains qui trinquent au-dessus des milkshakes et burgers",
+      "src": "library/monegasque/clips/MON-066.mp4",
+      "start": 0.62,
+      "end": 1.619,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#9 femme en haïk assise sur le trône doré",
+      "src": "library/monegasque/clips/MON-005.mp4",
+      "start": 1.12,
+      "end": 2.141,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#10 femme en haïk sur le trône doré sous les néons",
+      "src": "library/monegasque/clips/MON-042.mp4",
+      "start": 0.44,
+      "end": 1.462,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#11 gros plan du voile brodé",
+      "src": "library/monegasque/clips/MON-050.mp4",
+      "start": 0.43,
+      "end": 1.452,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#12 escalope panée nappée de sauce",
+      "src": "library/monegasque/clips/MON-161.mp4",
+      "start": 0.91,
+      "end": 1.931,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/EHOE5126.MP4",
+    "from": 0
+  }
+}

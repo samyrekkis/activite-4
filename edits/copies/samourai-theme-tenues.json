@@ -1,0 +1,209 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « tenues » sur les coupes et la chanson de ext-RWAO8432.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 femme en kimono tenant un éventail rouge",
+      "src": "library/samourai/clips/SAM-232.mp4",
+      "start": 0.23,
+      "end": 1.043,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 miroir de maquillage et kimonos suspendus",
+      "src": "library/samourai/clips/SAM-074.mp4",
+      "start": 0.36,
+      "end": 1.451,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 deux femmes en kimono marchant de dos",
+      "src": "library/samourai/clips/SAM-242.mp4",
+      "start": 0.98,
+      "end": 2.187,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 femme de dos en kimono traditionnel japonais",
+      "src": "library/samourai/clips/SAM-241.mp4",
+      "start": 0.6,
+      "end": 1.761,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 homme en kimono posant avec un katana",
+      "src": "library/samourai/clips/SAM-158.mp4",
+      "start": 0.15,
+      "end": 1.381,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 femme en kimono rouge entrant dans la salle",
+      "src": "library/samourai/clips/SAM-157.mp4",
+      "start": 0.33,
+      "end": 1.468,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 homme en kimono assis à une table",
+      "src": "library/samourai/clips/SAM-226.mp4",
+      "start": 0.16,
+      "end": 1.344,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 kimonos suspendus pour le shooting",
+      "src": "library/samourai/clips/SAM-019.mp4",
+      "start": 0.06,
+      "end": 1.268,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 Serveuse en kimono marchant dans la salle",
+      "src": "library/samourai/clips/SAM-212.mp4",
+      "start": 0.02,
+      "end": 0.87,
+      "speed": 0.691,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 cliente en kimono de soie bleue, de dos",
+      "src": "library/samourai/clips/SAM-041.mp4",
+      "start": 0.02,
+      "end": 1,
+      "speed": 0.811,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 femme en hijab discutant dans le restaurant",
+      "src": "library/samourai/clips/SAM-103.mp4",
+      "start": 0.02,
+      "end": 0.93,
+      "speed": 0.769,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 détail du motif dragon sur un kimono",
+      "src": "library/samourai/clips/SAM-235.mp4",
+      "start": 0.24,
+      "end": 1.447,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/RWAO8432.MP4",
+    "from": 0
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « anniversaire » sur les coupes et la chanson de ext-FMGV8604.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 longue table d'anniversaire, ballons et roses",
+      "src": "library/monegasque/clips/MON-274.mp4",
+      "start": 0.1,
+      "end": 1.167,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 table d'anniversaire rose et argent",
+      "src": "library/monegasque/clips/MON-270.mp4",
+      "start": 0.16,
+      "end": 1.089,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 salle décorée de ballons rouges pour un anniversaire",
+      "src": "library/monegasque/clips/MON-242.mp4",
+      "start": 1.1,
+      "end": 2.029,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 table surprise rouge, cadeaux et pétales",
+      "src": "library/monegasque/clips/MON-246.mp4",
+      "start": 0.55,
+      "end": 1.455,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 cœur de pétales de roses au sol",
+      "src": "library/monegasque/clips/MON-245.mp4",
+      "start": 0.35,
+      "end": 1.279,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 brunch complet avec crêpe et toasts, vue de dessus",
+      "src": "library/monegasque/clips/MON-146.mp4",
+      "start": 0.29,
+      "end": 1.196,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 assiette œuf et roquette devant la fresque",
+      "src": "library/monegasque/clips/MON-155.mp4",
+      "start": 0.21,
+      "end": 1.162,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 ballons roses et fresque colorée",
+      "src": "library/monegasque/clips/MON-263.mp4",
+      "start": 0.5,
+      "end": 1.405,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 table surprise, pétales, bougies et cadeaux",
+      "src": "library/monegasque/clips/MON-209.mp4",
+      "start": 0.82,
+      "end": 1.749,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 néon Love et ballons roses",
+      "src": "library/monegasque/clips/MON-272.mp4",
+      "start": 0.05,
+      "end": 0.956,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 rideau de cœurs et cœur de pétales",
+      "src": "library/monegasque/clips/MON-296.mp4",
+      "start": 1.64,
+      "end": 2.569,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 table d'anniversaire, bougies rouges et couronne",
+      "src": "library/monegasque/clips/MON-213.mp4",
+      "start": 0.6,
+      "end": 1.528,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 gâteau d'anniversaire aux bougies allumées",
+      "src": "library/monegasque/clips/MON-240.mp4",
+      "start": 0.01,
+      "end": 0.89,
+      "speed": 0.947,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/FMGV8604.MP4",
+    "from": 18.6
+  }
+}

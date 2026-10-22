@@ -1,0 +1,2358 @@
+{
+ "SAM-001": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-002": {
+  "themes": [
+   "plats",
+   "service"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-003": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-004": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-005": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-006": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-007": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-008": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-009": {
+  "themes": [
+   "cuisine",
+   "service"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-010": {
+  "themes": [
+   "exterieur",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-011": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-012": {
+  "themes": [
+   "deco",
+   "exterieur"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-013": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-014": {
+  "themes": [
+   "deco",
+   "salle",
+   "exterieur"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-015": {
+  "themes": [
+   "tenues",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-016": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-017": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-018": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-019": {
+  "themes": [
+   "tenues",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-020": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-021": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-022": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-023": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-024": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-025": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-026": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-027": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-028": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-029": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-030": {
+  "themes": [
+   "tenues",
+   "enfants"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-031": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-032": {
+  "themes": [
+   "tenues",
+   "enfants"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-033": {
+  "themes": [
+   "tenues",
+   "enfants"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-034": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-035": {
+  "themes": [
+   "amis",
+   "diner"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-036": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-037": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-038": {
+  "themes": [
+   "tenues",
+   "amis",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-039": {
+  "themes": [
+   "tenues",
+   "diner",
+   "plats"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-040": {
+  "themes": [
+   "diner",
+   "romantique",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-041": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-042": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-043": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-044": {
+  "themes": [
+   "diner",
+   "romantique",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-045": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-046": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-047": {
+  "themes": [
+   "diner",
+   "romantique",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-048": {
+  "themes": [
+   "diner",
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-049": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-050": {
+  "themes": [
+   "plats",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-051": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-052": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-053": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-054": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-055": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-056": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-057": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-058": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-059": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-060": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-061": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-062": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-063": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-064": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-065": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-066": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-067": {
+  "themes": [
+   "diner",
+   "exterieur",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-068": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-069": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-070": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-071": {
+  "themes": [
+   "diner",
+   "deco",
+   "boissons"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-072": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-073": {
+  "themes": [
+   "diner",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-074": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-075": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-076": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-077": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-078": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-079": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-080": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-081": {
+  "themes": [
+   "diner",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-082": {
+  "themes": [
+   "diner",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-083": {
+  "themes": [
+   "anniversaire",
+   "diner",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-084": {
+  "themes": [
+   "cuisine",
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-085": {
+  "themes": [
+   "diner",
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-086": {
+  "themes": [
+   "anniversaire"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-087": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-088": {
+  "themes": [
+   "diner",
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-089": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-090": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-091": {
+  "themes": [
+   "cuisine",
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-092": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-093": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-094": {
+  "themes": [
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-095": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-096": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-097": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-098": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-099": {
+  "themes": [
+   "diner",
+   "plats"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-100": {
+  "themes": [
+   "plats",
+   "diner",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-101": {
+  "themes": [
+   "enfants",
+   "diner",
+   "amis"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-102": {
+  "themes": [
+   "diner",
+   "amis"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-103": {
+  "themes": [
+   "diner",
+   "amis",
+   "tenues"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-104": {
+  "themes": [
+   "enfants",
+   "diner",
+   "amis"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-105": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-106": {
+  "themes": [
+   "plats",
+   "diner",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-107": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-108": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-109": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-110": {
+  "themes": [
+   "amis",
+   "diner",
+   "cuisine",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-111": {
+  "themes": [
+   "diner",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-112": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-113": {
+  "themes": [
+   "cuisine",
+   "plats",
+   "service"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-114": {
+  "themes": [
+   "diner",
+   "salle",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-115": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-116": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-117": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-118": {
+  "themes": [
+   "diner",
+   "cuisine",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-119": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-120": {
+  "themes": [
+   "tenues",
+   "diner",
+   "plats",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-121": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-122": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-123": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-124": {
+  "themes": [
+   "deco",
+   "salle",
+   "anniversaire"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-125": {
+  "themes": [
+   "tenues",
+   "diner",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-126": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-127": {
+  "themes": [
+   "tenues",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-128": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-129": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-130": {
+  "themes": [
+   "tenues",
+   "diner",
+   "salle",
+   "anniversaire"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-131": {
+  "themes": [
+   "plats",
+   "boissons",
+   "diner"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-132": {
+  "themes": [
+   "plats",
+   "boissons",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-133": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-134": {
+  "themes": [
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-135": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-136": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-137": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-138": {
+  "themes": [
+   "amis",
+   "diner",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-139": {
+  "themes": [
+   "plats",
+   "service"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-140": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-141": {
+  "themes": [
+   "amis",
+   "diner",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-142": {
+  "themes": [
+   "diner",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-143": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-144": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-145": {
+  "themes": [
+   "diner",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-146": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-147": {
+  "themes": [
+   "diner",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-148": {
+  "themes": [
+   "diner",
+   "exterieur"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-149": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-150": {
+  "themes": [
+   "diner",
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-151": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-152": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-153": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-154": {
+  "themes": [
+   "tenues",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-155": {
+  "themes": [
+   "diner",
+   "boissons"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-156": {
+  "themes": [
+   "tenues",
+   "cuisine",
+   "service"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-157": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-158": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-159": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-160": {
+  "themes": [
+   "plats",
+   "boissons"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-161": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-162": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-163": {
+  "themes": [
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-164": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-165": {
+  "themes": [
+   "diner",
+   "romantique"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-166": {
+  "themes": [
+   "diner",
+   "romantique"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-167": {
+  "themes": [
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-168": {
+  "themes": [
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-169": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-170": {
+  "themes": [
+   "cuisine"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-171": {
+  "themes": [
+   "cuisine",
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-172": {
+  "themes": [
+   "cuisine"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-173": {
+  "themes": [
+   "cuisine",
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-174": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-175": {
+  "themes": [
+   "cuisine",
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-176": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-177": {
+  "themes": [
+   "cuisine",
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-178": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-179": {
+  "themes": [
+   "cuisine",
+   "tenues"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-180": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-181": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-182": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-183": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-184": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-185": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-186": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-187": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-188": {
+  "themes": [
+   "tenues",
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-189": {
+  "themes": [
+   "diner",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-190": {
+  "themes": [
+   "tenues",
+   "diner",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-191": {
+  "themes": [
+   "tenues",
+   "diner",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-192": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-193": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-194": {
+  "themes": [
+   "amis",
+   "boissons",
+   "diner"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-195": {
+  "themes": [
+   "deco",
+   "salle",
+   "exterieur"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-196": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-197": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-198": {
+  "themes": [
+   "plats",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-199": {
+  "themes": [
+   "tenues",
+   "amis"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-200": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-201": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-202": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-203": {
+  "themes": [
+   "diner",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-204": {
+  "themes": [
+   "tenues",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-205": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-206": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-207": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-208": {
+  "themes": [
+   "plats",
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-209": {
+  "themes": [
+   "amis",
+   "diner",
+   "service"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-210": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-211": {
+  "themes": [
+   "tenues",
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-212": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-213": {
+  "themes": [
+   "diner",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-214": {
+  "themes": [
+   "enfants",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-215": {
+  "themes": [
+   "exterieur",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-216": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-217": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-218": {
+  "themes": [
+   "tenues",
+   "diner",
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-219": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-220": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-221": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-222": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-223": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-224": {
+  "themes": [
+   "cuisine",
+   "plats"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-225": {
+  "themes": [
+   "plats"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-226": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-227": {
+  "themes": [
+   "tenues",
+   "diner"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-228": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-229": {
+  "themes": [
+   "salle",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-230": {
+  "themes": [
+   "tenues",
+   "salle",
+   "exterieur"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-231": {
+  "themes": [
+   "tenues",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-232": {
+  "themes": [
+   "tenues",
+   "salle",
+   "exterieur"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-233": {
+  "themes": [
+   "salle",
+   "deco"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-234": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-235": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-236": {
+  "themes": [
+   "diner",
+   "plats"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-237": {
+  "themes": [
+   "diner",
+   "plats"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-238": {
+  "themes": [
+   "diner",
+   "amis",
+   "salle",
+   "exterieur"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-239": {
+  "themes": [
+   "exterieur"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-240": {
+  "themes": [
+   "tenues",
+   "cuisine",
+   "plats",
+   "service"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-241": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-242": {
+  "themes": [
+   "tenues"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-243": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": true
+ },
+ "SAM-244": {
+  "themes": [
+   "plats",
+   "diner",
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-245": {
+  "themes": [
+   "plats",
+   "deco",
+   "exterieur"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-246": {
+  "themes": [
+   "deco"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-247": {
+  "themes": [],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-248": {
+  "themes": [
+   "plats",
+   "diner",
+   "deco"
+  ],
+  "ambiance": "joyeux",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-249": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-250": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "calme",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-251": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "service"
+  ],
+  "ambiance": "calme",
+  "lumiere": "claire",
+  "logo": false
+ },
+ "SAM-252": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "romantique",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-253": {
+  "themes": [
+   "deco",
+   "salle"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "sombre",
+  "logo": false
+ },
+ "SAM-254": {
+  "themes": [
+   "tenues",
+   "amis"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-255": {
+  "themes": [
+   "plats",
+   "cuisine"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-256": {
+  "themes": [
+   "plats",
+   "cuisine",
+   "diner"
+  ],
+  "ambiance": "elegant",
+  "lumiere": "moyenne",
+  "logo": true
+ },
+ "SAM-257": {
+  "themes": [
+   "tenues",
+   "amis"
+  ],
+  "ambiance": "festif",
+  "lumiere": "moyenne",
+  "logo": false
+ },
+ "SAM-258": {
+  "themes": [
+   "exterieur"
+  ],
+  "ambiance": "festif",
+  "lumiere": "sombre",
+  "logo": true
+ },
+ "SAM-259": {
+  "themes": [
+   "diner",
+   "amis"
+  ],
+  "ambiance": "calme",
+  "lumiere": "sombre",
+  "logo": true
+ }
+}

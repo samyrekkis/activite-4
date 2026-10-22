@@ -1,0 +1,76 @@
+{
+ "out": "edits/copies/samourai-theme-amis.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-FYTP9144.json",
+ "from": 0,
+ "to": 9.52,
+ "minShot": 0.3,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": true,
+ "brief": "Thème « amis » sur les coupes et la chanson de ext-FYTP9144.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-014",
+   "at": 0.67
+  },
+  {
+   "id": "SAM-073",
+   "at": 0.84
+  },
+  {
+   "id": "SAM-141",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-254",
+   "speed": 0.775,
+   "at": 0.03
+  },
+  {
+   "id": "SAM-102",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-067",
+   "at": 0.32
+  },
+  {
+   "id": "SAM-245",
+   "at": 1.47
+  },
+  {
+   "id": "SAM-159",
+   "at": 0.11
+  },
+  {
+   "id": "SAM-223",
+   "at": 0.02
+  },
+  {
+   "id": "SAM-131",
+   "at": 0.12
+  },
+  {
+   "id": "SAM-238",
+   "at": 0.2
+  },
+  {
+   "id": "SAM-257",
+   "speed": 0.765,
+   "at": 0.02
+  },
+  {
+   "id": "SAM-199",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-138",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-077",
+   "at": 1.62
+  }
+ ]
+}

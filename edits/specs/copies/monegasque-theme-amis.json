@@ -1,0 +1,79 @@
+{
+ "out": "edits/copies/monegasque-theme-amis.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-MWAJ5790.json",
+ "from": 0,
+ "to": 13.746,
+ "minShot": 0.4,
+ "curve": "joie",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « amis » sur les coupes et la chanson de ext-MWAJ5790.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-036",
+   "at": 0.37
+  },
+  {
+   "id": "MON-128",
+   "at": 0.15
+  },
+  {
+   "id": "MON-299",
+   "at": 0.67
+  },
+  {
+   "id": "MON-313",
+   "at": 0.52
+  },
+  {
+   "id": "MON-091",
+   "at": 0.02
+  },
+  {
+   "id": "MON-288",
+   "at": 0.22
+  },
+  {
+   "id": "MON-289",
+   "at": 1.23
+  },
+  {
+   "id": "MON-078",
+   "at": 0.65
+  },
+  {
+   "id": "MON-075",
+   "at": 0.03
+  },
+  {
+   "id": "MON-149",
+   "at": 0.22
+  },
+  {
+   "id": "MON-073",
+   "at": 0.1
+  },
+  {
+   "id": "MON-145",
+   "at": 0.44
+  },
+  {
+   "id": "MON-125",
+   "speed": 0.827,
+   "at": 0.01
+  },
+  {
+   "id": "MON-030",
+   "at": 0.45
+  },
+  {
+   "id": "MON-123",
+   "at": 0.06
+  },
+  {
+   "id": "MON-275",
+   "at": 0.52
+  }
+ ]
+}

@@ -1,0 +1,271 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « amis » sur les coupes et la chanson de ext-MWAJ5790.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 table avec soupe, crêpe et omelette, vue de dessus",
+      "src": "library/monegasque/clips/MON-036.mp4",
+      "start": 0.37,
+      "end": 1.229,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 table dressée avec roses jaunes et faïence bleue",
+      "src": "library/monegasque/clips/MON-128.mp4",
+      "start": 0.15,
+      "end": 1.009,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 clientes à table, salle animée",
+      "src": "library/monegasque/clips/MON-299.mp4",
+      "start": 0.67,
+      "end": 1.529,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 serveur qui traverse la salle",
+      "src": "library/monegasque/clips/MON-313.mp4",
+      "start": 0.52,
+      "end": 1.38,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 salle près de la piscine avec clients",
+      "src": "library/monegasque/clips/MON-091.mp4",
+      "start": 0.02,
+      "end": 0.879,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 brunch partagé vu du dessus",
+      "src": "library/monegasque/clips/MON-288.mp4",
+      "start": 0.22,
+      "end": 1.079,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 grande table du brunch, crêpes et toasts",
+      "src": "library/monegasque/clips/MON-289.mp4",
+      "start": 1.23,
+      "end": 2.089,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 table avec frites, carpaccio et cocktails",
+      "src": "library/monegasque/clips/MON-078.mp4",
+      "start": 0.65,
+      "end": 1.509,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 table ronde du brunch sur la terrasse",
+      "src": "library/monegasque/clips/MON-075.mp4",
+      "start": 0.03,
+      "end": 0.889,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 salade, frites de patate douce et sauce",
+      "src": "library/monegasque/clips/MON-149.mp4",
+      "start": 0.22,
+      "end": 1.079,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 crêpe chocolat et assiettes sur la table",
+      "src": "library/monegasque/clips/MON-073.mp4",
+      "start": 0.1,
+      "end": 0.96,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 table du brunch en surplomb de la piscine",
+      "src": "library/monegasque/clips/MON-145.mp4",
+      "start": 0.44,
+      "end": 1.299,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 table du brunch au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-125.mp4",
+      "start": 0.01,
+      "end": 0.72,
+      "speed": 0.827,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#14 piscine vue d'en haut et mur d'assiettes bleu",
+      "src": "library/monegasque/clips/MON-030.mp4",
+      "start": 0.45,
+      "end": 1.309,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#15 terrasse avec lustre en osier et chaises tressées",
+      "src": "library/monegasque/clips/MON-123.mp4",
+      "start": 0.06,
+      "end": 0.919,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#16 table d'anniversaire aux bougies rouges",
+      "src": "library/monegasque/clips/MON-275.mp4",
+      "start": 0.52,
+      "end": 1.379,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/MWAJ5790.MP4",
+    "from": 0
+  }
+}

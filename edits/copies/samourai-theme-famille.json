@@ -1,0 +1,222 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « famille » sur les coupes et la chanson de ext-LHGI6063.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 salle aux lanternes et miroir doré",
+      "src": "library/samourai/clips/SAM-013.mp4",
+      "start": 0.35,
+      "end": 0.983,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 travelling sous les lanternes, tables dressées",
+      "src": "library/samourai/clips/SAM-058.mp4",
+      "start": 1.78,
+      "end": 2.38,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 panneaux lumineux et néons asiatiques colorés",
+      "src": "library/samourai/clips/SAM-164.mp4",
+      "start": 0.79,
+      "end": 1.257,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 néon Samouraï et feuillage tropical",
+      "src": "library/samourai/clips/SAM-079.mp4",
+      "start": 0.81,
+      "end": 1.61,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 Client en kimono servant des sushis",
+      "src": "library/samourai/clips/SAM-218.mp4",
+      "start": 0.05,
+      "end": 0.417,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 baguettes saisissant un sushi recouvert de sauce rouge",
+      "src": "library/samourai/clips/SAM-139.mp4",
+      "start": 0.22,
+      "end": 0.686,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 gros plan sur des assiettes de sushis",
+      "src": "library/samourai/clips/SAM-237.mp4",
+      "start": 0.03,
+      "end": 0.73,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 chef préparant de nombreux bols de nouilles",
+      "src": "library/samourai/clips/SAM-088.mp4",
+      "start": 0.1,
+      "end": 0.7,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 Gros plan sur assiette de sushis",
+      "src": "library/samourai/clips/SAM-219.mp4",
+      "start": 0.08,
+      "end": 0.48,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 gros plan sur des makis",
+      "src": "library/samourai/clips/SAM-197.mp4",
+      "start": 0.15,
+      "end": 0.95,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 plateau de makis noirs avec salade",
+      "src": "library/samourai/clips/SAM-162.mp4",
+      "start": 0.02,
+      "end": 0.92,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 plateau de sushis variés servis sur une table",
+      "src": "library/samourai/clips/SAM-189.mp4",
+      "start": 0.38,
+      "end": 2.18,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 assortiment varié de sushis",
+      "src": "library/samourai/clips/SAM-198.mp4",
+      "start": 0.29,
+      "end": 0.697,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/LHGI6063.MP4",
+    "from": 0
+  }
+}

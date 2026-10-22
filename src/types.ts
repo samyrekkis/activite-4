@@ -111,7 +111,11 @@ export type MosaicCell = {
   color?: number;
 };
 
-export type Mosaic = { cols: number; rows: number; cells: MosaicCell[]; /** Gap in px at 1080 wide. */ gap?: number };
+export type Mosaic = { cols: number; rows: number; cells: MosaicCell[]; /** Gap in px at 1080 wide. */ gap?: number;
+  /** Free collage instead of the grid: one [x, y, w, h] (fractions of the frame) per cell. */
+  rects?: [number, number, number, number][];
+  /** Corner radius of the collage cells, in px at 1080 wide. */
+  radius?: number };
 
 /** Puzzle reveal: rectangles [x, y, w, h, appearSeconds] (fractions of the frame), whole frame at `full` seconds. */
 // Quadrant transition (CapCut "white photo overlay" tutorial): the previous shot keeps

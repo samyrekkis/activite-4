@@ -1,0 +1,66 @@
+{
+ "out": "edits/copies/samourai-theme-famille.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-LHGI6063.json",
+ "from": 0,
+ "to": 8.94,
+ "minShot": 0.35,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « famille » sur les coupes et la chanson de ext-LHGI6063.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-013",
+   "at": 0.35
+  },
+  {
+   "id": "SAM-058",
+   "at": 1.78
+  },
+  {
+   "id": "SAM-164",
+   "at": 0.79
+  },
+  {
+   "id": "SAM-079",
+   "at": 0.81
+  },
+  {
+   "id": "SAM-218",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-139",
+   "at": 0.22
+  },
+  {
+   "id": "SAM-237",
+   "at": 0.03
+  },
+  {
+   "id": "SAM-088",
+   "at": 0.1
+  },
+  {
+   "id": "SAM-219",
+   "at": 0.08
+  },
+  {
+   "id": "SAM-197",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-162",
+   "at": 0.02
+  },
+  {
+   "id": "SAM-189",
+   "at": 0.38
+  },
+  {
+   "id": "SAM-198",
+   "at": 0.29
+  }
+ ]
+}

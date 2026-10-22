@@ -1,0 +1,214 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Montage sur les coupes et la chanson de ext-FYTP9144.json, plans dans l'ordre d'une visite (arrivée, salle, ambiance, table, plats, fin). Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 rooftop aux lanternes en papier et voilages",
+      "src": "library/samourai/clips/SAM-067.mp4",
+      "start": 0.29,
+      "end": 1.423,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#2 femme en kimono rouge entrant dans la salle",
+      "src": "library/samourai/clips/SAM-157.mp4",
+      "start": 0.22,
+      "end": 1.487,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#3 salle avec vase calligraphié et plantes",
+      "src": "library/samourai/clips/SAM-011.mp4",
+      "start": 0.47,
+      "end": 0.97,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#4 salle avec plantes et lanternes rouges",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0.63,
+      "end": 1.03,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#5 entrée avec sol en marbre et lanternes",
+      "src": "library/samourai/clips/SAM-014.mp4",
+      "start": 1.3,
+      "end": 1.7,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#6 cliente en kimono avec éventail (zoom arrière 5 %)",
+      "src": "library/samourai/clips/SAM-038.mp4",
+      "start": 1.28,
+      "end": 1.58,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1.051,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 femme en kimono tenant un éventail rouge",
+      "src": "library/samourai/clips/SAM-232.mp4",
+      "start": 0.2,
+      "end": 0.633,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#8 tables de restaurant avec chaises rouges",
+      "src": "library/samourai/clips/SAM-233.mp4",
+      "start": 0.21,
+      "end": 0.777,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#9 table d'anniversaire rouge avec roses",
+      "src": "library/samourai/clips/SAM-044.mp4",
+      "start": 0.3,
+      "end": 1.333,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#10 table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 0.57,
+      "end": 1.104,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#11 plateau de sushis variés servis sur une table",
+      "src": "library/samourai/clips/SAM-189.mp4",
+      "start": 0.65,
+      "end": 1.116,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#12 Bol de nouilles sautées avec baguettes (zoom avant 9 %)",
+      "src": "library/samourai/clips/SAM-208.mp4",
+      "start": 0.09,
+      "end": 0.524,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.094
+      }
+    },
+    {
+      "label": "#13 dragon roll avocat et caviar",
+      "src": "library/samourai/clips/SAM-022.mp4",
+      "start": 0.38,
+      "end": 0.746,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#14 chef présentant un plateau de makis panés",
+      "src": "library/samourai/clips/SAM-163.mp4",
+      "start": 0.68,
+      "end": 1.214,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#15 makis avocat sauce teriyaki en gros plan",
+      "src": "library/samourai/clips/SAM-024.mp4",
+      "start": 0.14,
+      "end": 0.806,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#16 salle aux lanternes rouges et chapeau chinois",
+      "src": "library/samourai/clips/SAM-057.mp4",
+      "start": 3.37,
+      "end": 3.857,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/FYTP9144.MP4",
+    "from": 0
+  }
+}

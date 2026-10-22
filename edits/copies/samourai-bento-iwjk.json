@@ -1,0 +1,125 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Collage copié de l'edit de référence IWJK2351 (bento), même chanson, plans dans l'ordre d'une visite. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 collage : salle, ambiance, plat, geste, table (cases qui apparaissent une à une)",
+      "src": "library/samourai/clips/SAM-062.mp4",
+      "start": 0,
+      "end": 2.9,
+      "speed": 0.42,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      },
+      "mosaic": {
+        "cols": 1,
+        "rows": 1,
+        "rects": [
+          [
+            0.03,
+            0.09,
+            0.94,
+            0.25
+          ],
+          [
+            0.03,
+            0.355,
+            0.46,
+            0.375
+          ],
+          [
+            0.51,
+            0.355,
+            0.46,
+            0.18
+          ],
+          [
+            0.51,
+            0.55,
+            0.46,
+            0.18
+          ],
+          [
+            0.03,
+            0.745,
+            0.94,
+            0.2
+          ]
+        ],
+        "radius": 28,
+        "cells": [
+          {
+            "src": "library/samourai/clips/SAM-062.mp4",
+            "start": 0.05,
+            "speed": 0.42,
+            "appear": 0,
+            "color": 0
+          },
+          {
+            "src": "library/samourai/clips/SAM-241.mp4",
+            "start": 0.05,
+            "speed": 0.609,
+            "appear": 0.5,
+            "color": 0.5
+          },
+          {
+            "src": "library/samourai/clips/SAM-119.mp4",
+            "start": 0.05,
+            "speed": 0.655,
+            "appear": 1.4,
+            "color": 1.4
+          },
+          {
+            "src": "library/samourai/clips/SAM-156.mp4",
+            "start": 0.05,
+            "speed": 0.694,
+            "appear": 2,
+            "color": 2
+          },
+          {
+            "src": "library/samourai/clips/SAM-058.mp4",
+            "start": 0.05,
+            "speed": 1,
+            "appear": 2.6,
+            "color": 2.6
+          }
+        ]
+      }
+    },
+    {
+      "label": "#2 plat en plein écran",
+      "src": "library/samourai/clips/SAM-106.mp4",
+      "start": 0.167,
+      "end": 2.167,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    },
+    {
+      "label": "#3 la salle pour finir",
+      "src": "library/samourai/clips/SAM-073.mp4",
+      "start": 0.162,
+      "end": 2.162,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.1,
+        "contrast": 1.05,
+        "saturate": 0.88
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "IWJK2351",
+    "from": 0
+  }
+}

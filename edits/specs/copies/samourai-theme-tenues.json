@@ -1,0 +1,65 @@
+{
+ "out": "edits/copies/samourai-theme-tenues.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-RWAO8432.json",
+ "from": 0,
+ "to": 13.862,
+ "minShot": 0.4,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « tenues » sur les coupes et la chanson de ext-RWAO8432.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-232",
+   "at": 0.23
+  },
+  {
+   "id": "SAM-074",
+   "at": 0.36
+  },
+  {
+   "id": "SAM-242",
+   "at": 0.98
+  },
+  {
+   "id": "SAM-241",
+   "at": 0.6
+  },
+  {
+   "id": "SAM-158",
+   "at": 0.15
+  },
+  {
+   "id": "SAM-157",
+   "at": 0.33
+  },
+  {
+   "id": "SAM-226",
+   "at": 0.16
+  },
+  {
+   "id": "SAM-019",
+   "at": 0.06
+  },
+  {
+   "id": "SAM-212",
+   "speed": 0.691,
+   "at": 0.02
+  },
+  {
+   "id": "SAM-041",
+   "speed": 0.811,
+   "at": 0.02
+  },
+  {
+   "id": "SAM-103",
+   "speed": 0.769,
+   "at": 0.02
+  },
+  {
+   "id": "SAM-235",
+   "at": 0.24
+  }
+ ]
+}

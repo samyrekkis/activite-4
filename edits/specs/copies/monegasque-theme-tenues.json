@@ -1,0 +1,66 @@
+{
+ "out": "edits/copies/monegasque-theme-tenues.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-EHOE5126.json",
+ "from": 0,
+ "to": 13.444,
+ "minShot": 0.4,
+ "curve": "joie",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « tenues » sur les coupes et la chanson de ext-EHOE5126.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-185",
+   "at": 2.98
+  },
+  {
+   "id": "MON-001",
+   "at": 1.21
+  },
+  {
+   "id": "MON-046",
+   "at": 0.16
+  },
+  {
+   "id": "MON-045",
+   "at": 0.02
+  },
+  {
+   "id": "MON-004",
+   "at": 0.4
+  },
+  {
+   "id": "MON-043",
+   "at": 1.17
+  },
+  {
+   "id": "MON-316",
+   "at": 0.34
+  },
+  {
+   "id": "MON-129",
+   "at": 0.09
+  },
+  {
+   "id": "MON-066",
+   "at": 0.62
+  },
+  {
+   "id": "MON-005",
+   "at": 1.12
+  },
+  {
+   "id": "MON-042",
+   "at": 0.44
+  },
+  {
+   "id": "MON-050",
+   "at": 0.43
+  },
+  {
+   "id": "MON-161",
+   "at": 0.91
+  }
+ ]
+}

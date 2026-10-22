@@ -1,0 +1,59 @@
+{
+ "out": "edits/copies/monegasque-theme-romantique.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-XOXQ1639.json",
+ "from": 0,
+ "to": 11.587,
+ "minShot": 0.4,
+ "curve": "portra",
+ "version": 1,
+ "copyZoom": true,
+ "letterbox": true,
+ "brief": "Thème « romantique » sur les coupes et la chanson de ext-XOXQ1639.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-232",
+   "at": 0.43
+  },
+  {
+   "id": "MON-319",
+   "at": 0.91
+  },
+  {
+   "id": "MON-208",
+   "at": 0.75
+  },
+  {
+   "id": "MON-247",
+   "at": 0.04
+  },
+  {
+   "id": "MON-281",
+   "at": 0.89
+  },
+  {
+   "id": "MON-317",
+   "at": 0.95
+  },
+  {
+   "id": "MON-031",
+   "at": 0.19
+  },
+  {
+   "id": "MON-074",
+   "at": 0.05
+  },
+  {
+   "id": "MON-327",
+   "at": 1.63
+  },
+  {
+   "id": "MON-321",
+   "at": 0.07
+  },
+  {
+   "id": "MON-323",
+   "at": 0.94
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "out": "edits/copies/samourai-theme-cuisine.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-HDTR6186.json",
+ "from": 0,
+ "to": 13.05,
+ "minShot": 0.4,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « cuisine » sur les coupes et la chanson de ext-HDTR6186.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-034",
+   "at": 0.09
+  },
+  {
+   "id": "SAM-031",
+   "at": 0.5
+  },
+  {
+   "id": "SAM-240",
+   "at": 0.82
+  },
+  {
+   "id": "SAM-105",
+   "at": 0.03
+  },
+  {
+   "id": "SAM-036",
+   "at": 0.98
+  },
+  {
+   "id": "SAM-026",
+   "speed": 0.715,
+   "at": 0.01
+  },
+  {
+   "id": "SAM-025",
+   "speed": 0.802,
+   "at": 0.01
+  },
+  {
+   "id": "SAM-009",
+   "at": 0.02
+  },
+  {
+   "id": "SAM-156",
+   "at": 1.39
+  },
+  {
+   "id": "SAM-022",
+   "speed": 0.726,
+   "at": 0.02
+  },
+  {
+   "id": "SAM-119",
+   "at": 1.83
+  },
+  {
+   "id": "SAM-029",
+   "speed": 0.762,
+   "at": 0.03
+  }
+ ]
+}

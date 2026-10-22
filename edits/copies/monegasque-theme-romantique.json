@@ -1,0 +1,157 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « romantique » sur les coupes et la chanson de ext-XOXQ1639.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 décor anniversaire 20 ans, bougies et mimosa",
+      "src": "library/monegasque/clips/MON-232.mp4",
+      "start": 0.43,
+      "end": 1.363,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#2 tables rouges aux bougies, Saint-Valentin",
+      "src": "library/monegasque/clips/MON-319.mp4",
+      "start": 0.91,
+      "end": 1.944,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#3 table romantique rouge et noire, pétales",
+      "src": "library/monegasque/clips/MON-208.mp4",
+      "start": 0.75,
+      "end": 1.75,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#4 bougies rouges et ballons devant la baie",
+      "src": "library/monegasque/clips/MON-247.mp4",
+      "start": 0.04,
+      "end": 1.04,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#5 table romantique noire, pétales en cœur",
+      "src": "library/monegasque/clips/MON-281.mp4",
+      "start": 0.89,
+      "end": 1.923,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#6 poulet gratiné sur salade",
+      "src": "library/monegasque/clips/MON-317.mp4",
+      "start": 0.95,
+      "end": 3.017,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#7 table du brunch au bord de la piscine, jus et crêpe",
+      "src": "library/monegasque/clips/MON-031.mp4",
+      "start": 0.19,
+      "end": 1.19,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#8 table du brunch avec milkshake, vue de dessus",
+      "src": "library/monegasque/clips/MON-074.mp4",
+      "start": 0.05,
+      "end": 1.083,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#9 main qui prend la burrata, café turc",
+      "src": "library/monegasque/clips/MON-327.mp4",
+      "start": 1.63,
+      "end": 2.663,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#10 table rouge face à la piscine, bougies",
+      "src": "library/monegasque/clips/MON-321.mp4",
+      "start": 0.07,
+      "end": 0.77,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    },
+    {
+      "label": "#11 rideau de cœurs et pétales au sol",
+      "src": "library/monegasque/clips/MON-323.mp4",
+      "start": 0.94,
+      "end": 1.694,
+      "grade": {
+        "curve": "portra",
+        "brightness": 1.06,
+        "contrast": 1.03,
+        "saturate": 1.05
+      },
+      "letterbox": true
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/XOXQ1639.MP4",
+    "from": 0
+  }
+}

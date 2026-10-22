@@ -9,6 +9,31 @@ export const MosaicView: React.FC<{ mosaic: Mosaic; gap: string }> = ({ mosaic, 
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
   const g = Math.round(((mosaic.gap ?? 0) * width) / 1080);
+  const cellVideo = (cell: Mosaic["cells"][number]) => (
+    <OffthreadVideo src={staticFile(cell.src)} trimBefore={Math.round((cell.start ?? 0) * fps)} playbackRate={cell.speed ?? 1} muted
+      style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: cell.position ?? "center" }} />
+  );
+  if (mosaic.rects) {
+    // Free collage (bento grid, stacked strips): each cell at its own place, popping in at its time,
+    // on black like the references.
+    const r = Math.round(((mosaic.radius ?? 0) * width) / 1080);
+    return (
+      <AbsoluteFill style={{ background: "#000" }}>
+        {mosaic.cells.map((cell, i) => {
+          const [x, y, w, h] = mosaic.rects![i];
+          const appear = Math.round((cell.appear ?? 0) * fps);
+          if (frame < appear) return null;
+          const colour = cell.color == null || frame >= Math.round(cell.color * fps);
+          return (
+            <div key={i} style={{ position: "absolute", left: `${x * 100}%`, top: `${y * 100}%`, width: `${w * 100}%`, height: `${h * 100}%`,
+              overflow: "hidden", borderRadius: r, filter: colour ? "none" : "grayscale(1) contrast(1.1)" }}>
+              <Sequence from={appear} layout="none">{cellVideo(cell)}</Sequence>
+            </div>
+          );
+        })}
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill
       style={{
