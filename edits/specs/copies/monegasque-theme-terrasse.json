@@ -1,0 +1,42 @@
+{
+ "out": "edits/copies/monegasque-theme-terrasse.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-DQKN2843.json",
+ "from": 7.5,
+ "to": 16.138,
+ "minShot": 0.4,
+ "curve": "joie",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « terrasse » sur les coupes et la chanson de ext-DQKN2843.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-186",
+   "at": 0.5
+  },
+  {
+   "id": "MON-180",
+   "at": 0.73
+  },
+  {
+   "id": "MON-177",
+   "at": 1.5
+  },
+  {
+   "id": "MON-176",
+   "at": 0.7
+  },
+  {
+   "id": "MON-262",
+   "at": 0.26
+  },
+  {
+   "id": "MON-195",
+   "at": 0.82
+  },
+  {
+   "id": "MON-158",
+   "at": 0.39
+  }
+ ]
+}

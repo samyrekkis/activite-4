@@ -1,0 +1,66 @@
+{
+ "out": "edits/copies/samourai-theme-sushis.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-LHGI6063.json",
+ "from": 0,
+ "to": 8.94,
+ "minShot": 0.35,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « plats » sur les coupes et la chanson de ext-LHGI6063.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-081",
+   "at": 0.34
+  },
+  {
+   "id": "SAM-075",
+   "at": 0.84
+  },
+  {
+   "id": "SAM-139",
+   "at": 0.13
+  },
+  {
+   "id": "SAM-095",
+   "at": 0.05
+  },
+  {
+   "id": "SAM-237",
+   "at": 0.2
+  },
+  {
+   "id": "SAM-196",
+   "at": 0.16
+  },
+  {
+   "id": "SAM-163",
+   "at": 0.63
+  },
+  {
+   "id": "SAM-167",
+   "at": 0.82
+  },
+  {
+   "id": "SAM-218",
+   "at": 0.06
+  },
+  {
+   "id": "SAM-106",
+   "at": 0.76
+  },
+  {
+   "id": "SAM-197",
+   "at": 0.03
+  },
+  {
+   "id": "SAM-161",
+   "at": 1.15
+  },
+  {
+   "id": "SAM-219",
+   "at": 0.1
+  }
+ ]
+}

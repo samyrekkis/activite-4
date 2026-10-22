@@ -1,0 +1,126 @@
+{
+  "restaurant": "monegasque",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « terrasse » sur les coupes et la chanson de ext-DQKN2843.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@lemonegasquedz",
+  "clips": [
+    {
+      "label": "#1 terrasse aux lustres en osier et plantes, travelling",
+      "src": "library/monegasque/clips/MON-186.mp4",
+      "start": 0.5,
+      "end": 1.661,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 travelling sur la passerelle fleurie au-dessus de la piscine",
+      "src": "library/monegasque/clips/MON-180.mp4",
+      "start": 0.73,
+      "end": 1.984,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 terrasse sous l'auvent, vue sur la piscine et les arbres",
+      "src": "library/monegasque/clips/MON-177.mp4",
+      "start": 1.5,
+      "end": 2.731,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 travelling le long de la piscine et du mur d'assiettes",
+      "src": "library/monegasque/clips/MON-176.mp4",
+      "start": 0.7,
+      "end": 1.953,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 terrasse colorée, cocktails et fauteuil rouge",
+      "src": "library/monegasque/clips/MON-262.mp4",
+      "start": 0.26,
+      "end": 1.514,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 travelling le long de la piscine depuis la table",
+      "src": "library/monegasque/clips/MON-195.mp4",
+      "start": 0.82,
+      "end": 2.051,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 cliente qui regarde le menu face à la piscine",
+      "src": "library/monegasque/clips/MON-158.mp4",
+      "start": 0.39,
+      "end": 1.644,
+      "grade": {
+        "curve": "joie",
+        "brightness": 1.04,
+        "contrast": 1.04,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/DQKN2843.MP4",
+    "from": 7.5
+  }
+}

@@ -1,0 +1,63 @@
+{
+ "out": "edits/copies/samourai-theme-ambiance.json",
+ "restaurant": "samourai",
+ "ref": "analysis/refs/ext-GEVS2607.json",
+ "from": 0,
+ "to": 12.725,
+ "minShot": 0.4,
+ "curve": "lumiere",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « ambiance » sur les coupes et la chanson de ext-GEVS2607.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "SAM-010",
+   "at": 0.41
+  },
+  {
+   "id": "SAM-148",
+   "speed": 0.813,
+   "at": 0.01
+  },
+  {
+   "id": "SAM-063",
+   "at": 1.39
+  },
+  {
+   "id": "SAM-062",
+   "at": 0.5
+  },
+  {
+   "id": "SAM-066",
+   "at": 1.47
+  },
+  {
+   "id": "SAM-079",
+   "at": 0.45
+  },
+  {
+   "id": "SAM-047",
+   "at": 0.3
+  },
+  {
+   "id": "SAM-064",
+   "at": 1.53
+  },
+  {
+   "id": "SAM-244",
+   "at": 0.22
+  },
+  {
+   "id": "SAM-057",
+   "at": 3.24
+  },
+  {
+   "id": "SAM-058",
+   "at": 2.22
+  },
+  {
+   "id": "SAM-007",
+   "at": 0.25
+  }
+ ]
+}

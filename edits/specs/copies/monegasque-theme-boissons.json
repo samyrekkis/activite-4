@@ -1,0 +1,50 @@
+{
+ "out": "edits/copies/monegasque-theme-boissons.json",
+ "restaurant": "monegasque",
+ "ref": "analysis/refs/ext-BFGH3923.json",
+ "from": 4.9,
+ "to": 13.932,
+ "minShot": 0.4,
+ "curve": "joie",
+ "version": 1,
+ "copyZoom": false,
+ "brief": "Thème « boissons » sur les coupes et la chanson de ext-BFGH3923.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+ "shots": [
+  {
+   "id": "MON-148",
+   "at": 0.42
+  },
+  {
+   "id": "MON-144",
+   "at": 0.01
+  },
+  {
+   "id": "MON-083",
+   "at": 0.49
+  },
+  {
+   "id": "MON-164",
+   "at": 0.85
+  },
+  {
+   "id": "MON-162",
+   "at": 1.34
+  },
+  {
+   "id": "MON-126",
+   "at": 0.02
+  },
+  {
+   "id": "MON-089",
+   "at": 0.39
+  },
+  {
+   "id": "MON-157",
+   "at": 0.58
+  },
+  {
+   "id": "MON-220",
+   "at": 0.47
+  }
+ ]
+}

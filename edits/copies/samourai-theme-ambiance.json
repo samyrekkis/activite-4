@@ -1,0 +1,192 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 301,
+  "brief": "Thème « ambiance » sur les coupes et la chanson de ext-GEVS2607.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 terrasse végétale et tables",
+      "src": "library/samourai/clips/SAM-010.mp4",
+      "start": 0.41,
+      "end": 1.408,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 terrasse extérieure avec plantes et mobilier noir",
+      "src": "library/samourai/clips/SAM-148.mp4",
+      "start": 0.01,
+      "end": 0.86,
+      "speed": 0.813,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 salle aux lanternes et mur de bambou",
+      "src": "library/samourai/clips/SAM-063.mp4",
+      "start": 1.39,
+      "end": 2.458,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 salle aux lanternes et tableau de geisha",
+      "src": "library/samourai/clips/SAM-062.mp4",
+      "start": 0.5,
+      "end": 1.638,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 escalier sous la lanterne et fresque rouge",
+      "src": "library/samourai/clips/SAM-066.mp4",
+      "start": 1.47,
+      "end": 2.608,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      },
+      "speed": 0.521
+    },
+    {
+      "label": "#6 table rouge, roses noires et assiettes dorées",
+      "src": "library/samourai/clips/SAM-047.mp4",
+      "start": 0.3,
+      "end": 1.345,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#7 cage aux perruches devant la salle rouge",
+      "src": "library/samourai/clips/SAM-064.mp4",
+      "start": 1.53,
+      "end": 2.598,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#8 plats de nouilles sautées sur la table",
+      "src": "library/samourai/clips/SAM-244.mp4",
+      "start": 0.22,
+      "end": 1.242,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#9 salle aux lanternes rouges et chapeau chinois",
+      "src": "library/samourai/clips/SAM-057.mp4",
+      "start": 3.24,
+      "end": 4.285,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#10 travelling sous les lanternes, tables dressées",
+      "src": "library/samourai/clips/SAM-058.mp4",
+      "start": 2.22,
+      "end": 3.264,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#11 salle avec plantes et lanternes rouges",
+      "src": "library/samourai/clips/SAM-007.mp4",
+      "start": 0.25,
+      "end": 1.319,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre/GEVS2607.MP4",
+    "from": 0
+  }
+}

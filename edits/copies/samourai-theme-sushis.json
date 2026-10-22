@@ -1,0 +1,222 @@
+{
+  "restaurant": "samourai",
+  "format": "vertical",
+  "fps": 30,
+  "version": 300,
+  "brief": "Thème « plats » sur les coupes et la chanson de ext-LHGI6063.json : une petite histoire du thème, couleurs vives. Aucun texte.",
+  "handle": "@samourai_restaurant",
+  "clips": [
+    {
+      "label": "#1 longue table dressée sur une terrasse extérieure",
+      "src": "library/samourai/clips/SAM-081.mp4",
+      "start": 0.34,
+      "end": 0.973,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#2 chambre à la calligraphie, table basse et éventail",
+      "src": "library/samourai/clips/SAM-075.mp4",
+      "start": 0.84,
+      "end": 1.44,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#3 baguettes saisissant un sushi recouvert de sauce rouge",
+      "src": "library/samourai/clips/SAM-139.mp4",
+      "start": 0.13,
+      "end": 0.597,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#4 Pyramide de sushis et makis variés sur présentoir",
+      "src": "library/samourai/clips/SAM-095.mp4",
+      "start": 0.05,
+      "end": 0.85,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#5 gros plan sur des assiettes de sushis",
+      "src": "library/samourai/clips/SAM-237.mp4",
+      "start": 0.2,
+      "end": 0.567,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#6 grand plateau de sushis avocat",
+      "src": "library/samourai/clips/SAM-196.mp4",
+      "start": 0.16,
+      "end": 0.626,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#7 chef présentant un plateau de makis panés",
+      "src": "library/samourai/clips/SAM-163.mp4",
+      "start": 0.63,
+      "end": 1.33,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#8 assortiment de sushis et makis",
+      "src": "library/samourai/clips/SAM-167.mp4",
+      "start": 0.82,
+      "end": 1.42,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#9 Client en kimono servant des sushis",
+      "src": "library/samourai/clips/SAM-218.mp4",
+      "start": 0.06,
+      "end": 0.46,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#10 deux bols de nouilles chinoises sur le bar",
+      "src": "library/samourai/clips/SAM-106.mp4",
+      "start": 0.76,
+      "end": 1.56,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#11 gros plan sur des makis",
+      "src": "library/samourai/clips/SAM-197.mp4",
+      "start": 0.03,
+      "end": 0.93,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    },
+    {
+      "label": "#12 serveur présentant des assiettes de sushis",
+      "src": "library/samourai/clips/SAM-161.mp4",
+      "start": 1.15,
+      "end": 2.95,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1.07,
+        "to": 1
+      }
+    },
+    {
+      "label": "#13 Gros plan sur assiette de sushis",
+      "src": "library/samourai/clips/SAM-219.mp4",
+      "start": 0.1,
+      "end": 0.507,
+      "grade": {
+        "curve": "lumiere",
+        "brightness": 1.12,
+        "contrast": 1.05,
+        "saturate": 1
+      },
+      "zoom": {
+        "from": 1,
+        "to": 1.07
+      }
+    }
+  ],
+  "refAudio": {
+    "src": "C:/Users/hp/OneDrive/Bureau/Studio Resto/Exemples/Edits a suivre 4/LHGI6063.MP4",
+    "from": 0
+  }
+}

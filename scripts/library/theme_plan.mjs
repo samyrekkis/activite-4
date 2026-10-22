@@ -26,6 +26,10 @@ const STORIES = {
   amis: [[0.12, ["salle", "exterieur", "amis"]], [0.4, ["amis", "diner"]], [0.65, ["plats", "boissons", "service"]], [0.9, ["amis", "boissons", "diner"]], [1, ["salle", "amis"]]],
   famille: [[0.12, ["salle", "exterieur", "enfants"]], [0.45, ["enfants", "amis"]], [0.7, ["plats", "boissons", "diner"]], [1, ["enfants", "amis", "plats"]]],
   romantique: [[0.15, ["romantique", "deco", "salle"]], [0.45, ["diner", "romantique", "boissons"]], [0.8, ["plats", "boissons", "romantique"]], [1, ["romantique", "salle", "deco"]]],
+  plats: [[0.12, ["salle", "deco", "service"]], [0.85, ["plats", "service"]], [1, ["plats", "diner"]]],
+  boissons: [[0.12, ["salle", "exterieur", "deco"]], [0.85, ["boissons", "service"]], [1, ["boissons", "amis", "diner"]]],
+  terrasse: [[0.5, ["exterieur", "deco"]], [0.8, ["exterieur", "diner", "boissons"]], [1, ["exterieur", "salle"]]],
+  ambiance: [[0.2, ["exterieur", "salle"]], [0.75, ["deco", "salle"]], [1, ["salle", "deco", "diner"]]],
   cuisine: [[0.15, ["cuisine", "service"]], [0.75, ["cuisine", "service"]], [1, ["plats", "service"]]],
 };
 const story = STORIES[theme];
