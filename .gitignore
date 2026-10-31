@@ -21,3 +21,4 @@ video-agent/.tmp/
 video-agent/.env
 video-agent/broll/sheets/
 video-agent/outliers/*.mp4
+!public/sfx/va-*.mp3

@@ -46,6 +46,7 @@ Six skills de Melvynx/video-agent-skills, adaptés à ce studio :
 - `/studio-script` : scripts et accroches (Reels avec voix off), dans la voix de `video-agent/voice.md`.
 - `/outliers`, `/insta-audit` : Reels qui explosent chez les concurrents / audit des comptes, via Treg (payant, très bon marché : toujours annoncer le coût et demander l'accord avant).
 - `/publish` : publication via Treg, **jamais sans le oui explicite de l'utilisateur**.
+Sons fournis par ces skills (MIT, versionnés) : `sfx/va-impact-boom.mp3` (LE moment fort), `sfx/va-zhhh.mp3` (coupure accroche → contenu), `sfx/va-riser.mp3` (montée qui finit pile sur une révélation), `sfx/va-glass-shatter.mp3` (logo qui se brise), `sfx/va-pop-back.mp3` (disparition en fin). Leur règle, à suivre aussi pour nos sons : des impacts seulement sur les vrais temps forts, 2 à 4 sons par vidéo en plus de la musique, pas un whoosh sur chaque transition.
 `short-editing` (format face caméra) n'est pas installé : quand un skill renvoie vers lui, utiliser le workflow Remotion ci-dessus.
 
 ## Vérifier un rendu (sans Gemini)
