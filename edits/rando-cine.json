@@ -1,0 +1,124 @@
+{
+  "restaurant": "rando",
+  "format": "horizontal",
+  "fps": 30,
+  "version": 1,
+  "brief": "Story Instagram de ~30 s d'une randonnée entre amis, style film de voyage cinématographique (comme les TikToks « rotate your phone » : public/refs/rando-ex-nepal.mp4). Montée en horizontal 16:9 ; la story publiée est la même vidéo tournée de 90°. Ordre voulu par l'auteur : 1) intro « Tourne ton téléphone / Mets tes écouteurs », 2) lui qui marche seul dans la nature, 3) lui qui marche avec son ami, puis les moments de la journée (vaches, ruines, foot). Musique cinématique 75 BPM, coupes sur le temps, fondus, bandes cinéma, grand titre serif.",
+  "intro": {
+    "title": "Tourne ton téléphone",
+    "hint": "Mets tes écouteurs",
+    "style": "rotatePhone",
+    "duration": 3.7
+  },
+  "clips": [
+    {
+      "label": "#1 marche seul dans la prairie",
+      "src": "rushes/rando/marche-seul.mp4",
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "start": 0.0,
+      "end": 3.816,
+      "speed": 0.72,
+      "text": [
+        {
+          "content": "Évasion",
+          "style": "hero",
+          "position": "center",
+          "delay": 0.8,
+          "duration": 3.4
+        }
+      ]
+    },
+    {
+      "label": "#2 avec mon ami (photo en attendant la vidéo)",
+      "src": "photos/rando/amis-mur.jpg",
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "duration": 5.3,
+      "fit": "blur"
+    },
+    {
+      "label": "#3 vache à l'abreuvoir",
+      "src": "rushes/rando/vache-abreuvoir.mp4",
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "start": 0.0,
+      "end": 4.05,
+      "speed": 0.9,
+      "fit": "blur"
+    },
+    {
+      "label": "#4 avec les vaches",
+      "src": "photos/rando/vaches.jpg",
+      "motion": "zoomIn",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "duration": 3.7,
+      "fit": "blur"
+    },
+    {
+      "label": "#5 fenêtre en ruine",
+      "src": "photos/rando/fenetre-ruine.jpg",
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "duration": 3.7,
+      "fit": "blur"
+    },
+    {
+      "label": "#6 match de foot",
+      "src": "rushes/rando/foot.mp4",
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "fade",
+        "duration": 0.5
+      },
+      "start": 2.0,
+      "end": 8.1
+    }
+  ],
+  "outro": {
+    "title": "Hors des sentiers",
+    "subtitle": "30 . 10 . 2026",
+    "duration": 3.0,
+    "background": "photos/rando/fenetre-ruine.jpg"
+  },
+  "music": {
+    "src": "music/rando-cine-75bpm.mp3",
+    "volume": 0.9,
+    "fadeOut": 1.5
+  },
+  "overlays": {
+    "grain": 0.06,
+    "vignette": 0.35,
+    "letterbox": true
+  },
+  "sfx": [
+    {
+      "src": "sfx/va-riser.mp3",
+      "at": 0.6,
+      "volume": 0.35
+    },
+    {
+      "src": "sfx/va-impact-boom.mp3",
+      "at": 3.13,
+      "volume": 0.3
+    }
+  ],
+  "output": {
+    "story": true
+  }
+}

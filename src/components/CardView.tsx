@@ -20,8 +20,9 @@ export const CardView: React.FC<{ card: Card; theme: Theme; variant: "intro" | "
   variant,
 }) => {
   const frame = useCurrentFrame();
-  const { fps, width } = useVideoConfig();
-  const unit = width / 1080;
+  const { fps, width, height } = useVideoConfig();
+  const unit = Math.min(width, height) / 1080;
+  if (card.style === "rotatePhone") return <RotatePhoneCard card={card} theme={theme} />;
   const title = spring({ frame, fps, config: { damping: 15, stiffness: 120 } });
   const sub = spring({ frame: frame - 8, fps, config: { damping: 18 } });
   const line = interpolate(frame, [4, 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
@@ -100,6 +101,57 @@ export const CardView: React.FC<{ card: Card; theme: Theme; variant: "intro" | "
           </div>
         ) : null}
       </div>
+    </AbsoluteFill>
+  );
+};
+
+// "Tourne ton téléphone" opener (travel-story style): a phone outline turns from portrait to
+// landscape, then headphones appear. Made for landscape edits; in the story version (turned 90°)
+// it reads like the classic "rotate your phone" intro.
+const RotatePhoneCard: React.FC<{ card: Card; theme: Theme }> = ({ card, theme }) => {
+  const frame = useCurrentFrame();
+  const { fps, width, height, durationInFrames } = useVideoConfig();
+  const unit = Math.min(width, height) / 1080;
+  const half = Math.round(durationInFrames * 0.55);
+  const appear = spring({ frame, fps, config: { damping: 18 } });
+  const turn = spring({ frame: frame - Math.round(fps * 0.5), fps, config: { damping: 14, stiffness: 90 } });
+  const out1 = interpolate(frame, [half - 8, half], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const in2 = spring({ frame: frame - half, fps, config: { damping: 18 } });
+  const label: React.CSSProperties = {
+    fontFamily: theme.fonts.body,
+    fontWeight: 600,
+    fontSize: 34 * unit,
+    letterSpacing: 10 * unit,
+    textTransform: "uppercase",
+    color: "#EDEDED",
+    marginTop: 60 * unit,
+  };
+  const stroke = 6 * unit;
+  return (
+    <AbsoluteFill style={{ backgroundColor: "#000", alignItems: "center", justifyContent: "center" }}>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: Math.min(appear, out1) }}>
+        <div
+          style={{
+            width: 150 * unit,
+            height: 280 * unit,
+            border: `${stroke}px solid #EDEDED`,
+            borderRadius: 30 * unit,
+            transform: `rotate(${-90 * turn}deg)`,
+            position: "relative",
+          }}
+        >
+          <div style={{ position: "absolute", top: 14 * unit, left: "35%", width: "30%", height: 8 * unit, borderRadius: 8 * unit, background: "#EDEDED" }} />
+        </div>
+        <div style={label}>{card.title || "Tourne ton téléphone"}</div>
+      </AbsoluteFill>
+      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: in2 }}>
+        <svg width={200 * unit} height={180 * unit} viewBox="0 0 200 180" fill="none" stroke="#EDEDED" strokeWidth={6}>
+          <path d="M30 110 V90 a70 70 0 0 1 140 0 V110" strokeLinecap="round" />
+          <rect x="18" y="100" width="34" height="62" rx="14" />
+          <rect x="148" y="100" width="34" height="62" rx="14" />
+        </svg>
+        <div style={label}>{card.hint ?? "Mets tes écouteurs"}</div>
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };

@@ -34,6 +34,14 @@ if (browser) cliArgs.push(`--browser-executable=${browser}`);
 // On Windows npx is npx.cmd, which only starts through a shell.
 const child = spawn("npx", cliArgs, { stdio: "inherit", shell: process.platform === "win32" });
 child.on("close", (code) => {
-  if (code === 0) console.log(`\nRendu : ${output}`);
-  process.exit(code ?? 1);
+  if (code !== 0) process.exit(code ?? 1);
+  console.log(`\nRendu : ${output}`);
+  if (!plan.output?.story) process.exit(0);
+  // Story version: the landscape edit turned 90° clockwise to fill a vertical story.
+  const story = output.replace(/\.mp4$/, "-story.mp4");
+  const ff = spawn("ffmpeg", ["-y", "-loglevel", "error", "-i", output, "-vf", "transpose=1", "-c:v", "libx264", "-crf", "18", "-preset", "medium", "-c:a", "copy", "-movflags", "+faststart", story], { stdio: "inherit" });
+  ff.on("close", (c) => {
+    if (c === 0) console.log(`Story (à regarder téléphone tourné) : ${story}`);
+    process.exit(c ?? 1);
+  });
 });

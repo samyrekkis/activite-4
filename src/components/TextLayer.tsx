@@ -20,9 +20,10 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
   durationInFrames,
 }) => {
   const frame = useCurrentFrame();
-  const { fps, width } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
   const style = overlay.style ?? "caption";
-  const unit = width / 1080;
+  // Scale on the short side so landscape edits keep the same text size as vertical ones.
+  const unit = Math.min(width, height) / 1080;
 
   const enter = spring({ frame, fps, config: { damping: 14, stiffness: 160 } });
   const exit = interpolate(frame, [durationInFrames - 6, durationInFrames], [1, 0], {
@@ -73,6 +74,28 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
             })}
           </span>
         ))}
+      </div>
+    );
+  }
+
+  if (style === "hero") {
+    // Travel-film title: giant serif capitals, wide tracking, slow fade and settle.
+    const fade = interpolate(frame, [0, 18], [0, 1], { extrapolateRight: "clamp" });
+    const track = interpolate(frame, [0, 40], [60, 34], { extrapolateRight: "clamp" });
+    return (
+      <div
+        style={{
+          ...base,
+          fontFamily: theme.fonts.title,
+          fontWeight: 400,
+          fontSize: Math.min(240, 2600 / Math.max(overlay.content.length, 1)) * unit,
+          letterSpacing: track * unit,
+          textTransform: "uppercase",
+          opacity: Math.min(fade, exit) * 0.92,
+          textShadow: `0 ${6 * unit}px ${40 * unit}px rgba(0,0,0,0.55)`,
+        }}
+      >
+        {overlay.content}
       </div>
     );
   }

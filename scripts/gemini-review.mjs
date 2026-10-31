@@ -84,10 +84,15 @@ const schema = {
   required: ["score", "verdict", "summary", "hook", "pacing", "strengths", "issues"],
 };
 
-const prompt = `Tu es directeur artistique et monteur senior spécialisé dans les vidéos de restaurants pour Instagram Reels et TikTok.
+const subject = {
+  samourai: "Restaurant : Le Samouraï, cuisine asiatique, shootings en kimono, miroir de maquillage, chambre avec table basse traditionnelle.",
+  monegasque: "Restaurant : Le Monégasque, brunchs et plats généreux, décoration soignée.",
+  rando: "Vidéo personnelle de randonnée au style cinématographique, montée en HORIZONTAL (16:9). Elle sera publiée en story Instagram tournée de 90° : le spectateur tourne son téléphone, comme les vidéos « rotate your phone » de voyage. Juge-la telle qu'elle est (horizontale) : pas de food appeal à évaluer, mais l'émotion, les paysages, l'étalonnage cinéma et le rythme sur la musique.",
+}[plan.restaurant] ?? "";
+const prompt = `Tu es directeur artistique et monteur senior spécialisé dans les vidéos courtes pour Instagram Reels, Stories et TikTok.
 Un monteur (Claude) a produit la vidéo jointe à partir du plan de montage JSON ci-dessous. Critique-la sans complaisance pour qu'il puisse la corriger.
 
-Restaurant : ${plan.restaurant === "samourai" ? "Le Samouraï, cuisine asiatique, shootings en kimono, miroir de maquillage, chambre avec table basse traditionnelle" : "Le Monégasque, brunchs et plats généreux, décoration soignée"}.
+${subject}
 Brief : ${plan.brief ?? "non précisé"}
 ${ref ? "La SECONDE vidéo jointe est la RÉFÉRENCE de style à imiter (rythme, transitions, textes, étalonnage, énergie). Compare précisément." : ""}
 

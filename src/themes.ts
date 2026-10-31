@@ -76,6 +76,32 @@ export const THEMES: Record<RestaurantId, Theme> = {
     defaultTransition: "whip",
     ornament: "侍",
   },
+  // Personal travel / hike film: cinematic, cool shadows, warm light, serif titles.
+  rando: {
+    name: "Rando",
+    colors: {
+      background: "#050505",
+      primary: "#F2EBDD",
+      accent: "#E8C170",
+      text: "#FFFFFF",
+      textShadow: "0 4px 28px rgba(0,0,0,0.75)",
+    },
+    fonts: {
+      title: FONTS.playfair,
+      body: FONTS.montserrat,
+      accent: FONTS.playfair,
+    },
+    grade: {
+      brightness: 0.98,
+      contrast: 1.12,
+      saturate: 1.06,
+      tint: "rgba(20,90,120,0.12)",
+      tintBlend: "soft-light",
+    },
+    grain: 0.06,
+    vignette: 0.35,
+    defaultTransition: "fade",
+  },
 };
 
 export const FORMATS = {

@@ -2,7 +2,8 @@
 // Claude writes it (edits/*.json), Remotion renders it, Gemini critiques the
 // render, and Claude revises the plan. All times are in seconds.
 
-export type RestaurantId = "monegasque" | "samourai";
+/** A restaurant, or "rando" for personal cinematic travel/hike edits. */
+export type RestaurantId = "monegasque" | "samourai" | "rando";
 
 export type Format = "vertical" | "horizontal" | "square";
 
@@ -41,7 +42,8 @@ export type Motion =
   | "punchIn"
   | "shake";
 
-export type TextStyle = "title" | "caption" | "price" | "tag" | "kanji";
+/** "hero": giant letter-spaced serif title over footage (travel-film style, e.g. "NEPAL"). */
+export type TextStyle = "title" | "caption" | "price" | "tag" | "kanji" | "hero";
 
 export type TextPosition = "top" | "center" | "bottom";
 
@@ -80,6 +82,8 @@ export type Clip = {
   motion?: Motion;
   /** 1 = subtle, 2 = strong. Default 1. */
   motionIntensity?: number;
+  /** "cover" (default) fills the frame; "blur" shows the whole picture over a blurred copy of itself (portrait media in a landscape edit). */
+  fit?: "cover" | "blur";
   /** Mute the clip's own sound. Default true (music carries the edit). */
   muted?: boolean;
   volume?: number;
@@ -132,6 +136,10 @@ export type Card = {
   background?: string;
   /** Logo image from public/ (e.g. "brand/logo.png"), shown instead of the theme ornament. */
   logo?: string;
+  /** "rotatePhone": black screen, a phone that turns to landscape, then headphones ("Tourne ton téléphone"). */
+  style?: "default" | "rotatePhone";
+  /** Second line of a rotatePhone card (default "Mets tes écouteurs"). */
+  hint?: string;
 };
 
 export type EditPlan = {
@@ -164,4 +172,6 @@ export type EditPlan = {
   };
   /** Restaurant handle / address shown in the outro if no outro subtitle. */
   handle?: string;
+  /** Extra outputs. story: also write out/<plan>-vN-story.mp4, the landscape edit turned 90° to fill a vertical story (viewers rotate their phone). */
+  output?: { story?: boolean };
 };
