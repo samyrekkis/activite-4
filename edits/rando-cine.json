@@ -2,7 +2,7 @@
   "restaurant": "rando",
   "format": "horizontal",
   "fps": 30,
-  "version": 7,
+  "version": 9,
   "brief": "Story Instagram de ~30 s d'une randonnée entre amis, style film de voyage cinématographique (comme les TikToks « rotate your phone » : public/refs/rando-ex-nepal.mp4). Montée en horizontal 16:9 ; la story publiée est la même vidéo tournée de 90°. Ordre voulu par l'auteur : 1) intro « Tourne ton téléphone / Mets tes écouteurs », 2) lui qui marche seul dans la nature, 3) lui qui marche avec son ami, puis les moments de la journée (vaches, ruines, foot). Musique cinématique 75 BPM, coupes sur le temps, fondus, bandes cinéma, grand titre serif.",
   "intro": {
     "title": "Tourne ton téléphone",
@@ -39,17 +39,20 @@
       }
     },
     {
-      "label": "#2 avec mon ami (photo en attendant la vidéo)",
-      "src": "photos/rando/amis-mur.jpg",
+      "label": "#2 marche avec mon ami",
+      "src": "rushes/rando/marche-ami.mp4",
       "motion": "zoomIn",
       "transitionIn": {
         "type": "fade",
         "duration": 0.5
       },
-      "duration": 3.7,
-      "focus": 0.62,
+      "start": 2.0,
+      "end": 5.375,
+      "speed": 0.75,
       "grade": {
-        "saturate": 1.22
+        "saturate": 1.55,
+        "brightness": 1.1,
+        "tint": "rgba(255,150,60,0.2)"
       }
     },
     {
@@ -91,7 +94,7 @@
       "transitionIn": {
         "type": "cut"
       },
-      "duration": 3.2,
+      "duration": 2.4,
       "focus": 0.6,
       "motionIntensity": 1.6,
       "grade": {
@@ -105,8 +108,8 @@
       "transitionIn": {
         "type": "cut"
       },
-      "start": 0.8,
-      "end": 5.3,
+      "start": 2.9,
+      "end": 7.4,
       "grade": {
         "saturate": 1.6,
         "brightness": 1.12,

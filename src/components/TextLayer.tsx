@@ -93,7 +93,8 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
           letterSpacing: track * unit,
           textTransform: "uppercase",
           opacity: Math.min(fade, exit),
-          textShadow: `0 ${6 * unit}px ${40 * unit}px rgba(0,0,0,0.55)`,
+          // Tight halo first: keeps thin strokes (accents) readable on bright skies.
+          textShadow: `0 0 ${6 * unit}px rgba(0,0,0,0.55), 0 0 ${16 * unit}px rgba(0,0,0,0.35), 0 ${6 * unit}px ${40 * unit}px rgba(0,0,0,0.55)`,
         }}
       >
         {overlay.content}
