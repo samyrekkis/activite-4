@@ -17,7 +17,8 @@
     "fonts": "node scripts/fetch-fonts.mjs",
     "demo:media": "node scripts/make-demo-media.mjs",
     "import:local": "node scripts/import-local.mjs",
-    "export:resolve": "node scripts/export-resolve.mjs"
+    "export:resolve": "node scripts/export-resolve.mjs",
+    "sfx:pick": "node scripts/sfx-pick.mjs"
   },
   "dependencies": {
     "@google/genai": "2.24.0",
