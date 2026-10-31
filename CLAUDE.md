@@ -38,6 +38,16 @@ Le studio tourne sur le PC de l'utilisateur (voir `SETUP-PC.md`) ; Drive n'est q
 8. **Compte rendu** à l'utilisateur, en français : notes v1 → v3, ce qui a changé à chaque cycle, chemin du fichier final et de la timeline Resolve.
 9. **Leçons** : si l'utilisateur a corrigé quelque chose, l'ajouter en une ligne dans la section « Leçons » du preset utilisé.
 
+## Skills installés (video-agent-skills, MIT, `.claude/skills/`)
+
+Six skills de Melvynx/video-agent-skills, adaptés à ce studio :
+- `/broll` : bibliothèque des rushs (`public/rushes/samourai`, `public/rushes/monegasque`) étiquetée une fois (kimono, néon, sushi…) dans `video-agent/broll/`. Pour monter, ne pas utiliser short-editing : chercher les plans dans la bibliothèque puis écrire le plan `edits/*.json` comme d'habitude.
+- `/steal` : mesurer le style d'un Reel exemple (coupes/s, beat, SFX, zooms). Ici, sa sortie devient un **preset** dans `presets/` (pas de test short-editing) ; rendu avec Remotion.
+- `/studio-script` : scripts et accroches (Reels avec voix off), dans la voix de `video-agent/voice.md`.
+- `/outliers`, `/insta-audit` : Reels qui explosent chez les concurrents / audit des comptes, via Treg (payant, très bon marché : toujours annoncer le coût et demander l'accord avant).
+- `/publish` : publication via Treg, **jamais sans le oui explicite de l'utilisateur**.
+`short-editing` (format face caméra) n'est pas installé : quand un skill renvoie vers lui, utiliser le workflow Remotion ci-dessus.
+
 ## Vérifier un rendu (sans Gemini)
 
 ```bash

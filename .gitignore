@@ -15,3 +15,9 @@ public/demo/
 public/.raw/
 public/photos/
 public/voice/
+
+# Skills video-agent (données de travail)
+video-agent/.tmp/
+video-agent/.env
+video-agent/broll/sheets/
+video-agent/outliers/*.mp4
