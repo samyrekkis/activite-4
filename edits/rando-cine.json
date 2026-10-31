@@ -2,7 +2,7 @@
   "restaurant": "rando",
   "format": "horizontal",
   "fps": 30,
-  "version": 6,
+  "version": 7,
   "brief": "Story Instagram de ~30 s d'une randonnée entre amis, style film de voyage cinématographique (comme les TikToks « rotate your phone » : public/refs/rando-ex-nepal.mp4). Montée en horizontal 16:9 ; la story publiée est la même vidéo tournée de 90°. Ordre voulu par l'auteur : 1) intro « Tourne ton téléphone / Mets tes écouteurs », 2) lui qui marche seul dans la nature, 3) lui qui marche avec son ami, puis les moments de la journée (vaches, ruines, foot). Musique cinématique 75 BPM, coupes sur le temps, fondus, bandes cinéma, grand titre serif.",
   "intro": {
     "title": "Tourne ton téléphone",
@@ -46,35 +46,19 @@
         "type": "fade",
         "duration": 0.5
       },
-      "duration": 3.5,
+      "duration": 3.7,
       "focus": 0.62,
       "grade": {
         "saturate": 1.22
       }
     },
     {
-      "label": "#3 match de foot",
-      "src": "rushes/rando/foot.mp4",
-      "motion": "zoomOut",
-      "transitionIn": {
-        "type": "fade",
-        "duration": 0.3
-      },
-      "start": 7.0,
-      "end": 8.92,
-      "speed": 0.8,
-      "grade": {
-        "saturate": 1.6,
-        "brightness": 1.12,
-        "tint": "rgba(255,150,60,0.22)"
-      }
-    },
-    {
-      "label": "#4 vache à l'abreuvoir",
+      "label": "#3 vache à l'abreuvoir",
       "src": "rushes/rando/vache-abreuvoir.mp4",
       "motion": "none",
       "transitionIn": {
-        "type": "cut"
+        "type": "fade",
+        "duration": 0.5
       },
       "start": 0.3,
       "end": 2.46,
@@ -87,13 +71,13 @@
       }
     },
     {
-      "label": "#5 avec les vaches",
+      "label": "#4 avec les vaches",
       "src": "photos/rando/vaches.jpg",
       "motion": "panUp",
       "transitionIn": {
         "type": "cut"
       },
-      "duration": 3.7,
+      "duration": 2.4,
       "focus": 0.55,
       "motionIntensity": 1.5,
       "grade": {
@@ -101,19 +85,35 @@
       }
     },
     {
-      "label": "#6 fenêtre en ruine",
+      "label": "#5 fenêtre en ruine",
       "src": "photos/rando/fenetre-ruine.jpg",
       "motion": "zoomIn",
       "transitionIn": {
-        "type": "fade",
-        "duration": 0.5
+        "type": "cut"
       },
-      "duration": 4.5,
+      "duration": 3.2,
       "focus": 0.6,
       "motionIntensity": 1.6,
       "grade": {
         "saturate": 1.22
       }
+    },
+    {
+      "label": "#6 match de foot (son d'origine)",
+      "src": "rushes/rando/foot.mp4",
+      "motion": "zoomOut",
+      "transitionIn": {
+        "type": "cut"
+      },
+      "start": 0.8,
+      "end": 5.3,
+      "grade": {
+        "saturate": 1.6,
+        "brightness": 1.12,
+        "tint": "rgba(255,150,60,0.22)"
+      },
+      "muted": false,
+      "volume": 1.0
     }
   ],
   "outro": {
@@ -125,7 +125,14 @@
   "music": {
     "src": "music/rando-cine-75bpm.mp3",
     "volume": 0.9,
-    "fadeOut": 1.5
+    "fadeOut": 1.5,
+    "duck": [
+      {
+        "from": 18.4,
+        "to": 22.4,
+        "level": 0.3
+      }
+    ]
   },
   "overlays": {
     "grain": 0.06,

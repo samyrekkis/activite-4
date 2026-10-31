@@ -162,6 +162,8 @@ export type EditPlan = {
     volume?: number;
     /** Seconds of fade at the end. Default 1. */
     fadeOut?: number;
+    /** Lower the music while a clip's own sound plays: { from, to } in final-timeline seconds, level 0-1 (default 0.25). */
+    duck?: { from: number; to: number; level?: number }[];
   };
   sfx?: Sfx[];
   /** Stickers, GIFs and video overlays above the clips. */

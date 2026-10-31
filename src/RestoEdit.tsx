@@ -65,7 +65,18 @@ export const RestoEdit: React.FC<EditPlan> = (plan) => {
             interpolate(f, [0, 8, duration - fadeOut, duration], [0, 1, 1, 0], {
               extrapolateLeft: "clamp",
               extrapolateRight: "clamp",
-            })
+            }) *
+            // Ducking: the music dips (0.3 s ramps) while a clip's own sound plays.
+            (plan.music!.duck ?? []).reduce((gain, d) => {
+              const a = Math.round(d.from * fps);
+              const b = Math.round(d.to * fps);
+              const ramp = Math.round(0.3 * fps);
+              const level = d.level ?? 0.25;
+              return gain * interpolate(f, [a - ramp, a, b, b + ramp], [1, level, level, 1], {
+                extrapolateLeft: "clamp",
+                extrapolateRight: "clamp",
+              });
+            }, 1)
           }
         />
       ) : null}
