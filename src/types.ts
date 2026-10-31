@@ -84,6 +84,8 @@ export type Clip = {
   motionIntensity?: number;
   /** "cover" (default) fills the frame; "blur" shows the whole picture over a blurred copy of itself (portrait media in a landscape edit). */
   fit?: "cover" | "blur";
+  /** Vertical framing point when "cover" crops: 0 = keep the top, 0.5 = centre (default), 1 = keep the bottom. */
+  focus?: number;
   /** Mute the clip's own sound. Default true (music carries the edit). */
   muted?: boolean;
   volume?: number;

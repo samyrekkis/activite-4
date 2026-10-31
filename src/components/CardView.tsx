@@ -144,7 +144,14 @@ const RotatePhoneCard: React.FC<{ card: Card; theme: Theme }> = ({ card, theme }
         </div>
         <div style={label}>{card.title || "Tourne ton téléphone"}</div>
       </AbsoluteFill>
-      <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: in2 }}>
+      <AbsoluteFill
+        style={{
+          alignItems: "center",
+          justifyContent: "center",
+          // Gone before the transition so nothing bleeds onto the first shot.
+          opacity: Math.min(in2, interpolate(frame, [durationInFrames - 24, durationInFrames - 14], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })),
+        }}
+      >
         <svg width={200 * unit} height={180 * unit} viewBox="0 0 200 180" fill="none" stroke="#EDEDED" strokeWidth={6}>
           <path d="M30 110 V90 a70 70 0 0 1 140 0 V110" strokeLinecap="round" />
           <rect x="18" y="100" width="34" height="62" rx="14" />

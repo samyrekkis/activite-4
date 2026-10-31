@@ -80,7 +80,8 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
 
   if (style === "hero") {
     // Travel-film title: giant serif capitals, wide tracking, slow fade and settle.
-    const fade = interpolate(frame, [0, 18], [0, 1], { extrapolateRight: "clamp" });
+    // Quick fade: a slow one hides the thin accents (É) for a while and reads as a glitch.
+    const fade = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" });
     const track = interpolate(frame, [0, 40], [60, 34], { extrapolateRight: "clamp" });
     return (
       <div
@@ -91,7 +92,7 @@ const AnimatedText: React.FC<{ overlay: TextOverlay; theme: Theme; durationInFra
           fontSize: Math.min(240, 2600 / Math.max(overlay.content.length, 1)) * unit,
           letterSpacing: track * unit,
           textTransform: "uppercase",
-          opacity: Math.min(fade, exit) * 0.92,
+          opacity: Math.min(fade, exit),
           textShadow: `0 ${6 * unit}px ${40 * unit}px rgba(0,0,0,0.55)`,
         }}
       >

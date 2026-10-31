@@ -15,7 +15,12 @@ export const ClipView: React.FC<{ clip: Clip; index: number; theme: Theme; durat
   const { fps } = useVideoConfig();
   const grade = { ...theme.grade, ...clip.grade };
   const src = staticFile(clip.src);
-  const media: React.CSSProperties = { width: "100%", height: "100%", objectFit: "cover" };
+  const media: React.CSSProperties = {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: `50% ${Math.round((clip.focus ?? 0.5) * 100)}%`,
+  };
   const renderMedia = (style: React.CSSProperties, background: boolean) =>
     isImage(clip.src) ? (
       <Img src={src} style={style} />
