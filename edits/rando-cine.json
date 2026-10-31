@@ -2,7 +2,7 @@
   "restaurant": "rando",
   "format": "horizontal",
   "fps": 30,
-  "version": 1,
+  "version": 6,
   "brief": "Story Instagram de ~30 s d'une randonnée entre amis, style film de voyage cinématographique (comme les TikToks « rotate your phone » : public/refs/rando-ex-nepal.mp4). Montée en horizontal 16:9 ; la story publiée est la même vidéo tournée de 90°. Ordre voulu par l'auteur : 1) intro « Tourne ton téléphone / Mets tes écouteurs », 2) lui qui marche seul dans la nature, 3) lui qui marche avec son ami, puis les moments de la journée (vaches, ruines, foot). Musique cinématique 75 BPM, coupes sur le temps, fondus, bandes cinéma, grand titre serif.",
   "intro": {
     "title": "Tourne ton téléphone",
@@ -19,18 +19,24 @@
         "type": "fade",
         "duration": 0.5
       },
-      "start": 0.0,
-      "end": 3.816,
-      "speed": 0.72,
+      "start": 1.1,
+      "end": 3.89,
+      "speed": 0.62,
       "text": [
         {
-          "content": "Évasion",
+          "content": "ÉVASION",
           "style": "hero",
           "position": "center",
-          "delay": 0.8,
-          "duration": 3.4
+          "delay": 0.6,
+          "duration": 3.2
         }
-      ]
+      ],
+      "grade": {
+        "brightness": 1.18,
+        "contrast": 1.08,
+        "saturate": 1.6,
+        "tint": "rgba(255,150,60,0.22)"
+      }
     },
     {
       "label": "#2 avec mon ami (photo en attendant la vidéo)",
@@ -40,61 +46,81 @@
         "type": "fade",
         "duration": 0.5
       },
-      "duration": 5.3,
-      "fit": "blur"
+      "duration": 3.5,
+      "focus": 0.62,
+      "grade": {
+        "saturate": 1.22
+      }
     },
     {
-      "label": "#3 vache à l'abreuvoir",
-      "src": "rushes/rando/vache-abreuvoir.mp4",
+      "label": "#3 match de foot",
+      "src": "rushes/rando/foot.mp4",
       "motion": "zoomOut",
       "transitionIn": {
         "type": "fade",
-        "duration": 0.5
+        "duration": 0.3
       },
-      "start": 0.0,
-      "end": 4.05,
-      "speed": 0.9,
-      "fit": "blur"
+      "start": 7.0,
+      "end": 8.92,
+      "speed": 0.8,
+      "grade": {
+        "saturate": 1.6,
+        "brightness": 1.12,
+        "tint": "rgba(255,150,60,0.22)"
+      }
     },
     {
-      "label": "#4 avec les vaches",
+      "label": "#4 vache à l'abreuvoir",
+      "src": "rushes/rando/vache-abreuvoir.mp4",
+      "motion": "none",
+      "transitionIn": {
+        "type": "cut"
+      },
+      "start": 0.3,
+      "end": 2.46,
+      "speed": 0.9,
+      "focus": 0.68,
+      "grade": {
+        "saturate": 1.6,
+        "brightness": 1.12,
+        "tint": "rgba(255,150,60,0.22)"
+      }
+    },
+    {
+      "label": "#5 avec les vaches",
       "src": "photos/rando/vaches.jpg",
+      "motion": "panUp",
+      "transitionIn": {
+        "type": "cut"
+      },
+      "duration": 3.7,
+      "focus": 0.55,
+      "motionIntensity": 1.5,
+      "grade": {
+        "saturate": 1.22
+      }
+    },
+    {
+      "label": "#6 fenêtre en ruine",
+      "src": "photos/rando/fenetre-ruine.jpg",
       "motion": "zoomIn",
       "transitionIn": {
         "type": "fade",
         "duration": 0.5
       },
-      "duration": 3.7,
-      "fit": "blur"
-    },
-    {
-      "label": "#5 fenêtre en ruine",
-      "src": "photos/rando/fenetre-ruine.jpg",
-      "motion": "panUp",
-      "transitionIn": {
-        "type": "fade",
-        "duration": 0.5
-      },
-      "duration": 3.7,
-      "fit": "blur"
-    },
-    {
-      "label": "#6 match de foot",
-      "src": "rushes/rando/foot.mp4",
-      "motion": "zoomOut",
-      "transitionIn": {
-        "type": "fade",
-        "duration": 0.5
-      },
-      "start": 2.0,
-      "end": 8.1
+      "duration": 4.5,
+      "focus": 0.6,
+      "motionIntensity": 1.6,
+      "grade": {
+        "saturate": 1.22
+      }
     }
   ],
   "outro": {
     "title": "Hors des sentiers",
     "subtitle": "30 . 10 . 2026",
     "duration": 3.0,
-    "background": "photos/rando/fenetre-ruine.jpg"
+    "background": "photos/rando/amis-mur.jpg"
   },
   "music": {
     "src": "music/rando-cine-75bpm.mp3",
